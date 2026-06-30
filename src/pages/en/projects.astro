@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Projects" description="Projects by Yuxin Wang." lang="en" switchTo="/projects/">
+  <section class="article-head">
+    <div class="eyebrow">Projects</div>
+    <h1>Projects</h1>
+    <p class="lead">This page is for proof of work. Each project should explain the context, goal, technical route, what I built, the result, and the next step.</p>
+  </section>
+  <section class="grid">
+    <div class="card">
+      <h3>OpenClaw Agent</h3>
+      <p>A local ReAct-style agent built with LangChain, supporting remote commands, file operations, and browser automation. Focus areas: tool calling, permission boundaries, and failure retry.</p>
+    </div>
+    <div class="card">
+      <h3>Market Liquidity Monitor</h3>
+      <p>A monitoring system I built during a bond trading internship to help observe shifts in market liquidity conditions.</p>
+    </div>
+    <div class="card">
+      <h3>AI Workflow Experiments</h3>
+      <p>Personal toolchains around writing, research, accounting, image/video generation, and financial analysis.</p>
+    </div>
+  </section>
+</BaseLayout>
