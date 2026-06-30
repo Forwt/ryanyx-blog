@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writing', ({ data }) => data.lang === 'en' && data.draft !== true);
+  return posts.map((post) => ({
+    params: { slug: post.data.routeSlug },
+    props: { post }
+  }));
+}
+
+const { post } = Astro.props;
+const allPosts = await getCollection('writing');
+const counterpart = allPosts.find((item) => item.data.lang === 'zh' && item.data.translationKey === post.data.translationKey);
+const { Content } = await render(post);
+---
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  lang="en"
+  path="writing"
+  switchTo={counterpart ? `/writing/${counterpart.data.routeSlug}/` : '/writing/'}
+>
+  <article class="prose">
+    <header class="page-head">
+      <div class="eyebrow">Writing / {post.data.pubDate.toISOString().slice(0, 10)}</div>
+      <h1>{post.data.title}</h1>
+      <p class="lead">{post.data.description}</p>
+      {post.data.aiTranslated && <span class="ai-note">AI translated from the Chinese source text.</span>}
+    </header>
+    <Content />
+  </article>
+</BaseLayout>

@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('writing', ({ data }) => data.lang === 'en' && data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="Writing" description="Ryan's English writing archive." lang="en" path="writing">
+  <section class="page-head">
+    <div class="eyebrow">Writing</div>
+    <h1>Writing</h1>
+    <p class="lead">Reverse-chronological notes on AI applications, investment judgment, financial markets, and personal tools.</p>
+  </section>
+  <div class="stack">
+    {posts.map((post) => (
+      <article class="post-row">
+        <div class="meta">{post.data.pubDate.toISOString().slice(0, 10)} · AI translated</div>
+        <a href={`/en/writing/${post.data.routeSlug}/`}>{post.data.title}</a>
+        <p>{post.data.description}</p>
+        <div class="tags">{post.data.tags.map((tag) => <span class="tag">{tag}</span>)}</div>
+      </article>
+    ))}
+  </div>
+</BaseLayout>

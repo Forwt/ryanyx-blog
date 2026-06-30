@@ -1,0 +1,111 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang?: 'zh' | 'en';
+  path?: 'home' | 'writing' | 'projects' | 'about' | 'resume';
+  switchTo?: string;
+}
+
+const {
+  title,
+  description = 'Ryanzr writes about AI, investing, finance, and small tools.',
+  lang = 'zh',
+  path = 'home',
+  switchTo
+} = Astro.props;
+
+const isEn = lang === 'en';
+const nav = isEn
+  ? [
+      ['Home', '/en/'],
+      ['Writing', '/en/writing/'],
+      ['Projects', '/en/projects/'],
+      ['About', '/en/about/'],
+      ['Resume', '/en/resume/']
+    ]
+  : [
+      ['Home', '/'],
+      ['Writing', '/writing/'],
+      ['Projects', '/projects/'],
+      ['About', '/about/'],
+      ['Resume', '/resume/']
+    ];
+
+const counterpartMap = {
+  home: isEn ? '/' : '/en/',
+  writing: isEn ? '/writing/' : '/en/writing/',
+  projects: isEn ? '/projects/' : '/en/projects/',
+  about: isEn ? '/about/' : '/en/about/',
+  resume: isEn ? '/resume/' : '/en/resume/'
+};
+
+const langHref = switchTo ?? counterpartMap[path];
+const langLabel = isEn ? '中文' : 'EN';
+const fullTitle = title === 'Ryanzr' ? 'Ryanzr' : `${title} · Ryanzr`;
+---
+<!doctype html>
+<html lang={isEn ? 'en' : 'zh-CN'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{fullTitle}</title>
+    <link rel="icon" href="/favicon.svg" />
+    <script is:inline>
+      (() => {
+        const choice = localStorage.getItem('theme') || 'system';
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const resolved = choice === 'system' ? (prefersDark ? 'dark' : 'light') : choice;
+        document.documentElement.dataset.theme = resolved;
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell nav-bar">
+        <a class="brand" href={isEn ? '/en/' : '/'}>Ryanzr</a>
+        <nav class="nav-links" aria-label={isEn ? 'Main navigation' : '主导航'}>
+          {nav.map(([label, href]) => <a href={href}>{label}</a>)}
+        </nav>
+        <div class="nav-actions">
+          <a class="pill-button" href={langHref} aria-label={isEn ? '切换到中文' : 'Switch to English'}>{langLabel}</a>
+          <button class="pill-button theme-toggle" type="button" aria-label={isEn ? 'Toggle color mode' : '切换亮色或暗色模式'}>◐</button>
+        </div>
+      </div>
+    </header>
+    <main class="shell">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>© {new Date().getFullYear()} Ryanzr</span>
+        <span>{isEn ? 'Finance, AI engineering, investing, and small tools.' : '金融、AI 工程实践、投资思考和小工具。'}</span>
+      </div>
+    </footer>
+    <script is:inline>
+      (() => {
+        const button = document.querySelector('.theme-toggle');
+        const media = window.matchMedia('(prefers-color-scheme: dark)');
+        const getChoice = () => localStorage.getItem('theme') || 'system';
+        const resolve = (choice) => choice === 'system' ? (media.matches ? 'dark' : 'light') : choice;
+        const apply = (choice) => {
+          document.documentElement.dataset.theme = resolve(choice);
+          if (button) button.textContent = resolve(choice) === 'dark' ? '☾' : '☼';
+        };
+
+        button?.addEventListener('click', () => {
+          const next = resolve(getChoice()) === 'dark' ? 'light' : 'dark';
+          localStorage.setItem('theme', next);
+          apply(next);
+        });
+        media.addEventListener('change', () => {
+          if (getChoice() === 'system') apply('system');
+        });
+        apply(getChoice());
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const projects = [
+  {
+    name: 'One-sentence Ledger',
+    summary: 'A natural-language expense and split-bill tool for recording spending, identifying participants, calculating shares, and reviewing habits.',
+    stack: ['AI', 'Natural language', 'Personal finance'],
+    status: 'Prototype'
+  },
+  {
+    name: 'OpenClaw Agent',
+    summary: 'A local AI agent practice based on LangChain / ReAct, focused on tool use, permission control, browser automation, and retry behavior.',
+    stack: ['LangChain', 'ReAct', 'Agent'],
+    status: 'Building'
+  },
+  {
+    name: 'Personal Blog',
+    summary: 'A personal knowledge site built with Astro, Markdown, GitHub, and Cloudflare Pages for essays, projects, and long-term thinking.',
+    stack: ['Astro', 'Markdown', 'Cloudflare Pages'],
+    status: 'Live'
+  }
+];
+---
+<BaseLayout title="Projects" description="Ryan's project notes." lang="en" path="projects">
+  <section class="page-head">
+    <div class="eyebrow">Projects</div>
+    <h1>Projects</h1>
+    <p class="lead">These projects are not about collecting buzzwords. They are attempts to turn real problems into tools that can run, be reviewed, and keep improving.</p>
+  </section>
+  <div class="project-grid">
+    {projects.map((project) => (
+      <article class="project-card">
+        <div class="project-top">
+          <h3>{project.name}</h3>
+          <span class="project-status">{project.status}</span>
+        </div>
+        <p>{project.summary}</p>
+        <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
+      </article>
+    ))}
+  </div>
+</BaseLayout>

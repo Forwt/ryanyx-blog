@@ -1,40 +1,46 @@
-# Ryanzr Blog Starter
+# Ryanzr Blog
 
-这是一个给 `ryanzr.com` 准备的双语个人博客最小骨架。
+这是 Ryan 的个人双语博客，部署在 Cloudflare Pages。
 
-- 技术：Astro
-- 内容：Markdown
-- 代码：GitHub
-- 部署：Cloudflare Pages
-- 中文：默认路径，例如 `/writing/start-public-notes/`
-- 英文：`/en/` 路径，例如 `/en/writing/start-public-notes/`
-- 中文文章：原生手写
-- 英文文章：AI 翻译，并在文章页标注
-
-## 1. 本地运行
-
-先安装 Node.js，然后在项目目录运行：
-
-```bash
-npm install
-npm run dev
-```
-
-浏览器打开终端里显示的本地地址，一般是：
+线上地址：
 
 ```text
-http://localhost:4321
+https://ryanyx-blog.pages.dev/
 ```
 
-## 2. 新增一篇中文文章
+## 页面结构
 
-在这里新建 Markdown 文件：
+中文默认：
+
+- `/`
+- `/writing/`
+- `/projects/`
+- `/about/`
+- `/resume/`
+
+英文：
+
+- `/en/`
+- `/en/writing/`
+- `/en/projects/`
+- `/en/about/`
+- `/en/resume/`
+
+## 写一篇新中文文章
+
+在这个文件夹里新建一个 Markdown 文件：
 
 ```text
-src/content/writing/zh/your-post.md
+src/content/writing/
 ```
 
-示例 frontmatter：
+例如：
+
+```text
+src/content/writing/zh-my-first-post.md
+```
+
+文件开头这样写：
 
 ```md
 ---
@@ -42,24 +48,31 @@ title: "文章标题"
 description: "一句话摘要。"
 pubDate: 2026-06-30
 lang: "zh"
-slug: "your-post"
-translationKey: "your-post"
+slug: "zh-my-first-post"
+routeSlug: "my-first-post"
+translationKey: "my-first-post"
 tags: ["AI", "投资"]
 aiTranslated: false
 ---
 
-这里写中文正文。
+这里写正文。
 ```
 
-## 3. 新增对应英文 AI 翻译
-
-在这里新建英文 Markdown 文件：
+保存后，这篇文章会出现在：
 
 ```text
-src/content/writing/en/your-post.md
+/writing/my-first-post/
 ```
 
-注意 `translationKey` 要和中文文章一致，这样中英文按钮才能互相跳转。
+## 写对应英文文章
+
+在同一个文件夹里新建英文文件：
+
+```text
+src/content/writing/en-my-first-post.md
+```
+
+英文文章开头这样写：
 
 ```md
 ---
@@ -67,42 +80,72 @@ title: "Post Title"
 description: "One-sentence summary."
 pubDate: 2026-06-30
 lang: "en"
-slug: "your-post"
-translationKey: "your-post"
+slug: "en-my-first-post"
+routeSlug: "my-first-post"
+translationKey: "my-first-post"
 tags: ["AI", "Investing"]
 aiTranslated: true
 ---
 
-English AI-translated body goes here.
+English body goes here.
 ```
 
-## 4. 推送到 GitHub
+注意这三项中英文要一致：
 
-```bash
-git init
-git add .
-git commit -m "Initial blog"
-git branch -M main
-git remote add origin https://github.com/你的用户名/ryanzr-blog.git
-git push -u origin main
-```
+- `routeSlug`
+- `translationKey`
+- `pubDate`
 
-## 5. 部署到 Cloudflare Pages
+`slug` 是内部名字，建议加 `zh-` 和 `en-` 前缀；`routeSlug` 是公开网址里的名字。
 
-Cloudflare Pages 设置：
+## 修改页面文字
 
-- Framework preset: Astro
-- Production branch: main
-- Build command: `npm run build`
-- Build output directory: `dist`
+常用页面位置：
 
-## 6. 绑定域名
+- 首页：`src/pages/index.astro`
+- 英文首页：`src/pages/en/index.astro`
+- 项目页：`src/pages/projects.astro`
+- 关于页：`src/pages/about.astro`
+- 简历页：`src/pages/resume.astro`
 
-上线后，在 Cloudflare Pages 项目里绑定：
+英文页面都在 `src/pages/en/` 里面。
+
+## 修改颜色和排版
+
+主要改这个文件：
 
 ```text
-ryanzr.com
-www.ryanzr.com
+src/styles/global.css
 ```
 
-第一版可以先不备案。后续如果要优化大陆访问，再考虑中国大陆服务器/CDN和 ICP 备案。
+不需要改数据库，也没有后台系统。
+
+## 本地预览
+
+安装依赖：
+
+```bash
+npm install
+```
+
+启动预览：
+
+```bash
+npm run dev
+```
+
+生成上线文件：
+
+```bash
+npm run build
+```
+
+## Cloudflare Pages 设置
+
+请保持：
+
+- Build command：`npm run build`
+- Build output directory：`dist`
+- Root directory：`/`
+
+不要添加 `wrangler deploy`，也不要把项目改成 Worker。

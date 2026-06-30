@@ -1,3 +1,82 @@
-<h1>Ryanzr Blog</h1>
-<p>English page.</p>
-<p><a href="/">Home</a></p>
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('writing', ({ data }) => data.lang === 'en' && data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const projects = [
+  {
+    name: 'One-sentence Ledger',
+    summary: 'A natural-language expense and split-bill tool for turning daily spending into reviewable records.',
+    stack: ['AI', 'Personal finance', 'Tooling'],
+    status: 'Prototype'
+  },
+  {
+    name: 'OpenClaw Agent',
+    summary: 'A local AI agent practice based on LangChain / ReAct, focused on tool use, permission boundaries, and execution.',
+    stack: ['LangChain', 'ReAct', 'Agent'],
+    status: 'Building'
+  },
+  {
+    name: 'Personal Blog',
+    summary: 'A personal knowledge site built with Astro, Markdown, GitHub, and Cloudflare Pages.',
+    stack: ['Astro', 'Markdown', 'Cloudflare'],
+    status: 'Live'
+  }
+];
+---
+<BaseLayout title="Ryanzr" description="Ryan's personal knowledge site on AI, investing, finance, and small tools." lang="en" path="home">
+  <section class="hero">
+    <div class="eyebrow">AI · Investing · Finance · Small Tools</div>
+    <h1>I’m Ryan, writing about AI engineering, investing, and financial markets.</h1>
+    <p class="lead">This is my personal knowledge site for durable notes, projects, and long-term thinking. It is not a portfolio wrapper. The Chinese version is the source text, and the English version is written to make the same ideas easier to read internationally.</p>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Featured Writing</h2>
+      <a class="section-link" href="/en/writing/">All writing</a>
+    </div>
+    <div class="stack">
+      {posts.map((post) => (
+        <article class="post-row">
+          <div class="meta">{post.data.pubDate.toISOString().slice(0, 10)} · AI translated</div>
+          <a href={`/en/writing/${post.data.routeSlug}/`}>{post.data.title}</a>
+          <p>{post.data.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <a class="section-link" href="/en/projects/">All projects</a>
+    </div>
+    <div class="project-grid">
+      {projects.map((project) => (
+        <article class="project-card">
+          <div class="project-top">
+            <h3>{project.name}</h3>
+            <span class="project-status">{project.status}</span>
+          </div>
+          <p>{project.summary}</p>
+          <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Contact / Links</h2>
+    </div>
+    <div class="link-list">
+      <a href="https://github.com/Forwt">GitHub</a>
+      <a href="/en/resume/">Resume</a>
+      <a href="/en/about/">About</a>
+    </div>
+  </section>
+</BaseLayout>

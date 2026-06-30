@@ -1,16 +1,82 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('writing', ({ data }) => data.lang === 'zh' && data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const projects = [
+  {
+    name: '一句话记账',
+    summary: '自然语言记账与分账工具，把日常消费记录变成轻量、可复盘的数据。',
+    stack: ['AI', 'Personal finance', 'Tooling'],
+    status: 'Prototype'
+  },
+  {
+    name: 'OpenClaw Agent',
+    summary: '基于 LangChain / ReAct 的本地 AI Agent 实践，关注工具调用、权限边界和任务执行。',
+    stack: ['LangChain', 'ReAct', 'Agent'],
+    status: 'Building'
+  },
+  {
+    name: 'Personal Blog',
+    summary: '用 Astro、Markdown、GitHub 和 Cloudflare Pages 搭建的个人知识站。',
+    stack: ['Astro', 'Markdown', 'Cloudflare'],
+    status: 'Live'
+  }
+];
 ---
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ryanzr Blog</title>
-  </head>
-  <body>
-    <main>
-      <h1>Ryanzr Blog</h1>
-      <p>Hi，我是 Ryan。这里记录我对 AI、投资、金融和小工具的长期思考。</p>
-      <p><a href="/en/">English</a></p>
-    </main>
-  </body>
-</html>
+<BaseLayout title="Ryanzr" description="Ryan 的个人知识站：AI、投资、金融和小工具。" lang="zh" path="home">
+  <section class="hero">
+    <div class="eyebrow">AI · Investing · Finance · Small Tools</div>
+    <h1>我是 Ryan，记录 AI 工程实践、投资思考和金融市场观察。</h1>
+    <p class="lead">这个网站是我的个人知识站。它用来沉淀文章、项目和长期思考，而不是追逐短期流量。中文是原文，英文版本用于方便更多读者快速了解同一批想法。</p>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Featured Writing</h2>
+      <a class="section-link" href="/writing/">全部文章</a>
+    </div>
+    <div class="stack">
+      {posts.map((post) => (
+        <article class="post-row">
+          <div class="meta">{post.data.pubDate.toISOString().slice(0, 10)}</div>
+          <a href={`/writing/${post.data.routeSlug}/`}>{post.data.title}</a>
+          <p>{post.data.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <a class="section-link" href="/projects/">全部项目</a>
+    </div>
+    <div class="project-grid">
+      {projects.map((project) => (
+        <article class="project-card">
+          <div class="project-top">
+            <h3>{project.name}</h3>
+            <span class="project-status">{project.status}</span>
+          </div>
+          <p>{project.summary}</p>
+          <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Contact / Links</h2>
+    </div>
+    <div class="link-list">
+      <a href="https://github.com/Forwt">GitHub</a>
+      <a href="/resume/">Resume</a>
+      <a href="/about/">About</a>
+    </div>
+  </section>
+</BaseLayout>
