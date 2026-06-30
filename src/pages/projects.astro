@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="项目" description="王宇新的项目记录。" lang="zh" switchTo="/en/projects/">
+  <section class="article-head">
+    <div class="eyebrow">Projects</div>
+    <h1>项目</h1>
+    <p class="lead">这里放能证明我动手能力的东西。每个项目都尽量写清楚：背景、目标、技术路线、我做了什么、结果、下一步。</p>
+  </section>
+  <section class="grid">
+    <div class="card">
+      <h3>OpenClaw Agent</h3>
+      <p>基于 LangChain / ReAct 的本地简易 Agent，支持远程指令、文件操作和浏览器自动化。重点记录 Tool Calling、权限边界和失败重试。</p>
+    </div>
+    <div class="card">
+      <h3>市场资金紧张度监测</h3>
+      <p>债券交易实习期间自建的资金监测系统，用于辅助观察市场流动性变化。</p>
+    </div>
+    <div class="card">
+      <h3>AI 工作流实验</h3>
+      <p>围绕写作、研究、记账、图像视频生成和金融分析搭建的个人工具链。</p>
+    </div>
+  </section>
+</BaseLayout>
