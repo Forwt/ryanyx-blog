@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('writing', ({ data }) => data.lang === 'en' && data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="Writing" description="Public notes and essays by Yuxin Wang." lang="en" switchTo="/writing/">
+  <section class="article-head">
+    <div class="eyebrow">Writing</div>
+    <h1>Writing</h1>
+    <p class="lead">This is the canonical archive. Platform posts are adapted versions for distribution.</p>
+  </section>
+  <div class="post-list">
+    {posts.map((post) => (
+      <article class="post-item">
+        <div class="meta">{post.data.pubDate.toISOString().slice(0, 10)} · AI translated</div>
+        <a href={`/en/writing/${post.data.slug}/`}>{post.data.title}</a>
+        <p>{post.data.description}</p>
+        <div class="tags">{post.data.tags.map((tag) => <span class="tag">{tag}</span>)}</div>
+      </article>
+    ))}
+  </div>
+</BaseLayout>
