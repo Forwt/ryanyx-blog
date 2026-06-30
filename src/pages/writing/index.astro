@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('writing', ({ data }) => data.lang === 'zh' && data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="文章" description="王宇新的公开笔记与长文。" lang="zh" switchTo="/en/writing/">
+  <section class="article-head">
+    <div class="eyebrow">Writing</div>
+    <h1>文章</h1>
+    <p class="lead">这里放完整版本。公众号、知乎、掘金等平台只负责分发和改写。</p>
+  </section>
+  <div class="post-list">
+    {posts.map((post) => (
+      <article class="post-item">
+        <div class="meta">{post.data.pubDate.toISOString().slice(0, 10)}</div>
+        <a href={`/writing/${post.data.slug}/`}>{post.data.title}</a>
+        <p>{post.data.description}</p>
+        <div class="tags">{post.data.tags.map((tag) => <span class="tag">{tag}</span>)}</div>
+      </article>
+    ))}
+  </div>
+</BaseLayout>
