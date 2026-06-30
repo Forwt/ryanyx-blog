@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('writing', ({ data }) => data.lang === 'en' && data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+<BaseLayout
+  title="Ryanzr"
+  description="Yuxin Wang's personal blog on AI agents, investing, and tools."
+  lang="en"
+  switchTo="/"
+>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Personal notes from Beijing / Hong Kong</div>
+      <h1>AI agents, markets, and personal tools.</h1>
+      <p class="lead">I’m Yuxin Wang. This site is where I archive long-form notes on AI agents, markets, financial career paths, and personal tool systems. The Chinese version is originally written by me; the English version is translated with AI.</p>
+    </div>
+    <aside class="aside-card">
+      /now<br />
+      Current focus: agent engineering, buy-side interviews, HK/US equity valuation, and personal knowledge systems.<br /><br />
+      This site is the archive. Distribution happens on WeChat, Zhihu, Juejin, LinkedIn and GitHub.
+    </aside>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Writing</h3>
+      <p>Essays, reviews, and public notes. This is for durable thinking, not platform noise.</p>
+    </div>
+    <div class="card">
+      <h3>Projects</h3>
+      <p>OpenClaw, market liquidity monitor, and AI tool experiments. Proof that I actually build things.</p>
+    </div>
+    <div class="card">
+      <h3>Resume</h3>
+      <p>A compact entry point for buy-side, AI investing, and financial technology opportunities.</p>
+    </div>
+  </section>
+
+  <section class="section-title">
+    <h2>Latest writing</h2>
+    <a href="/en/writing/">All posts →</a>
+  </section>
+
+  <div class="post-list">
+    {posts.map((post) => (
+      <article class="post-item">
+        <div class="meta">{post.data.pubDate.toISOString().slice(0, 10)}</div>
+        <a href={`/en/writing/${post.data.slug}/`}>{post.data.title}</a>
+        <p>{post.data.description}</p>
+        <div class="tags">{post.data.tags.map((tag) => <span class="tag">{tag}</span>)}</div>
+      </article>
+    ))}
+  </div>
+</BaseLayout>
