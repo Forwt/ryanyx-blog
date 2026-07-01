@@ -11,27 +11,30 @@ const projects = [
     name: 'One-sentence Ledger',
     summary: 'A natural-language expense and split-bill tool for turning daily spending into reviewable records.',
     stack: ['AI', 'Personal finance', 'Tooling'],
-    status: 'Prototype'
+    status: 'Prototype',
+    href: '/en/projects/one-sentence-ledger/'
   },
   {
     name: 'OpenClaw Agent',
     summary: 'A local AI agent practice based on LangChain / ReAct, focused on tool use, permission boundaries, and execution.',
     stack: ['LangChain', 'ReAct', 'Agent'],
-    status: 'Building'
+    status: 'Building',
+    href: '/en/projects/openclaw-agent/'
   },
   {
     name: 'Personal Blog',
     summary: 'A personal knowledge site built with Astro, Markdown, GitHub, and Cloudflare Pages.',
     stack: ['Astro', 'Markdown', 'Cloudflare'],
-    status: 'Live'
+    status: 'Live',
+    href: '/en/projects/personal-blog/'
   }
 ];
 ---
 <BaseLayout title="Ryanzr" description="Ryan's personal knowledge site on AI, investing, finance, and small tools." lang="en" path="home">
   <section class="hero">
     <div class="eyebrow">AI · Investing · Finance · Small Tools</div>
-    <h1>I’m Ryan, writing about AI engineering, investing, and financial markets.</h1>
-    <p class="lead">This is my personal knowledge site for durable notes, projects, and long-term thinking. It is not a portfolio wrapper. The Chinese version is the source text, and the English version is written to make the same ideas easier to read internationally.</p>
+    <h1>This is Wang Yuxin’s blog, a place for every thought worth keeping.</h1>
+    <p class="lead">A personal knowledge site for essays, projects, and long-term thinking. Chinese is the source text; English pages are translations.</p>
   </section>
 
   <section class="section">
@@ -57,14 +60,14 @@ const projects = [
     </div>
     <div class="project-grid">
       {projects.map((project) => (
-        <article class="project-card">
+        <a class="project-card project-card-link" href={project.href}>
           <div class="project-top">
             <h3>{project.name}</h3>
             <span class="project-status">{project.status}</span>
           </div>
           <p>{project.summary}</p>
           <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
-        </article>
+        </a>
       ))}
     </div>
   </section>

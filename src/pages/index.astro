@@ -11,19 +11,22 @@ const projects = [
     name: '一句话记账',
     summary: '自然语言记账与分账工具，把日常消费记录变成轻量、可复盘的数据。',
     stack: ['AI', 'Personal finance', 'Tooling'],
-    status: 'Prototype'
+    status: 'Prototype',
+    href: '/projects/one-sentence-ledger/'
   },
   {
     name: 'OpenClaw Agent',
     summary: '基于 LangChain / ReAct 的本地 AI Agent 实践，关注工具调用、权限边界和任务执行。',
     stack: ['LangChain', 'ReAct', 'Agent'],
-    status: 'Building'
+    status: 'Building',
+    href: '/projects/openclaw-agent/'
   },
   {
     name: 'Personal Blog',
     summary: '用 Astro、Markdown、GitHub 和 Cloudflare Pages 搭建的个人知识站。',
     stack: ['Astro', 'Markdown', 'Cloudflare'],
-    status: 'Live'
+    status: 'Live',
+    href: '/projects/personal-blog/'
   }
 ];
 ---
@@ -57,14 +60,14 @@ const projects = [
     </div>
     <div class="project-grid">
       {projects.map((project) => (
-        <article class="project-card">
+        <a class="project-card project-card-link" href={project.href}>
           <div class="project-top">
             <h3>{project.name}</h3>
             <span class="project-status">{project.status}</span>
           </div>
           <p>{project.summary}</p>
           <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
-        </article>
+        </a>
       ))}
     </div>
   </section>

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Personal Blog" description="Astro + Markdown + GitHub + Cloudflare Pages 的个人站。" lang="zh" path="projects" switchTo="/en/projects/personal-blog/">
+  <article class="prose">
+    <div class="eyebrow">Project / Live</div>
+    <h1>Personal Blog</h1>
+    <p class="lead">这个网站本身也是一个项目：用尽量轻的技术栈搭建一个长期可维护的个人知识站。</p>
+
+    <h2>想解决的问题</h2>
+    <p>平台内容容易被时间线冲走，简历和项目经历也很难完整呈现。个人博客可以作为长期公开档案，集中放文章、项目、简历入口和联系方式。</p>
+
+    <h2>核心想法</h2>
+    <p>中文是原文，英文是同步版本。文章用 Markdown 保存，代码放在 GitHub，网站通过 Cloudflare Pages 自动部署。</p>
+
+    <h2>技术栈</h2>
+    <div class="tags">
+      <span class="tag">Astro</span>
+      <span class="tag">Markdown</span>
+      <span class="tag">GitHub</span>
+      <span class="tag">Cloudflare Pages</span>
+    </div>
+
+    <h2>当前状态</h2>
+    <p>Live。后续会持续补充文章、项目详情、正式简历和域名绑定。</p>
+
+    <p><a href="/projects/">← 返回项目列表</a></p>
+  </article>
+</BaseLayout>

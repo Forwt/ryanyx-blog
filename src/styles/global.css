@@ -239,6 +239,18 @@ p {
   align-content: start;
 }
 
+.project-card-link {
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.project-card-link:hover {
+  border-color: var(--accent);
+  color: inherit;
+  transform: translateY(-2px);
+}
+
 .project-top {
   display: flex;
   align-items: start;

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="OpenClaw Agent" description="A local AI Agent practice based on LangChain / ReAct." lang="en" path="projects" switchTo="/projects/openclaw-agent/">
+  <article class="prose">
+    <div class="eyebrow">Project / Building</div>
+    <h1>OpenClaw Agent</h1>
+    <p class="lead">A local AI Agent practice project for understanding tool use, planning, permission boundaries, and retry behavior.</p>
+
+    <h2>Problem</h2>
+    <p>Many AI Agent demos look impressive, but real usage quickly runs into permission control, context management, tool choice, and failure recovery.</p>
+
+    <h2>Core Idea</h2>
+    <p>Using LangChain / ReAct patterns, the agent should understand a task, choose tools, execute actions, and leave a traceable path when something fails.</p>
+
+    <h2>Stack</h2>
+    <div class="tags">
+      <span class="tag">LangChain</span>
+      <span class="tag">ReAct</span>
+      <span class="tag">Agent</span>
+      <span class="tag">Tool Calling</span>
+    </div>
+
+    <h2>Status</h2>
+    <p>Building. The goal is not a flashy demo, but a clearer understanding of which parts of agent engineering are controllable and where human boundaries are needed.</p>
+
+    <p><a href="/en/projects/">← Back to projects</a></p>
+  </article>
+</BaseLayout>

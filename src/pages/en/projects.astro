@@ -6,19 +6,22 @@ const projects = [
     name: 'One-sentence Ledger',
     summary: 'A natural-language expense and split-bill tool for recording spending, identifying participants, calculating shares, and reviewing habits.',
     stack: ['AI', 'Natural language', 'Personal finance'],
-    status: 'Prototype'
+    status: 'Prototype',
+    href: '/en/projects/one-sentence-ledger/'
   },
   {
     name: 'OpenClaw Agent',
     summary: 'A local AI agent practice based on LangChain / ReAct, focused on tool use, permission control, browser automation, and retry behavior.',
     stack: ['LangChain', 'ReAct', 'Agent'],
-    status: 'Building'
+    status: 'Building',
+    href: '/en/projects/openclaw-agent/'
   },
   {
     name: 'Personal Blog',
     summary: 'A personal knowledge site built with Astro, Markdown, GitHub, and Cloudflare Pages for essays, projects, and long-term thinking.',
     stack: ['Astro', 'Markdown', 'Cloudflare Pages'],
-    status: 'Live'
+    status: 'Live',
+    href: '/en/projects/personal-blog/'
   }
 ];
 ---
@@ -30,14 +33,14 @@ const projects = [
   </section>
   <div class="project-grid">
     {projects.map((project) => (
-      <article class="project-card">
+      <a class="project-card project-card-link" href={project.href}>
         <div class="project-top">
           <h3>{project.name}</h3>
           <span class="project-status">{project.status}</span>
         </div>
         <p>{project.summary}</p>
         <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
-      </article>
+      </a>
     ))}
   </div>
 </BaseLayout>

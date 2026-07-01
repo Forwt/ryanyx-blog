@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Personal Blog" description="A personal site built with Astro, Markdown, GitHub, and Cloudflare Pages." lang="en" path="projects" switchTo="/projects/personal-blog/">
+  <article class="prose">
+    <div class="eyebrow">Project / Live</div>
+    <h1>Personal Blog</h1>
+    <p class="lead">This site is also a project: a lightweight, maintainable personal knowledge site built for long-term writing and project records.</p>
+
+    <h2>Problem</h2>
+    <p>Platform posts disappear into timelines, and resumes rarely show the full context behind projects and thinking. A personal site can become a long-term public archive.</p>
+
+    <h2>Core Idea</h2>
+    <p>Chinese is the source text, with English pages maintained in parallel. Posts are written in Markdown, code lives on GitHub, and Cloudflare Pages handles deployment.</p>
+
+    <h2>Stack</h2>
+    <div class="tags">
+      <span class="tag">Astro</span>
+      <span class="tag">Markdown</span>
+      <span class="tag">GitHub</span>
+      <span class="tag">Cloudflare Pages</span>
+    </div>
+
+    <h2>Status</h2>
+    <p>Live. Next steps include more writing, fuller project notes, a formal resume, and domain binding.</p>
+
+    <p><a href="/en/projects/">← Back to projects</a></p>
+  </article>
+</BaseLayout>
