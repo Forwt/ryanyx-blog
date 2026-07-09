@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import news from '../data/ai-news.json';
+
+const formatter = new Intl.DateTimeFormat('zh-CN', {
+  timeZone: news.timezone || 'Asia/Shanghai',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+  hour: '2-digit',
+  minute: '2-digit'
+});
+
+const updatedAt = formatter.format(new Date(news.updatedAt));
+const items = [...news.items].sort((a, b) => a.rank - b.rank);
+---
+<BaseLayout title="AI News" description="每天 5 条全球 AI 行业新闻摘要。" lang="zh" path="ai-news">
+  <section class="page-head ai-news-head">
+    <div class="eyebrow">AI News Agent</div>
+    <h1>每天 5 条全球 AI 行业新闻</h1>
+    <p class="lead">自动抓取官方博客、主流科技媒体和有趣的产品动态，筛出当天最值得看的 AI 新闻，并给出短总结和相关链接。</p>
+    <div class="ai-news-meta">
+      <span>最近更新：{updatedAt}</span>
+      <span>时区：{news.timezone}</span>
+    </div>
+  </section>
+
+  <section class="ai-news-list" aria-label="AI industry news">
+    {items.map((item) => (
+      <article class="ai-news-item">
+        <div class="ai-news-rank">{String(item.rank).padStart(2, '0')}</div>
+        <div class="ai-news-body">
+          <div class="ai-news-kicker">
+            <span>{item.source}</span>
+            <span>{item.category}</span>
+            <span>{item.publishedAt}</span>
+          </div>
+          <h2>{item.title}</h2>
+          <p>{item.summary}</p>
+          <div class="ai-news-why">
+            <strong>为什么值得看：</strong>{item.whyItMatters}
+          </div>
+          <div class="tags">
+            {item.tags.map((tag) => <span class="tag">{tag}</span>)}
+          </div>
+          <div class="ai-news-links">
+            {item.links.map((link) => (
+              <a href={link.url} target="_blank" rel="noreferrer">{link.label}</a>
+            ))}
+          </div>
+        </div>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

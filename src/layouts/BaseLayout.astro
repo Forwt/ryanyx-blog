@@ -5,7 +5,7 @@ interface Props {
   title: string;
   description?: string;
   lang?: 'zh' | 'en';
-  path?: 'home' | 'writing' | 'projects' | 'about' | 'resume';
+  path?: 'home' | 'writing' | 'projects' | 'ai-news' | 'about' | 'resume';
   switchTo?: string;
 }
 
@@ -23,6 +23,7 @@ const nav = isEn
       ['Home', '/en/'],
       ['Writing', '/en/writing/'],
       ['Projects', '/en/projects/'],
+      ['AI News', '/ai-news/'],
       ['About', '/en/about/'],
       ['Resume', '/en/resume/']
     ]
@@ -30,6 +31,7 @@ const nav = isEn
       ['Home', '/'],
       ['Writing', '/writing/'],
       ['Projects', '/projects/'],
+      ['AI News', '/ai-news/'],
       ['About', '/about/'],
       ['Resume', '/resume/']
     ];
@@ -38,6 +40,7 @@ const counterpartMap = {
   home: isEn ? '/' : '/en/',
   writing: isEn ? '/writing/' : '/en/writing/',
   projects: isEn ? '/projects/' : '/en/projects/',
+  'ai-news': '/ai-news/',
   about: isEn ? '/about/' : '/en/about/',
   resume: isEn ? '/resume/' : '/en/resume/'
 };

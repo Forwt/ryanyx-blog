@@ -1,0 +1,108 @@
+{
+  "updatedAt": "2026-07-09T07:42:08.227Z",
+  "timezone": "Asia/Shanghai",
+  "generatedBy": "scripts/update-ai-news.mjs",
+  "edition": "local",
+  "items": [
+    {
+      "rank": 1,
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "source": "NVIDIA Blog",
+      "category": "Product",
+      "publishedAt": "2026-07-08",
+      "summary": "NVIDIA 表示 Nemotron 3 Ultra 在 LangChain 的 Deep Agents Harness 评测中取得领先表现，并强调其成本低于头部闭源模型。",
+      "whyItMatters": "Agent 编排正在变成模型落地的关键场景，这类评测会影响开发者和企业选择开放模型栈的信心。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/"
+        }
+      ],
+      "tags": [
+        "agent",
+        "agents",
+        "model"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-07-08",
+      "summary": "TechCrunch 报道，General Intuition 正尝试用大量电子游戏数据训练面向物理世界的基础模型，希望让机器人研发迎来类似 ChatGPT 的突破时刻。",
+      "whyItMatters": "如果游戏数据能有效迁移到机器人训练，低成本大规模仿真数据可能成为具身智能的新入口。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/"
+        }
+      ],
+      "tags": [
+        "model",
+        "models",
+        "robot"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Separating signal from noise in coding evaluations",
+      "source": "OpenAI Blog",
+      "category": "Model",
+      "publishedAt": "2026-07-08",
+      "summary": "OpenAI 发布分析，指出 SWE-Bench Pro 等代码能力评测中存在噪声和可靠性问题，提醒外界谨慎解读模型排行榜。",
+      "whyItMatters": "代码能力是 AI Agent 的核心卖点之一，评测是否可信会直接影响模型选择、产品宣传和研发投入。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations"
+        }
+      ],
+      "tags": [
+        "model",
+        "models",
+        "benchmark"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-07-08",
+      "summary": "法国 AI 创业公司 ZML 发布免费产品 ZML/LLMD，目标是在多种 AI 芯片上加速推理，降低运行大模型的成本和硬件绑定。",
+      "whyItMatters": "推理成本是 AI 应用规模化的硬约束，跨芯片优化工具可能削弱单一硬件生态的锁定效应。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"
+        }
+      ],
+      "tags": [
+        "chip",
+        "inference",
+        "release"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+      "source": "NVIDIA Blog",
+      "category": "Product",
+      "publishedAt": "2026-07-07",
+      "summary": "NVIDIA 与 Hugging Face 为 LeRobot 开源机器人社区带来新模型和框架，继续推动机器人模型、数据和工具链的开放协作。",
+      "whyItMatters": "开源机器人栈正在吸引更多开发者参与，可能让具身智能从实验室更快走向可复现的社区项目。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/"
+        }
+      ],
+      "tags": [
+        "model",
+        "models",
+        "open source"
+      ]
+    }
+  ]
+}
