@@ -1,17 +1,77 @@
 {
-  "updatedAt": "2026-07-09T07:42:08.227Z",
+  "updatedAt": "2026-07-10T01:11:51.567Z",
   "timezone": "Asia/Shanghai",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "local",
+  "edition": "github-29061813092",
   "items": [
     {
       "rank": 1,
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "source": "VentureBeat AI",
+      "category": "Product",
+      "publishedAt": "2026-01-19",
+      "summary": "VentureBeat AI 关注了「Claude Code costs up to $200 a month. Goose does the same thing for free.」。原文要点：The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.",
+      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free"
+        }
+      ],
+      "tags": [
+        "agent",
+        "agents",
+        "model"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "An AI agent startup just let its agent run its $100M fundraise",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-07-09",
+      "summary": "TechCrunch AI 关注了「An AI agent startup just let its agent run its $100M fundraise」。原文要点：Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
+      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
+        }
+      ],
+      "tags": [
+        "agent",
+        "agents",
+        "enterprise"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "source": "VentureBeat AI",
+      "category": "Product",
+      "publishedAt": "2026-01-22",
+      "summary": "VentureBeat AI 关注了「Railway secures $100 million to challenge AWS with AI-native cloud infrastructure」。原文要点：Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that i",
+      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
+        }
+      ],
+      "tags": [
+        "agent",
+        "agents",
+        "model"
+      ]
+    },
+    {
+      "rank": 4,
       "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
       "source": "NVIDIA Blog",
       "category": "Product",
       "publishedAt": "2026-07-08",
-      "summary": "NVIDIA 表示 Nemotron 3 Ultra 在 LangChain 的 Deep Agents Harness 评测中取得领先表现，并强调其成本低于头部闭源模型。",
-      "whyItMatters": "Agent 编排正在变成模型落地的关键场景，这类评测会影响开发者和企业选择开放模型栈的信心。",
+      "summary": "NVIDIA Blog 关注了「NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness」。原文要点：NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.",
+      "whyItMatters": "来自官方渠道，通常意味着产品能力、研究方向或平台策略出现了可验证的新变化。",
       "links": [
         {
           "label": "原文",
@@ -25,83 +85,23 @@
       ]
     },
     {
-      "rank": 2,
-      "title": "This startup thinks robotics is about to have its ChatGPT moment",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-07-08",
-      "summary": "TechCrunch 报道，General Intuition 正尝试用大量电子游戏数据训练面向物理世界的基础模型，希望让机器人研发迎来类似 ChatGPT 的突破时刻。",
-      "whyItMatters": "如果游戏数据能有效迁移到机器人训练，低成本大规模仿真数据可能成为具身智能的新入口。",
-      "links": [
-        {
-          "label": "原文",
-          "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/"
-        }
-      ],
-      "tags": [
-        "model",
-        "models",
-        "robot"
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "Separating signal from noise in coding evaluations",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-07-08",
-      "summary": "OpenAI 发布分析，指出 SWE-Bench Pro 等代码能力评测中存在噪声和可靠性问题，提醒外界谨慎解读模型排行榜。",
-      "whyItMatters": "代码能力是 AI Agent 的核心卖点之一，评测是否可信会直接影响模型选择、产品宣传和研发投入。",
-      "links": [
-        {
-          "label": "原文",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations"
-        }
-      ],
-      "tags": [
-        "model",
-        "models",
-        "benchmark"
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-07-08",
-      "summary": "法国 AI 创业公司 ZML 发布免费产品 ZML/LLMD，目标是在多种 AI 芯片上加速推理，降低运行大模型的成本和硬件绑定。",
-      "whyItMatters": "推理成本是 AI 应用规模化的硬约束，跨芯片优化工具可能削弱单一硬件生态的锁定效应。",
-      "links": [
-        {
-          "label": "原文",
-          "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"
-        }
-      ],
-      "tags": [
-        "chip",
-        "inference",
-        "release"
-      ]
-    },
-    {
       "rank": 5,
-      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
-      "source": "NVIDIA Blog",
+      "title": "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter",
+      "source": "TechCrunch AI",
       "category": "Product",
-      "publishedAt": "2026-07-07",
-      "summary": "NVIDIA 与 Hugging Face 为 LeRobot 开源机器人社区带来新模型和框架，继续推动机器人模型、数据和工具链的开放协作。",
-      "whyItMatters": "开源机器人栈正在吸引更多开发者参与，可能让具身智能从实验室更快走向可复现的社区项目。",
+      "publishedAt": "2026-07-10",
+      "summary": "TechCrunch AI 关注了「OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter」。原文要点：OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
       "links": [
         {
           "label": "原文",
-          "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/"
+          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
         }
       ],
       "tags": [
         "model",
         "models",
-        "open source"
+        "product"
       ]
     }
   ]
