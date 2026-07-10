@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const reports = await getCollection('research', ({ data }) => data.draft !== true);
+  return reports.map((report) => ({
+    params: { slug: report.data.routeSlug },
+    props: { report }
+  }));
+}
+
+const { report } = Astro.props;
+const { Content, headings } = await render(report);
+const toc = headings.filter((heading) => heading.depth === 2);
+const toneLabel = {
+  positive: '↑',
+  neutral: '•',
+  negative: '↓'
+};
+---
+<BaseLayout
+  title={report.data.title}
+  description={report.data.description}
+  lang="zh"
+  path="research"
+  showLanguageSwitch={false}
+  image={report.data.image}
+  publishedTime={report.data.pubDate.toISOString()}
+>
+  <article class="research-report">
+    <header class="research-report-head">
+      <a class="research-back" href="/research/">← 投研目录</a>
+      <div class="eyebrow">Research Note · {report.data.subject}</div>
+      <h1>{report.data.title}</h1>
+      <p class="lead">{report.data.description}</p>
+      <div class="research-meta-row">
+        <span>发布 {report.data.pubDate.toISOString().slice(0, 10)}</span>
+        <span>覆盖 {report.data.coverageStart.toISOString().slice(0, 10)} — {report.data.coverageEnd.toISOString().slice(0, 10)}</span>
+        <span>{report.data.reportCount} 份机构材料</span>
+        <span>{report.data.sourceCount} 个公开来源</span>
+        <span>{report.data.readingTime}</span>
+      </div>
+      <div class="metric-grid">
+        {report.data.metrics.map((metric) => (
+          <div class={`metric-card ${metric.tone}`}>
+            <div class="metric-label">{toneLabel[metric.tone]} {metric.label}</div>
+            <div class="metric-value">{metric.value}</div>
+            <div class="metric-note">{metric.note}</div>
+          </div>
+        ))}
+      </div>
+    </header>
+
+    <div class="research-layout">
+      {toc.length > 0 && (
+        <aside class="research-toc" aria-label="报告目录">
+          <div class="research-toc-title">目录</div>
+          <nav>
+            {toc.map((heading, index) => (
+              <a href={`#${heading.slug}`}><span>{String(index + 1).padStart(2, '0')}</span>{heading.text}</a>
+            ))}
+          </nav>
+        </aside>
+      )}
+      <div class="research-prose prose">
+        <Content />
+      </div>
+    </div>
+  </article>
+</BaseLayout>

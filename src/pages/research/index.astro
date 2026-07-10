@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const reports = (await getCollection('research', ({ data }) => data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const stanceLabel = {
+  constructive: '偏积极',
+  neutral: '中性',
+  cautious: '偏谨慎'
+};
+---
+<BaseLayout
+  title="投研"
+  description="基于公开一手资料和机构研究的市场专题分析。"
+  lang="zh"
+  path="research"
+  showLanguageSwitch={false}
+>
+  <section class="page-head research-index-head">
+    <div class="eyebrow">Research / Evidence first</div>
+    <h1>投研</h1>
+    <p class="lead">把机构观点、市场数据与自己的判断拆开写清楚。每篇报告都标注观察窗口、来源层级、关键分歧与失效条件。</p>
+  </section>
+
+  <div class="research-list">
+    {reports.map((report) => (
+      <article class="research-card">
+        <div class="research-card-top">
+          <div class="meta">
+            {report.data.pubDate.toISOString().slice(0, 10)} · {report.data.subject}
+          </div>
+          <span class={`research-stance ${report.data.stance}`}>
+            {stanceLabel[report.data.stance]}
+          </span>
+        </div>
+        <a class="research-card-title" href={`/research/${report.data.routeSlug}/`}>{report.data.title}</a>
+        <p>{report.data.description}</p>
+        <div class="research-card-footer">
+          <div class="tags">{report.data.tags.map((tag) => <span class="tag">{tag}</span>)}</div>
+          <span class="meta">{report.data.reportCount} 份机构材料 · {report.data.readingTime}</span>
+        </div>
+      </article>
+    ))}
+  </div>
+</BaseLayout>

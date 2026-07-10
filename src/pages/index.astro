@@ -6,6 +6,9 @@ const posts = (await getCollection('writing', ({ data }) => data.lang === 'zh' &
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
 
+const latestResearch = (await getCollection('research', ({ data }) => data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
+
 const projects = [
   {
     name: '一句话记账',
@@ -60,6 +63,23 @@ const projects = [
     </div>
     <p class="muted">每天自动筛选全球 AI 行业最值得看的 5 条新闻：官方发布、模型进展、产品实验、创业公司动态和有趣的新工具。</p>
   </section>
+
+  {latestResearch && (
+    <section class="section">
+      <div class="section-head">
+        <h2>Featured Research</h2>
+        <a class="section-link" href="/research/">进入投研</a>
+      </div>
+      <article class="research-card research-card-featured">
+        <div class="meta">
+          {latestResearch.data.pubDate.toISOString().slice(0, 10)} · {latestResearch.data.subject}
+        </div>
+        <a class="research-card-title" href={`/research/${latestResearch.data.routeSlug}/`}>{latestResearch.data.title}</a>
+        <p>{latestResearch.data.description}</p>
+        <div class="tags">{latestResearch.data.tags.map((tag) => <span class="tag">{tag}</span>)}</div>
+      </article>
+    </section>
+  )}
 
   <section class="section">
     <div class="section-head">

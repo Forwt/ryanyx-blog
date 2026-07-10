@@ -14,6 +14,7 @@ https://ryanyx-blog.pages.dev/
 
 - `/`
 - `/writing/`
+- `/research/`
 - `/projects/`
 - `/about/`
 - `/resume/`
@@ -109,6 +110,27 @@ English body goes here.
 - 简历页：`src/pages/resume.astro`
 
 英文页面都在 `src/pages/en/` 里面。
+
+## 写一篇新投研报告
+
+投研报告和普通文章分开管理。在这个文件夹中新建 Markdown：
+
+```text
+src/content/research/
+```
+
+报告需要写明研究覆盖期、公开材料数量、来源数量和核心指标。已有范例：
+
+```text
+src/content/research/hang-seng-tech-weekly-2026-07-10.md
+```
+
+保存后，报告会出现在：
+
+```text
+/research/
+/research/<routeSlug>/
+```
 
 ## 修改颜色和排版
 
