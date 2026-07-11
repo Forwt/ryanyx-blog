@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-10T01:11:51.567Z",
+  "updatedAt": "2026-07-11T00:59:30.508Z",
   "timezone": "Asia/Shanghai",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29061813092",
+  "edition": "github-29133765418",
   "items": [
     {
       "rank": 1,
@@ -26,26 +26,6 @@
     },
     {
       "rank": 2,
-      "title": "An AI agent startup just let its agent run its $100M fundraise",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-07-09",
-      "summary": "TechCrunch AI 关注了「An AI agent startup just let its agent run its $100M fundraise」。原文要点：Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
-      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
-      "links": [
-        {
-          "label": "原文",
-          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
-        }
-      ],
-      "tags": [
-        "agent",
-        "agents",
-        "enterprise"
-      ]
-    },
-    {
-      "rank": 3,
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
       "source": "VentureBeat AI",
       "category": "Product",
@@ -65,43 +45,63 @@
       ]
     },
     {
-      "rank": 4,
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "source": "NVIDIA Blog",
+      "rank": 3,
+      "title": "One Wikipedia page costs your AI agent 68,000 tokens",
+      "source": "Hacker News AI",
       "category": "Product",
-      "publishedAt": "2026-07-08",
-      "summary": "NVIDIA Blog 关注了「NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness」。原文要点：NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.",
-      "whyItMatters": "来自官方渠道，通常意味着产品能力、研究方向或平台策略出现了可验证的新变化。",
+      "publishedAt": "2026-07-11",
+      "summary": "Hacker News AI 关注了「One Wikipedia page costs your AI agent 68,000 tokens」。原文要点：i use claude code daily and measured what pages cost it while doing research.",
+      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
       "links": [
         {
           "label": "原文",
-          "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/"
+          "url": "https://news.ycombinator.com/item?id=48867021"
         }
       ],
       "tags": [
         "agent",
         "agents",
-        "model"
+        "benchmark"
       ]
     },
     {
-      "rank": 5,
-      "title": "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter",
+      "rank": 4,
+      "title": "An AI agent startup just let its agent run its $100M fundraise",
       "source": "TechCrunch AI",
       "category": "Product",
-      "publishedAt": "2026-07-10",
-      "summary": "TechCrunch AI 关注了「OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter」。原文要点：OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+      "publishedAt": "2026-07-09",
+      "summary": "TechCrunch AI 关注了「An AI agent startup just let its agent run its $100M fundraise」。原文要点：Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
       "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
       "links": [
         {
           "label": "原文",
-          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
+          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
+        }
+      ],
+      "tags": [
+        "agent",
+        "agents",
+        "enterprise"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Open source AI matters more than ever, according to Hugging Face&#8217;s Clem Delangue",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-07-10",
+      "summary": "TechCrunch AI 关注了「Open source AI matters more than ever, according to Hugging Face&#8217;s Clem Delangue」。原文要点：Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue.",
+      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/"
         }
       ],
       "tags": [
         "model",
         "models",
-        "product"
+        "open source"
       ]
     }
   ]
