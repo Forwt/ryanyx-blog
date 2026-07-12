@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-11T00:59:30.508Z",
+  "updatedAt": "2026-07-12T01:06:36.266Z",
   "timezone": "Asia/Shanghai",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29133765418",
+  "edition": "github-29174761092",
   "items": [
     {
       "rank": 1,
@@ -46,26 +46,45 @@
     },
     {
       "rank": 3,
-      "title": "One Wikipedia page costs your AI agent 68,000 tokens",
+      "title": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
       "source": "Hacker News AI",
       "category": "Product",
       "publishedAt": "2026-07-11",
-      "summary": "Hacker News AI 关注了「One Wikipedia page costs your AI agent 68,000 tokens」。原文要点：i use claude code daily and measured what pages cost it while doing research.",
+      "summary": "Hacker News AI 关注了「I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)」。原文要点：Article URL: https://github.com/mrhustlex/TradingSpy-TradingAgentService Comments URL: https://news.ycombinator.com/item?id=48875678 Points: 2 # Comments: 0",
       "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
       "links": [
         {
           "label": "原文",
-          "url": "https://news.ycombinator.com/item?id=48867021"
+          "url": "https://github.com/mrhustlex/TradingSpy-TradingAgentService"
         }
       ],
       "tags": [
         "agent",
         "agents",
-        "benchmark"
+        "open source"
       ]
     },
     {
       "rank": 4,
+      "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
+      "source": "Hacker News AI",
+      "category": "Product",
+      "publishedAt": "2026-07-11",
+      "summary": "Hacker News AI 关注了「Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)」。原文要点：Article URL: https://github.com/shehryarsaroya/agenttransfer Comments URL: https://news.ycombinator.com/item?id=48876610 Points: 1 # Comments: 1",
+      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://github.com/shehryarsaroya/agenttransfer"
+        }
+      ],
+      "tags": [
+        "agent",
+        "agents"
+      ]
+    },
+    {
+      "rank": 5,
       "title": "An AI agent startup just let its agent run its $100M fundraise",
       "source": "TechCrunch AI",
       "category": "Product",
@@ -82,26 +101,6 @@
         "agent",
         "agents",
         "enterprise"
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "Open source AI matters more than ever, according to Hugging Face&#8217;s Clem Delangue",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-07-10",
-      "summary": "TechCrunch AI 关注了「Open source AI matters more than ever, according to Hugging Face&#8217;s Clem Delangue」。原文要点：Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue.",
-      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
-      "links": [
-        {
-          "label": "原文",
-          "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/"
-        }
-      ],
-      "tags": [
-        "model",
-        "models",
-        "open source"
       ]
     }
   ]
