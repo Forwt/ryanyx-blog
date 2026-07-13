@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-12T01:06:36.266Z",
+  "updatedAt": "2026-07-13T01:07:00.002Z",
   "timezone": "Asia/Shanghai",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29174761092",
+  "edition": "github-29216723809",
   "items": [
     {
       "rank": 1,
@@ -46,36 +46,35 @@
     },
     {
       "rank": 3,
-      "title": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
+      "title": "Show HN: Clark – AI assistant with own computer",
       "source": "Hacker News AI",
       "category": "Product",
-      "publishedAt": "2026-07-11",
-      "summary": "Hacker News AI 关注了「I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)」。原文要点：Article URL: https://github.com/mrhustlex/TradingSpy-TradingAgentService Comments URL: https://news.ycombinator.com/item?id=48875678 Points: 2 # Comments: 0",
+      "publishedAt": "2026-07-13",
+      "summary": "Hacker News AI 关注了「Show HN: Clark – AI assistant with own computer」。原文要点：Hey folks, I've been building Clark solo, with the aim to match Manus agent (I really like it!) in features and capabilities, but also in its relentless ability",
       "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
       "links": [
         {
           "label": "原文",
-          "url": "https://github.com/mrhustlex/TradingSpy-TradingAgentService"
+          "url": "https://www.clarkchat.com/"
         }
       ],
       "tags": [
         "agent",
-        "agents",
-        "open source"
+        "research"
       ]
     },
     {
       "rank": 4,
-      "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
+      "title": "OneDev AI: Coding Agents as Teammates in Issues, Pull Requests, and CI",
       "source": "Hacker News AI",
       "category": "Product",
-      "publishedAt": "2026-07-11",
-      "summary": "Hacker News AI 关注了「Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)」。原文要点：Article URL: https://github.com/shehryarsaroya/agenttransfer Comments URL: https://news.ycombinator.com/item?id=48876610 Points: 1 # Comments: 1",
+      "publishedAt": "2026-07-12",
+      "summary": "Hacker News AI 关注了「OneDev AI: Coding Agents as Teammates in Issues, Pull Requests, and CI」。原文要点：Article URL: https://onedev.io/blogs/ai-teammates Comments URL: https://news.ycombinator.com/item?id=48886055 Points: 3 # Comments: 0",
       "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
       "links": [
         {
           "label": "原文",
-          "url": "https://github.com/shehryarsaroya/agenttransfer"
+          "url": "https://onedev.io/blogs/ai-teammates"
         }
       ],
       "tags": [
@@ -85,22 +84,20 @@
     },
     {
       "rank": 5,
-      "title": "An AI agent startup just let its agent run its $100M fundraise",
-      "source": "TechCrunch AI",
+      "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+      "source": "The Verge AI",
       "category": "Product",
-      "publishedAt": "2026-07-09",
-      "summary": "TechCrunch AI 关注了「An AI agent startup just let its agent run its $100M fundraise」。原文要点：Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
+      "publishedAt": "2026-07-12",
+      "summary": "The Verge AI 关注了「Apple’s failed self-driving car program left a legacy of powerful AI chips」。原文要点：Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are.",
       "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
       "links": [
         {
           "label": "原文",
-          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
+          "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
         }
       ],
       "tags": [
-        "agent",
-        "agents",
-        "enterprise"
+        "chip"
       ]
     }
   ]
