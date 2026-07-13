@@ -82,7 +82,7 @@ const parseFeed = (xml, source) => {
 const fetchSource = async (source) => {
   const response = await fetch(source.url, {
     headers: {
-      'user-agent': 'Ryanzr AI News Agent/1.0 (+https://ryanzr.com/ai-news/)'
+      'user-agent': 'Ryanyx AI News Agent/1.0 (+https://ryanyx-blog.pages.dev/ai-news/)'
     }
   });
   if (!response.ok) throw new Error(`${source.name}: ${response.status}`);

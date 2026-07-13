@@ -9,7 +9,6 @@ const posts = (await getCollection('writing', ({ data }) => data.lang === 'en' &
   <section class="page-head">
     <div class="eyebrow">Writing</div>
     <h1>Writing</h1>
-    <p class="lead">Reverse-chronological notes on AI applications, investment judgment, financial markets, and personal tools.</p>
   </section>
   <div class="stack">
     {posts.map((post) => (

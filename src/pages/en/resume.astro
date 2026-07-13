@@ -1,29 +1,27 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="Resume" description="Ryan's resume entry." lang="en" path="resume">
-  <section class="page-head">
+<BaseLayout title="Resume" description="Ryan Wang's education and experience." lang="en" path="resume">
+  <section class="page-head resume-head">
     <div class="eyebrow">Resume</div>
-    <h1>Resume</h1>
-    <p class="lead">A compact version for now. I will add formal PDF files, links, and fuller experience details later.</p>
+    <h1>Ryan Wang</h1>
   </section>
-  <article class="prose">
-    <h2>Education</h2>
-    <ul class="resume-list">
-      <li>Finance background, with ongoing practice in AI engineering and investment research.</li>
-    </ul>
-    <h2>Experience</h2>
-    <ul class="resume-list">
-      <li>Interested in bonds, HK/US equities, market liquidity, and investment research workflows.</li>
-      <li>Turning finance observations into repeatable research and lightweight tools.</li>
-    </ul>
-    <h2>Projects</h2>
-    <ul class="resume-list">
-      <li>One-sentence Ledger, OpenClaw Agent, Personal Blog.</li>
-    </ul>
-    <h2>Skills</h2>
-    <ul class="resume-list">
-      <li>AI applications, investment research, Markdown writing, data organization, and personal tool building.</li>
-    </ul>
+
+  <article class="resume-simple">
+    <section>
+      <h2>Education</h2>
+      <div class="resume-entry"><time>Sep 2023 - Jul 2025</time><div><strong>The University of Hong Kong</strong><span>Master of Finance in Financial Engineering</span></div></div>
+      <div class="resume-entry"><time>Sep 2019 - Jun 2023</time><div><strong>Sun Yat-sen University</strong><span>Bachelor of Finance</span></div></div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="resume-entry"><time>Jul 2025 - Present</time><div><strong>Industrial Bank, Beijing Branch</strong><span>Management Trainee</span></div></div>
+      <div class="resume-entry"><time>Jan 2025 - Mar 2025</time><div><strong>China Galaxy Securities</strong><span>Bond Trading Intern</span></div></div>
+      <div class="resume-entry"><time>Dec 2024 - Jan 2025</time><div><strong>Timeswell Asset Management</strong><span>Investment Research Intern</span></div></div>
+      <div class="resume-entry"><time>Sep 2024 - Dec 2024</time><div><strong>China Southern Asset Management</strong><span>Institutional Business Intern</span></div></div>
+      <div class="resume-entry"><time>Feb 2023 - May 2023</time><div><strong>China Securities</strong><span>Investment Banking Intern</span></div></div>
+      <div class="resume-entry"><time>Jun 2021 - Aug 2021</time><div><strong>Bank of China</strong><span>Corporate Banking Intern</span></div></div>
+    </section>
   </article>
 </BaseLayout>

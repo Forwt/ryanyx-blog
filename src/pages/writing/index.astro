@@ -9,7 +9,6 @@ const posts = (await getCollection('writing', ({ data }) => data.lang === 'zh' &
   <section class="page-head">
     <div class="eyebrow">Writing</div>
     <h1>文章</h1>
-    <p class="lead">按时间倒序记录 AI 应用、投资判断、金融市场和个人工具构建。</p>
   </section>
   <div class="stack">
     {posts.map((post) => (

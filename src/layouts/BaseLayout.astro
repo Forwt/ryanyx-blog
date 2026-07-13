@@ -14,7 +14,7 @@ interface Props {
 
 const {
   title,
-  description = 'Ryanzr writes about AI, investing, finance, and small tools.',
+  description = 'Ryanyx writes about AI, investing, finance, and small tools.',
   lang = 'zh',
   path = 'home',
   switchTo,
@@ -56,7 +56,7 @@ const counterpartMap = {
 
 const langHref = switchTo ?? counterpartMap[path];
 const langLabel = isEn ? '中文' : 'EN';
-const fullTitle = title === 'Ryanzr' ? 'Ryanzr' : `${title} · Ryanzr`;
+const fullTitle = title === 'Ryanyx' ? 'Ryanyx' : `${title} · Ryanyx`;
 const canonicalURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url;
 const imageURL = image ? new URL(image, canonicalURL) : undefined;
 ---
@@ -71,7 +71,7 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
-    <meta property="og:site_name" content="Ryanzr" />
+    <meta property="og:site_name" content="Ryanyx" />
     <meta property="og:locale" content={isEn ? 'en_US' : 'zh_CN'} />
     {imageURL && <meta property="og:image" content={imageURL} />}
     {publishedTime && <meta property="article:published_time" content={publishedTime} />}
@@ -93,7 +93,7 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
   <body>
     <header class="site-header">
       <div class="shell nav-bar">
-        <a class="brand" href={isEn ? '/en/' : '/'}>Ryanzr</a>
+        <a class="brand" href={isEn ? '/en/' : '/'}>Ryanyx</a>
         <nav class="nav-links" aria-label={isEn ? 'Main navigation' : '主导航'}>
           {nav.map(([label, href]) => <a href={href}>{label}</a>)}
         </nav>
@@ -108,7 +108,7 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
     </main>
     <footer class="site-footer">
       <div class="shell footer-inner">
-        <span>© {new Date().getFullYear()} Ryanzr</span>
+        <span>© {new Date().getFullYear()} Ryanyx</span>
         <span>{isEn ? 'Finance, AI engineering, investing, and small tools.' : '金融、AI 工程实践、投资思考和小工具。'}</span>
       </div>
     </footer>

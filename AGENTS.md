@@ -1,4 +1,4 @@
-# Ryanzr Blog project instructions
+# Ryanyx Blog project instructions
 
 - Every new or materially updated public Chinese page, article, or research report must ship with a complete English counterpart in the same change.
 - Chinese routes use Chinese navigation labels; English routes use English navigation labels.

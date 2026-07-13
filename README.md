@@ -1,4 +1,4 @@
-# Ryanzr Blog
+# Ryanyx Blog
 
 这是 Ryan 的个人双语博客，部署在 Cloudflare Pages。
 
