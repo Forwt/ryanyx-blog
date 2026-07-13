@@ -38,7 +38,7 @@ const items = [...news.items].sort((a, b) => a.rank - b.rank);
           <h2>{item.title}</h2>
           <p>{item.summary}</p>
           <div class="ai-news-why">
-            <strong>为什么值得看：</strong>{item.whyItMatters}
+            <strong>简要概述：</strong>{item.overview}
           </div>
           <div class="tags">
             {item.tags.map((tag) => <span class="tag">{tag}</span>)}

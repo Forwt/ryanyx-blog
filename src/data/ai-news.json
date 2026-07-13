@@ -11,7 +11,7 @@
       "category": "Product",
       "publishedAt": "2026-01-19",
       "summary": "VentureBeat AI 关注了「Claude Code costs up to $200 a month. Goose does the same thing for free.」。原文要点：The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.",
-      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "overview": "开源编码助手 Goose 以免费方案对标月费最高 200 美元的 Claude Code。",
       "links": [
         {
           "label": "原文",
@@ -31,7 +31,7 @@
       "category": "Product",
       "publishedAt": "2026-01-22",
       "summary": "VentureBeat AI 关注了「Railway secures $100 million to challenge AWS with AI-native cloud infrastructure」。原文要点：Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that i",
-      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "overview": "AI 原生云平台 Railway 获得 1 亿美元融资，计划进一步挑战 AWS。",
       "links": [
         {
           "label": "原文",
@@ -51,7 +51,7 @@
       "category": "Product",
       "publishedAt": "2026-07-13",
       "summary": "Hacker News AI 关注了「Show HN: Clark – AI assistant with own computer」。原文要点：Hey folks, I've been building Clark solo, with the aim to match Manus agent (I really like it!) in features and capabilities, but also in its relentless ability",
-      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "overview": "独立开发者推出拥有独立电脑环境、对标 Manus 的 AI 助手 Clark。",
       "links": [
         {
           "label": "原文",
@@ -70,7 +70,7 @@
       "category": "Product",
       "publishedAt": "2026-07-12",
       "summary": "Hacker News AI 关注了「OneDev AI: Coding Agents as Teammates in Issues, Pull Requests, and CI」。原文要点：Article URL: https://onedev.io/blogs/ai-teammates Comments URL: https://news.ycombinator.com/item?id=48886055 Points: 3 # Comments: 0",
-      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "overview": "OneDev 将编码智能体接入 Issue、Pull Request 和 CI 协作流程。",
       "links": [
         {
           "label": "原文",
@@ -89,7 +89,7 @@
       "category": "Product",
       "publishedAt": "2026-07-12",
       "summary": "The Verge AI 关注了「Apple’s failed self-driving car program left a legacy of powerful AI chips」。原文要点：Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are.",
-      "whyItMatters": "它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。",
+      "overview": "苹果已终止的自动驾驶项目，为其新一代高性能 AI 芯片留下了技术积累。",
       "links": [
         {
           "label": "原文",

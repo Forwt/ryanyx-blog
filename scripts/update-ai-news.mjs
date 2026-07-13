@@ -120,9 +120,9 @@ const fallbackSummary = (item) => {
   return `${item.source} 发布了「${item.title}」这条 AI 行业动态，值得结合原文继续判断其产品、技术或商业影响。`;
 };
 
-const fallbackWhy = (item) => {
-  if (item.official) return '来自官方渠道，通常意味着产品能力、研究方向或平台策略出现了可验证的新变化。';
-  return '它可能代表开发者社区、创业公司或主流科技媒体正在关注的新趋势，适合作为进一步追踪的线索。';
+const fallbackOverview = (item) => {
+  const first = sentence(item.rawSummary);
+  return first || `${item.source} 发布了关于「${item.title}」的最新动态。`;
 };
 
 const summarizeWithOpenAI = async (items) => {
@@ -144,7 +144,7 @@ const summarizeWithOpenAI = async (items) => {
         {
           role: 'user',
           content: JSON.stringify({
-            task: '为每条新闻写中文 summary 和 whyItMatters。summary 50-90 字，whyItMatters 30-60 字。',
+            task: '为每条新闻写中文 summary 和 overview。summary 50-90 字；overview 用一行 20-45 字直接概述发生了什么，不评价意义，不使用“值得关注”等套话。',
             items: items.map((item) => ({
               title: item.title,
               source: item.source,
@@ -172,9 +172,9 @@ const summarizeWithOpenAI = async (items) => {
                   properties: {
                     title: { type: 'string' },
                     summary: { type: 'string' },
-                    whyItMatters: { type: 'string' }
+                    overview: { type: 'string' }
                   },
-                  required: ['title', 'summary', 'whyItMatters']
+                  required: ['title', 'summary', 'overview']
                 }
               }
             },
@@ -249,7 +249,7 @@ const main = async () => {
         category: categoryFor(item),
         publishedAt: item.publishedAt.slice(0, 10),
         summary: ai?.summary || fallbackSummary(item),
-        whyItMatters: ai?.whyItMatters || fallbackWhy(item),
+        overview: ai?.overview || fallbackOverview(item),
         links: [{ label: '原文', url: item.url }],
         tags: tagsFor(item)
       };
