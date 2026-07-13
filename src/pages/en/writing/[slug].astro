@@ -27,7 +27,6 @@ const { Content } = await render(post);
       <div class="eyebrow">Writing / {post.data.pubDate.toISOString().slice(0, 10)}</div>
       <h1>{post.data.title}</h1>
       <p class="lead">{post.data.description}</p>
-      {post.data.aiTranslated && <span class="ai-note">AI translated from the Chinese source text.</span>}
     </header>
     <Content />
   </article>
