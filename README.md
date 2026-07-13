@@ -181,3 +181,15 @@ npm run build
 - Root directory：`/`
 
 不要添加 `wrangler deploy`，也不要把项目改成 Worker。
+
+## 页面点赞
+
+所有页面右下角都有一个不遮挡正文的点赞按钮。累计数保存在 Cloudflare D1 中，每个浏览器对同一页面只计一次。
+
+Cloudflare Pages 项目需要绑定一个 D1 数据库，变量名必须为：
+
+```text
+DB
+```
+
+点赞接口位于 `/api/likes`，数据表会在第一次请求时自动创建。

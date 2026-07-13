@@ -112,6 +112,20 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
         <span>{isEn ? 'Finance, AI engineering, investing, and small tools.' : '金融、AI 工程实践、投资思考和小工具。'}</span>
       </div>
     </footer>
+    <div
+      class="like-widget"
+      data-like-widget
+      data-page-key={Astro.url.pathname}
+      data-like-label={isEn ? 'Like this page' : '喜欢这个页面'}
+      data-liked-label={isEn ? 'You liked this page' : '你已赞过这个页面'}
+      data-thanks={isEn ? 'Thanks for the love' : '谢谢喜欢'}
+    >
+      <button class="like-button" type="button" aria-pressed="false" aria-label={isEn ? 'Like this page' : '喜欢这个页面'}>
+        <span class="like-heart" aria-hidden="true">♥</span>
+        <span class="like-count" aria-label={isEn ? 'Loading like count' : '正在加载点赞数'}>—</span>
+      </button>
+      <span class="like-status" role="status" aria-live="polite"></span>
+    </div>
     <script is:inline>
       (() => {
         const button = document.querySelector('.theme-toggle');
@@ -132,6 +146,80 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
           if (getChoice() === 'system') apply('system');
         });
         apply(getChoice());
+      })();
+    </script>
+    <script is:inline>
+      (() => {
+        const widget = document.querySelector('[data-like-widget]');
+        if (!widget) return;
+
+        const button = widget.querySelector('.like-button');
+        const count = widget.querySelector('.like-count');
+        const status = widget.querySelector('.like-status');
+        const pageKey = widget.dataset.pageKey;
+        const storageKey = `ryanzr:liked:${pageKey}`;
+        const hasLiked = () => localStorage.getItem(storageKey) === '1';
+
+        const setLikedState = (liked) => {
+          button.classList.toggle('is-liked', liked);
+          button.setAttribute('aria-pressed', String(liked));
+          button.setAttribute('aria-label', liked ? widget.dataset.likedLabel : widget.dataset.likeLabel);
+        };
+
+        const burst = () => {
+          widget.classList.remove('is-bursting');
+          void widget.offsetWidth;
+          widget.classList.add('is-bursting');
+          const floater = document.createElement('span');
+          floater.className = 'like-floater';
+          floater.setAttribute('aria-hidden', 'true');
+          floater.textContent = '♥';
+          widget.append(floater);
+          floater.addEventListener('animationend', () => floater.remove(), { once: true });
+        };
+
+        const loadCount = async () => {
+          try {
+            const response = await fetch(`/api/likes?key=${encodeURIComponent(pageKey)}`, {
+              headers: { Accept: 'application/json' }
+            });
+            if (!response.ok) throw new Error('Unable to load likes');
+            const data = await response.json();
+            count.textContent = new Intl.NumberFormat(document.documentElement.lang).format(data.count);
+            count.setAttribute('aria-label', `${data.count} likes`);
+          } catch {
+            count.textContent = '♡';
+          }
+        };
+
+        setLikedState(hasLiked());
+        loadCount();
+
+        button.addEventListener('click', async () => {
+          burst();
+          if (hasLiked() || button.disabled) return;
+
+          button.disabled = true;
+          try {
+            const response = await fetch('/api/likes', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+              body: JSON.stringify({ key: pageKey })
+            });
+            if (!response.ok) throw new Error('Unable to save like');
+            const data = await response.json();
+            localStorage.setItem(storageKey, '1');
+            setLikedState(true);
+            count.textContent = new Intl.NumberFormat(document.documentElement.lang).format(data.count);
+            count.setAttribute('aria-label', `${data.count} likes`);
+            status.textContent = widget.dataset.thanks;
+            window.setTimeout(() => { status.textContent = ''; }, 1800);
+          } catch {
+            status.textContent = document.documentElement.lang === 'en' ? 'Please try again' : '暂时没点上，请稍后再试';
+          } finally {
+            button.disabled = false;
+          }
+        });
       })();
     </script>
   </body>
