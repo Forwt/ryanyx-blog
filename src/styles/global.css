@@ -812,6 +812,16 @@ p {
   font-size: 13px;
 }
 
+.writing-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 38px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
 .like-widget {
   position: fixed;
   right: max(32px, env(safe-area-inset-right));

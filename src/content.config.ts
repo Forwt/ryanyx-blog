@@ -14,6 +14,8 @@ const writing = defineCollection({
     routeSlug: z.string(),
     translationKey: z.string(),
     tags: z.array(z.string()).default([]),
+    image: z.string().optional(),
+    imageAlt: z.string().optional(),
     draft: z.boolean().default(false),
     aiTranslated: z.boolean().default(false)
   })

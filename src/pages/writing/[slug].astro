@@ -21,6 +21,8 @@ const { Content } = await render(post);
   lang="zh"
   path="writing"
   switchTo={counterpart ? `/en/writing/${counterpart.data.routeSlug}/` : '/en/writing/'}
+  image={post.data.image}
+  publishedTime={post.data.pubDate.toISOString()}
 >
   <article class="prose">
     <header class="page-head">
@@ -28,6 +30,7 @@ const { Content } = await render(post);
       <h1>{post.data.title}</h1>
       <p class="lead">{post.data.description}</p>
     </header>
+    {post.data.image && <img class="writing-hero" src={post.data.image} alt={post.data.imageAlt ?? post.data.title} />}
     <Content />
   </article>
 </BaseLayout>
