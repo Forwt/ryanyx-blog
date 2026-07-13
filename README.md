@@ -23,6 +23,7 @@ https://ryanyx-blog.pages.dev/
 
 - `/en/`
 - `/en/writing/`
+- `/en/research/`
 - `/en/projects/`
 - `/en/about/`
 - `/en/resume/`
@@ -119,10 +120,11 @@ English body goes here.
 src/content/research/
 ```
 
-报告需要写明研究覆盖期、公开材料数量、来源数量和核心指标。已有范例：
+报告需要写明研究覆盖期、公开材料数量、来源数量和核心指标，并在同一次发布中提供中文原文和完整英文版。已有范例：
 
 ```text
 src/content/research/hang-seng-tech-weekly-2026-07-10.md
+src/content/research/en-hang-seng-tech-weekly-2026-07-10.md
 ```
 
 保存后，报告会出现在：
@@ -130,7 +132,15 @@ src/content/research/hang-seng-tech-weekly-2026-07-10.md
 ```text
 /research/
 /research/<routeSlug>/
+/en/research/
+/en/research/<routeSlug>/
 ```
+
+中英文报告的 `routeSlug`、`translationKey` 和 `pubDate` 必须一致，`lang` 分别为 `zh`、`en`。中文原文使用 `aiTranslated: false`，英文译文使用 `aiTranslated: true`。
+
+## 双语发布规则
+
+任何新增或实质更新的中文公开博客页面、文章或投研报告，都必须在同一次变更中同步提供完整英文版。中文页面显示中文导航名称，英文页面显示英文导航名称；存在对应页面时必须保留语言切换入口。
 
 ## 修改颜色和排版
 

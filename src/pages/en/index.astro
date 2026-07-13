@@ -6,6 +6,9 @@ const posts = (await getCollection('writing', ({ data }) => data.lang === 'en' &
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
 
+const latestResearch = (await getCollection('research', ({ data }) => data.lang === 'en' && data.draft !== true))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
+
 const projects = [
   {
     name: 'One-sentence Ledger',
@@ -36,6 +39,23 @@ const projects = [
     <h1>This is Ryan Wang’s blog, a place for every thought worth keeping.</h1>
     <p class="lead">A personal knowledge site for essays, projects, and long-term thinking. Chinese is the source text; English pages are translations.</p>
   </section>
+
+  {latestResearch && (
+    <section class="section">
+      <div class="section-head">
+        <h2>Featured Research</h2>
+        <a class="section-link" href="/en/research/">All research</a>
+      </div>
+      <article class="research-card research-card-featured">
+        <div class="meta">
+          {latestResearch.data.pubDate.toISOString().slice(0, 10)} · {latestResearch.data.subject} · AI translated
+        </div>
+        <a class="research-card-title" href={`/en/research/${latestResearch.data.routeSlug}/`}>{latestResearch.data.title}</a>
+        <p>{latestResearch.data.description}</p>
+        <div class="tags">{latestResearch.data.tags.map((tag) => <span class="tag">{tag}</span>)}</div>
+      </article>
+    </section>
+  )}
 
   <section class="section">
     <div class="section-head">

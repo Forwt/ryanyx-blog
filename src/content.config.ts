@@ -26,7 +26,10 @@ const research = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
+    lang: z.enum(['zh', 'en']),
+    slug: z.string(),
     routeSlug: z.string(),
+    translationKey: z.string(),
     coverageStart: z.coerce.date(),
     coverageEnd: z.coerce.date(),
     subject: z.string(),
@@ -42,7 +45,8 @@ const research = defineCollection({
       tone: z.enum(['positive', 'neutral', 'negative']).default('neutral')
     })).default([]),
     image: z.string().optional(),
-    draft: z.boolean().default(false)
+    draft: z.boolean().default(false),
+    aiTranslated: z.boolean().default(false)
   })
 });
 

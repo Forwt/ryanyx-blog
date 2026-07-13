@@ -28,26 +28,26 @@ const nav = isEn
   ? [
       ['Home', '/en/'],
       ['Writing', '/en/writing/'],
-      ['Research', '/research/'],
+      ['Research', '/en/research/'],
       ['Projects', '/en/projects/'],
       ['AI News', '/ai-news/'],
       ['About', '/en/about/'],
       ['Resume', '/en/resume/']
     ]
   : [
-      ['Home', '/'],
-      ['Writing', '/writing/'],
+      ['首页', '/'],
+      ['文章', '/writing/'],
       ['投研', '/research/'],
-      ['Projects', '/projects/'],
-      ['AI News', '/ai-news/'],
-      ['About', '/about/'],
-      ['Resume', '/resume/']
+      ['项目', '/projects/'],
+      ['AI 资讯', '/ai-news/'],
+      ['关于', '/about/'],
+      ['简历', '/resume/']
     ];
 
 const counterpartMap = {
   home: isEn ? '/' : '/en/',
   writing: isEn ? '/writing/' : '/en/writing/',
-  research: '/research/',
+  research: isEn ? '/research/' : '/en/research/',
   projects: isEn ? '/projects/' : '/en/projects/',
   'ai-news': '/ai-news/',
   about: isEn ? '/about/' : '/en/about/',

@@ -6,7 +6,7 @@ const posts = (await getCollection('writing', ({ data }) => data.lang === 'zh' &
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
 
-const latestResearch = (await getCollection('research', ({ data }) => data.draft !== true))
+const latestResearch = (await getCollection('research', ({ data }) => data.lang === 'zh' && data.draft !== true))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
 
 const projects = [
@@ -42,7 +42,7 @@ const projects = [
 
   <section class="section">
     <div class="section-head">
-      <h2>Featured Writing</h2>
+      <h2>精选文章</h2>
       <a class="section-link" href="/writing/">全部文章</a>
     </div>
     <div class="stack">
@@ -58,7 +58,7 @@ const projects = [
 
   <section class="section ai-news-preview">
     <div class="section-head">
-      <h2>AI News Agent</h2>
+      <h2>AI 资讯 Agent</h2>
       <a class="section-link" href="/ai-news/">查看今日 5 条</a>
     </div>
     <p class="muted">每天自动筛选全球 AI 行业最值得看的 5 条新闻：官方发布、模型进展、产品实验、创业公司动态和有趣的新工具。</p>
@@ -67,7 +67,7 @@ const projects = [
   {latestResearch && (
     <section class="section">
       <div class="section-head">
-        <h2>Featured Research</h2>
+        <h2>精选投研</h2>
         <a class="section-link" href="/research/">进入投研</a>
       </div>
       <article class="research-card research-card-featured">
@@ -83,7 +83,7 @@ const projects = [
 
   <section class="section">
     <div class="section-head">
-      <h2>Projects</h2>
+      <h2>项目</h2>
       <a class="section-link" href="/projects/">全部项目</a>
     </div>
     <div class="project-grid">
@@ -102,12 +102,12 @@ const projects = [
 
   <section class="section">
     <div class="section-head">
-      <h2>Contact / Links</h2>
+      <h2>联系 / 链接</h2>
     </div>
     <div class="link-list">
       <a href="https://github.com/Forwt">GitHub</a>
-      <a href="/resume/">Resume</a>
-      <a href="/about/">About</a>
+      <a href="/resume/">简历</a>
+      <a href="/about/">关于</a>
     </div>
   </section>
 </BaseLayout>

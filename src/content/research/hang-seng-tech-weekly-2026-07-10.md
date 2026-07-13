@@ -2,7 +2,10 @@
 title: "恒生科技：便宜之后，等待盈利接棒"
 description: "过去一周的机构共识支持估值修复，但反弹能否升级为趋势行情，仍取决于 AI 商业化、平台盈利和国内需求。"
 pubDate: 2026-07-10
+lang: "zh"
+slug: "zh-hang-seng-tech-weekly-2026-07-10"
 routeSlug: "hang-seng-tech-weekly-2026-07-10"
+translationKey: "hang-seng-tech-weekly-2026-07-10"
 coverageStart: 2026-07-03
 coverageEnd: 2026-07-10
 subject: "恒生科技指数"
@@ -30,6 +33,7 @@ metrics:
     note: "指数集中度高，龙头盈利决定指数方向"
     tone: "neutral"
 draft: false
+aiTranslated: false
 ---
 
 ## 核心结论

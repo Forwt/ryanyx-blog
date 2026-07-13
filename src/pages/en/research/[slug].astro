@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const reports = await getCollection('research', ({ data }) => data.lang === 'zh' && data.draft !== true);
+  const reports = await getCollection('research', ({ data }) => data.lang === 'en' && data.draft !== true);
   return reports.map((report) => ({
     params: { slug: report.data.routeSlug },
     props: { report }
@@ -12,37 +12,34 @@ export async function getStaticPaths() {
 
 const { report } = Astro.props;
 const counterparts = await getCollection('research', ({ data }) =>
-  data.lang === 'en' && data.translationKey === report.data.translationKey && data.draft !== true
+  data.lang === 'zh' && data.translationKey === report.data.translationKey && data.draft !== true
 );
 const counterpart = counterparts[0];
 const { Content, headings } = await render(report);
 const toc = headings.filter((heading) => heading.depth === 2);
-const toneLabel = {
-  positive: '↑',
-  neutral: '•',
-  negative: '↓'
-};
+const toneLabel = { positive: '↑', neutral: '•', negative: '↓' };
 ---
 <BaseLayout
   title={report.data.title}
   description={report.data.description}
-  lang="zh"
+  lang="en"
   path="research"
-  switchTo={counterpart ? `/en/research/${counterpart.data.routeSlug}/` : '/en/research/'}
+  switchTo={counterpart ? `/research/${counterpart.data.routeSlug}/` : '/research/'}
   image={report.data.image}
   publishedTime={report.data.pubDate.toISOString()}
 >
   <article class="research-report">
     <header class="research-report-head">
-      <a class="research-back" href="/research/">← 投研目录</a>
+      <a class="research-back" href="/en/research/">← Research index</a>
       <div class="eyebrow">Research Note · {report.data.subject}</div>
       <h1>{report.data.title}</h1>
       <p class="lead">{report.data.description}</p>
+      {report.data.aiTranslated && <p class="translation-note">AI-translated from the Chinese original and editorially reviewed.</p>}
       <div class="research-meta-row">
-        <span>发布 {report.data.pubDate.toISOString().slice(0, 10)}</span>
-        <span>覆盖 {report.data.coverageStart.toISOString().slice(0, 10)} — {report.data.coverageEnd.toISOString().slice(0, 10)}</span>
-        <span>{report.data.reportCount} 份机构材料</span>
-        <span>{report.data.sourceCount} 个公开来源</span>
+        <span>Published {report.data.pubDate.toISOString().slice(0, 10)}</span>
+        <span>Coverage {report.data.coverageStart.toISOString().slice(0, 10)} — {report.data.coverageEnd.toISOString().slice(0, 10)}</span>
+        <span>{report.data.reportCount} institutional items</span>
+        <span>{report.data.sourceCount} public sources</span>
         <span>{report.data.readingTime}</span>
       </div>
       <div class="metric-grid">
@@ -58,8 +55,8 @@ const toneLabel = {
 
     <div class="research-layout">
       {toc.length > 0 && (
-        <aside class="research-toc" aria-label="报告目录">
-          <div class="research-toc-title">目录</div>
+        <aside class="research-toc" aria-label="Report contents">
+          <div class="research-toc-title">Contents</div>
           <nav>
             {toc.map((heading, index) => (
               <a href={`#${heading.slug}`}><span>{String(index + 1).padStart(2, '0')}</span>{heading.text}</a>
@@ -67,9 +64,7 @@ const toneLabel = {
           </nav>
         </aside>
       )}
-      <div class="research-prose prose">
-        <Content />
-      </div>
+      <div class="research-prose prose"><Content /></div>
     </div>
   </article>
 </BaseLayout>
