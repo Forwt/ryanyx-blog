@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-13T01:07:00.002Z",
+  "updatedAt": "2026-07-14T00:55:13.786Z",
   "timezone": "Asia/Shanghai",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29216723809",
+  "edition": "github-29297215786",
   "items": [
     {
       "rank": 1,
@@ -11,7 +11,7 @@
       "category": "Product",
       "publishedAt": "2026-01-19",
       "summary": "VentureBeat AI 关注了「Claude Code costs up to $200 a month. Goose does the same thing for free.」。原文要点：The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.",
-      "overview": "开源编码助手 Goose 以免费方案对标月费最高 200 美元的 Claude Code。",
+      "overview": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.",
       "links": [
         {
           "label": "原文",
@@ -26,12 +26,32 @@
     },
     {
       "rank": 2,
+      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-07-13",
+      "summary": "TechCrunch AI 关注了「Hermes agent maker Nous Research in talks for new funding at $1.5B valuation」。原文要点：The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "overview": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
+        }
+      ],
+      "tags": [
+        "agent",
+        "robot",
+        "funding"
+      ]
+    },
+    {
+      "rank": 3,
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
       "source": "VentureBeat AI",
       "category": "Product",
       "publishedAt": "2026-01-22",
       "summary": "VentureBeat AI 关注了「Railway secures $100 million to challenge AWS with AI-native cloud infrastructure」。原文要点：Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that i",
-      "overview": "AI 原生云平台 Railway 获得 1 亿美元融资，计划进一步挑战 AWS。",
+      "overview": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that i",
       "links": [
         {
           "label": "原文",
@@ -45,59 +65,42 @@
       ]
     },
     {
-      "rank": 3,
-      "title": "Show HN: Clark – AI assistant with own computer",
+      "rank": 4,
+      "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "source": "Hacker News AI",
       "category": "Product",
       "publishedAt": "2026-07-13",
-      "summary": "Hacker News AI 关注了「Show HN: Clark – AI assistant with own computer」。原文要点：Hey folks, I've been building Clark solo, with the aim to match Manus agent (I really like it!) in features and capabilities, but also in its relentless ability",
-      "overview": "独立开发者推出拥有独立电脑环境、对标 Manus 的 AI 助手 Clark。",
+      "summary": "Hacker News AI 关注了「Show HN: ContextVault – Shared memory layer for your AI and your team」。原文要点：Hi HN, I'm Kevin. I built ContextVault because I kept running into the same problem with AI tools.",
+      "overview": "Hi HN, I'm Kevin. I built ContextVault because I kept running into the same problem with AI tools.",
       "links": [
         {
           "label": "原文",
-          "url": "https://www.clarkchat.com/"
+          "url": "https://www.contextvault.dev/"
         }
       ],
       "tags": [
-        "agent",
-        "research"
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "OneDev AI: Coding Agents as Teammates in Issues, Pull Requests, and CI",
-      "source": "Hacker News AI",
-      "category": "Product",
-      "publishedAt": "2026-07-12",
-      "summary": "Hacker News AI 关注了「OneDev AI: Coding Agents as Teammates in Issues, Pull Requests, and CI」。原文要点：Article URL: https://onedev.io/blogs/ai-teammates Comments URL: https://news.ycombinator.com/item?id=48886055 Points: 3 # Comments: 0",
-      "overview": "OneDev 将编码智能体接入 Issue、Pull Request 和 CI 协作流程。",
-      "links": [
-        {
-          "label": "原文",
-          "url": "https://onedev.io/blogs/ai-teammates"
-        }
-      ],
-      "tags": [
-        "agent",
-        "agents"
+        "model",
+        "models",
+        "launch"
       ]
     },
     {
       "rank": 5,
-      "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
-      "source": "The Verge AI",
+      "title": "Uber&#8217;s product chief on hotels, robotaxis, and why the company doesn&#8217;t want to be &#8220;everything for everyone&#8221;",
+      "source": "TechCrunch AI",
       "category": "Product",
-      "publishedAt": "2026-07-12",
-      "summary": "The Verge AI 关注了「Apple’s failed self-driving car program left a legacy of powerful AI chips」。原文要点：Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are.",
-      "overview": "苹果已终止的自动驾驶项目，为其新一代高性能 AI 芯片留下了技术积累。",
+      "publishedAt": "2026-07-14",
+      "summary": "TechCrunch AI 关注了「Uber&#8217;s product chief on hotels, robotaxis, and why the company doesn&#8217;t want to be &#8220;everything for everyone&#8221;」。原文要点：Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Way",
+      "overview": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Way",
       "links": [
         {
           "label": "原文",
-          "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
+          "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
         }
       ],
       "tags": [
-        "chip"
+        "robot",
+        "product"
       ]
     }
   ]
