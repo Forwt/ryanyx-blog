@@ -12,7 +12,7 @@
   <g font-family="system-ui,-apple-system,'Noto Sans SC',sans-serif">
     <text x="72" y="82" fill="#4d6b61" font-size="18" font-weight="700" letter-spacing="3">RESEARCH NOTE · 1985—2026</text>
     <text x="72" y="140" fill="#111" font-size="48" font-weight="780">泡沫之后</text>
-    <text x="72" y="184" fill="#4d6b61" font-size="24">日本的三十年，与中国此刻的分岔口</text>
+    <text x="72" y="184" fill="#4d6b61" font-size="24">日本经验如何重写中国权益投资框架</text>
     <g filter="url(#shadow)">
       <rect x="72" y="248" width="228" height="118" rx="16" fill="#fff" stroke="#dce5e2"/>
       <rect x="365" y="248" width="228" height="118" rx="16" fill="#fff" stroke="#dce5e2"/>
@@ -30,7 +30,7 @@
     <text x="663" y="455" fill="#a44f4f" font-size="14">低增长预期反馈</text>
     <line x1="72" y1="514" x2="1128" y2="514" stroke="#d9e1de"/>
     <text x="72" y="556" fill="#111" font-size="18" font-weight="700">核心结论</text>
-    <text x="176" y="556" fill="#555" font-size="18">机制相似，不等于路径相同；关键在损失确认、居民收入与代际分配。</text>
+    <text x="176" y="556" fill="#555" font-size="18">机制相似，不等于路径相同；先做行业排序，再做权益下注。</text>
     <text x="72" y="594" fill="#888" font-size="13">RYANYX BLOG · 数据截至 2026-07-15 · 原创分析框架</text>
   </g>
 </svg>
