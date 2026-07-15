@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">泡沫之后：日本与中国的资产负债表调整</title>
+  <desc id="desc">资产价格、资产负债表、需求与社会预期之间的传导框架</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef3f1"/><stop offset="1" stop-color="#fafafa"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-opacity=".08"/></filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0l8 4-8 4z" fill="#77938a"/></marker>
+  </defs>
+  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <circle cx="1035" cy="112" r="158" fill="#dfe9e5" opacity=".55"/>
+  <circle cx="110" cy="580" r="190" fill="#f2dddd" opacity=".32"/>
+  <g font-family="system-ui,-apple-system,'Noto Sans SC',sans-serif">
+    <text x="72" y="82" fill="#4d6b61" font-size="18" font-weight="700" letter-spacing="3">RESEARCH NOTE · 1985—2026</text>
+    <text x="72" y="140" fill="#111" font-size="48" font-weight="780">泡沫之后</text>
+    <text x="72" y="184" fill="#4d6b61" font-size="24">日本的三十年，与中国此刻的分岔口</text>
+    <g filter="url(#shadow)">
+      <rect x="72" y="248" width="228" height="118" rx="16" fill="#fff" stroke="#dce5e2"/>
+      <rect x="365" y="248" width="228" height="118" rx="16" fill="#fff" stroke="#dce5e2"/>
+      <rect x="658" y="248" width="228" height="118" rx="16" fill="#fff" stroke="#dce5e2"/>
+      <rect x="951" y="248" width="177" height="118" rx="16" fill="#fff" stroke="#dce5e2"/>
+    </g>
+    <g fill="#111" font-size="21" font-weight="700" text-anchor="middle">
+      <text x="186" y="296">资产价格下跌</text><text x="479" y="296">资产负债表修复</text><text x="772" y="296">需求与价格转弱</text><text x="1039" y="296">制度重组</text>
+    </g>
+    <g fill="#777" font-size="15" text-anchor="middle">
+      <text x="186" y="329">房产 · 土地 · 股票</text><text x="479" y="329">家庭 · 企业 · 银行 · 地方</text><text x="772" y="329">投资 · 消费 · 工资</text><text x="1039" y="329">就业 · 婚育 · 文化</text>
+    </g>
+    <g stroke="#77938a" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M300 307h55"/><path d="M593 307h55"/><path d="M886 307h55"/></g>
+    <path d="M771 382c0 93-157 120-285 44" fill="none" stroke="#a44f4f" stroke-width="2.5" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+    <text x="663" y="455" fill="#a44f4f" font-size="14">低增长预期反馈</text>
+    <line x1="72" y1="514" x2="1128" y2="514" stroke="#d9e1de"/>
+    <text x="72" y="556" fill="#111" font-size="18" font-weight="700">核心结论</text>
+    <text x="176" y="556" fill="#555" font-size="18">机制相似，不等于路径相同；关键在损失确认、居民收入与代际分配。</text>
+    <text x="72" y="594" fill="#888" font-size="13">RYANYX BLOG · 数据截至 2026-07-15 · 原创分析框架</text>
+  </g>
+</svg>
