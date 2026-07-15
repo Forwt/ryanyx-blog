@@ -13,16 +13,27 @@ const formatter = new Intl.DateTimeFormat('zh-CN', {
 
 const updatedAt = formatter.format(new Date(news.updatedAt));
 const items = [...news.items].sort((a, b) => a.rank - b.rank);
+const categoryLabels = {
+  Product: '产品',
+  Model: '模型',
+  Infrastructure: '基础设施',
+  Business: '商业',
+  Policy: '政策',
+  Industry: '行业'
+};
 ---
-<BaseLayout title="AI News" description="每天 5 条全球 AI 行业新闻摘要。" lang="zh" path="ai-news">
+<BaseLayout title="AI 资讯" description="每天 5 条过去 72 小时内的全球 AI 行业新闻，提供中英文双语摘要。" lang="zh" path="ai-news">
   <section class="page-head ai-news-head">
     <div class="eyebrow">AI News Agent</div>
     <h1>每天 5 条全球 AI 行业新闻</h1>
-    <p class="lead">自动抓取官方博客、主流科技媒体和有趣的产品动态，筛出当天最值得看的 AI 新闻，并给出短总结和相关链接。</p>
+    <p class="lead">只收录过去 72 小时内、通过 AI 相关性和新闻价值筛选的内容。每条新闻都有中文摘要、英文原文标题和相关链接。</p>
     <div class="ai-news-meta">
       <span>最近更新：{updatedAt}</span>
       <span>时区：{news.timezone}</span>
+      <span>时间窗口：过去 {news.freshnessHours || 72} 小时</span>
+      <a class="ai-news-language" href="/en/ai-news/">English version</a>
     </div>
+    {news.translationMode === 'fallback' && <p class="ai-news-note">本期未配置 AI 翻译密钥，中文部分使用降级摘要；配置 `OPENAI_API_KEY` 后会自动生成完整双语编辑稿。</p>}
   </section>
 
   <section class="ai-news-list" aria-label="AI industry news">
@@ -32,20 +43,26 @@ const items = [...news.items].sort((a, b) => a.rank - b.rank);
         <div class="ai-news-body">
           <div class="ai-news-kicker">
             <span>{item.source}</span>
-            <span>{item.category}</span>
+            <span>{categoryLabels[item.category] || item.category}</span>
             <span>{item.publishedAt}</span>
           </div>
-          <h2>{item.title}</h2>
-          <p>{item.summary}</p>
+          <h2>{item.titleZh}</h2>
+          <p>{item.summaryZh}</p>
           <div class="ai-news-why">
-            <strong>简要概述：</strong>{item.overview}
+            <strong>简要概述：</strong>{item.overviewZh}
+          </div>
+          <div class="ai-news-english">
+            <div class="ai-news-translation-label">English</div>
+            <h3>{item.titleEn}</h3>
+            <p>{item.summaryEn}</p>
+            <div class="ai-news-why"><strong>Overview:</strong> {item.overviewEn}</div>
           </div>
           <div class="tags">
             {item.tags.map((tag) => <span class="tag">{tag}</span>)}
           </div>
           <div class="ai-news-links">
             {item.links.map((link) => (
-              <a href={link.url} target="_blank" rel="noreferrer">{link.label}</a>
+              <a href={link.url} target="_blank" rel="noreferrer">{link.labelZh || '阅读原文'}</a>
             ))}
           </div>
         </div>

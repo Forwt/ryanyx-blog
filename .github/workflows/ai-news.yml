@@ -2,8 +2,12 @@ name: Update AI news
 
 on:
   schedule:
-    - cron: '30 23 * * *'
+    - cron: '15 23 * * *'
   workflow_dispatch:
+
+concurrency:
+  group: ai-news-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -11,15 +15,23 @@ permissions:
 jobs:
   update-ai-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout blog
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm run news:update
+      - name: Fetch, filter, translate, and write news
+        run: npm run news:update
         env:
+          AI_NEWS_MAX_AGE_HOURS: '72'
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+      - name: Verify news snapshot
+        run: node -e "const fs=require('fs'); const data=JSON.parse(fs.readFileSync('src/data/ai-news.json','utf8')); if(data.items.length !== 5) throw new Error('Expected exactly 5 news items'); if(data.freshnessHours !== 72) throw new Error('Freshness window must be 72 hours'); console.log('Verified 5 fresh AI news items; translation mode:', data.translationMode);"
       - name: Commit updated news
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

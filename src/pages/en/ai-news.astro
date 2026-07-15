@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import news from '../../data/ai-news.json';
+
+const formatter = new Intl.DateTimeFormat('en-US', {
+  timeZone: news.timezone || 'Asia/Shanghai',
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit'
+});
+
+const updatedAt = formatter.format(new Date(news.updatedAt));
+const items = [...news.items].sort((a, b) => a.rank - b.rank);
+---
+<BaseLayout title="AI News" description="Five fresh AI industry news stories from the past 72 hours, with bilingual summaries." lang="en" path="ai-news">
+  <section class="page-head ai-news-head">
+    <div class="eyebrow">AI News Agent</div>
+    <h1>Five AI industry stories, every day</h1>
+    <p class="lead">Only stories published within the past 72 hours and passing the AI relevance and news-value filters are included. Each item has an English summary, a Chinese translation, and source links.</p>
+    <div class="ai-news-meta">
+      <span>Updated: {updatedAt}</span>
+      <span>Timezone: {news.timezone}</span>
+      <span>Freshness window: {news.freshnessHours || 72} hours</span>
+      <a class="ai-news-language" href="/ai-news/">中文版</a>
+    </div>
+    {news.translationMode === 'fallback' && <p class="ai-news-note">This edition ran without an AI translation key, so Chinese copy uses the fallback editor. Set `OPENAI_API_KEY` for full bilingual editing on the next run.</p>}
+  </section>
+
+  <section class="ai-news-list" aria-label="AI industry news">
+    {items.map((item) => (
+      <article class="ai-news-item">
+        <div class="ai-news-rank">{String(item.rank).padStart(2, '0')}</div>
+        <div class="ai-news-body">
+          <div class="ai-news-kicker">
+            <span>{item.source}</span>
+            <span>{item.category}</span>
+            <span>{item.publishedAt}</span>
+          </div>
+          <h2>{item.titleEn}</h2>
+          <p>{item.summaryEn}</p>
+          <div class="ai-news-why"><strong>Overview:</strong> {item.overviewEn}</div>
+          <div class="ai-news-english ai-news-chinese">
+            <div class="ai-news-translation-label">中文摘要</div>
+            <h3>{item.titleZh}</h3>
+            <p>{item.summaryZh}</p>
+            <div class="ai-news-why"><strong>简要概述：</strong>{item.overviewZh}</div>
+          </div>
+          <div class="tags">
+            {item.tags.map((tag) => <span class="tag">{tag}</span>)}
+          </div>
+          <div class="ai-news-links">
+            {item.links.map((link) => (
+              <a href={link.url} target="_blank" rel="noreferrer">{link.labelEn || 'Read source'}</a>
+            ))}
+          </div>
+        </div>
+      </article>
+    ))}
+  </section>
+</BaseLayout>
