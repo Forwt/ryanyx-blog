@@ -1,120 +1,120 @@
 {
-  "updatedAt": "2026-07-15T01:33:03.233Z",
+  "updatedAt": "2026-07-16T00:10:19.025Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "local",
+  "edition": "github-29460681085",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 研究员 Miles Wang 正在洽谈创办估值 20 亿美元的人工智能药物发现初创公司",
-      "titleEn": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "titleZh": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
+      "titleEn": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
       "source": "TechCrunch AI",
-      "category": "Business",
+      "category": "Product",
       "publishedAt": "2026-07-15",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：融资讨论表明投资者对应用人工智能在生命科学领域取得突破的兴趣。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 研究员 Miles Wang 正在洽谈创办估值 20 亿美元的 AI 药物发现初创公司”的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B”.",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：OpenAI 正与苹果就硬件贸易盗窃指控展开法律诉讼，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+      "overviewZh": "TechCrunch AI 发布了有关“在硬件法律斗争中，OpenAI 为 Codex 发布了 230 美元键盘”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/"
+          "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"
         }
       ],
       "tags": [
-        "Products",
-        "Business"
+        "Agents",
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "为什么每瓦性能是人工智能基础设施效率的最终指标",
-      "titleEn": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "titleZh": "NVIDIA 推出全新 Jetson Thor 计算机以推进主流机器人技术和边缘 AI",
+      "titleEn": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
       "source": "NVIDIA Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-07-14",
-      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。来源要点：算力是AI基础设施不可避免的制约因素。",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: Power is AI infrastructure’s inescapable constraint.",
-      "overviewZh": "NVIDIA 博客发布了有关“为什么每瓦性能是 AI 基础设施效率的终极指标”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency”.",
+      "category": "Industry",
+      "publishedAt": "2026-07-15",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：通用机器人和自主机器正在从研究实验室转向现实世界的大众市场部署，创造了对紧凑、节能的人工智能超级计算机的需求",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers ca",
+      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 推出新型 Jetson Thor 计算机以推进主流机器人和边缘 AI”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/"
+          "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/"
         }
       ],
       "tags": [
-        "AI"
+        "Robotics"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "OpenAI 今年可能会推出 ChatGPT 智能音箱",
-      "titleEn": "OpenAI may announce a ChatGPT smart speaker this year",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-14",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：据彭博社报道，OpenAI 的第一款设备将是一款智能扬声器，可以让你与 ChatGPT 交谈。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 今年可能会推出 ChatGPT 智能音箱”的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI may announce a ChatGPT smart speaker this year”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Anthony Albanese 承诺快速批准数据中心以支持人工智能投资AI（人工智能）-卫报",
-      "titleEn": "Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment | AI (artificial intelligence) - The Guardian",
+      "titleZh": "认识 GPT-Red：一个 LLM 超级黑客 OpenAI，旨在使其模型更安全 - 麻省理工学院技术评论",
+      "titleEn": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer - MIT Technology Review",
       "source": "Google News AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-14",
-      "summaryZh": "Google News AI 报道了人工智能的行业发展。消息来源要点：Anthony Albanese 承诺快速批准数据中心以支持人工智能投资 | AI（人工智能）《卫报》",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment | AI (artificial intelligence) &nbsp;&nbsp; The Guardian",
-      "overviewZh": "Google News AI 发布了有关“Anthony Albanese 承诺快速批准数据中心以支持 AI 投资 | AI（人工智能）- 卫报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment | AI (artificial intelligence) - The Guardian”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMHFsVkpkbTV3bFllZWJxSENQNGU1QVQySnR1Mzc0alJTcWJPQV9VdTR2SUlRdVhoTGJrMEZ4YlVaSGdMb19YdDU4dU51MVpBTkY4aVlaWXdCT2d0LTN5NlZadzlKS1Y5ZzViamFHR3VLSzR1V3Jnbzd2VGpUUmtCdWlxdXJiSzJ3b3U2WHc1UHZrVEd0bE5hbTVJYTdwbkVrOFQ5VXF2RS0zeUVnbUNiV0FwaGZwTktsS2pXd3Bmd3cwTmpZVndLZFZCV3Ytbm15aG5Zb2VR?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "人们不断警告 OpenAI 新旗舰机型会自行删除文件",
-      "titleEn": "OpenAI’s new flagship model deletes files on its own, people keep warning",
-      "source": "TechCrunch AI",
       "category": "Model",
-      "publishedAt": "2026-07-14",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：许多社交媒体帖子声称 GPT-5.6 Sol 在没有警告的情况下删除了文件和数据。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 新旗舰模型自行删除文件，人们不断发出警告”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI’s new flagship model deletes files on its own, people keep warning”.",
+      "publishedAt": "2026-07-15",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：认识 GPT-Red：LLM 超级黑客 OpenAI 旨在使其模型更安全 麻省理工学院技术评论",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer &nbsp;&nbsp; MIT Technology Review",
+      "overviewZh": "Google News AI 发布了有关“认识 GPT-Red：LLM 超级黑客 OpenAI 旨在使其模型更安全 - 麻省理工学院技术评论”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer - MIT Technology Review”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaEZNa3ZZZUpGMGRLajIyY2pLTjduZmhTVHp1Q0VkNEl0X0lGVUs3aXRfb1lrRjlWSS1IckF0MV80X0Rxb2o0MU1VbU8zVVlNMElnOWhjdGp4Zlp3ZkRuOGlodnpwZmhJOWpvYnB6WVd0OXhnR2J1MHlFWUZ0ZlJ1cUpWTjFkMU1qV0JzZFBDZUVMRTFoVzhSZWNRWXZVTFdxRk1HMFhUYlpRQkRNdnZGNWFiS0h5VVFCNlNzMlRrdV_SAcYBQVVfeXFMTWtlMlUwMFM4STZCMTRXVlg5VngxWU04cVRndWRmdlRhWTM3aV9ZUHB1TFNSa0hpTmpQUFltTTc4ZGhFMFhNNTVYdGRHLTRFbUo3Qm9JaE8xZGktVTh2LUhGMU55QWQ0WWRmY1NSdm45a0JWbXptZ0NBYWgzTV9UQ0N0ZzBveUVoQ2VRZnc4V3VCYTMyUlVhSk9sMG1xR1hYMnZLUmUzbmZZOFllQ1dET1FTTHRCMGpIQWhtQXRqSmtYZWdBS2R3?oc=5"
         }
       ],
       "tags": [
         "Models"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "OpenAI 终于为 Codex 推出了硬件",
+      "titleEn": "OpenAI finally launches hardware… for Codex",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-07-15",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。来源要点：OpenAI 终于发布了一些硬件。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: OpenAI is finally releasing some hardware.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 终于为 Codex 推出硬件”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI finally launches hardware… for Codex”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "美国正在通过州和联邦行动推进人工智能安全",
+      "titleEn": "The US is advancing AI safety through state and federal action",
+      "source": "OpenAI Blog",
+      "category": "Policy",
+      "publishedAt": "2026-07-15",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 概述了人工智能治理的“反向联邦制”方法，其中州法律帮助建立安全、民主人工智能的国家框架。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "overviewZh": "OpenAI 博客发布了有关“美国正在通过州和联邦行动推进人工智能安全”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “The US is advancing AI safety through state and federal action”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
+        }
+      ],
+      "tags": [
+        "AI"
       ]
     }
   ]
