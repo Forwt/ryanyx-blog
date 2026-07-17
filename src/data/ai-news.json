@@ -1,36 +1,58 @@
 {
-  "updatedAt": "2026-07-16T00:10:19.025Z",
+  "updatedAt": "2026-07-17T00:12:44.300Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29460681085",
+  "edition": "github-29544134830",
   "items": [
     {
       "rank": 1,
-      "titleZh": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "titleEn": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-07-15",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：OpenAI 正与苹果就硬件贸易盗窃指控展开法律诉讼，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
-      "overviewZh": "TechCrunch AI 发布了有关“在硬件法律斗争中，OpenAI 为 Codex 发布了 230 美元键盘”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex”.",
+      "titleZh": "代理评估差距：企业人工智能组织存在现实一致性问题，而不是覆盖范围问题——而且大多数都已投入生产",
+      "titleEn": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+      "source": "VentureBeat AI",
+      "category": "Business",
+      "publishedAt": "2026-07-16",
+      "summaryZh": "VentureBeat AI 报告了人工智能领域的业务发展。消息来源的要点：在 157 家企业中，组织正在授予人工智能代理更多的自主权，同时信任旨在减少自主权的评估。",
+      "summaryEn": "VentureBeat AI reports a business development in AI. Key point from the source: Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less.",
+      "overviewZh": "VentureBeat AI 发布了关于“代理评估差距：企业人工智能组织存在现实一致性问题，而不是覆盖问题——而且大多数都已投入生产”的最新更新。",
+      "overviewEn": "VentureBeat AI published a new update about “The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"
+          "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway"
         }
       ],
       "tags": [
-        "Agents",
-        "Products"
+        "Agents"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "前 DeepMind 研究员如何在推出产品之前筹集 3 亿美元的种子前估值",
+      "titleEn": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "source": "TechCrunch AI",
+      "category": "Business",
+      "publishedAt": "2026-07-16",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。来源要点：Andrew Dai 表示，凭借十多年来帮助构建一些世界上最有影响力的人工智能系统的经验，包括后来为 ChatGPT 的开发提供信息的研究",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai exp",
+      "overviewZh": "TechCrunch AI 发布了有关“前 DeepMind 研究员如何在推出产品之前筹集 3 亿美元种子前估值”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
+        }
+      ],
+      "tags": [
+        "Products",
+        "Business"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "NVIDIA 推出全新 Jetson Thor 计算机以推进主流机器人技术和边缘 AI",
       "titleEn": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
       "source": "NVIDIA Blog",
@@ -52,69 +74,48 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "认识 GPT-Red：一个 LLM 超级黑客 OpenAI，旨在使其模型更安全 - 麻省理工学院技术评论",
-      "titleEn": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer - MIT Technology Review",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-07-15",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：认识 GPT-Red：LLM 超级黑客 OpenAI 旨在使其模型更安全 麻省理工学院技术评论",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer &nbsp;&nbsp; MIT Technology Review",
-      "overviewZh": "Google News AI 发布了有关“认识 GPT-Red：LLM 超级黑客 OpenAI 旨在使其模型更安全 - 麻省理工学院技术评论”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer - MIT Technology Review”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaEZNa3ZZZUpGMGRLajIyY2pLTjduZmhTVHp1Q0VkNEl0X0lGVUs3aXRfb1lrRjlWSS1IckF0MV80X0Rxb2o0MU1VbU8zVVlNMElnOWhjdGp4Zlp3ZkRuOGlodnpwZmhJOWpvYnB6WVd0OXhnR2J1MHlFWUZ0ZlJ1cUpWTjFkMU1qV0JzZFBDZUVMRTFoVzhSZWNRWXZVTFdxRk1HMFhUYlpRQkRNdnZGNWFiS0h5VVFCNlNzMlRrdV_SAcYBQVVfeXFMTWtlMlUwMFM4STZCMTRXVlg5VngxWU04cVRndWRmdlRhWTM3aV9ZUHB1TFNSa0hpTmpQUFltTTc4ZGhFMFhNNTVYdGRHLTRFbUo3Qm9JaE8xZGktVTh2LUhGMU55QWQ0WWRmY1NSdm45a0JWbXptZ0NBYWgzTV9UQ0N0ZzBveUVoQ2VRZnc4V3VCYTMyUlVhSk9sMG1xR1hYMnZLUmUzbmZZOFllQ1dET1FTTHRCMGpIQWhtQXRqSmtYZWdBS2R3?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "OpenAI 终于为 Codex 推出了硬件",
-      "titleEn": "OpenAI finally launches hardware… for Codex",
+      "titleZh": "Claude 现在可以为您使用您的 1Password 凭据",
+      "titleEn": "Claude can now use your 1Password credentials for you",
       "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-07-15",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。来源要点：OpenAI 终于发布了一些硬件。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: OpenAI is finally releasing some hardware.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 终于为 Codex 推出硬件”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI finally launches hardware… for Codex”.",
+      "category": "Policy",
+      "publishedAt": "2026-07-16",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：1Password 为 Claude 推出了新的浏览器集成，允许 Anthropic 聊天机器人访问存储的安全凭证，例如用户名和密码。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: 1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords.",
+      "overviewZh": "The Verge AI 发布了有关“Claude 现在可以为您使用您的 1Password 凭据”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “Claude can now use your 1Password credentials for you”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch"
+          "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration"
         }
       ],
       "tags": [
+        "Models",
         "Products"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "美国正在通过州和联邦行动推进人工智能安全",
-      "titleEn": "The US is advancing AI safety through state and federal action",
-      "source": "OpenAI Blog",
+      "titleZh": "OpenAI 推出 GPT-Red 测试 AI 模型安全性",
+      "titleEn": "OpenAI Unveils GPT-Red to Test AI Model Safety - AI Business",
+      "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-07-15",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 概述了人工智能治理的“反向联邦制”方法，其中州法律帮助建立安全、民主人工智能的国家框架。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "overviewZh": "OpenAI 博客发布了有关“美国正在通过州和联邦行动推进人工智能安全”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “The US is advancing AI safety through state and federal action”.",
+      "publishedAt": "2026-07-16",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 推出 GPT-Red 测试 AI 模型安全性",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI Unveils GPT-Red to Test AI Model Safety &nbsp;&nbsp; AI Business",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 推出 GPT-Red 测试 AI 模型安全性 - AI Business”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI Unveils GPT-Red to Test AI Model Safety - AI Business”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjVmoxcmdEbHdEWTktMHJGRmdiTGx1UG5VbDJEeWRkcUU0dnZIaVZmMUstLThULWczcUtiLWltNTMwZ3AwNi1hNU1GV0F2MWMxVkdWLUlmMmR0Nkx0Umlib0V4Q01yNXB4R1BEQWxTbUF1Y0xiWlNGNkluczJ3SnM?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
