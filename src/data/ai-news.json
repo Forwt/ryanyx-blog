@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-17T00:12:44.300Z",
+  "updatedAt": "2026-07-18T00:10:02.549Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29544134830",
+  "edition": "github-29622470887",
   "items": [
     {
       "rank": 1,
@@ -53,69 +53,70 @@
     },
     {
       "rank": 3,
-      "titleZh": "NVIDIA 推出全新 Jetson Thor 计算机以推进主流机器人技术和边缘 AI",
-      "titleEn": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
-      "source": "NVIDIA Blog",
+      "titleZh": "人工智能时代的记分卡",
+      "titleEn": "A scorecard for the AI age",
+      "source": "OpenAI Blog",
       "category": "Industry",
-      "publishedAt": "2026-07-15",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：通用机器人和自主机器正在从研究实验室转向现实世界的大众市场部署，创造了对紧凑、节能的人工智能超级计算机的需求",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers ca",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 推出新型 Jetson Thor 计算机以推进主流机器人和边缘 AI”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI”.",
+      "publishedAt": "2026-07-17",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 首席财务官 Sarah Friar 介绍了一种实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "overviewZh": "OpenAI 博客发布了有关“AI 时代的记分卡”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “A scorecard for the AI age”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/"
+          "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
         }
       ],
       "tags": [
-        "Robotics"
+        "AI"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "Claude 现在可以为您使用您的 1Password 凭据",
-      "titleEn": "Claude can now use your 1Password credentials for you",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-07-16",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：1Password 为 Claude 推出了新的浏览器集成，允许 Anthropic 聊天机器人访问存储的安全凭证，例如用户名和密码。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: 1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords.",
-      "overviewZh": "The Verge AI 发布了有关“Claude 现在可以为您使用您的 1Password 凭据”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “Claude can now use your 1Password credentials for you”.",
+      "titleZh": "NVIDIA Vera Rubin 最大限度地提高训练后工作负载的每美元的智能 — 这是代理 AI 的一个关键指标",
+      "titleEn": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
+      "publishedAt": "2026-07-17",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：极端协同设计中的每个代币成本最低，可以最大限度地提高代理时代后期培训的每美元的智能。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA Vera Rubin 最大限度地提高训练后工作负载的每美元智能——代理 AI 的关键指标”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration"
+          "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Agents"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "OpenAI 推出 GPT-Red 测试 AI 模型安全性",
-      "titleEn": "OpenAI Unveils GPT-Red to Test AI Model Safety - AI Business",
+      "titleZh": "克劳德 (Claude) 成为我们的人工智能产品副总裁。我们以 14 美元的价格将 Marketo 搬迁了 10 年。我们的代理在一小时内杀死了一款价值 1 万美元的应用程序：The Agents #010 - saastr.com",
+      "titleEn": "Claude Became Our AI VP of Product. We Moved 10 Years Off Marketo for $14. Our Agent Killed a $10K App in an Hour: The Agents #010 - saastr.com",
       "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-07-16",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 推出 GPT-Red 测试 AI 模型安全性",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI Unveils GPT-Red to Test AI Model Safety &nbsp;&nbsp; AI Business",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 推出 GPT-Red 测试 AI 模型安全性 - AI Business”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI Unveils GPT-Red to Test AI Model Safety - AI Business”.",
+      "category": "Product",
+      "publishedAt": "2026-07-17",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源要点：Claude 成为我们的 AI 产品副总裁。我们以 14 美元的价格将 Marketo 搬迁了 10 年。",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Claude Became Our AI VP of Product. We Moved 10 Years Off Marketo for $14.",
+      "overviewZh": "Google News AI 发布了有关“Claude 成为我们的 AI 产品副总裁。我们以 14 美元的价格离开 Marketo 10 年。我们的代理在一小时内杀死了一款价值 1 万美元的应用程序：The Agents #010 - saastr.com”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Claude Became Our AI VP of Product. We Moved 10 Years Off Marketo for $14. Our Agent Killed a $10K App in an Hour: The Agents #010 - saastr.com”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjVmoxcmdEbHdEWTktMHJGRmdiTGx1UG5VbDJEeWRkcUU0dnZIaVZmMUstLThULWczcUtiLWltNTMwZ3AwNi1hNU1GV0F2MWMxVkdWLUlmMmR0Nkx0Umlib0V4Q01yNXB4R1BEQWxTbUF1Y0xiWlNGNkluczJ3SnM?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNDlsLWUxcHNoYnZ3cmxBTEtPX2N3bkxxRmxaTm1jRjNwbWU4NHhGQUpvUll3aU5nS0JGM2dNU1d4d0ZHZDBTWHFWZDIyMjhSUFloS0dNZkxFUjBGY2k1NUhyeGlnQW5SU3F4UGgxa21ZMjVsd3dvY0MxRkR2bnJ1RjNBdUdMSDFFUzVUZThWdmRYSDJBdVBoVFI2VW1UMDYyVzZMaGhxa0ZkZEhhRmMzQ0tJYnFOeURzR3hlQVJlMDNwdk5WZmd5R1ZMR2ZKWFJBV2pDTnNxSF9FaXN0c0w1ZGZn?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "Agents",
+        "Models",
+        "Products"
       ]
     }
   ]
