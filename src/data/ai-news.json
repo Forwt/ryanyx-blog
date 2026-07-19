@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-18T00:10:02.549Z",
+  "updatedAt": "2026-07-19T00:10:36.637Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29622470887",
+  "edition": "github-29666504411",
   "items": [
     {
       "rank": 1,
@@ -97,24 +97,23 @@
     },
     {
       "rank": 5,
-      "titleZh": "克劳德 (Claude) 成为我们的人工智能产品副总裁。我们以 14 美元的价格将 Marketo 搬迁了 10 年。我们的代理在一小时内杀死了一款价值 1 万美元的应用程序：The Agents #010 - saastr.com",
-      "titleEn": "Claude Became Our AI VP of Product. We Moved 10 Years Off Marketo for $14. Our Agent Killed a $10K App in an Hour: The Agents #010 - saastr.com",
+      "titleZh": "中国人工智能登月计划发布模型挑战美国顶级系统 - 华尔街日报",
+      "titleEn": "China’s Moonshot AI Releases Model to Challenge Top U.S. Systems - WSJ",
       "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-07-17",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源要点：Claude 成为我们的 AI 产品副总裁。我们以 14 美元的价格将 Marketo 搬迁了 10 年。",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Claude Became Our AI VP of Product. We Moved 10 Years Off Marketo for $14.",
-      "overviewZh": "Google News AI 发布了有关“Claude 成为我们的 AI 产品副总裁。我们以 14 美元的价格离开 Marketo 10 年。我们的代理在一小时内杀死了一款价值 1 万美元的应用程序：The Agents #010 - saastr.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Claude Became Our AI VP of Product. We Moved 10 Years Off Marketo for $14. Our Agent Killed a $10K App in an Hour: The Agents #010 - saastr.com”.",
+      "category": "Model",
+      "publishedAt": "2026-07-18",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：中国人工智能登月模型发布挑战美国顶尖",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: China’s Moonshot AI Releases Model to Challenge Top U.S.",
+      "overviewZh": "谷歌新闻人工智能发布了关于“中国的登月人工智能发布模型挑战美国顶级系统 - 华尔街日报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “China’s Moonshot AI Releases Model to Challenge Top U.S. Systems - WSJ”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNDlsLWUxcHNoYnZ3cmxBTEtPX2N3bkxxRmxaTm1jRjNwbWU4NHhGQUpvUll3aU5nS0JGM2dNU1d4d0ZHZDBTWHFWZDIyMjhSUFloS0dNZkxFUjBGY2k1NUhyeGlnQW5SU3F4UGgxa21ZMjVsd3dvY0MxRkR2bnJ1RjNBdUdMSDFFUzVUZThWdmRYSDJBdVBoVFI2VW1UMDYyVzZMaGhxa0ZkZEhhRmMzQ0tJYnFOeURzR3hlQVJlMDNwdk5WZmd5R1ZMR2ZKWFJBV2pDTnNxSF9FaXN0c0w1ZGZn?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcVNJNC1WR1VUN20tQWdWVHhXNU9DSUR4U2N2ZndVMDlGSEl4SW9HQkIyaTgyRFZWZHlGeWVZaE1nY250SkpPTGw1YmxlWFhDeDZ4WWQ4VHpQcHdVQ2JmM1E3QzZuZmwtTWhHV3hDYXc3MnVHcEhYQkpxX3lIRF94ZGZDWTFTRmcyRnFqamkyMWI4WDFaRVV1YWJITW15RXJL?oc=5"
         }
       ],
       "tags": [
-        "Agents",
         "Models",
         "Products"
       ]
