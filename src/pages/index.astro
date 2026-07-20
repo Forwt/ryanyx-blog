@@ -11,6 +11,13 @@ const latestResearch = (await getCollection('research', ({ data }) => data.lang 
 
 const projects = [
   {
+    name: 'AlphaOS 智能投研系统',
+    summary: '围绕基煜基金机构服务场景设计的 AI 基金投研工作台，连接基金一页纸、内部资料 RAG、多 Agent 投委会和投资记忆。',
+    stack: ['Multi-Agent', 'RAG', 'FinTech'],
+    status: 'Live',
+    href: '/projects/alphaos/'
+  },
+  {
     name: '一句话记账',
     summary: '自然语言记账与分账工具，把日常消费记录变成轻量、可复盘的数据。',
     stack: ['AI', 'Personal finance', 'Tooling'],

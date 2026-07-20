@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="AlphaOS Investment Research" description="An AI fund-research and decision workspace designed around institutional fund-service workflows." lang="en" path="projects" switchTo="/projects/alphaos/">
+  <article class="prose">
+    <div class="eyebrow">Project / Live</div>
+    <h1>AlphaOS Investment Research</h1>
+    <p class="lead">An AI fund-research workspace designed and implemented around Jiyu Fund’s institutional-service context, connecting fund screening, research one-pagers, internal-material RAG, a multi-agent investment committee, and decision memory in one traceable workflow.</p>
+
+    <div class="link-list">
+      <a href="https://alphaos.wangyx28.workers.dev/" target="_blank" rel="noreferrer">Open live demo ↗</a>
+    </div>
+
+    <div class="metric-grid">
+      <div class="metric-card">
+        <div class="metric-label">Committee roles</div>
+        <div class="metric-value">5 seats</div>
+        <div class="metric-note">Independent review, cross-examination, chair synthesis</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Evidence layers</div>
+        <div class="metric-value">3 layers</div>
+        <div class="metric-note">Public facts, internal materials, recent news</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Macro evidence</div>
+        <div class="metric-value">30 items</div>
+        <div class="metric-note">Eight economic and social dimensions</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Research loop</div>
+        <div class="metric-value">Traceable</div>
+        <div class="metric-note">Research, debate, decisions, and review share one record</div>
+      </div>
+    </div>
+
+    <h2>Context</h2>
+    <p>Institutional fund research rarely suffers from a lack of information. The harder problem is turning public data, internal roadshow notes, manager due diligence, portfolio constraints, and committee debate into a process that can be reviewed later. AlphaOS does not place trades or replace human authorization; it helps research and allocation teams determine who runs a fund, whether its style is stable, what drives return and drawdown, and which conclusions still require verification.</p>
+
+    <h2>Core Products</h2>
+    <h3>Fund One-Pager</h3>
+    <p>Enter a fund name or code to assemble NAV performance, peer and benchmark comparisons, risk metrics, managers, allocation, size, holder structure, and quarterly holdings. A-share positions can be opened as linked company and industry research pages.</p>
+
+    <h3>Internal-Material RAG</h3>
+    <p>Roadshow notes, due-diligence records, and product materials are cleaned, chunked, and indexed. Relevant passages are retrieved by fund, manager, and holdings, but remain visibly separated from public facts. Every retrieval keeps its source and usage record; retrieval is evidence discovery, not automatic acceptance.</p>
+
+    <h3>Multi-Agent Fund Committee</h3>
+    <p>Five seats cover performance attribution, manager and organization, holdings and style, risk and holders, and portfolio and product fit. Each seat may cite evidence only within its mandate. After cross-examination, the chair produces a fund-pool process recommendation, conditions for progress, stop lines, and a review date.</p>
+
+    <h3>Macro, Portfolio, and Decision Memory</h3>
+    <p>The macro workspace organizes 30 indicators into balanced scenarios; portfolio calibration focuses on policy drift, risk usage, liquidity, and small adjustments; decision memory records assumptions, human confirmation, final conclusions, and later outcomes.</p>
+
+    <h2>My Work</h2>
+    <p>I moved the concept from a generic “AI stock-research assistant” toward an institutional fund-research workspace, defining the user context, information architecture, research workflows, multi-agent protocol, and RAG evidence model. I then carried the concept through interaction design, full-stack implementation, production deployment, and end-to-end validation with real public fund, company, and industry data.</p>
+
+    <h2>Technology</h2>
+    <div class="tags">
+      <span class="tag">React</span>
+      <span class="tag">TypeScript</span>
+      <span class="tag">Cloudflare Workers</span>
+      <span class="tag">Cloudflare D1</span>
+      <span class="tag">DeepSeek</span>
+      <span class="tag">Multi-Agent</span>
+      <span class="tag">RAG</span>
+    </div>
+
+    <h2>Current Boundaries</h2>
+    <p>This is a working product prototype designed around Jiyu Fund’s institutional-service context; it is not an official Jiyu Fund system. Public fund data and demonstration snapshots support research drafting only and do not constitute fund ratings, investment advice, or subscription and redemption instructions. Internal APIs, live holdings, authorization controls, and licensed databases would require formal access and compliance review.</p>
+
+    <p><a href="/en/projects/">← Back to projects</a></p>
+  </article>
+</BaseLayout>
+

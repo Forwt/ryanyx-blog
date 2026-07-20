@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="AlphaOS 智能投研系统" description="围绕基煜基金机构服务场景设计的 AI 基金投研与决策工作台。" lang="zh" path="projects" switchTo="/en/projects/alphaos/">
+  <article class="prose">
+    <div class="eyebrow">Project / Live</div>
+    <h1>AlphaOS 智能投研系统</h1>
+    <p class="lead">围绕基煜基金机构服务场景设计并实现的 AI 基金投研工作台：把基金筛选、一页纸研究、内部资料 RAG、多 Agent 投委会和投资记忆连接成一条可追溯的决策链。</p>
+
+    <div class="link-list">
+      <a href="https://alphaos.wangyx28.workers.dev/" target="_blank" rel="noreferrer">打开线上演示 ↗</a>
+    </div>
+
+    <div class="metric-grid">
+      <div class="metric-card">
+        <div class="metric-label">投委会角色</div>
+        <div class="metric-value">5 席</div>
+        <div class="metric-note">独立初审、交叉质询、主席汇总</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">证据分层</div>
+        <div class="metric-value">3 层</div>
+        <div class="metric-note">公开事实、内部资料、近期新闻</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">宏观证据</div>
+        <div class="metric-value">30 项</div>
+        <div class="metric-note">覆盖经济与社会体感的八个维度</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">研究闭环</div>
+        <div class="metric-value">可追溯</div>
+        <div class="metric-note">研究、讨论、决策、复盘统一留痕</div>
+      </div>
+    </div>
+
+    <h2>项目背景</h2>
+    <p>机构基金研究并不缺少信息，真正稀缺的是把公开数据、内部路演纪要、基金经理尽调、组合约束和投委会讨论组织成一套可复核流程。AlphaOS 的目标不是替机构直接下交易指令，而是帮助研究与配置团队更快回答：这只基金由谁管理、风格是否稳定、收益与回撤来自哪里、哪些结论仍需尽调验证。</p>
+
+    <h2>核心产品</h2>
+    <h3>基金一页纸</h3>
+    <p>输入基金名称或代码，系统整理净值表现、同类与基准对照、风险指标、基金经理、资产配置、规模、持有人结构和季度重仓。A 股重仓还可以继续下钻，联动生成公司与行业一页纸。</p>
+
+    <h3>内部资料 RAG</h3>
+    <p>内部路演、调研和产品材料经过清洗、分块与索引后进入知识库。研究时按基金、经理和持仓召回相关片段，并与公开事实分层显示；每次召回保留来源与使用记录，召回不等于采信。</p>
+
+    <h3>多 Agent 基金投委会</h3>
+    <p>五个席位分别负责业绩归因、基金经理与组织、持仓与风格、风险与持有人、组合适配与产品。各席只在职责范围内引用证据，经过交叉质询后，由主席给出基金池流程建议、推进条件、停止线和复盘日期。</p>
+
+    <h3>宏观、组合与投资记忆</h3>
+    <p>宏观页以 30 项指标呈现多维证据与对称情景；组合校准聚焦政策偏离、风险占用、流动性和小步调整；投资记忆则记录关键假设、人工确认、最终结论与后续复盘。</p>
+
+    <h2>我的工作</h2>
+    <p>从项目定位、用户场景和信息架构开始，把“AI 股票研究助手”逐步校准为机构基金投研工作台；随后完成研究流程、交互原型、多 Agent 协作机制、RAG 证据分层、前后端实现和生产部署，并通过真实基金、重仓公司与行业联动进行验收。</p>
+
+    <h2>技术实现</h2>
+    <div class="tags">
+      <span class="tag">React</span>
+      <span class="tag">TypeScript</span>
+      <span class="tag">Cloudflare Workers</span>
+      <span class="tag">Cloudflare D1</span>
+      <span class="tag">DeepSeek</span>
+      <span class="tag">Multi-Agent</span>
+      <span class="tag">RAG</span>
+    </div>
+
+    <h2>当前边界</h2>
+    <p>目前是围绕基煜基金机构服务场景完成的产品设计与可运行原型，不代表基煜基金官方系统。公开基金数据和演示截面用于研究初稿，不构成基金评价、投资建议或申赎指令；内部 API、真实持仓、权限审计和授权数据库仍需在正式合作与合规前提下接入。</p>
+
+    <p><a href="/projects/">← 返回项目列表</a></p>
+  </article>
+</BaseLayout>
+
