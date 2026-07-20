@@ -1,54 +1,54 @@
 {
-  "updatedAt": "2026-07-19T00:10:36.637Z",
+  "updatedAt": "2026-07-20T02:57:07.936Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29666504411",
+  "edition": "github-29709145841",
   "items": [
     {
       "rank": 1,
-      "titleZh": "代理评估差距：企业人工智能组织存在现实一致性问题，而不是覆盖范围问题——而且大多数都已投入生产",
-      "titleEn": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
-      "source": "VentureBeat AI",
-      "category": "Business",
-      "publishedAt": "2026-07-16",
-      "summaryZh": "VentureBeat AI 报告了人工智能领域的业务发展。消息来源的要点：在 157 家企业中，组织正在授予人工智能代理更多的自主权，同时信任旨在减少自主权的评估。",
-      "summaryEn": "VentureBeat AI reports a business development in AI. Key point from the source: Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less.",
-      "overviewZh": "VentureBeat AI 发布了关于“代理评估差距：企业人工智能组织存在现实一致性问题，而不是覆盖问题——而且大多数都已投入生产”的最新更新。",
-      "overviewEn": "VentureBeat AI published a new update about “The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway”.",
+      "titleZh": "ASSISTments 发布免费的 Claude 连接器并计划秋季推出高级 AI 层 - EdTech Innovation Hub",
+      "titleEn": "ASSISTments releases free Claude connector and plans premium AI tier for fall - EdTech Innovation Hub",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-07-20",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：ASSISTments 发布免费的 Claude 连接器，并计划在秋季推出高级 AI 层 EdTech Innovation Hub",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: ASSISTments releases free Claude connector and plans premium AI tier for fall &nbsp;&nbsp; EdTech Innovation Hub",
+      "overviewZh": "Google News AI 发布了有关“ASSISTments 发布免费 Claude 连接器并计划秋季推出高级 AI 层 - EdTech 创新中心”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “ASSISTments releases free Claude connector and plans premium AI tier for fall - EdTech Innovation Hub”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway"
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa1hrR2pHWV9ybmtfVkRMNmJTV0l0Q1hpcy1FaFdZYjN5ZXNocVJ1R1NIUS1NZGVOdGdBZmxIQjM2N1pUX1lXd1FjTTVTdngyVHpBUExVb2ZwUzlobUNFa3dNbkNHQzJoNWNRamxPazRfVEdYUVpDUTlRVlgwZkFtWGpORXZPWFAzWmlESmI3ek1KbFdNYVA1VUREal83QU5LcUk4REhGLXNLc2xlZTFtM0NyUlhaWkhTRnc?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "前 DeepMind 研究员如何在推出产品之前筹集 3 亿美元的种子前估值",
-      "titleEn": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "titleZh": "苹果的诉讼会破坏 OpenAI 的硬件计划吗？",
+      "titleEn": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
       "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-07-16",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。来源要点：Andrew Dai 表示，凭借十多年来帮助构建一些世界上最有影响力的人工智能系统的经验，包括后来为 ChatGPT 的开发提供信息的研究",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai exp",
-      "overviewZh": "TechCrunch AI 发布了有关“前 DeepMind 研究员如何在推出产品之前筹集 3 亿美元种子前估值”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product”.",
+      "category": "Industry",
+      "publishedAt": "2026-07-19",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源要点：在最新一期的 Equity 节目中，我们讨论了苹果的诉讼是否会影响 OpenAi 备受讨论的进军硬件和上市的计划。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "overviewZh": "TechCrunch AI 发布了有关“苹果诉讼能否破坏 OpenAI 硬件计划？”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Can an Apple lawsuit derail OpenAI’s hardware plans?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
+          "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/"
         }
       ],
       "tags": [
-        "Products",
-        "Business"
+        "AI"
       ]
     },
     {
@@ -97,24 +97,23 @@
     },
     {
       "rank": 5,
-      "titleZh": "中国人工智能登月计划发布模型挑战美国顶级系统 - 华尔街日报",
-      "titleEn": "China’s Moonshot AI Releases Model to Challenge Top U.S. Systems - WSJ",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-07-18",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：中国人工智能登月模型发布挑战美国顶尖",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: China’s Moonshot AI Releases Model to Challenge Top U.S.",
-      "overviewZh": "谷歌新闻人工智能发布了关于“中国的登月人工智能发布模型挑战美国顶级系统 - 华尔街日报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “China’s Moonshot AI Releases Model to Challenge Top U.S. Systems - WSJ”.",
+      "titleZh": "TikTok 正在测试人工智能相似度检测工具",
+      "titleEn": "TikTok is testing an AI likeness detection tool",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-07-17",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：社交媒体顾问马特·纳瓦拉 (Matt Navarra) 发现，TikTok 正在开始测试一种选择加入工具，该工具可以扫描人工智能相似之处，并让创作者向公司报告。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra.",
+      "overviewZh": "The Verge AI 发布了有关“TikTok 正在测试人工智能相似度检测工具”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “TikTok is testing an AI likeness detection tool”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcVNJNC1WR1VUN20tQWdWVHhXNU9DSUR4U2N2ZndVMDlGSEl4SW9HQkIyaTgyRFZWZHlGeWVZaE1nY250SkpPTGw1YmxlWFhDeDZ4WWQ4VHpQcHdVQ2JmM1E3QzZuZmwtTWhHV3hDYXc3MnVHcEhYQkpxX3lIRF94ZGZDWTFTRmcyRnFqamkyMWI4WDFaRVV1YWJITW15RXJL?oc=5"
+          "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
         }
       ],
       "tags": [
-        "Models",
         "Products"
       ]
     }
