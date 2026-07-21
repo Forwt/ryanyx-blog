@@ -5,7 +5,7 @@ interface Props {
   title: string;
   description?: string;
   lang?: 'zh' | 'en';
-  path?: 'home' | 'writing' | 'research' | 'projects' | 'ai-news' | 'about' | 'resume';
+  path?: 'home' | 'writing' | 'research' | 'second-brain' | 'projects' | 'ai-news' | 'about' | 'resume';
   switchTo?: string;
   showLanguageSwitch?: boolean;
   image?: string;
@@ -29,6 +29,7 @@ const nav = isEn
       ['Home', '/en/'],
       ['Writing', '/en/writing/'],
       ['Research', '/en/research/'],
+      ['Second Brain', '/en/second-brain/'],
       ['Projects', '/en/projects/'],
       ['AI News', '/en/ai-news/'],
       ['About', '/en/about/'],
@@ -38,6 +39,7 @@ const nav = isEn
       ['首页', '/'],
       ['文章', '/writing/'],
       ['投研', '/research/'],
+      ['第二大脑', '/second-brain/'],
       ['项目', '/projects/'],
       ['AI 资讯', '/ai-news/'],
       ['关于', '/about/'],
@@ -48,6 +50,7 @@ const counterpartMap = {
   home: isEn ? '/' : '/en/',
   writing: isEn ? '/writing/' : '/en/writing/',
   research: isEn ? '/research/' : '/en/research/',
+  'second-brain': isEn ? '/second-brain/' : '/en/second-brain/',
   projects: isEn ? '/projects/' : '/en/projects/',
   'ai-news': isEn ? '/ai-news/' : '/en/ai-news/',
   about: isEn ? '/about/' : '/en/about/',

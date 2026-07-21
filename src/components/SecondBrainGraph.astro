@@ -1,0 +1,335 @@
+---
+import graphData from '../data/second-brain.json';
+
+interface Props {
+  lang?: 'zh' | 'en';
+}
+
+const { lang = 'zh' } = Astro.props;
+const isEn = lang === 'en';
+const noteNodes = graphData.nodes.filter((node) => node.type === 'note');
+const categories = [...new Set(noteNodes.map((node) => node.category))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+const safeData = JSON.stringify(graphData).replace(/</g, '\\u003c');
+---
+
+<section class="brain-explorer" data-second-brain data-lang={lang}>
+  <div class="brain-toolbar">
+    <label class="brain-search">
+      <span>{isEn ? 'Search nodes' : '搜索节点'}</span>
+      <input type="search" data-brain-search placeholder={isEn ? 'Title, excerpt, topic…' : '标题、正文摘要、主题…'} />
+    </label>
+    <label class="brain-filter">
+      <span>{isEn ? 'Collection' : '分类'}</span>
+      <select data-brain-category>
+        <option value="all">{isEn ? 'All collections' : '全部分类'}</option>
+        {categories.map((category) => <option value={category}>{category}</option>)}
+      </select>
+    </label>
+    <button class="pill-button brain-reset" type="button" data-brain-reset>{isEn ? 'Reset' : '重置'}</button>
+  </div>
+
+  <div class="brain-stat-row">
+    <span><strong>{graphData.stats.notes}</strong> {isEn ? 'notes' : '篇笔记'}</span>
+    <span><strong>{graphData.stats.edges}</strong> {isEn ? 'connections' : '条连接'}</span>
+    <span><strong>{graphData.stats.topics}</strong> {isEn ? 'shared topics' : '个共同主题'}</span>
+    <span class="brain-model-note">{isEn ? 'Folders · links · topics · tags' : '目录 · 手工链接 · 主题 · 标签'}</span>
+  </div>
+
+  <div class="brain-stage">
+    <canvas data-brain-canvas aria-label={isEn ? 'Interactive second brain knowledge graph' : '可交互的第二大脑知识图谱'}></canvas>
+    <div class="brain-stage-tip">{isEn ? 'Drag to explore · Click a node to inspect' : '拖动探索 · 点击节点查看详情'}</div>
+  </div>
+
+  <div class="brain-inspector-grid">
+    <aside class="brain-inspector" data-brain-inspector aria-live="polite">
+      <div class="eyebrow">{isEn ? 'Inspector' : '节点详情'}</div>
+      <h2 data-brain-inspector-title>{isEn ? 'Choose a node' : '选择一个节点'}</h2>
+      <p class="muted" data-brain-inspector-copy>{isEn ? 'The graph combines structure and meaning. A tag is only one kind of connection.' : '图谱同时结合目录结构和语义关系，tag 只是其中一种连接。'}</p>
+      <div class="brain-inspector-meta" data-brain-inspector-meta></div>
+      <div class="brain-inspector-link" data-brain-inspector-link></div>
+    </aside>
+    <section class="brain-legend-card">
+      <div class="eyebrow">{isEn ? 'How connections work' : '关系如何产生'}</div>
+      <div class="brain-legend-list">
+        <div><i class="legend-dot legend-note"></i><span>{isEn ? 'Note' : '笔记'}</span></div>
+        <div><i class="legend-dot legend-cluster"></i><span>{isEn ? 'Folder / collection' : '目录 / 分类'}</span></div>
+        <div><i class="legend-dot legend-topic"></i><span>{isEn ? 'Shared topic' : '共同主题'}</span></div>
+        <div><i class="legend-dot legend-tag"></i><span>{isEn ? 'Explicit tag' : '明确标签'}</span></div>
+      </div>
+      <p class="muted">{isEn ? 'Start with a few tags and [[wikilinks]]. The graph will grow with your thinking, without requiring every note to be perfectly organized.' : '不需要一开始就给每篇笔记补齐标签：先写下想法，再用少量 tag 和 [[笔记链接]] 逐步让关系变清晰。'}</p>
+    </section>
+  </div>
+
+  <script type="application/json" id="second-brain-data" set:html={safeData}></script>
+</section>
+
+<script>
+  const root = document.querySelector('[data-second-brain]');
+  if (root) {
+    const isEn = root.dataset.lang === 'en';
+    const data = JSON.parse(document.getElementById('second-brain-data')?.textContent ?? '{}');
+    const canvas = root.querySelector('[data-brain-canvas]');
+    const context = canvas?.getContext('2d');
+    const search = root.querySelector('[data-brain-search]');
+    const category = root.querySelector('[data-brain-category]');
+    const reset = root.querySelector('[data-brain-reset]');
+    const inspectorTitle = root.querySelector('[data-brain-inspector-title]');
+    const inspectorCopy = root.querySelector('[data-brain-inspector-copy]');
+    const inspectorMeta = root.querySelector('[data-brain-inspector-meta]');
+    const inspectorLink = root.querySelector('[data-brain-inspector-link]');
+    const nodes = (data.nodes ?? []).map((node, index) => ({
+      ...node,
+      x: 0.15 + ((index * 0.61803398875) % 0.7),
+      y: 0.15 + ((index * 0.38196601125) % 0.7),
+      vx: 0,
+      vy: 0,
+      radius: node.type === 'note' ? Math.max(3.5, Math.min(9, 3.5 + Math.sqrt(node.wordCount || 0) / 8)) : node.type === 'cluster' ? 9 : 6
+    }));
+    const byId = new Map(nodes.map((node) => [node.id, node]));
+    const edges = (data.edges ?? []).map((edge) => ({ ...edge, sourceNode: byId.get(edge.source), targetNode: byId.get(edge.target) })).filter((edge) => edge.sourceNode && edge.targetNode);
+    let selected = null;
+    let hovered = null;
+    let query = '';
+    let selectedCategory = 'all';
+    let width = 0;
+    let height = 0;
+    let pixelRatio = 1;
+    let alpha = 1;
+    let dragging = null;
+
+    const style = getComputedStyle(root);
+    const colors = {
+      text: style.getPropertyValue('--text').trim() || '#111',
+      muted: style.getPropertyValue('--muted').trim() || '#777',
+      line: style.getPropertyValue('--line').trim() || '#e8e8e8',
+      accent: style.getPropertyValue('--accent').trim() || '#4d6b61',
+      surface: style.getPropertyValue('--surface').trim() || '#fafafa'
+    };
+    const colorFor = (node) => node.type === 'cluster' ? colors.accent : node.type === 'topic' ? '#a06b3b' : node.type === 'tag' ? '#8c5da8' : colors.text;
+    const edgeColor = (type) => type === 'explicit' ? colors.accent : type === 'topic' ? '#a06b3b' : type === 'tag' ? '#8c5da8' : colors.line;
+    const noteNodes = nodes.filter((node) => node.type === 'note');
+
+    const visibleNoteIds = () => {
+      const normalized = query.trim().toLocaleLowerCase();
+      return new Set(noteNodes.filter((node) => {
+        const haystack = [node.title, node.excerpt, node.category, node.folder, ...(node.tags ?? []), ...(node.topics ?? [])].join(' ').toLocaleLowerCase();
+        return (selectedCategory === 'all' || node.category === selectedCategory) && (!normalized || haystack.includes(normalized));
+      }).map((node) => node.id));
+    };
+
+    const visibleIds = () => {
+      const noteIds = visibleNoteIds();
+      const ids = new Set(noteIds);
+      edges.forEach((edge) => {
+        if (noteIds.has(edge.source) || noteIds.has(edge.target)) {
+          ids.add(edge.source);
+          ids.add(edge.target);
+        }
+      });
+      return ids;
+    };
+
+    const neighbors = (node) => {
+      const ids = new Set([node.id]);
+      edges.forEach((edge) => {
+        if (edge.source === node.id) ids.add(edge.target);
+        if (edge.target === node.id) ids.add(edge.source);
+      });
+      return ids;
+    };
+
+    const resize = () => {
+      if (!canvas || !context) return;
+      const rect = canvas.getBoundingClientRect();
+      width = rect.width;
+      height = rect.height;
+      pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+      canvas.width = width * pixelRatio;
+      canvas.height = height * pixelRatio;
+      context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
+      alpha = 0.75;
+    };
+
+    const layout = () => {
+      for (const node of nodes) {
+        let fx = 0;
+        let fy = 0;
+        for (const other of nodes) {
+          if (node === other) continue;
+          const dx = node.x - other.x;
+          const dy = node.y - other.y;
+          const distance = Math.max(0.012, Math.sqrt(dx * dx + dy * dy));
+          const force = 0.00024 / (distance * distance);
+          fx += (dx / distance) * force;
+          fy += (dy / distance) * force;
+        }
+        node.vx += fx;
+        node.vy += fy;
+      }
+      for (const edge of edges) {
+        const source = edge.sourceNode;
+        const target = edge.targetNode;
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
+        const distance = Math.max(0.001, Math.sqrt(dx * dx + dy * dy));
+        const desired = edge.type === 'folder' ? 0.13 : edge.type === 'related' ? 0.18 : 0.22;
+        const force = (distance - desired) * (edge.type === 'related' ? 0.004 : 0.006);
+        source.vx += (dx / distance) * force;
+        source.vy += (dy / distance) * force;
+        target.vx -= (dx / distance) * force;
+        target.vy -= (dy / distance) * force;
+      }
+      for (const node of nodes) {
+        node.vx += (0.5 - node.x) * 0.00085;
+        node.vy += (0.5 - node.y) * 0.00085;
+        if (dragging !== node) {
+          node.x += node.vx * alpha;
+          node.y += node.vy * alpha;
+        }
+        node.vx *= 0.86;
+        node.vy *= 0.86;
+        node.x = Math.max(0.015, Math.min(0.985, node.x));
+        node.y = Math.max(0.02, Math.min(0.98, node.y));
+      }
+      alpha *= 0.994;
+      if (alpha < 0.04) alpha = 0.04;
+    };
+
+    const draw = () => {
+      if (!context || !width || !height) return;
+      const visible = visibleIds();
+      const focus = selected ? neighbors(selected) : null;
+      context.clearRect(0, 0, width, height);
+      for (const edge of edges) {
+        if (!visible.has(edge.source) || !visible.has(edge.target)) continue;
+        const source = edge.sourceNode;
+        const target = edge.targetNode;
+        const isFocused = !focus || focus.has(source.id) && focus.has(target.id);
+        context.beginPath();
+        context.moveTo(source.x * width, source.y * height);
+        context.lineTo(target.x * width, target.y * height);
+        context.strokeStyle = edgeColor(edge.type);
+        context.globalAlpha = isFocused ? (edge.type === 'related' ? 0.16 : 0.34) : 0.035;
+        context.lineWidth = edge.type === 'explicit' ? 1.4 : edge.type === 'related' ? 1 : 0.7;
+        context.stroke();
+      }
+      context.globalAlpha = 1;
+      for (const node of nodes) {
+        if (!visible.has(node.id)) continue;
+        const focused = !focus || focus.has(node.id);
+        const isHovered = hovered === node;
+        const radius = node.radius + (isHovered || selected === node ? 2.5 : 0);
+        context.beginPath();
+        context.arc(node.x * width, node.y * height, radius, 0, Math.PI * 2);
+        context.fillStyle = colorFor(node);
+        context.globalAlpha = focused ? (node.type === 'note' ? 0.68 : 0.92) : 0.08;
+        context.fill();
+        if (isHovered || selected === node) {
+          context.strokeStyle = colors.surface;
+          context.lineWidth = 2;
+          context.globalAlpha = 1;
+          context.stroke();
+        }
+        if (node.type !== 'note' && focused) {
+          context.font = '11px ui-monospace, monospace';
+          context.fillStyle = colors.muted;
+          context.globalAlpha = 0.88;
+          context.fillText(node.label, node.x * width + radius + 5, node.y * height + 4);
+        }
+      }
+      context.globalAlpha = 1;
+      layout();
+      window.requestAnimationFrame(draw);
+    };
+
+    const pointerPosition = (event) => {
+      const rect = canvas.getBoundingClientRect();
+      return { x: (event.clientX - rect.left) / width, y: (event.clientY - rect.top) / height };
+    };
+
+    const nodeAt = (event) => {
+      const position = pointerPosition(event);
+      const visible = visibleIds();
+      return [...nodes].reverse().find((node) => visible.has(node.id) && Math.hypot(node.x - position.x, node.y - position.y) * Math.min(width, height) < node.radius + 8) ?? null;
+    };
+
+    const clearElement = (element) => { if (element) element.replaceChildren(); };
+    const updateInspector = (node) => {
+      if (!inspectorTitle || !inspectorCopy || !inspectorMeta || !inspectorLink) return;
+      clearElement(inspectorMeta);
+      clearElement(inspectorLink);
+      if (!node) {
+        inspectorTitle.textContent = isEn ? 'Choose a node' : '选择一个节点';
+        inspectorCopy.textContent = isEn ? 'The graph combines structure and meaning. A tag is only one kind of connection.' : '图谱同时结合目录结构和语义关系，tag 只是其中一种连接。';
+        return;
+      }
+      inspectorTitle.textContent = node.title ?? node.label;
+      inspectorCopy.textContent = node.type === 'note' ? node.excerpt : `${node.count ?? 0} ${isEn ? 'notes connected here.' : '篇笔记在这里相遇。'}`;
+      if (node.type === 'note') {
+        const meta = document.createElement('span');
+        meta.textContent = `${node.category} · ${node.date} · ${node.wordCount ?? 0} 字`;
+        inspectorMeta.append(meta);
+        const link = document.createElement('a');
+        link.href = `/second-brain/${node.slug}/`;
+        link.textContent = isEn ? 'Open full note →' : '打开完整笔记 →';
+        inspectorLink.append(link);
+      } else {
+        const related = noteNodes.filter((note) => edges.some((edge) => edge.source === note.id && edge.target === node.id || edge.target === note.id && edge.source === node.id)).slice(0, 8);
+        related.forEach((note) => {
+          const item = document.createElement('span');
+          item.textContent = note.title;
+          inspectorMeta.append(item);
+        });
+      }
+    };
+
+    search?.addEventListener('input', (event) => { query = event.target.value; alpha = 0.3; });
+    category?.addEventListener('change', (event) => { selectedCategory = event.target.value; alpha = 0.3; });
+    reset?.addEventListener('click', () => {
+      query = '';
+      selectedCategory = 'all';
+      if (search) search.value = '';
+      if (category) category.value = 'all';
+      selected = null;
+      updateInspector(null);
+      alpha = 0.6;
+    });
+    canvas?.addEventListener('pointermove', (event) => {
+      if (dragging) {
+        const position = pointerPosition(event);
+        dragging.x = position.x;
+        dragging.y = position.y;
+        dragging.vx = 0;
+        dragging.vy = 0;
+        return;
+      }
+      hovered = nodeAt(event);
+      canvas.style.cursor = hovered ? 'pointer' : 'grab';
+    });
+    canvas?.addEventListener('pointerleave', () => { hovered = null; });
+    canvas?.addEventListener('pointerdown', (event) => {
+      const node = nodeAt(event);
+      if (!node) return;
+      dragging = node;
+      canvas.setPointerCapture(event.pointerId);
+      selected = node;
+      updateInspector(node);
+      alpha = 0.4;
+    });
+    canvas?.addEventListener('pointerup', (event) => {
+      dragging = null;
+      canvas.releasePointerCapture?.(event.pointerId);
+    });
+    canvas?.addEventListener('click', (event) => {
+      const node = nodeAt(event);
+      if (node) {
+        selected = node;
+        updateInspector(node);
+      }
+    });
+    window.addEventListener('resize', resize);
+    resize();
+    updateInspector(null);
+    window.requestAnimationFrame(draw);
+  }
+</script>

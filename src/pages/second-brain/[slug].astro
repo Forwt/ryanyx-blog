@@ -1,0 +1,46 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import graphData from '../../data/second-brain.json';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('secondBrain');
+  return notes.map((note) => ({ params: { slug: note.data.slug }, props: { note } }));
+}
+
+const { note } = Astro.props;
+const { Content } = await render(note);
+const graphNode = graphData.nodes.find((node) => node.type === 'note' && node.slug === note.data.slug);
+const related = graphNode?.related ?? [];
+---
+
+<BaseLayout
+  title={note.data.title}
+  description={note.data.description}
+  lang="zh"
+  path="second-brain"
+  switchTo={`/en/second-brain/${note.data.slug}/`}
+>
+  <article class="prose second-brain-note">
+    <a class="research-back" href="/second-brain/">← 回到第二大脑</a>
+    <header class="page-head">
+      <div class="eyebrow">{note.data.category} / {note.data.pubDate.toISOString().slice(0, 10)}</div>
+      <h1>{note.data.title}</h1>
+      <p class="lead">{note.data.description}</p>
+      <div class="brain-note-meta">
+        <span>{note.data.folder}</span>
+        <span>源文件：{note.data.sourcePath}</span>
+      </div>
+    </header>
+    <Content />
+    {related.length > 0 && (
+      <section class="brain-related">
+        <div class="eyebrow">Related nodes</div>
+        <h2>附近的想法</h2>
+        <div class="stack">
+          {related.map((item) => <a class="post-row brain-related-link" href={`/second-brain/${item.slug}/`}><strong>{item.title}</strong><span>沿着共同主题继续探索 →</span></a>)}
+        </div>
+      </section>
+    )}
+  </article>
+</BaseLayout>

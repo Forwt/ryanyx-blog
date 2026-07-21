@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SecondBrainGraph from '../../components/SecondBrainGraph.astro';
+import graphData from '../../data/second-brain.json';
+---
+
+<BaseLayout title="第二大脑" description="把 Ryan 在 Obsidian 里留下的想法整理成一张可探索的知识图谱。" lang="zh" path="second-brain">
+  <section class="page-head second-brain-head">
+    <div class="eyebrow">Second Brain / {graphData.source}</div>
+    <h1>把零散想法，变成一张可以漫游的地图。</h1>
+    <p class="lead">这里记录不一定成熟、但值得保留的想法。每个节点是一篇笔记，目录、主题、标签和笔记之间的手工链接共同组成它的邻域。</p>
+  </section>
+
+  <section class="section second-brain-intro">
+    <div>
+      <div class="eyebrow">不是只有 tag</div>
+      <h2>先写，再让关系慢慢长出来。</h2>
+    </div>
+    <p class="muted">旧笔记没有标签也没关系：初版会根据原有目录和正文主题建立基础连接；以后在 Obsidian 中补充 <code>#tag</code> 或 <code>[[笔记链接]]</code>，同步时图谱会自动变得更精确。</p>
+  </section>
+
+  <SecondBrainGraph lang="zh" />
+</BaseLayout>

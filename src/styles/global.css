@@ -303,6 +303,262 @@ p {
   gap: 2px;
 }
 
+code {
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 2px 5px;
+  background: var(--surface);
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.86em;
+}
+
+.second-brain-head {
+  max-width: 900px;
+}
+
+.second-brain-head h1 {
+  font-size: clamp(38px, 7vw, 70px);
+}
+
+.second-brain-intro {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr);
+  gap: 48px;
+  align-items: end;
+}
+
+.second-brain-intro h2 {
+  margin-top: 10px;
+  font-size: clamp(24px, 4vw, 38px);
+}
+
+.brain-explorer {
+  padding: 34px 0 0;
+}
+
+.brain-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 210px auto;
+  gap: 12px;
+  align-items: end;
+  margin-bottom: 14px;
+}
+
+.brain-search,
+.brain-filter {
+  display: grid;
+  gap: 7px;
+  color: var(--soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 11px;
+}
+
+.brain-search input,
+.brain-filter select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 12px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-family: inherit;
+  outline: none;
+}
+
+.brain-search input:focus,
+.brain-filter select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+.brain-reset {
+  height: 40px;
+}
+
+.brain-stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0 0 14px;
+  color: var(--soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 11px;
+}
+
+.brain-stat-row strong {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.brain-model-note {
+  margin-left: auto;
+  color: var(--accent);
+}
+
+.brain-stage {
+  position: relative;
+  overflow: hidden;
+  min-height: 560px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 50% 48%, color-mix(in srgb, var(--accent-bg) 58%, transparent), transparent 46%),
+    linear-gradient(transparent 24px, color-mix(in srgb, var(--line) 42%, transparent) 25px, transparent 26px),
+    linear-gradient(90deg, transparent 24px, color-mix(in srgb, var(--line) 42%, transparent) 25px, transparent 26px),
+    var(--surface);
+  background-size: auto, 25px 25px, 25px 25px, auto;
+}
+
+.brain-stage canvas {
+  display: block;
+  width: 100%;
+  height: 680px;
+  touch-action: none;
+}
+
+.brain-stage-tip {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  color: var(--soft);
+  font-size: 11px;
+  pointer-events: none;
+  backdrop-filter: blur(10px);
+}
+
+.brain-inspector-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.brain-inspector,
+.brain-legend-card {
+  min-height: 200px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px;
+  background: var(--surface);
+}
+
+.brain-inspector h2 {
+  margin-bottom: 10px;
+  font-size: clamp(22px, 4vw, 32px);
+}
+
+.brain-inspector-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 16px;
+}
+
+.brain-inspector-meta span,
+.brain-note-meta span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 8px;
+  color: var(--soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 10px;
+}
+
+.brain-inspector-link {
+  margin-top: 16px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.brain-legend-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 11px 18px;
+  margin: 22px 0 18px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.brain-legend-list div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--text);
+}
+
+.legend-cluster { background: var(--accent); }
+.legend-topic { background: #a06b3b; }
+.legend-tag { background: #8c5da8; }
+
+.second-brain-preview {
+  background: linear-gradient(135deg, var(--accent-bg), transparent 62%);
+}
+
+.brain-preview-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 18px;
+  color: var(--soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 11px;
+}
+
+.brain-preview-stats strong {
+  color: var(--accent);
+  font-size: 18px;
+}
+
+.second-brain-note .page-head {
+  max-width: 900px;
+}
+
+.brain-note-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.brain-related {
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.brain-related h2 {
+  margin: 10px 0 18px;
+}
+
+.brain-related-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.brain-related-link strong {
+  font-size: 16px;
+}
+
+.brain-related-link span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .page-head {
   max-width: 740px;
   margin-bottom: 42px;
@@ -1008,6 +1264,28 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .second-brain-intro,
+  .brain-inspector-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .brain-toolbar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brain-search {
+    grid-column: 1 / -1;
+  }
+
+  .brain-model-note {
+    margin-left: 0;
+  }
+
+  .brain-stage canvas {
+    height: 540px;
+  }
+
   .metric-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1070,6 +1348,22 @@ p {
   }
 
   .metric-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brain-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .brain-search {
+    grid-column: auto;
+  }
+
+  .brain-stage canvas {
+    height: 460px;
+  }
+
+  .brain-legend-list {
     grid-template-columns: 1fr;
   }
 

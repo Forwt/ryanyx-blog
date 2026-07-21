@@ -52,4 +52,19 @@ const research = defineCollection({
   })
 });
 
-export const collections = { writing, research };
+const secondBrain = defineCollection({
+  loader: glob({ base: './src/content/second-brain', pattern: '**/*.md' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    pubDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    category: z.string(),
+    folder: z.string(),
+    sourcePath: z.string(),
+    slug: z.string(),
+    tags: z.array(z.string()).default([])
+  })
+});
+
+export const collections = { writing, research, secondBrain };

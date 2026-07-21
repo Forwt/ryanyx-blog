@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SecondBrainGraph from '../../../components/SecondBrainGraph.astro';
+import graphData from '../../../data/second-brain.json';
+---
+
+<BaseLayout title="Second Brain" description="An explorable map of Ryan's notes and ideas from Obsidian." lang="en" path="second-brain" switchTo="/second-brain/">
+  <section class="page-head second-brain-head">
+    <div class="eyebrow">Second Brain / {graphData.source}</div>
+    <h1>A map for the thoughts that are still becoming.</h1>
+    <p class="lead">This is a living archive of ideas that do not need to be finished before they are worth keeping. Folders, topics, tags, and deliberate note links shape each node's neighborhood.</p>
+  </section>
+
+  <section class="section second-brain-intro">
+    <div>
+      <div class="eyebrow">More than tags</div>
+      <h2>Write first. Let the relationships grow.</h2>
+    </div>
+    <p class="muted">The first version can work with old notes that have no tags: it uses their existing folders and recurring topics. Add <code>#tags</code> or <code>[[note links]]</code> in Obsidian later, and the next sync will make the map more precise.</p>
+  </section>
+
+  <SecondBrainGraph lang="en" />
+</BaseLayout>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import graphData from '../data/second-brain.json';
 
 const posts = (await getCollection('writing', ({ data }) => data.lang === 'zh' && data.draft !== true))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
@@ -69,6 +70,19 @@ const projects = [
       <a class="section-link" href="/ai-news/">查看今日 5 条</a>
     </div>
     <p class="muted">每天自动筛选全球 AI 行业最值得看的 5 条新闻：官方发布、模型进展、产品实验、创业公司动态和有趣的新工具。</p>
+  </section>
+
+  <section class="section second-brain-preview">
+    <div class="section-head">
+      <h2>第二大脑</h2>
+      <a class="section-link" href="/second-brain/">进入图谱</a>
+    </div>
+    <p class="muted">把来自 Obsidian 的 {graphData.stats.notes} 篇笔记放进一张可漫游的地图：目录、主题、标签和手工链接都能成为连接。</p>
+    <div class="brain-preview-stats">
+      <span><strong>{graphData.stats.notes}</strong> 节点</span>
+      <span><strong>{graphData.stats.edges}</strong> 连接</span>
+      <span><strong>{graphData.stats.topics}</strong> 共同主题</span>
+    </div>
   </section>
 
   {latestResearch && (
