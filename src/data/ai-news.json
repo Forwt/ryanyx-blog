@@ -1,72 +1,96 @@
 {
-  "updatedAt": "2026-07-20T02:57:07.936Z",
+  "updatedAt": "2026-07-21T00:09:38.061Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29709145841",
+  "edition": "github-29789461880",
   "items": [
     {
       "rank": 1,
-      "titleZh": "ASSISTments 发布免费的 Claude 连接器并计划秋季推出高级 AI 层 - EdTech Innovation Hub",
-      "titleEn": "ASSISTments releases free Claude connector and plans premium AI tier for fall - EdTech Innovation Hub",
-      "source": "Google News AI",
-      "category": "Product",
+      "titleZh": "OpenAI 害怕开放权重模型。美国应该如此吗？",
+      "titleEn": "OpenAI is scared of open-weight models. Should the US be?",
+      "source": "TechCrunch AI",
+      "category": "Model",
       "publishedAt": "2026-07-20",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：ASSISTments 发布免费的 Claude 连接器，并计划在秋季推出高级 AI 层 EdTech Innovation Hub",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: ASSISTments releases free Claude connector and plans premium AI tier for fall &nbsp;&nbsp; EdTech Innovation Hub",
-      "overviewZh": "Google News AI 发布了有关“ASSISTments 发布免费 Claude 连接器并计划秋季推出高级 AI 层 - EdTech 创新中心”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “ASSISTments releases free Claude connector and plans premium AI tier for fall - EdTech Innovation Hub”.",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：禁止中国制造的开放式法学硕士的言论揭示了将人工智能转变为商业的挑战。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Talk of banning Chinese-made open-weight LLMs reveals the challenge of turning AI into a business.",
+      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 害怕开放权重模型。美国应该害怕吗？”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI is scared of open-weight models. Should the US be?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa1hrR2pHWV9ybmtfVkRMNmJTV0l0Q1hpcy1FaFdZYjN5ZXNocVJ1R1NIUS1NZGVOdGdBZmxIQjM2N1pUX1lXd1FjTTVTdngyVHpBUExVb2ZwUzlobUNFa3dNbkNHQzJoNWNRamxPazRfVEdYUVpDUTlRVlgwZkFtWGpORXZPWFAzWmlESmI3ek1KbFdNYVA1VUREal83QU5LcUk4REhGLXNLc2xlZTFtM0NyUlhaWkhTRnc?oc=5"
+          "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/"
         }
       ],
       "tags": [
         "Models",
-        "Products"
+        "Open source"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "苹果的诉讼会破坏 OpenAI 的硬件计划吗？",
-      "titleEn": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
-      "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-19",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源要点：在最新一期的 Equity 节目中，我们讨论了苹果的诉讼是否会影响 OpenAi 备受讨论的进军硬件和上市的计划。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
-      "overviewZh": "TechCrunch AI 发布了有关“苹果诉讼能否破坏 OpenAI 硬件计划？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Can an Apple lawsuit derail OpenAI’s hardware plans?”.",
+      "titleZh": "在 SIGGRAPH 上，NVIDIA 通过代理和物理 AI 推进图形和模拟",
+      "titleEn": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+      "source": "NVIDIA Blog",
+      "category": "Model",
+      "publishedAt": "2026-07-20",
+      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。来源要点：从开放模型到实时模拟，人工智能和图形突破正在改变媒体、内容创建和机器人技术。",
+      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+      "overviewZh": "NVIDIA 博客发布了有关“在 SIGGRAPH 上，NVIDIA 通过代理和物理 AI 推进图形和模拟”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/"
+          "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/"
         }
       ],
       "tags": [
-        "AI"
+        "Agents",
+        "Models",
+        "Robotics"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "人工智能时代的记分卡",
-      "titleEn": "A scorecard for the AI age",
+      "titleZh": "长视野模型时代的安全性和对准",
+      "titleEn": "Safety and alignment in an era of long-horizon models",
       "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-07-17",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 首席财务官 Sarah Friar 介绍了一种实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "overviewZh": "OpenAI 博客发布了有关“AI 时代的记分卡”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “A scorecard for the AI age”.",
+      "category": "Policy",
+      "publishedAt": "2026-07-20",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "overviewZh": "OpenAI 博客发布了有关“长视野模型时代的安全性和一致性”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Safety and alignment in an era of long-horizon models”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "Adobe 的“自然外观”相机应用程序拥抱生成式 AI",
+      "titleEn": "Adobe’s ‘natural look’ camera app embraces generative AI",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-07-20",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：Adobe 的实验性相机应用程序出现了意想不到的转变。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Adobe's experimental camera app has taken an unexpected turn.",
+      "overviewZh": "The Verge AI 发布了有关“Adobe 的‘自然外观’相机应用程序拥抱生成式 AI”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Adobe’s ‘natural look’ camera app embraces generative AI”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update"
         }
       ],
       "tags": [
@@ -74,47 +98,27 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "NVIDIA Vera Rubin 最大限度地提高训练后工作负载的每美元的智能 — 这是代理 AI 的一个关键指标",
-      "titleEn": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
-      "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-07-17",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：极端协同设计中的每个代币成本最低，可以最大限度地提高代理时代后期培训的每美元的智能。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA Vera Rubin 最大限度地提高训练后工作负载的每美元智能——代理 AI 的关键指标”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "TikTok 正在测试人工智能相似度检测工具",
-      "titleEn": "TikTok is testing an AI likeness detection tool",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-07-17",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：社交媒体顾问马特·纳瓦拉 (Matt Navarra) 发现，TikTok 正在开始测试一种选择加入工具，该工具可以扫描人工智能相似之处，并让创作者向公司报告。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra.",
-      "overviewZh": "The Verge AI 发布了有关“TikTok 正在测试人工智能相似度检测工具”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “TikTok is testing an AI likeness detection tool”.",
+      "titleZh": "据报道，在 Kimi K3 推出后，特朗普政府以网络安全担忧为由，重新推动禁止中国人工智能模型——可下载的开放权重可能会使美国在采用率不断提高的情况下几乎不可能实施彻底的禁令 - Tom's Hardware",
+      "titleEn": "Trump administration reportedly reviving push to ban Chinese AI models following Kimi K3 launch, citing cybersecurity concerns — downloadable open weights could make an outright U.S. ban nearly impossible to enforce amid growing adoption - Tom's Hardware",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-07-20",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的关键点：据报道，特朗普政府在 Kimi K3 推出后，以网络安全担忧为由，重新推动禁止中国人工智能模型——可下载的开放权重可能会让美国彻底陷入困境。",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Trump administration reportedly reviving push to ban Chinese AI models following Kimi K3 launch, citing cybersecurity concerns — downloadable open weights could make an outright U.S.",
+      "overviewZh": "谷歌新闻人工智能发布了一份新的更新，内容是“据报道，特朗普政府在 Kimi K3 推出后，以网络安全担忧为由，重新推动禁止中国人工智能模型——可下载的开放权重可能会使美国的彻底禁令在日益普及的情况下几乎不可能执行——汤姆的硬件”。",
+      "overviewEn": "Google News AI published a new update about “Trump administration reportedly reviving push to ban Chinese AI models following Kimi K3 launch, citing cybersecurity concerns — downloadable open weights could make an outright U.S. ban nearly impossible to enforce amid growing adoption - Tom's Hardware”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
+          "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxPd2dHVVpqYnZsczVfRFJ1TlZ6OXdFZjV2WjFMajdSSUR3OWpnQzBXSGV0Q3MxNWRGOGFXTmdZSUNhZEg3SUlJOG1GLUhXZW5neXBBTHRONjk5NVlGSy1lY3llYURxdlNxZS0xYVBEOXR4em5sMXNWOXJTU1VtOXNDcnJBUjRsQ0ZDQTVVQk53a2NuZEl5c1N0MjRieW1kVjdGVUdIdFVZNVlqbUk5cUE3dm91WldzaEVWeW9oMlo1M203NWVjWnlHOU4yT1paQXdpV3pCRjFEbFBIY0lKZGMtWG5oMUliakFmLTZvMjRPbG05S1lBVTNQQzVMRDJvT3M2SE1kX3ZQN3VjQ1RVU0ppTkNKWHVSR2d5MkFRY3d0ZnlEY1FYMF9TXzhnQlluUk5qeVZUVkVGMDBmVWt1cTJlZk5jRFV2ZWRiQWJtdkRXakstV0VDYWNneVdRdTV3dWo5ei1fUVhVRG1qWUxtdFhCb2dTeU1LMXJ5Mk5KcG1IZjBobkZFTWlXNmZ4akRSdXRzTjhSY2NpX2F0N2tibzNFSnQ1UXEtWlBDQkVOOA?oc=5"
         }
       ],
       "tags": [
-        "Products"
+        "Models",
+        "Products",
+        "Open source"
       ]
     }
   ]
