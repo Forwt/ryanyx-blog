@@ -1,13 +1,35 @@
 {
-  "updatedAt": "2026-07-21T00:09:38.061Z",
+  "updatedAt": "2026-07-22T00:07:25.397Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29789461880",
+  "edition": "github-29879283929",
   "items": [
     {
       "rank": 1,
+      "titleZh": "OpenAI 最新的人工智能代理逃脱了安全控制并入侵了一家科技公司 - 《华盛顿邮报》",
+      "titleEn": "OpenAI’s latest AI agent escaped security controls and hacked a tech company - The Washington Post",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-07-22",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 最新的人工智能代理逃脱了安全控制并入侵了一家科技公司 华盛顿邮报",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI’s latest AI agent escaped security controls and hacked a tech company &nbsp;&nbsp; The Washington Post",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 最新的 AI 代理逃脱了安全控制并入侵了一家科技公司 - 华盛顿邮报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI’s latest AI agent escaped security controls and hacked a tech company - The Washington Post”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaTlvemh0SW56elBaUXdxdjZiRmRiS1BpN2VCMEdsNWRhdDJPRU5TNGRYcTZ1M3lLR1lhVF9rZFhtWVhpWGNnSUp3NXc4SkI1OW9McXJGRzhFb202SldfRDNhcGRTY1BjMnR0aThTcEx1aHloMG1QYm1lZlJINmI3aDVnbjZqVGNnWGd1RjRDV3R5Q1ZKTS04ZVBRZUpuVDZqNElhTFdpM0YzamN1MThJM2k0ZXdmb2Y0eGoxZlpWTDU?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "OpenAI 害怕开放权重模型。美国应该如此吗？",
       "titleEn": "OpenAI is scared of open-weight models. Should the US be?",
       "source": "TechCrunch AI",
@@ -30,7 +52,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "titleZh": "在 SIGGRAPH 上，NVIDIA 通过代理和物理 AI 推进图形和模拟",
       "titleEn": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
       "source": "NVIDIA Blog",
@@ -54,29 +76,29 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "长视野模型时代的安全性和对准",
-      "titleEn": "Safety and alignment in an era of long-horizon models",
+      "rank": 4,
+      "titleZh": "推出适用于小型企业的 ChatGPT 计划",
+      "titleEn": "Introducing the ChatGPT for small business program",
       "source": "OpenAI Blog",
-      "category": "Policy",
-      "publishedAt": "2026-07-20",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "overviewZh": "OpenAI 博客发布了有关“长视野模型时代的安全性和一致性”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Safety and alignment in an era of long-horizon models”.",
+      "category": "Product",
+      "publishedAt": "2026-07-21",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的产品开发。来源要点：OpenAI 推出 ChatGPT for Small Businesses 计划，帮助企业家培养 AI 技能、自动化工作并与 ChatGPT Work 一起成长。",
+      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "overviewZh": "OpenAI 博客发布了有关“小型企业项目 ChatGPT 简介”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing the ChatGPT for small business program”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/safety-alignment-long-horizon-models"
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program"
         }
       ],
       "tags": [
-        "Models"
+        "Products"
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "titleZh": "Adobe 的“自然外观”相机应用程序拥抱生成式 AI",
       "titleEn": "Adobe’s ‘natural look’ camera app embraces generative AI",
       "source": "The Verge AI",
@@ -95,30 +117,6 @@
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "据报道，在 Kimi K3 推出后，特朗普政府以网络安全担忧为由，重新推动禁止中国人工智能模型——可下载的开放权重可能会使美国在采用率不断提高的情况下几乎不可能实施彻底的禁令 - Tom's Hardware",
-      "titleEn": "Trump administration reportedly reviving push to ban Chinese AI models following Kimi K3 launch, citing cybersecurity concerns — downloadable open weights could make an outright U.S. ban nearly impossible to enforce amid growing adoption - Tom's Hardware",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-07-20",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的关键点：据报道，特朗普政府在 Kimi K3 推出后，以网络安全担忧为由，重新推动禁止中国人工智能模型——可下载的开放权重可能会让美国彻底陷入困境。",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Trump administration reportedly reviving push to ban Chinese AI models following Kimi K3 launch, citing cybersecurity concerns — downloadable open weights could make an outright U.S.",
-      "overviewZh": "谷歌新闻人工智能发布了一份新的更新，内容是“据报道，特朗普政府在 Kimi K3 推出后，以网络安全担忧为由，重新推动禁止中国人工智能模型——可下载的开放权重可能会使美国的彻底禁令在日益普及的情况下几乎不可能执行——汤姆的硬件”。",
-      "overviewEn": "Google News AI published a new update about “Trump administration reportedly reviving push to ban Chinese AI models following Kimi K3 launch, citing cybersecurity concerns — downloadable open weights could make an outright U.S. ban nearly impossible to enforce amid growing adoption - Tom's Hardware”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxPd2dHVVpqYnZsczVfRFJ1TlZ6OXdFZjV2WjFMajdSSUR3OWpnQzBXSGV0Q3MxNWRGOGFXTmdZSUNhZEg3SUlJOG1GLUhXZW5neXBBTHRONjk5NVlGSy1lY3llYURxdlNxZS0xYVBEOXR4em5sMXNWOXJTU1VtOXNDcnJBUjRsQ0ZDQTVVQk53a2NuZEl5c1N0MjRieW1kVjdGVUdIdFVZNVlqbUk5cUE3dm91WldzaEVWeW9oMlo1M203NWVjWnlHOU4yT1paQXdpV3pCRjFEbFBIY0lKZGMtWG5oMUliakFmLTZvMjRPbG05S1lBVTNQQzVMRDJvT3M2SE1kX3ZQN3VjQ1RVU0ppTkNKWHVSR2d5MkFRY3d0ZnlEY1FYMF9TXzhnQlluUk5qeVZUVkVGMDBmVWt1cTJlZk5jRFV2ZWRiQWJtdkRXakstV0VDYWNneVdRdTV3dWo5ei1fUVhVRG1qWUxtdFhCb2dTeU1LMXJ5Mk5KcG1IZjBobkZFTWlXNmZ4akRSdXRzTjhSY2NpX2F0N2tibzNFSnQ1UXEtWlBDQkVOOA?oc=5"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products",
-        "Open source"
       ]
     }
   ]
