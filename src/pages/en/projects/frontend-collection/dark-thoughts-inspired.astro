@@ -35,9 +35,9 @@ import InspirationDemo from '../../../../components/InspirationDemo.astro';
       <aside class="study-aside"><span>02</span><h2>Canvas & motion</h2></aside>
       <div class="study-copy">
         <h3>Turn a decorative image into an ambient layer</h3>
-        <p>The header is not an image. It is a deterministic Canvas made from two ridgeline curves—sine waves with pseudorandom disturbance—plus sparse grain. It carries atmosphere rather than information, so it is deliberately throttled to 12fps, rendered at a capped device-pixel ratio, and frozen under <code>prefers-reduced-motion</code>. A theme change redraws only the canvas; it does not rearrange the DOM.</p>
-        <p>That trade-off is friendlier than adding WebGL or a full-screen video atop every post: the first viewport stays light, there are no third-party image rights to manage, and lower-powered devices keep a clear static fallback.</p>
-        <pre><code>requestAnimationFrame → 12fps throttle · resize → re-rasterize at capped DPR · prefers-reduced-motion → single static frame</code></pre>
+        <p>The header begins with an original misty-mountain photograph, but it never appears as an unprocessed image. The script crops, grayscales, and raises contrast in an offscreen Canvas, then samples luminosity against a 4×4 Bayer threshold matrix. Each passing sample becomes a warm 2px square in the visible Canvas. The photograph keeps its depth and light while taking on the restrained dot field seen in the reference.</p>
+        <p>The Canvas uses a capped device-pixel ratio and recalculates one frame only on initial load, a resize, or a theme change—not in a continuous animation loop. That is lighter than putting WebGL or full-screen video atop every post, while still leaving the original landscape as a no-script fallback.</p>
+        <pre><code>source image → offscreen Canvas → grayscale / contrast · 4×4 Bayer matrix → 2px threshold dots → visible Canvas · resize or theme change → render one static frame</code></pre>
       </div>
     </section>
 

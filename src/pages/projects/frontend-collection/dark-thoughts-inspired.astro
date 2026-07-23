@@ -35,9 +35,9 @@ import InspirationDemo from '../../../components/InspirationDemo.astro';
       <aside class="study-aside"><span>02</span><h2>画布与动效</h2></aside>
       <div class="study-copy">
         <h3>把“装饰图”改成低负担的环境层</h3>
-        <p>顶部不是一张图片，而是一个确定性 Canvas：两条由正弦波和伪随机扰动生成的山脊曲线，再叠加稀疏颗粒。它不传达信息，只承担气氛，所以刻意限制在 12fps、使用设备像素比上限，并在 <code>prefers-reduced-motion</code> 下停止动画。主题切换只重绘当前画布，而不重新组织 DOM。</p>
-        <p>这一取舍比把 WebGL 或全屏视频放在每篇文章顶端更合适：首屏更轻、没有第三方图像版权问题，也给低性能设备留了清晰的静态回退。</p>
-        <pre><code>requestAnimationFrame → 12fps throttle · resize → re-rasterize at capped DPR · prefers-reduced-motion → single static frame</code></pre>
+        <p>顶部使用一张原创山雾照片，但它不会以原图直接呈现：脚本先将照片裁切、灰阶化并提高对比度，绘入离屏 Canvas；再以 4×4 Bayer 阈值矩阵逐格采样亮度，决定是否在主 Canvas 绘制一个暖白色 2px 方点。结果是照片的体积和明暗被保留，图像语言却变成了参考页那种克制的点阵。</p>
+        <p>画布以受限的设备像素比绘制，只在初次加载、容器尺寸变化或主题切换时重算一帧，而不是持续占用动画循环。这比把 WebGL 或全屏视频放在每篇文章顶端更轻，也让无脚本时仍可退回到原始山景。</p>
+        <pre><code>source image → offscreen Canvas → grayscale / contrast · 4×4 Bayer matrix → 2px threshold dots → visible Canvas · resize or theme change → render one static frame</code></pre>
       </div>
     </section>
 
