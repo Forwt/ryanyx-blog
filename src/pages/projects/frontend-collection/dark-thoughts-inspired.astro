@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import InspirationDemo from '../../../components/InspirationDemo.astro';
+---
+<BaseLayout title="雾、墨与长阅读" description="一项从 Dark Thoughts 获得灵感的原创博客前端实验，以及它的设计与工程拆解。" lang="zh" path="projects" switchTo="/en/projects/frontend-collection/dark-thoughts-inspired/">
+  <article class="study-page">
+    <a class="study-back" href="/projects/frontend-collection/">← 有趣前端收藏</a>
+    <header class="study-head">
+      <div class="study-eyebrow">STUDY 001 · EDITORIAL ATMOSPHERE</div>
+      <h1>雾、墨与<br /><em>长阅读</em></h1>
+      <p>一次从 <a href="https://dark.ronacher.eu/2026/7/21/never-enough/" target="_blank" rel="noreferrer">Dark Thoughts 的〈Never Enough〉↗</a> 出发的原创重构。下面先是一个属于 Ryanyx 的博客样张，再是将它拆成设计与技术决策的笔记。</p>
+    </header>
+
+    <InspirationDemo lang="zh" />
+
+    <section class="study-intro" id="notes">
+      <div class="study-rule"></div>
+      <p class="study-lead">这不是像素级临摹。实验提取的是<strong>阅读的气质</strong>：温暖的纸张感、克制的导航、文学性的标题和会呼吸的图像纹理；视觉内容、文案、画布算法与组件结构均为本项目重新创作。</p>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>01</span><h2>设计语言</h2></aside>
+      <div class="study-copy">
+        <h3>让阅读成为界面的主角</h3>
+        <p>样张把内容列限制在约 760px，给 20–22px 的正文和 1.65 左右的行高留出呼吸空间。标题采用高对比、带书写感的衬线字体；导航和日期则缩小、淡化，形成“先读文章，再看界面”的视觉层级。这里的关键不是复古字体本身，而是将不同字体承担的角色分开：展示字体制造情绪，正文承担长时间阅读，等宽小字提供元信息。</p>
+        <div class="study-specs">
+          <div><span>TYPE</span><strong>Serif display + reading text + mono metadata</strong></div>
+          <div><span>RHYTHM</span><strong>窄内容列 / 大标题 / 稀疏段落</strong></div>
+          <div><span>COLOR</span><strong>羊皮纸、棕墨与低对比夜色</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>02</span><h2>画布与动效</h2></aside>
+      <div class="study-copy">
+        <h3>把“装饰图”改成低负担的环境层</h3>
+        <p>顶部不是一张图片，而是一个确定性 Canvas：两条由正弦波和伪随机扰动生成的山脊曲线，再叠加稀疏颗粒。它不传达信息，只承担气氛，所以刻意限制在 12fps、使用设备像素比上限，并在 <code>prefers-reduced-motion</code> 下停止动画。主题切换只重绘当前画布，而不重新组织 DOM。</p>
+        <p>这一取舍比把 WebGL 或全屏视频放在每篇文章顶端更合适：首屏更轻、没有第三方图像版权问题，也给低性能设备留了清晰的静态回退。</p>
+        <pre><code>requestAnimationFrame → 12fps throttle · resize → re-rasterize at capped DPR · prefers-reduced-motion → single static frame</code></pre>
+      </div>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>03</span><h2>主题系统</h2></aside>
+      <div class="study-copy">
+        <h3>变量先于颜色，避免“反相”夜间模式</h3>
+        <p>样张的日间与夜间不是简单反色。它们分别定义纸张、墨水、标题、弱文本、链接和雾色等语义 token；组件只引用 token，因此按钮、画布和正文可以一起切换。局部主题状态挂在样张容器上，既能演示交互，也不会覆盖站点本身的全局主题偏好。</p>
+        <div class="study-callout"><strong>可迁移原则：</strong>先确定阅读对比度和层级，再为每种模式调色。这样暗色模式仍然是“夜读”，而不是把白底黑字机械翻转。</div>
+      </div>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>04</span><h2>工程判断</h2></aside>
+      <div class="study-copy">
+        <h3>渐进增强，而不是把效果变成门槛</h3>
+        <p>页面默认用语义化的 <code>article</code>、标题、段落、导航和按钮完成阅读；Canvas 被标记为装饰性，脚本失败或禁用时不影响内容。主题按钮使用真实 <code>button</code> 和 <code>aria-pressed</code>，键盘可操作。绘制代码延后到页面加载后执行，并避免在滚动时进行布局读写。</p>
+        <p>这让“趣味”保持在渐进增强的位置：它可以增加记忆点，却不能成为阅读、可访问性或性能的前提条件。</p>
+      </div>
+    </section>
+
+    <footer class="study-source" id="source">
+      <span>INSPIRATION</span>
+      <p>灵感来源：<a href="https://dark.ronacher.eu/2026/7/21/never-enough/" target="_blank" rel="noreferrer">Dark Thoughts — “Never Enough” by Armin Ronacher ↗</a>。本页为独立的学习性再创作，不隶属也不代表原站。</p>
+      <a href="/projects/frontend-collection/">继续浏览收藏 →</a>
+    </footer>
+  </article>
+</BaseLayout>

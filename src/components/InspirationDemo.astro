@@ -1,0 +1,125 @@
+---
+interface Props {
+  lang: 'zh' | 'en';
+}
+
+const { lang } = Astro.props;
+const isEn = lang === 'en';
+const copy = isEn
+  ? {
+      brand: 'Marginal Notes',
+      nav: ['entries', 'archive', 'about'],
+      title: ['Leave a little time', 'unoptimised'],
+      date: 'written on July 23, 2026',
+      paragraphs: [
+        'I want to keep the good pages I happen upon. Not to seal them into screenshots, but to ask: what makes an interface feel quiet—and why does it make us willing to read a little longer?',
+        'Maybe a good digital space is not always faster. It leaves edges where we can pause, a little unfilled room, and a landscape that asks for almost none of our attention.'
+      ],
+      filed: 'filed under',
+      tags: ['frontend collection', 'reading experience'],
+      theme: ['light', 'dark'],
+      aria: 'Mist, Ink and Long-form Reading blog specimen'
+    }
+  : {
+      brand: '余白备忘',
+      nav: ['笔记', '归档', '关于'],
+      title: ['留下一点', '不被优化的时间'],
+      date: '写于 2026 年 7 月 23 日',
+      paragraphs: [
+        '我想把偶遇的好网页收集起来。不是把它们封进截图，而是试着理解：是什么让一个界面安静下来，又为什么它能让人愿意读完一段更长的文字。',
+        '也许好的数字空间不总是更快。它会留下可停顿的边缘、不会被填满的空白，以及一张在背景里几乎不要求你注意的风景。'
+      ],
+      filed: '收录于',
+      tags: ['前端收藏', '阅读体验'],
+      theme: ['日间', '夜间'],
+      aria: '雾、墨与长阅读的博客样张'
+    };
+---
+<section class="inspiration-demo" data-inspiration-demo data-inspiration-theme="light" aria-label={copy.aria}>
+  <div class="inspiration-canvas-wrap" aria-hidden="true"><canvas data-mist-canvas></canvas></div>
+  <div class="inspiration-shell">
+    <div class="inspiration-nav">
+      <a href={isEn ? '/en/' : '/'}>{copy.brand}</a>
+      <nav aria-label={isEn ? 'Specimen navigation' : '样张导航'}>
+        <a href="#essay">{copy.nav[0]}</a><a href="#notes">{copy.nav[1]}</a><a href="#source">{copy.nav[2]}</a>
+      </nav>
+    </div>
+    <div class="inspiration-body" id="essay">
+      <h2>{copy.title[0]}<br />{copy.title[1]}</h2>
+      <p class="inspiration-date">{copy.date}</p>
+      {copy.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+      <p class="inspiration-tags">{copy.filed} <a href="#notes">{copy.tags[0]}</a> · <a href="#notes">{copy.tags[1]}</a></p>
+    </div>
+    <footer class="inspiration-footer">
+      <span>© 2026 Ryanyx</span>
+      <span class="inspiration-theme-picker" role="group" aria-label={isEn ? 'Specimen color scheme' : '样张色彩方案'}>
+        <button type="button" data-demo-theme="light" aria-pressed="true">{copy.theme[0]}</button> / <button type="button" data-demo-theme="dark" aria-pressed="false">{copy.theme[1]}</button>
+      </span>
+    </footer>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('[data-inspiration-demo]').forEach((demo) => {
+    const element = demo;
+    const canvas = element.querySelector('[data-mist-canvas]');
+    const controls = element.querySelectorAll('[data-demo-theme]');
+    if (!(canvas instanceof HTMLCanvasElement)) return;
+
+    const context = canvas.getContext('2d');
+    if (!context) return;
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let frame = 0;
+    let last = 0;
+    let animation = 0;
+    const noise = (value) => { const result = Math.sin(value * 91.73) * 43758.5453; return result - Math.floor(result); };
+    const palette = () => element.dataset.inspirationTheme === 'dark'
+      ? { background: '#15130f', ink: '#dbc9ae', haze: '#a37a4e' }
+      : { background: '#fff8eb', ink: '#89541e', haze: '#d0aa73' };
+
+    const draw = (time = 0) => {
+      const rect = canvas.getBoundingClientRect();
+      const ratio = Math.min(window.devicePixelRatio || 1, 1.5);
+      const width = Math.max(1, Math.floor(rect.width * ratio));
+      const height = Math.max(1, Math.floor(rect.height * ratio));
+      if (canvas.width !== width || canvas.height !== height) { canvas.width = width; canvas.height = height; }
+      const colors = palette();
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      context.clearRect(0, 0, rect.width, rect.height);
+      context.fillStyle = colors.background;
+      context.fillRect(0, 0, rect.width, rect.height);
+      const drift = reduceMotion.matches ? 0 : time / 2200;
+      for (let layer = 0; layer < 2; layer += 1) {
+        const base = rect.height * (layer === 0 ? 0.72 : 0.58);
+        const amplitude = layer === 0 ? 24 : 16;
+        context.beginPath();
+        for (let x = 0; x <= rect.width; x += 2) {
+          const ridge = base + Math.sin(x * 0.017 + drift * (layer + 1)) * amplitude + Math.sin(x * 0.049 + layer * 3) * 9;
+          if (x === 0) context.moveTo(x, ridge); else context.lineTo(x, ridge);
+        }
+        context.lineTo(rect.width, rect.height); context.lineTo(0, rect.height); context.closePath();
+        context.globalAlpha = layer === 0 ? 0.13 : 0.08; context.fillStyle = colors.haze; context.fill();
+      }
+      context.globalAlpha = 0.46; context.fillStyle = colors.ink;
+      const grain = Math.round((rect.width * rect.height) / 170);
+      for (let point = 0; point < grain; point += 1) {
+        const x = noise(point * 1.17 + frame) * rect.width;
+        const y = noise(point * 2.31 + frame * 0.6) * rect.height;
+        const ridge = rect.height * 0.66 + Math.sin(x * 0.017 + drift) * 20;
+        if (y > ridge - 14 && y < ridge + 28) context.fillRect(Math.round(x), Math.round(y), 1, 1);
+      }
+      context.globalAlpha = 1;
+    };
+    const loop = (time) => { if (time - last > 83) { frame += 1; draw(time); last = time; } if (!reduceMotion.matches) animation = requestAnimationFrame(loop); };
+    const render = () => { cancelAnimationFrame(animation); draw(performance.now()); if (!reduceMotion.matches) animation = requestAnimationFrame(loop); };
+    controls.forEach((control) => control.addEventListener('click', () => {
+      const theme = control.getAttribute('data-demo-theme'); if (!theme) return;
+      element.dataset.inspirationTheme = theme;
+      controls.forEach((button) => button.setAttribute('aria-pressed', String(button === control)));
+      render();
+    }));
+    reduceMotion.addEventListener('change', render);
+    window.addEventListener('resize', render, { passive: true });
+    render();
+  });
+</script>

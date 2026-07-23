@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const studies = [
+  {
+    index: '001',
+    title: 'Mist, Ink & Long-form Reading',
+    source: 'Dark Thoughts · Never Enough',
+    summary: 'An original Ryanyx blog experiment that recomposes editorial typesetting, warm day/night colors, and a grainy canvas atmosphere.',
+    tags: ['Editorial', 'Canvas', 'Theme'],
+    href: '/en/projects/frontend-collection/dark-thoughts-inspired/',
+    state: 'Collected'
+  }
+];
+---
+<BaseLayout title="Interesting Frontend Collection" description="A collection of memorable frontend interfaces, recreated and carefully unpacked." lang="en" path="projects" switchTo="/projects/frontend-collection/">
+  <section class="collection-hero">
+    <div class="collection-kicker">A SMALL MUSEUM OF WEB ATMOSPHERE</div>
+    <p class="collection-count">{String(studies.length).padStart(2, '0')} / GROWING</p>
+    <h1>Interesting<br /><em>Frontends</em></h1>
+    <p class="collection-lead">Some pages make you slow the cursor down—not because they do more, but because type, rhythm, texture, and interaction are composed into an atmosphere. This is where I preserve those moments and turn them into original, learnable experiments.</p>
+  </section>
+
+  <section class="collection-list" aria-label="Frontend collection entries">
+    {studies.map((study) => (
+      <a class="collection-entry" href={study.href}>
+        <span class="collection-index">{study.index}</span>
+        <div class="collection-entry-main">
+          <div class="collection-entry-meta"><span>{study.state}</span><span>{study.source}</span></div>
+          <h2>{study.title}</h2>
+          <p>{study.summary}</p>
+          <div class="collection-tags">{study.tags.map((tag) => <span>{tag}</span>)}</div>
+        </div>
+        <span class="collection-arrow" aria-hidden="true">↗</span>
+      </a>
+    ))}
+  </section>
+
+  <aside class="collection-note">
+    <span>Collection rule</span>
+    <p>No page or asset is copied. Each entry extracts a learnable design structure, then rebuilds it with new content, code, and visual assets. The original inspiration and technical reading are named in every study.</p>
+  </aside>
+</BaseLayout>

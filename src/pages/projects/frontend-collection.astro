@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const studies = [
+  {
+    index: '001',
+    title: '雾、墨与长阅读',
+    source: 'Dark Thoughts · Never Enough',
+    summary: '把编辑式的长文排版、暖色日夜主题与颗粒化画布，重组为一页属于 Ryanyx 的博客实验。',
+    tags: ['Editorial', 'Canvas', 'Theme'],
+    href: '/projects/frontend-collection/dark-thoughts-inspired/',
+    state: '已收录'
+  }
+];
+---
+<BaseLayout title="有趣前端收藏" description="收集、复刻与拆解那些值得驻足的网页前端。" lang="zh" path="projects" switchTo="/en/projects/frontend-collection/">
+  <section class="collection-hero">
+    <div class="collection-kicker">A SMALL MUSEUM OF WEB ATMOSPHERE</div>
+    <p class="collection-count">{String(studies.length).padStart(2, '0')} / 持续生长</p>
+    <h1>有趣前端<br /><em>收藏</em></h1>
+    <p class="collection-lead">一些网页会让人放慢鼠标：不是因为功能更复杂，而是它们把字体、节奏、材质和交互编排成了一种气氛。这里收录这种瞬间，也把它们拆开，做成可以学习的原创实验。</p>
+  </section>
+
+  <section class="collection-list" aria-label="前端收藏条目">
+    {studies.map((study) => (
+      <a class="collection-entry" href={study.href}>
+        <span class="collection-index">{study.index}</span>
+        <div class="collection-entry-main">
+          <div class="collection-entry-meta"><span>{study.state}</span><span>{study.source}</span></div>
+          <h2>{study.title}</h2>
+          <p>{study.summary}</p>
+          <div class="collection-tags">{study.tags.map((tag) => <span>{tag}</span>)}</div>
+        </div>
+        <span class="collection-arrow" aria-hidden="true">↗</span>
+      </a>
+    ))}
+  </section>
+
+  <aside class="collection-note">
+    <span>收录原则</span>
+    <p>不搬运页面或素材。每一项只提炼其可学习的设计结构，再以新的内容、代码和视觉资产重做；原始灵感与技术观察会在条目中明确标注。</p>
+  </aside>
+</BaseLayout>

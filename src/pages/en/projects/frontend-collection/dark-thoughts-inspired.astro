@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import InspirationDemo from '../../../../components/InspirationDemo.astro';
+---
+<BaseLayout title="Mist, Ink & Long-form Reading" description="An original blog-interface experiment inspired by Dark Thoughts, with a design and engineering breakdown." lang="en" path="projects" switchTo="/projects/frontend-collection/dark-thoughts-inspired/">
+  <article class="study-page">
+    <a class="study-back" href="/en/projects/frontend-collection/">← Interesting Frontend Collection</a>
+    <header class="study-head">
+      <div class="study-eyebrow">STUDY 001 · EDITORIAL ATMOSPHERE</div>
+      <h1>Mist, Ink &<br /><em>Long-form Reading</em></h1>
+      <p>An original reinterpretation prompted by <a href="https://dark.ronacher.eu/2026/7/21/never-enough/" target="_blank" rel="noreferrer">Dark Thoughts’ “Never Enough” ↗</a>. First comes a Ryanyx blog specimen; then the design and engineering decisions behind it.</p>
+    </header>
+
+    <InspirationDemo lang="en" />
+
+    <section class="study-intro" id="notes">
+      <div class="study-rule"></div>
+      <p class="study-lead">This is not a pixel-for-pixel copy. The experiment keeps an<strong> atmosphere for reading</strong>: warm paper, restrained navigation, literary display type, and a breathing image texture. Its artwork, copy, canvas algorithm, and component structure are all newly made for this project.</p>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>01</span><h2>Design language</h2></aside>
+      <div class="study-copy">
+        <h3>Make reading the protagonist</h3>
+        <p>The specimen caps the reading column at roughly 760px and gives its 20–22px text a relaxed line-height near 1.65. A high-contrast, writing-like serif sets the headline; navigation and dates recede into smaller, quieter text. The important move is not the vintage typeface itself, but the division of roles: display type creates feeling, body type carries extended reading, and monospace text carries metadata.</p>
+        <div class="study-specs">
+          <div><span>TYPE</span><strong>Serif display + reading text + mono metadata</strong></div>
+          <div><span>RHYTHM</span><strong>Narrow column / large headline / sparse paragraphs</strong></div>
+          <div><span>COLOR</span><strong>Parchment, brown ink, low-contrast night</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>02</span><h2>Canvas & motion</h2></aside>
+      <div class="study-copy">
+        <h3>Turn a decorative image into an ambient layer</h3>
+        <p>The header is not an image. It is a deterministic Canvas made from two ridgeline curves—sine waves with pseudorandom disturbance—plus sparse grain. It carries atmosphere rather than information, so it is deliberately throttled to 12fps, rendered at a capped device-pixel ratio, and frozen under <code>prefers-reduced-motion</code>. A theme change redraws only the canvas; it does not rearrange the DOM.</p>
+        <p>That trade-off is friendlier than adding WebGL or a full-screen video atop every post: the first viewport stays light, there are no third-party image rights to manage, and lower-powered devices keep a clear static fallback.</p>
+        <pre><code>requestAnimationFrame → 12fps throttle · resize → re-rasterize at capped DPR · prefers-reduced-motion → single static frame</code></pre>
+      </div>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>03</span><h2>Theme system</h2></aside>
+      <div class="study-copy">
+        <h3>Tokens before colors, so dark mode is not an inversion</h3>
+        <p>The specimen’s day and night modes are not simple inversions. They each define semantic tokens for paper, ink, headings, quiet text, links, and haze; components only consume those tokens, so controls, canvas, and prose change together. The local theme state lives on the specimen container, allowing the interaction to be demonstrated without overriding the site-wide preference.</p>
+        <div class="study-callout"><strong>Portable principle:</strong> establish reading contrast and hierarchy first, then tune each mode. Dark mode can remain “night reading” instead of mechanically flipping black and white.</div>
+      </div>
+    </section>
+
+    <section class="study-grid">
+      <aside class="study-aside"><span>04</span><h2>Engineering call</h2></aside>
+      <div class="study-copy">
+        <h3>Progressive enhancement, not an effect as a gate</h3>
+        <p>Semantic <code>article</code>, headings, paragraphs, navigation, and real buttons complete the reading experience by default. The canvas is declared decorative, so a failed or disabled script does not hide content. Theme controls use <code>button</code> plus <code>aria-pressed</code> and work from a keyboard. Drawing starts after page load and avoids layout reads during scrolling.</p>
+        <p>That keeps the fun in its proper place: it can add memorability, but cannot become a requirement for reading, access, or performance.</p>
+      </div>
+    </section>
+
+    <footer class="study-source" id="source">
+      <span>INSPIRATION</span>
+      <p>Prompted by <a href="https://dark.ronacher.eu/2026/7/21/never-enough/" target="_blank" rel="noreferrer">Dark Thoughts — “Never Enough” by Armin Ronacher ↗</a>. This page is an independent educational reinterpretation and is neither affiliated with nor representative of the original site.</p>
+      <a href="/en/projects/frontend-collection/">Keep browsing the collection →</a>
+    </footer>
+  </article>
+</BaseLayout>
