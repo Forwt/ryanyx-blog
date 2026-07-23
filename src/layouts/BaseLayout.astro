@@ -63,6 +63,41 @@ const fullTitle = title === 'Ryanyx' ? 'Ryanyx' : `${title} · Ryanyx`;
 const isSecondBrain = path === 'second-brain';
 const canonicalURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url;
 const imageURL = image ? new URL(image, canonicalURL) : undefined;
+const editorCopy = isEn
+  ? {
+      open: 'Edit text',
+      heading: 'Editing mode',
+      description: 'Enter the password to edit this page locally.',
+      password: 'Password',
+      enter: 'Start editing',
+      cancel: 'Cancel',
+      error: 'That password is not correct.',
+      active: 'Editing',
+      changes: 'changes',
+      export: 'Exit & download record',
+      reset: 'Clear this page draft',
+      note: 'Changes are stored only in this browser until you download the record.',
+      empty: 'No text blocks changed yet.',
+      exported: 'The change record has been downloaded.',
+      resetDone: 'The local draft has been cleared.'
+    }
+  : {
+      open: '编辑文字',
+      heading: '编辑模式',
+      description: '输入密码后可在当前浏览器直接修改本页正文。',
+      password: '密码',
+      enter: '开始编辑',
+      cancel: '取消',
+      error: '密码不正确，请再试一次。',
+      active: '正在编辑',
+      changes: '处修改',
+      export: '退出并下载修改记录',
+      reset: '清除本页草稿',
+      note: '修改只保存在当前浏览器，下载记录后发给我即可正式回填。',
+      empty: '暂时还没有文字修改。',
+      exported: '修改记录已下载。',
+      resetDone: '本页浏览器草稿已清除。'
+    };
 ---
 <!doctype html>
 <html lang={isEn ? 'en' : 'zh-CN'}>
@@ -132,6 +167,40 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
     <main class="shell" data-protected-content={isSecondBrain ? 'true' : undefined}>
       <slot />
     </main>
+    <aside
+      class="editor-widget"
+      data-editor-widget
+      data-page-key={Astro.url.pathname}
+      data-page-title={title}
+      data-editor-empty={editorCopy.empty}
+      data-editor-exported={editorCopy.exported}
+      data-editor-reset-done={editorCopy.resetDone}
+    >
+      <button class="editor-open" data-editor-open type="button" aria-haspopup="dialog" aria-controls="editor-gate">{editorCopy.open}</button>
+      <div class="editor-gate" data-editor-gate id="editor-gate" role="dialog" aria-modal="true" aria-labelledby="editor-gate-title" hidden>
+        <form class="editor-gate-card" data-editor-form>
+          <div class="eyebrow">RYANYX / {editorCopy.heading}</div>
+          <h2 id="editor-gate-title">{editorCopy.heading}</h2>
+          <p>{editorCopy.description}</p>
+          <label for="editor-password">{editorCopy.password}</label>
+          <input id="editor-password" data-editor-input type="password" inputmode="numeric" autocomplete="current-password" maxlength="4" required />
+          <p class="editor-error" data-editor-error role="status" aria-live="polite"></p>
+          <div class="editor-gate-actions">
+            <button class="pill-button" type="submit">{editorCopy.enter}</button>
+            <button class="editor-text-button" data-editor-cancel type="button">{editorCopy.cancel}</button>
+          </div>
+        </form>
+      </div>
+      <div class="editor-active-controls" data-editor-controls hidden>
+        <div>
+          <span class="editor-live-label">{editorCopy.active}</span>
+          <strong data-editor-count>0 {editorCopy.changes}</strong>
+        </div>
+        <button class="editor-export" data-editor-export type="button">{editorCopy.export}</button>
+        <button class="editor-reset" data-editor-reset type="button">{editorCopy.reset}</button>
+        <p data-editor-status role="status" aria-live="polite">{editorCopy.note}</p>
+      </div>
+    </aside>
     <footer class="site-footer">
       <div class="shell footer-inner">
         <span>© {new Date().getFullYear()} Ryanyx</span>
@@ -196,6 +265,184 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
           if (getChoice() === 'system') apply('system');
         });
         apply(getChoice());
+      })();
+    </script>
+    <script is:inline>
+      (() => {
+        const widget = document.querySelector('[data-editor-widget]');
+        const main = document.querySelector('main.shell');
+        if (!widget || !main) return;
+
+        const open = widget.querySelector('[data-editor-open]');
+        const gate = widget.querySelector('[data-editor-gate]');
+        const form = widget.querySelector('[data-editor-form]');
+        const input = widget.querySelector('[data-editor-input]');
+        const error = widget.querySelector('[data-editor-error]');
+        const cancel = widget.querySelector('[data-editor-cancel]');
+        const controls = widget.querySelector('[data-editor-controls]');
+        const count = widget.querySelector('[data-editor-count]');
+        const exportButton = widget.querySelector('[data-editor-export]');
+        const resetButton = widget.querySelector('[data-editor-reset]');
+        const status = widget.querySelector('[data-editor-status]');
+        const pageKey = widget.dataset.pageKey || window.location.pathname;
+        const storageKey = `ryanyx:editor-draft:${pageKey}`;
+        const getText = (element) => element.innerText.replace(/\u00a0/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+        const candidates = Array.from(main.querySelectorAll('article h1, article h2, article h3, article h4, article p, article li, article blockquote'))
+          .filter((element) => {
+            if (!getText(element)) return false;
+            if (element.closest('a, button, pre, code, [data-inspiration-demo], .editor-widget, .like-widget')) return false;
+            if (element.tagName === 'P' && element.parentElement?.closest('blockquote, li')) return false;
+            if (element.tagName === 'LI' && element.parentElement?.closest('li')) return false;
+            return true;
+          });
+
+        const targets = candidates.map((element, index) => {
+          const target = element;
+          const originalText = getText(target);
+          const originalHTML = target.innerHTML;
+          const article = target.closest('article');
+          const section = article?.className || 'article';
+          const id = `${index + 1}-${target.tagName.toLowerCase()}`;
+          target.dataset.editorTarget = id;
+          return { target, id, originalText, originalHTML, section };
+        });
+
+        let active = false;
+        let draft = { version: 1, startedAt: '', updatedAt: '', changes: {} };
+
+        const readDraft = () => {
+          try {
+            const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');
+            if (saved && saved.version === 1 && saved.changes) return saved;
+          } catch {}
+          return { version: 1, startedAt: '', updatedAt: '', changes: {} };
+        };
+        const saveDraft = () => {
+          draft.updatedAt = new Date().toISOString();
+          try { localStorage.setItem(storageKey, JSON.stringify(draft)); } catch {}
+        };
+        const changedTargets = () => targets.filter(({ id, originalText }) => {
+          const revisedText = draft.changes[id]?.revisedText ?? originalText;
+          return revisedText !== originalText;
+        });
+        const updateCount = () => {
+          if (count) count.textContent = `${changedTargets().length} ${document.documentElement.lang === 'en' ? 'changes' : '处修改'}`;
+        };
+        const restoreOriginals = () => {
+          targets.forEach(({ target, originalHTML }) => {
+            target.innerHTML = originalHTML;
+            target.removeAttribute('contenteditable');
+            target.removeAttribute('spellcheck');
+          });
+        };
+        const recordChange = (entry) => {
+          const revisedText = getText(entry.target);
+          if (revisedText === entry.originalText) delete draft.changes[entry.id];
+          else {
+            draft.changes[entry.id] = {
+              target: entry.id,
+              section: entry.section,
+              tag: entry.target.tagName.toLowerCase(),
+              originalText: entry.originalText,
+              revisedText,
+              lastModifiedAt: new Date().toISOString()
+            };
+          }
+          saveDraft();
+          updateCount();
+        };
+        const activate = () => {
+          active = true;
+          draft = readDraft();
+          if (!draft.startedAt) draft.startedAt = new Date().toISOString();
+          targets.forEach((entry) => {
+            const savedText = draft.changes[entry.id]?.revisedText;
+            if (typeof savedText === 'string') entry.target.textContent = savedText;
+            entry.target.setAttribute('contenteditable', 'true');
+            entry.target.setAttribute('spellcheck', 'true');
+          });
+          document.documentElement.dataset.editorActive = 'true';
+          open.hidden = true;
+          controls.hidden = false;
+          status.textContent = document.documentElement.lang === 'en'
+            ? 'Edit the highlighted text. Your draft is saved in this browser.'
+            : '可直接修改高亮文字；草稿会保存在当前浏览器。';
+          updateCount();
+        };
+        const deactivate = () => {
+          active = false;
+          restoreOriginals();
+          delete document.documentElement.dataset.editorActive;
+          controls.hidden = true;
+          open.hidden = false;
+        };
+        const openGate = () => {
+          gate.hidden = false;
+          error.textContent = '';
+          window.setTimeout(() => input.focus(), 0);
+        };
+        const closeGate = () => {
+          gate.hidden = true;
+          input.value = '';
+          error.textContent = '';
+          open.focus();
+        };
+        const downloadRecord = () => {
+          const changes = changedTargets().map(({ id, section, target, originalText }) => ({
+            target: id,
+            section,
+            tag: target.tagName.toLowerCase(),
+            originalText,
+            revisedText: draft.changes[id].revisedText,
+            lastModifiedAt: draft.changes[id].lastModifiedAt
+          }));
+          const record = {
+            format: 'ryanyx-editor-change-set/v1',
+            exportedAt: new Date().toISOString(),
+            page: { url: window.location.href, title: widget.dataset.pageTitle || document.title, language: document.documentElement.lang },
+            changes,
+            note: 'Send this file to Codex to apply these text changes to the source repository.'
+          };
+          const blob = new Blob([JSON.stringify(record, null, 2)], { type: 'application/json;charset=utf-8' });
+          const link = document.createElement('a');
+          const filename = `ryanyx-edit-log-${new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19)}.json`;
+          link.href = URL.createObjectURL(blob);
+          link.download = filename;
+          link.click();
+          URL.revokeObjectURL(link.href);
+        };
+
+        targets.forEach((entry) => entry.target.addEventListener('input', () => {
+          if (active) recordChange(entry);
+        }));
+        open.addEventListener('click', openGate);
+        cancel.addEventListener('click', closeGate);
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          if (input.value.trim() !== '0019') {
+            error.textContent = document.documentElement.lang === 'en' ? 'That password is not correct.' : '密码不正确，请再试一次。';
+            input.select();
+            return;
+          }
+          closeGate();
+          activate();
+        });
+        exportButton.addEventListener('click', () => {
+          downloadRecord();
+          deactivate();
+          open.focus();
+        });
+        resetButton.addEventListener('click', () => {
+          draft = { version: 1, startedAt: new Date().toISOString(), updatedAt: '', changes: {} };
+          try { localStorage.removeItem(storageKey); } catch {}
+          restoreOriginals();
+          targets.forEach(({ target }) => {
+            target.setAttribute('contenteditable', 'true');
+            target.setAttribute('spellcheck', 'true');
+          });
+          status.textContent = widget.dataset.editorResetDone;
+          updateCount();
+        });
       })();
     </script>
     <script is:inline>

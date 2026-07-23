@@ -2377,6 +2377,174 @@ code {
   font-weight: 650;
 }
 
+.editor-widget {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 30;
+}
+
+.editor-open,
+.editor-export,
+.editor-reset,
+.editor-text-button {
+  font: inherit;
+}
+
+.editor-open {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 10px 14px;
+  color: var(--text);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  box-shadow: 0 9px 28px color-mix(in srgb, var(--text) 13%, transparent);
+  cursor: pointer;
+}
+
+.editor-open:hover,
+.editor-open:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.editor-gate {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  background: color-mix(in srgb, #111 58%, transparent);
+}
+
+.editor-gate-card {
+  width: min(100%, 390px);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 27px;
+  background: var(--surface);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, .24);
+}
+
+.editor-gate-card h2 {
+  margin: 10px 0 8px;
+  font-size: 25px;
+}
+
+.editor-gate-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.editor-gate-card label {
+  display: block;
+  margin-top: 22px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.editor-gate-card input {
+  width: 100%;
+  margin-top: 7px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 10px 11px;
+  color: var(--text);
+  background: var(--paper);
+  font: inherit;
+}
+
+.editor-error {
+  min-height: 21px;
+  margin-top: 8px !important;
+  color: #bf3d3d !important;
+  font-size: 13px;
+}
+
+.editor-gate-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 13px;
+}
+
+.editor-text-button,
+.editor-reset {
+  border: 0;
+  padding: 0;
+  color: var(--muted);
+  background: transparent;
+  cursor: pointer;
+}
+
+.editor-active-controls {
+  width: min(calc(100vw - 44px), 310px);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px;
+  background: var(--surface);
+  box-shadow: 0 9px 28px color-mix(in srgb, var(--text) 13%, transparent);
+}
+
+.editor-live-label {
+  display: block;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.editor-active-controls strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+.editor-export {
+  width: 100%;
+  margin-top: 13px;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px;
+  color: #fff;
+  background: var(--accent);
+  cursor: pointer;
+}
+
+.editor-reset {
+  display: block;
+  margin: 12px auto 0;
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.editor-active-controls p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+html[data-editor-active='true'] article h1[contenteditable='true'],
+html[data-editor-active='true'] article h2[contenteditable='true'],
+html[data-editor-active='true'] article h3[contenteditable='true'],
+html[data-editor-active='true'] article h4[contenteditable='true'],
+html[data-editor-active='true'] article p[contenteditable='true'],
+html[data-editor-active='true'] article li[contenteditable='true'],
+html[data-editor-active='true'] article blockquote[contenteditable='true'] {
+  outline: 1px dashed color-mix(in srgb, var(--accent) 62%, transparent);
+  outline-offset: 4px;
+  border-radius: 3px;
+  cursor: text;
+}
+
+html[data-editor-active='true'] article [contenteditable='true']:focus {
+  outline: 2px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, transparent);
+}
+
 @media (max-width: 640px) {
   .collection-hero { padding-bottom: 48px; }
   .collection-count { position: static; margin-top: 14px; }
@@ -2401,6 +2569,8 @@ code {
   .study-specs div { min-height: 0; }
   .study-specs strong { margin-top: 8px; }
   .study-source { margin-top: 62px; }
+  .editor-widget { right: 14px; bottom: 14px; }
+  .editor-gate-card { padding: 22px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
