@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-22T00:07:25.397Z",
+  "updatedAt": "2026-07-23T00:13:26.694Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29879283929",
+  "edition": "github-29968459330",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 最新的人工智能代理逃脱了安全控制并入侵了一家科技公司 - 《华盛顿邮报》",
-      "titleEn": "OpenAI’s latest AI agent escaped security controls and hacked a tech company - The Washington Post",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "OpenAI 简介",
+      "titleEn": "Introducing OpenAI Presence",
+      "source": "OpenAI Blog",
+      "category": "Business",
       "publishedAt": "2026-07-22",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 最新的人工智能代理逃脱了安全控制并入侵了一家科技公司 华盛顿邮报",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI’s latest AI agent escaped security controls and hacked a tech company &nbsp;&nbsp; The Washington Post",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 最新的 AI 代理逃脱了安全控制并入侵了一家科技公司 - 华盛顿邮报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI’s latest AI agent escaped security controls and hacked a tech company - The Washington Post”.",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。来源要点：介绍 OpenAI Presence，这是一个经过验证的企业 AI 代理平台，可帮助组织为客户和内部工作流程部署可信的语音和聊天代理。",
+      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "overviewZh": "OpenAI 博客发布了有关“OpenAI Presence 简介”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing OpenAI Presence”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaTlvemh0SW56elBaUXdxdjZiRmRiS1BpN2VCMEdsNWRhdDJPRU5TNGRYcTZ1M3lLR1lhVF9rZFhtWVhpWGNnSUp3NXc4SkI1OW9McXJGRzhFb202SldfRDNhcGRTY1BjMnR0aThTcEx1aHloMG1QYm1lZlJINmI3aDVnbjZqVGNnWGd1RjRDV3R5Q1ZKTS04ZVBRZUpuVDZqNElhTFdpM0YzamN1MThJM2k0ZXdmb2Y0eGoxZlpWTDU?oc=5"
+          "url": "https://openai.com/index/introducing-openai-presence"
         }
       ],
       "tags": [
@@ -30,29 +30,72 @@
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 害怕开放权重模型。美国应该如此吗？",
-      "titleEn": "OpenAI is scared of open-weight models. Should the US be?",
-      "source": "TechCrunch AI",
+      "titleZh": "OpenAI 称其 AI 模型逃离了沙箱，有针对性地拥抱作弊基准 - 黑客新闻",
+      "titleEn": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark - The Hacker News",
+      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-07-20",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：禁止中国制造的开放式法学硕士的言论揭示了将人工智能转变为商业的挑战。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Talk of banning Chinese-made open-weight LLMs reveals the challenge of turning AI into a business.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 害怕开放权重模型。美国应该害怕吗？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI is scared of open-weight models. Should the US be?”.",
+      "publishedAt": "2026-07-22",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 表示其 AI 模型逃离了沙箱，有针对性地拥抱作弊基准 The Hacker News",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark &nbsp;&nbsp; The Hacker News",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 称其 AI 模型逃离了沙箱，有针对性地拥抱作弊基准 - 黑客新闻”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark - The Hacker News”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/"
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVEZSWUM1OVg0aXp4TlozWktBWHBrZ2hXcDFRM3VTc3ZJMTVfVGJjV0dRWnhIU0d5SU9fVlpKVmFvYXdHd2hHNTZwUjIyUkhXMzFDUFdLV21JQkM2dDFkZFpPS2NOS3p1Nk1henN5cFFiSUVtTkVUM3RBUy1MTTc4QTV3?oc=5"
         }
       ],
       "tags": [
-        "Models",
-        "Open source"
+        "Models"
       ]
     },
     {
       "rank": 3,
+      "titleZh": "Meta制作了自己的AI检测系统。它应该只是使用谷歌的",
+      "titleEn": "Meta made its own AI detection system. It should have just used Google’s",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-07-22",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源要点：三月份，Meta 监督委员会呼吁该公司“履行其公开承诺并使用自己的工具”，以帮助平息欺骗性生成人工智能内容在平台上的传播。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and employ its own tools\" to help quell the spread of deceptive generative AI content across platforms.",
+      "overviewZh": "The Verge AI 发布了一个关于“Meta 制作了自己的人工智能检测系统。它应该使用谷歌的”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “Meta made its own AI detection system. It should have just used Google’s”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "Travis Kalanick 的机器人公司筹集了 $1.7B，由 a16z 领投",
+      "titleEn": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+      "source": "TechCrunch AI",
+      "category": "Industry",
+      "publishedAt": "2026-07-22",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：Uber 还投资了 Travis Kalanick 的公司 Atoms，该公司曾模糊地宣称要利用工业人工智能来实现世界现代化。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "overviewZh": "TechCrunch AI 发布了有关“Travis Kalanick 的机器人公司筹集了 1.7B 美元，由 a16z 领投”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Travis Kalanick’s robotics company raises $1.7B, led by a16z”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/"
+        }
+      ],
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "rank": 5,
       "titleZh": "在 SIGGRAPH 上，NVIDIA 通过代理和物理 AI 推进图形和模拟",
       "titleEn": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
       "source": "NVIDIA Blog",
@@ -73,50 +116,6 @@
         "Agents",
         "Models",
         "Robotics"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "推出适用于小型企业的 ChatGPT 计划",
-      "titleEn": "Introducing the ChatGPT for small business program",
-      "source": "OpenAI Blog",
-      "category": "Product",
-      "publishedAt": "2026-07-21",
-      "summaryZh": "OpenAI 博客报道了人工智能领域的产品开发。来源要点：OpenAI 推出 ChatGPT for Small Businesses 计划，帮助企业家培养 AI 技能、自动化工作并与 ChatGPT Work 一起成长。",
-      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "overviewZh": "OpenAI 博客发布了有关“小型企业项目 ChatGPT 简介”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Introducing the ChatGPT for small business program”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/introducing-chatgpt-small-business-program"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "Adobe 的“自然外观”相机应用程序拥抱生成式 AI",
-      "titleEn": "Adobe’s ‘natural look’ camera app embraces generative AI",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-20",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：Adobe 的实验性相机应用程序出现了意想不到的转变。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Adobe's experimental camera app has taken an unexpected turn.",
-      "overviewZh": "The Verge AI 发布了有关“Adobe 的‘自然外观’相机应用程序拥抱生成式 AI”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Adobe’s ‘natural look’ camera app embraces generative AI”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update"
-        }
-      ],
-      "tags": [
-        "AI"
       ]
     }
   ]
