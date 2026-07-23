@@ -60,6 +60,7 @@ const counterpartMap = {
 const langHref = switchTo ?? counterpartMap[path];
 const langLabel = isEn ? '中文' : 'EN';
 const fullTitle = title === 'Ryanyx' ? 'Ryanyx' : `${title} · Ryanyx`;
+const isSecondBrain = path === 'second-brain';
 const canonicalURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url;
 const imageURL = image ? new URL(image, canonicalURL) : undefined;
 ---
@@ -92,8 +93,30 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
         document.documentElement.dataset.theme = resolved;
       })();
     </script>
+    {isSecondBrain && <script is:inline>
+      (() => {
+        try {
+          if (sessionStorage.getItem('ryanzr:second-brain:unlocked') === '1') {
+            document.documentElement.dataset.secondBrainUnlocked = 'true';
+          }
+        } catch {}
+      })();
+    </script>}
   </head>
-  <body>
+  <body data-second-brain-protected={isSecondBrain ? 'true' : undefined}>
+    {isSecondBrain && <div class="access-gate" data-access-gate>
+      <div class="access-gate-card">
+        <div class="eyebrow">{isEn ? 'Private area' : 'Private area / 私人区域'}</div>
+        <h1>{isEn ? 'Second Brain' : '第二大脑'}</h1>
+        <p>{isEn ? 'Enter the password to continue.' : '这是一个私人板块，请输入密码后继续。'}</p>
+        <form data-access-form>
+          <label for="second-brain-password">{isEn ? 'Password' : '密码'}</label>
+          <input id="second-brain-password" data-access-input type="password" inputmode="numeric" autocomplete="current-password" maxlength="4" required />
+          <button class="pill-button access-submit" type="submit">{isEn ? 'Enter' : '进入'}</button>
+          <p class="access-error" data-access-error role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>}
     <header class="site-header">
       <div class="shell nav-bar">
         <a class="brand" href={isEn ? '/en/' : '/'}>Ryanyx</a>
@@ -106,7 +129,7 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
         </div>
       </div>
     </header>
-    <main class="shell">
+    <main class="shell" data-protected-content={isSecondBrain ? 'true' : undefined}>
       <slot />
     </main>
     <footer class="site-footer">
@@ -129,6 +152,30 @@ const imageURL = image ? new URL(image, canonicalURL) : undefined;
       </button>
       <span class="like-status" role="status" aria-live="polite"></span>
     </div>
+    {isSecondBrain && <script is:inline>
+      (() => {
+        const gate = document.querySelector('[data-access-gate]');
+        const form = document.querySelector('[data-access-form]');
+        const input = document.querySelector('[data-access-input]');
+        const error = document.querySelector('[data-access-error]');
+        if (!gate || !form || !input || !error) return;
+
+        if (document.documentElement.dataset.secondBrainUnlocked !== 'true') input.focus();
+
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          if (input.value.trim() !== '0019') {
+            error.textContent = document.documentElement.lang === 'en' ? 'That password is not correct.' : '密码不正确，请再试一次。';
+            input.select();
+            return;
+          }
+          try { sessionStorage.setItem('ryanzr:second-brain:unlocked', '1'); } catch {}
+          document.documentElement.dataset.secondBrainUnlocked = 'true';
+          input.value = '';
+          error.textContent = '';
+        });
+      })();
+    </script>}
     <script is:inline>
       (() => {
         const button = document.querySelector('.theme-toggle');
