@@ -8,6 +8,7 @@ folder: "游戏日记 / GALGAME日记 / 献给神明般的你"
 sourcePath: "游戏日记\\GALGAME日记\\献给神明般的你\\总述.md"
 slug: "note-053-reua1b"
 tags: []
+hiddenTags: ["galgame"]
 ---
 
 这是我第一次以如此高的完成度推完一部galgame，百感交集之际，我打算用文字记录下来，也算我用文字记录galgame的一个开端。

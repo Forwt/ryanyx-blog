@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-21T08:59:10.169Z",
+  "generatedAt": "2026-07-23T02:11:12.613Z",
   "source": "Obsidian",
   "stats": {
-    "notes": 54,
-    "clusters": 17,
+    "notes": 55,
+    "clusters": 18,
     "topics": 11,
     "tags": 0,
-    "edges": 960,
+    "edges": 997,
     "explicitLinks": 0
   },
   "nodes": [
@@ -21,6 +21,7 @@
       "excerpt": "文字画横线： 此处输入文字",
       "wordCount": 12,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "游戏"
       ],
@@ -69,6 +70,9 @@
       "excerpt": "书籍日记收录2023年以后读的书 分域为E 到A+，若在某方面极为优秀可以给到S 分为以下几个分项： 书籍内涵评分： 阅读触动评分： 体验收获评分： 个人实用评分： 综合评分：",
       "wordCount": 80,
       "tags": [],
+      "hiddenTags": [
+        "评分细则"
+      ],
       "topics": [
         "读书",
         "日记与随笔",
@@ -79,7 +83,7 @@
         {
           "slug": "note-054-13v1z79",
           "title": "galgame日记评分细则",
-          "score": 4.8
+          "score": 6.6
         },
         {
           "slug": "note-042-1mkdcei",
@@ -119,6 +123,7 @@
       "excerpt": "housekeeping announcement 比前面会议更详细的介绍",
       "wordCount": 35,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "大学与毕业"
       ],
@@ -145,13 +150,13 @@
           "score": 1.2
         },
         {
-          "slug": "note-008-whwks9",
-          "title": "未命名 1",
+          "slug": "note-d6gdov",
+          "title": "第四周",
           "score": 1.2
         },
         {
-          "slug": "note-009-130tuua",
-          "title": "你是想做一时的懦夫？还是一生的英雄？",
+          "slug": "note-008-whwks9",
+          "title": "未命名 1",
           "score": 1.2
         }
       ]
@@ -167,6 +172,7 @@
       "excerpt": "今年全国允许放炮了，失却已久的‘年味’仿佛找回来一些 烟火腾空升起，正好在窗户前爆开，满眼绚烂 真好看 但春晚很难看，刷新下限的难看 尽管如此，全家人还是会守在电视机前对这无聊的节目反复品味，把砸出味道来 就像是人生，明明那么无趣了，还要从中找出一丝一毫的光芒来 新年快乐",
       "wordCount": 130,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "日记与随笔"
       ],
@@ -215,6 +221,7 @@
       "excerpt": "越来越多次从心底惊叹人生短暂 2月8号，我从呼和浩特赶来佛山项目地实习，当时满心慌张，只想着怎么能尽快适应实习节奏、不会做怎么办、等等事情 还记得第一周发函证那几天，真的是全身精神崩断，想来真的痛苦，什么东西都不懂，努力靠自己琢磨＋从各位带教老师嘴里的只言片语中学东西 两个月转眼即逝，经历了太多，我感觉还是有很大成长的 我应该好好写一篇总结我这两个月的实习生",
       "wordCount": 444,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "实习",
         "健身",
@@ -265,6 +272,7 @@
       "excerpt": "今日进展并不大 明天目标：正文一稿完成 模仿别人的论文，做出一篇完整的论文即可，数据可编，结果可编，图形可编 不用完善格式，不用整理参考文献",
       "wordCount": 67,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -284,6 +292,11 @@
           "score": 1.2
         },
         {
+          "slug": "note-d6gdov",
+          "title": "第四周",
+          "score": 1.2
+        },
+        {
           "slug": "note-007-qcj4ul",
           "title": "1.总论——致大学生活",
           "score": 1.2
@@ -292,10 +305,52 @@
           "slug": "note-008-whwks9",
           "title": "未命名 1",
           "score": 1.2
+        }
+      ]
+    },
+    {
+      "id": "note:note-d6gdov",
+      "slug": "note-d6gdov",
+      "title": "第四周",
+      "category": "随笔",
+      "folder": "随笔 / 2026年7月",
+      "date": "2026-07-23",
+      "updatedAt": "2026-07-23T01:53:32.290Z",
+      "excerpt": "很多开户 还有个ai面试 一个个来吧 先把面试搞定 驾照到期了",
+      "wordCount": 27,
+      "tags": [],
+      "hiddenTags": [],
+      "topics": [],
+      "type": "note",
+      "related": [
+        {
+          "slug": "note-003-1x753pb",
+          "title": "2023.1.17港大会议",
+          "score": 1.2
         },
         {
-          "slug": "note-009-130tuua",
-          "title": "你是想做一时的懦夫？还是一生的英雄？",
+          "slug": "note-004-1t9hkt0",
+          "title": "2023.1.21（除夕）",
+          "score": 1.2
+        },
+        {
+          "slug": "note-005-124hhk8",
+          "title": "2023.4.8",
+          "score": 1.2
+        },
+        {
+          "slug": "note-006-19y5nmg",
+          "title": "2023-4-27",
+          "score": 1.2
+        },
+        {
+          "slug": "note-007-qcj4ul",
+          "title": "1.总论——致大学生活",
+          "score": 1.2
+        },
+        {
+          "slug": "note-008-whwks9",
+          "title": "未命名 1",
           "score": 1.2
         }
       ]
@@ -311,6 +366,7 @@
       "excerpt": "列车颠簸，我只能把被子缠在腿上，然后将电脑卡进两腿之间来保持平衡，我坐的是绿皮车，速度并不快，但窗外的景色略过时还是让我感觉微微目眩，有时候我真的在想：这几年的本科生活，像场梦一样，迷乱而难舍难离。 我清晰地记得高考最后一科考英语，听力响起，我看向窗外，阳光下满是等孩子的家长，母亲们穿上各种颜色的旗袍，父亲们举着各种颜色的彩旗，红的，绿的，紫的，蓝的，五颜六",
       "wordCount": 545,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "大学与毕业"
       ],
@@ -337,13 +393,13 @@
           "score": 1.2
         },
         {
-          "slug": "note-008-whwks9",
-          "title": "未命名 1",
+          "slug": "note-d6gdov",
+          "title": "第四周",
           "score": 1.2
         },
         {
-          "slug": "note-009-130tuua",
-          "title": "你是想做一时的懦夫？还是一生的英雄？",
+          "slug": "note-008-whwks9",
+          "title": "未命名 1",
           "score": 1.2
         }
       ]
@@ -359,6 +415,7 @@
       "excerpt": "新手增肌几个点： 1、不包括热身拉伸时间的话，每次训练1 1.5小时 2、次数：每周3 5次，一定要有休息时间",
       "wordCount": 51,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -383,13 +440,13 @@
           "score": 1.2
         },
         {
-          "slug": "note-007-qcj4ul",
-          "title": "1.总论——致大学生活",
+          "slug": "note-d6gdov",
+          "title": "第四周",
           "score": 1.2
         },
         {
-          "slug": "note-009-130tuua",
-          "title": "你是想做一时的懦夫？还是一生的英雄？",
+          "slug": "note-007-qcj4ul",
+          "title": "1.总论——致大学生活",
           "score": 1.2
         }
       ]
@@ -405,6 +462,7 @@
       "excerpt": "1、4 10以后戒导，允许自然遗精，但坚决不导了，将下一次射精留给女人！",
       "wordCount": 35,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -429,13 +487,13 @@
           "score": 1.2
         },
         {
-          "slug": "note-007-qcj4ul",
-          "title": "1.总论——致大学生活",
+          "slug": "note-d6gdov",
+          "title": "第四周",
           "score": 1.2
         },
         {
-          "slug": "note-008-whwks9",
-          "title": "未命名 1",
+          "slug": "note-007-qcj4ul",
+          "title": "1.总论——致大学生活",
           "score": 1.2
         }
       ]
@@ -451,13 +509,16 @@
       "excerpt": "摆脱负极1，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "摆脱负极"
+      ],
       "topics": [],
       "type": "note",
       "related": [
         {
           "slug": "note-011-1v0gg4t",
           "title": "摆脱负极2",
-          "score": 2.4
+          "score": 4.2
         },
         {
           "slug": "note-012-1xgp4r9",
@@ -497,13 +558,16 @@
       "excerpt": "摆脱负极2，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "摆脱负极"
+      ],
       "topics": [],
       "type": "note",
       "related": [
         {
           "slug": "note-010-1alphoq",
           "title": "摆脱负极1",
-          "score": 2.4
+          "score": 4.2
         },
         {
           "slug": "note-012-1xgp4r9",
@@ -543,6 +607,7 @@
       "excerpt": "1.曼森作为一个犯罪分子的“魅力” 2.泰德邦迪，杰里米米克斯的故事 3.摒弃坏的部分，吸收好的部分",
       "wordCount": 48,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "曼森方法",
         "方法论"
@@ -592,6 +657,7 @@
       "excerpt": "1.大多数女性有过被强奸的幻想，且其中大部分都是令人兴奋的 2.夫妻受孕能力低，但强奸受孕率远高于前者 3.女人在潜意识中渴望被征服 慕强心理 4.而社会道德压制了雌性本能 5.现代社会女本位，女性逐渐商品化（成为卖方），面对β男的时候没有繁衍欲望 6.左派思想通过主流文化的传播给男人洗脑，这个过程雌化男性，去雄化 7.日本文化：以牙还牙（武士道时代） 》平",
       "wordCount": 195,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "曼森方法"
       ],
@@ -640,6 +706,7 @@
       "excerpt": "屈从感vs侵略感，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "曼森方法"
       ],
@@ -688,6 +755,7 @@
       "excerpt": "坦诚感vs神秘感，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -734,6 +802,7 @@
       "excerpt": "约束感vs自在感，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -780,6 +849,7 @@
       "excerpt": "安全须知，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -826,6 +896,7 @@
       "excerpt": "服从性积累，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "曼森方法"
       ],
@@ -874,6 +945,7 @@
       "excerpt": "高位框架与防护罩，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "方法论"
       ],
@@ -922,6 +994,7 @@
       "excerpt": "逆转框架的方法，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "方法论"
       ],
@@ -970,6 +1043,7 @@
       "excerpt": "亲密关系的说服术，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "亲密关系"
       ],
@@ -1018,6 +1092,7 @@
       "excerpt": "深化之路，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -1064,11 +1139,19 @@
       "excerpt": "升高模型（1），这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "升高模型"
+      ],
       "topics": [
         "方法论"
       ],
       "type": "note",
       "related": [
+        {
+          "slug": "note-024-r7h26y",
+          "title": "升高模型（2）",
+          "score": 5.8
+        },
         {
           "slug": "note-019-1dfuils",
           "title": "高位框架与防护罩",
@@ -1077,11 +1160,6 @@
         {
           "slug": "note-020-6xhxyu",
           "title": "逆转框架的方法",
-          "score": 4
-        },
-        {
-          "slug": "note-024-r7h26y",
-          "title": "升高模型（2）",
           "score": 4
         },
         {
@@ -1112,11 +1190,19 @@
       "excerpt": "升高模型（2），这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "升高模型"
+      ],
       "topics": [
         "方法论"
       ],
       "type": "note",
       "related": [
+        {
+          "slug": "note-023-1i5frl3",
+          "title": "升高模型（1）",
+          "score": 5.8
+        },
         {
           "slug": "note-019-1dfuils",
           "title": "高位框架与防护罩",
@@ -1125,11 +1211,6 @@
         {
           "slug": "note-020-6xhxyu",
           "title": "逆转框架的方法",
-          "score": 4
-        },
-        {
-          "slug": "note-023-1i5frl3",
-          "title": "升高模型（1）",
           "score": 4
         },
         {
@@ -1160,6 +1241,7 @@
       "excerpt": "信念清单，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [],
       "type": "note",
       "related": [
@@ -1206,6 +1288,7 @@
       "excerpt": "搭讪当天收尾，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "亲密关系"
       ],
@@ -1254,6 +1337,7 @@
       "excerpt": "搭讪千里送，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "亲密关系"
       ],
@@ -1302,9 +1386,17 @@
       "excerpt": "话题升级p1，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "话题升级"
+      ],
       "topics": [],
       "type": "note",
       "related": [
+        {
+          "slug": "note-029-r52kfk",
+          "title": "话题升级p2",
+          "score": 4.2
+        },
         {
           "slug": "note-026-1q6zrom",
           "title": "搭讪当天收尾",
@@ -1313,11 +1405,6 @@
         {
           "slug": "note-027-16aggqi",
           "title": "搭讪千里送",
-          "score": 2.4
-        },
-        {
-          "slug": "note-029-r52kfk",
-          "title": "话题升级p2",
           "score": 2.4
         },
         {
@@ -1348,9 +1435,17 @@
       "excerpt": "话题升级p2，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "话题升级"
+      ],
       "topics": [],
       "type": "note",
       "related": [
+        {
+          "slug": "note-028-scw1in",
+          "title": "话题升级p1",
+          "score": 4.2
+        },
         {
           "slug": "note-026-1q6zrom",
           "title": "搭讪当天收尾",
@@ -1359,11 +1454,6 @@
         {
           "slug": "note-027-16aggqi",
           "title": "搭讪千里送",
-          "score": 2.4
-        },
-        {
-          "slug": "note-028-scw1in",
-          "title": "话题升级p1",
           "score": 2.4
         },
         {
@@ -1394,11 +1484,29 @@
       "excerpt": "女演员倒追p1，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "女演员倒追"
+      ],
       "topics": [
         "亲密关系"
       ],
       "type": "note",
       "related": [
+        {
+          "slug": "note-031-gehsgd",
+          "title": "女演员倒追p2",
+          "score": 5.8
+        },
+        {
+          "slug": "note-032-rmibtc",
+          "title": "女演员倒追p3",
+          "score": 5.8
+        },
+        {
+          "slug": "note-033-15sxkz7",
+          "title": "女演员倒追p4",
+          "score": 5.8
+        },
         {
           "slug": "note-026-1q6zrom",
           "title": "搭讪当天收尾",
@@ -1407,21 +1515,6 @@
         {
           "slug": "note-027-16aggqi",
           "title": "搭讪千里送",
-          "score": 4
-        },
-        {
-          "slug": "note-031-gehsgd",
-          "title": "女演员倒追p2",
-          "score": 4
-        },
-        {
-          "slug": "note-032-rmibtc",
-          "title": "女演员倒追p3",
-          "score": 4
-        },
-        {
-          "slug": "note-033-15sxkz7",
-          "title": "女演员倒追p4",
           "score": 4
         },
         {
@@ -1442,11 +1535,29 @@
       "excerpt": "女演员倒追p2，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "女演员倒追"
+      ],
       "topics": [
         "亲密关系"
       ],
       "type": "note",
       "related": [
+        {
+          "slug": "note-030-rb6xgq",
+          "title": "女演员倒追p1",
+          "score": 5.8
+        },
+        {
+          "slug": "note-032-rmibtc",
+          "title": "女演员倒追p3",
+          "score": 5.8
+        },
+        {
+          "slug": "note-033-15sxkz7",
+          "title": "女演员倒追p4",
+          "score": 5.8
+        },
         {
           "slug": "note-026-1q6zrom",
           "title": "搭讪当天收尾",
@@ -1455,21 +1566,6 @@
         {
           "slug": "note-027-16aggqi",
           "title": "搭讪千里送",
-          "score": 4
-        },
-        {
-          "slug": "note-030-rb6xgq",
-          "title": "女演员倒追p1",
-          "score": 4
-        },
-        {
-          "slug": "note-032-rmibtc",
-          "title": "女演员倒追p3",
-          "score": 4
-        },
-        {
-          "slug": "note-033-15sxkz7",
-          "title": "女演员倒追p4",
           "score": 4
         },
         {
@@ -1490,11 +1586,29 @@
       "excerpt": "女演员倒追p3，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "女演员倒追"
+      ],
       "topics": [
         "亲密关系"
       ],
       "type": "note",
       "related": [
+        {
+          "slug": "note-030-rb6xgq",
+          "title": "女演员倒追p1",
+          "score": 5.8
+        },
+        {
+          "slug": "note-031-gehsgd",
+          "title": "女演员倒追p2",
+          "score": 5.8
+        },
+        {
+          "slug": "note-033-15sxkz7",
+          "title": "女演员倒追p4",
+          "score": 5.8
+        },
         {
           "slug": "note-026-1q6zrom",
           "title": "搭讪当天收尾",
@@ -1503,21 +1617,6 @@
         {
           "slug": "note-027-16aggqi",
           "title": "搭讪千里送",
-          "score": 4
-        },
-        {
-          "slug": "note-030-rb6xgq",
-          "title": "女演员倒追p1",
-          "score": 4
-        },
-        {
-          "slug": "note-031-gehsgd",
-          "title": "女演员倒追p2",
-          "score": 4
-        },
-        {
-          "slug": "note-033-15sxkz7",
-          "title": "女演员倒追p4",
           "score": 4
         },
         {
@@ -1538,11 +1637,29 @@
       "excerpt": "女演员倒追p4，这篇笔记暂时没有正文。",
       "wordCount": 0,
       "tags": [],
+      "hiddenTags": [
+        "女演员倒追"
+      ],
       "topics": [
         "亲密关系"
       ],
       "type": "note",
       "related": [
+        {
+          "slug": "note-030-rb6xgq",
+          "title": "女演员倒追p1",
+          "score": 5.8
+        },
+        {
+          "slug": "note-031-gehsgd",
+          "title": "女演员倒追p2",
+          "score": 5.8
+        },
+        {
+          "slug": "note-032-rmibtc",
+          "title": "女演员倒追p3",
+          "score": 5.8
+        },
         {
           "slug": "note-026-1q6zrom",
           "title": "搭讪当天收尾",
@@ -1551,21 +1668,6 @@
         {
           "slug": "note-027-16aggqi",
           "title": "搭讪千里送",
-          "score": 4
-        },
-        {
-          "slug": "note-030-rb6xgq",
-          "title": "女演员倒追p1",
-          "score": 4
-        },
-        {
-          "slug": "note-031-gehsgd",
-          "title": "女演员倒追p2",
-          "score": 4
-        },
-        {
-          "slug": "note-032-rmibtc",
-          "title": "女演员倒追p3",
           "score": 4
         },
         {
@@ -1586,6 +1688,7 @@
       "excerpt": "明天上午前解决销售穿行 今晚把能解决的问题解决掉 以电子版为准",
       "wordCount": 29,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "实习"
       ],
@@ -1634,6 +1737,7 @@
       "excerpt": "饮食饮品 打车交通",
       "wordCount": 8,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "实习"
       ],
@@ -1682,6 +1786,7 @@
       "excerpt": "一，打印 1.积木式询证函：精密，克朗茨，技研（已打印） 2.附件一，附件二（已经调整好，可以打印） 3.说明函（已打印，有的页数需要调整 》只剩29 33页没打 》已打印） 4.不一致说明（已打印） 二，盖章",
       "wordCount": 97,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "实习"
       ],
@@ -1730,6 +1835,7 @@
       "excerpt": "1.函证跟进 2.发票报销 收集大家纸质发票与电子发票 交给企业第一页sheet 交给企业一套完整的电子版（）和纸质版发票 贴票：同类型铁道一页纸上，按时间排序",
       "wordCount": 75,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "实习"
       ],
@@ -1778,6 +1884,7 @@
       "excerpt": "赵永勇（永）原本有个幸福的家，与母亲肖学琴（肖）和弟弟宽宽（宽）相依为命。然而，1994年7月12日，他们遭遇了不幸。肖被残忍杀害，永和宽被拐卖。 在失踪后，赵代富（代）无数次寻找，但始终无果。流言四起，但他从未放弃寻找妻儿。他的母亲也因思念而去世。 永和宽的命运截然不同。永被卖到一个贫穷的家，遭受虐待；宽则在一个善良的家庭找到了温暖。 永承受巨大的心理压力",
       "wordCount": 915,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "游戏",
         "武侠",
@@ -1828,6 +1935,10 @@
       "excerpt": "这不是附身，也不是时空旅行，这是一场忏悔，对于陈导俊的忏悔，还有……对于我自己尹炫优的忏悔 爽局剧情，一言蔽之，就是讲的是尹炫优作为顺阳 三星 物业小组长，意外魂穿顺阳家的小孙子，最后通过自己变态的预测未来能力翻盘最终从梦中醒来的故事。 整剧来说，节奏紧凑，风格也偏严肃，看得出来编剧不想仅仅做成一部无脑爽局。反派的智商还算在线，不是那种除了主角全傻B的烂剧。",
       "wordCount": 1140,
       "tags": [],
+      "hiddenTags": [
+        "总体评分",
+        "主观评分"
+      ],
       "topics": [
         "影视",
         "游戏",
@@ -1838,32 +1949,32 @@
         {
           "slug": "note-041-ohl8s2",
           "title": "3-文森佐（电视剧）-23.01.16",
-          "score": 6
+          "score": 9.6
         },
         {
           "slug": "note-042-1mkdcei",
           "title": "4-Re：ゼロから始める異世界生活第一季（电视剧）-23.01.16",
-          "score": 6
+          "score": 9.6
         },
         {
           "slug": "note-040-1032dak",
           "title": "2-恶人传（电影）-23.01.16",
-          "score": 4.4
+          "score": 8
+        },
+        {
+          "slug": "note-052-giqbxs",
+          "title": "总结",
+          "score": 5
+        },
+        {
+          "slug": "note-054-13v1z79",
+          "title": "galgame日记评分细则",
+          "score": 5
         },
         {
           "slug": "note-044-op6yse",
           "title": "影视评分新则：",
           "score": 4.4
-        },
-        {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 3.2
-        },
-        {
-          "slug": "note-046-t8eql4",
-          "title": "黑凤铃音线",
-          "score": 3.2
         }
       ]
     },
@@ -1878,6 +1989,10 @@
       "excerpt": "马东锡的经典之作，玩的就是拳拳到肉的爽感。大致讲了黑帮和警察齐心协力抓捕变态杀人犯的故事。总体节奏很舒服，看下来还是很爽的，就是剧情有点太简单了，感觉少了点起承转合的感觉。中间中学女生被杀的小插曲也像是为了推动电影节奏，把马东锡脾气整上来而硬整的一段。总体来说，就是电影走向有点太顺利了，不过作为一部爽局，这不正好满足观众要求么？ 主观评分： 画面：B 严肃灰",
       "wordCount": 387,
       "tags": [],
+      "hiddenTags": [
+        "总体评分",
+        "主观评分"
+      ],
       "topics": [
         "影视",
         "评分与总结"
@@ -1887,17 +2002,17 @@
         {
           "slug": "note-039-u8q8lt",
           "title": "1-财阀家的小儿子（电视剧）",
-          "score": 4.4
+          "score": 8
         },
         {
           "slug": "note-041-ohl8s2",
           "title": "3-文森佐（电视剧）-23.01.16",
-          "score": 4.4
+          "score": 8
         },
         {
           "slug": "note-042-1mkdcei",
           "title": "4-Re：ゼロから始める異世界生活第一季（电视剧）-23.01.16",
-          "score": 4.4
+          "score": 8
         },
         {
           "slug": "note-044-op6yse",
@@ -1905,14 +2020,14 @@
           "score": 4.4
         },
         {
-          "slug": "note-043-y0p4c0",
-          "title": "5-周处除三害",
-          "score": 2.8
+          "slug": "note-052-giqbxs",
+          "title": "总结",
+          "score": 3.4
         },
         {
-          "slug": "note-002-1mlwth0",
-          "title": "读书评分细则",
-          "score": 1.6
+          "slug": "note-054-13v1z79",
+          "title": "galgame日记评分细则",
+          "score": 3.4
         }
       ]
     },
@@ -1927,6 +2042,11 @@
       "excerpt": "又是一部爽剧 最近看的全是爽剧 ，大意是讲了意大利黑手党文森佐卡萨诺去韩国取一批金条，然而却遇到各种事情然后解决的故事。从片名也可以看出来，文森佐完全是人挡杀人佛挡杀佛，开挂一般的存在，遗憾的是，我早在前几集就发现了这一点，从而让我在看后面十几集的时候内心毫无波动 甚至还有点想笑 个人感觉这是一部女性向电视剧：男主有才多金帅气，喜欢女主，大反派有才多金帅气，",
       "wordCount": 972,
       "tags": [],
+      "hiddenTags": [
+        "日常描写",
+        "总体评分",
+        "主观评分"
+      ],
       "topics": [
         "影视",
         "游戏",
@@ -1938,12 +2058,22 @@
         {
           "slug": "note-039-u8q8lt",
           "title": "1-财阀家的小儿子（电视剧）",
-          "score": 6
+          "score": 9.6
         },
         {
           "slug": "note-042-1mkdcei",
           "title": "4-Re：ゼロから始める異世界生活第一季（电视剧）-23.01.16",
-          "score": 6
+          "score": 9.6
+        },
+        {
+          "slug": "note-040-1032dak",
+          "title": "2-恶人传（电影）-23.01.16",
+          "score": 8
+        },
+        {
+          "slug": "note-054-13v1z79",
+          "title": "galgame日记评分细则",
+          "score": 6.8
         },
         {
           "slug": "note-044-op6yse",
@@ -1951,19 +2081,9 @@
           "score": 6
         },
         {
-          "slug": "note-049-nshy63",
-          "title": "索菲亚线",
-          "score": 4.8
-        },
-        {
-          "slug": "note-040-1032dak",
-          "title": "2-恶人传（电影）-23.01.16",
-          "score": 4.4
-        },
-        {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 3.2
+          "slug": "note-046-t8eql4",
+          "title": "黑凤铃音线",
+          "score": 5
         }
       ]
     },
@@ -1978,6 +2098,10 @@
       "excerpt": "第一次看是高中时候，那时候这番刚出不久，真真是b站霸权，所以这也算是我的入坑作之一了，我现在还记得当时看完全剧后遍地找番外搜集第二季消息的样子，转眼六年过去，突然发现这作品出第二季了，赶紧来再补一遍第一季 尽管现在物欲横流，我有了更多的娱乐方式可供选择，但我还是从这部多刷过的番剧中找回了当初的感动 无论是小林裕介充满激情的配音，还是明日边缘式的复活转生剧情，",
       "wordCount": 785,
       "tags": [],
+      "hiddenTags": [
+        "总体评分",
+        "主观评分"
+      ],
       "topics": [
         "影视",
         "游戏",
@@ -1989,32 +2113,32 @@
         {
           "slug": "note-039-u8q8lt",
           "title": "1-财阀家的小儿子（电视剧）",
-          "score": 6
+          "score": 9.6
         },
         {
           "slug": "note-041-ohl8s2",
           "title": "3-文森佐（电视剧）-23.01.16",
-          "score": 6
+          "score": 9.6
+        },
+        {
+          "slug": "note-040-1032dak",
+          "title": "2-恶人传（电影）-23.01.16",
+          "score": 8
+        },
+        {
+          "slug": "note-054-13v1z79",
+          "title": "galgame日记评分细则",
+          "score": 6.6
+        },
+        {
+          "slug": "note-052-giqbxs",
+          "title": "总结",
+          "score": 5
         },
         {
           "slug": "note-045-1gy9t8m",
           "title": "朝仓雾香线",
           "score": 4.8
-        },
-        {
-          "slug": "note-053-reua1b",
-          "title": "总述",
-          "score": 4.8
-        },
-        {
-          "slug": "note-054-13v1z79",
-          "title": "galgame日记评分细则",
-          "score": 4.8
-        },
-        {
-          "slug": "note-040-1032dak",
-          "title": "2-恶人传（电影）-23.01.16",
-          "score": 4.4
         }
       ]
     },
@@ -2029,6 +2153,7 @@
       "excerpt": "相比于陈桂林，我更认为张贵卿更像周处 周处是谁？ 周处，字子隐，义兴阳羡人也。父鲂，吴鄱阳太守。处少孤，未弱冠，膂力绝人，好驰骋田猎，不修细行，纵情肆欲，州曲患之。处自知为人所恶，乃慨然有改励之志，谓父老曰：“今时和岁丰，何苦而不乐耶？”父老叹曰：“三害未除，何乐之有！”处曰：“何谓也？”答曰：“南山白额猛兽，长桥下蛟，并子为三矣。”处曰：“若此为患，吾能除",
       "wordCount": 998,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "影视"
       ],
@@ -2072,6 +2197,7 @@
       "excerpt": "只打一个总评分，化繁为简 评分框架用字母表示，从最高的S+到最低的F",
       "wordCount": 33,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "影视",
         "方法论",
@@ -2122,6 +2248,7 @@
       "excerpt": "気の毒そうな目でこっちを見るな！先輩だってぼっちじゃん！ 所谓孤独者，那种沉浸在自己的世界中的人，我也做过的。初中时期，我就是这样的人，做什么事都尽量独来独往，有种不相信任何人的心境。所以朝仓线的很多细节我都深有感触，这点加分蛮多。 剧情方面，本线虽然不算令人惊艳，但至少也称得上是跌宕起伏，朝仓虚拟偶像的身份也很有意思，增加了这个角色的立体感，和拉娜一样，这",
       "wordCount": 305,
       "tags": [],
+      "hiddenTags": [],
       "topics": [
         "游戏",
         "日记与随笔",
@@ -2172,6 +2299,11 @@
       "excerpt": "ごきげんよう、城前くん。クルマに気をつけるようにね。 第一条线，我直接推了个看起来最喜欢的，这种黑长直确实看起来让人难以拒绝，剧情其实并不复杂，就是城前快斗被黑凤背叛，但最终反过来又把黑凤拯救（物理）的故事。总的来讲，推着很舒服，铃音这种性格也很有趣，日常描写很到位，唯一不舒服的一点是铃音老是惦记这她那b哥哥，虽然后日谈里铃音最终和男主公开告白了恋情，但是后",
       "wordCount": 274,
       "tags": [],
+      "hiddenTags": [
+        "铃音线",
+        "日常描写",
+        "支线评分"
+      ],
       "topics": [
         "游戏",
         "评分与总结"
@@ -2179,34 +2311,34 @@
       "type": "note",
       "related": [
         {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 5.6
-        },
-        {
           "slug": "note-047-6avuhu",
           "title": "拉娜线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-048-sudk5u",
           "title": "神無月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-049-nshy63",
           "title": "索菲亚线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-050-153tllb",
           "title": "园村叶月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-051-1dog112",
           "title": "月咏线",
-          "score": 5.6
+          "score": 7.4
+        },
+        {
+          "slug": "note-054-13v1z79",
+          "title": "galgame日记评分细则",
+          "score": 6.2
         }
       ]
     },
@@ -2221,6 +2353,10 @@
       "excerpt": "ということで、事件は無事に解決デース。みなさん、もう根拠なく人を疑っちゃダメですよ？ 前段时间看了很多东野圭吾的推理小说，所以第一次看到这个带着侦探帽的福尔摩斯形象的女生，我还以为会有让玩家推理剧情来选择分支的展开，结果并没有。。。 这条线是经典的青梅竹马路线，编剧为了让它不影响其他线强行安排了个事故让主角暂时把这个线给忘了，只有选择推这条线才会想起来（话说",
       "wordCount": 718,
       "tags": [],
+      "hiddenTags": [
+        "拉娜线",
+        "支线评分"
+      ],
       "topics": [
         "游戏",
         "评分与总结"
@@ -2228,33 +2364,33 @@
       "type": "note",
       "related": [
         {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 5.6
-        },
-        {
           "slug": "note-046-t8eql4",
           "title": "黑凤铃音线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-048-sudk5u",
           "title": "神無月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-049-nshy63",
           "title": "索菲亚线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-050-153tllb",
           "title": "园村叶月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-051-1dog112",
           "title": "月咏线",
+          "score": 7.4
+        },
+        {
+          "slug": "note-045-1gy9t8m",
+          "title": "朝仓雾香线",
           "score": 5.6
         }
       ]
@@ -2270,6 +2406,9 @@
       "excerpt": "ふっふっふ、 アイドル舐めちゃいけません。ファンのことなら１から１０まで知ってて当然です！ 一个真正爱虚拟主播这个行业的人，编剧也很懂，如何造梗，主播玩什么游戏能爆火，这些剧情都能让人会心一笑，作为一个互联网老油子，这些元素还是很有意思的。 总的来说，本线不长，也没有惊天反转，神无月这种独自坚强的性格有点get不到萌感 支线评分：B",
       "wordCount": 163,
       "tags": [],
+      "hiddenTags": [
+        "支线评分"
+      ],
       "topics": [
         "游戏",
         "评分与总结"
@@ -2277,33 +2416,33 @@
       "type": "note",
       "related": [
         {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 5.6
-        },
-        {
           "slug": "note-046-t8eql4",
           "title": "黑凤铃音线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-047-6avuhu",
           "title": "拉娜线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-049-nshy63",
           "title": "索菲亚线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-050-153tllb",
           "title": "园村叶月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-051-1dog112",
           "title": "月咏线",
+          "score": 7.4
+        },
+        {
+          "slug": "note-045-1gy9t8m",
+          "title": "朝仓雾香线",
           "score": 5.6
         }
       ]
@@ -2319,6 +2458,10 @@
       "excerpt": "そ、それって、さっき見た私の裸を忘れないってこと……？ 是错觉吗？好像日本人在塑造青梅竹马时对英国这个国家情有独钟。之前看过《路人女主的养成方法》中那位黄毛（英梨梨？好像叫这个名字）就是英国人。 索菲亚线的专属部分很短暂，只在拉娜二周目后日谈里才会出现索菲亚的选项，两种索菲亚结局应该都算不上bad end 但也不算happy end。而且玩完两台线我才发现，",
       "wordCount": 341,
       "tags": [],
+      "hiddenTags": [
+        "索菲亚",
+        "支线评分"
+      ],
       "topics": [
         "游戏",
         "方法论",
@@ -2327,33 +2470,33 @@
       "type": "note",
       "related": [
         {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 5.6
-        },
-        {
           "slug": "note-046-t8eql4",
           "title": "黑凤铃音线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-047-6avuhu",
           "title": "拉娜线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-048-sudk5u",
           "title": "神無月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-050-153tllb",
           "title": "园村叶月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-051-1dog112",
           "title": "月咏线",
+          "score": 7.4
+        },
+        {
+          "slug": "note-045-1gy9t8m",
+          "title": "朝仓雾香线",
           "score": 5.6
         }
       ]
@@ -2369,6 +2512,9 @@
       "excerpt": "这是流浪仓鼠罢（心虚） 写的时候才发现，园村叶月居然是ex版里特有的人物？怪不得萌娘百科中查不到此人。玩园村线就像把其他所有线串了一遍。每个人都出场，都简单地交代了一下结局。剧情方面，倒是没什么特殊的，尤其是玩过其他线一遍后都清楚了整体剧情。不过交代了一下流浪仓鼠这个ai还是挺有意思的。我之前玩其他线的时候也考虑过这个问题，既然这个未来世界的ai水平高到这个",
       "wordCount": 262,
       "tags": [],
+      "hiddenTags": [
+        "支线评分"
+      ],
       "topics": [
         "游戏",
         "评分与总结"
@@ -2376,33 +2522,33 @@
       "type": "note",
       "related": [
         {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 5.6
-        },
-        {
           "slug": "note-046-t8eql4",
           "title": "黑凤铃音线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-047-6avuhu",
           "title": "拉娜线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-048-sudk5u",
           "title": "神無月线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-049-nshy63",
           "title": "索菲亚线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-051-1dog112",
           "title": "月咏线",
+          "score": 7.4
+        },
+        {
+          "slug": "note-045-1gy9t8m",
+          "title": "朝仓雾香线",
           "score": 5.6
         }
       ]
@@ -2418,6 +2564,11 @@
       "excerpt": "お風呂にする？ご飯にする？それとも……わ・た・し？（新婚三问） 写月咏线的时候才发现，这个先吃饭先洗澡还是先吃我居然是个老梗了，看来游戏组致敬了不少经典，我居然玩的时候没看出来（悲）。 月咏线无疑是本作我最喜欢的一条线，况且当初选这个游戏玩就是奔着机器人设定去的（就是为了这盘醋才包的这锅饺子）。玩下来后，整线的剧情，日常吐槽与月咏的性格与立绘都很让我满意，这",
       "wordCount": 534,
       "tags": [],
+      "hiddenTags": [
+        "月咏线",
+        "galgame",
+        "支线评分"
+      ],
       "topics": [
         "GALGAME",
         "游戏",
@@ -2428,32 +2579,32 @@
         {
           "slug": "note-053-reua1b",
           "title": "总述",
-          "score": 7.2
+          "score": 9
         },
         {
           "slug": "note-054-13v1z79",
           "title": "galgame日记评分细则",
-          "score": 6
-        },
-        {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 5.6
+          "score": 7.8
         },
         {
           "slug": "note-046-t8eql4",
           "title": "黑凤铃音线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-047-6avuhu",
           "title": "拉娜线",
-          "score": 5.6
+          "score": 7.4
         },
         {
           "slug": "note-048-sudk5u",
           "title": "神無月线",
-          "score": 5.6
+          "score": 7.4
+        },
+        {
+          "slug": "note-049-nshy63",
+          "title": "索菲亚线",
+          "score": 7.4
         }
       ]
     },
@@ -2468,12 +2619,20 @@
       "excerpt": "献给神明般的你 这个“神明”是指谁呢？我想可以是任何人。 城前拯救了朝仓，为朝仓获得新生；解决了黑凤心中对兄长的执念；接纳拉娜的爱并始终陪在她身边；为神无月定制偶像计划，使这个既坚强又柔软的人找到新的起点；为一心一意为拉娜生存而奋斗的索菲亚提供一个爱的港湾；接纳被流浪仓鼠洗脑的叶月，并为其重新找回自我；以及，最重要的，对着c ai发号施令创造出月咏；城前快斗",
       "wordCount": 884,
       "tags": [],
+      "hiddenTags": [
+        "主观评分"
+      ],
       "topics": [
         "游戏",
         "评分与总结"
       ],
       "type": "note",
       "related": [
+        {
+          "slug": "note-054-13v1z79",
+          "title": "galgame日记评分细则",
+          "score": 6.2
+        },
         {
           "slug": "note-045-1gy9t8m",
           "title": "朝仓雾香线",
@@ -2498,11 +2657,6 @@
           "slug": "note-049-nshy63",
           "title": "索菲亚线",
           "score": 5.6
-        },
-        {
-          "slug": "note-050-153tllb",
-          "title": "园村叶月线",
-          "score": 5.6
         }
       ]
     },
@@ -2517,6 +2671,9 @@
       "excerpt": "这是我第一次以如此高的完成度推完一部galgame，百感交集之际，我打算用文字记录下来，也算我用文字记录galgame的一个开端。 第一次见到这个游戏是在小红车的r18区里，当时百无聊赖，想找个文字游戏来玩，就从最热下载榜里选择了这款玩。之所以选择献给神明般的你（后文简称‘献神’），是因为我发现这游戏里有我最喜欢的机器人元素，不能说这是一种xp，而更多像是一",
       "wordCount": 653,
       "tags": [],
+      "hiddenTags": [
+        "galgame"
+      ],
       "topics": [
         "GALGAME",
         "游戏",
@@ -2528,16 +2685,16 @@
         {
           "slug": "note-054-13v1z79",
           "title": "galgame日记评分细则",
-          "score": 7.6
-        },
-        {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 7.2
+          "score": 9.4
         },
         {
           "slug": "note-051-1dog112",
           "title": "月咏线",
+          "score": 9
+        },
+        {
+          "slug": "note-045-1gy9t8m",
+          "title": "朝仓雾香线",
           "score": 7.2
         },
         {
@@ -2568,6 +2725,12 @@
       "excerpt": "我还记得很多年以前，我在我当时的小米5上下载过一部名叫 ‘ lucy,她和她所期望的一切’ 的游戏。在当时我的印象里，一款游戏，游戏性，画面是最重要的，剧情什么的统统靠边站，再加上下载这款游戏的盗版网站上并没有过多的游戏介绍，只有一张漂亮的cg插图，导致我以为这是一款以画面精美为卖点的战斗游戏。事实证明我错了，这款游戏除了只有简单几个分支项可以操作，其他基本",
       "wordCount": 839,
       "tags": [],
+      "hiddenTags": [
+        "galgame",
+        "评分细则",
+        "日常描写",
+        "主观评分"
+      ],
       "topics": [
         "GALGAME",
         "游戏",
@@ -2580,32 +2743,32 @@
         {
           "slug": "note-053-reua1b",
           "title": "总述",
-          "score": 7.6
-        },
-        {
-          "slug": "note-045-1gy9t8m",
-          "title": "朝仓雾香线",
-          "score": 6
+          "score": 9.4
         },
         {
           "slug": "note-051-1dog112",
           "title": "月咏线",
-          "score": 6
+          "score": 7.8
+        },
+        {
+          "slug": "note-041-ohl8s2",
+          "title": "3-文森佐（电视剧）-23.01.16",
+          "score": 6.8
         },
         {
           "slug": "note-042-1mkdcei",
           "title": "4-Re：ゼロから始める異世界生活第一季（电视剧）-23.01.16",
-          "score": 4.8
+          "score": 6.6
         },
         {
           "slug": "note-002-1mlwth0",
           "title": "读书评分细则",
-          "score": 4.8
+          "score": 6.6
         },
         {
           "slug": "note-046-t8eql4",
           "title": "黑凤铃音线",
-          "score": 4.4
+          "score": 6.2
         }
       ]
     },
@@ -2631,7 +2794,7 @@
       "title": "随笔",
       "type": "cluster",
       "size": 4,
-      "count": 35
+      "count": 36
     },
     {
       "id": "cluster:随笔 / 2023年1月",
@@ -2645,6 +2808,14 @@
       "id": "cluster:随笔 / 2023年4月",
       "label": "随笔 / 2023年4月",
       "title": "随笔 / 2023年4月",
+      "type": "cluster",
+      "size": 1,
+      "count": 1
+    },
+    {
+      "id": "cluster:随笔 / 2026年7月",
+      "label": "随笔 / 2026年7月",
+      "title": "随笔 / 2026年7月",
       "type": "cluster",
       "size": 1,
       "count": 1
@@ -2872,6 +3043,12 @@
       "weight": 0.85
     },
     {
+      "source": "note:note-d6gdov",
+      "target": "cluster:随笔",
+      "type": "folder",
+      "weight": 0.85
+    },
+    {
       "source": "note:note-007-qcj4ul",
       "target": "cluster:随笔",
       "type": "folder",
@@ -3078,6 +3255,12 @@
     {
       "source": "note:note-006-19y5nmg",
       "target": "cluster:随笔 / 2023年4月",
+      "type": "folder",
+      "weight": 0.85
+    },
+    {
+      "source": "note:note-d6gdov",
+      "target": "cluster:随笔 / 2026年7月",
       "type": "folder",
       "weight": 0.85
     },
@@ -3905,6 +4088,12 @@
     },
     {
       "source": "note:note-003-1x753pb",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-003-1x753pb",
       "target": "note:note-007-qcj4ul",
       "type": "related",
       "weight": 2.8
@@ -4103,6 +4292,12 @@
     },
     {
       "source": "note:note-004-1t9hkt0",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-004-1t9hkt0",
       "target": "note:note-007-qcj4ul",
       "type": "related",
       "weight": 1.2
@@ -4295,6 +4490,12 @@
     },
     {
       "source": "note:note-005-124hhk8",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-005-124hhk8",
       "target": "note:note-007-qcj4ul",
       "type": "related",
       "weight": 1.2
@@ -4481,6 +4682,12 @@
     },
     {
       "source": "note:note-006-19y5nmg",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-006-19y5nmg",
       "target": "note:note-007-qcj4ul",
       "type": "related",
       "weight": 1.2
@@ -4662,6 +4869,192 @@
     {
       "source": "note:note-006-19y5nmg",
       "target": "note:note-037-1rfsmpp",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-007-qcj4ul",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-008-whwks9",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-009-130tuua",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-010-1alphoq",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-011-1v0gg4t",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-012-1xgp4r9",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-013-1drtle0",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-014-1rzh1yd",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-015-1gl51mn",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-016-1fd82ka",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-017-fexjjr",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-018-1uhx4a4",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-019-1dfuils",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-020-6xhxyu",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-021-ccb282",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-022-bl19j",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-023-1i5frl3",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-024-r7h26y",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-025-1m2x644",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-026-1q6zrom",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-027-16aggqi",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-028-scw1in",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-029-r52kfk",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-030-rb6xgq",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-031-gehsgd",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-032-rmibtc",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-033-15sxkz7",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-034-50prs2",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-035-1nggkoc",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-036-tf36pd",
+      "target": "note:note-d6gdov",
+      "type": "related",
+      "weight": 1.2
+    },
+    {
+      "source": "note:note-037-1rfsmpp",
+      "target": "note:note-d6gdov",
       "type": "related",
       "weight": 1.2
     },
@@ -5191,7 +5584,7 @@
       "source": "note:note-010-1alphoq",
       "target": "note:note-011-1v0gg4t",
       "type": "related",
-      "weight": 2.4
+      "weight": 3
     },
     {
       "source": "note:note-010-1alphoq",
@@ -7189,7 +7582,7 @@
       "source": "note:note-028-scw1in",
       "target": "note:note-029-r52kfk",
       "type": "related",
-      "weight": 2.4
+      "weight": 3
     },
     {
       "source": "note:note-028-scw1in",
@@ -8431,7 +8824,7 @@
       "source": "note:note-040-1032dak",
       "target": "note:note-052-giqbxs",
       "type": "related",
-      "weight": 1.6
+      "weight": 3
     },
     {
       "source": "note:note-040-1032dak",
@@ -8443,7 +8836,7 @@
       "source": "note:note-040-1032dak",
       "target": "note:note-054-13v1z79",
       "type": "related",
-      "weight": 1.6
+      "weight": 3
     },
     {
       "source": "note:note-044-op6yse",

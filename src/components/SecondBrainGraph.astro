@@ -9,7 +9,11 @@ const { lang = 'zh' } = Astro.props;
 const isEn = lang === 'en';
 const noteNodes = graphData.nodes.filter((node) => node.type === 'note');
 const categories = [...new Set(noteNodes.map((node) => node.category))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
-const safeData = JSON.stringify(graphData).replace(/</g, '\\u003c');
+const publicGraphData = {
+  ...graphData,
+  nodes: graphData.nodes.map(({ hiddenTags, ...node }) => node)
+};
+const safeData = JSON.stringify(publicGraphData).replace(/</g, '\\u003c');
 ---
 
 <section class="brain-explorer" data-second-brain data-lang={lang}>

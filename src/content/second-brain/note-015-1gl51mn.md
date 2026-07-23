@@ -8,4 +8,5 @@ folder: "随笔 / 进化笔记 / 曼森方法1.0 / 内核"
 sourcePath: "随笔\\进化笔记\\曼森方法1.0\\内核\\坦诚感vs神秘感.md"
 slug: "note-015-1gl51mn"
 tags: []
+hiddenTags: []
 ---

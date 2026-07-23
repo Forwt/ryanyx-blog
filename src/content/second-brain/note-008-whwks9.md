@@ -8,6 +8,7 @@ folder: "随笔 / 进化笔记 / 健身笔记"
 sourcePath: "随笔\\进化笔记\\健身笔记\\未命名 1.md"
 slug: "note-008-whwks9"
 tags: []
+hiddenTags: []
 ---
 新手增肌几个点：
 1、不包括热身拉伸时间的话，每次训练1-1.5小时

@@ -8,4 +8,5 @@ folder: "随笔 / 进化笔记 / 曼森方法1.0 / 内核"
 sourcePath: "随笔\\进化笔记\\曼森方法1.0\\内核\\约束感vs自在感.md"
 slug: "note-016-1fd82ka"
 tags: []
+hiddenTags: []
 ---

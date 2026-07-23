@@ -8,6 +8,7 @@ folder: "随笔 / 2023年4月"
 sourcePath: "随笔\\2023年4月\\2023-4-27.md"
 slug: "note-006-19y5nmg"
 tags: []
+hiddenTags: []
 ---
 今日进展并不大
 

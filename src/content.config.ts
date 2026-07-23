@@ -63,7 +63,8 @@ const secondBrain = defineCollection({
     folder: z.string(),
     sourcePath: z.string(),
     slug: z.string(),
-    tags: z.array(z.string()).default([])
+    tags: z.array(z.string()).default([]),
+    hiddenTags: z.array(z.string()).default([])
   })
 });
 

@@ -8,6 +8,7 @@ folder: "游戏日记 / GALGAME日记 / 献给神明般的你"
 sourcePath: "游戏日记\\GALGAME日记\\献给神明般的你\\拉娜线.md"
 slug: "note-047-6avuhu"
 tags: []
+hiddenTags: ["拉娜线","支线评分"]
 ---
 ![screenshot_20230105115941.png](/second-brain/assets/%E6%B8%B8%E6%88%8F%E6%97%A5%E8%AE%B0/GALGAME%E6%97%A5%E8%AE%B0/%E7%8C%AE%E7%BB%99%E7%A5%9E%E6%98%8E%E8%88%AC%E7%9A%84%E4%BD%A0/screenshot_20230105115941.png)
 

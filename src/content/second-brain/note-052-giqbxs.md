@@ -8,6 +8,7 @@ folder: "游戏日记 / GALGAME日记 / 献给神明般的你"
 sourcePath: "游戏日记\\GALGAME日记\\献给神明般的你\\总结.md"
 slug: "note-052-giqbxs"
 tags: []
+hiddenTags: ["主观评分"]
 ---
 	献给神明般的你
 这个“神明”是指谁呢？我想可以是任何人。

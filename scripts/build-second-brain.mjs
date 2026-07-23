@@ -10,6 +10,7 @@ const sourceRoot = path.resolve(
 const contentOutput = path.join(projectRoot, 'src', 'content', 'second-brain');
 const assetOutput = path.join(projectRoot, 'public', 'second-brain', 'assets');
 const dataOutput = path.join(projectRoot, 'src', 'data', 'second-brain.json');
+const slugMapOutput = path.join(projectRoot, 'src', 'data', 'second-brain-slugs.json');
 
 const topicRules = [
   ['GALGAME', ['galgame', 'gal game']],
@@ -29,13 +30,28 @@ const topicRules = [
 
 const normalize = (value) => value.toLocaleLowerCase('zh-CN');
 
-const slugify = (value, index) => {
+// These terms are too common to be useful as relationship tags. The generated
+// hidden tags are intentionally derived from the whole vault, so a new note
+// can join an existing thread without requiring manual tagging.
+const semanticStopwords = new Set([
+  '一个', '一种', '一些', '这个', '那个', '我们', '自己', '因为', '所以', '就是', '还有', '不是',
+  '以及', '进行', '时候', '如何', '什么', '今天', '明天', '现在', '可能', '应该', '觉得', '个人',
+  '内容', '问题', '部分', '关于', '任何', '之后', '之前', '其中', '非常', '这种', '还是', '主要',
+  '通过', '如果', '已经', '需要', '但是', '只是', '看到', '发生', '成为', '起来', '方面', '东西',
+  '事情', '当时', '一篇', '让我', '没有', '可以', '的话', '时候', '之后', '以前', '现在', '因为',
+  '完整的', '不用', '包括', '一定要有', '一定要', '本线', '用字母', '加分', '生活', '文字', '游戏', '电视剧', '电影', '框架', '方法', '日记',
+  '的方法', '关系的', '还是一', '作为一个', '的故事', '尽管如此', '越来越', '经历了', '感觉还',
+  'would', 'could', 'should', 'about', 'there', 'their', 'which', 'with', 'from', 'that', 'this'
+]);
+const chineseFunctionCharacters = /[的了是有在和与或也都就我你他她其这那们不从到为被将更很还个一上下面中等]/u;
+
+const slugify = (value) => {
   let hash = 2166136261;
   for (const char of value) {
     hash ^= char.codePointAt(0);
     hash = Math.imul(hash, 16777619);
   }
-  return `note-${String(index + 1).padStart(3, '0')}-${(hash >>> 0).toString(36)}`;
+  return `note-${(hash >>> 0).toString(36)}`;
 };
 
 const yamlString = (value) => JSON.stringify(String(value ?? '').replace(/\r?\n/g, ' ').trim());
@@ -91,6 +107,68 @@ const topicFor = (title, body) => {
   return topicRules.filter(([, terms]) => terms.some((term) => text.includes(normalize(term)))).map(([label]) => label);
 };
 
+const collectSemanticCandidates = (title, body) => {
+  const scores = new Map();
+  const add = (value, weight) => {
+    const term = value.trim();
+    const isChinesePhrase = /^[\u3400-\u9fff]+$/u.test(term);
+    if (term.length < 2 || term.length > 24 || (isChinesePhrase && (term.length < 3 || chineseFunctionCharacters.test(term))) || semanticStopwords.has(term) || !/[\p{L}\p{N}]/u.test(term)) return;
+    scores.set(term, (scores.get(term) ?? 0) + weight);
+  };
+  const collect = (text, weight) => {
+    for (const match of text.matchAll(/[A-Za-z][A-Za-z0-9+#.-]{2,}/gu)) add(normalize(match[0]), weight);
+    for (const match of text.matchAll(/[\u3400-\u9fff]{2,}/gu)) {
+      const run = match[0];
+      for (let size = 2; size <= Math.min(6, run.length); size += 1) {
+        for (let index = 0; index + size <= run.length; index += 1) {
+          add(run.slice(index, index + size), weight * (size >= 4 ? 1.35 : 1));
+        }
+      }
+    }
+  };
+  collect(title, 4);
+  collect(cleanText(body), 1);
+  return scores;
+};
+
+const assignHiddenTags = (notes) => {
+  const corpus = new Map();
+  for (const note of notes) {
+    const candidates = collectSemanticCandidates(note.title, note.body);
+    note.titleSemanticCandidates = new Set(collectSemanticCandidates(note.title, '').keys());
+    note.semanticCandidates = candidates;
+    for (const term of candidates.keys()) {
+      const item = corpus.get(term) ?? { documentFrequency: 0 };
+      item.documentFrequency += 1;
+      corpus.set(term, item);
+    }
+  }
+  const maxFrequency = Math.max(2, Math.floor(notes.length * 0.55));
+  for (const note of notes) {
+    const ranked = [...note.semanticCandidates.entries()]
+      .filter(([term]) => {
+        const frequency = corpus.get(term)?.documentFrequency ?? 0;
+        const appearsInTitle = note.titleSemanticCandidates.has(term);
+        return frequency >= 2 && frequency <= maxFrequency && (appearsInTitle || (frequency >= 3 && term.length >= 4));
+      })
+      .map(([term, score]) => {
+        const frequency = corpus.get(term)?.documentFrequency ?? 1;
+        const specificity = Math.log((notes.length + 1) / (frequency + 1) + 1);
+        return { term, score: score * (1 + term.length * 0.16) * specificity };
+      })
+      .sort((a, b) => b.score - a.score);
+    const selected = [];
+    for (const { term } of ranked) {
+      if (selected.some((chosen) => chosen.includes(term) || term.includes(chosen))) continue;
+      selected.push(term);
+      if (selected.length >= 6) break;
+    }
+    note.hiddenTags = selected;
+    delete note.semanticCandidates;
+    delete note.titleSemanticCandidates;
+  }
+};
+
 const slugPath = (value) => value.split(path.sep).join('/');
 
 const encodedAssetPath = (relativePath) => `/second-brain/assets/${slugPath(relativePath).split('/').map(encodeURIComponent).join('/')}`;
@@ -98,6 +176,12 @@ const encodedAssetPath = (relativePath) => `/second-brain/assets/${slugPath(rela
 const pairKey = (a, b) => a < b ? `${a}::${b}` : `${b}::${a}`;
 
 const readSource = async () => {
+  let slugMap = {};
+  try {
+    slugMap = JSON.parse(await fs.readFile(slugMapOutput, 'utf8'));
+  } catch {
+    slugMap = {};
+  }
   const allFiles = await listFiles(sourceRoot);
   const markdownFiles = allFiles.filter((file) => file.toLocaleLowerCase().endsWith('.md')).sort((a, b) => a.localeCompare(b, 'zh-CN'));
   const assetFiles = allFiles.filter((file) => /\.(png|jpe?g|gif|webp|svg)$/iu.test(file));
@@ -108,7 +192,7 @@ const readSource = async () => {
     assetsByName.get(basename).push(asset);
   }
   const notes = [];
-  for (const [index, filePath] of markdownFiles.entries()) {
+  for (const filePath of markdownFiles) {
     const body = await fs.readFile(filePath, 'utf8');
     const stat = await fs.stat(filePath);
     const relative = path.relative(sourceRoot, filePath);
@@ -117,9 +201,10 @@ const readSource = async () => {
     const category = parts.length > 1 ? parts[0] : '未分类';
     const folder = parts.length > 2 ? parts.slice(0, -1).join(' / ') : category;
     const clean = cleanText(body);
+    const slug = slugMap[relative] ?? slugMap[`title:${title}`] ?? slugify(relative);
     notes.push({
-      id: `note:${slugify(relative, index)}`,
-      slug: slugify(relative, index),
+      id: `note:${slug}`,
+      slug,
       title,
       relative,
       category,
@@ -135,7 +220,8 @@ const readSource = async () => {
       assetsByName
     });
   }
-  return { allFiles, assetFiles, notes, assetsByName };
+  assignHiddenTags(notes);
+  return { allFiles, assetFiles, notes, assetsByName, slugMap };
 };
 
 const resolveNoteLinks = (notes) => {
@@ -188,8 +274,8 @@ const addPairScores = (scores, members, weight) => {
 };
 
 const buildGraph = (notes, explicitEdges) => {
-  const nodes = notes.map(({ id, slug, title, category, folder, date, updatedAt, excerpt, wordCount, tags, topics }) => ({
-    id, slug, title, category, folder, date, updatedAt, excerpt, wordCount, tags, topics, type: 'note'
+  const nodes = notes.map(({ id, slug, title, category, folder, date, updatedAt, excerpt, wordCount, tags, hiddenTags, topics }) => ({
+    id, slug, title, category, folder, date, updatedAt, excerpt, wordCount, tags, hiddenTags, topics, type: 'note'
   }));
   const edges = [...explicitEdges];
   const nodeIds = new Set(nodes.map((node) => node.id));
@@ -207,6 +293,12 @@ const buildGraph = (notes, explicitEdges) => {
   const groups = new Map();
   const topics = new Map();
   const tags = new Map();
+  const addTag = (label, noteId, hidden = false) => {
+    const group = tags.get(label) ?? { members: [], hidden: true };
+    if (!group.members.includes(noteId)) group.members.push(noteId);
+    group.hidden = group.hidden && hidden;
+    tags.set(label, group);
+  };
   for (const note of notes) {
     if (!groups.has(note.category)) groups.set(note.category, []);
     groups.get(note.category).push(note.id);
@@ -219,8 +311,10 @@ const buildGraph = (notes, explicitEdges) => {
       topics.get(topic).push(note.id);
     }
     for (const tag of note.tags) {
-      if (!tags.has(tag)) tags.set(tag, []);
-      tags.get(tag).push(note.id);
+      addTag(tag, note.id);
+    }
+    for (const tag of note.hiddenTags) {
+      addTag(tag, note.id, true);
     }
   }
   for (const [label, members] of groups) {
@@ -234,15 +328,16 @@ const buildGraph = (notes, explicitEdges) => {
     addNode({ id, label, title: label, type: 'topic', size: Math.max(1, Math.min(3.5, members.length / 3)), count: members.length });
     members.forEach((member) => addEdge(member, id, 'topic', 0.65));
   }
-  for (const [label, members] of tags) {
+  for (const [label, group] of tags) {
+    if (group.hidden) continue;
     const id = `tag:${label}`;
-    addNode({ id, label, title: label, type: 'tag', size: Math.max(1, Math.min(3, members.length / 2)), count: members.length });
-    members.forEach((member) => addEdge(member, id, 'tag', 0.75));
+    addNode({ id, label, title: label, hidden: group.hidden, type: 'tag', size: Math.max(1, Math.min(3, group.members.length / 2)), count: group.members.length });
+    group.members.forEach((member) => addEdge(member, id, 'tag', 0.75));
   }
   const scores = new Map();
   addPairScores(scores, groups, 1.2);
   addPairScores(scores, topics, 1.6);
-  addPairScores(scores, tags, 1.8);
+  addPairScores(scores, new Map([...tags].map(([label, group]) => [label, group.members])), 1.8);
   for (const edge of explicitEdges) scores.set(pairKey(edge.source, edge.target), (scores.get(pairKey(edge.source, edge.target)) ?? 0) + 4);
   for (const [key, score] of scores) {
     const [source, target] = key.split('::');
@@ -262,14 +357,17 @@ const buildGraph = (notes, explicitEdges) => {
 };
 
 const generate = async () => {
-  const { allFiles, assetFiles, notes } = await readSource();
+  const { allFiles, assetFiles, notes, slugMap } = await readSource();
   const { edges: explicitEdges, transformed } = resolveNoteLinks(notes);
   const graph = buildGraph(notes, explicitEdges);
   await fs.rm(contentOutput, { recursive: true, force: true });
   await fs.rm(assetOutput, { recursive: true, force: true });
   await fs.mkdir(contentOutput, { recursive: true });
   await fs.mkdir(assetOutput, { recursive: true });
+  const nextSlugMap = { ...slugMap };
   for (const note of notes) {
+    nextSlugMap[note.relative] = note.slug;
+    nextSlugMap[`title:${note.title}`] = note.slug;
     const frontmatter = [
       '---',
       `title: ${yamlString(note.title)}`,
@@ -281,11 +379,13 @@ const generate = async () => {
       `sourcePath: ${yamlString(note.relative)}`,
       `slug: ${yamlString(note.slug)}`,
       `tags: ${JSON.stringify(note.tags)}`,
+      `hiddenTags: ${JSON.stringify(note.hiddenTags)}`,
       '---',
       ''
     ].join('\n');
     await fs.writeFile(path.join(contentOutput, `${note.slug}.md`), `${frontmatter}${transformed.get(note.id) ?? ''}`, 'utf8');
   }
+  await fs.writeFile(slugMapOutput, `${JSON.stringify(nextSlugMap, null, 2)}\n`, 'utf8');
   for (const asset of assetFiles) {
     const destination = path.join(assetOutput, path.relative(sourceRoot, asset));
     await fs.mkdir(path.dirname(destination), { recursive: true });

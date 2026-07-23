@@ -8,6 +8,7 @@ folder: "影视日记"
 sourcePath: "影视日记\\影视评分新则：.md"
 slug: "note-044-op6yse"
 tags: []
+hiddenTags: []
 ---
 只打一个总评分，化繁为简
 

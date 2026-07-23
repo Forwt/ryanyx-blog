@@ -8,4 +8,5 @@ folder: "随笔 / 进化笔记 / 曼森方法1.0 / 实操"
 sourcePath: "随笔\\进化笔记\\曼森方法1.0\\实操\\服从性积累.md"
 slug: "note-018-1uhx4a4"
 tags: []
+hiddenTags: []
 ---

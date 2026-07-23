@@ -8,6 +8,7 @@ folder: "游戏日记 / GALGAME日记 / 献给神明般的你"
 sourcePath: "游戏日记\\GALGAME日记\\献给神明般的你\\黑凤铃音线.md"
 slug: "note-046-t8eql4"
 tags: []
+hiddenTags: ["铃音线","日常描写","支线评分"]
 ---
 ![screenshot_20230104105050.png](/second-brain/assets/%E6%B8%B8%E6%88%8F%E6%97%A5%E8%AE%B0/GALGAME%E6%97%A5%E8%AE%B0/%E7%8C%AE%E7%BB%99%E7%A5%9E%E6%98%8E%E8%88%AC%E7%9A%84%E4%BD%A0/screenshot_20230104105050.png)
 

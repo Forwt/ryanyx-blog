@@ -8,6 +8,7 @@ folder: "随笔 / 实习"
 sourcePath: "随笔\\实习\\函证.md"
 slug: "note-036-tf36pd"
 tags: []
+hiddenTags: []
 ---
 一，打印
 

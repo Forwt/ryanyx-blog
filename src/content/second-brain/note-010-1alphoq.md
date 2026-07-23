@@ -8,4 +8,5 @@ folder: "随笔 / 进化笔记 / 曼森方法1.0 / 内核"
 sourcePath: "随笔\\进化笔记\\曼森方法1.0\\内核\\摆脱负极1.md"
 slug: "note-010-1alphoq"
 tags: []
+hiddenTags: ["摆脱负极"]
 ---

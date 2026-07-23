@@ -8,6 +8,7 @@ folder: "读书日记"
 sourcePath: "读书日记\\读书评分细则.md"
 slug: "note-002-1mlwth0"
 tags: []
+hiddenTags: ["评分细则"]
 ---
 书籍日记收录2023年以后读的书
 
