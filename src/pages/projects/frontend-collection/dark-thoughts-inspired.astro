@@ -36,8 +36,8 @@ import InspirationDemo from '../../../components/InspirationDemo.astro';
       <div class="study-copy">
         <h3>把“装饰图”改成低负担的环境层</h3>
         <p>顶部使用一张原创山雾照片，但它不会以原图直接呈现：脚本先将照片裁切、灰阶化并提高对比度，绘入离屏 Canvas；再以 4×4 Bayer 阈值矩阵逐格采样亮度，决定是否在主 Canvas 绘制一个暖白色 2px 方点。结果是照片的体积和明暗被保留，图像语言却变成了参考页那种克制的点阵。</p>
-        <p>画布以受限的设备像素比绘制，只在初次加载、容器尺寸变化或主题切换时重算一帧，而不是持续占用动画循环。这比把 WebGL 或全屏视频放在每篇文章顶端更轻，也让无脚本时仍可退回到原始山景。</p>
-        <pre><code>source image → offscreen Canvas → grayscale / contrast · 4×4 Bayer matrix → 2px threshold dots → visible Canvas · resize or theme change → render one static frame</code></pre>
+        <p>画布以受限的设备像素比重绘。为让云层有呼吸感，它只在可见区域以约 12fps 工作：原图以 18 秒周期横移几个像素，Bayer 阈值矩阵缓慢换相。离开视窗或系统启用“减少动态效果”时，动画立即暂停并固定一帧，避免装饰效果持续消耗 CPU。</p>
+        <pre><code>source image → subtle 18s pan → grayscale / contrast · 4×4 Bayer matrix + slow phase → 2px warm dots → visible-only ~12fps render</code></pre>
       </div>
     </section>
 

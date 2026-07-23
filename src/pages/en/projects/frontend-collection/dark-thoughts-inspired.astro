@@ -36,8 +36,8 @@ import InspirationDemo from '../../../../components/InspirationDemo.astro';
       <div class="study-copy">
         <h3>Turn a decorative image into an ambient layer</h3>
         <p>The header begins with an original misty-mountain photograph, but it never appears as an unprocessed image. The script crops, grayscales, and raises contrast in an offscreen Canvas, then samples luminosity against a 4×4 Bayer threshold matrix. Each passing sample becomes a warm 2px square in the visible Canvas. The photograph keeps its depth and light while taking on the restrained dot field seen in the reference.</p>
-        <p>The Canvas uses a capped device-pixel ratio and recalculates one frame only on initial load, a resize, or a theme change—not in a continuous animation loop. That is lighter than putting WebGL or full-screen video atop every post, while still leaving the original landscape as a no-script fallback.</p>
-        <pre><code>source image → offscreen Canvas → grayscale / contrast · 4×4 Bayer matrix → 2px threshold dots → visible Canvas · resize or theme change → render one static frame</code></pre>
+        <p>The canvas redraws at a capped device-pixel ratio. To give the cloud layer a little breath, it works at roughly 12fps only while visible: the source moves by a few pixels over an 18-second cycle while the Bayer matrix slowly changes phase. It pauses immediately and holds a frame off-screen or when the system requests reduced motion, so the decoration does not continuously consume CPU.</p>
+        <pre><code>source image → subtle 18s pan → grayscale / contrast · 4×4 Bayer matrix + slow phase → 2px warm dots → visible-only ~12fps render</code></pre>
       </div>
     </section>
 

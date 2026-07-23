@@ -80,7 +80,12 @@ const copy = isEn
       ? { background: '#111111', ink: '#ead9bf' }
       : { background: '#fff8ec', ink: '#8a541c' };
 
-    const draw = () => {
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let animationFrame = 0;
+    let lastFrame = 0;
+    let isVisible = true;
+
+    const draw = (time = 0) => {
       if (!source.complete || !source.naturalWidth) return;
       const rect = canvas.getBoundingClientRect();
       const ratio = Math.min(window.devicePixelRatio || 1, 1.25);
@@ -100,17 +105,32 @@ const copy = isEn
       const cropX = (source.naturalWidth - cropWidth) / 2;
       const cropY = Math.max(0, (source.naturalHeight - cropHeight) * .52);
       sampleContext.filter = 'grayscale(1) contrast(1.55) brightness(1.08)';
-      sampleContext.drawImage(source, cropX, cropY, cropWidth, cropHeight, 0, 0, width, height);
+      const maximumPan = Math.round(9 * ratio);
+      const pan = reducedMotion.matches
+        ? 0
+        : ((Math.sin(time / 9000) + 1) / 2) * maximumPan;
+      sampleContext.drawImage(
+        source,
+        cropX,
+        cropY,
+        cropWidth,
+        cropHeight,
+        -pan,
+        0,
+        width + maximumPan,
+        height,
+      );
       sampleContext.filter = 'none';
       const pixels = sampleContext.getImageData(0, 0, width, height).data;
       const step = Math.max(3, Math.round(3 * ratio));
       const dot = Math.max(2, Math.round(2 * ratio));
       context.fillStyle = colors.ink;
+      const phase = reducedMotion.matches ? 0 : Math.floor(time / 900) % 4;
       for (let y = 0; y < height; y += step) {
         for (let x = 0; x < width; x += step) {
           const position = (Math.min(height - 1, y) * width + Math.min(width - 1, x)) * 4;
           const luminance = (pixels[position] * .2126 + pixels[position + 1] * .7152 + pixels[position + 2] * .0722) / 255;
-          const threshold = (bayer[((Math.floor(y / step) & 3) * 4) + (Math.floor(x / step) & 3)] + .5) / 16;
+          const threshold = (bayer[(((Math.floor(y / step) + phase) & 3) * 4) + ((Math.floor(x / step) + phase) & 3)] + .5) / 16;
           const fadeLeft = Math.min(1, x / (width * .15));
           const visibility = luminance * fadeLeft;
           if (visibility > threshold) {
@@ -121,7 +141,29 @@ const copy = isEn
       }
       context.globalAlpha = 1;
     };
-    const render = () => requestAnimationFrame(draw);
+    const stopAnimation = () => {
+      if (animationFrame) {
+        cancelAnimationFrame(animationFrame);
+        animationFrame = 0;
+      }
+    };
+    const animate = (time) => {
+      if (!isVisible || reducedMotion.matches) return;
+      if (time - lastFrame >= 83) {
+        draw(time);
+        lastFrame = time;
+      }
+      animationFrame = requestAnimationFrame(animate);
+    };
+    const render = () => {
+      stopAnimation();
+      const now = performance.now();
+      draw(now);
+      lastFrame = now;
+      if (isVisible && !reducedMotion.matches) {
+        animationFrame = requestAnimationFrame(animate);
+      }
+    };
     controls.forEach((control) => control.addEventListener('click', () => {
       const theme = control.getAttribute('data-demo-theme'); if (!theme) return;
       element.dataset.inspirationTheme = theme;
@@ -130,6 +172,13 @@ const copy = isEn
     }));
     source.addEventListener('load', render, { once: true });
     window.addEventListener('resize', render, { passive: true });
+    reducedMotion.addEventListener('change', render);
+    const observer = new IntersectionObserver((entries) => {
+      isVisible = entries[0]?.isIntersecting ?? true;
+      if (isVisible) render();
+      else stopAnimation();
+    }, { threshold: 0 });
+    observer.observe(canvas);
     render();
   });
 </script>
