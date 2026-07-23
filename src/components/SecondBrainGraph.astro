@@ -98,12 +98,15 @@ const safeData = JSON.stringify(graphData).replace(/</g, '\\u003c');
     let dragging = null;
 
     const style = getComputedStyle(root);
+    const stage = root.querySelector('.brain-stage');
+    const stageStyle = stage ? getComputedStyle(stage) : style;
+    const readColor = (name, fallbackName, fallback) => stageStyle.getPropertyValue(name).trim() || style.getPropertyValue(fallbackName).trim() || fallback;
     const colors = {
-      text: style.getPropertyValue('--text').trim() || '#111',
-      muted: style.getPropertyValue('--muted').trim() || '#777',
-      line: style.getPropertyValue('--line').trim() || '#e8e8e8',
-      accent: style.getPropertyValue('--accent').trim() || '#4d6b61',
-      surface: style.getPropertyValue('--surface').trim() || '#fafafa'
+      text: readColor('--brain-text', '--text', '#111'),
+      muted: readColor('--brain-muted', '--muted', '#777'),
+      line: readColor('--brain-line', '--line', '#e8e8e8'),
+      accent: readColor('--brain-accent', '--accent', '#4d6b61'),
+      surface: readColor('--brain-surface', '--surface', '#fafafa')
     };
     const colorFor = (node) => node.type === 'cluster' ? colors.accent : node.type === 'topic' ? '#a06b3b' : node.type === 'tag' ? '#8c5da8' : colors.text;
     const edgeColor = (type) => type === 'explicit' ? colors.accent : type === 'topic' ? '#a06b3b' : type === 'tag' ? '#8c5da8' : colors.line;

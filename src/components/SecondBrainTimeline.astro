@@ -1,0 +1,173 @@
+---
+import graphData from '../data/second-brain.json';
+
+interface Props {
+  lang?: 'zh' | 'en';
+}
+
+const { lang = 'zh' } = Astro.props;
+const isEn = lang === 'en';
+const basePath = isEn ? '/en/second-brain' : '/second-brain';
+const noteNodes = graphData.nodes
+  .filter((node) => node.type === 'note')
+  .sort((a, b) => a.date.localeCompare(b.date));
+const categories = [...new Set(noteNodes.map((node) => node.category))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+const years = new Map<string, Map<string, typeof noteNodes>>();
+
+for (const note of noteNodes) {
+  const [year, month] = note.date.split('-');
+  if (!years.has(year)) years.set(year, new Map());
+  const months = years.get(year)!;
+  if (!months.has(month)) months.set(month, []);
+  months.get(month)!.push(note);
+}
+
+const yearGroups = [...years.entries()].sort(([a], [b]) => a.localeCompare(b));
+const maxYearCount = Math.max(...yearGroups.map(([, months]) => [...months.values()].flat().length), 1);
+const firstDate = noteNodes[0]?.date ?? '';
+const lastDate = noteNodes.at(-1)?.date ?? '';
+const totalWords = noteNodes.reduce((sum, note) => sum + (note.wordCount ?? 0), 0);
+const monthNames = isEn
+  ? ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  : Array.from({ length: 12 }, (_, index) => `${String(index + 1).padStart(2, '0')}月`);
+---
+
+<section class="timeline-explorer" data-timeline data-lang={lang}>
+  <div class="timeline-summary">
+    <div class="timeline-summary-card">
+      <span class="eyebrow">{isEn ? 'Archive' : '记录总量'}</span>
+      <strong>{noteNodes.length}</strong>
+      <span>{isEn ? 'notes in the river' : '篇想法进入长河'}</span>
+    </div>
+    <div class="timeline-summary-card">
+      <span class="eyebrow">{isEn ? 'Time span' : '时间跨度'}</span>
+      <strong>{firstDate.slice(0, 4)}—{lastDate.slice(0, 4)}</strong>
+      <span>{isEn ? 'from first to latest note' : '从最早记录到最近记录'}</span>
+    </div>
+    <div class="timeline-summary-card">
+      <span class="eyebrow">{isEn ? 'Words' : '文字沉积'}</span>
+      <strong>{totalWords.toLocaleString()}</strong>
+      <span>{isEn ? 'words across the archive' : '字，持续沉积成形'}</span>
+    </div>
+  </div>
+
+  <div class="timeline-controls">
+    <label class="timeline-search">
+      <span>{isEn ? 'Search the river' : '在长河中搜索'}</span>
+      <input type="search" data-timeline-search placeholder={isEn ? 'Title, excerpt, topic…' : '标题、摘要、主题…'} />
+    </label>
+    <label>
+      <span>{isEn ? 'Collection' : '分类'}</span>
+      <select data-timeline-category>
+        <option value="all">{isEn ? 'All collections' : '全部分类'}</option>
+        {categories.map((category) => <option value={category}>{category}</option>)}
+      </select>
+    </label>
+    <label>
+      <span>{isEn ? 'Year' : '年份'}</span>
+      <select data-timeline-year-select>
+        <option value="all">{isEn ? 'All years' : '全部年份'}</option>
+        {yearGroups.map(([year]) => <option value={year}>{year}</option>)}
+      </select>
+    </label>
+  </div>
+  <p class="timeline-result" data-timeline-result>{isEn ? `${noteNodes.length} notes visible` : `当前显示 ${noteNodes.length} 篇笔记`}</p>
+
+  <div class="timeline-dashboard">
+    <aside class="timeline-overview">
+      <div class="eyebrow">{isEn ? 'Density by year' : '年度密度'}</div>
+      <div class="timeline-year-list">
+        {yearGroups.map(([year, months]) => {
+          const count = [...months.values()].flat().length;
+          const share = Math.max(18, Math.round((count / maxYearCount) * 100));
+          return (
+            <a href={`#timeline-${year}`} class="timeline-year-link" data-timeline-jump={year}>
+              <span>{year}</span>
+              <i style={`--timeline-share:${share}%`}></i>
+              <small>{count}</small>
+            </a>
+          );
+        })}
+      </div>
+      <p class="muted timeline-overview-note">{isEn ? 'Each bend is a period of attention. Follow the dense parts first.' : '每一段弯曲，都是注意力停留过的地方。先从密度最高的年份开始漫游。'}</p>
+    </aside>
+
+    <div class="timeline-river">
+      {yearGroups.map(([year, months]) => (
+        <section class="timeline-year" id={`timeline-${year}`} data-timeline-year={year}>
+          <div class="timeline-year-marker"><span>{year}</span></div>
+          <div class="timeline-months">
+            {[...months.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([month, notes]) => (
+              <div class="timeline-month" data-timeline-month>
+                <div class="timeline-month-label">{monthNames[Number(month) - 1] ?? month}</div>
+                <div class="timeline-notes">
+                  {notes.sort((a, b) => a.date.localeCompare(b.date)).map((note) => (
+                    <a
+                      class="timeline-note"
+                      href={`${basePath}/${note.slug}/`}
+                      data-timeline-note
+                      data-year={year}
+                      data-category={note.category}
+                      data-search={`${note.title} ${note.excerpt} ${note.category} ${(note.topics ?? []).join(' ')}`}
+                    >
+                      <span class="timeline-note-dot" aria-hidden="true"></span>
+                      <span class="timeline-note-main">
+                        <span class="timeline-note-category">{note.category}</span>
+                        <strong>{note.title}</strong>
+                      </span>
+                      <span class="timeline-note-meta">{note.date} · {note.wordCount ?? 0} {isEn ? 'words' : '字'}</span>
+                      <span class="timeline-note-excerpt">{note.excerpt}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector('[data-timeline]');
+  if (root) {
+    const isEn = root.getAttribute('data-lang') === 'en';
+    const search = root.querySelector('[data-timeline-search]');
+    const category = root.querySelector('[data-timeline-category]');
+    const yearSelect = root.querySelector('[data-timeline-year-select]');
+    const result = root.querySelector('[data-timeline-result]');
+    const notes = [...root.querySelectorAll('[data-timeline-note]')];
+    const months = [...root.querySelectorAll('[data-timeline-month]')];
+    const years = [...root.querySelectorAll('[data-timeline-year]')];
+
+    const update = () => {
+      const query = (search?.value ?? '').trim().toLocaleLowerCase();
+      const selectedCategory = category?.value ?? 'all';
+      const selectedYear = yearSelect?.value ?? 'all';
+      let visible = 0;
+
+      notes.forEach((note) => {
+        const haystack = (note.getAttribute('data-search') ?? '').toLocaleLowerCase();
+        const match = (!query || haystack.includes(query))
+          && (selectedCategory === 'all' || note.getAttribute('data-category') === selectedCategory)
+          && (selectedYear === 'all' || note.getAttribute('data-year') === selectedYear);
+        note.hidden = !match;
+        if (match) visible += 1;
+      });
+
+      months.forEach((month) => {
+        month.hidden = !month.querySelector('[data-timeline-note]:not([hidden])');
+      });
+      years.forEach((year) => {
+        year.hidden = !year.querySelector('[data-timeline-month]:not([hidden])');
+      });
+      if (result) result.textContent = isEn ? `${visible} notes visible` : `当前显示 ${visible} 篇笔记`;
+    };
+
+    search?.addEventListener('input', update);
+    category?.addEventListener('change', update);
+    yearSelect?.addEventListener('change', update);
+    update();
+  }
+</script>

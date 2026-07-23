@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SecondBrainTimeline from '../../../components/SecondBrainTimeline.astro';
+import graphData from '../../../data/second-brain.json';
+---
+
+<BaseLayout title="Time River" description="Put every second-brain note back into time and see the density of different phases." lang="en" path="second-brain">
+  <div class="second-brain-timeline-page">
+    <section class="page-head second-brain-head timeline-head">
+      <div class="eyebrow">Second Brain / Time River</div>
+      <h1>Put every idea back where it happened.</h1>
+      <p class="lead">The Thought Galaxy shows relationships. The Time River shows the trail: years, months, density, and the recurring themes that kept moving through your attention.</p>
+    </section>
+
+    <nav class="brain-view-switch" aria-label="Second Brain views">
+      <a href="/en/second-brain/">Thought Galaxy</a>
+      <a class="is-active" href="/en/second-brain/timeline/">Time River</a>
+    </nav>
+
+    <section class="section timeline-intro">
+      <div>
+        <div class="eyebrow">{graphData.stats.notes} notes</div>
+        <h2>Read density as a clue.</h2>
+      </div>
+      <p class="muted">The dates come from Obsidian filenames and file metadata. The river does not ask the past to be perfectly organized; it keeps the trace of when your thinking happened.</p>
+    </section>
+
+    <SecondBrainTimeline lang="en" />
+  </div>
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SecondBrainTimeline from '../../components/SecondBrainTimeline.astro';
+import graphData from '../../data/second-brain.json';
+---
+
+<BaseLayout title="时间长河" description="把第二大脑的想法放回时间里，看见不同阶段的密度和主题。" lang="zh" path="second-brain">
+  <div class="second-brain-timeline-page">
+    <section class="page-head second-brain-head timeline-head">
+      <div class="eyebrow">Second Brain / Time River</div>
+      <h1>让想法回到它们发生的时间里。</h1>
+      <p class="lead">思想星系看见关系，时间长河看见轨迹。沿着年份、月份和记录密度回望，你会发现一些主题曾经反复靠近，也会发现自己正在流向哪里。</p>
+    </section>
+
+    <nav class="brain-view-switch" aria-label="第二大脑视图">
+      <a href="/second-brain/">思想星系</a>
+      <a class="is-active" href="/second-brain/timeline/">时间长河</a>
+    </nav>
+
+    <section class="section timeline-intro">
+      <div>
+        <div class="eyebrow">{graphData.stats.notes} 篇记录</div>
+        <h2>把密度当作线索。</h2>
+      </div>
+      <p class="muted">这里的时间来自 Obsidian 文件名和文件元数据。它不要求你把过去整理得完美，只负责保留思考曾经发生过的痕迹。</p>
+    </section>
+
+    <SecondBrainTimeline lang="zh" />
+  </div>
+</BaseLayout>
