@@ -35,8 +35,11 @@ const copy = isEn
       aria: '雾、墨与长阅读的博客样张'
     };
 ---
-<section class="inspiration-demo" data-inspiration-demo data-inspiration-theme="light" aria-label={copy.aria}>
-  <div class="inspiration-canvas-wrap" aria-hidden="true"><canvas data-mist-canvas></canvas></div>
+<section class="inspiration-demo" data-inspiration-demo data-inspiration-theme="dark" aria-label={copy.aria}>
+  <div class="inspiration-canvas-wrap" aria-hidden="true">
+    <img class="inspiration-source" data-mist-source src="/frontend-collection/mist-ridge.png" alt="" />
+    <canvas data-mist-canvas></canvas>
+  </div>
   <div class="inspiration-shell">
     <div class="inspiration-nav">
       <a href={isEn ? '/en/' : '/'}>{copy.brand}</a>
@@ -53,7 +56,7 @@ const copy = isEn
     <footer class="inspiration-footer">
       <span>© 2026 Ryanyx</span>
       <span class="inspiration-theme-picker" role="group" aria-label={isEn ? 'Specimen color scheme' : '样张色彩方案'}>
-        <button type="button" data-demo-theme="light" aria-pressed="true">{copy.theme[0]}</button> / <button type="button" data-demo-theme="dark" aria-pressed="false">{copy.theme[1]}</button>
+        <button type="button" data-demo-theme="light" aria-pressed="false">{copy.theme[0]}</button> / <button type="button" data-demo-theme="dark" aria-pressed="true">{copy.theme[1]}</button>
       </span>
     </footer>
   </div>
@@ -63,62 +66,69 @@ const copy = isEn
   document.querySelectorAll('[data-inspiration-demo]').forEach((demo) => {
     const element = demo;
     const canvas = element.querySelector('[data-mist-canvas]');
+    const source = element.querySelector('[data-mist-source]');
     const controls = element.querySelectorAll('[data-demo-theme]');
-    if (!(canvas instanceof HTMLCanvasElement)) return;
+    if (!(canvas instanceof HTMLCanvasElement) || !(source instanceof HTMLImageElement)) return;
 
     const context = canvas.getContext('2d');
     if (!context) return;
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-    let frame = 0;
-    let last = 0;
-    let animation = 0;
-    const noise = (value) => { const result = Math.sin(value * 91.73) * 43758.5453; return result - Math.floor(result); };
+    const sample = document.createElement('canvas');
+    const sampleContext = sample.getContext('2d', { willReadFrequently: true });
+    if (!sampleContext) return;
+    const bayer = [0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5];
     const palette = () => element.dataset.inspirationTheme === 'dark'
-      ? { background: '#15130f', ink: '#dbc9ae', haze: '#a37a4e' }
-      : { background: '#fff8eb', ink: '#89541e', haze: '#d0aa73' };
+      ? { background: '#111111', ink: '#ead9bf' }
+      : { background: '#fff8ec', ink: '#8a541c' };
 
-    const draw = (time = 0) => {
+    const draw = () => {
+      if (!source.complete || !source.naturalWidth) return;
       const rect = canvas.getBoundingClientRect();
-      const ratio = Math.min(window.devicePixelRatio || 1, 1.5);
+      const ratio = Math.min(window.devicePixelRatio || 1, 1.25);
       const width = Math.max(1, Math.floor(rect.width * ratio));
       const height = Math.max(1, Math.floor(rect.height * ratio));
       if (canvas.width !== width || canvas.height !== height) { canvas.width = width; canvas.height = height; }
+      if (sample.width !== width || sample.height !== height) { sample.width = width; sample.height = height; }
       const colors = palette();
-      context.setTransform(ratio, 0, 0, ratio, 0, 0);
-      context.clearRect(0, 0, rect.width, rect.height);
+      context.setTransform(1, 0, 0, 1, 0, 0);
       context.fillStyle = colors.background;
-      context.fillRect(0, 0, rect.width, rect.height);
-      const drift = reduceMotion.matches ? 0 : time / 2200;
-      for (let layer = 0; layer < 2; layer += 1) {
-        const base = rect.height * (layer === 0 ? 0.72 : 0.58);
-        const amplitude = layer === 0 ? 24 : 16;
-        context.beginPath();
-        for (let x = 0; x <= rect.width; x += 2) {
-          const ridge = base + Math.sin(x * 0.017 + drift * (layer + 1)) * amplitude + Math.sin(x * 0.049 + layer * 3) * 9;
-          if (x === 0) context.moveTo(x, ridge); else context.lineTo(x, ridge);
+      context.fillRect(0, 0, width, height);
+      sampleContext.clearRect(0, 0, width, height);
+      const imageRatio = source.naturalWidth / source.naturalHeight;
+      const targetRatio = width / height;
+      const cropWidth = imageRatio > targetRatio ? source.naturalHeight * targetRatio : source.naturalWidth;
+      const cropHeight = imageRatio > targetRatio ? source.naturalHeight : source.naturalWidth / targetRatio;
+      const cropX = (source.naturalWidth - cropWidth) / 2;
+      const cropY = Math.max(0, (source.naturalHeight - cropHeight) * .52);
+      sampleContext.filter = 'grayscale(1) contrast(1.55) brightness(1.08)';
+      sampleContext.drawImage(source, cropX, cropY, cropWidth, cropHeight, 0, 0, width, height);
+      sampleContext.filter = 'none';
+      const pixels = sampleContext.getImageData(0, 0, width, height).data;
+      const step = Math.max(3, Math.round(3 * ratio));
+      const dot = Math.max(2, Math.round(2 * ratio));
+      context.fillStyle = colors.ink;
+      for (let y = 0; y < height; y += step) {
+        for (let x = 0; x < width; x += step) {
+          const position = (Math.min(height - 1, y) * width + Math.min(width - 1, x)) * 4;
+          const luminance = (pixels[position] * .2126 + pixels[position + 1] * .7152 + pixels[position + 2] * .0722) / 255;
+          const threshold = (bayer[((Math.floor(y / step) & 3) * 4) + (Math.floor(x / step) & 3)] + .5) / 16;
+          const fadeLeft = Math.min(1, x / (width * .15));
+          const visibility = luminance * fadeLeft;
+          if (visibility > threshold) {
+            context.globalAlpha = Math.min(.98, .35 + visibility * .78);
+            context.fillRect(x, y, dot, dot);
+          }
         }
-        context.lineTo(rect.width, rect.height); context.lineTo(0, rect.height); context.closePath();
-        context.globalAlpha = layer === 0 ? 0.13 : 0.08; context.fillStyle = colors.haze; context.fill();
-      }
-      context.globalAlpha = 0.46; context.fillStyle = colors.ink;
-      const grain = Math.round((rect.width * rect.height) / 170);
-      for (let point = 0; point < grain; point += 1) {
-        const x = noise(point * 1.17 + frame) * rect.width;
-        const y = noise(point * 2.31 + frame * 0.6) * rect.height;
-        const ridge = rect.height * 0.66 + Math.sin(x * 0.017 + drift) * 20;
-        if (y > ridge - 14 && y < ridge + 28) context.fillRect(Math.round(x), Math.round(y), 1, 1);
       }
       context.globalAlpha = 1;
     };
-    const loop = (time) => { if (time - last > 83) { frame += 1; draw(time); last = time; } if (!reduceMotion.matches) animation = requestAnimationFrame(loop); };
-    const render = () => { cancelAnimationFrame(animation); draw(performance.now()); if (!reduceMotion.matches) animation = requestAnimationFrame(loop); };
+    const render = () => requestAnimationFrame(draw);
     controls.forEach((control) => control.addEventListener('click', () => {
       const theme = control.getAttribute('data-demo-theme'); if (!theme) return;
       element.dataset.inspirationTheme = theme;
       controls.forEach((button) => button.setAttribute('aria-pressed', String(button === control)));
       render();
     }));
-    reduceMotion.addEventListener('change', render);
+    source.addEventListener('load', render, { once: true });
     window.addEventListener('resize', render, { passive: true });
     render();
   });

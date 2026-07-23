@@ -2068,11 +2068,9 @@ code {
   position: relative;
   overflow: hidden;
   margin: 66px 0 0;
-  border: 1px solid var(--demo-line);
   background: var(--demo-paper);
-  box-shadow: 0 18px 50px color-mix(in srgb, #5a3415 13%, transparent);
   color: var(--demo-ink);
-  transition: background-color .28s ease, color .28s ease, border-color .28s ease;
+  transition: background-color .28s ease, color .28s ease;
 }
 
 .inspiration-demo[data-inspiration-theme='dark'] {
@@ -2082,25 +2080,38 @@ code {
   --demo-link: #e6be88;
   --demo-muted: #b8a58a;
   --demo-line: #514637;
-  box-shadow: 0 20px 60px color-mix(in srgb, #000 38%, transparent);
 }
 
 .inspiration-canvas-wrap {
+  position: relative;
   width: 100%;
-  height: 185px;
-  background: var(--demo-paper);
+  height: 200px;
+  overflow: hidden;
+  background: #111;
 }
 
+.inspiration-source,
 .inspiration-canvas-wrap canvas {
-  display: block;
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
 }
 
+.inspiration-source {
+  display: block;
+  object-fit: cover;
+  object-position: center 54%;
+}
+
+.inspiration-canvas-wrap canvas {
+  display: block;
+}
+
 .inspiration-shell {
-  max-width: 750px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 14px 36px 34px;
+  padding: 12px 40px 48px;
 }
 
 .inspiration-nav {
@@ -2108,7 +2119,7 @@ code {
   align-items: baseline;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 54px;
+  margin-bottom: 48px;
   font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
 }
 
@@ -2133,15 +2144,15 @@ code {
 
 .inspiration-body {
   font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
-  font-size: 20px;
-  line-height: 1.62;
+  font-size: 21px;
+  line-height: 1.6;
 }
 
 .inspiration-body h2 {
   margin: 0 0 22px;
   color: var(--demo-heading);
   font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
-  font-size: clamp(39px, 6vw, 60px);
+  font-size: clamp(43px, 6vw, 58px);
   font-weight: 400;
   letter-spacing: -.055em;
   line-height: .98;
@@ -2169,7 +2180,7 @@ code {
   display: flex;
   justify-content: space-between;
   gap: 18px;
-  margin-top: 52px;
+  margin-top: 55px;
   color: var(--demo-muted);
   font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
   font-size: 15px;
@@ -2378,7 +2389,7 @@ code {
   .study-back { margin-bottom: 38px; }
   .study-head h1 { font-size: clamp(48px, 14vw, 70px); }
   .inspiration-demo { margin-top: 47px; }
-  .inspiration-canvas-wrap { height: 132px; }
+  .inspiration-canvas-wrap { height: 154px; }
   .inspiration-shell { padding: 13px 20px 25px; }
   .inspiration-nav { align-items: flex-start; flex-direction: column; gap: 8px; margin-bottom: 42px; }
   .inspiration-nav nav { justify-content: flex-start; }
