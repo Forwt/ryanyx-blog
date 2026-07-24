@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-23T00:13:26.694Z",
+  "updatedAt": "2026-07-24T00:11:17.142Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-29968459330",
+  "edition": "github-30055436480",
   "items": [
     {
       "rank": 1,
@@ -30,42 +30,20 @@
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 称其 AI 模型逃离了沙箱，有针对性地拥抱作弊基准 - 黑客新闻",
-      "titleEn": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark - The Hacker News",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-07-22",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 表示其 AI 模型逃离了沙箱，有针对性地拥抱作弊基准 The Hacker News",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark &nbsp;&nbsp; The Hacker News",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 称其 AI 模型逃离了沙箱，有针对性地拥抱作弊基准 - 黑客新闻”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark - The Hacker News”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVEZSWUM1OVg0aXp4TlozWktBWHBrZ2hXcDFRM3VTc3ZJMTVfVGJjV0dRWnhIU0d5SU9fVlpKVmFvYXdHd2hHNTZwUjIyUkhXMzFDUFdLV21JQkM2dDFkZFpPS2NOS3p1Nk1henN5cFFiSUVtTkVUM3RBUy1MTTc4QTV3?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Meta制作了自己的AI检测系统。它应该只是使用谷歌的",
-      "titleEn": "Meta made its own AI detection system. It should have just used Google’s",
+      "titleZh": "OpenAI 向所有人推出 ChatGPT Health 时发出了重大声明",
+      "titleEn": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
       "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-07-22",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源要点：三月份，Meta 监督委员会呼吁该公司“履行其公开承诺并使用自己的工具”，以帮助平息欺骗性生成人工智能内容在平台上的传播。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: IIn March, Meta's Oversight Board called on the company to \"meet its public commitments and employ its own tools\" to help quell the spread of deceptive generative AI content across platforms.",
-      "overviewZh": "The Verge AI 发布了一个关于“Meta 制作了自己的人工智能检测系统。它应该使用谷歌的”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “Meta made its own AI detection system. It should have just used Google’s”.",
+      "publishedAt": "2026-07-23",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：OpenAI 将于周四向美国所有人推出 ChatGPT Health，让更多人将他们的医疗记录和健康跟踪信息连接到聊天机器人。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 在向所有人推出 ChatGPT Health 时做出重大声明”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI is making big claims as it rolls out ChatGPT Health to everyone”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims"
         }
       ],
       "tags": [
@@ -73,49 +51,70 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "Travis Kalanick 的机器人公司筹集了 $1.7B，由 a16z 领投",
-      "titleEn": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
-      "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-22",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：Uber 还投资了 Travis Kalanick 的公司 Atoms，该公司曾模糊地宣称要利用工业人工智能来实现世界现代化。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
-      "overviewZh": "TechCrunch AI 发布了有关“Travis Kalanick 的机器人公司筹集了 1.7B 美元，由 a16z 领投”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Travis Kalanick’s robotics company raises $1.7B, led by a16z”.",
+      "rank": 3,
+      "titleZh": "大学申请 2450 万美元用于启动和维护人工智能系统 - 南达科他州 Searchlight",
+      "titleEn": "Universities ask for $24.5 million to launch and maintain artificial intelligence system - South Dakota Searchlight",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-07-23",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源要点：大学要求 2450 万美元用于启动和维护人工智能系统 南达科他州 Searchlight",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Universities ask for $24.5 million to launch and maintain artificial intelligence system &nbsp;&nbsp; South Dakota Searchlight",
+      "overviewZh": "谷歌新闻 AI 发布了有关“大学要求 2450 万美元启动和维护人工智能系统 - 南达科他州 Searchlight”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Universities ask for $24.5 million to launch and maintain artificial intelligence system - South Dakota Searchlight”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/"
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMlJjeC1wUG83SGxOeU5MVDVXeDVIMGx0cGJxLUNzdmR3SFdTa0hwTFVCR3NhemZ6cWhCYThYcGxVdkROWFdnUFZqZ0NaOTdBUGVXbmRaeVBjeUxaZGh5MlFsNmVjYlRmUnhqa2J6S1JPVHgzU013d043RHlqVThGSzRWY01Lb1lGTThFRUVhWWtNMnJPM2t4bVhXTUtaa3FiUkpGMkNOOFZKQU1LTEtGSXVUUEpUbXhPZHBPQzV0TjhuNzZyUEZ1SFFEQ205WFE?oc=5"
         }
       ],
       "tags": [
-        "Robotics"
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "Anthropic 更新了 Claude 语音模式，推出了更多功能模型",
+      "titleEn": "Anthropic updates Claude voice mode with more capable models",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-07-23",
+      "summaryZh": "TechCrunch AI 报告了人工智能的模型开发。消息来源的要点：克劳德的新语音模型将允许您重新安排会议或起草电子邮件。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Claude's new voice model will let you reschedule your meeting or draft an email.",
+      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 用更强大的模型更新 Claude 语音模式”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic updates Claude voice mode with more capable models”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/"
+        }
+      ],
+      "tags": [
+        "Models"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "在 SIGGRAPH 上，NVIDIA 通过代理和物理 AI 推进图形和模拟",
-      "titleEn": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-      "source": "NVIDIA Blog",
-      "category": "Model",
-      "publishedAt": "2026-07-20",
-      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。来源要点：从开放模型到实时模拟，人工智能和图形突破正在改变媒体、内容创建和机器人技术。",
-      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
-      "overviewZh": "NVIDIA 博客发布了有关“在 SIGGRAPH 上，NVIDIA 通过代理和物理 AI 推进图形和模拟”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI”.",
+      "titleZh": "AT&T 和 Microsoft 通过 Microsoft Foundry 和 AMD 扩展万亿代币工作负载",
+      "titleEn": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
+      "source": "Microsoft Azure Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-07-23",
+      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。来源要点：AT&T 在使用 Microsoft Foundry 托管计算、开放 AI 模型以及 AMD 和 NVIDIA GPU 基础设施开发 OTel2.0 时处理了大约一万亿代币。",
+      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure.",
+      "overviewZh": "Microsoft Azure 博客发布了有关“AT&T 和 Microsoft 通过 Microsoft Foundry 和 AMD 扩展万亿代币工作负载”的最新更新。",
+      "overviewEn": "Microsoft Azure Blog published a new update about “AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/"
+          "url": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/"
         }
       ],
       "tags": [
-        "Agents",
         "Models",
-        "Robotics"
+        "Infrastructure"
       ]
     }
   ]
