@@ -1,13 +1,81 @@
 {
-  "updatedAt": "2026-07-24T00:11:17.142Z",
+  "updatedAt": "2026-07-25T00:15:10.573Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30055436480",
+  "edition": "github-30135830744",
   "items": [
     {
       "rank": 1,
+      "titleZh": "Anthropic 发布了 Opus 5，其功能“接近”《神鬼寓言 5》",
+      "titleEn": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-07-24",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的要点：在 Anthropic 与美国政府最近一次正面交锋几周后，以及主导科技行业讨论的 OpenAI 安全事件几天后，Anthropic 于周四发布了其最新型号 Claude Opus 5。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5.",
+      "overviewZh": "The Verge AI 发布了有关“Anthropic 发布了 Opus 5 的最新更新，其功能‘接近’《神鬼寓言 5》”。",
+      "overviewEn": "The Verge AI published a new update about “Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "随着美国权衡对中国人工智能的反应，业界敦促不要广泛的开放权重限制",
+      "titleEn": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-07-24",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：在华盛顿就如何应对中国人工智能和所谓的模型蒸馏进行辩论之际，包括英伟达和米斯特拉尔在内的人工智能公司敦促政策制定者避免对开放权重人工智能模型进行广泛限制。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
+      "overviewZh": "TechCrunch AI 发布了关于“当美国权衡对中国人工智能的反应之际，业界敦促反对广泛的开放权重限制”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “As US weighs response to Chinese AI, industry urges against broad open-weight restrictions”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Open source"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 高管要求 OpenAI 公布有关 Hugging Face 黑客攻击事件的更多细节 - 财富",
+      "titleEn": "AI executives demand OpenAI release more details about how the Hugging Face hack happened - Fortune",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-07-24",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：AI 高管要求 OpenAI 发布有关 Hugging Face 黑客事件如何发生的更多详细信息 财富",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: AI executives demand OpenAI release more details about how the Hugging Face hack happened &nbsp;&nbsp; Fortune",
+      "overviewZh": "谷歌新闻 AI 发布了有关“AI 高管要求 OpenAI 发布有关 Hugging Face 黑客事件如何发生的更多细节 - 财富”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “AI executives demand OpenAI release more details about how the Hugging Face hack happened - Fortune”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWEFMTEcyNkZVVlVLUEVZYmlXNGk4MkpudVJGajdWbUpueFptWWkwX21qbG1FSjcwY2lyNHh6eHVVZ0JSV2hYTnBoR0FuMTU4bXAtcTFMMEhEOFEwVjAwYkw0NUpueEY4elB5MjNDZnlPTWt6Zk5wb3FpNWY5aFdscjRQYXJpenFNekYyOTZzWjZrT3NXeThBWDBCNWV3ODFqMWI5bkN3dFhiOUFjOXFwLU5JVllWX0U2WjZPYnJn?oc=5"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "OpenAI 简介",
       "titleEn": "Introducing OpenAI Presence",
       "source": "OpenAI Blog",
@@ -29,91 +97,25 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "OpenAI 向所有人推出 ChatGPT Health 时发出了重大声明",
-      "titleEn": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-23",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：OpenAI 将于周四向美国所有人推出 ChatGPT Health，让更多人将他们的医疗记录和健康跟踪信息连接到聊天机器人。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 在向所有人推出 ChatGPT Health 时做出重大声明”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI is making big claims as it rolls out ChatGPT Health to everyone”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "大学申请 2450 万美元用于启动和维护人工智能系统 - 南达科他州 Searchlight",
-      "titleEn": "Universities ask for $24.5 million to launch and maintain artificial intelligence system - South Dakota Searchlight",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-07-23",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源要点：大学要求 2450 万美元用于启动和维护人工智能系统 南达科他州 Searchlight",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Universities ask for $24.5 million to launch and maintain artificial intelligence system &nbsp;&nbsp; South Dakota Searchlight",
-      "overviewZh": "谷歌新闻 AI 发布了有关“大学要求 2450 万美元启动和维护人工智能系统 - 南达科他州 Searchlight”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Universities ask for $24.5 million to launch and maintain artificial intelligence system - South Dakota Searchlight”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMlJjeC1wUG83SGxOeU5MVDVXeDVIMGx0cGJxLUNzdmR3SFdTa0hwTFVCR3NhemZ6cWhCYThYcGxVdkROWFdnUFZqZ0NaOTdBUGVXbmRaeVBjeUxaZGh5MlFsNmVjYlRmUnhqa2J6S1JPVHgzU013d043RHlqVThGSzRWY01Lb1lGTThFRUVhWWtNMnJPM2t4bVhXTUtaa3FiUkpGMkNOOFZKQU1LTEtGSXVUUEpUbXhPZHBPQzV0TjhuNzZyUEZ1SFFEQ205WFE?oc=5"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Anthropic 更新了 Claude 语音模式，推出了更多功能模型",
-      "titleEn": "Anthropic updates Claude voice mode with more capable models",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-07-23",
-      "summaryZh": "TechCrunch AI 报告了人工智能的模型开发。消息来源的要点：克劳德的新语音模型将允许您重新安排会议或起草电子邮件。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Claude's new voice model will let you reschedule your meeting or draft an email.",
-      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 用更强大的模型更新 Claude 语音模式”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic updates Claude voice mode with more capable models”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "AT&T 和 Microsoft 通过 Microsoft Foundry 和 AMD 扩展万亿代币工作负载",
-      "titleEn": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
-      "source": "Microsoft Azure Blog",
+      "titleZh": "AMD 和 Cerebras 推出人工智能推理解决方案",
+      "titleEn": "AMD and Cerebras Launch AI Inference Solution",
+      "source": "Hacker News AI",
       "category": "Infrastructure",
-      "publishedAt": "2026-07-23",
-      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。来源要点：AT&T 在使用 Microsoft Foundry 托管计算、开放 AI 模型以及 AMD 和 NVIDIA GPU 基础设施开发 OTel2.0 时处理了大约一万亿代币。",
-      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure.",
-      "overviewZh": "Microsoft Azure 博客发布了有关“AT&T 和 Microsoft 通过 Microsoft Foundry 和 AMD 扩展万亿代币工作负载”的最新更新。",
-      "overviewEn": "Microsoft Azure Blog published a new update about “AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD”.",
+      "publishedAt": "2026-07-24",
+      "summaryZh": "Hacker News AI 报道了人工智能基础设施的发展。来源要点： 文章网址：https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference 评论网址：https://news.ycombina",
+      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference Comments URL: https://news.ycombina",
+      "overviewZh": "Hacker News AI 发布了有关“AMD 和 Cerebras 推出 AI 推理解决方案”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “AMD and Cerebras Launch AI Inference Solution”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/"
+          "url": "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference"
         }
       ],
       "tags": [
-        "Models",
+        "Products",
         "Infrastructure"
       ]
     }
