@@ -1,13 +1,35 @@
 {
-  "updatedAt": "2026-07-25T00:15:10.573Z",
+  "updatedAt": "2026-07-26T00:13:16.670Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30135830744",
+  "edition": "github-30180781809",
   "items": [
     {
       "rank": 1,
+      "titleZh": "OpenAI 的模型是否刚刚突破了其自身的风险“红线”？外部安全专家这么认为 - 财富",
+      "titleEn": "Did OpenAI's models just breach its own risk 'red line'? Outside safety experts think so - Fortune",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-07-25",
+      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。消息来源的关键点：OpenAI 的模型是否刚刚突破了其自身的风险“红线”？",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Did OpenAI's models just breach its own risk 'red line'?",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 的模型是否刚刚突破了其自身风险‘红线’？外部安全专家如此认为 - 《财富》》的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Did OpenAI's models just breach its own risk 'red line'? Outside safety experts think so - Fortune”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMzJkQ0NsZEowOGNPMWZnRmxYd1ltQ1pHWk9JS3ZTWTlDcnEzUTdkbWllQVZlaER4YWo1cDhKR3hWV3k4Y2lEZmY2TmlnZ3RmY1RxV3diQ2VpT2ZQNzVMUGxBdUp4N2pHZGFsajNHSWtHOFpZbGw0Ty0xNW1IR1d1bkViUmhOOUJlOUhwbGlRVDFwRUZwaFVucmhMSDZmS0FmVHUwQTV4dDlrMXVYNGY3dk92bzItbWVmMGJPdHFuNTRlTmRlM1FMUGJ1dHZQUk1Vbll4MWpmbUlRRGtWWlE?oc=5"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "Anthropic 发布了 Opus 5，其功能“接近”《神鬼寓言 5》",
       "titleEn": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
       "source": "The Verge AI",
@@ -30,7 +52,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "titleZh": "随着美国权衡对中国人工智能的反应，业界敦促不要广泛的开放权重限制",
       "titleEn": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
       "source": "TechCrunch AI",
@@ -53,70 +75,49 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "AI 高管要求 OpenAI 公布有关 Hugging Face 黑客攻击事件的更多细节 - 财富",
-      "titleEn": "AI executives demand OpenAI release more details about how the Hugging Face hack happened - Fortune",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-07-24",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：AI 高管要求 OpenAI 发布有关 Hugging Face 黑客事件如何发生的更多详细信息 财富",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: AI executives demand OpenAI release more details about how the Hugging Face hack happened &nbsp;&nbsp; Fortune",
-      "overviewZh": "谷歌新闻 AI 发布了有关“AI 高管要求 OpenAI 发布有关 Hugging Face 黑客事件如何发生的更多细节 - 财富”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “AI executives demand OpenAI release more details about how the Hugging Face hack happened - Fortune”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWEFMTEcyNkZVVlVLUEVZYmlXNGk4MkpudVJGajdWbUpueFptWWkwX21qbG1FSjcwY2lyNHh6eHVVZ0JSV2hYTnBoR0FuMTU4bXAtcTFMMEhEOFEwVjAwYkw0NUpueEY4elB5MjNDZnlPTWt6Zk5wb3FpNWY5aFdscjRQYXJpenFNekYyOTZzWjZrT3NXeThBWDBCNWV3ODFqMWI5bkN3dFhiOUFjOXFwLU5JVllWX0U2WjZPYnJn?oc=5"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "OpenAI 简介",
-      "titleEn": "Introducing OpenAI Presence",
-      "source": "OpenAI Blog",
+      "titleZh": "DeepSeek 表示将在病毒式帖子后告知支持者暂停资助 - Bloomberg.com",
+      "titleEn": "DeepSeek Said to Tell Backers of Funding Pause After Viral Posts - Bloomberg.com",
+      "source": "Google News AI",
       "category": "Business",
-      "publishedAt": "2026-07-22",
-      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。来源要点：介绍 OpenAI Presence，这是一个经过验证的企业 AI 代理平台，可帮助组织为客户和内部工作流程部署可信的语音和聊天代理。",
-      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "overviewZh": "OpenAI 博客发布了有关“OpenAI Presence 简介”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Introducing OpenAI Presence”.",
+      "publishedAt": "2026-07-25",
+      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。消息来源的关键点：DeepSeek 据说在病毒式帖子后告诉支持者暂停资助 Bloomberg.com",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: DeepSeek Said to Tell Backers of Funding Pause After Viral Posts &nbsp;&nbsp; Bloomberg.com",
+      "overviewZh": "谷歌新闻 AI 发布了有关“DeepSeek 据称在病毒式帖子后告诉支持者暂停资助 - Bloomberg.com”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “DeepSeek Said to Tell Backers of Funding Pause After Viral Posts - Bloomberg.com”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/introducing-openai-presence"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmM5SHI4SGhzcko5THg1SGx5a1RiY2p0MExUU0R0NHM3T2pjN0NaR1piRGhGbTVDQll5aElhOHpOWnFUNC14S1dHNUtMaElCLTZFLTd5SW5OTmEyb2lUT1ZhVE5qQ2JvNzRiX3JrMWNIcDB5YWJYZ2luLXFfSk5hNXpLMndhdHpfWURFVl9OcmVpSGUzeDBTdEJlUFQ4cUZHQXZTMjdyM1NfQ3Z5N09zX0FPMEtvQQ?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Business"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "AMD 和 Cerebras 推出人工智能推理解决方案",
-      "titleEn": "AMD and Cerebras Launch AI Inference Solution",
-      "source": "Hacker News AI",
-      "category": "Infrastructure",
+      "titleZh": "Cognition为何收购Poke：AI个性正在成为竞争优势",
+      "titleEn": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "source": "TechCrunch AI",
+      "category": "Business",
       "publishedAt": "2026-07-24",
-      "summaryZh": "Hacker News AI 报道了人工智能基础设施的发展。来源要点： 文章网址：https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference 评论网址：https://news.ycombina",
-      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference Comments URL: https://news.ycombina",
-      "overviewZh": "Hacker News AI 发布了有关“AMD 和 Cerebras 推出 AI 推理解决方案”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “AMD and Cerebras Launch AI Inference Solution”.",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的关键点：此次收购将 Poke 的对话风格和交互模型引入 Cognition 的编码代理 Devin，反映出人们越来越相信 AI 助手如何与用户交互",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users i",
+      "overviewZh": "TechCrunch AI 发布了关于“为什么 Cognition 收购 Poke：AI 个性正在成为竞争优势”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Why Cognition bought Poke: AI personality is becoming a competitive advantage”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference"
+          "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
         }
       ],
       "tags": [
-        "Products",
-        "Infrastructure"
+        "Agents",
+        "Models",
+        "Business"
       ]
     }
   ]
