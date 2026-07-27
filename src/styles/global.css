@@ -2416,6 +2416,10 @@ code {
   background: color-mix(in srgb, #111 58%, transparent);
 }
 
+.editor-gate[hidden] {
+  display: none !important;
+}
+
 .editor-gate-card {
   width: min(100%, 390px);
   border: 1px solid var(--line);
