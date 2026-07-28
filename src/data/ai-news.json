@@ -1,121 +1,123 @@
 {
-  "updatedAt": "2026-07-27T00:12:33.850Z",
+  "updatedAt": "2026-07-28T00:11:09.700Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30226903757",
+  "edition": "github-30316537173",
   "items": [
     {
       "rank": 1,
-      "titleZh": "忘记 IonQ、Rigetti 计算和 D-Wave Quantum。这只价值数万亿美元的人工智能（AI）股票是最好的量子计算机会，目前其估值处于七年低点。 - 雅虎财经",
-      "titleEn": "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low. - Yahoo Finance",
+      "titleZh": "Moonshot AI 为 Kimi-K3 发布了权重，向 OpenAI 和 Anthropic 开了一枪——开放权重模型的性能几乎与前沿模型一样，同时运行起来更容易 2-3 倍 - Tom's Hardware",
+      "titleEn": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run - Tom's Hardware",
       "source": "Google News AI",
-      "category": "Business",
-      "publishedAt": "2026-07-26",
-      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。来源要点：忘记 IonQ、Rigetti 计算和 D-Wave Quantum。",
-      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Forget IonQ, Rigetti Computing, and D-Wave Quantum.",
-      "overviewZh": "Google News AI 发布了有关“忘掉 IonQ、Rigetti 计算和 D-Wave 量子。这只价值数万亿美元的人工智能 (AI) 股票是最佳量子计算机会，目前交易价格处于 7 年来的低点。- 雅虎财经”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low. - Yahoo Finance”.",
+      "category": "Model",
+      "publishedAt": "2026-07-27",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Moonshot AI 为 Kimi-K3 发布了权重，向 OpenAI 和 Anthropic 开了一枪——开放权重模型的性能几乎与前沿模型一样好，同时简单性提高了 2-3 倍",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easie",
+      "overviewZh": "Google News AI 发布了关于“Moonshot AI 为 Kimi-K3 发布了权重，向 OpenAI 和 Anthropic 开了一枪——开放权重模型的性能几乎与前沿模型一样好，同时运行起来更容易 2-3 倍——Tom's Hardware”。",
+      "overviewEn": "Google News AI published a new update about “Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run - Tom's Hardware”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMXVUU3ZmOG1yeEphY3pjNm53Wm1SWEFWOHo4THpiZzBWODl1bnVzX0JCc0JqYmxoMDBFdG11b1ZKQzhoTkdVMGs4cGI5NzdiMFBPTFNQSEF3ME9oZmF2bVRBZDRJckQ2S0JTcjdheHlScGZnZnpQZHBtbENZR1k0Y1hET0NrLWJOekFGNHY4V092Y0xxblI3dmVzZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQUXpwUEpYUTc0OHFCYVpwa182MWt5VFp1WTZfaVhGM2hnT1ctYTNuUDlYc2xqMGRmeElNRHJkWjBTNUNWUEQyR3l4WmN5dFc5ZjRSay03T2xVbDlGd1BDLVFCcUw1YUlWc3B1bE1TaGVxWnAxYUt6dXdlNGdaNkMxUnJmYzExdzBKbml5RElIcFlyQ29KOVVEdjcwYTRsakVBLTZ4c3oxdlZ6OWNieUt1ZExYekV1c2phWEk5SEpUWWVXekl0Q2ZwMGl2WTRfVkplSEx4YzFoZmlSemdHWFZ6bk9xNHhhTVVUd0hzQXRqeUM4cDFOQmZfSEd0NVduLVFiek5yVlJyVzN3SzQ2Z3B6eUR3UU9YbHFuQ2k4dDY1RDBoUTlzVHNWbjNmMkZ1UjBiUjlERWtpd3phN3NlUnFIME53Q1JzYW1CUU5FWDI5OW5OTnF2NFJJNHhFQkdHR0tmSGtrT1UtV01oMlcy?oc=5"
         }
       ],
       "tags": [
-        "Business"
+        "Models",
+        "Products",
+        "Open source"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "Anthropic 发布了 Opus 5，其功能“接近”《神鬼寓言 5》",
-      "titleEn": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-      "source": "The Verge AI",
+      "titleZh": "微软推出首个网络安全模型以及新的代理网络安全系统",
+      "titleEn": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "source": "TechCrunch AI",
       "category": "Policy",
-      "publishedAt": "2026-07-24",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的要点：在 Anthropic 与美国政府最近一次正面交锋几周后，以及主导科技行业讨论的 OpenAI 安全事件几天后，Anthropic 于周四发布了其最新型号 Claude Opus 5。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5.",
-      "overviewZh": "The Verge AI 发布了有关“Anthropic 发布了 Opus 5 的最新更新，其功能‘接近’《神鬼寓言 5》”。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities”.",
+      "publishedAt": "2026-07-27",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的要点：微软本周推出了首个人工智能安全模型和新的安全平台，增强了其人工智能网络安全产品。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+      "overviewZh": "TechCrunch AI 发布了有关“微软推出其首个网络安全模型以及新的代理网络安全系统”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+          "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/"
         }
       ],
       "tags": [
+        "Agents",
         "Models",
         "Products"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "Hugging Face 首席执行官在“史无前例”的 OpenAI 黑客攻击后呼吁“彻底透明”",
-      "titleEn": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-07-26",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：“第一次自主代理网络攻击是前所未有的事件。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: \"The first autonomous agent cyberattack is an unprecedented event.",
-      "overviewZh": "TechCrunch AI 发布了有关“Hugging Face 首席执行官在‘史无前例’的 OpenAI 黑客攻击后呼吁‘彻底透明’”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack”.",
+      "titleZh": "Nvidia、微软推出开放人工智能安全联盟——没有 OpenAI、Google 或 Anthropic",
+      "titleEn": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-07-27",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息人士要点：英伟达周一表示，它正在与微软、SpaceX、IBM 和其他科技公司联手构建和共享开源人工智能安全工具。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools.",
+      "overviewZh": "The Verge AI 发布了有关“Nvidia、微软推出开放 AI 安全联盟——不包括 OpenAI、Google 或 Anthropic”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
         }
       ],
       "tags": [
-        "Agents"
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "独家| Nvidia 正在与 OpenAI 洽谈，为数据中心提供 2500 亿美元融资 - 华尔街日报",
-      "titleEn": "Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center - WSJ",
-      "source": "Google News AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-07-26",
-      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：独家| Nvidia 正在与 OpenAI 洽谈，为数据中心提供 2500 亿美元融资 华尔街日报",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center &nbsp;&nbsp; WSJ",
-      "overviewZh": "Google News AI 发布了有关“独家 | Nvidia 与 OpenAI 谈判以保证数据中心 2500 亿美元融资 - 华尔街日报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center - WSJ”.",
+      "titleZh": "行业领导者联合成立开放安全人工智能联盟，致力于人工智能安全",
+      "titleEn": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+      "source": "NVIDIA Blog",
+      "category": "Policy",
+      "publishedAt": "2026-07-27",
+      "summaryZh": "NVIDIA 博客报道了人工智能领域的政策发展。来源要点：开源软件是全球经济的重要支柱。",
+      "summaryEn": "NVIDIA Blog reports a policy development in AI. Key point from the source: Open source software is a critical pillar of the global economy.",
+      "overviewZh": "NVIDIA 博客发布了有关“行业领导者联合成立开放安全 AI 联盟以实现 AI 安全”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5"
+          "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/"
         }
       ],
       "tags": [
-        "Infrastructure"
+        "Open source"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "随着美国权衡对中国人工智能的反应，业界敦促不要广泛的开放权重限制",
-      "titleEn": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-07-24",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：在华盛顿就如何应对中国人工智能和所谓的模型蒸馏进行辩论之际，包括英伟达和米斯特拉尔在内的人工智能公司敦促政策制定者避免对开放权重人工智能模型进行广泛限制。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
-      "overviewZh": "TechCrunch AI 发布了关于“当美国权衡对中国人工智能的反应之际，业界敦促反对广泛的开放权重限制”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “As US weighs response to Chinese AI, industry urges against broad open-weight restrictions”.",
+      "titleZh": "NVIDIA Cosmos-H-Dreams：为手术机器人带来实时生成模拟",
+      "titleEn": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "source": "Hugging Face Blog",
+      "category": "Industry",
+      "publishedAt": "2026-07-27",
+      "summaryZh": "拥抱脸博客报道了人工智能的行业发展。来源要点：该报告重点关注 NVIDIA Cosmos-H-Dreams：将实时生成模拟引入手术机器人。",
+      "summaryEn": "Hugging Face Blog reports an industry development in AI. Key point from the source: The report focuses on NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics.",
+      "overviewZh": "Hugging Face 博客发布了有关“NVIDIA Cosmos-H-Dreams：将实时生成模拟引入手术机器人”的最新更新。",
+      "overviewEn": "Hugging Face Blog published a new update about “NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/"
+          "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams"
         }
       ],
       "tags": [
-        "Models",
-        "Open source"
+        "Robotics"
       ]
     }
   ]
