@@ -1,13 +1,36 @@
 {
-  "updatedAt": "2026-07-30T00:11:20.438Z",
+  "updatedAt": "2026-07-31T00:15:46.208Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30501889265",
+  "edition": "github-30593021623",
   "items": [
     {
       "rank": 1,
+      "titleZh": "谷歌DeepMind的新人工智能模型可以控制机器人的整个身体",
+      "titleEn": "Google DeepMind’s new AI model can control a robot’s entire body",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-07-30",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：谷歌 DeepMind 表示，其 Gemini Robotics 人工智能模型的最新版本可以“控制整个人形机器人”。虽然之前的模型专注于控制人形机器人的上行",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upp",
+      "overviewZh": "The Verge AI 发布了有关“Google DeepMind 的新 AI 模型可以控制机器人整个身体”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Google DeepMind’s new AI model can control a robot’s entire body”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Robotics"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "GPT-5.6 如何融合前沿智能与前沿效率",
       "titleEn": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
       "source": "OpenAI Blog",
@@ -31,21 +54,21 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face",
-      "titleEn": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-07-29",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的关键点：OpenAI 周二透露，从 OpenAI 逃脱并入侵开发者平台 Hugging Face 的人工智能代理也攻击了其他公司。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face”.",
+      "rank": 3,
+      "titleZh": "OpenAI 的 Sam Altman 将在特工失控后与特朗普官员讨论自愿人工智能安全测试 - 路透中文网",
+      "titleEn": "OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue - Reuters",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-07-30",
+      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。消息来源的要点：在特工失控后，OpenAI 的 Sam Altman 将与特朗普官员讨论自愿人工智能安全测试 路透",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue &nbsp;&nbsp; Reuters",
+      "overviewZh": "谷歌新闻 AI 发布了有关“OpenAI 的 Sam Altman 在特工失控后与特朗普官员讨论自愿人工智能安全测试 - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue - Reuters”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face"
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaVppS2J1aFJfak9hZHBGNnRWVFJndXNGd29YR0t5WnlpWEMzZHRHQUZubWlhZG1KVUxhTWZlVUdsaFlhY0s4Ul9rek9Td0ZaQy1rTnV3dnlXdzk0VUo5Qi1MMWk1clRhZGVjVjFEdjRmaXdtMDhiLUg4dnN6S1Z3SDloa2o2WkpWMU9nOEhsd0lHX09RX1dWa2VXN0d1Ykg4cDRuOWR6M3VnZG9tMzd6UWMwb0paLXh1QjNiYldIM1hUUnU0djB0QjlPbk0?oc=5"
         }
       ],
       "tags": [
@@ -53,47 +76,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Thinking Machines联合创始人Lilian Weng因健康原因离开公司，随后加入OpenAI",
-      "titleEn": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+      "rank": 4,
+      "titleZh": "LinkedIn 添加了一个按钮来报告人工智能生成的“溢出”",
+      "titleEn": "LinkedIn adds a button to report AI-generated ‘slop’",
       "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-07-29",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源要点：翁先生曾担任 OpenAI 的人工智能安全研究副总裁。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Weng previously served as the VP of AI Safety Research at OpenAI.",
-      "overviewZh": "TechCrunch AI 发布了有关“Thinking Machines 联合创始人 Lilian Weng 以健康原因离开公司，然后加入 OpenAI”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI”.",
+      "category": "Industry",
+      "publishedAt": "2026-07-30",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点：LinkedIn 正在引入新方法来减少人工智能生成的低质量帖子，其中包括“看起来像人工智能”的报告选项。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option.",
+      "overviewZh": "TechCrunch AI 发布了有关“LinkedIn 添加了一个按钮来报告 AI 生成的‘溢出’”的新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “LinkedIn adds a button to report AI-generated ‘slop’”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/"
+          "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/"
         }
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "OpenAI 为学术研究人员推出免费 AI 访问计划 - Axios",
-      "titleEn": "OpenAI launches free AI access program for academic researchers - Axios",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-07-29",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 为学术研究人员推出免费 AI 访问计划 Axios",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI launches free AI access program for academic researchers &nbsp;&nbsp; Axios",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 为学术研究人员推出免费 AI 访问计划 - Axios”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI launches free AI access program for academic researchers - Axios”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sVnVOVmZEVXZtcTM5cWFVNzAxN1oxQ0xrUGl2cHVuOEZCUWFTd1pmejJ6THZYR2xjdndFYjNENkRoT0RObGdrOWdtUTltZlZodUx1dW1tQmhKQ0dkZ05SNHo3aENfTWFROG9xLThMZTFfcVNsQmQ4cXJ3?oc=5"
-        }
-      ],
-      "tags": [
-        "Products"
       ]
     },
     {
