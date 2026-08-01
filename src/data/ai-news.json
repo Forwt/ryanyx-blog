@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-31T00:15:46.208Z",
+  "updatedAt": "2026-08-01T00:11:26.157Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30593021623",
+  "edition": "github-30674898131",
   "items": [
     {
       "rank": 1,
@@ -31,66 +31,20 @@
     },
     {
       "rank": 2,
-      "titleZh": "GPT-5.6 如何融合前沿智能与前沿效率",
-      "titleEn": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "titleZh": "在整个欧洲推进负责任的人工智能",
+      "titleEn": "Advancing responsible AI across Europe",
       "source": "OpenAI Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-07-29",
-      "summaryZh": "OpenAI 博客报道了人工智能基础设施的发展。来源要点：GPT-5.6 提高了跨模型、推理和代理工作流程的 AI 效率，有助于提供更有用的智能。",
-      "summaryEn": "OpenAI Blog reports an infrastructure development in AI. Key point from the source: GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "overviewZh": "OpenAI 博客发布了有关“GPT-5.6 如何融合前沿智能与前沿效率”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “How GPT-5.6 fuses frontier intelligence with frontier efficiency”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Models",
-        "Infrastructure"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "OpenAI 的 Sam Altman 将在特工失控后与特朗普官员讨论自愿人工智能安全测试 - 路透中文网",
-      "titleEn": "OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue - Reuters",
-      "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-07-30",
-      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。消息来源的要点：在特工失控后，OpenAI 的 Sam Altman 将与特朗普官员讨论自愿人工智能安全测试 路透",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue &nbsp;&nbsp; Reuters",
-      "overviewZh": "谷歌新闻 AI 发布了有关“OpenAI 的 Sam Altman 在特工失控后与特朗普官员讨论自愿人工智能安全测试 - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue - Reuters”.",
+      "publishedAt": "2026-07-31",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
+      "overviewZh": "OpenAI 博客发布了有关“在欧洲推进负责任的人工智能”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Advancing responsible AI across Europe”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaVppS2J1aFJfak9hZHBGNnRWVFJndXNGd29YR0t5WnlpWEMzZHRHQUZubWlhZG1KVUxhTWZlVUdsaFlhY0s4Ul9rek9Td0ZaQy1rTnV3dnlXdzk0VUo5Qi1MMWk1clRhZGVjVjFEdjRmaXdtMDhiLUg4dnN6S1Z3SDloa2o2WkpWMU9nOEhsd0lHX09RX1dWa2VXN0d1Ykg4cDRuOWR6M3VnZG9tMzd6UWMwb0paLXh1QjNiYldIM1hUUnU0djB0QjlPbk0?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "LinkedIn 添加了一个按钮来报告人工智能生成的“溢出”",
-      "titleEn": "LinkedIn adds a button to report AI-generated ‘slop’",
-      "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-30",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点：LinkedIn 正在引入新方法来减少人工智能生成的低质量帖子，其中包括“看起来像人工智能”的报告选项。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option.",
-      "overviewZh": "TechCrunch AI 发布了有关“LinkedIn 添加了一个按钮来报告 AI 生成的‘溢出’”的新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “LinkedIn adds a button to report AI-generated ‘slop’”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/"
+          "url": "https://openai.com/index/advancing-responsible-ai-across-europe"
         }
       ],
       "tags": [
@@ -98,25 +52,68 @@
       ]
     },
     {
-      "rank": 5,
-      "titleZh": "Gemini API 托管代理：3.6 Flash、挂钩等",
-      "titleEn": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "source": "Google AI Blog",
-      "category": "Product",
-      "publishedAt": "2026-07-28",
-      "summaryZh": "谷歌人工智能博客报道了人工智能的产品开发。来源要点：我们在 Gemini API 的托管代理中宣布了更多新功能，以便开发人员可以构建可靠的、可用于生产的代理。",
-      "summaryEn": "Google AI Blog reports a product development in AI. Key point from the source: We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "overviewZh": "Google AI 博客发布了有关“Gemini API 托管代理：3.6 Flash、挂钩等”的新更新。",
-      "overviewEn": "Google AI Blog published a new update about “Gemini API Managed Agents: 3.6 Flash, hooks, and more”.",
+      "rank": 3,
+      "titleZh": "山姆·奥尔特曼并不是唯一一个想要给人工智能踩刹车的人",
+      "titleEn": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+      "source": "TechCrunch AI",
+      "category": "Industry",
+      "publishedAt": "2026-07-31",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：经过多年全速推进人工智能，OpenAI 首席执行官 Sam Altman 表示，也许人工智能行业是时候“调整”自己的节奏了。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself.",
+      "overviewZh": "TechCrunch AI 发布了一篇关于“萨姆·奥尔特曼并不是唯一一个想要给人工智能踩刹车的人”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Sam Altman isn’t the only one who wants to pump the brakes on AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/"
+          "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/"
         }
       ],
       "tags": [
-        "Agents",
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "Anthropic 表示其 AI 模型在测试期间黑掉了 3 个组织 - Journalgazette.net",
+      "titleEn": "Anthropic says its AI models hacked 3 organizations during testing - journalgazette.net",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-07-31",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的关键点：Anthropic 表示其 AI 模型在测试期间入侵了 3 个组织   journalgazette.net",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic says its AI models hacked 3 organizations during testing &nbsp;&nbsp; journalgazette.net",
+      "overviewZh": "Google News AI 发布了有关“Anthropic 表示其 AI 模型在测试期间黑客攻击了 3 个组织 - Journalgazette.net”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic says its AI models hacked 3 organizations during testing - journalgazette.net”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbGxqYkwwclRlRVprRnp6ZUFyNXYxYjFlNEJBeEZOcXI2M2U4X29fYVZFMUJSelBJNF9NQTBzWHhZSER4djRUdWpBakQ5SUxUX1FfR0hZWDhfbUdfaUxaMEIzYm11M2tmQ1JtU1ZuRGZ5T3BsR0JpNTZ3Nm54cjYtU3NZZ1ZqUlc4RDZVYTdoak9BNU1kbi1MT1RuMFVPcE5fcnVCYVV3ajdHWXlpQ1hVaEhIOVo3eHRjQXpkOGtwM2lHM2pvMllIeGtfRWVIaXVPc3FPSjBaT01jNmtiYkg5RGxLZHpWdHZobDhXRDR6ci0?oc=5"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "汤森路透建立了自己的人工智能模型，目前已跻身最佳人工智能模型之列",
+      "titleEn": "Thomson Reuters built its own AI model that now ranks among the best",
+      "source": "Hacker News AI",
+      "category": "Model",
+      "publishedAt": "2026-07-31",
+      "summaryZh": "Hacker News AI 报道了人工智能模型的开发。来源要点：文章网址：https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/ 评论网址：https://news.ycombinat",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/ Comments URL: https://news.ycombinat",
+      "overviewZh": "Hacker News AI 发布了有关“汤森路透建立了自己的人工智能模型，现已跻身最佳”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “Thomson Reuters built its own AI model that now ranks among the best”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/"
+        }
+      ],
+      "tags": [
         "Models"
       ]
     }
