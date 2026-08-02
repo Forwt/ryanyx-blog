@@ -1,13 +1,35 @@
 {
-  "updatedAt": "2026-08-01T00:11:26.157Z",
+  "updatedAt": "2026-08-02T00:12:35.307Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30674898131",
+  "edition": "github-30724788391",
   "items": [
     {
       "rank": 1,
+      "titleZh": "FLUX 3 多模态 AI：Black Forest Labs 的模型如何击败 Seedance 2.0 和 Grok - SitePoint",
+      "titleEn": "FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok - SitePoint",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-08-01",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：FLUX 3 Multimodal AI：Black Forest Labs 的模型如何击败 Seedance 2.0 和 Grok SitePoint",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok &nbsp;&nbsp; SitePoint",
+      "overviewZh": "Google News AI 发布了有关“FLUX 3 Multimodal AI：Black Forest Labs 模型如何击败 Seedance 2.0 和 Grok - SitePoint”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok - SitePoint”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93Nmh2QWg0YXJoQkVRVzhNOVNOSXpQQ2JuMWRldU1fR09xOUlRQW5oMUpOejRNaFIybV9yMlFRaDV5NXBGamY0YUtFaUNUdEc5X29FbFg3bw?oc=5"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "谷歌DeepMind的新人工智能模型可以控制机器人的整个身体",
       "titleEn": "Google DeepMind’s new AI model can control a robot’s entire body",
       "source": "The Verge AI",
@@ -30,7 +52,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "titleZh": "在整个欧洲推进负责任的人工智能",
       "titleEn": "Advancing responsible AI across Europe",
       "source": "OpenAI Blog",
@@ -52,7 +74,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "titleZh": "山姆·奥尔特曼并不是唯一一个想要给人工智能踩刹车的人",
       "titleEn": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
       "source": "TechCrunch AI",
@@ -74,47 +96,25 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "Anthropic 表示其 AI 模型在测试期间黑掉了 3 个组织 - Journalgazette.net",
-      "titleEn": "Anthropic says its AI models hacked 3 organizations during testing - journalgazette.net",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-07-31",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的关键点：Anthropic 表示其 AI 模型在测试期间入侵了 3 个组织   journalgazette.net",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic says its AI models hacked 3 organizations during testing &nbsp;&nbsp; journalgazette.net",
-      "overviewZh": "Google News AI 发布了有关“Anthropic 表示其 AI 模型在测试期间黑客攻击了 3 个组织 - Journalgazette.net”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic says its AI models hacked 3 organizations during testing - journalgazette.net”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbGxqYkwwclRlRVprRnp6ZUFyNXYxYjFlNEJBeEZOcXI2M2U4X29fYVZFMUJSelBJNF9NQTBzWHhZSER4djRUdWpBakQ5SUxUX1FfR0hZWDhfbUdfaUxaMEIzYm11M2tmQ1JtU1ZuRGZ5T3BsR0JpNTZ3Nm54cjYtU3NZZ1ZqUlc4RDZVYTdoak9BNU1kbi1MT1RuMFVPcE5fcnVCYVV3ajdHWXlpQ1hVaEhIOVo3eHRjQXpkOGtwM2lHM2pvMllIeGtfRWVIaXVPc3FPSjBaT01jNmtiYkg5RGxLZHpWdHZobDhXRDR6ci0?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "汤森路透建立了自己的人工智能模型，目前已跻身最佳人工智能模型之列",
-      "titleEn": "Thomson Reuters built its own AI model that now ranks among the best",
-      "source": "Hacker News AI",
-      "category": "Model",
-      "publishedAt": "2026-07-31",
-      "summaryZh": "Hacker News AI 报道了人工智能模型的开发。来源要点：文章网址：https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/ 评论网址：https://news.ycombinat",
-      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/ Comments URL: https://news.ycombinat",
-      "overviewZh": "Hacker News AI 发布了有关“汤森路透建立了自己的人工智能模型，现已跻身最佳”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Thomson Reuters built its own AI model that now ranks among the best”.",
+      "titleZh": "Arm 股票和 2 个人工智能基础设施选择促进机器人技术增长 - Simplywall.st",
+      "titleEn": "Arm Stock And 2 AI Infrastructure Picks For Robotics Growth - simplywall.st",
+      "source": "Google News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-01",
+      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：Arm Stock 和 2 个人工智能基础设施选择促进机器人增长    Simplywall.st",
+      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Arm Stock And 2 AI Infrastructure Picks For Robotics Growth &nbsp;&nbsp; simplywall.st",
+      "overviewZh": "Google News AI 发布了有关“Arm Stock 和 2 个促进机器人增长的 AI 基础设施选择 - Simplywall.st”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Arm Stock And 2 AI Infrastructure Picks For Robotics Growth - simplywall.st”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWThWWktYWmZ2NFZZM0ZkR1gxWXVoLXFEdFR2cGcyVTVrWnVzd1Y1T19zUy1RY0xzWEM0TTRhQTNrNDVaSVFpV3owdWhyS2ZhRUtKdUVLdHg1YTdqbW16R1JFamNJSDdEc2VPQ2tSUWNZZ3VMYmlQeDNXWUFGWlJyN3YzRmxpTzBfeHZOekhfTzBEN2luc0p3bWdFbnZ4QjhfZFNxUnZsZ2N1THlJN2NhdGdwRmZDUnloZGQyOEVfXzc2dEl4WFHSAcsBQVVfeXFMTzJBbzNXMWdxM1g4V2ZpamY4MEktYXUtWWI5QndkMHhtX3Y4eXdDaEFHa0xGMTBFWmFheUN4RFFyU1U3d3BZVVZPNUZMSWNXMlJFSmFRaHBwUEpWbDlmTU5CMS1NV2wwZEt4M0p0eDhRZnR6aDBQeTE2SXJzTDJTelloa3F2LWk5eE85UTFJd0xtOVNocmFFeENHMkhwMy16VnBSZ0pSbktXdlFIeDB3UnFXbmRqZGdQb1NaQ004VEN6OHh1Q2MtNXIwdTg?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "Robotics"
       ]
     }
   ]
