@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-02T00:12:35.307Z",
+  "updatedAt": "2026-08-03T00:12:56.387Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30724788391",
+  "edition": "github-30773945716",
   "items": [
     {
       "rank": 1,
-      "titleZh": "FLUX 3 多模态 AI：Black Forest Labs 的模型如何击败 Seedance 2.0 和 Grok - SitePoint",
-      "titleEn": "FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok - SitePoint",
-      "source": "Google News AI",
+      "titleZh": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "titleEn": "Is paying artists enough to convince them to embrace AI?",
+      "source": "The Verge AI",
       "category": "Model",
-      "publishedAt": "2026-08-01",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：FLUX 3 Multimodal AI：Black Forest Labs 的模型如何击败 Seedance 2.0 和 Grok SitePoint",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok &nbsp;&nbsp; SitePoint",
-      "overviewZh": "Google News AI 发布了有关“FLUX 3 Multimodal AI：Black Forest Labs 模型如何击败 Seedance 2.0 和 Grok - SitePoint”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok - SitePoint”.",
+      "publishedAt": "2026-08-02",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：插画家多年来一直对生成人工智能初创公司在未经许可的情况下用艺术家的作品训练他们的模型发出警报。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission.",
+      "overviewZh": "The Verge AI 发布了关于“向艺术家付费是否足以说服他们接受人工智能？”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Is paying artists enough to convince them to embrace AI?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93Nmh2QWg0YXJoQkVRVzhNOVNOSXpQQ2JuMWRldU1fR09xOUlRQW5oMUpOejRNaFIybV9yMlFRaDV5NXBGamY0YUtFaUNUdEc5X29FbFg3bw?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties"
         }
       ],
       "tags": [
@@ -30,29 +30,50 @@
     },
     {
       "rank": 2,
-      "titleZh": "谷歌DeepMind的新人工智能模型可以控制机器人的整个身体",
-      "titleEn": "Google DeepMind’s new AI model can control a robot’s entire body",
-      "source": "The Verge AI",
+      "titleZh": "OpenAI 在解决了 10 个长期存在的数学问题后，对其下一个主要人工智能模型 Astra 进行了调侃 - BleepingComputer",
+      "titleEn": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems - BleepingComputer",
+      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-07-30",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：谷歌 DeepMind 表示，其 Gemini Robotics 人工智能模型的最新版本可以“控制整个人形机器人”。虽然之前的模型专注于控制人形机器人的上行",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upp",
-      "overviewZh": "The Verge AI 发布了有关“Google DeepMind 的新 AI 模型可以控制机器人整个身体”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Google DeepMind’s new AI model can control a robot’s entire body”.",
+      "publishedAt": "2026-08-02",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 在解决了 10 个长期存在的数学问题后，对其下一个主要 AI 模型 Astra 进行了调侃 BleepingComputer",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems &nbsp;&nbsp; BleepingComputer",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 在解决了 10 个长期存在的数学问题 - BleepingComputer 后，对其下一个主要人工智能模型 Astra 进行调侃”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems - BleepingComputer”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMERpaDJDNEF4R25neXZ3azhNYzI0ZkoyU0ItbGpla0hhY2llZy1yR3JLZkJPX1dfaGFrVzhNNnRKc0haRmhRS01DbWptRllUVERCSi13VWlZWWgyNlpBd2JFbS1jeWlsQTNXeWVSOU1IaHBhV29ucjMwUmdoYnVWdkhOTVBKT3MyMC00TjhUX1U5Q0pCRkRZWUFCbVQtREdGZDdTeXV5VF9HZy12U1g2WE1CNmc2Yi1jdHBqeXc1NExTeXd2Ul9HS3gzTUNaa2ZsXzl4OUo5WTFBeVprM2ctUFRra21nblVp0gHuAUFVX3lxTFAtZERLdFFXMlpkNXgxRGctRkFFV1NxcEEzV2RmYmNRTFBHQ2pDMW1MN2hmRlAyVjFrZUd6Z09rWjdWejJ5WGNEZmI4ZXJLRXRxdWtOQW5VeHBDOHQ4bndMNTBXSmdiNFRnelU0X2RaYk1Eak96cS1FaWs5N0ZqR05KOFh5S0g1VEdON1A0NTkxRFNOTHBOLWpCMHZvem00Wkp4aUl5UDhtQlBhdE1oZEdpdHFqUWxqblZYZy1TWWZFNG5WT3FIamQyM2lzdE1ISW9rSG5ZNXNhNGp0UjRnNlhPdXVveHgtWWwtd2dLaGc?oc=5"
         }
       ],
       "tags": [
-        "Models",
-        "Robotics"
+        "Models"
       ]
     },
     {
       "rank": 3,
+      "titleZh": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。”",
+      "titleEn": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "source": "Hacker News AI",
+      "category": "Model",
+      "publishedAt": "2026-08-02",
+      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点：文章网址：https://frogs.vaguespac.es/ 评论网址：https://news.ycombinator.com/item?id=49147622 积分：83 # 评论：42",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://frogs.vaguespac.es/ Comments URL: https://news.ycombinator.com/item?id=49147622 Points: 83 # Comments: 42",
+      "overviewZh": "Hacker News AI 发布了关于“我的个人 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG”的新更新。",
+      "overviewEn": "Hacker News AI published a new update about “My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://frogs.vaguespac.es/"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "在整个欧洲推进负责任的人工智能",
       "titleEn": "Advancing responsible AI across Europe",
       "source": "OpenAI Blog",
@@ -74,7 +95,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "titleZh": "山姆·奥尔特曼并不是唯一一个想要给人工智能踩刹车的人",
       "titleEn": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
       "source": "TechCrunch AI",
@@ -93,28 +114,6 @@
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "Arm 股票和 2 个人工智能基础设施选择促进机器人技术增长 - Simplywall.st",
-      "titleEn": "Arm Stock And 2 AI Infrastructure Picks For Robotics Growth - simplywall.st",
-      "source": "Google News AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-01",
-      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：Arm Stock 和 2 个人工智能基础设施选择促进机器人增长    Simplywall.st",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Arm Stock And 2 AI Infrastructure Picks For Robotics Growth &nbsp;&nbsp; simplywall.st",
-      "overviewZh": "Google News AI 发布了有关“Arm Stock 和 2 个促进机器人增长的 AI 基础设施选择 - Simplywall.st”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Arm Stock And 2 AI Infrastructure Picks For Robotics Growth - simplywall.st”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWThWWktYWmZ2NFZZM0ZkR1gxWXVoLXFEdFR2cGcyVTVrWnVzd1Y1T19zUy1RY0xzWEM0TTRhQTNrNDVaSVFpV3owdWhyS2ZhRUtKdUVLdHg1YTdqbW16R1JFamNJSDdEc2VPQ2tSUWNZZ3VMYmlQeDNXWUFGWlJyN3YzRmxpTzBfeHZOekhfTzBEN2luc0p3bWdFbnZ4QjhfZFNxUnZsZ2N1THlJN2NhdGdwRmZDUnloZGQyOEVfXzc2dEl4WFHSAcsBQVVfeXFMTzJBbzNXMWdxM1g4V2ZpamY4MEktYXUtWWI5QndkMHhtX3Y4eXdDaEFHa0xGMTBFWmFheUN4RFFyU1U3d3BZVVZPNUZMSWNXMlJFSmFRaHBwUEpWbDlmTU5CMS1NV2wwZEt4M0p0eDhRZnR6aDBQeTE2SXJzTDJTelloa3F2LWk5eE85UTFJd0xtOVNocmFFeENHMkhwMy16VnBSZ0pSbktXdlFIeDB3UnFXbmRqZGdQb1NaQ004VEN6OHh1Q2MtNXIwdTg?oc=5"
-        }
-      ],
-      "tags": [
-        "Robotics"
       ]
     }
   ]
