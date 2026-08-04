@@ -1,49 +1,94 @@
 {
-  "updatedAt": "2026-08-03T00:12:56.387Z",
+  "updatedAt": "2026-08-04T00:15:34.472Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30773945716",
+  "edition": "github-30864994756",
   "items": [
     {
       "rank": 1,
-      "titleZh": "付钱给艺术家足以说服他们接受人工智能吗？",
-      "titleEn": "Is paying artists enough to convince them to embrace AI?",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-08-02",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：插画家多年来一直对生成人工智能初创公司在未经许可的情况下用艺术家的作品训练他们的模型发出警报。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission.",
-      "overviewZh": "The Verge AI 发布了关于“向艺术家付费是否足以说服他们接受人工智能？”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Is paying artists enough to convince them to embrace AI?”.",
+      "titleZh": "美国众议院小组寻求有关 OpenAI 人工智能代理安全漏洞的简报 - 路透中文网",
+      "titleEn": "US House panel seeks briefing on OpenAI's AI agent security breach - Reuters",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-08-03",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源的要点：美国众议院小组寻求有关 OpenAI 人工智能代理安全漏洞的简报 路透",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: US House panel seeks briefing on OpenAI's AI agent security breach &nbsp;&nbsp; Reuters",
+      "overviewZh": "Google News AI 发布了有关“美国众议院小组寻求有关 OpenAI 人工智能代理安全漏洞的简报 - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “US House panel seeks briefing on OpenAI's AI agent security breach - Reuters”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZUJ3OG9JQXRfZ2I2Rkp1TjZWbXpOZXRYNFp3Yi1CZW5VczUxOC1LeVJmbUlaTFdkbFB5NVhXV3hvNTFJSy1CMDlIdDlyMFhwaFg3NVhvSHhuVHNTRW1JQmtxcmNLT1VDRGtjSFllRmN2T2lONXFJNDFsZTZqRDhJYkQ2cWdJcHEyd1kzWW9tVkJyVzdqQzJLMV93Qm5KbmZwOVV5THBnNTJNTE9pSnc?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "Agents"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 在解决了 10 个长期存在的数学问题后，对其下一个主要人工智能模型 Astra 进行了调侃 - BleepingComputer",
-      "titleEn": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems - BleepingComputer",
-      "source": "Google News AI",
+      "titleZh": "中国阿里巴巴再次冲击美国人工智能霸主地位",
+      "titleEn": "China’s Alibaba takes another swipe at America’s AI supremacy",
+      "source": "The Verge AI",
       "category": "Model",
-      "publishedAt": "2026-08-02",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 在解决了 10 个长期存在的数学问题后，对其下一个主要 AI 模型 Astra 进行了调侃 BleepingComputer",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems &nbsp;&nbsp; BleepingComputer",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 在解决了 10 个长期存在的数学问题 - BleepingComputer 后，对其下一个主要人工智能模型 Astra 进行调侃”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems - BleepingComputer”.",
+      "publishedAt": "2026-08-03",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：中国科技巨头阿里巴巴发布了其所说的最大且“迄今为止最强大的人工智能模型”，声称其性能可与美国前沿实验室 Anthropic 的最佳系统相媲美",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic ",
+      "overviewZh": "The Verge AI 发布了有关“中国阿里巴巴再次冲击美国人工智能霸主地位”的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “China’s Alibaba takes another swipe at America’s AI supremacy”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMERpaDJDNEF4R25neXZ3azhNYzI0ZkoyU0ItbGpla0hhY2llZy1yR3JLZkJPX1dfaGFrVzhNNnRKc0haRmhRS01DbWptRllUVERCSi13VWlZWWgyNlpBd2JFbS1jeWlsQTNXeWVSOU1IaHBhV29ucjMwUmdoYnVWdkhOTVBKT3MyMC00TjhUX1U5Q0pCRkRZWUFCbVQtREdGZDdTeXV5VF9HZy12U1g2WE1CNmc2Yi1jdHBqeXc1NExTeXd2Ul9HS3gzTUNaa2ZsXzl4OUo5WTFBeVprM2ctUFRra21nblVp0gHuAUFVX3lxTFAtZERLdFFXMlpkNXgxRGctRkFFV1NxcEEzV2RmYmNRTFBHQ2pDMW1MN2hmRlAyVjFrZUd6Z09rWjdWejJ5WGNEZmI4ZXJLRXRxdWtOQW5VeHBDOHQ4bndMNTBXSmdiNFRnelU0X2RaYk1Eak96cS1FaWs5N0ZqR05KOFh5S0g1VEdON1A0NTkxRFNOTHBOLWpCMHZvem00Wkp4aUl5UDhtQlBhdE1oZEdpdHFqUWxqblZYZy1TWWZFNG5WT3FIamQyM2lzdE1ISW9rSG5ZNXNhNGp0UjRnNlhPdXVveHgtWWwtd2dLaGc?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "国会最喜欢的人工智能工具？聊天GPT",
+      "titleEn": "Congress’ favorite AI tool? ChatGPT",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-08-03",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：众议院支出记录显示，OpenAI 的 ChatGPT 在国会山的付费人工智能使用中占据主导地位，国会办公室依靠聊天机器人起草备忘录、总结立法并协助选民沟通。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+      "overviewZh": "TechCrunch AI 发布了有关“国会最喜欢的人工智能工具？ChatGPT”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Congress’ favorite AI tool? ChatGPT”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "我们如何在六个月内构建响应式语音 AI 实时系统",
+      "titleEn": "How we built a realtime system for responsive voice AI in six months",
+      "source": "OpenAI Blog",
+      "category": "Model",
+      "publishedAt": "2026-08-03",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "overviewZh": "OpenAI 博客发布了有关“我们如何在六个月内构建响应式语音 AI 实时系统”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “How we built a realtime system for responsive voice AI in six months”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
         }
       ],
       "tags": [
@@ -51,69 +96,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。”",
-      "titleEn": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "rank": 5,
+      "titleZh": "美国在人工智能领域对中国的领先地位几乎消失",
+      "titleEn": "The U.S. lead over China in AI is all but gone",
       "source": "Hacker News AI",
       "category": "Model",
-      "publishedAt": "2026-08-02",
-      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点：文章网址：https://frogs.vaguespac.es/ 评论网址：https://news.ycombinator.com/item?id=49147622 积分：83 # 评论：42",
-      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://frogs.vaguespac.es/ Comments URL: https://news.ycombinator.com/item?id=49147622 Points: 83 # Comments: 42",
-      "overviewZh": "Hacker News AI 发布了关于“我的个人 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG”的新更新。",
-      "overviewEn": "Hacker News AI published a new update about “My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"”.",
+      "publishedAt": "2026-08-03",
+      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点： 文章网址：https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html 评论网址：https://news.ycombinator.com/item?id=49160745 积分：11 # 评论：4",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html Comments URL: https://news.ycombinator.com/item?id=49160745 Points: 11 # Comments: 4",
+      "overviewZh": "Hacker News AI 发布了有关“美国在人工智能领域对中国的领先地位几乎消失”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “The U.S. lead over China in AI is all but gone”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://frogs.vaguespac.es/"
+          "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
         }
       ],
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "在整个欧洲推进负责任的人工智能",
-      "titleEn": "Advancing responsible AI across Europe",
-      "source": "OpenAI Blog",
-      "category": "Policy",
-      "publishedAt": "2026-07-31",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
-      "overviewZh": "OpenAI 博客发布了有关“在欧洲推进负责任的人工智能”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Advancing responsible AI across Europe”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/advancing-responsible-ai-across-europe"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "山姆·奥尔特曼并不是唯一一个想要给人工智能踩刹车的人",
-      "titleEn": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
-      "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-07-31",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：经过多年全速推进人工智能，OpenAI 首席执行官 Sam Altman 表示，也许人工智能行业是时候“调整”自己的节奏了。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself.",
-      "overviewZh": "TechCrunch AI 发布了一篇关于“萨姆·奥尔特曼并不是唯一一个想要给人工智能踩刹车的人”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Sam Altman isn’t the only one who wants to pump the brakes on AI”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/"
-        }
-      ],
-      "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
