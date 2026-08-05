@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-08-04T00:15:34.472Z",
+  "updatedAt": "2026-08-05T00:15:00.481Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30864994756",
+  "edition": "github-30962676398",
   "items": [
     {
       "rank": 1,
-      "titleZh": "美国众议院小组寻求有关 OpenAI 人工智能代理安全漏洞的简报 - 路透中文网",
-      "titleEn": "US House panel seeks briefing on OpenAI's AI agent security breach - Reuters",
+      "titleZh": "“令人费解”：白宫不会公开发布今天与 OpenAI、Anthropic、微软等公司一起审查的人工智能模型评估框架 - 财富",
+      "titleEn": "‘Baffling’: White House won’t publicly release AI model evaluation framework it reviewed today with OpenAI, Anthropic, Microsoft and others - Fortune",
       "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-03",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源的要点：美国众议院小组寻求有关 OpenAI 人工智能代理安全漏洞的简报 路透",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: US House panel seeks briefing on OpenAI's AI agent security breach &nbsp;&nbsp; Reuters",
-      "overviewZh": "Google News AI 发布了有关“美国众议院小组寻求有关 OpenAI 人工智能代理安全漏洞的简报 - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “US House panel seeks briefing on OpenAI's AI agent security breach - Reuters”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZUJ3OG9JQXRfZ2I2Rkp1TjZWbXpOZXRYNFp3Yi1CZW5VczUxOC1LeVJmbUlaTFdkbFB5NVhXV3hvNTFJSy1CMDlIdDlyMFhwaFg3NVhvSHhuVHNTRW1JQmtxcmNLT1VDRGtjSFllRmN2T2lONXFJNDFsZTZqRDhJYkQ2cWdJcHEyd1kzWW9tVkJyVzdqQzJLMV93Qm5KbmZwOVV5THBnNTJNTE9pSnc?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "中国阿里巴巴再次冲击美国人工智能霸主地位",
-      "titleEn": "China’s Alibaba takes another swipe at America’s AI supremacy",
-      "source": "The Verge AI",
       "category": "Model",
-      "publishedAt": "2026-08-03",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：中国科技巨头阿里巴巴发布了其所说的最大且“迄今为止最强大的人工智能模型”，声称其性能可与美国前沿实验室 Anthropic 的最佳系统相媲美",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic ",
-      "overviewZh": "The Verge AI 发布了有关“中国阿里巴巴再次冲击美国人工智能霸主地位”的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “China’s Alibaba takes another swipe at America’s AI supremacy”.",
+      "publishedAt": "2026-08-04",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的关键点：“令人困惑”：白宫不会公开发布今天与 OpenAI、Anthropic、微软和其他公司一起审查的人工智能模型评估框架 财富",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: ‘Baffling’: White House won’t publicly release AI model evaluation framework it reviewed today with OpenAI, Anthropic, Microsoft and others &nbsp;&nbsp; Fortune",
+      "overviewZh": "谷歌新闻 AI 发布了有关“‘令人困惑’：白宫不会公开发布其今天与 OpenAI、Anthropic、微软和其他公司一起审查的人工智能模型评估框架 - 《财富》》的最新更新。",
+      "overviewEn": "Google News AI published a new update about “‘Baffling’: White House won’t publicly release AI model evaluation framework it reviewed today with OpenAI, Anthropic, Microsoft and others - Fortune”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWlcyMlRoSEdoMWV5QjZBeXRGenZEeHVSeV9NMzFRajlpX2xITkNiLS14TjJIcVhtYWExY2VaNzltV3F5TmgyRnFjdFBuTmozWWdsVm5mX3BIUG51eWNxQnBMenJCOUtYeUE3RlRhQV9DLVo4RU53U0lGNTdjTGw5NWVNeG11SDRQT2oxeWFMTmJIZ2I3RzBOSzRsWEctMFRKWFY5R21aS1YzcktXSjRubzVqM2NlTHVRcjBRYWV6WmlTbHBwblVfa0RIQUlLX0o3WE9Sa0NqV08yRGRDX2ZKdU1aV1JSeDNCRGVKd0NrV25TMDhNNGRPNQ?oc=5"
         }
       ],
       "tags": [
@@ -52,43 +30,66 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "国会最喜欢的人工智能工具？聊天GPT",
-      "titleEn": "Congress’ favorite AI tool? ChatGPT",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-08-03",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：众议院支出记录显示，OpenAI 的 ChatGPT 在国会山的付费人工智能使用中占据主导地位，国会办公室依靠聊天机器人起草备忘录、总结立法并协助选民沟通。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
-      "overviewZh": "TechCrunch AI 发布了有关“国会最喜欢的人工智能工具？ChatGPT”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Congress’ favorite AI tool? ChatGPT”.",
+      "rank": 2,
+      "titleZh": "涉及 OpenAI 模型的第三方网络评估",
+      "titleEn": "Third-party cyber evaluations involving OpenAI models",
+      "source": "OpenAI Blog",
+      "category": "Model",
+      "publishedAt": "2026-08-04",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI对最近发生的第三方网络安全评估事件进行了解释，并概述了加强人工智能模型测试和评估的新保障措施。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "overviewZh": "OpenAI 博客发布了有关“涉及 OpenAI 模型的第三方网络评估”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Third-party cyber evaluations involving OpenAI models”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/"
+          "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
         }
       ],
       "tags": [
-        "Products"
+        "Models"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "Anthropic 与人工智能云初创公司 Volta 签署 100 亿美元协议",
+      "titleEn": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "source": "TechCrunch AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-04",
+      "summaryZh": "TechCrunch AI 报告了人工智能基础设施的发展情况。消息人士要点：近几个月来，Anthropic 一直在进行云合作热潮，据报道，其最新举措是与人工智能云初创公司 Volta 达成 100 亿美元的交易。",
+      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 与人工智能云初创公司 Volta 签署 100 亿美元协议”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic signs $10B deal with AI cloud startup Volta”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
+        }
+      ],
+      "tags": [
+        "Business",
+        "Infrastructure"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "我们如何在六个月内构建响应式语音 AI 实时系统",
-      "titleEn": "How we built a realtime system for responsive voice AI in six months",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-08-03",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "overviewZh": "OpenAI 博客发布了有关“我们如何在六个月内构建响应式语音 AI 实时系统”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “How we built a realtime system for responsive voice AI in six months”.",
+      "titleZh": "“不健康”的 LLM 使用比您想象的更常见",
+      "titleEn": "‘Not healthy’ LLM use is more common than you think",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-04",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：汉克·格林 (Hank Green) 是一位颇受欢迎的 YouTuber 和科学传播者，他表示，由于对人工智能的使用受到强烈批评，他将退出制作。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Hank Green, a popular YouTuber and science communicator, said he is stepping back from production amid intense criticism over his use of AI.",
+      "overviewZh": "The Verge AI 发布了关于“‘不健康’LLM 使用比你想象的更常见”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “‘Not healthy’ LLM use is more common than you think”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy"
         }
       ],
       "tags": [
@@ -97,24 +98,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "美国在人工智能领域对中国的领先地位几乎消失",
-      "titleEn": "The U.S. lead over China in AI is all but gone",
+      "titleZh": "安全事件 INC-2026-07-28-01 – 英国人工智能安全研究所 [pdf]",
+      "titleEn": "Security Incident INC-2026-07-28-01 – UK AI Security Institute [pdf]",
       "source": "Hacker News AI",
-      "category": "Model",
-      "publishedAt": "2026-08-03",
-      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点： 文章网址：https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html 评论网址：https://news.ycombinator.com/item?id=49160745 积分：11 # 评论：4",
-      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html Comments URL: https://news.ycombinator.com/item?id=49160745 Points: 11 # Comments: 4",
-      "overviewZh": "Hacker News AI 发布了有关“美国在人工智能领域对中国的领先地位几乎消失”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “The U.S. lead over China in AI is all but gone”.",
+      "category": "Policy",
+      "publishedAt": "2026-08-04",
+      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点：文章网址：https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf 评论网址：https://news.ycombinator",
+      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf Comments URL: https://news.ycombinator",
+      "overviewZh": "Hacker News AI 发布了有关“安全事件 INC-2026-07-28-01 – 英国人工智能安全研究所 [pdf]”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “Security Incident INC-2026-07-28-01 – UK AI Security Institute [pdf]”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
+          "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     }
   ]
