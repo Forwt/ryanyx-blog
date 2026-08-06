@@ -1,36 +1,80 @@
 {
-  "updatedAt": "2026-08-05T00:15:00.481Z",
+  "updatedAt": "2026-08-06T00:10:17.754Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-30962676398",
+  "edition": "github-31058803895",
   "items": [
     {
       "rank": 1,
-      "titleZh": "“令人费解”：白宫不会公开发布今天与 OpenAI、Anthropic、微软等公司一起审查的人工智能模型评估框架 - 财富",
-      "titleEn": "‘Baffling’: White House won’t publicly release AI model evaluation framework it reviewed today with OpenAI, Anthropic, Microsoft and others - Fortune",
+      "titleZh": "人类人工智能代理在新的安全事件中伪造身份，以真人为目标 - CNN",
+      "titleEn": "Anthropic AI agent fakes identities, targets real people in new security incident - CNN",
       "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-08-04",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的关键点：“令人困惑”：白宫不会公开发布今天与 OpenAI、Anthropic、微软和其他公司一起审查的人工智能模型评估框架 财富",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: ‘Baffling’: White House won’t publicly release AI model evaluation framework it reviewed today with OpenAI, Anthropic, Microsoft and others &nbsp;&nbsp; Fortune",
-      "overviewZh": "谷歌新闻 AI 发布了有关“‘令人困惑’：白宫不会公开发布其今天与 OpenAI、Anthropic、微软和其他公司一起审查的人工智能模型评估框架 - 《财富》》的最新更新。",
-      "overviewEn": "Google News AI published a new update about “‘Baffling’: White House won’t publicly release AI model evaluation framework it reviewed today with OpenAI, Anthropic, Microsoft and others - Fortune”.",
+      "category": "Policy",
+      "publishedAt": "2026-08-05",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人类人工智能代理伪造身份，在新的安全事件中针对真实的人 CNN",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic AI agent fakes identities, targets real people in new security incident &nbsp;&nbsp; CNN",
+      "overviewZh": "谷歌新闻人工智能发布了关于“人类人工智能代理伪造身份，在新的安全事件中针对真实的人 - CNN”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic AI agent fakes identities, targets real people in new security incident - CNN”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWlcyMlRoSEdoMWV5QjZBeXRGenZEeHVSeV9NMzFRajlpX2xITkNiLS14TjJIcVhtYWExY2VaNzltV3F5TmgyRnFjdFBuTmozWWdsVm5mX3BIUG51eWNxQnBMenJCOUtYeUE3RlRhQV9DLVo4RU53U0lGNTdjTGw5NWVNeG11SDRQT2oxeWFMTmJIZ2I3RzBOSzRsWEctMFRKWFY5R21aS1YzcktXSjRubzVqM2NlTHVRcjBRYWV6WmlTbHBwblVfa0RIQUlLX0o3WE9Sa0NqV08yRGRDX2ZKdU1aV1JSeDNCRGVKd0NrV25TMDhNNGRPNQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMmt0OTliSDBrcGl3TU55ZlJYczRKdTB0clh6eFR5X2xNWTEteWdpOFU0RUZlVWZRa2NKR1JKdDZkR0RMQUpIRk1sV1Z0aEEzMXdPME81bmJMcHhoMHFBbzY2M1VISjNySHgwbFc0STVHOS11V29WWExBRWRjNy12ZUpiNk5qd2VPdkhldw?oc=5"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Agents"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "Meta 推出 Muse Code，一款适用于大型代码库的 AI 代理",
+      "titleEn": "Meta launches Muse Code, an AI agent for large code bases",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-08-05",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。来源要点：Meta 通过新的代理扩展了其人工智能编码产品，它承诺可以使用复杂的软件处理复杂的任务。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 推出 Muse Code，大型代码库的 AI 代理”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta launches Muse Code, an AI agent for large code bases”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "Reddit 推出新版主：AI",
+      "titleEn": "Reddit is introducing a new moderator: AI",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-05",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：Reddit 正在利用人工智能来帮助管理新的 Reddit 子版块，并最终帮助管理网站的其余部分。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site.",
+      "overviewZh": "The Verge AI 发布了有关“Reddit 正在引入新版主：AI”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Reddit is introducing a new moderator: AI”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "涉及 OpenAI 模型的第三方网络评估",
       "titleEn": "Third-party cyber evaluations involving OpenAI models",
       "source": "OpenAI Blog",
@@ -52,70 +96,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Anthropic 与人工智能云初创公司 Volta 签署 100 亿美元协议",
-      "titleEn": "Anthropic signs $10B deal with AI cloud startup Volta",
-      "source": "TechCrunch AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-04",
-      "summaryZh": "TechCrunch AI 报告了人工智能基础设施的发展情况。消息人士要点：近几个月来，Anthropic 一直在进行云合作热潮，据报道，其最新举措是与人工智能云初创公司 Volta 达成 100 亿美元的交易。",
-      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
-      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 与人工智能云初创公司 Volta 签署 100 亿美元协议”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic signs $10B deal with AI cloud startup Volta”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
-        }
-      ],
-      "tags": [
-        "Business",
-        "Infrastructure"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "“不健康”的 LLM 使用比您想象的更常见",
-      "titleEn": "‘Not healthy’ LLM use is more common than you think",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-04",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：汉克·格林 (Hank Green) 是一位颇受欢迎的 YouTuber 和科学传播者，他表示，由于对人工智能的使用受到强烈批评，他将退出制作。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Hank Green, a popular YouTuber and science communicator, said he is stepping back from production amid intense criticism over his use of AI.",
-      "overviewZh": "The Verge AI 发布了关于“‘不健康’LLM 使用比你想象的更常见”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “‘Not healthy’ LLM use is more common than you think”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "安全事件 INC-2026-07-28-01 – 英国人工智能安全研究所 [pdf]",
-      "titleEn": "Security Incident INC-2026-07-28-01 – UK AI Security Institute [pdf]",
-      "source": "Hacker News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-04",
-      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点：文章网址：https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf 评论网址：https://news.ycombinator",
-      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf Comments URL: https://news.ycombinator",
-      "overviewZh": "Hacker News AI 发布了有关“安全事件 INC-2026-07-28-01 – 英国人工智能安全研究所 [pdf]”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Security Incident INC-2026-07-28-01 – UK AI Security Institute [pdf]”.",
+      "titleZh": "自主参与者需要新的人工智能代理治理 - SiliconANGLE",
+      "titleEn": "Autonomous actors need new AI agent governance - SiliconANGLE",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-08-05",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：自主参与者需要新的 AI 代理治理 SiliconANGLE",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Autonomous actors need new AI agent governance &nbsp;&nbsp; SiliconANGLE",
+      "overviewZh": "Google News AI 发布了有关“自主参与者需要新的 AI 代理治理 - SiliconANGLE”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Autonomous actors need new AI agent governance - SiliconANGLE”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf"
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbWVzcmpPemZja2cxb2tFZkFhX2NjSnZIWE5DSE5RYUhVVWpMcl9uWlpTQ3lVaDlBM19OYWtobTN0YWRtV2QzUDM3ZkRYZ1hWd3Q3TVBGWWhQZWM2Yi13TlU4aXpBRkpMWjVnV0JlRERRYl84S1dXXzRHQUJfclM4LU1FcVRUZFZvRDEzdEZ0WHZxNVRUa1lF?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     }
   ]
