@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-08-06T00:10:17.754Z",
+  "updatedAt": "2026-08-07T01:44:04.052Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31058803895",
+  "edition": "github-31138947571",
   "items": [
     {
       "rank": 1,
-      "titleZh": "人类人工智能代理在新的安全事件中伪造身份，以真人为目标 - CNN",
-      "titleEn": "Anthropic AI agent fakes identities, targets real people in new security incident - CNN",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-05",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人类人工智能代理伪造身份，在新的安全事件中针对真实的人 CNN",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic AI agent fakes identities, targets real people in new security incident &nbsp;&nbsp; CNN",
-      "overviewZh": "谷歌新闻人工智能发布了关于“人类人工智能代理伪造身份，在新的安全事件中针对真实的人 - CNN”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic AI agent fakes identities, targets real people in new security incident - CNN”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMmt0OTliSDBrcGl3TU55ZlJYczRKdTB0clh6eFR5X2xNWTEteWdpOFU0RUZlVWZRa2NKR1JKdDZkR0RMQUpIRk1sV1Z0aEEzMXdPME81bmJMcHhoMHFBbzY2M1VISjNySHgwbFc0STVHOS11V29WWExBRWRjNy12ZUpiNk5qd2VPdkhldw?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "Meta 推出 Muse Code，一款适用于大型代码库的 AI 代理",
-      "titleEn": "Meta launches Muse Code, an AI agent for large code bases",
+      "titleZh": "谷歌地图增加了代理功能，包括食品订购和酒店预订",
+      "titleEn": "Google Maps adds agentic features, including food ordering and hotel bookings",
       "source": "TechCrunch AI",
       "category": "Product",
-      "publishedAt": "2026-08-05",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。来源要点：Meta 通过新的代理扩展了其人工智能编码产品，它承诺可以使用复杂的软件处理复杂的任务。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
-      "overviewZh": "TechCrunch AI 发布了有关“Meta 推出 Muse Code，大型代码库的 AI 代理”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta launches Muse Code, an AI agent for large code bases”.",
+      "publishedAt": "2026-08-06",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源要点：这些新功能的推出反映了谷歌将谷歌地图从导航工具转变为能够帮助用户完成现实世界任务的助手的雄心。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
+      "overviewZh": "TechCrunch AI 发布了有关“Google 地图添加代理功能，包括食品订购和酒店预订”的新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Google Maps adds agentic features, including food ordering and hotel bookings”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"
+          "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/"
         }
       ],
       "tags": [
@@ -52,21 +30,21 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Reddit 推出新版主：AI",
-      "titleEn": "Reddit is introducing a new moderator: AI",
+      "rank": 2,
+      "titleZh": "据报道，Jony Ive 的第一个 OpenAI 小工具是一个冰球大小的智能扬声器",
+      "titleEn": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
       "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-08-05",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：Reddit 正在利用人工智能来帮助管理新的 Reddit 子版块，并最终帮助管理网站的其余部分。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site.",
-      "overviewZh": "The Verge AI 发布了有关“Reddit 正在引入新版主：AI”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Reddit is introducing a new moderator: AI”.",
+      "publishedAt": "2026-08-06",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：OpenAI 与前苹果设计师 Jony Ive 一起开发的 AI 设备“本质上是一款没有显示屏的智能扬声器”，由电池供电，呈甜甜圈形状，尺寸大致为",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the si",
+      "overviewZh": "The Verge AI 发布了有关“Jony Ive 的第一个 OpenAI 小工具据说是一个冰球大小的智能扬声器”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor"
         }
       ],
       "tags": [
@@ -74,47 +52,70 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "涉及 OpenAI 模型的第三方网络评估",
-      "titleEn": "Third-party cyber evaluations involving OpenAI models",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-08-04",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI对最近发生的第三方网络安全评估事件进行了解释，并概述了加强人工智能模型测试和评估的新保障措施。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "overviewZh": "OpenAI 博客发布了有关“涉及 OpenAI 模型的第三方网络评估”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Third-party cyber evaluations involving OpenAI models”.",
+      "rank": 3,
+      "titleZh": "UCO 今年秋季推出新的人工智能学位课程 - News 9",
+      "titleEn": "UCO launches new artificial intelligence degree programs this Fall - News 9",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-08-06",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源要点：UCO 今年秋季推出新的人工智能学位课程 News 9",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: UCO launches new artificial intelligence degree programs this Fall &nbsp;&nbsp; News 9",
+      "overviewZh": "Google News AI 发布了有关“UCO 今年秋季推出新的人工智能学位课程 - News 9”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “UCO launches new artificial intelligence degree programs this Fall - News 9”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tN2c1a3VKaWZ2VDh4cjIweExHdmFzbkFJMl9QYTByeUxMR0tqVWF6NFo1SW5SOVJFRG5sT1BOZHNWUGZ3elRTd3hWMGIyRnNpOHgwUU5odWJxTlhYak1rMVJNNmNUa0NJNUtQdS1wanFPclBNeDBJ?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "进入全宇宙：开放世界模型如何推动物理人工智能的前沿",
+      "titleEn": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+      "source": "NVIDIA Blog",
+      "category": "Model",
+      "publishedAt": "2026-08-06",
+      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。消息来源要点：今年 7 月，NVIDIA 与 200 多家公司和组织一起签署了《开放权重与美国 AI 领导力》公开信，主张 AI 领导力将不以任何标准来衡量",
+      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured no",
+      "overviewZh": "NVIDIA 博客发布了有关“走进全方位宇宙：开放世界模型如何推动物理 AI 前沿”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Into the Omniverse: How Open World Models Push the Frontier of Physical AI”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Open source"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "自主参与者需要新的人工智能代理治理 - SiliconANGLE",
-      "titleEn": "Autonomous actors need new AI agent governance - SiliconANGLE",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-08-05",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：自主参与者需要新的 AI 代理治理 SiliconANGLE",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Autonomous actors need new AI agent governance &nbsp;&nbsp; SiliconANGLE",
-      "overviewZh": "Google News AI 发布了有关“自主参与者需要新的 AI 代理治理 - SiliconANGLE”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Autonomous actors need new AI agent governance - SiliconANGLE”.",
+      "titleZh": "改进 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问",
+      "titleEn": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-08-06",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，并且免费用户的访问范围扩大了，并且可以使用 GPT-5.6 Luna 进行无限制的日常聊天。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "overviewZh": "OpenAI 博客发布了有关“改进 ChatGPT 中的 GPT-5.6 Sol — 并扩大免费用户对 GPT-5.6 Luna 的访问”的新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbWVzcmpPemZja2cxb2tFZkFhX2NjSnZIWE5DSE5RYUhVVWpMcl9uWlpTQ3lVaDlBM19OYWtobTN0YWRtV2QzUDM3ZkRYZ1hWd3Q3TVBGWWhQZWM2Yi13TlU4aXpBRkpMWjVnV0JlRERRYl84S1dXXzRHQUJfclM4LU1FcVRUZFZvRDEzdEZ0WHZxNVRUa1lF?oc=5"
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"
         }
       ],
       "tags": [
-        "Agents"
+        "Models"
       ]
     }
   ]
