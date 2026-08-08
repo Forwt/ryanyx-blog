@@ -1,20 +1,42 @@
 {
-  "updatedAt": "2026-08-07T23:48:30.545Z",
+  "updatedAt": "2026-08-08T23:45:02.175Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31228253316",
+  "edition": "github-31284666438",
   "items": [
     {
       "rank": 1,
+      "titleZh": "出于安全考虑，OpenAI 暂停人工智能模型 Astra 的部分工作 | AI（人工智能）-卫报",
+      "titleEn": "OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) - The Guardian",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-08-08",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：出于安全考虑，OpenAI 将暂停人工智能模型 Astra 的部分工作 | AI（人工智能）《卫报》",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) &nbsp;&nbsp; The Guardian",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 因安全问题暂停人工智能模型 Astra 的部分工作 | AI（人工智能）- 卫报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) - The Guardian”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1dJNXVXYnpmS0U2OFQtSDhFcURicFNyMGFMVGVjdTAtQWJmc21hcUU3dGJaNnBMeVMySHVhTGZmRF9xUko1c2JJS3haRjlTaWtVV3QtelExODdVTGtfNThUb0RrS2JFN3pqWEJoUkkwSHpoSWJaemNFam1zbXFwUkJnbFRjRFZV?oc=5"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "OpenAI 表示，出于安全考虑，它放慢了 Astra 模型的开发速度",
       "titleEn": "OpenAI says it slowed Astra model development over security concerns",
       "source": "TechCrunch AI",
       "category": "Policy",
       "publishedAt": "2026-08-07",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源要点：OpenAI 表示，由于对其网络安全能力的担忧，该公司已暂停其即将推出的 Astra 车型的某些方面的工作。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI said it has suspended work on some aspects of its upcoming model Astra over concerns about its cybersecurity prowess.",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源要点：OpenAI 表示，该模型仍在开发中，已达到“关键网络安全阈值”，这意味着它可以独立识别并针对特定目标实施网络攻击。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against tr",
       "overviewZh": "TechCrunch AI 发布了有关“OpenAI 表示由于安全问题而放慢了 Astra 模型开发速度”的最新更新。",
       "overviewEn": "TechCrunch AI published a new update about “OpenAI says it slowed Astra model development over security concerns”.",
       "links": [
@@ -29,7 +51,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "titleZh": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
       "titleEn": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
       "source": "The Verge AI",
@@ -51,30 +73,31 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "代理人工智能正在打破安全部门的人类假设 - 福布斯",
-      "titleEn": "Agentic AI Is Breaking Security’s Human Assumptions - Forbes",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-07",
-      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。来源要点：代理人工智能正在打破安全部门的人类假设    福布斯",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Agentic AI Is Breaking Security’s Human Assumptions &nbsp;&nbsp; Forbes",
-      "overviewZh": "谷歌新闻人工智能发布了关于“代理人工智能正在打破安全的人类假设 - 福布斯”的新更新。",
-      "overviewEn": "Google News AI published a new update about “Agentic AI Is Breaking Security’s Human Assumptions - Forbes”.",
+      "rank": 4,
+      "titleZh": "Firebird 在亚美尼亚设立独联体地区最大的人工智能工厂",
+      "titleEn": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+      "source": "NVIDIA Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-08",
+      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。消息来源要点：全球人工智能基础设施建设今天再创新高——新兴人工智能云Firebird在亚美尼亚启动独联体地区最大人工智能工厂，建立新的人工智能工厂",
+      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new",
+      "overviewZh": "NVIDIA 博客发布了有关“Firebird 在亚美尼亚推出独联体地区最大的人工智能工厂”的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “Firebird Launches CIS Region’s Largest AI Factory in Armenia”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRkRVc2JTMURmandpem9BWnNwUWRLSHIxc09USFNoMjFtQzYzQUZ3WEl3U0FUaW1lczVRRVhLVGp4QlFNM0lNdEthVFpsMWFMVWVGWlRya1c0akd4RFlOcHhseml5QjJFbVJ1UEMzSlRrTk15YjR1N3hhclp4bkpNd1paM3k1ak5KZUhBSGU4aXZrdVNxSFRnb043dy1ra3d5LW9KYlBCSQ?oc=5"
+          "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"
         }
       ],
       "tags": [
-        "Agents"
+        "Products",
+        "Infrastructure"
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "HSP GRUPPE 如何构建税务咨询人工智能功能",
+      "rank": 5,
+      "titleZh": "HSP GRUPPE 如何构建人工智能税务咨询能力",
       "titleEn": "How HSP GRUPPE builds AI capabilities for tax advisory",
       "source": "OpenAI Blog",
       "category": "Business",
@@ -92,28 +115,6 @@
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "中国Kimi K3 AI模型在安全测试中逃脱隔离沙箱",
-      "titleEn": "China's Kimi K3 AI model escapes isolated sandbox during security test",
-      "source": "Hacker News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-07",
-      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点： 文章网址：https://www.scmp.com/tech/tech-trends/article/3363271/chinas-kimi-k3-ai-model-escapes-isolated-sandbox-during-security-test-researchers 评论网址：https://news.ycom",
-      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://www.scmp.com/tech/tech-trends/article/3363271/chinas-kimi-k3-ai-model-escapes-isolated-sandbox-during-security-test-researchers Comments URL: https://news.ycom",
-      "overviewZh": "Hacker News AI 发布了有关“中国 Kimi K3 AI 模型在安全测试中逃脱隔离沙箱”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “China's Kimi K3 AI model escapes isolated sandbox during security test”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3363271/chinas-kimi-k3-ai-model-escapes-isolated-sandbox-during-security-test-researchers"
-        }
-      ],
-      "tags": [
-        "Models"
       ]
     }
   ]
