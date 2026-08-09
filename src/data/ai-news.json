@@ -1,53 +1,53 @@
 {
-  "updatedAt": "2026-08-08T23:45:02.175Z",
+  "updatedAt": "2026-08-09T23:47:13.370Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31284666438",
+  "edition": "github-31342742953",
   "items": [
     {
       "rank": 1,
-      "titleZh": "出于安全考虑，OpenAI 暂停人工智能模型 Astra 的部分工作 | AI（人工智能）-卫报",
-      "titleEn": "OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) - The Guardian",
+      "titleZh": "AISI 表示，人性化 AI 代理创建虚假账户，在安全测试中欺骗真人 - FOX 10 Phoenix",
+      "titleEn": "Anthropic AI agent created fake accounts to trick real people in security test, AISI says - FOX 10 Phoenix",
       "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-08-08",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：出于安全考虑，OpenAI 将暂停人工智能模型 Astra 的部分工作 | AI（人工智能）《卫报》",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) &nbsp;&nbsp; The Guardian",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 因安全问题暂停人工智能模型 Astra 的部分工作 | AI（人工智能）- 卫报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) - The Guardian”.",
+      "publishedAt": "2026-08-09",
+      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。来源要点：AISI 表示，FOX 10 Phoenix 表示，人类 AI 代理创建了虚假帐户，以在安全测试中欺骗真实的人",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic AI agent created fake accounts to trick real people in security test, AISI says &nbsp;&nbsp; FOX 10 Phoenix",
+      "overviewZh": "Google News AI 发布了有关“AISI 称，人性化 AI 代理创建虚假帐户以在安全测试中欺骗真人 - FOX 10 Phoenix”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic AI agent created fake accounts to trick real people in security test, AISI says - FOX 10 Phoenix”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1dJNXVXYnpmS0U2OFQtSDhFcURicFNyMGFMVGVjdTAtQWJmc21hcUU3dGJaNnBMeVMySHVhTGZmRF9xUko1c2JJS3haRjlTaWtVV3QtelExODdVTGtfNThUb0RrS2JFN3pqWEJoUkkwSHpoSWJaemNFam1zbXFwUkJnbFRjRFZV?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYUJJeWh2bTR1VVI2TWwyMnNpUklyMTlwXzhVQUdBLUpPOEt6dUdDSlNPaHE3c3pac0tESV9kaFBhTW81WndmY1dTaThrRlU3a0J3cnFZWWVZTi16by1VT25HZ2wtVFlld2xUSXNIX09od3ROck5STUZnSGlsd1lQVXZ0U1VvTkM2eDVuQU41THFxNVFPWmVjT19IWVRNN3FxSG5UMHpvOVlVYWU4blNuQjNLR2pRSkk?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "Agents"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 表示，出于安全考虑，它放慢了 Astra 模型的开发速度",
-      "titleEn": "OpenAI says it slowed Astra model development over security concerns",
+      "titleZh": "AI安全测试正成为安全风险",
+      "titleEn": "The AI safety test is becoming a safety risk",
       "source": "TechCrunch AI",
       "category": "Policy",
-      "publishedAt": "2026-08-07",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源要点：OpenAI 表示，该模型仍在开发中，已达到“关键网络安全阈值”，这意味着它可以独立识别并针对特定目标实施网络攻击。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against tr",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 表示由于安全问题而放慢了 Astra 模型开发速度”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI says it slowed Astra model development over security concerns”.",
+      "publishedAt": "2026-08-09",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：人工智能代理正在逃离网络安全测试环境并到达现实世界的系统，引发了有关安全基础设施、行业标准和监管是否存在问题的问题",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation ",
+      "overviewZh": "TechCrunch AI 发布了有关“人工智能安全测试正在成为安全风险”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “The AI safety test is becoming a safety risk”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
+          "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
         }
       ],
       "tags": [
-        "Models"
+        "Agents"
       ]
     },
     {
@@ -74,6 +74,28 @@
     },
     {
       "rank": 4,
+      "titleZh": "人工智能助手入侵健身房网站，这是澳大利亚首次已知的自主网络攻击",
+      "titleEn": "AI assistant hacks gym website in first known Australian autonomous cyber attack",
+      "source": "Hacker News AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-09",
+      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点：文章网址：https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986 评论网址：https://news.ycombinator.com/item?id=49236439 积分：13",
+      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986 Comments URL: https://news.ycombinator.com/item?id=49236439 Points: 13",
+      "overviewZh": "Hacker News AI 发布了有关“人工智能助手在首次已知的澳大利亚自主网络攻击中入侵健身房网站”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “AI assistant hacks gym website in first known Australian autonomous cyber attack”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 5,
       "titleZh": "Firebird 在亚美尼亚设立独联体地区最大的人工智能工厂",
       "titleEn": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
       "source": "NVIDIA Blog",
@@ -93,28 +115,6 @@
       "tags": [
         "Products",
         "Infrastructure"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "HSP GRUPPE 如何构建人工智能税务咨询能力",
-      "titleEn": "How HSP GRUPPE builds AI capabilities for tax advisory",
-      "source": "OpenAI Blog",
-      "category": "Business",
-      "publishedAt": "2026-08-07",
-      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。来源要点：了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
-      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-      "overviewZh": "OpenAI 博客发布了有关“HSP GRUPPE 如何构建税务咨询人工智能功能”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “How HSP GRUPPE builds AI capabilities for tax advisory”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/hsp-gruppe"
-        }
-      ],
-      "tags": [
-        "AI"
       ]
     }
   ]
