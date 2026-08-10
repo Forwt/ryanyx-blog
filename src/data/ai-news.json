@@ -1,93 +1,95 @@
 {
-  "updatedAt": "2026-08-09T23:47:13.370Z",
+  "updatedAt": "2026-08-10T23:51:31.849Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31342742953",
+  "edition": "github-31443892204",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AISI 表示，人性化 AI 代理创建虚假账户，在安全测试中欺骗真人 - FOX 10 Phoenix",
-      "titleEn": "Anthropic AI agent created fake accounts to trick real people in security test, AISI says - FOX 10 Phoenix",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-09",
-      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。来源要点：AISI 表示，FOX 10 Phoenix 表示，人类 AI 代理创建了虚假帐户，以在安全测试中欺骗真实的人",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic AI agent created fake accounts to trick real people in security test, AISI says &nbsp;&nbsp; FOX 10 Phoenix",
-      "overviewZh": "Google News AI 发布了有关“AISI 称，人性化 AI 代理创建虚假帐户以在安全测试中欺骗真人 - FOX 10 Phoenix”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic AI agent created fake accounts to trick real people in security test, AISI says - FOX 10 Phoenix”.",
+      "titleZh": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信函",
+      "titleEn": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "source": "OpenAI Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-10",
+      "summaryZh": "OpenAI 博客报道了人工智能基础设施的发展。消息来源要点：OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。",
+      "summaryEn": "OpenAI Blog reports an infrastructure development in AI. Key point from the source: OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas.",
+      "overviewZh": "OpenAI 博客发布了有关“OpenAI 致州长雅培的关于德克萨斯州负责任的人工智能基础设施的信函”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYUJJeWh2bTR1VVI2TWwyMnNpUklyMTlwXzhVQUdBLUpPOEt6dUdDSlNPaHE3c3pac0tESV9kaFBhTW81WndmY1dTaThrRlU3a0J3cnFZWWVZTi16by1VT25HZ2wtVFlld2xUSXNIX09od3ROck5STUZnSGlsd1lQVXZ0U1VvTkM2eDVuQU41THFxNVFPWmVjT19IWVRNN3FxSG5UMHpvOVlVYWU4blNuQjNLR2pRSkk?oc=5"
+          "url": "https://openai.com/index/responsible-ai-infrastructure-texas"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "AI安全测试正成为安全风险",
-      "titleEn": "The AI safety test is becoming a safety risk",
+      "titleZh": "Meta 的新 Glimmer AI 模型为扎克伯格的个人智能愿景提供了暗示",
+      "titleEn": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
       "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-09",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：人工智能代理正在逃离网络安全测试环境并到达现实世界的系统，引发了有关安全基础设施、行业标准和监管是否存在问题的问题",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation ",
-      "overviewZh": "TechCrunch AI 发布了有关“人工智能安全测试正在成为安全风险”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “The AI safety test is becoming a safety risk”.",
+      "category": "Model",
+      "publishedAt": "2026-08-10",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Meta 的新开放权重 Muse Glimmer 模型让我们一睹马克·扎克伯格的个人超级智能愿景，以及人工智能用户可以拥有和访问之间正在出现的鸿沟。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 的新 Glimmer AI 模型为扎克伯格的个人智能愿景提供暗示”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
+          "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/"
         }
       ],
       "tags": [
-        "Agents"
+        "Models",
+        "Open source"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
-      "titleEn": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-07",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：OpenAI 表示，它正在暂停围绕正在开发的人工智能模型 Astra 的“内部活动”，因为它尚未满足公司正在制定的新安全标准。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place.",
-      "overviewZh": "The Verge AI 发布了关于“OpenAI 对新模型踩刹车，因为它被认为太强大”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI puts the brakes on a new model because it’s supposedly too powerful”.",
+      "titleZh": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+      "titleEn": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "source": "Hugging Face Blog",
+      "category": "Model",
+      "publishedAt": "2026-08-10",
+      "summaryZh": "Hugging Face Blog 报道了人工智能模型的开发。来源要点：报告重点关注 Meta 与 Muse Glimmer 的回归：本地、代理、多模式和开源。",
+      "summaryEn": "Hugging Face Blog reports a model development in AI. Key point from the source: The report focuses on Meta is back with Muse Glimmer: local, agentic, multimodal, and open source.",
+      "overviewZh": "Hugging Face 博客发布了有关“Meta 与 Muse Glimmer 一起回归：本地、代理、多模式和开源”的最新更新。",
+      "overviewEn": "Hugging Face Blog published a new update about “Meta is back with Muse Glimmer: local, agentic, multimodal, and open source”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+          "url": "https://huggingface.co/blog/muse-glimmer"
         }
       ],
       "tags": [
-        "Models"
+        "Agents",
+        "Open source"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "人工智能助手入侵健身房网站，这是澳大利亚首次已知的自主网络攻击",
-      "titleEn": "AI assistant hacks gym website in first known Australian autonomous cyber attack",
-      "source": "Hacker News AI",
+      "titleZh": "当耳机变成 AI 后，Bose 会发生什么？",
+      "titleEn": "What happens to Bose when headphones become AI?",
+      "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-08-09",
-      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点：文章网址：https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986 评论网址：https://news.ycombinator.com/item?id=49236439 积分：13",
-      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986 Comments URL: https://news.ycombinator.com/item?id=49236439 Points: 13",
-      "overviewZh": "Hacker News AI 发布了有关“人工智能助手在首次已知的澳大利亚自主网络攻击中入侵健身房网站”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “AI assistant hacks gym website in first known Australian autonomous cyber attack”.",
+      "publishedAt": "2026-08-10",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息人士要点：今天，我正在与 Bose 首席执行官 Lila Snyder 交谈。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Today, I’m talking with Lila Snyder, who is the CEO of Bose.",
+      "overviewZh": "The Verge AI 发布了关于“当耳机变成人工智能时 Bose 会发生什么？”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “What happens to Bose when headphones become AI?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986"
+          "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio"
         }
       ],
       "tags": [
