@@ -1,122 +1,122 @@
 {
-  "updatedAt": "2026-08-10T23:51:31.849Z",
+  "updatedAt": "2026-08-12T00:00:20.993Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31443892204",
+  "edition": "github-31548577811",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信函",
-      "titleEn": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "source": "OpenAI Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-10",
-      "summaryZh": "OpenAI 博客报道了人工智能基础设施的发展。消息来源要点：OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。",
-      "summaryEn": "OpenAI Blog reports an infrastructure development in AI. Key point from the source: OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas.",
-      "overviewZh": "OpenAI 博客发布了有关“OpenAI 致州长雅培的关于德克萨斯州负责任的人工智能基础设施的信函”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/responsible-ai-infrastructure-texas"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "Meta 的新 Glimmer AI 模型为扎克伯格的个人智能愿景提供了暗示",
-      "titleEn": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
-      "source": "TechCrunch AI",
+      "titleZh": "NVIDIA Nemotron 3.5 Lightning 和 NeMo Switchyard 提供更快、更智能、更高效的代理 AI",
+      "titleEn": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "source": "NVIDIA Blog",
       "category": "Model",
-      "publishedAt": "2026-08-10",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Meta 的新开放权重 Muse Glimmer 模型让我们一睹马克·扎克伯格的个人超级智能愿景，以及人工智能用户可以拥有和访问之间正在出现的鸿沟。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
-      "overviewZh": "TechCrunch AI 发布了有关“Meta 的新 Glimmer AI 模型为扎克伯格的个人智能愿景提供暗示”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision”.",
+      "publishedAt": "2026-08-11",
+      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。来源要点：随着人工智能从聊天机器人转向自主代理，开放模型正在满足完全控制人工智能运行位置以及部署和发展方式的市场需求。",
+      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves.",
+      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA Nemotron 3.5 Lightning 和 NeMo Switchyard 提供更快、更智能、更高效的代理 AI”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Open source"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
-      "titleEn": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "source": "Hugging Face Blog",
-      "category": "Model",
-      "publishedAt": "2026-08-10",
-      "summaryZh": "Hugging Face Blog 报道了人工智能模型的开发。来源要点：报告重点关注 Meta 与 Muse Glimmer 的回归：本地、代理、多模式和开源。",
-      "summaryEn": "Hugging Face Blog reports a model development in AI. Key point from the source: The report focuses on Meta is back with Muse Glimmer: local, agentic, multimodal, and open source.",
-      "overviewZh": "Hugging Face 博客发布了有关“Meta 与 Muse Glimmer 一起回归：本地、代理、多模式和开源”的最新更新。",
-      "overviewEn": "Hugging Face Blog published a new update about “Meta is back with Muse Glimmer: local, agentic, multimodal, and open source”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://huggingface.co/blog/muse-glimmer"
+          "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"
         }
       ],
       "tags": [
         "Agents",
-        "Open source"
+        "Models"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "花花公子要求人工智能代理预订健身房地点，不小心发起自主网络攻击 - futurism.com",
+      "titleEn": "Dude Asks AI Agent to Book Gym Spot, Accidentally Launches Autonomous Cyberattack - futurism.com",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-08-11",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Dude 要求 AI 代理预订健身房场地，意外启动自主网络攻击    futurism.com",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Dude Asks AI Agent to Book Gym Spot, Accidentally Launches Autonomous Cyberattack &nbsp;&nbsp; futurism.com",
+      "overviewZh": "谷歌新闻人工智能发布了关于“伙计要求人工智能代理预订健身房地点，意外发起自主网络攻击 - futurism.com”的新更新。",
+      "overviewEn": "Google News AI published a new update about “Dude Asks AI Agent to Book Gym Spot, Accidentally Launches Autonomous Cyberattack - futurism.com”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV01TTDNsRFExX3hNbC16TDdOVXlMU3ZSVDY3TDhsZENUT1FFMkY3X24wRUI4endpMXY5MDF3MEp0b0RmcTBBRnhUTGR2VGtsV3dxSmI1VkNrbWFiS3JuUUdzeGJpbl9RMmk5eTV4d21uWTR2LUQ2VlJUNmE1VWVRVUFOaGRmQQ?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "OpenAI 推出适用于 Linux 的 ChatGPT 桌面应用程序",
+      "titleEn": "OpenAI launches ChatGPT desktop app for Linux",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-08-11",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。来源要点：OpenAI 最终将专用的 ChatGPT 桌面应用程序引入 Linux 操作系统。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
+      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 推出适用于 Linux 的 ChatGPT 桌面应用程序”的新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI launches ChatGPT desktop app for Linux”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/"
+        }
+      ],
+      "tags": [
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "当耳机变成 AI 后，Bose 会发生什么？",
-      "titleEn": "What happens to Bose when headphones become AI?",
+      "titleZh": "ChatGPT 和 Gemini 用户数量均刚刚突破 10 亿",
+      "titleEn": "ChatGPT and Gemini both just passed 1 billion users",
       "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-10",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息人士要点：今天，我正在与 Bose 首席执行官 Lila Snyder 交谈。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Today, I’m talking with Lila Snyder, who is the CEO of Bose.",
-      "overviewZh": "The Verge AI 发布了关于“当耳机变成人工智能时 Bose 会发生什么？”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “What happens to Bose when headphones become AI?”.",
+      "category": "Product",
+      "publishedAt": "2026-08-11",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源要点：谷歌产品第 14 次拥有 10 亿用户。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: For the 14th time, a Google product has hit 1 billion users.",
+      "overviewZh": "The Verge AI 发布了有关“ChatGPT 和 Gemini 用户刚刚突破 10 亿”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “ChatGPT and Gemini both just passed 1 billion users”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
         }
       ],
       "tags": [
-        "AI"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "Firebird 在亚美尼亚设立独联体地区最大的人工智能工厂",
-      "titleEn": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
-      "source": "NVIDIA Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-08",
-      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。消息来源要点：全球人工智能基础设施建设今天再创新高——新兴人工智能云Firebird在亚美尼亚启动独联体地区最大人工智能工厂，建立新的人工智能工厂",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new",
-      "overviewZh": "NVIDIA 博客发布了有关“Firebird 在亚美尼亚推出独联体地区最大的人工智能工厂”的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “Firebird Launches CIS Region’s Largest AI Factory in Armenia”.",
+      "titleZh": "我们的研究型医疗人工智能系统 AMIE 在首次研究中展示了实时临床视频咨询功能。",
+      "titleEn": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "source": "Google AI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-08-11",
+      "summaryZh": "谷歌人工智能博客报道了人工智能的行业发展。消息来源的要点：谷歌推出了 AMIE，用于在模拟环境中进行实时临床视频咨询。",
+      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+      "overviewZh": "谷歌人工智能博客发布了关于“AMIE，我们的研究型医疗人工智能系统，在一项史无前例的研究中展示了实时临床视频咨询功能”的最新更新。",
+      "overviewEn": "Google AI Blog published a new update about “AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
         }
       ],
       "tags": [
-        "Products",
-        "Infrastructure"
+        "AI"
       ]
     }
   ]
