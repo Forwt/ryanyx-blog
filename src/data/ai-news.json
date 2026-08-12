@@ -1,13 +1,35 @@
 {
-  "updatedAt": "2026-08-12T00:00:20.993Z",
+  "updatedAt": "2026-08-12T23:58:01.909Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31548577811",
+  "edition": "github-31652773702",
   "items": [
     {
       "rank": 1,
+      "titleZh": "从协助到执行：企业如何让AI发挥作用",
+      "titleEn": "From assistance to execution: How enterprises put AI to work",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-08-12",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "overviewZh": "OpenAI 博客发布了关于“从协助到执行：企业如何将人工智能运用到工作中”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “From assistance to execution: How enterprises put AI to work”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "NVIDIA Nemotron 3.5 Lightning 和 NeMo Switchyard 提供更快、更智能、更高效的代理 AI",
       "titleEn": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
       "source": "NVIDIA Blog",
@@ -30,93 +52,69 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "花花公子要求人工智能代理预订健身房地点，不小心发起自主网络攻击 - futurism.com",
-      "titleEn": "Dude Asks AI Agent to Book Gym Spot, Accidentally Launches Autonomous Cyberattack - futurism.com",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-08-11",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Dude 要求 AI 代理预订健身房场地，意外启动自主网络攻击    futurism.com",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Dude Asks AI Agent to Book Gym Spot, Accidentally Launches Autonomous Cyberattack &nbsp;&nbsp; futurism.com",
-      "overviewZh": "谷歌新闻人工智能发布了关于“伙计要求人工智能代理预订健身房地点，意外发起自主网络攻击 - futurism.com”的新更新。",
-      "overviewEn": "Google News AI published a new update about “Dude Asks AI Agent to Book Gym Spot, Accidentally Launches Autonomous Cyberattack - futurism.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV01TTDNsRFExX3hNbC16TDdOVXlMU3ZSVDY3TDhsZENUT1FFMkY3X24wRUI4endpMXY5MDF3MEp0b0RmcTBBRnhUTGR2VGtsV3dxSmI1VkNrbWFiS3JuUUdzeGJpbl9RMmk5eTV4d21uWTR2LUQ2VlJUNmE1VWVRVUFOaGRmQQ?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Products"
-      ]
-    },
-    {
       "rank": 3,
-      "titleZh": "OpenAI 推出适用于 Linux 的 ChatGPT 桌面应用程序",
-      "titleEn": "OpenAI launches ChatGPT desktop app for Linux",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-08-11",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。来源要点：OpenAI 最终将专用的 ChatGPT 桌面应用程序引入 Linux 操作系统。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 推出适用于 Linux 的 ChatGPT 桌面应用程序”的新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI launches ChatGPT desktop app for Linux”.",
+      "titleZh": "Twitch 主播现在可以选择不参加亚马逊人工智能的训练",
+      "titleEn": "Twitch streamers can now opt out from training Amazon’s AI",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-08-12",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：Twitch 用户现在可以选择不允许他们的内容被用于训练亚马逊的生成人工智能模型。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models.",
+      "overviewZh": "The Verge AI 发布了有关“Twitch 主播现在可以选择退出亚马逊人工智能训练”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Twitch streamers can now opt out from training Amazon’s AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/"
+          "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
         }
       ],
       "tags": [
-        "Products"
+        "Models"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "ChatGPT 和 Gemini 用户数量均刚刚突破 10 亿",
-      "titleEn": "ChatGPT and Gemini both just passed 1 billion users",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-08-11",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源要点：谷歌产品第 14 次拥有 10 亿用户。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: For the 14th time, a Google product has hit 1 billion users.",
-      "overviewZh": "The Verge AI 发布了有关“ChatGPT 和 Gemini 用户刚刚突破 10 亿”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “ChatGPT and Gemini both just passed 1 billion users”.",
+      "titleZh": "由人工智能驱动的可穿戴设备：最新安全问题 – RACmonitor - MedLearn Publishing",
+      "titleEn": "Wearables Powered by Artificial Intelligence: Latest Security Issue – RACmonitor - MedLearn Publishing",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-08-12",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人工智能支持的可穿戴设备：最新安全问题 – RACmonitor MedLearn Publishing",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Wearables Powered by Artificial Intelligence: Latest Security Issue – RACmonitor &nbsp;&nbsp; MedLearn Publishing",
+      "overviewZh": "Google News AI 发布了有关“人工智能支持的可穿戴设备：最新安全问题 - RACmonitor - MedLearn Publishing”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Wearables Powered by Artificial Intelligence: Latest Security Issue – RACmonitor - MedLearn Publishing”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "我们的研究型医疗人工智能系统 AMIE 在首次研究中展示了实时临床视频咨询功能。",
-      "titleEn": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "source": "Google AI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-08-11",
-      "summaryZh": "谷歌人工智能博客报道了人工智能的行业发展。消息来源的要点：谷歌推出了 AMIE，用于在模拟环境中进行实时临床视频咨询。",
-      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: Google introduces AMIE for real-time clinical video consultations in simulated settings.",
-      "overviewZh": "谷歌人工智能博客发布了关于“AMIE，我们的研究型医疗人工智能系统，在一项史无前例的研究中展示了实时临床视频咨询功能”的最新更新。",
-      "overviewEn": "Google AI Blog published a new update about “AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONkctcDhycHV4eWJHNnNRMGVJUEg1ZWxDUlNqUWpiZVN5YmxZY0xhYVVYTFQzUWZ0UjU3TG9jRnpGc1I5bDNvTnVUTU9wSExzRzg2UUdwanlVNUtxUnd4cjBDV2lINC1OU1FPdTBnRlRSNEJSaWczeDNGM05Va3NQeTVwRjYwUFUtVVN1WV9qSGRWOXpsbVZ0a2FmMXRHN3lp?oc=5"
         }
       ],
       "tags": [
         "AI"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "随着人工智能安全问题的加剧，三位先驱者提出了保持开放的理由",
+      "titleEn": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-08-12",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的要点：在 Ai4 上，世界上最受尊敬的三位人工智能专家——杰弗里·辛顿 (Geoffrey Hinton)、李飞飞和吴恩达 (Andrew Ng)——讨论了监管、开源准入以及美国如何在中国在亚洲取得进步的情况下进行竞争。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "overviewZh": "TechCrunch AI 发布了关于“随着人工智能安全问题的加剧，三位先驱者提出保持开放的理由”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “As AI safety concerns mount, three pioneers make the case for staying open”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/"
+        }
+      ],
+      "tags": [
+        "Open source"
       ]
     }
   ]
