@@ -1,13 +1,82 @@
 {
-  "updatedAt": "2026-08-12T23:58:01.909Z",
+  "updatedAt": "2026-08-13T23:58:42.299Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31652773702",
+  "edition": "github-31755745925",
   "items": [
     {
       "rank": 1,
+      "titleZh": "谷歌推出 Gemini 3.7 Flash 用于编码、AI 代理项目 - SiliconANGLE",
+      "titleEn": "Google launches Gemini 3.7 Flash for coding, AI agent projects - SiliconANGLE",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-08-13",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Google 推出 Gemini 3.7 Flash 用于编码、AI 代理项目 SiliconANGLE",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Google launches Gemini 3.7 Flash for coding, AI agent projects &nbsp;&nbsp; SiliconANGLE",
+      "overviewZh": "Google News AI 发布了有关“Google 推出 Gemini 3.7 Flash 用于编码、AI 代理项目 - SiliconANGLE”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Google launches Gemini 3.7 Flash for coding, AI agent projects - SiliconANGLE”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lzU0ZUTEhLOEZTeUJnNVdlSjlabEFYTzl6YjZ2aGZobk1wdDNZR19GdV9tQV9qXzJmd1R0cmdKSEh4eEVOaWV5ckJ1NjNIRXUzdjdvQkpuUDNxblAwcXhmc0FaTHU2SEhtMlRGVjY0Nnc2dVdZMFNkU240VklfdWt3bVdZSF9wSWhjVFlueHBtWUFHTm9iVU53?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "作者引入了新的人工智能模型和升级的工具来控制代币成本",
+      "titleEn": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-08-13",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：作为 Z.ai 开源模型 GLM-5.2 的训练后变体，Writer 表示新系统应该以低得多的价格提供部署就绪的功能。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "overviewZh": "TechCrunch AI 发布了有关“Writer 引入新的 AI 模型和升级的工具以控制代币成本”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Writer introduces new AI model and upgraded harness to contain token costs”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Open source"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "微软类似 Clippy 的 Mico 角色不再是 Copilot 的面孔",
+      "titleEn": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-13",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：当您使用聊天机器人的语音模式时，Microsoft Copilot 将不再显示其情绪化的黄色斑点 Mico。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode.",
+      "overviewZh": "The Verge AI 发布了关于“微软类似 Clippy 的 Mico 角色不再是 Copilot 的面孔”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Microsoft’s Clippy-like Mico character is no longer the face of Copilot”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "从协助到执行：企业如何让AI发挥作用",
       "titleEn": "From assistance to execution: How enterprises put AI to work",
       "source": "OpenAI Blog",
@@ -29,7 +98,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 5,
       "titleZh": "NVIDIA Nemotron 3.5 Lightning 和 NeMo Switchyard 提供更快、更智能、更高效的代理 AI",
       "titleEn": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
       "source": "NVIDIA Blog",
@@ -49,72 +118,6 @@
       "tags": [
         "Agents",
         "Models"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Twitch 主播现在可以选择不参加亚马逊人工智能的训练",
-      "titleEn": "Twitch streamers can now opt out from training Amazon’s AI",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-08-12",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：Twitch 用户现在可以选择不允许他们的内容被用于训练亚马逊的生成人工智能模型。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models.",
-      "overviewZh": "The Verge AI 发布了有关“Twitch 主播现在可以选择退出亚马逊人工智能训练”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Twitch streamers can now opt out from training Amazon’s AI”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "由人工智能驱动的可穿戴设备：最新安全问题 – RACmonitor - MedLearn Publishing",
-      "titleEn": "Wearables Powered by Artificial Intelligence: Latest Security Issue – RACmonitor - MedLearn Publishing",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-12",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人工智能支持的可穿戴设备：最新安全问题 – RACmonitor MedLearn Publishing",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Wearables Powered by Artificial Intelligence: Latest Security Issue – RACmonitor &nbsp;&nbsp; MedLearn Publishing",
-      "overviewZh": "Google News AI 发布了有关“人工智能支持的可穿戴设备：最新安全问题 - RACmonitor - MedLearn Publishing”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Wearables Powered by Artificial Intelligence: Latest Security Issue – RACmonitor - MedLearn Publishing”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONkctcDhycHV4eWJHNnNRMGVJUEg1ZWxDUlNqUWpiZVN5YmxZY0xhYVVYTFQzUWZ0UjU3TG9jRnpGc1I5bDNvTnVUTU9wSExzRzg2UUdwanlVNUtxUnd4cjBDV2lINC1OU1FPdTBnRlRSNEJSaWczeDNGM05Va3NQeTVwRjYwUFUtVVN1WV9qSGRWOXpsbVZ0a2FmMXRHN3lp?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "随着人工智能安全问题的加剧，三位先驱者提出了保持开放的理由",
-      "titleEn": "As AI safety concerns mount, three pioneers make the case for staying open",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-12",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的要点：在 Ai4 上，世界上最受尊敬的三位人工智能专家——杰弗里·辛顿 (Geoffrey Hinton)、李飞飞和吴恩达 (Andrew Ng)——讨论了监管、开源准入以及美国如何在中国在亚洲取得进步的情况下进行竞争。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
-      "overviewZh": "TechCrunch AI 发布了关于“随着人工智能安全问题的加剧，三位先驱者提出保持开放的理由”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “As AI safety concerns mount, three pioneers make the case for staying open”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/"
-        }
-      ],
-      "tags": [
-        "Open source"
       ]
     }
   ]
