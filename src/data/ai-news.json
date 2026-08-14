@@ -1,55 +1,55 @@
 {
-  "updatedAt": "2026-08-13T23:58:42.299Z",
+  "updatedAt": "2026-08-14T23:37:14.952Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31755745925",
+  "edition": "github-31850975464",
   "items": [
     {
       "rank": 1,
-      "titleZh": "谷歌推出 Gemini 3.7 Flash 用于编码、AI 代理项目 - SiliconANGLE",
-      "titleEn": "Google launches Gemini 3.7 Flash for coding, AI agent projects - SiliconANGLE",
+      "titleZh": "在 AMD Ryzen™ AI Max Agentic PC 和 Radeon™ GPU 上运行 Qwen 3.8 27B - AMD",
+      "titleEn": "Run Qwen 3.8 27B on AMD Ryzen™ AI Max Agentic PCs and Radeon ™ GPUs - AMD",
       "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-08-13",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Google 推出 Gemini 3.7 Flash 用于编码、AI 代理项目 SiliconANGLE",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Google launches Gemini 3.7 Flash for coding, AI agent projects &nbsp;&nbsp; SiliconANGLE",
-      "overviewZh": "Google News AI 发布了有关“Google 推出 Gemini 3.7 Flash 用于编码、AI 代理项目 - SiliconANGLE”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Google launches Gemini 3.7 Flash for coding, AI agent projects - SiliconANGLE”.",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-14",
+      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：在 AMD Ryzen™ AI Max Agentic PC 和 Radeon™ GPU 上运行 Qwen 3.8 27B AMD",
+      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Run Qwen 3.8 27B on AMD Ryzen™ AI Max Agentic PCs and Radeon ™ GPUs &nbsp;&nbsp; AMD",
+      "overviewZh": "Google News AI 发布了有关“在 AMD Ryzen™ AI Max Agentic PC 和 Radeon™ GPU 上运行 Qwen 3.8 27B - AMD”的新更新。",
+      "overviewEn": "Google News AI published a new update about “Run Qwen 3.8 27B on AMD Ryzen™ AI Max Agentic PCs and Radeon ™ GPUs - AMD”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lzU0ZUTEhLOEZTeUJnNVdlSjlabEFYTzl6YjZ2aGZobk1wdDNZR19GdV9tQV9qXzJmd1R0cmdKSEh4eEVOaWV5ckJ1NjNIRXUzdjdvQkpuUDNxblAwcXhmc0FaTHU2SEhtMlRGVjY0Nnc2dVdZMFNkU240VklfdWt3bVdZSF9wSWhjVFlueHBtWUFHTm9iVU53?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYzQ5c1BQdlI0THVOcm5Ia2lfQzRMUUp3NjM4Uk5yWUxCdl9hNEh1RkFJVFBZVmEyZHZFcU9HdWloUVdCM3FnY3o5LXczd0dLYW04OEt1YURkdjlLREJ0R2g1X1oyaXBEelp1V0lIc0VmUXpwcmwxTDdmV0JmS0ctVDBiVTFfUmZJRUsxVFprOVBjeFBKYkkzaXZuQU9HMUV0Mkw4RVJHSnYwZkE?oc=5"
         }
       ],
       "tags": [
         "Agents",
-        "Models",
-        "Products"
+        "Infrastructure"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "作者引入了新的人工智能模型和升级的工具来控制代币成本",
-      "titleEn": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "titleZh": "Meta 的“开放”人工智能，以及 2.5 亿美元的交易出了大问题",
+      "titleEn": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
       "source": "TechCrunch AI",
       "category": "Model",
-      "publishedAt": "2026-08-13",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：作为 Z.ai 开源模型 GLM-5.2 的训练后变体，Writer 表示新系统应该以低得多的价格提供部署就绪的功能。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
-      "overviewZh": "TechCrunch AI 发布了有关“Writer 引入新的 AI 模型和升级的工具以控制代币成本”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Writer introduces new AI model and upgraded harness to contain token costs”.",
+      "publishedAt": "2026-08-14",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，这与 Muse Spark 形成鲜明对比，Muse Spark 是该公司更强大的模型，始终锁定在自己的 API 后面。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs.",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 的‘开放’人工智能，以及一笔 2.5 亿美元的交易出现严重错误”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta’s ‘open’ AI, and a $250M deal gone very wrong”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/"
+          "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/"
         }
       ],
       "tags": [
         "Models",
+        "Products",
         "Open source"
       ]
     },
@@ -99,25 +99,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "NVIDIA Nemotron 3.5 Lightning 和 NeMo Switchyard 提供更快、更智能、更高效的代理 AI",
-      "titleEn": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "titleZh": "加札马达大学、Indosat 和 NVIDIA 开设印度尼西亚首个大学人工智能中心，培养本地人工智能人才",
+      "titleEn": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
       "source": "NVIDIA Blog",
-      "category": "Model",
-      "publishedAt": "2026-08-11",
-      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。来源要点：随着人工智能从聊天机器人转向自主代理，开放模型正在满足完全控制人工智能运行位置以及部署和发展方式的市场需求。",
-      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves.",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA Nemotron 3.5 Lightning 和 NeMo Switchyard 提供更快、更智能、更高效的代理 AI”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI”.",
+      "category": "Industry",
+      "publishedAt": "2026-08-14",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源的要点：印度尼西亚正在掌控其人工智能的未来。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Indonesia is taking charge of its AI future.",
+      "overviewZh": "NVIDIA 博客发布了有关“Universitas Gadjah Mada、Indosat 和 NVIDIA 开设印度尼西亚首个大学 AI 中心以培养本地 AI 人才”的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"
+          "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/"
         }
       ],
       "tags": [
-        "Agents",
-        "Models"
+        "AI"
       ]
     }
   ]
