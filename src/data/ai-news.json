@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-08-14T23:37:14.952Z",
+  "updatedAt": "2026-08-15T23:34:43.198Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31850975464",
+  "edition": "github-31915081324",
   "items": [
     {
       "rank": 1,
-      "titleZh": "在 AMD Ryzen™ AI Max Agentic PC 和 Radeon™ GPU 上运行 Qwen 3.8 27B - AMD",
-      "titleEn": "Run Qwen 3.8 27B on AMD Ryzen™ AI Max Agentic PCs and Radeon ™ GPUs - AMD",
+      "titleZh": "Anthropic认为人工智能风险上升，没有计划发布更强的“Model 2” - Axios",
+      "titleEn": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - Axios",
       "source": "Google News AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-14",
-      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：在 AMD Ryzen™ AI Max Agentic PC 和 Radeon™ GPU 上运行 Qwen 3.8 27B AMD",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Run Qwen 3.8 27B on AMD Ryzen™ AI Max Agentic PCs and Radeon ™ GPUs &nbsp;&nbsp; AMD",
-      "overviewZh": "Google News AI 发布了有关“在 AMD Ryzen™ AI Max Agentic PC 和 Radeon™ GPU 上运行 Qwen 3.8 27B - AMD”的新更新。",
-      "overviewEn": "Google News AI published a new update about “Run Qwen 3.8 27B on AMD Ryzen™ AI Max Agentic PCs and Radeon ™ GPUs - AMD”.",
+      "category": "Model",
+      "publishedAt": "2026-08-15",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Anthropic 认为 AI 风险上升，不打算发布更强的“Model 2” Axios",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" &nbsp;&nbsp; Axios",
+      "overviewZh": "谷歌新闻 AI 发布了有关“Anthropic 认为人工智能风险上升，没有计划发布更强大的“模型 2”-Axios”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - Axios”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYzQ5c1BQdlI0THVOcm5Ia2lfQzRMUUp3NjM4Uk5yWUxCdl9hNEh1RkFJVFBZVmEyZHZFcU9HdWloUVdCM3FnY3o5LXczd0dLYW04OEt1YURkdjlLREJ0R2g1X1oyaXBEelp1V0lIc0VmUXpwcmwxTDdmV0JmS0ctVDBiVTFfUmZJRUsxVFprOVBjeFBKYkkzaXZuQU9HMUV0Mkw4RVJHSnYwZkE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5"
         }
       ],
       "tags": [
-        "Agents",
-        "Infrastructure"
+        "Models",
+        "Products"
       ]
     },
     {
@@ -77,28 +77,6 @@
     },
     {
       "rank": 4,
-      "titleZh": "从协助到执行：企业如何让AI发挥作用",
-      "titleEn": "From assistance to execution: How enterprises put AI to work",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-08-12",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "overviewZh": "OpenAI 博客发布了关于“从协助到执行：企业如何将人工智能运用到工作中”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “From assistance to execution: How enterprises put AI to work”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 5,
       "titleZh": "加札马达大学、Indosat 和 NVIDIA 开设印度尼西亚首个大学人工智能中心，培养本地人工智能人才",
       "titleEn": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
       "source": "NVIDIA Blog",
@@ -113,6 +91,28 @@
           "labelZh": "阅读原文",
           "labelEn": "Read source",
           "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "药物发现中的人工智能——它是什么、我们的立场和前进的道路",
+      "titleEn": "AI in drug discovery – what it is, where we stand and the path forward",
+      "source": "Hacker News AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-15",
+      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点：https://www.nature.com/articles/s41573-026-01496-2 评论网址：https://news.ycombinator.com/item?id=49313367 积分：62 # 评论：34",
+      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: https://www.nature.com/articles/s41573-026-01496-2 Comments URL: https://news.ycombinator.com/item?id=49313367 Points: 62 # Comments: 34",
+      "overviewZh": "Hacker News AI 发布了关于“药物发现中的人工智能——它是什么、我们的立场和前进的道路”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “AI in drug discovery – what it is, where we stand and the path forward”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really"
         }
       ],
       "tags": [
