@@ -1,27 +1,49 @@
 {
-  "updatedAt": "2026-08-16T23:34:09.216Z",
+  "updatedAt": "2026-08-17T23:36:36.378Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-31979491807",
+  "edition": "github-32081143251",
   "items": [
     {
       "rank": 1,
-      "titleZh": "为什么 Anthropic 的出处政策使人工智能问责成为董事会的当务之急 - forbes.com",
-      "titleEn": "Why Anthropic’s Provenance Policy Makes AI Accountability A Boardroom Imperative - forbes.com",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-16",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：为什么 Anthropic 的出处政策使 AI 问责成为董事会的当务之急    forbes.com",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Why Anthropic’s Provenance Policy Makes AI Accountability A Boardroom Imperative &nbsp;&nbsp; forbes.com",
-      "overviewZh": "Google News AI 发布了关于“为什么 Anthropic 的出处政策使 AI 问责成为董事会的当务之急 - forbes.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Why Anthropic’s Provenance Policy Makes AI Accountability A Boardroom Imperative - forbes.com”.",
+      "titleZh": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
+      "titleEn": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "source": "TechCrunch AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-17",
+      "summaryZh": "TechCrunch AI 报告了人工智能基础设施的发展情况。消息来源的要点：英伟达对软银数据中心开发商的投资将保证其芯片为 OpenAI 数据中心提供动力。",
+      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "overviewZh": "TechCrunch AI 发布了有关“Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQlY2ZVdIc3dkTmRhZlFxbHhvTEl6ZEctdVZXcGJyYjdEajM1UTYyNXJrdmFvSmJQSTlJWXBSb3JrUU12QVNZaDVVYTRBbFlzb0luWl9mZFdwUWUxUTAwc1U2bkRaVi1aY0hNOEZTbE5ocXZtd0taRHdIMDNTeGE0RkJjYWNNOXk3czlnNlV0QmxVMmZLb2t6eHZ0bVdYZXk1elVyazRIQ2NIZzAxYjVUcXFGVmhybWNkYzVTQV9lZ0d6OGk1QkdFT2UzZkFxSm8?oc=5"
+          "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
+        }
+      ],
+      "tags": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "防守者之窗",
+      "titleEn": "The Defender’s Window",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-08-17",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：人工智能正在重塑攻击者和防御者的网络安全。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: AI is reshaping cybersecurity for attackers and defenders alike.",
+      "overviewZh": "OpenAI 博客发布了有关“捍卫者之窗”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “The Defender’s Window”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/the-defenders-window"
         }
       ],
       "tags": [
@@ -29,7 +51,29 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "titleZh": "音乐出版商因人工智能培训起诉 Anthropic 和 Suno - 路透中文网",
+      "titleEn": "Music publisher sues Anthropic, Suno over AI training - Reuters",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-17",
+      "summaryZh": "Google News AI 报道了人工智能的行业发展。消息来源要点：音乐出版商就 AI 训练起诉 Anthropic 和 Suno 路透社",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Music publisher sues Anthropic, Suno over AI training &nbsp;&nbsp; Reuters",
+      "overviewZh": "Google News AI 发布了有关“音乐出版商就 AI 培训起诉 Anthropic、Suno - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Music publisher sues Anthropic, Suno over AI training - Reuters”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUzBuU0RkY3lGY0pYZmM3c05LVVNLSUFqV1FfN0hqU053a21tRTYzanpfN0IwOThYTWNUV0ZuWXM1Q2pXRnlLYXhkVnVLMGxTbDlpZS00X1RzV2o0ekkzbHVpc0FLeFgzV0U4SGl1bm0xSk01cVJ4ZVdGOG93OFQyRTJvT3l4Zk16RXlzZk1KTHJHaDNKSVl4Z0VuRER5eC1BUHFWclZXNjF4bWhr?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "ChatGPT 的计算机历史记录跟踪您的点击和击键",
       "titleEn": "ChatGPT’s Computer History tracks your clicks and keystrokes",
       "source": "The Verge AI",
@@ -51,67 +95,21 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Meta 的“开放”人工智能，以及 2.5 亿美元的交易出了大问题",
-      "titleEn": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-08-14",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，这与 Muse Spark 形成鲜明对比，Muse Spark 是该公司更强大的模型，始终锁定在自己的 API 后面。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs.",
-      "overviewZh": "TechCrunch AI 发布了有关“Meta 的‘开放’人工智能，以及一笔 2.5 亿美元的交易出现严重错误”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta’s ‘open’ AI, and a $250M deal gone very wrong”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products",
-        "Open source"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "HUR 表示，乌克兰在俄罗斯新型导弹中发现了 Nvidia 人工智能芯片",
-      "titleEn": "Ukraine Finds Nvidia AI Chip in New Russian Missile, HUR Says",
-      "source": "Hacker News AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-16",
-      "summaryZh": "Hacker News AI 报道了人工智能基础设施的发展。来源要点： 文章网址：https://www.kyivpost.com/post/82225 评论网址：https://news.ycombinator.com/item?id=49324442 积分：7 # 评论：1",
-      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://www.kyivpost.com/post/82225 Comments URL: https://news.ycombinator.com/item?id=49324442 Points: 7 # Comments: 1",
-      "overviewZh": "Hacker News AI 发布了有关“HUR 称乌克兰在新型俄罗斯导弹中发现 Nvidia AI 芯片”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Ukraine Finds Nvidia AI Chip in New Russian Missile, HUR Says”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.kyivpost.com/post/82225"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "Gadjah Mada 大学、Indosat 和 NVIDIA 开设印度尼西亚首个大学 AI 中心以培养本地 AI 人才",
-      "titleEn": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
+      "titleZh": "确保情报基础设施的安全",
+      "titleEn": "Securing the Infrastructure of Intelligence",
       "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-08-14",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源的要点：印度尼西亚正在掌控其人工智能的未来。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Indonesia is taking charge of its AI future.",
-      "overviewZh": "NVIDIA 博客发布了有关“Universitas Gadjah Mada、Indosat 和 NVIDIA 开设印度尼西亚首个大学 AI 中心以培养本地 AI 人才”的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent”.",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-17",
+      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。来源要点：人工智能工厂是人工智能时代的定义性基础设施——计算将能源和数据转化为智能，为每个企业、行业和国家提供动力。",
+      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country.",
+      "overviewZh": "NVIDIA 博客发布了有关“保护智能基础设施安全”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Securing the Infrastructure of Intelligence”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/"
+          "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/"
         }
       ],
       "tags": [
