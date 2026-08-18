@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-08-17T23:36:36.378Z",
+  "updatedAt": "2026-08-18T23:36:26.206Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32081143251",
+  "edition": "github-32197865220",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
-      "titleEn": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-      "source": "TechCrunch AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-17",
-      "summaryZh": "TechCrunch AI 报告了人工智能基础设施的发展情况。消息来源的要点：英伟达对软银数据中心开发商的投资将保证其芯片为 OpenAI 数据中心提供动力。",
-      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
-      "overviewZh": "TechCrunch AI 发布了有关“Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project”.",
+      "titleZh": "加强国家安全民主监督",
+      "titleEn": "Strengthening democratic oversight in national security",
+      "source": "OpenAI Blog",
+      "category": "Policy",
+      "publishedAt": "2026-08-18",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 发起一项倡议，加强国家安全中人工智能的民主监督，为政府机构提供工具、培训和专业知识。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "overviewZh": "OpenAI 博客发布了有关“加强国家安全民主监督”的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Strengthening democratic oversight in national security”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
+          "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
         }
       ],
       "tags": [
-        "Infrastructure"
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "防守者之窗",
-      "titleEn": "The Defender’s Window",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-08-17",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：人工智能正在重塑攻击者和防御者的网络安全。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: AI is reshaping cybersecurity for attackers and defenders alike.",
-      "overviewZh": "OpenAI 博客发布了有关“捍卫者之窗”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “The Defender’s Window”.",
+      "titleZh": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
+      "titleEn": "OpenAI institutes new safeguards after Hugging Face breach",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-08-18",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：新的保障措施包括在开发过程中对模型进行更详细的监控，以及在训练后过程中更加强调一致性和安全性。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 在 Hugging Face 泄露后采取新保护措施”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI institutes new safeguards after Hugging Face breach”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/the-defenders-window"
+          "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "音乐出版商因人工智能培训起诉 Anthropic 和 Suno - 路透中文网",
-      "titleEn": "Music publisher sues Anthropic, Suno over AI training - Reuters",
-      "source": "Google News AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-17",
-      "summaryZh": "Google News AI 报道了人工智能的行业发展。消息来源要点：音乐出版商就 AI 训练起诉 Anthropic 和 Suno 路透社",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Music publisher sues Anthropic, Suno over AI training &nbsp;&nbsp; Reuters",
-      "overviewZh": "Google News AI 发布了有关“音乐出版商就 AI 培训起诉 Anthropic、Suno - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Music publisher sues Anthropic, Suno over AI training - Reuters”.",
+      "titleZh": "ChatGPT 正在为青少年提供专用模式",
+      "titleEn": "ChatGPT is getting a dedicated mode for teens",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-08-18",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：OpenAI 正在推出一种专门针对青少年的 ChatGPT 模式，将现有的青少年保障措施和新的安全功能结合在一起。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof.",
+      "overviewZh": "The Verge AI 发布了有关“ChatGPT 正在为青少年提供专用模式”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “ChatGPT is getting a dedicated mode for teens”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUzBuU0RkY3lGY0pYZmM3c05LVVNLSUFqV1FfN0hqU053a21tRTYzanpfN0IwOThYTWNUV0ZuWXM1Q2pXRnlLYXhkVnVLMGxTbDlpZS00X1RzV2o0ekkzbHVpc0FLeFgzV0U4SGl1bm0xSk01cVJ4ZVdGOG93OFQyRTJvT3l4Zk16RXlzZk1KTHJHaDNKSVl4Z0VuRER5eC1BUHFWclZXNjF4bWhr?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode"
         }
       ],
       "tags": [
@@ -74,20 +74,20 @@
     },
     {
       "rank": 4,
-      "titleZh": "ChatGPT 的计算机历史记录跟踪您的点击和击键",
-      "titleEn": "ChatGPT’s Computer History tracks your clicks and keystrokes",
-      "source": "The Verge AI",
+      "titleZh": "OpenAI 在自主网络攻击后暂停了部分人工智能训练 - ABC News - 突发新闻、最新新闻和视频",
+      "titleEn": "OpenAI pauses some AI training after autonomous cyberattack - ABC News - Breaking News, Latest News and Videos",
+      "source": "Google News AI",
       "category": "Industry",
-      "publishedAt": "2026-08-16",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：macOS 上的 ChatGPT 桌面应用程序有一个名为“计算机历史记录”的新功能，可以将您的操作转化为训练数据、了解您的工作方式、建议自动化，甚至拾取您未完成的任务。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done.",
-      "overviewZh": "The Verge AI 发布了有关“ChatGPT 的计算机历史记录跟踪您的点击和击键”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “ChatGPT’s Computer History tracks your clicks and keystrokes”.",
+      "publishedAt": "2026-08-18",
+      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：自主网络攻击后 OpenAI 暂停了部分人工智能训练 ABC News - 突发新闻、最新新闻和视频",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: OpenAI pauses some AI training after autonomous cyberattack &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 在自主网络攻击后暂停部分 AI 训练 - ABC 新闻 - 突发新闻、最新新闻和视频”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI pauses some AI training after autonomous cyberattack - ABC News - Breaking News, Latest News and Videos”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa3pkZThyZXNILUxPWmJlYXowR0F3clotOTNhOXlncUM4OTJrVWowYlF5ZzFTbXBDVlVFeVpIXzgtU1NfS2xnRW1kVVBzM2UtOGRRZ0R6a0ZuZGhxWkl2b1NxUG56bU1CNmhFQk1yT1R6Qk5QcE5IMGp4SlZlcThQRTNfNEZVSUxjcDBvTXJjRTFCUXJ3UG5wUkVYdUVOdlNRVVZJRdIBqgFBVV95cUxNaVczV25XbXRnN0wzZHpFWGctazgxQXk2bWpCUUxOSDdmcGw5R3VkSU5Zb0doRVVFbEFiaXpWNTl5V0lzWEd6Ny1HdFdrSTFENU5IMUZoZVUyY2R2ZkFtSERZNTJCT3FiXzJyeDlRR2oxWjhoS3BScnU4MUFjT0xlQ2ZZV1c3Zjh5N2pnSnF1U3dFN1FDS1FPbklsT1hYZlZZdy1kbDUxOHc4dw?oc=5"
         }
       ],
       "tags": [
@@ -96,24 +96,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "确保情报基础设施的安全",
-      "titleEn": "Securing the Infrastructure of Intelligence",
-      "source": "NVIDIA Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-17",
-      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。来源要点：人工智能工厂是人工智能时代的定义性基础设施——计算将能源和数据转化为智能，为每个企业、行业和国家提供动力。",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country.",
-      "overviewZh": "NVIDIA 博客发布了有关“保护智能基础设施安全”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Securing the Infrastructure of Intelligence”.",
+      "titleZh": "llms.txt：尚未有主要 AI 平台确认使用的提议标准",
+      "titleEn": "llms.txt: a proposed standard no major AI platform has confirmed it uses",
+      "source": "Hacker News AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-18",
+      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点： 文章网址：https://geojacker.com/llms-txt 评论网址：https://news.ycombinator.com/item?id=49351232 积分：6 # 评论：2",
+      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://geojacker.com/llms-txt Comments URL: https://news.ycombinator.com/item?id=49351232 Points: 6 # Comments: 2",
+      "overviewZh": "Hacker News AI 发布了有关“llms.txt：一项尚未被主要 AI 平台确认使用的拟议标准”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “llms.txt: a proposed standard no major AI platform has confirmed it uses”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/"
+          "url": "https://geojacker.com/llms-txt"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
