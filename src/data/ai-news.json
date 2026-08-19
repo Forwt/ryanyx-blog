@@ -1,119 +1,119 @@
 {
-  "updatedAt": "2026-08-18T23:36:26.206Z",
+  "updatedAt": "2026-08-19T23:36:53.799Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32197865220",
+  "edition": "github-32313970824",
   "items": [
     {
       "rank": 1,
-      "titleZh": "加强国家安全民主监督",
-      "titleEn": "Strengthening democratic oversight in national security",
+      "titleZh": "为前沿模型提供零数据保留",
+      "titleEn": "Offering Zero Data Retention for frontier models",
       "source": "OpenAI Blog",
       "category": "Policy",
-      "publishedAt": "2026-08-18",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 发起一项倡议，加强国家安全中人工智能的民主监督，为政府机构提供工具、培训和专业知识。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "overviewZh": "OpenAI 博客发布了有关“加强国家安全民主监督”的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Strengthening democratic oversight in national security”.",
+      "publishedAt": "2026-08-19",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理以实现高级 AI 安全，同时不损害数据隐私。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "overviewZh": "OpenAI 博客发布了有关“为前沿模型提供零数据保留”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Offering Zero Data Retention for frontier models”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
         }
       ],
       "tags": [
-        "Products"
+        "Models"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
-      "titleEn": "OpenAI institutes new safeguards after Hugging Face breach",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-18",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：新的保障措施包括在开发过程中对模型进行更详细的监控，以及在训练后过程中更加强调一致性和安全性。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 在 Hugging Face 泄露后采取新保护措施”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI institutes new safeguards after Hugging Face breach”.",
+      "titleZh": "OpenAI 踩了刹车。现在怎么办？",
+      "titleEn": "OpenAI hit the brakes. Now what?",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-19",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：随着 IPO 的临近、来自 Anthropic 的激烈竞争，以及中国和开放重量级竞争对手的紧追不舍，OpenAI 有充分的理由迅速采取行动。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 踩刹车。现在怎么办？”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI hit the brakes. Now what?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
         }
       ],
       "tags": [
-        "Models"
+        "Open source"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "ChatGPT 正在为青少年提供专用模式",
-      "titleEn": "ChatGPT is getting a dedicated mode for teens",
-      "source": "The Verge AI",
+      "titleZh": "特工入侵 Hugging Face 后 OpenAI 加强人工智能安全 - ABC10",
+      "titleEn": "OpenAI tightens AI security after agents hack into Hugging Face - ABC10",
+      "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-08-18",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：OpenAI 正在推出一种专门针对青少年的 ChatGPT 模式，将现有的青少年保障措施和新的安全功能结合在一起。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof.",
-      "overviewZh": "The Verge AI 发布了有关“ChatGPT 正在为青少年提供专用模式”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “ChatGPT is getting a dedicated mode for teens”.",
+      "publishedAt": "2026-08-19",
+      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。来源要点：特工入侵 Hugging Face ABC10 后，OpenAI 加强了 AI 安全性",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI tightens AI security after agents hack into Hugging Face &nbsp;&nbsp; ABC10",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 在特工入侵 Hugging Face 后加强 AI 安全性 - ABC10”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI tightens AI security after agents hack into Hugging Face - ABC10”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode"
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQTBQUkhNQm9XVWxnbDVUeGlkWTVWbEFIajdOamRuZGVLbHhOLUdqR01KMVBrMzJsd25NTk1qTFVoeXVpVHhERkgzTmZBUGc5cVU4RUQxb2FxcGt3N0d4ei1LdGRZUDRfd1lhMEFEa21IS3ptVGk0RDNjX2ZBV0xBaDloT3lwWDJuTDdWaFpGbUZuZlRKbXF5VzZCR0R5RjhjbGVUT0VMZTVUaGxEaVNMREl3dVZXdGdZaVhUREJ5OERqeGNZS0JwZnNfRGNBWVRFYVZ0Wi1VM2JJZS0tZFhGNVI4TUs?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "OpenAI 在自主网络攻击后暂停了部分人工智能训练 - ABC News - 突发新闻、最新新闻和视频",
-      "titleEn": "OpenAI pauses some AI training after autonomous cyberattack - ABC News - Breaking News, Latest News and Videos",
-      "source": "Google News AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-18",
-      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：自主网络攻击后 OpenAI 暂停了部分人工智能训练 ABC News - 突发新闻、最新新闻和视频",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: OpenAI pauses some AI training after autonomous cyberattack &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 在自主网络攻击后暂停部分 AI 训练 - ABC 新闻 - 突发新闻、最新新闻和视频”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI pauses some AI training after autonomous cyberattack - ABC News - Breaking News, Latest News and Videos”.",
+      "titleZh": "研究人员称 OpenAI 撤销了他们对有限网络程序的访问权限",
+      "titleEn": "Researchers say OpenAI revoked their access to limited cyber program",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-08-19",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：OpenAI 的“网络可信访问”计划背后的想法是为受信任的防御者提供更好的模型，以便他们可以向公司报告错误和漏洞，目的是更快地修补缺陷。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+      "overviewZh": "TechCrunch AI 发布了有关“研究人员称 OpenAI 撤销了他们对有限网络程序的访问权限”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Researchers say OpenAI revoked their access to limited cyber program”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa3pkZThyZXNILUxPWmJlYXowR0F3clotOTNhOXlncUM4OTJrVWowYlF5ZzFTbXBDVlVFeVpIXzgtU1NfS2xnRW1kVVBzM2UtOGRRZ0R6a0ZuZGhxWkl2b1NxUG56bU1CNmhFQk1yT1R6Qk5QcE5IMGp4SlZlcThQRTNfNEZVSUxjcDBvTXJjRTFCUXJ3UG5wUkVYdUVOdlNRVVZJRdIBqgFBVV95cUxNaVczV25XbXRnN0wzZHpFWGctazgxQXk2bWpCUUxOSDdmcGw5R3VkSU5Zb0doRVVFbEFiaXpWNTl5V0lzWEd6Ny1HdFdrSTFENU5IMUZoZVUyY2R2ZkFtSERZNTJCT3FiXzJyeDlRR2oxWjhoS3BScnU4MUFjT0xlQ2ZZV1c3Zjh5N2pnSnF1U3dFN1FDS1FPbklsT1hYZlZZdy1kbDUxOHc4dw?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "llms.txt：尚未有主要 AI 平台确认使用的提议标准",
-      "titleEn": "llms.txt: a proposed standard no major AI platform has confirmed it uses",
-      "source": "Hacker News AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-18",
-      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点： 文章网址：https://geojacker.com/llms-txt 评论网址：https://news.ycombinator.com/item?id=49351232 积分：6 # 评论：2",
-      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://geojacker.com/llms-txt Comments URL: https://news.ycombinator.com/item?id=49351232 Points: 6 # Comments: 2",
-      "overviewZh": "Hacker News AI 发布了有关“llms.txt：一项尚未被主要 AI 平台确认使用的拟议标准”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “llms.txt: a proposed standard no major AI platform has confirmed it uses”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://geojacker.com/llms-txt"
+          "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
         }
       ],
       "tags": [
         "Models"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "人工智能用日语推理时不太可能发动核打击",
+      "titleEn": "AI is less likely to launch a nuclear strike when it reasons in Japanese",
+      "source": "Hacker News AI",
+      "category": "Product",
+      "publishedAt": "2026-08-19",
+      "summaryZh": "Hacker News AI 报道了人工智能的产品开发。来源要点： 文章网址：https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/ 评论网址：https://news.ycombinator.com/item?id=49367180 积分：6 #",
+      "summaryEn": "Hacker News AI reports a product development in AI. Key point from the source: Article URL: https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/ Comments URL: https://news.ycombinator.com/item?id=49367180 Points: 6 # ",
+      "overviewZh": "Hacker News AI 发布了关于“人工智能在用日语推理时不太可能发动核打击”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “AI is less likely to launch a nuclear strike when it reasons in Japanese”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/"
+        }
+      ],
+      "tags": [
+        "Products"
       ]
     }
   ]
