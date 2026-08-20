@@ -1,13 +1,36 @@
 {
-  "updatedAt": "2026-08-19T23:36:53.799Z",
+  "updatedAt": "2026-08-20T23:40:46.391Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32313970824",
+  "edition": "github-32429634404",
   "items": [
     {
       "rank": 1,
+      "titleZh": "Ramp推出自己的AI模型路由器，名为Router",
+      "titleEn": "Ramp launches its own AI model router, called Router",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-08-20",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源要点：Ramp 推出了自己的 AI 模型路由服务，称为 Router，允许用户和公司通过 API 使用和切换各种大型语言模型。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+      "overviewZh": "TechCrunch AI 发布了有关“Ramp 推出自己的 AI 模型路由器，名为 Router”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Ramp launches its own AI model router, called Router”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "为前沿模型提供零数据保留",
       "titleEn": "Offering Zero Data Retention for frontier models",
       "source": "OpenAI Blog",
@@ -29,7 +52,29 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "titleZh": "介绍人工智能未来 - OpenAI",
+      "titleEn": "Introducing AI Futures - OpenAI",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-20",
+      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：人工智能未来简介 OpenAI",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Introducing AI Futures &nbsp;&nbsp; OpenAI",
+      "overviewZh": "Google News AI 发布了有关“人工智能未来简介 - OpenAI”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Introducing AI Futures - OpenAI”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pZlh4LWwzcDRQZW1LZHFOeDdkZ0h2aFFVbmF1U3VnRzN3NzR6d1VBZjZBODBfWVlId1BQOFR2anNwVWxCd2huNDBTdUNFaVBBSzA5Rm9FYnhIY0NI?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "OpenAI 踩了刹车。现在怎么办？",
       "titleEn": "OpenAI hit the brakes. Now what?",
       "source": "The Verge AI",
@@ -51,68 +96,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "特工入侵 Hugging Face 后 OpenAI 加强人工智能安全 - ABC10",
-      "titleEn": "OpenAI tightens AI security after agents hack into Hugging Face - ABC10",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-19",
-      "summaryZh": "Google News AI 报道了人工智能领域的政策发展。来源要点：特工入侵 Hugging Face ABC10 后，OpenAI 加强了 AI 安全性",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI tightens AI security after agents hack into Hugging Face &nbsp;&nbsp; ABC10",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 在特工入侵 Hugging Face 后加强 AI 安全性 - ABC10”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI tightens AI security after agents hack into Hugging Face - ABC10”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQTBQUkhNQm9XVWxnbDVUeGlkWTVWbEFIajdOamRuZGVLbHhOLUdqR01KMVBrMzJsd25NTk1qTFVoeXVpVHhERkgzTmZBUGc5cVU4RUQxb2FxcGt3N0d4ei1LdGRZUDRfd1lhMEFEa21IS3ptVGk0RDNjX2ZBV0xBaDloT3lwWDJuTDdWaFpGbUZuZlRKbXF5VzZCR0R5RjhjbGVUT0VMZTVUaGxEaVNMREl3dVZXdGdZaVhUREJ5OERqeGNZS0JwZnNfRGNBWVRFYVZ0Wi1VM2JJZS0tZFhGNVI4TUs?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "研究人员称 OpenAI 撤销了他们对有限网络程序的访问权限",
-      "titleEn": "Researchers say OpenAI revoked their access to limited cyber program",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-08-19",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：OpenAI 的“网络可信访问”计划背后的想法是为受信任的防御者提供更好的模型，以便他们可以向公司报告错误和漏洞，目的是更快地修补缺陷。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
-      "overviewZh": "TechCrunch AI 发布了有关“研究人员称 OpenAI 撤销了他们对有限网络程序的访问权限”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Researchers say OpenAI revoked their access to limited cyber program”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "人工智能用日语推理时不太可能发动核打击",
-      "titleEn": "AI is less likely to launch a nuclear strike when it reasons in Japanese",
-      "source": "Hacker News AI",
-      "category": "Product",
-      "publishedAt": "2026-08-19",
-      "summaryZh": "Hacker News AI 报道了人工智能的产品开发。来源要点： 文章网址：https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/ 评论网址：https://news.ycombinator.com/item?id=49367180 积分：6 #",
-      "summaryEn": "Hacker News AI reports a product development in AI. Key point from the source: Article URL: https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/ Comments URL: https://news.ycombinator.com/item?id=49367180 Points: 6 # ",
-      "overviewZh": "Hacker News AI 发布了关于“人工智能在用日语推理时不太可能发动核打击”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “AI is less likely to launch a nuclear strike when it reasons in Japanese”.",
+      "titleZh": "新数据表明，OpenAI 正在赢得商业用户的青睐",
+      "titleEn": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "source": "TechCrunch AI",
+      "category": "Business",
+      "publishedAt": "2026-08-20",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的要点是：随着每个实验室发布新模型，企业愿意来回波动，这种波动性应该会让两家公司的投资者对企业人工智能支出到底有多么“粘性”感到犹豫。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+      "overviewZh": "TechCrunch AI 发布了有关“新数据表明 OpenAI 正在商业用户中超越 Anthropic”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI is gaining on Anthropic with business users, new data indicates”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/"
+          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
         }
       ],
       "tags": [
+        "Models",
         "Products"
       ]
     }
