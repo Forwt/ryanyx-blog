@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-20T23:40:46.391Z",
+  "updatedAt": "2026-08-21T23:38:38.069Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32429634404",
+  "edition": "github-32537583660",
   "items": [
     {
       "rank": 1,
@@ -53,20 +53,20 @@
     },
     {
       "rank": 3,
-      "titleZh": "介绍人工智能未来 - OpenAI",
-      "titleEn": "Introducing AI Futures - OpenAI",
+      "titleZh": "在线流媒体就生成式人工智能培训起诉 Twitch 和亚马逊 - 法院新闻",
+      "titleEn": "Online streamers sue Twitch, Amazon over generative AI training - Courthouse News",
       "source": "Google News AI",
       "category": "Industry",
-      "publishedAt": "2026-08-20",
-      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：人工智能未来简介 OpenAI",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Introducing AI Futures &nbsp;&nbsp; OpenAI",
-      "overviewZh": "Google News AI 发布了有关“人工智能未来简介 - OpenAI”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Introducing AI Futures - OpenAI”.",
+      "publishedAt": "2026-08-21",
+      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：在线流媒体就生成式 AI 训练起诉 Twitch 和亚马逊 Courthouse News",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Online streamers sue Twitch, Amazon over generative AI training &nbsp;&nbsp; Courthouse News",
+      "overviewZh": "Google News AI 发布了有关“在线流媒体就生成式 AI 培训起诉 Twitch 和亚马逊 - 法院新闻”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Online streamers sue Twitch, Amazon over generative AI training - Courthouse News”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pZlh4LWwzcDRQZW1LZHFOeDdkZ0h2aFFVbmF1U3VnRzN3NzR6d1VBZjZBODBfWVlId1BQOFR2anNwVWxCd2huNDBTdUNFaVBBSzA5Rm9FYnhIY0NI?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMzh6dHF3NWtpWktuZkJnNEhRZm5nTnUzMkhMWVcwTzB1NC1RQkZfTERpUXFLcTFMc0FMN3B0aEFsZHpmRHBfWlMwaHFLRHN4NjZfQmNxMWxyQVY0X2Z6Ulowbk9zLS1lRm1yeWl1UUtEaC1uSko0NEZPWlNiN1kySS1IR2pEejE1eVFBeHhPLThib2R2NjNJRmVB?oc=5"
         }
       ],
       "tags": [
@@ -97,25 +97,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "新数据表明，OpenAI 正在赢得商业用户的青睐",
-      "titleEn": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "titleZh": "Anthropic 的 Opus 4.6 是一台色情机器",
+      "titleEn": "Anthropic’s Opus 4.6 is a smut-machine",
       "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-08-20",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的要点是：随着每个实验室发布新模型，企业愿意来回波动，这种波动性应该会让两家公司的投资者对企业人工智能支出到底有多么“粘性”感到犹豫。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
-      "overviewZh": "TechCrunch AI 发布了有关“新数据表明 OpenAI 正在商业用户中超越 Anthropic”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI is gaining on Anthropic with business users, new data indicates”.",
+      "category": "Model",
+      "publishedAt": "2026-08-21",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Anthropic 禁止其 Claude 模型生成露骨的色情内容。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Anthropic forbids its Claude models from generating sexually explicit content.",
+      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 的 Opus 4.6 是一部色情机器”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic’s Opus 4.6 is a smut-machine”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
+          "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Models"
       ]
     }
   ]
