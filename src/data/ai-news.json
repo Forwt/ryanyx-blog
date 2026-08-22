@@ -1,72 +1,72 @@
 {
-  "updatedAt": "2026-08-21T23:38:38.069Z",
+  "updatedAt": "2026-08-22T23:34:33.447Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "google-fallback",
+  "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32537583660",
+  "edition": "github-32605581279",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Ramp推出自己的AI模型路由器，名为Router",
-      "titleEn": "Ramp launches its own AI model router, called Router",
+      "titleZh": "AI 产品动态：Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "titleEn": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
       "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-08-20",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源要点：Ramp 推出了自己的 AI 模型路由服务，称为 Router，允许用户和公司通过 API 使用和切换各种大型语言模型。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
-      "overviewZh": "TechCrunch AI 发布了有关“Ramp 推出自己的 AI 模型路由器，名为 Router”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Ramp launches its own AI model router, called Router”.",
+      "category": "Product",
+      "publishedAt": "2026-08-22",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的产品动态。原文要点：Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "overviewZh": "TechCrunch AI 发布了关于「Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/"
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
         }
       ],
       "tags": [
-        "Models",
+        "Agents",
         "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "为前沿模型提供零数据保留",
-      "titleEn": "Offering Zero Data Retention for frontier models",
-      "source": "OpenAI Blog",
+      "titleZh": "AI 政策动态：OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget",
+      "titleEn": "OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget",
+      "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-08-19",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理以实现高级 AI 安全，同时不损害数据隐私。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "overviewZh": "OpenAI 博客发布了有关“为前沿模型提供零数据保留”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Offering Zero Data Retention for frontier models”.",
+      "publishedAt": "2026-08-22",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI Calls For California To Strengthen Its AI Safety Laws &nbsp;&nbsp; Engadget",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI Calls For California To Strengthen Its AI Safety Laws &nbsp;&nbsp; Engadget",
+      "overviewZh": "Google News AI 发布了关于「OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUktSRUZlaXlGY0cxeHZJT0ltazNHUV8wTlpBQVJfckQyZW9yOVpKeHgwenNvdXlydEZhSzBOSXJPcHJQRzc2dTRaS05lRU9ZXy1pRTJRc2pZdlhKVWZpZFpqVzVrdVhUN0FlLUpyUlc3S291Y19ndGVEY3prWV8zMXN6NjlzUVhyRkMzc1NYLWZIRDBJ?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "在线流媒体就生成式人工智能培训起诉 Twitch 和亚马逊 - 法院新闻",
-      "titleEn": "Online streamers sue Twitch, Amazon over generative AI training - Courthouse News",
-      "source": "Google News AI",
+      "titleZh": "AI 行业动态：Introducing AI Futures",
+      "titleEn": "Introducing AI Futures",
+      "source": "OpenAI Blog",
       "category": "Industry",
-      "publishedAt": "2026-08-21",
-      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：在线流媒体就生成式 AI 训练起诉 Twitch 和亚马逊 Courthouse News",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Online streamers sue Twitch, Amazon over generative AI training &nbsp;&nbsp; Courthouse News",
-      "overviewZh": "Google News AI 发布了有关“在线流媒体就生成式 AI 培训起诉 Twitch 和亚马逊 - 法院新闻”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Online streamers sue Twitch, Amazon over generative AI training - Courthouse News”.",
+      "publishedAt": "2026-08-20",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的行业动态。原文要点：Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "overviewZh": "OpenAI Blog 发布了关于「Introducing AI Futures」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing AI Futures”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMzh6dHF3NWtpWktuZkJnNEhRZm5nTnUzMkhMWVcwTzB1NC1RQkZfTERpUXFLcTFMc0FMN3B0aEFsZHpmRHBfWlMwaHFLRHN4NjZfQmNxMWxyQVY0X2Z6Ulowbk9zLS1lRm1yeWl1UUtEaC1uSko0NEZPWlNiN1kySS1IR2pEejE1eVFBeHhPLThib2R2NjNJRmVB?oc=5"
+          "url": "https://openai.com/index/introducing-ai-futures"
         }
       ],
       "tags": [
@@ -75,46 +75,46 @@
     },
     {
       "rank": 4,
-      "titleZh": "OpenAI 踩了刹车。现在怎么办？",
-      "titleEn": "OpenAI hit the brakes. Now what?",
+      "titleZh": "AI 行业动态：It’s Greg Brockman’s OpenAI now",
+      "titleEn": "It’s Greg Brockman’s OpenAI now",
       "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-08-19",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：随着 IPO 的临近、来自 Anthropic 的激烈竞争，以及中国和开放重量级竞争对手的紧追不舍，OpenAI 有充分的理由迅速采取行动。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 踩刹车。现在怎么办？”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI hit the brakes. Now what?”.",
+      "publishedAt": "2026-08-20",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Ap",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Ap",
+      "overviewZh": "The Verge AI 发布了关于「It’s Greg Brockman’s OpenAI now」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “It’s Greg Brockman’s OpenAI now”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion"
         }
       ],
       "tags": [
-        "Open source"
+        "AI"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "Anthropic 的 Opus 4.6 是一台色情机器",
-      "titleEn": "Anthropic’s Opus 4.6 is a smut-machine",
+      "titleZh": "AI 政策动态：OpenAI says California should strengthen its AI safety bill",
+      "titleEn": "OpenAI says California should strengthen its AI safety bill",
       "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-08-21",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Anthropic 禁止其 Claude 模型生成露骨的色情内容。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Anthropic forbids its Claude models from generating sexually explicit content.",
-      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 的 Opus 4.6 是一部色情机器”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic’s Opus 4.6 is a smut-machine”.",
+      "category": "Policy",
+      "publishedAt": "2026-08-22",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "overviewZh": "TechCrunch AI 发布了关于「OpenAI says California should strengthen its AI safety bill」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI says California should strengthen its AI safety bill”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
+          "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     }
   ]
