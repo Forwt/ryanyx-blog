@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-22T23:34:33.447Z",
+  "updatedAt": "2026-08-23T23:35:12.252Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32605581279",
+  "edition": "github-32674033626",
   "items": [
     {
       "rank": 1,
@@ -31,20 +31,20 @@
     },
     {
       "rank": 2,
-      "titleZh": "AI 政策动态：OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget",
-      "titleEn": "OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget",
+      "titleZh": "AI 政策动态：OpenAI wants California to strengthen its newly passed AI safety law - Mashable",
+      "titleEn": "OpenAI wants California to strengthen its newly passed AI safety law - Mashable",
       "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-08-22",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI Calls For California To Strengthen Its AI Safety Laws &nbsp;&nbsp; Engadget",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI Calls For California To Strengthen Its AI Safety Laws &nbsp;&nbsp; Engadget",
-      "overviewZh": "Google News AI 发布了关于「OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “OpenAI Calls For California To Strengthen Its AI Safety Laws - Engadget”.",
+      "publishedAt": "2026-08-23",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI wants California to strengthen its newly passed AI safety law &nbsp;&nbsp; Mashable",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI wants California to strengthen its newly passed AI safety law &nbsp;&nbsp; Mashable",
+      "overviewZh": "Google News AI 发布了关于「OpenAI wants California to strengthen its newly passed AI safety law - Mashable」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI wants California to strengthen its newly passed AI safety law - Mashable”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUktSRUZlaXlGY0cxeHZJT0ltazNHUV8wTlpBQVJfckQyZW9yOVpKeHgwenNvdXlydEZhSzBOSXJPcHJQRzc2dTRaS05lRU9ZXy1pRTJRc2pZdlhKVWZpZFpqVzVrdVhUN0FlLUpyUlc3S291Y19ndGVEY3prWV8zMXN6NjlzUVhyRkMzc1NYLWZIRDBJ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU3kwUUdkQkoxeHZQajktMlZTSVpxMWhqMjFLUXowNEMzV2gyLXBHR3ViWkI2MGxwX3RlUVE4TjF3RlA1dFJFUFU3bUN3alRvWmF4bjFpQ1YtQlZwT2JtcFV1a3VXY29Ya3hYNWM3eTlFMUVOUjhScVZWS1V2U2RHU3lCT0l2TW8?oc=5"
         }
       ],
       "tags": [
@@ -53,20 +53,20 @@
     },
     {
       "rank": 3,
-      "titleZh": "AI 行业动态：Introducing AI Futures",
-      "titleEn": "Introducing AI Futures",
-      "source": "OpenAI Blog",
+      "titleZh": "AI 行业动态：Over 1 million people have clicked LinkedIn’s AI slop button",
+      "titleEn": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-08-20",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的行业动态。原文要点：Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "overviewZh": "OpenAI Blog 发布了关于「Introducing AI Futures」的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Introducing AI Futures”.",
+      "publishedAt": "2026-08-21",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it.",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it.",
+      "overviewZh": "The Verge AI 发布了关于「Over 1 million people have clicked LinkedIn’s AI slop button」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Over 1 million people have clicked LinkedIn’s AI slop button”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/introducing-ai-futures"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
         }
       ],
       "tags": [
@@ -75,24 +75,24 @@
     },
     {
       "rank": 4,
-      "titleZh": "AI 行业动态：It’s Greg Brockman’s OpenAI now",
-      "titleEn": "It’s Greg Brockman’s OpenAI now",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-20",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Ap",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Ap",
-      "overviewZh": "The Verge AI 发布了关于「It’s Greg Brockman’s OpenAI now」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “It’s Greg Brockman’s OpenAI now”.",
+      "titleZh": "AI 基础设施动态：UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press",
+      "titleEn": "UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press",
+      "source": "Google News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-23",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的基础设施动态。原文要点：UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory &nbsp;&nbsp; Santa Barbara News-Press",
+      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory &nbsp;&nbsp; Santa Barbara News-Press",
+      "overviewZh": "Google News AI 发布了关于「UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion"
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSGVPMmg2cWpGYU81c2N0R3B3bHlZWXhCQUZrdHpqTE5SYnpaR0tDVndSQ2hVcERQOENOYmk1dElZdVoyYkxGXzRuR05PZmk0R1pWWlg2OVladFNLS1M4TFRpQTByU2czeGtmRGtoRmotaXZtdmlOeEhjU0w3d3BfdDJIUlVTSWVmM1hrVjFvWHU2NGwtWDMzdlVKUlByZUg4R3I2RFA3ZmxFNTlRcGg1ZUh2UXhXXzhmdndOSg?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Infrastructure"
       ]
     },
     {
