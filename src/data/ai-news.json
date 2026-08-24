@@ -1,13 +1,106 @@
 {
-  "updatedAt": "2026-08-23T23:35:12.252Z",
+  "updatedAt": "2026-08-24T23:35:19.728Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32674033626",
+  "edition": "github-32789992502",
   "items": [
     {
       "rank": 1,
+      "titleZh": "AI 基础设施动态：Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "titleEn": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "source": "NVIDIA Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-24",
+      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的基础设施动态。原文要点：According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request.",
+      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request.",
+      "overviewZh": "NVIDIA Blog 发布了关于「Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents」的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "AI 商业动态：Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "titleEn": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "source": "TechCrunch AI",
+      "category": "Business",
+      "publishedAt": "2026-08-24",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的商业动态。原文要点：General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valu",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valu",
+      "overviewZh": "TechCrunch AI 发布了关于「Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models",
+        "Robotics",
+        "Business"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 产品动态：Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information",
+      "titleEn": "Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-08-24",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks &nbsp;&nbsp; The Information",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks &nbsp;&nbsp; The Information",
+      "overviewZh": "Google News AI 发布了关于「Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUHZYOUl0UTBxU19NV29QQ1prcUFCZXhvemE4TU85c0VOTnAyRFFEWVplVjVqVkE3YmJwYTJKdTRjbXR5WVh6VC1oNmE1LUhEODV4WHJTZ1FJSHF1alNKVGFqYmNBZlgyeEpqS0paZEdRVC0xcjZLQ0MzY1huN0VqX25hQXFoU0hyMGZURXdFZTJscmhtdXlnS1d3?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "AI 基础设施动态：With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "titleEn": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "source": "NVIDIA Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-24",
+      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的基础设施动态。原文要点：The next era of AI inference won’t be defined by a single breakthrough chip, network or system.",
+      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: The next era of AI inference won’t be defined by a single breakthrough chip, network or system.",
+      "overviewZh": "NVIDIA Blog 发布了关于「With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents」的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 5,
       "titleZh": "AI 产品动态：Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
       "titleEn": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
       "source": "TechCrunch AI",
@@ -27,94 +120,6 @@
       "tags": [
         "Agents",
         "Products"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "AI 政策动态：OpenAI wants California to strengthen its newly passed AI safety law - Mashable",
-      "titleEn": "OpenAI wants California to strengthen its newly passed AI safety law - Mashable",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-23",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI wants California to strengthen its newly passed AI safety law &nbsp;&nbsp; Mashable",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI wants California to strengthen its newly passed AI safety law &nbsp;&nbsp; Mashable",
-      "overviewZh": "Google News AI 发布了关于「OpenAI wants California to strengthen its newly passed AI safety law - Mashable」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “OpenAI wants California to strengthen its newly passed AI safety law - Mashable”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU3kwUUdkQkoxeHZQajktMlZTSVpxMWhqMjFLUXowNEMzV2gyLXBHR3ViWkI2MGxwX3RlUVE4TjF3RlA1dFJFUFU3bUN3alRvWmF4bjFpQ1YtQlZwT2JtcFV1a3VXY29Ya3hYNWM3eTlFMUVOUjhScVZWS1V2U2RHU3lCT0l2TW8?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "AI 行业动态：Over 1 million people have clicked LinkedIn’s AI slop button",
-      "titleEn": "Over 1 million people have clicked LinkedIn’s AI slop button",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-21",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it.",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it.",
-      "overviewZh": "The Verge AI 发布了关于「Over 1 million people have clicked LinkedIn’s AI slop button」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “Over 1 million people have clicked LinkedIn’s AI slop button”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "AI 基础设施动态：UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press",
-      "titleEn": "UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press",
-      "source": "Google News AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-23",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的基础设施动态。原文要点：UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory &nbsp;&nbsp; Santa Barbara News-Press",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory &nbsp;&nbsp; Santa Barbara News-Press",
-      "overviewZh": "Google News AI 发布了关于「UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “UCSB receives four-year, $20M federal grant for artificial intelligence cloud laboratory - Santa Barbara News-Press”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSGVPMmg2cWpGYU81c2N0R3B3bHlZWXhCQUZrdHpqTE5SYnpaR0tDVndSQ2hVcERQOENOYmk1dElZdVoyYkxGXzRuR05PZmk0R1pWWlg2OVladFNLS1M4TFRpQTByU2czeGtmRGtoRmotaXZtdmlOeEhjU0w3d3BfdDJIUlVTSWVmM1hrVjFvWHU2NGwtWDMzdlVKUlByZUg4R3I2RFA3ZmxFNTlRcGg1ZUh2UXhXXzhmdndOSg?oc=5"
-        }
-      ],
-      "tags": [
-        "Infrastructure"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "AI 政策动态：OpenAI says California should strengthen its AI safety bill",
-      "titleEn": "OpenAI says California should strengthen its AI safety bill",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-22",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-      "overviewZh": "TechCrunch AI 发布了关于「OpenAI says California should strengthen its AI safety bill」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI says California should strengthen its AI safety bill”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/"
-        }
-      ],
-      "tags": [
-        "AI"
       ]
     }
   ]
