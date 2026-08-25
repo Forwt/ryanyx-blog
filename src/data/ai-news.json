@@ -1,13 +1,35 @@
 {
-  "updatedAt": "2026-08-24T23:35:19.728Z",
+  "updatedAt": "2026-08-25T23:38:39.566Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32789992502",
+  "edition": "github-32911666060",
   "items": [
     {
       "rank": 1,
+      "titleZh": "AI 基础设施动态：OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "titleEn": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "source": "TechCrunch AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-25",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的基础设施动态。原文要点：Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "overviewZh": "TechCrunch AI 发布了关于「OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/"
+        }
+      ],
+      "tags": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "AI 基础设施动态：Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
       "titleEn": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
       "source": "NVIDIA Blog",
@@ -29,97 +51,71 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "AI 商业动态：Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "titleEn": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-08-24",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的商业动态。原文要点：General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valu",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valu",
-      "overviewZh": "TechCrunch AI 发布了关于「Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Models",
-        "Robotics",
-        "Business"
-      ]
-    },
-    {
       "rank": 3,
-      "titleZh": "AI 产品动态：Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information",
-      "titleEn": "Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-08-24",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks &nbsp;&nbsp; The Information",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks &nbsp;&nbsp; The Information",
-      "overviewZh": "Google News AI 发布了关于「Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks - The Information”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUHZYOUl0UTBxU19NV29QQ1prcUFCZXhvemE4TU85c0VOTnAyRFFEWVplVjVqVkE3YmJwYTJKdTRjbXR5WVh6VC1oNmE1LUhEODV4WHJTZ1FJSHF1alNKVGFqYmNBZlgyeEpqS0paZEdRVC0xcjZLQ0MzY1huN0VqX25hQXFoU0hyMGZURXdFZTJscmhtdXlnS1d3?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Products"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "AI 基础设施动态：With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "titleEn": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "source": "NVIDIA Blog",
+      "titleZh": "AI 基础设施动态：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "titleEn": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "source": "OpenAI Blog",
       "category": "Infrastructure",
-      "publishedAt": "2026-08-24",
-      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的基础设施动态。原文要点：The next era of AI inference won’t be defined by a single breakthrough chip, network or system.",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: The next era of AI inference won’t be defined by a single breakthrough chip, network or system.",
-      "overviewZh": "NVIDIA Blog 发布了关于「With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents」的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents”.",
+      "publishedAt": "2026-08-25",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的基础设施动态。原文要点：Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "summaryEn": "OpenAI Blog reports an infrastructure development in AI. Key point from the source: Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "overviewZh": "OpenAI Blog 发布了关于「Jalapeño’s first results show industry-leading speed and efficiency in AI inference」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Jalapeño’s first results show industry-leading speed and efficiency in AI inference”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/"
+          "url": "https://openai.com/index/jalapeno-first-results"
         }
       ],
       "tags": [
-        "Agents",
+        "Models",
         "Infrastructure"
       ]
     },
     {
-      "rank": 5,
-      "titleZh": "AI 产品动态：Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "titleEn": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "source": "TechCrunch AI",
+      "rank": 4,
+      "titleZh": "AI 产品动态：Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE",
+      "titleEn": "Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE",
+      "source": "Google News AI",
       "category": "Product",
-      "publishedAt": "2026-08-22",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的产品动态。原文要点：Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "overviewZh": "TechCrunch AI 发布了关于「Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research”.",
+      "publishedAt": "2026-08-25",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：Perplexity AI launches Portable Computer on-device AI agent &nbsp;&nbsp; SiliconANGLE",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Perplexity AI launches Portable Computer on-device AI agent &nbsp;&nbsp; SiliconANGLE",
+      "overviewZh": "Google News AI 发布了关于「Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOWo5TWVjcURjVXFlRHJSWlZ0SXktNmtnM1BtXzd3dkZodDM3X0FtOUxKMGZZU09XWk1ZQkhsQjZPWGJRTkk0OEJkRDZ5S1NmNHhjRkkyR0NSMG1sVzRqU2RJLWRvcmxqN2h4MVdSS2IyQldoUWJLdThHNmJWN1FvVm1zU0VCX0xwLUU5dWhsV28zTDBOUldFZlhZQ2I?oc=5"
         }
       ],
       "tags": [
         "Agents",
         "Products"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "AI 行业动态：OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "titleEn": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-25",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and auton",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and auton",
+      "overviewZh": "The Verge AI 发布了关于「OpenAI subpoenaed by Alabama AG over Hugging Face hack」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI subpoenaed by Alabama AG over Hugging Face hack”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack"
+        }
+      ],
+      "tags": [
+        "Agents"
       ]
     }
   ]
