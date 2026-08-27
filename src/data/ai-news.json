@@ -1,35 +1,102 @@
 {
-  "updatedAt": "2026-08-25T23:38:39.566Z",
+  "updatedAt": "2026-08-27T04:31:52.374Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-32911666060",
+  "edition": "github-33039654508",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 基础设施动态：OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "titleEn": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "source": "TechCrunch AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-25",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的基础设施动态。原文要点：Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-      "overviewZh": "TechCrunch AI 发布了关于「OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show”.",
+      "titleZh": "AI 产品动态：OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC",
+      "titleEn": "OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-08-26",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：OpenAI releases sweeping report on Hugging Face AI agent hack &nbsp;&nbsp; CNBC",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI releases sweeping report on Hugging Face AI agent hack &nbsp;&nbsp; CNBC",
+      "overviewZh": "Google News AI 发布了关于「OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/"
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YOTJIY1dTeGxzcnlfOTNaY1ZZNW5IR19EcDRvWm04V1VVelZmeU9YalBHU3lLV1JKUXR2Q05JT041YlAyX09OeTd1T05PZFg4Y2NFNHBwbnE0VzVGMU5KUTBHbHgyMktRTzV6RFN5QdIBdEFVX3lxTE80azdfcnVsNFhGSXFQTC0yWGdkckFkTlpDVi1EQlRoSDRneG94YjVVWXhzMTM1aHdPckJ6VDF6SXpUTC11YURWa0JMYWhsWEp1U1JuX0JQWDhFa0liTzNWS3ZmRkwxREJTV3hfQ2lRYmRDOW4y?oc=5"
         }
       ],
       "tags": [
-        "Infrastructure"
+        "Agents",
+        "Products"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "AI 行业动态：Google’s new AI transcription edits out your ‘ums’ and ‘ahs’",
+      "titleEn": "Google’s new AI transcription edits out your ‘ums’ and ‘ahs’",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-26",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages.",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages.",
+      "overviewZh": "The Verge AI 发布了关于「Google’s new AI transcription edits out your ‘ums’ and ‘ahs’」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Google’s new AI transcription edits out your ‘ums’ and ‘ahs’”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 产品动态：OpenAI releases its official report on the Hugging Face breach",
+      "titleEn": "OpenAI releases its official report on the Hugging Face breach",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-08-26",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的产品动态。原文要点：The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "overviewZh": "TechCrunch AI 发布了关于「OpenAI releases its official report on the Hugging Face breach」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI releases its official report on the Hugging Face breach”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "AI 政策动态：The Hugging Face incident and the road ahead",
+      "titleEn": "The Hugging Face incident and the road ahead",
+      "source": "OpenAI Blog",
+      "category": "Policy",
+      "publishedAt": "2026-08-26",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的政策动态。原文要点：OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "overviewZh": "OpenAI Blog 发布了关于「The Hugging Face incident and the road ahead」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “The Hugging Face incident and the road ahead”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 5,
       "titleZh": "AI 基础设施动态：Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
       "titleEn": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
       "source": "NVIDIA Blog",
@@ -44,74 +111,6 @@
           "labelZh": "阅读原文",
           "labelEn": "Read source",
           "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "AI 基础设施动态：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "titleEn": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "source": "OpenAI Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-08-25",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的基础设施动态。原文要点：Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "summaryEn": "OpenAI Blog reports an infrastructure development in AI. Key point from the source: Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "overviewZh": "OpenAI Blog 发布了关于「Jalapeño’s first results show industry-leading speed and efficiency in AI inference」的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Jalapeño’s first results show industry-leading speed and efficiency in AI inference”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/jalapeno-first-results"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Infrastructure"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "AI 产品动态：Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE",
-      "titleEn": "Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-08-25",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：Perplexity AI launches Portable Computer on-device AI agent &nbsp;&nbsp; SiliconANGLE",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Perplexity AI launches Portable Computer on-device AI agent &nbsp;&nbsp; SiliconANGLE",
-      "overviewZh": "Google News AI 发布了关于「Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Perplexity AI launches Portable Computer on-device AI agent - SiliconANGLE”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOWo5TWVjcURjVXFlRHJSWlZ0SXktNmtnM1BtXzd3dkZodDM3X0FtOUxKMGZZU09XWk1ZQkhsQjZPWGJRTkk0OEJkRDZ5S1NmNHhjRkkyR0NSMG1sVzRqU2RJLWRvcmxqN2h4MVdSS2IyQldoUWJLdThHNmJWN1FvVm1zU0VCX0xwLUU5dWhsV28zTDBOUldFZlhZQ2I?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Products"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "AI 行业动态：OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-      "titleEn": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-25",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and auton",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and auton",
-      "overviewZh": "The Verge AI 发布了关于「OpenAI subpoenaed by Alabama AG over Hugging Face hack」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI subpoenaed by Alabama AG over Hugging Face hack”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack"
         }
       ],
       "tags": [
