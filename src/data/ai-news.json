@@ -1,76 +1,76 @@
 {
-  "updatedAt": "2026-08-27T04:31:52.374Z",
+  "updatedAt": "2026-08-28T06:56:18.013Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33039654508",
+  "edition": "github-33149619586",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 产品动态：OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC",
-      "titleEn": "OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC",
-      "source": "Google News AI",
+      "titleZh": "AI 产品动态：Hugging Face’s new robot is an adorable rollerskating duck",
+      "titleEn": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "source": "The Verge AI",
       "category": "Product",
-      "publishedAt": "2026-08-26",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：OpenAI releases sweeping report on Hugging Face AI agent hack &nbsp;&nbsp; CNBC",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI releases sweeping report on Hugging Face AI agent hack &nbsp;&nbsp; CNBC",
-      "overviewZh": "Google News AI 发布了关于「OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “OpenAI releases sweeping report on Hugging Face AI agent hack - CNBC”.",
+      "publishedAt": "2026-08-27",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的产品动态。原文要点：Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall.",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall.",
+      "overviewZh": "The Verge AI 发布了关于「Hugging Face’s new robot is an adorable rollerskating duck」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Hugging Face’s new robot is an adorable rollerskating duck”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YOTJIY1dTeGxzcnlfOTNaY1ZZNW5IR19EcDRvWm04V1VVelZmeU9YalBHU3lLV1JKUXR2Q05JT041YlAyX09OeTd1T05PZFg4Y2NFNHBwbnE0VzVGMU5KUTBHbHgyMktRTzV6RFN5QdIBdEFVX3lxTE80azdfcnVsNFhGSXFQTC0yWGdkckFkTlpDVi1EQlRoSDRneG94YjVVWXhzMTM1aHdPckJ6VDF6SXpUTC11YURWa0JMYWhsWEp1U1JuX0JQWDhFa0liTzNWS3ZmRkwxREJTV3hfQ2lRYmRDOW4y?oc=5"
+          "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot"
         }
       ],
       "tags": [
-        "Agents",
-        "Products"
+        "Products",
+        "Robotics"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "AI 行业动态：Google’s new AI transcription edits out your ‘ums’ and ‘ahs’",
-      "titleEn": "Google’s new AI transcription edits out your ‘ums’ and ‘ahs’",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-26",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的行业动态。原文要点：Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages.",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages.",
-      "overviewZh": "The Verge AI 发布了关于「Google’s new AI transcription edits out your ‘ums’ and ‘ahs’」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “Google’s new AI transcription edits out your ‘ums’ and ‘ahs’”.",
+      "titleZh": "AI 政策动态：What 90 days and a small budget can buy in AI agent security - Help Net Security",
+      "titleEn": "What 90 days and a small budget can buy in AI agent security - Help Net Security",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-08-28",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：What 90 days and a small budget can buy in AI agent security &nbsp;&nbsp; Help Net Security",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: What 90 days and a small budget can buy in AI agent security &nbsp;&nbsp; Help Net Security",
+      "overviewZh": "Google News AI 发布了关于「What 90 days and a small budget can buy in AI agent security - Help Net Security」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “What 90 days and a small budget can buy in AI agent security - Help Net Security”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai"
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR2NsZExEOWlIOWc4LU1PZnVDUkp1d3k0Um9kdUNSQ09kMzUyX3o5d2tUSW1oTjlBV2NiWWlfaG0yUjgtZ3hLaGtPa0N1OVZUZDBRZ1RSeVFlUXl6d0M2bnl1aWNjdm1uTXB3dWpXM2s3U3poQTBzOEpzVHh5VG5helRxbWhEd2JySkMtYWF1Zw?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "Agents"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "AI 产品动态：OpenAI releases its official report on the Hugging Face breach",
-      "titleEn": "OpenAI releases its official report on the Hugging Face breach",
+      "titleZh": "AI 商业动态：Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+      "titleEn": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
       "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-08-26",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的产品动态。原文要点：The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-      "overviewZh": "TechCrunch AI 发布了关于「OpenAI releases its official report on the Hugging Face breach」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI releases its official report on the Hugging Face breach”.",
+      "category": "Business",
+      "publishedAt": "2026-08-27",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的商业动态。原文要点：Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "overviewZh": "TechCrunch AI 发布了关于「Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/"
+          "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/"
         }
       ],
       "tags": [
-        "Products"
+        "Business"
       ]
     },
     {
@@ -97,24 +97,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "AI 基础设施动态：Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "titleEn": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "titleZh": "AI 基础设施动态：NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "titleEn": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
       "source": "NVIDIA Blog",
       "category": "Infrastructure",
-      "publishedAt": "2026-08-24",
-      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的基础设施动态。原文要点：According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request.",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request.",
-      "overviewZh": "NVIDIA Blog 发布了关于「Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents」的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents”.",
+      "publishedAt": "2026-08-26",
+      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的基础设施动态。原文要点：The next wave of AI is placing new demands on infrastructure.",
+      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: The next wave of AI is placing new demands on infrastructure.",
+      "overviewZh": "NVIDIA Blog 发布了关于「NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory」的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/"
+          "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     }
   ]
