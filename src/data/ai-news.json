@@ -1,13 +1,57 @@
 {
-  "updatedAt": "2026-08-28T06:56:18.013Z",
+  "updatedAt": "2026-08-29T04:09:51.057Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33149619586",
+  "edition": "github-33233140773",
   "items": [
     {
       "rank": 1,
+      "titleZh": "AI 模型动态：An Anthropic researcher just gave us a peek at self-improving AI",
+      "titleEn": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-08-28",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的模型动态。原文要点：Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "overviewZh": "TechCrunch AI 发布了关于「An Anthropic researcher just gave us a peek at self-improving AI」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “An Anthropic researcher just gave us a peek at self-improving AI”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "AI 行业动态：C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool",
+      "titleEn": "C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-08-29",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的行业动态。原文要点：C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026?",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026?",
+      "overviewZh": "Google News AI 发布了关于「C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMXcyMTJnUm1ZSFZTbk9wRXVZOTgxNGFFQ1k1cDRlZUJlM2l2LWdxR1FSa1lkaG9jZjU4OEJUR0hvTTAxOEl4Q2NveTh0NEc3eGxQdUhSeEhxdzRKQ0g3Z2NiUXpnT292ZDNRVXRmRnZJZzBQcjlXSlFZZ3dVSndyTG1oemZmT081M2o1aXJxZzRaT1RrUXYtaERTU3JLcmZLTDE3M1lLelN6QU9rV3pTRDBhbTZydkVReWhDQjFCQ0lOcDJxQkkwN1hnY1F3TFZ2?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "AI 产品动态：Hugging Face’s new robot is an adorable rollerskating duck",
       "titleEn": "Hugging Face’s new robot is an adorable rollerskating duck",
       "source": "The Verge AI",
@@ -30,91 +74,48 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "AI 政策动态：What 90 days and a small budget can buy in AI agent security - Help Net Security",
-      "titleEn": "What 90 days and a small budget can buy in AI agent security - Help Net Security",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-08-28",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：What 90 days and a small budget can buy in AI agent security &nbsp;&nbsp; Help Net Security",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: What 90 days and a small budget can buy in AI agent security &nbsp;&nbsp; Help Net Security",
-      "overviewZh": "Google News AI 发布了关于「What 90 days and a small budget can buy in AI agent security - Help Net Security」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “What 90 days and a small budget can buy in AI agent security - Help Net Security”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR2NsZExEOWlIOWc4LU1PZnVDUkp1d3k0Um9kdUNSQ09kMzUyX3o5d2tUSW1oTjlBV2NiWWlfaG0yUjgtZ3hLaGtPa0N1OVZUZDBRZ1RSeVFlUXl6d0M2bnl1aWNjdm1uTXB3dWpXM2s3U3poQTBzOEpzVHh5VG5helRxbWhEd2JySkMtYWF1Zw?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "AI 商业动态：Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "titleEn": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "source": "TechCrunch AI",
+      "rank": 4,
+      "titleZh": "AI 商业动态：Our decision on Cursor following its acquisition by SpaceX",
+      "titleEn": "Our decision on Cursor following its acquisition by SpaceX",
+      "source": "OpenAI Blog",
       "category": "Business",
-      "publishedAt": "2026-08-27",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的商业动态。原文要点：Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-      "overviewZh": "TechCrunch AI 发布了关于「Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google”.",
+      "publishedAt": "2026-08-28",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的商业动态。原文要点：Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "overviewZh": "OpenAI Blog 发布了关于「Our decision on Cursor following its acquisition by SpaceX」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Our decision on Cursor following its acquisition by SpaceX”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/"
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
         }
       ],
       "tags": [
+        "Models",
         "Business"
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "AI 政策动态：The Hugging Face incident and the road ahead",
-      "titleEn": "The Hugging Face incident and the road ahead",
-      "source": "OpenAI Blog",
-      "category": "Policy",
-      "publishedAt": "2026-08-26",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的政策动态。原文要点：OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "overviewZh": "OpenAI Blog 发布了关于「The Hugging Face incident and the road ahead」的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “The Hugging Face incident and the road ahead”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "AI 基础设施动态：NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "titleEn": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "source": "NVIDIA Blog",
+      "titleZh": "AI 基础设施动态：X claims it found a Chinese bot farm posting anti-AI data center sentiments",
+      "titleEn": "X claims it found a Chinese bot farm posting anti-AI data center sentiments",
+      "source": "Hacker News AI",
       "category": "Infrastructure",
-      "publishedAt": "2026-08-26",
-      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的基础设施动态。原文要点：The next wave of AI is placing new demands on infrastructure.",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: The next wave of AI is placing new demands on infrastructure.",
-      "overviewZh": "NVIDIA Blog 发布了关于「NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory」的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory”.",
+      "publishedAt": "2026-08-29",
+      "summaryZh": "Hacker News AI 发布了一条与 AI 相关的基础设施动态。原文要点：Article URL: https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/ Comments URL: https://news.ycombinator.com/item?id=49485926 Points: 6 # Comments: 1",
+      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/ Comments URL: https://news.ycombinator.com/item?id=49485926 Points: 6 # Comments: 1",
+      "overviewZh": "Hacker News AI 发布了关于「X claims it found a Chinese bot farm posting anti-AI data center sentiments」的最新动态。",
+      "overviewEn": "Hacker News AI published a new update about “X claims it found a Chinese bot farm posting anti-AI data center sentiments”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
+          "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/"
         }
       ],
       "tags": [
-        "AI"
+        "Infrastructure"
       ]
     }
   ]
