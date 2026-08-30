@@ -1,13 +1,36 @@
 {
-  "updatedAt": "2026-08-29T04:09:51.057Z",
+  "updatedAt": "2026-08-30T01:15:51.151Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33233140773",
+  "edition": "github-33285259864",
   "items": [
     {
       "rank": 1,
+      "titleZh": "AI 商业动态：OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC",
+      "titleEn": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC",
+      "source": "Google News AI",
+      "category": "Business",
+      "publishedAt": "2026-08-29",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的商业动态。原文要点：OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX &nbsp;&nbsp; CNBC",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX &nbsp;&nbsp; CNBC",
+      "overviewZh": "Google News AI 发布了关于「OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90bmQ0enBvenh2RFZzWDJtV2FWRnFMVzNRMEJrbG1RSmtWbnZ6MU1XcHV0TUJ1dll3YkJJM1RSMUgyRWVsV3NTeHpUV1JOeEZVb01TRkctT0c0NjZIc0haWFVTdzVkSmFLM1htanRGeVJZMmxNb2NaWnBn0gF_QVVfeXFMTnNMYVB6Q3hkc1l0NnRTSVhOeU5uT21nbUxOZDZjU2ota0tocTk2a3JjOWdxeUp0M2ttVUpHNk1ZTlB5MWp6QkR5c21aUlduUERGbzRZenhNZ1ZIQVVWTWt6RmJJdW8xcVAtRW05NnIxVGI5UE1uaVA4Q0V6NWd4cw?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Business"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "AI 模型动态：An Anthropic researcher just gave us a peek at self-improving AI",
       "titleEn": "An Anthropic researcher just gave us a peek at self-improving AI",
       "source": "TechCrunch AI",
@@ -22,28 +45,6 @@
           "labelZh": "阅读原文",
           "labelEn": "Read source",
           "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "AI 行业动态：C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool",
-      "titleEn": "C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool",
-      "source": "Google News AI",
-      "category": "Industry",
-      "publishedAt": "2026-08-29",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的行业动态。原文要点：C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026?",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026?",
-      "overviewZh": "Google News AI 发布了关于「C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “C3.ai vs. UiPath: Which Artificial Intelligence Stock Is a Better Investment in 2026? - The Motley Fool”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMXcyMTJnUm1ZSFZTbk9wRXVZOTgxNGFFQ1k1cDRlZUJlM2l2LWdxR1FSa1lkaG9jZjU4OEJUR0hvTTAxOEl4Q2NveTh0NEc3eGxQdUhSeEhxdzRKQ0g3Z2NiUXpnT292ZDNRVXRmRnZJZzBQcjlXSlFZZ3dVSndyTG1oemZmT081M2o1aXJxZzRaT1RrUXYtaERTU3JLcmZLTDE3M1lLelN6QU9rV3pTRDBhbTZydkVReWhDQjFCQ0lOcDJxQkkwN1hnY1F3TFZ2?oc=5"
         }
       ],
       "tags": [
@@ -98,24 +99,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "AI 基础设施动态：X claims it found a Chinese bot farm posting anti-AI data center sentiments",
-      "titleEn": "X claims it found a Chinese bot farm posting anti-AI data center sentiments",
-      "source": "Hacker News AI",
-      "category": "Infrastructure",
+      "titleZh": "AI 产品动态：GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN",
+      "titleEn": "GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN",
+      "source": "Google News AI",
+      "category": "Product",
       "publishedAt": "2026-08-29",
-      "summaryZh": "Hacker News AI 发布了一条与 AI 相关的基础设施动态。原文要点：Article URL: https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/ Comments URL: https://news.ycombinator.com/item?id=49485926 Points: 6 # Comments: 1",
-      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/ Comments URL: https://news.ycombinator.com/item?id=49485926 Points: 6 # Comments: 1",
-      "overviewZh": "Hacker News AI 发布了关于「X claims it found a Chinese bot farm posting anti-AI data center sentiments」的最新动态。",
-      "overviewEn": "Hacker News AI published a new update about “X claims it found a Chinese bot farm posting anti-AI data center sentiments”.",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says &nbsp;&nbsp; IGN",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says &nbsp;&nbsp; IGN",
+      "overviewZh": "Google News AI 发布了关于「GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/"
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMm1kMWEwUzlpQks3ZWlCbFZhUkdzQ2o0eW9YZ04zcDFDOC03dTRHWkg0Zm9oaG50ck1JbjBMd3FNMUVwaVhSNGc2bTJNZmtHQ2ZiUVBsZXZoM0paTnhfOXJ1a0dYb1Z6QVI1LThPZXhDNHNxeEp2MFp1Q1E3R2g4cTNFdlBVOXY1dm1DZzdfckZrekEwRGd2YzVPTk5yTDNkNFlXYVM3alFPQQ?oc=5"
         }
       ],
       "tags": [
-        "Infrastructure"
+        "Products"
       ]
     }
   ]
