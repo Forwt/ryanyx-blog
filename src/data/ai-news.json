@@ -1,32 +1,31 @@
 {
-  "updatedAt": "2026-08-30T01:15:51.151Z",
+  "updatedAt": "2026-08-31T01:22:43.549Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33285259864",
+  "edition": "github-33347379383",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 商业动态：OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC",
-      "titleEn": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC",
+      "titleZh": "AI 政策动态：OpenAI wants California to strengthen its newly passed AI safety law - Mashable",
+      "titleEn": "OpenAI wants California to strengthen its newly passed AI safety law - Mashable",
       "source": "Google News AI",
-      "category": "Business",
-      "publishedAt": "2026-08-29",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的商业动态。原文要点：OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX &nbsp;&nbsp; CNBC",
-      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX &nbsp;&nbsp; CNBC",
-      "overviewZh": "Google News AI 发布了关于「OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX - CNBC”.",
+      "category": "Policy",
+      "publishedAt": "2026-08-30",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI wants California to strengthen its newly passed AI safety law &nbsp;&nbsp; Mashable",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI wants California to strengthen its newly passed AI safety law &nbsp;&nbsp; Mashable",
+      "overviewZh": "Google News AI 发布了关于「OpenAI wants California to strengthen its newly passed AI safety law - Mashable」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI wants California to strengthen its newly passed AI safety law - Mashable”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90bmQ0enBvenh2RFZzWDJtV2FWRnFMVzNRMEJrbG1RSmtWbnZ6MU1XcHV0TUJ1dll3YkJJM1RSMUgyRWVsV3NTeHpUV1JOeEZVb01TRkctT0c0NjZIc0haWFVTdzVkSmFLM1htanRGeVJZMmxNb2NaWnBn0gF_QVVfeXFMTnNMYVB6Q3hkc1l0NnRTSVhOeU5uT21nbUxOZDZjU2ota0tocTk2a3JjOWdxeUp0M2ttVUpHNk1ZTlB5MWp6QkR5c21aUlduUERGbzRZenhNZ1ZIQVVWTWt6RmJJdW8xcVAtRW05NnIxVGI5UE1uaVA4Q0V6NWd4cw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU3kwUUdkQkoxeHZQajktMlZTSVpxMWhqMjFLUXowNEMzV2gyLXBHR3ViWkI2MGxwX3RlUVE4TjF3RlA1dFJFUFU3bUN3alRvWmF4bjFpQ1YtQlZwT2JtcFV1a3VXY29Ya3hYNWM3eTlFMUVOUjhScVZWS1V2U2RHU3lCT0l2TW8?oc=5"
         }
       ],
       "tags": [
-        "Models",
-        "Business"
+        "AI"
       ]
     },
     {
@@ -53,25 +52,24 @@
     },
     {
       "rank": 3,
-      "titleZh": "AI 产品动态：Hugging Face’s new robot is an adorable rollerskating duck",
-      "titleEn": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "titleZh": "AI 商业动态：Texas Governor Abbott blocks funding for more Flock cameras",
+      "titleEn": "Texas Governor Abbott blocks funding for more Flock cameras",
       "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-08-27",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的产品动态。原文要点：Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall.",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall.",
-      "overviewZh": "The Verge AI 发布了关于「Hugging Face’s new robot is an adorable rollerskating duck」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “Hugging Face’s new robot is an adorable rollerskating duck”.",
+      "category": "Business",
+      "publishedAt": "2026-08-30",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的商业动态。原文要点：As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them.",
+      "summaryEn": "The Verge AI reports a business development in AI. Key point from the source: As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them.",
+      "overviewZh": "The Verge AI 发布了关于「Texas Governor Abbott blocks funding for more Flock cameras」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Texas Governor Abbott blocks funding for more Flock cameras”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
         }
       ],
       "tags": [
-        "Products",
-        "Robotics"
+        "Business"
       ]
     },
     {
@@ -99,24 +97,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "AI 产品动态：GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN",
-      "titleEn": "GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN",
+      "titleZh": "AI 模型动态：OpenAI cuts off Cursor's AI models, deepening feud with Musk - Mashable",
+      "titleEn": "OpenAI cuts off Cursor's AI models, deepening feud with Musk - Mashable",
       "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-08-29",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的产品动态。原文要点：GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says &nbsp;&nbsp; IGN",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says &nbsp;&nbsp; IGN",
-      "overviewZh": "Google News AI 发布了关于「GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says - IGN”.",
+      "category": "Model",
+      "publishedAt": "2026-08-30",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的模型动态。原文要点：OpenAI cuts off Cursor's AI models, deepening feud with Musk &nbsp;&nbsp; Mashable",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI cuts off Cursor's AI models, deepening feud with Musk &nbsp;&nbsp; Mashable",
+      "overviewZh": "Google News AI 发布了关于「OpenAI cuts off Cursor's AI models, deepening feud with Musk - Mashable」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI cuts off Cursor's AI models, deepening feud with Musk - Mashable”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMm1kMWEwUzlpQks3ZWlCbFZhUkdzQ2o0eW9YZ04zcDFDOC03dTRHWkg0Zm9oaG50ck1JbjBMd3FNMUVwaVhSNGc2bTJNZmtHQ2ZiUVBsZXZoM0paTnhfOXJ1a0dYb1Z6QVI1LThPZXhDNHNxeEp2MFp1Q1E3R2g4cTNFdlBVOXY1dm1DZzdfckZrekEwRGd2YzVPTk5yTDNkNFlXYVM3alFPQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNjlZN3dyVVp2allXQktrV3N1dko5b1N5aVVCQ0VPWElkdERtT3k0VS1wSW16YzcyQlppNUtGWTRpbmpvQS16X3g1eXhLazlIdVBmNGxZbC1jc2JKVWVFSFRjcjRUYkxaMkRFZ3kyMHlQUDVUVzBNYjJCbm5iZ25sYjlYLWFlQQ?oc=5"
         }
       ],
       "tags": [
-        "Products"
+        "Models"
       ]
     }
   ]
