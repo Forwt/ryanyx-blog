@@ -1,27 +1,49 @@
 {
-  "updatedAt": "2026-09-02T01:02:09.184Z",
+  "updatedAt": "2026-09-03T01:07:03.204Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33577737407",
+  "edition": "github-33702332551",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 的 Astra 模型正在开发中——并且非常擅长闯入计算机系统",
-      "titleEn": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "titleZh": "美国政府在对法学硕士进行版权材料培训问题上支持 OpenAI",
+      "titleEn": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
       "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-09-01",
-      "summaryZh": "TechCrunch AI reports a model development in AI.消息来源的要点：OpenAI 预览了在准备发布其最新的网络关键法学硕士 Astra 时所采取的预防措施。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 的 Astra 模型即将推出 - 并且非常擅长侵入计算机系统”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI’s Astra model is on the way — and very good at breaking into computer systems”.",
+      "category": "Industry",
+      "publishedAt": "2026-09-02",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点是：“美国对继续发展强大且有竞争力的人工智能产业有着浓厚的兴趣，该产业为全球人工智能使用的实践和程序设定了标准，”简报写道。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: \"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
+      "overviewZh": "TechCrunch AI 发布了关于“美国政府支持 OpenAI 就受版权材料培训法学硕士问题”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “US government sides with OpenAI on issue of training LLMs on copyrighted material”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/"
+          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
+      "titleEn": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-09-02",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：Google 推出了 Gemini 3.8 Flash，仅在其前身几周后发布。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor.",
+      "overviewZh": "The Verge AI 发布了有关“谷歌称其新的 Gemini 3.8 Flash 型号‘工作更努力’但可能成本更高”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
         }
       ],
       "tags": [
@@ -30,51 +52,7 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "Google Pics 就像 Canva，但具有更多人工智能",
-      "titleEn": "Google Pics is like Canva, but with even more AI",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-01",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。 Key point from the source: Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses.",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses.",
-      "overviewZh": "The Verge AI 发布了关于“Google Pics 就像 Canva，但具有更多人工智能”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “Google Pics is like Canva, but with even more AI”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "rank": 3,
-      "titleZh": "随着人工智能安全担忧的加剧，Anthropic 推出《神鬼寓言 5.1》 - Mashable",
-      "titleEn": "Anthropic launches Fable 5.1 as AI security worries mount - Mashable",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-01",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人工智能安全担忧加剧，Anthropic 推出 Fable 5.1 Mashable",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic launches Fable 5.1 as AI security worries mount &nbsp;&nbsp; Mashable",
-      "overviewZh": "Google News AI 发布了有关“随着 AI 安全担忧加剧，Anthropic 推出 Fable 5.1 - Mashable”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic launches Fable 5.1 as AI security worries mount - Mashable”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iSkczSWFDaVBPT3JwYkV2ekRNOWwwdkFTOGZhNXpQclBIbVFsTE9OQzRwdmg5RG5SVFdsTUJMeFEyOTlJeGRkSHdHNEdva29keXZveEFCbjhSZC1maUpYdUIyQWVsN2lKczVqeXItU2lzdw?oc=5"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
-      "rank": 4,
       "titleZh": "AI原生企业如何将工作流程转化为运营能力",
       "titleEn": "How AI-native companies turn workflows into operating capability",
       "source": "OpenAI Blog",
@@ -93,6 +71,28 @@
       ],
       "tags": [
         "Agents"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "红色警报：OpenAI 即将跨越人工智能安全红线。 - 马库斯谈人工智能 |子栈",
+      "titleEn": "Red Alert: OpenAI is poised to cross an AI safety redline. - Marcus on AI | Substack",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-02",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：红色警报：OpenAI 即将跨越人工智能安全红线。",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Red Alert: OpenAI is poised to cross an AI safety redline.",
+      "overviewZh": "Google News AI 发布了有关“红色警报：OpenAI 准备跨越 AI 安全红线。- Marcus on AI | Substack”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Red Alert: OpenAI is poised to cross an AI safety redline. - Marcus on AI | Substack”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LMVdwV1NoSTBFUVBRekhPVS1MakJVb09aZ0lucGdIbTdDaW9ZTHFiNmx5dzhxOXZ6ZEdyeVN1aEp1enNqZWtVUDctS2FNTllqeEJHNG9fQmltSjZsMWlwcFl5aW15MWVUSjVheEpvWEt0eUcxdm5TVg?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
       ]
     },
     {
