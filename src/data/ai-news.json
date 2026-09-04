@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-03T01:07:03.204Z",
+  "updatedAt": "2026-09-04T00:58:54.306Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33702332551",
+  "edition": "github-33823939022",
   "items": [
     {
       "rank": 1,
@@ -30,6 +30,51 @@
     },
     {
       "rank": 2,
+      "titleZh": "前线捍卫者的黎明：10 亿美元保护基本服务",
+      "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-09-03",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 为前线卫士推出了 Daybreak。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI introduces Daybreak for Frontline Defenders.",
+      "overviewZh": "OpenAI 博客发布了有关“前线捍卫者的黎明：10 亿美元保护基本服务”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Daybreak for Frontline Defenders: $1B to protect essential services”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "OpenAI 发布 Astra 模型迎接“通用人工智能新时代” - 卫报",
+      "titleEn": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-09-03",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 发布 Astra 模型，迎接“通用人工智能新时代”",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI hails ‘new era of artificial general intelligence’ with Astra model release &nbsp;&nbsp; The Guardian",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 通过发布 Astra 模型迎接‘通用人工智能新时代’的最新更新 - 《卫报》”。",
+      "overviewEn": "Google News AI published a new update about “OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
       "titleEn": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
       "source": "The Verge AI",
@@ -52,69 +97,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "AI原生企业如何将工作流程转化为运营能力",
-      "titleEn": "How AI-native companies turn workflows into operating capability",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-09-01",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations.",
-      "overviewZh": "OpenAI 博客发布了关于“AI 原生公司如何将工作流程转化为运营能力”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “How AI-native companies turn workflows into operating capability”.",
+      "rank": 5,
+      "titleZh": "NeoMME：高效的多模态本地多语言编码器",
+      "titleEn": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "source": "Hugging Face Blog",
+      "category": "Model",
+      "publishedAt": "2026-09-03",
+      "summaryZh": "Hugging Face Blog 报道了人工智能模型的开发。来源要点：报告重点关注 NeoMME：一种高效的多模态原生和多语言编码器。",
+      "summaryEn": "Hugging Face Blog reports a model development in AI. Key point from the source: The report focuses on NeoMME: an efficient Multimodal-native and Multilingual Encoder.",
+      "overviewZh": "Hugging Face 博客发布了有关“NeoMME：高效的多模态原生和多语言编码器”的最新更新。",
+      "overviewEn": "Hugging Face Blog published a new update about “NeoMME: an efficient Multimodal-native and Multilingual Encoder”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/ai-native-company-workflows"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "红色警报：OpenAI 即将跨越人工智能安全红线。 - 马库斯谈人工智能 |子栈",
-      "titleEn": "Red Alert: OpenAI is poised to cross an AI safety redline. - Marcus on AI | Substack",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-02",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：红色警报：OpenAI 即将跨越人工智能安全红线。",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Red Alert: OpenAI is poised to cross an AI safety redline.",
-      "overviewZh": "Google News AI 发布了有关“红色警报：OpenAI 准备跨越 AI 安全红线。- Marcus on AI | Substack”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Red Alert: OpenAI is poised to cross an AI safety redline. - Marcus on AI | Substack”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LMVdwV1NoSTBFUVBRekhPVS1MakJVb09aZ0lucGdIbTdDaW9ZTHFiNmx5dzhxOXZ6ZEdyeVN1aEp1enNqZWtVUDctS2FNTllqeEJHNG9fQmltSjZsMWlwcFl5aW15MWVUSjVheEpvWEt0eUcxdm5TVg?oc=5"
+          "url": "https://huggingface.co/blog/Hcompany/neomme"
         }
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "BenchMIRT：LLM 基准实际衡量的是什么？",
-      "titleEn": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "source": "Hugging Face Blog",
-      "category": "Model",
-      "publishedAt": "2026-09-01",
-      "summaryZh": "Hugging Face Blog 报道了人工智能模型的开发。来源要点：报告重点关注 BenchMIRT：LLM 基准实际衡量的是什么？。",
-      "summaryEn": "Hugging Face Blog reports a model development in AI. Key point from the source: The report focuses on BenchMIRT: What are LLM benchmarks actually measuring?.",
-      "overviewZh": "Hugging Face 博客发布了有关“BenchMIRT：LLM 基准实际衡量的是什么？”的最新更新。",
-      "overviewEn": "Hugging Face Blog published a new update about “BenchMIRT: What are LLM benchmarks actually measuring?”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://huggingface.co/blog/allenai/benchmirt"
-        }
-      ],
-      "tags": [
-        "Models"
       ]
     }
   ]
