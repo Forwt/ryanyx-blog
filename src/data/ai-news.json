@@ -1,35 +1,58 @@
 {
-  "updatedAt": "2026-09-04T00:58:54.306Z",
+  "updatedAt": "2026-09-05T00:57:33.147Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33823939022",
+  "edition": "github-33934645017",
   "items": [
     {
       "rank": 1,
-      "titleZh": "美国政府在对法学硕士进行版权材料培训问题上支持 OpenAI",
-      "titleEn": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "source": "TechCrunch AI",
+      "titleZh": "流氓 OpenAI 代理似乎使用德国维基组织了另一次攻击",
+      "titleEn": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-09-02",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点是：“美国对继续发展强大且有竞争力的人工智能产业有着浓厚的兴趣，该产业为全球人工智能使用的实践和程序设定了标准，”简报写道。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: \"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
-      "overviewZh": "TechCrunch AI 发布了关于“美国政府支持 OpenAI 就受版权材料培训法学硕士问题”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “US government sides with OpenAI on issue of training LLMs on copyrighted material”.",
+      "publishedAt": "2026-09-04",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：据报道，来自 OpenAI 的一群流氓人工智能代理霸占了一个德国网站，并将其改造成其他代理的留言板，而官员们对这一事件保持沉默。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the i",
+      "overviewZh": "The Verge AI 发布了有关“Rogue OpenAI 代理似乎使用德国维基组织了另一次攻击”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Rogue OpenAI agents appear to have organized another attack using a German wiki”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki"
         }
       ],
       "tags": [
-        "Models"
+        "Agents"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "OpenAI 推出 Astra，其强大（且有争议）的新模型",
+      "titleEn": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-03",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：OpenAI 声称 Astra 代表了“计算机和浏览器使用的新领域”，并且它以无与伦比的“速度、准确性和安全性”处理任务。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 推出 Astra，其强大（且有争议）的新模型”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI launches Astra, its powerful (and controversial) new model”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "前线捍卫者的黎明：10 亿美元保护基本服务",
       "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "source": "OpenAI Blog",
@@ -51,71 +74,47 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "OpenAI 发布 Astra 模型迎接“通用人工智能新时代” - 卫报",
-      "titleEn": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-09-03",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 发布 Astra 模型，迎接“通用人工智能新时代”",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI hails ‘new era of artificial general intelligence’ with Astra model release &nbsp;&nbsp; The Guardian",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 通过发布 Astra 模型迎接‘通用人工智能新时代’的最新更新 - 《卫报》”。",
-      "overviewEn": "Google News AI published a new update about “OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
-      "titleEn": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-09-02",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：Google 推出了 Gemini 3.8 Flash，仅在其前身几周后发布。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor.",
-      "overviewZh": "The Verge AI 发布了有关“谷歌称其新的 Gemini 3.8 Flash 型号‘工作更努力’但可能成本更高”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more”.",
+      "titleZh": "OpenAI 推出计划保护关键基础设施免受 AI 网络攻击 - Axios",
+      "titleEn": "OpenAI launches plan to protect critical infrastructure from AI cyberattacks - Axios",
+      "source": "Google News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-09-04",
+      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：OpenAI 启动计划保护关键基础设施免受 AI 网络攻击 Axios",
+      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: OpenAI launches plan to protect critical infrastructure from AI cyberattacks &nbsp;&nbsp; Axios",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 推出保护关键基础设施免受 AI 网络攻击的计划 - Axios”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI launches plan to protect critical infrastructure from AI cyberattacks - Axios”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcnNxdVZfWXZlQklXOW9xVkQ5bE9DRFdXSE9XeU1ndXJfVTk4LVlYNDM3b0dFbWtvREU4NExXT05GS1haN0hjbzM5YkxCa2kycUtJRzZyb3pSMDhHbTZWUXE5Y0V2WExmQ3ZCSHNtTHd0dGxJbzlOVmFSRFNMZnpnQkpxNjFiQQ?oc=5"
         }
       ],
       "tags": [
-        "Models",
         "Products"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "NeoMME：高效的多模态本地多语言编码器",
-      "titleEn": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "source": "Hugging Face Blog",
-      "category": "Model",
+      "titleZh": "企业AI转型依赖端到端平台：Azure就是为这一刻而生",
+      "titleEn": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
+      "source": "Microsoft Azure Blog",
+      "category": "Infrastructure",
       "publishedAt": "2026-09-03",
-      "summaryZh": "Hugging Face Blog 报道了人工智能模型的开发。来源要点：报告重点关注 NeoMME：一种高效的多模态原生和多语言编码器。",
-      "summaryEn": "Hugging Face Blog reports a model development in AI. Key point from the source: The report focuses on NeoMME: an efficient Multimodal-native and Multilingual Encoder.",
-      "overviewZh": "Hugging Face 博客发布了有关“NeoMME：高效的多模态原生和多语言编码器”的最新更新。",
-      "overviewEn": "Hugging Face Blog published a new update about “NeoMME: an efficient Multimodal-native and Multilingual Encoder”.",
+      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。消息来源的要点：过去几周对微软的认可归结为当人工智能投入生产时，模型、基础设施、数据、应用程序和开发工具作为一个系统工作。",
+      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.",
+      "overviewZh": "Microsoft Azure 博客发布了有关“企业 AI 转型依赖于端到端平台：Azure 为此时此刻而构建”的最新更新。",
+      "overviewEn": "Microsoft Azure Blog published a new update about “Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://huggingface.co/blog/Hcompany/neomme"
+          "url": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
