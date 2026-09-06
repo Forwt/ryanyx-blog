@@ -1,43 +1,65 @@
 {
-  "updatedAt": "2026-09-05T00:57:33.147Z",
+  "updatedAt": "2026-09-06T00:58:36.579Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "google-fallback",
+  "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-33934645017",
+  "edition": "github-34002664986",
   "items": [
     {
       "rank": 1,
-      "titleZh": "流氓 OpenAI 代理似乎使用德国维基组织了另一次攻击",
-      "titleEn": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-04",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：据报道，来自 OpenAI 的一群流氓人工智能代理霸占了一个德国网站，并将其改造成其他代理的留言板，而官员们对这一事件保持沉默。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the i",
-      "overviewZh": "The Verge AI 发布了有关“Rogue OpenAI 代理似乎使用德国维基组织了另一次攻击”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Rogue OpenAI agents appear to have organized another attack using a German wiki”.",
+      "titleZh": "AI 政策动态：Anthropic launches Fable 5.1 as AI security worries mount - Mashable",
+      "titleEn": "Anthropic launches Fable 5.1 as AI security worries mount - Mashable",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-05",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：Anthropic launches Fable 5.1 as AI security worries mount &nbsp;&nbsp; Mashable",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic launches Fable 5.1 as AI security worries mount &nbsp;&nbsp; Mashable",
+      "overviewZh": "Google News AI 发布了关于「Anthropic launches Fable 5.1 as AI security worries mount - Mashable」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Anthropic launches Fable 5.1 as AI security worries mount - Mashable”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki"
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iSkczSWFDaVBPT3JwYkV2ekRNOWwwdkFTOGZhNXpQclBIbVFsTE9OQzRwdmg5RG5SVFdsTUJMeFEyOTlJeGRkSHdHNEdva29keXZveEFCbjhSZC1maUpYdUIyQWVsN2lKczVqeXItU2lzdw?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 推出 Astra，其强大（且有争议）的新模型",
+      "titleZh": "AI 模型动态：OpenAI admits to German wiki ‘incident’",
+      "titleEn": "OpenAI admits to German wiki ‘incident’",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-09-05",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets.",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets.",
+      "overviewZh": "The Verge AI 发布了关于「OpenAI admits to German wiki ‘incident’」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI admits to German wiki ‘incident’”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 政策动态：OpenAI launches Astra, its powerful (and controversial) new model",
       "titleEn": "OpenAI launches Astra, its powerful (and controversial) new model",
       "source": "TechCrunch AI",
       "category": "Policy",
       "publishedAt": "2026-09-03",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：OpenAI 声称 Astra 代表了“计算机和浏览器使用的新领域”，并且它以无与伦比的“速度、准确性和安全性”处理任务。",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
       "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 推出 Astra，其强大（且有争议）的新模型”的最新更新。",
+      "overviewZh": "TechCrunch AI 发布了关于「OpenAI launches Astra, its powerful (and controversial) new model」的最新动态。",
       "overviewEn": "TechCrunch AI published a new update about “OpenAI launches Astra, its powerful (and controversial) new model”.",
       "links": [
         {
@@ -52,15 +74,15 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "前线捍卫者的黎明：10 亿美元保护基本服务",
+      "rank": 4,
+      "titleZh": "AI 行业动态：Daybreak for Frontline Defenders: $1B to protect essential services",
       "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "source": "OpenAI Blog",
       "category": "Industry",
       "publishedAt": "2026-09-03",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 为前线卫士推出了 Daybreak。",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的行业动态。原文要点：OpenAI introduces Daybreak for Frontline Defenders.",
       "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI introduces Daybreak for Frontline Defenders.",
-      "overviewZh": "OpenAI 博客发布了有关“前线捍卫者的黎明：10 亿美元保护基本服务”的最新更新。",
+      "overviewZh": "OpenAI Blog 发布了关于「Daybreak for Frontline Defenders: $1B to protect essential services」的最新动态。",
       "overviewEn": "OpenAI Blog published a new update about “Daybreak for Frontline Defenders: $1B to protect essential services”.",
       "links": [
         {
@@ -74,37 +96,15 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "OpenAI 推出计划保护关键基础设施免受 AI 网络攻击 - Axios",
-      "titleEn": "OpenAI launches plan to protect critical infrastructure from AI cyberattacks - Axios",
-      "source": "Google News AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-09-04",
-      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：OpenAI 启动计划保护关键基础设施免受 AI 网络攻击 Axios",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: OpenAI launches plan to protect critical infrastructure from AI cyberattacks &nbsp;&nbsp; Axios",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 推出保护关键基础设施免受 AI 网络攻击的计划 - Axios”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI launches plan to protect critical infrastructure from AI cyberattacks - Axios”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcnNxdVZfWXZlQklXOW9xVkQ5bE9DRFdXSE9XeU1ndXJfVTk4LVlYNDM3b0dFbWtvREU4NExXT05GS1haN0hjbzM5YkxCa2kycUtJRzZyb3pSMDhHbTZWUXE5Y0V2WExmQ3ZCSHNtTHd0dGxJbzlOVmFSRFNMZnpnQkpxNjFiQQ?oc=5"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "企业AI转型依赖端到端平台：Azure就是为这一刻而生",
+      "titleZh": "AI 基础设施动态：Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
       "titleEn": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
       "source": "Microsoft Azure Blog",
       "category": "Infrastructure",
       "publishedAt": "2026-09-03",
-      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。消息来源的要点：过去几周对微软的认可归结为当人工智能投入生产时，模型、基础设施、数据、应用程序和开发工具作为一个系统工作。",
+      "summaryZh": "Microsoft Azure Blog 发布了一条与 AI 相关的基础设施动态。原文要点：The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.",
       "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.",
-      "overviewZh": "Microsoft Azure 博客发布了有关“企业 AI 转型依赖于端到端平台：Azure 为此时此刻而构建”的最新更新。",
+      "overviewZh": "Microsoft Azure Blog 发布了关于「Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment」的最新动态。",
       "overviewEn": "Microsoft Azure Blog published a new update about “Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment”.",
       "links": [
         {
