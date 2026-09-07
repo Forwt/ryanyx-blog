@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-09-06T00:58:36.579Z",
+  "updatedAt": "2026-09-07T01:01:21.416Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34002664986",
+  "edition": "github-34071632884",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 政策动态：Anthropic launches Fable 5.1 as AI security worries mount - Mashable",
-      "titleEn": "Anthropic launches Fable 5.1 as AI security worries mount - Mashable",
+      "titleZh": "AI 政策动态：Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode",
+      "titleEn": "Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode",
       "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-09-05",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：Anthropic launches Fable 5.1 as AI security worries mount &nbsp;&nbsp; Mashable",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic launches Fable 5.1 as AI security worries mount &nbsp;&nbsp; Mashable",
-      "overviewZh": "Google News AI 发布了关于「Anthropic launches Fable 5.1 as AI security worries mount - Mashable」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Anthropic launches Fable 5.1 as AI security worries mount - Mashable”.",
+      "publishedAt": "2026-09-06",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：Tenable, OpenAI Launch AI Security Review Process for CyberAgents &nbsp;&nbsp; The Fast Mode",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Tenable, OpenAI Launch AI Security Review Process for CyberAgents &nbsp;&nbsp; The Fast Mode",
+      "overviewZh": "Google News AI 发布了关于「Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iSkczSWFDaVBPT3JwYkV2ekRNOWwwdkFTOGZhNXpQclBIbVFsTE9OQzRwdmg5RG5SVFdsTUJMeFEyOTlJeGRkSHdHNEdva29keXZveEFCbjhSZC1maUpYdUIyQWVsN2lKczVqeXItU2lzdw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb19wRnlPUnkzZjUzMm13c1o3RHBKTVpwUTV2aUZYZTYyOU1EZWtsRVVXcjRWekFObHRPbzA4dHFyQklKSms1VGxRVHVDaTZ2eEdHbVMzVEJuTEhDZVEwRHZZUFZPd2ZyRlNlM1d6OXZDZ1A0RERaSnU5TmxpdnFmQVlaOFgwT0d2ZUExRDNpMzZLQzBYaFVZWk44RlBhZzdGZHV2VmRraDVlSGlRb3FZLXRfVnRIc3VGRVZ3?oc=5"
         }
       ],
       "tags": [
@@ -30,6 +30,50 @@
     },
     {
       "rank": 2,
+      "titleZh": "AI 行业动态：Research acceleration: The view inside OpenAI",
+      "titleEn": "Research acceleration: The view inside OpenAI",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-09-06",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的行业动态。原文要点：Inside OpenAI, coding agents are reshaping AI research.",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Inside OpenAI, coding agents are reshaping AI research.",
+      "overviewZh": "OpenAI Blog 发布了关于「Research acceleration: The view inside OpenAI」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Research acceleration: The view inside OpenAI”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 政策动态：Pivot to AI safety, I beg you",
+      "titleEn": "Pivot to AI safety, I beg you",
+      "source": "Hacker News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-06",
+      "summaryZh": "Hacker News AI 发布了一条与 AI 相关的政策动态。原文要点：Article URL: https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you Comments URL: https://news.ycombinator.com/item?id=49592035 Points: 7 # Comments: 6",
+      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you Comments URL: https://news.ycombinator.com/item?id=49592035 Points: 7 # Comments: 6",
+      "overviewZh": "Hacker News AI 发布了关于「Pivot to AI safety, I beg you」的最新动态。",
+      "overviewEn": "Hacker News AI published a new update about “Pivot to AI safety, I beg you”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "AI 模型动态：OpenAI admits to German wiki ‘incident’",
       "titleEn": "OpenAI admits to German wiki ‘incident’",
       "source": "The Verge AI",
@@ -51,70 +95,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "AI 政策动态：OpenAI launches Astra, its powerful (and controversial) new model",
-      "titleEn": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "rank": 5,
+      "titleZh": "AI 政策动态：OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "titleEn": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
       "source": "TechCrunch AI",
       "category": "Policy",
-      "publishedAt": "2026-09-03",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
-      "overviewZh": "TechCrunch AI 发布了关于「OpenAI launches Astra, its powerful (and controversial) new model」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI launches Astra, its powerful (and controversial) new model”.",
+      "publishedAt": "2026-09-04",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "overviewZh": "TechCrunch AI 发布了关于「OpenAI’s rogue agents keep escaping, with no formal process to investigate them」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI’s rogue agents keep escaping, with no formal process to investigate them”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/"
+          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "AI 行业动态：Daybreak for Frontline Defenders: $1B to protect essential services",
-      "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-09-03",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的行业动态。原文要点：OpenAI introduces Daybreak for Frontline Defenders.",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI introduces Daybreak for Frontline Defenders.",
-      "overviewZh": "OpenAI Blog 发布了关于「Daybreak for Frontline Defenders: $1B to protect essential services」的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Daybreak for Frontline Defenders: $1B to protect essential services”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/daybreak-for-frontline-defenders"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "AI 基础设施动态：Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
-      "titleEn": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
-      "source": "Microsoft Azure Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-09-03",
-      "summaryZh": "Microsoft Azure Blog 发布了一条与 AI 相关的基础设施动态。原文要点：The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.",
-      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.",
-      "overviewZh": "Microsoft Azure Blog 发布了关于「Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment」的最新动态。",
-      "overviewEn": "Microsoft Azure Blog published a new update about “Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/"
-        }
-      ],
-      "tags": [
-        "Models"
+        "Agents"
       ]
     }
   ]
