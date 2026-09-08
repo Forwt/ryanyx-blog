@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-09-07T01:01:21.416Z",
+  "updatedAt": "2026-09-08T01:12:31.329Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34071632884",
+  "edition": "github-34175864713",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 政策动态：Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode",
-      "titleEn": "Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-06",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：Tenable, OpenAI Launch AI Security Review Process for CyberAgents &nbsp;&nbsp; The Fast Mode",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Tenable, OpenAI Launch AI Security Review Process for CyberAgents &nbsp;&nbsp; The Fast Mode",
-      "overviewZh": "Google News AI 发布了关于「Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Tenable, OpenAI Launch AI Security Review Process for CyberAgents - The Fast Mode”.",
+      "titleZh": "AI 产品动态：Supporting independent journalism in Ukraine",
+      "titleEn": "Supporting independent journalism in Ukraine",
+      "source": "OpenAI Blog",
+      "category": "Product",
+      "publishedAt": "2026-09-07",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的产品动态。原文要点：OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "overviewZh": "OpenAI Blog 发布了关于「Supporting independent journalism in Ukraine」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Supporting independent journalism in Ukraine”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb19wRnlPUnkzZjUzMm13c1o3RHBKTVpwUTV2aUZYZTYyOU1EZWtsRVVXcjRWekFObHRPbzA4dHFyQklKSms1VGxRVHVDaTZ2eEdHbVMzVEJuTEhDZVEwRHZZUFZPd2ZyRlNlM1d6OXZDZ1A0RERaSnU5TmxpdnFmQVlaOFgwT0d2ZUExRDNpMzZLQzBYaFVZWk44RlBhZzdGZHV2VmRraDVlSGlRb3FZLXRfVnRIc3VGRVZ3?oc=5"
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine"
         }
       ],
       "tags": [
@@ -30,42 +30,42 @@
     },
     {
       "rank": 2,
-      "titleZh": "AI 行业动态：Research acceleration: The view inside OpenAI",
-      "titleEn": "Research acceleration: The view inside OpenAI",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-09-06",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的行业动态。原文要点：Inside OpenAI, coding agents are reshaping AI research.",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Inside OpenAI, coding agents are reshaping AI research.",
-      "overviewZh": "OpenAI Blog 发布了关于「Research acceleration: The view inside OpenAI」的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Research acceleration: The view inside OpenAI”.",
+      "titleZh": "AI 政策动态：Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian",
+      "titleEn": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-07",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：Architect of UK’s AI policy quits after Anthropic conflict of interest concerns &nbsp;&nbsp; The Guardian",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Architect of UK’s AI policy quits after Anthropic conflict of interest concerns &nbsp;&nbsp; The Guardian",
+      "overviewZh": "Google News AI 发布了关于「Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdFB2blFFQU9kMW1aZjJSRVFxVVZlSllBZzNiZWpYRXh2eUNCUUVIZlItUGFyOHNCNzJQczJZSmVKM1poc0lEZDNONjB5VG52RnhtSVlhQlgxUFZXSUJzOER1TWJEUkRnSk1KbWx1WExLUXJ5dVpKaTlvNDM2ZzVHdmU0Yk9OcGdwMTV4bUgzU0Z3b0hNenNuOWF2bUl1SHk2SkhubHdMa0pwcXM1ZU5QTmQ1Ry1YTzR6Sldz?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "AI 政策动态：Pivot to AI safety, I beg you",
-      "titleEn": "Pivot to AI safety, I beg you",
-      "source": "Hacker News AI",
+      "titleZh": "AI 政策动态：Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "titleEn": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "source": "The Verge AI",
       "category": "Policy",
       "publishedAt": "2026-09-06",
-      "summaryZh": "Hacker News AI 发布了一条与 AI 相关的政策动态。原文要点：Article URL: https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you Comments URL: https://news.ycombinator.com/item?id=49592035 Points: 7 # Comments: 6",
-      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you Comments URL: https://news.ycombinator.com/item?id=49592035 Points: 7 # Comments: 6",
-      "overviewZh": "Hacker News AI 发布了关于「Pivot to AI safety, I beg you」的最新动态。",
-      "overviewEn": "Hacker News AI published a new update about “Pivot to AI safety, I beg you”.",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的政策动态。原文要点：The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement.",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement.",
+      "overviewZh": "The Verge AI 发布了关于「Seattle Times and Newsday sue OpenAI and Microsoft for infringement」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Seattle Times and Newsday sue OpenAI and Microsoft for infringement”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
         }
       ],
       "tags": [
@@ -74,20 +74,20 @@
     },
     {
       "rank": 4,
-      "titleZh": "AI 模型动态：OpenAI admits to German wiki ‘incident’",
-      "titleEn": "OpenAI admits to German wiki ‘incident’",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-09-05",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets.",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets.",
-      "overviewZh": "The Verge AI 发布了关于「OpenAI admits to German wiki ‘incident’」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI admits to German wiki ‘incident’”.",
+      "titleZh": "AI 行业动态：The smallest edge AI device for local LLMs",
+      "titleEn": "The smallest edge AI device for local LLMs",
+      "source": "Hacker News AI",
+      "category": "Industry",
+      "publishedAt": "2026-09-07",
+      "summaryZh": "Hacker News AI 发布了一条与 AI 相关的行业动态。原文要点：Article URL: https://tiiny.ai/ Comments URL: https://news.ycombinator.com/item?id=49603011 Points: 18 # Comments: 16",
+      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://tiiny.ai/ Comments URL: https://news.ycombinator.com/item?id=49603011 Points: 18 # Comments: 16",
+      "overviewZh": "Hacker News AI 发布了关于「The smallest edge AI device for local LLMs」的最新动态。",
+      "overviewEn": "Hacker News AI published a new update about “The smallest edge AI device for local LLMs”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident"
+          "url": "https://tiiny.ai/"
         }
       ],
       "tags": [
@@ -96,24 +96,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "AI 政策动态：OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "titleEn": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-04",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-      "overviewZh": "TechCrunch AI 发布了关于「OpenAI’s rogue agents keep escaping, with no formal process to investigate them」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI’s rogue agents keep escaping, with no formal process to investigate them”.",
+      "titleZh": "AI 行业动态：OpenAI chief scientist argues for AI research slowdown - SiliconANGLE",
+      "titleEn": "OpenAI chief scientist argues for AI research slowdown - SiliconANGLE",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-09-08",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的行业动态。原文要点：OpenAI chief scientist argues for AI research slowdown &nbsp;&nbsp; SiliconANGLE",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: OpenAI chief scientist argues for AI research slowdown &nbsp;&nbsp; SiliconANGLE",
+      "overviewZh": "Google News AI 发布了关于「OpenAI chief scientist argues for AI research slowdown - SiliconANGLE」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI chief scientist argues for AI research slowdown - SiliconANGLE”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdWltMVNub3BseUhsOHdheTNGZ3lxS3ZXRWdJcks2a0M0UnVlSnBuelA5T3JFdWNGVnF1NmdIM2ZkV3diNFhBWHExLWd6LXdyak9XZkpZYkx5VElGdUJRSFVoMnJKa1gzaHM3dkFyaWxkLTV1X1dpbjN6WGVvb0Y1XzJTelZMSmtWUFJoOXRuLTcwM0V6ZGc?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     }
   ]
