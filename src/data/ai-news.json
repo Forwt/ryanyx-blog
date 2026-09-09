@@ -1,119 +1,120 @@
 {
-  "updatedAt": "2026-09-08T01:12:31.329Z",
+  "updatedAt": "2026-09-09T01:15:00.859Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "fallback",
+  "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34175864713",
+  "edition": "github-34298400563",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 产品动态：Supporting independent journalism in Ukraine",
-      "titleEn": "Supporting independent journalism in Ukraine",
+      "titleZh": "为人工智能和青少年发展的新研究提供资助",
+      "titleEn": "Funding grants for new research into AI and teen development",
       "source": "OpenAI Blog",
-      "category": "Product",
-      "publishedAt": "2026-09-07",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的产品动态。原文要点：OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "overviewZh": "OpenAI Blog 发布了关于「Supporting independent journalism in Ukraine」的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Supporting independent journalism in Ukraine”.",
+      "category": "Policy",
+      "publishedAt": "2026-09-08",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "overviewZh": "OpenAI 博客发布了关于“人工智能和青少年发展新研究的资助”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Funding grants for new research into AI and teen development”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine"
+          "url": "https://openai.com/index/teen-development-research-grants"
         }
       ],
       "tags": [
-        "Products"
+        "Business"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "AI 政策动态：Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian",
-      "titleEn": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-07",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：Architect of UK’s AI policy quits after Anthropic conflict of interest concerns &nbsp;&nbsp; The Guardian",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Architect of UK’s AI policy quits after Anthropic conflict of interest concerns &nbsp;&nbsp; The Guardian",
-      "overviewZh": "Google News AI 发布了关于「Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Architect of UK’s AI policy quits after Anthropic conflict of interest concerns - The Guardian”.",
+      "titleZh": "Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上",
+      "titleEn": "Meta bets on AI agent Muse to catch up in AI race",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-09-08",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的关键点：Meta 正在通过 Muse 再次推动人工智能走向大众，据称，Muse 是一款个人助理，可以将人工智能带到几乎任何人的手中。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone.",
+      "overviewZh": "The Verge AI 发布了关于“Meta 押注 AI 代理 Muse 以赶上 AI 竞赛”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Meta bets on AI agent Muse to catch up in AI race”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdFB2blFFQU9kMW1aZjJSRVFxVVZlSllBZzNiZWpYRXh2eUNCUUVIZlItUGFyOHNCNzJQczJZSmVKM1poc0lEZDNONjB5VG52RnhtSVlhQlgxUFZXSUJzOER1TWJEUkRnSk1KbWx1WExLUXJ5dVpKaTlvNDM2ZzVHdmU0Yk9OcGdwMTV4bUgzU0Z3b0hNenNuOWF2bUl1SHk2SkhubHdMa0pwcXM1ZU5QTmQ1Ry1YTzR6Sldz?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "AI 政策动态：Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "titleEn": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-06",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的政策动态。原文要点：The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement.",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement.",
-      "overviewZh": "The Verge AI 发布了关于「Seattle Times and Newsday sue OpenAI and Microsoft for infringement」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “Seattle Times and Newsday sue OpenAI and Microsoft for infringement”.",
+      "titleZh": "OpenAI 发布新的人工智能代理——在承认其中一个代理失控后 - 英国《卫报》",
+      "titleEn": "OpenAI releases new AI agent – after admitting one went rogue - The Guardian",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-09-08",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 发布了新的 AI 代理——在承认其中一个行为失控后，《卫报》",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI releases new AI agent – after admitting one went rogue &nbsp;&nbsp; The Guardian",
+      "overviewZh": "谷歌新闻 AI 发布了一篇关于“OpenAI 发布新的人工智能代理——在承认一个人变得流氓后——《卫报》”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI releases new AI agent – after admitting one went rogue - The Guardian”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3V0NZQmphR3B4eVV6dWM3Rm9Xb0RBUDhNZ2trT2RONml2Q0dsV0VQRlN3ZGQyVTlHSWJ0SGphX1h4MldQSnp1R05DQWVjV0JXbUVPR05XcEViTWtMaWprUWdYX1QwaEdUek9mdlJvR1dnZ1RBWWJPcHc2ek55ZlU?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Agents",
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "AI 行业动态：The smallest edge AI device for local LLMs",
-      "titleEn": "The smallest edge AI device for local LLMs",
-      "source": "Hacker News AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-07",
-      "summaryZh": "Hacker News AI 发布了一条与 AI 相关的行业动态。原文要点：Article URL: https://tiiny.ai/ Comments URL: https://news.ycombinator.com/item?id=49603011 Points: 18 # Comments: 16",
-      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://tiiny.ai/ Comments URL: https://news.ycombinator.com/item?id=49603011 Points: 18 # Comments: 16",
-      "overviewZh": "Hacker News AI 发布了关于「The smallest edge AI device for local LLMs」的最新动态。",
-      "overviewEn": "Hacker News AI published a new update about “The smallest edge AI device for local LLMs”.",
+      "titleZh": "随着主权人工智能成为大生意，Mistral 筹集了 30 亿欧元",
+      "titleEn": "Mistral raises €3B as sovereign AI becomes big business",
+      "source": "TechCrunch AI",
+      "category": "Business",
+      "publishedAt": "2026-09-08",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：这家法国人工智能实验室在由三星、Scaleup Europe 和 PSG Equity 领投的 D 轮融资中筹集了 30 亿欧元，估值为 210 亿欧元。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
+      "overviewZh": "TechCrunch AI 发布了有关“随着主权人工智能成为大生意，Mistral 筹集了 30 亿欧元”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Mistral raises €3B as sovereign AI becomes big business”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://tiiny.ai/"
+          "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
         }
       ],
       "tags": [
-        "Models"
+        "Business"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "AI 行业动态：OpenAI chief scientist argues for AI research slowdown - SiliconANGLE",
-      "titleEn": "OpenAI chief scientist argues for AI research slowdown - SiliconANGLE",
-      "source": "Google News AI",
-      "category": "Industry",
+      "titleZh": "美联储指责中国“系统”提炼美国人工智能模型",
+      "titleEn": "Feds accuse China of 'systematic' distillation of U.S. AI models",
+      "source": "Hacker News AI",
+      "category": "Model",
       "publishedAt": "2026-09-08",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的行业动态。原文要点：OpenAI chief scientist argues for AI research slowdown &nbsp;&nbsp; SiliconANGLE",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: OpenAI chief scientist argues for AI research slowdown &nbsp;&nbsp; SiliconANGLE",
-      "overviewZh": "Google News AI 发布了关于「OpenAI chief scientist argues for AI research slowdown - SiliconANGLE」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “OpenAI chief scientist argues for AI research slowdown - SiliconANGLE”.",
+      "summaryZh": "Hacker News AI 报道了人工智能模型的开发。来源要点： 文章网址：https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/ 评论网址：https://news.ycombinator.com/item?id=49618459 积分：8 # 评论：5",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/ Comments URL: https://news.ycombinator.com/item?id=49618459 Points: 8 # Comments: 5",
+      "overviewZh": "Hacker News AI 发布了有关“美联储指责中国‘系统’提炼美国人工智能模型”的最新动态。",
+      "overviewEn": "Hacker News AI published a new update about “Feds accuse China of 'systematic' distillation of U.S. AI models”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdWltMVNub3BseUhsOHdheTNGZ3lxS3ZXRWdJcks2a0M0UnVlSnBuelA5T3JFdWNGVnF1NmdIM2ZkV3diNFhBWHExLWd6LXdyak9XZkpZYkx5VElGdUJRSFVoMnJKa1gzaHM3dkFyaWxkLTV1X1dpbjN6WGVvb0Y1XzJTelZMSmtWUFJoOXRuLTcwM0V6ZGc?oc=5"
+          "url": "https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
