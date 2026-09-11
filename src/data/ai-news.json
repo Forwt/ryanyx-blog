@@ -1,13 +1,57 @@
 {
-  "updatedAt": "2026-09-10T01:04:31.052Z",
+  "updatedAt": "2026-09-11T01:06:23.296Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34423962286",
+  "edition": "github-34549287060",
   "items": [
     {
       "rank": 1,
+      "titleZh": "Skild AI 利用 NVIDIA 物理 AI 通过单个视频教授机器人新任务",
+      "titleEn": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
+      "publishedAt": "2026-09-10",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：制造车间、仓库和生产线很少保持固定状态——任务变化、布局变化和新产品到来，如果不进行重大重新编程，大多数机器人就无法跟上。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming.",
+      "overviewZh": "NVIDIA 博客发布了有关“Skild AI 利用 NVIDIA 物理 AI 通过单个视频教机器人新任务”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "Meta 的 Muse AI 很有效，让我毛骨悚然",
+      "titleEn": "Meta’s Muse AI works and creeps me out",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-09-10",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源要点：Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools.",
+      "overviewZh": "The Verge AI 发布了一篇关于“Meta 的 Muse AI 很管用，让我毛骨悚然”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Meta’s Muse AI works and creeps me out”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "为人工智能和青少年发展的新研究提供资助",
       "titleEn": "Funding grants for new research into AI and teen development",
       "source": "OpenAI Blog",
@@ -29,91 +73,48 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "忧心忡忡的人类学研究人员警告说，人工智能“可能会杀死所有人类”",
-      "titleEn": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-09",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：一位高级人类安全研究员表示，到本世纪末，人工智能“可能杀死所有人类”的可能性超过 10%，而就在",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a co",
-      "overviewZh": "The Verge AI 发布了有关“忧心忡忡的人类研究人员警告人工智能‘可能杀死所有人类’”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Worried Anthropic researchers warn that AI ‘could kill all humans’”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Arm 推出专为代理 AI 和移动图形打造的全新 AI 原生计算平台 - Arm Newsroom",
-      "titleEn": "Arm introduces new AI-native compute platform built for agentic AI and mobile graphics - Arm Newsroom",
-      "source": "Google News AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-09",
-      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：Arm 推出了专为代理 AI 和移动图形而构建的全新 AI 原生计算平台 Arm 新闻中心",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Arm introduces new AI-native compute platform built for agentic AI and mobile graphics &nbsp;&nbsp; Arm Newsroom",
-      "overviewZh": "Google News AI 发布了有关“Arm 推出专为代理 AI 和移动图形构建的新 AI 原生计算平台 - Arm Newsroom”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Arm introduces new AI-native compute platform built for agentic AI and mobile graphics - Arm Newsroom”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNnMxUjF3SThTS0VqYTB2LUphcVVWTlhSc0szTHdtR3V6Zm5SUmVZREpnaU1hSGxkcGtOZzh6ZTBTZk5kOHR6NlR0TVRTalVMUHJWenl1SE00d0tXRTV0dUY0anhCVUplak5uNXh1UmItWHN2M1ZNWDFiZFhfUkRmclI2NA?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "超越基准：自适应方法如何推动科学发现",
-      "titleEn": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
-      "source": "Microsoft Azure Blog",
-      "category": "Model",
-      "publishedAt": "2026-09-08",
-      "summaryZh": "Microsoft Azure 博客报道了人工智能的模型开发。来源要点：对于研发 (R&D) 组织来说，代理人工智能的承诺并不是一个更好的一次性答案。",
-      "summaryEn": "Microsoft Azure Blog reports a model development in AI. Key point from the source: For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer.",
-      "overviewZh": "Microsoft Azure 博客发布了有关“超越基准：自适应方法如何推动科学发现”的最新更新。",
-      "overviewEn": "Microsoft Azure Blog published a new update about “Beyond the benchmark: How an adaptive approach drives scientific discovery”.",
+      "titleZh": "Maven Robotics 想要窃取您的机器人部署协议",
+      "titleEn": "Maven Robotics wants to steal your robot deployment deal",
+      "source": "TechCrunch AI",
+      "category": "Industry",
+      "publishedAt": "2026-09-10",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点：Maven Robotics 今天从隐秘状态中脱颖而出，获得了 1 亿美元的 A 轮融资并进行了积极部署。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
+      "overviewZh": "TechCrunch AI 发布了有关“Maven Robotics 希望窃取您的机器人部署协议”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Maven Robotics wants to steal your robot deployment deal”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/"
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
         }
       ],
       "tags": [
-        "Agents"
+        "Robotics"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "Besxar 正在建造一座轨道半导体工厂，一次建造一枚 SpaceX 火箭",
-      "titleEn": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-09-09",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的要点：Besxar 是一家由前 OpenAI 员工 Ashley Pilipiszyn 创立的初创公司，希望利用太空的真空来制造先进半导体的关键先驱。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Besxar, a startup founded by former OpenAI staffer Ashley Pilipiszyn, wants to make the key precursors for advanced semiconductors by taking advantage of the vacuum of space.",
-      "overviewZh": "TechCrunch AI 发布了有关“Besxar 正在建造一座轨道半导体工厂，一次一枚 SpaceX 火箭”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time”.",
+      "titleZh": "NASA 和 IBM 推出月球科学人工智能基础模型 - NASA Science (.gov)",
+      "titleEn": "NASA, IBM Launch AI Foundation Model for Lunar Science - NASA Science (.gov)",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-09-10",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：NASA、IBM 推出月球科学 AI 基础模型 NASA Science (.gov)",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: NASA, IBM Launch AI Foundation Model for Lunar Science &nbsp;&nbsp; NASA Science (.gov)",
+      "overviewZh": "Google News AI 发布了有关“NASA、IBM 推出月球科学 AI 基础模型 - NASA Science (.gov)”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “NASA, IBM Launch AI Foundation Model for Lunar Science - NASA Science (.gov)”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaFlWQjYwaUlKUDJBcXY5dnVhMFBab2pnUGFpRVVrdU42b2NuaDhzUms2RDRsakc3RS0tSUpUV3prTWNRTUtqWnJrZUl1YXJLTFZGcVpBb0lLMlJKa2U1Yml0clEzT3hHdkVoM0lwMU9BU2ozcTRYeG80dlBRR18ycElfYXNUeFFQZFByb2ZiVkgtWkU?oc=5"
         }
       ],
       "tags": [
-        "Business"
+        "Models",
+        "Products"
       ]
     }
   ]
