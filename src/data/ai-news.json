@@ -1,21 +1,44 @@
 {
-  "updatedAt": "2026-09-11T01:06:23.296Z",
+  "updatedAt": "2026-09-12T01:07:29.861Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "google-fallback",
+  "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34549287060",
+  "edition": "github-34663846428",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Skild AI 利用 NVIDIA 物理 AI 通过单个视频教授机器人新任务",
+      "titleZh": "AI 模型动态：Anthropic spent this week in hot water over cybersecurity",
+      "titleEn": "Anthropic spent this week in hot water over cybersecurity",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-09-11",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks.",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks.",
+      "overviewZh": "The Verge AI 发布了关于「Anthropic spent this week in hot water over cybersecurity」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Anthropic spent this week in hot water over cybersecurity”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "AI 行业动态：Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "titleEn": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "source": "NVIDIA Blog",
       "category": "Industry",
       "publishedAt": "2026-09-10",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：制造车间、仓库和生产线很少保持固定状态——任务变化、布局变化和新产品到来，如果不进行重大重新编程，大多数机器人就无法跟上。",
+      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的行业动态。原文要点：Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming.",
       "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming.",
-      "overviewZh": "NVIDIA 博客发布了有关“Skild AI 利用 NVIDIA 物理 AI 通过单个视频教机器人新任务”的最新更新。",
+      "overviewZh": "NVIDIA Blog 发布了关于「Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video」的最新动态。",
       "overviewEn": "NVIDIA Blog published a new update about “Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video”.",
       "links": [
         {
@@ -29,92 +52,70 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "Meta 的 Muse AI 很有效，让我毛骨悚然",
-      "titleEn": "Meta’s Muse AI works and creeps me out",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-09-10",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源要点：Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools.",
-      "overviewZh": "The Verge AI 发布了一篇关于“Meta 的 Muse AI 很管用，让我毛骨悚然”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Meta’s Muse AI works and creeps me out”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
       "rank": 3,
-      "titleZh": "为人工智能和青少年发展的新研究提供资助",
-      "titleEn": "Funding grants for new research into AI and teen development",
-      "source": "OpenAI Blog",
-      "category": "Policy",
-      "publishedAt": "2026-09-08",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "overviewZh": "OpenAI 博客发布了关于“人工智能和青少年发展新研究的资助”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Funding grants for new research into AI and teen development”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/teen-development-research-grants"
-        }
-      ],
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Maven Robotics 想要窃取您的机器人部署协议",
-      "titleEn": "Maven Robotics wants to steal your robot deployment deal",
+      "titleZh": "AI 模型动态：Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "titleEn": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
       "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-10",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点：Maven Robotics 今天从隐秘状态中脱颖而出，获得了 1 亿美元的 A 轮融资并进行了积极部署。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
-      "overviewZh": "TechCrunch AI 发布了有关“Maven Robotics 希望窃取您的机器人部署协议”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Maven Robotics wants to steal your robot deployment deal”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
-        }
-      ],
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "NASA 和 IBM 推出月球科学人工智能基础模型 - NASA Science (.gov)",
-      "titleEn": "NASA, IBM Launch AI Foundation Model for Lunar Science - NASA Science (.gov)",
-      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-09-10",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：NASA、IBM 推出月球科学 AI 基础模型 NASA Science (.gov)",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: NASA, IBM Launch AI Foundation Model for Lunar Science &nbsp;&nbsp; NASA Science (.gov)",
-      "overviewZh": "Google News AI 发布了有关“NASA、IBM 推出月球科学 AI 基础模型 - NASA Science (.gov)”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “NASA, IBM Launch AI Foundation Model for Lunar Science - NASA Science (.gov)”.",
+      "publishedAt": "2026-09-11",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的模型动态。原文要点：Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S.",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S.",
+      "overviewZh": "TechCrunch AI 发布了关于「Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaFlWQjYwaUlKUDJBcXY5dnVhMFBab2pnUGFpRVVrdU42b2NuaDhzUms2RDRsakc3RS0tSUpUV3prTWNRTUtqWnJrZUl1YXJLTFZGcVpBb0lLMlJKa2U1Yml0clEzT3hHdkVoM0lwMU9BU2ozcTRYeG80dlBRR18ycElfYXNUeFFQZFByb2ZiVkgtWkU?oc=5"
+          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
         }
       ],
       "tags": [
         "Models",
-        "Products"
+        "Open source"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "AI 模型动态：Anthropic Says Iran Used Its American AI Model to Target U.S. Navy Warships - WSJ",
+      "titleEn": "Anthropic Says Iran Used Its American AI Model to Target U.S. Navy Warships - WSJ",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-09-11",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的模型动态。原文要点：Anthropic Says Iran Used Its American AI Model to Target U.S.",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic Says Iran Used Its American AI Model to Target U.S.",
+      "overviewZh": "Google News AI 发布了关于「Anthropic Says Iran Used Its American AI Model to Target U.S. Navy Warships - WSJ」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Anthropic Says Iran Used Its American AI Model to Target U.S. Navy Warships - WSJ”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaElwSjlfRDJiaDhsR3pkdFlhMDk3cGJXb3NUMHZRNDh0V2tKOVNhR0FTMlUzNFdNOWJRbGNlNE5WV3FJT1l5UjFfV1lvYU1uMVB4ZXdLbjZiZldYMnhtRXdMVURGcnlINEM5Rk5ueldZaDFoczJfZV9Tb2RfdzRLUnFybjZUNDlSaE9pWHJ3NnhXX1ZZS0dqN09xUHNvamtSNkFRSTl4VE9pdy1jR3pfeS1oNFNEMTZMNmZOR0h3dHBjSmFQV1pKOVJR?oc=5"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "AI 政策动态：Paul Christiano joins OpenAI Foundation Board",
+      "titleEn": "Paul Christiano joins OpenAI Foundation Board",
+      "source": "OpenAI Blog",
+      "category": "Policy",
+      "publishedAt": "2026-09-09",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的政策动态。原文要点：Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "overviewZh": "OpenAI Blog 发布了关于「Paul Christiano joins OpenAI Foundation Board」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Paul Christiano joins OpenAI Foundation Board”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+        }
+      ],
+      "tags": [
+        "AI"
       ]
     }
   ]
