@@ -1,6 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { policy, normalizePath } from './second-brain-policy.mjs';
+const publication = await policy();
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const sourceRoot = path.resolve(
@@ -183,8 +185,10 @@ const readSource = async () => {
     slugMap = {};
   }
   const allFiles = await listFiles(sourceRoot);
-  const markdownFiles = allFiles.filter((file) => file.toLocaleLowerCase().endsWith('.md')).sort((a, b) => a.localeCompare(b, 'zh-CN'));
-  const assetFiles = allFiles.filter((file) => /\.(png|jpe?g|gif|webp|svg)$/iu.test(file));
+  const allowedNotes = new Set(publication.notes);
+  const allowedAssets = new Set(publication.assets);
+  const markdownFiles = allFiles.filter((file) => allowedNotes.has(normalizePath(path.relative(sourceRoot, file))) && file.toLocaleLowerCase().endsWith('.md')).sort((a, b) => a.localeCompare(b, 'zh-CN'));
+  const assetFiles = allFiles.filter((file) => allowedAssets.has(normalizePath(path.relative(sourceRoot, file))) && /\.(png|jpe?g|gif|webp|svg)$/iu.test(file));
   const assetsByName = new Map();
   for (const asset of assetFiles) {
     const basename = path.basename(asset);
@@ -360,16 +364,22 @@ const generate = async () => {
   const { allFiles, assetFiles, notes, slugMap } = await readSource();
   const { edges: explicitEdges, transformed } = resolveNoteLinks(notes);
   const graph = buildGraph(notes, explicitEdges);
+  for (const target of [contentOutput, assetOutput]) {
+    if (!path.resolve(target).startsWith(projectRoot + path.sep) || path.resolve(sourceRoot) === path.resolve(target)) throw new Error('Unsafe generated output path');
+    const stat = await fs.lstat(target).catch(e => { if (e.code !== 'ENOENT') throw e; });
+    if (stat?.isSymbolicLink()) throw new Error('Refusing linked output directory');
+  }
   await fs.rm(contentOutput, { recursive: true, force: true });
   await fs.rm(assetOutput, { recursive: true, force: true });
   await fs.mkdir(contentOutput, { recursive: true });
   await fs.mkdir(assetOutput, { recursive: true });
-  const nextSlugMap = { ...slugMap };
+  const nextSlugMap = {};
   for (const note of notes) {
     nextSlugMap[note.relative] = note.slug;
     nextSlugMap[`title:${note.title}`] = note.slug;
     const frontmatter = [
       '---',
+      'publish: true',
       `title: ${yamlString(note.title)}`,
       `description: ${yamlString(note.excerpt)}`,
       `pubDate: ${note.date}`,

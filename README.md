@@ -193,3 +193,10 @@ DB
 ```
 
 点赞接口位于 `/api/likes`，数据表会在第一次请求时自动创建。
+
+
+## 私人笔记发布边界 / Private-note publication boundary
+
+笔记及附件默认不公开。只有人工审阅后写入 `second-brain.publish.json` 的相对路径才会被同步；`notes` 和 `assets` 分别授权，禁止整库通配。修改名单后运行 `npm run second-brain:sync`，然后 `npm run build`。取消授权后必须重新同步，以清理旧页面、图谱和附件。构建检查会拒绝名单外的残留内容。不要将私人原始库或本次聊天研究材料提交到网站仓库。
+
+Notes and attachments are private by default. Only individually reviewed relative paths in `second-brain.publish.json` may be synchronized. Notes and assets require separate approval; whole-vault wildcards are not supported. After editing the allowlist, run `npm run second-brain:sync`, then `npm run build`. Resynchronize after revocation to remove old pages, graph metadata and attachments. The build check rejects unapproved generated content. Never commit the private source vault or chat research artifacts to the website repository.
