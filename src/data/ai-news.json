@@ -1,21 +1,65 @@
 {
-  "updatedAt": "2026-09-13T01:01:16.921Z",
+  "updatedAt": "2026-09-14T01:05:28.730Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "google-fallback",
+  "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34729450110",
+  "edition": "github-34794743346",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Anthropic首席执行官表示，是时候给人工智能踩刹车了",
+      "titleZh": "AI 政策动态：Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "titleEn": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-13",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "overviewZh": "TechCrunch AI 发布了关于「Obama urges Democrats to have a ‘clear plan’ for AI safeguards」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Obama urges Democrats to have a ‘clear plan’ for AI safeguards”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "AI 基础设施动态：Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com",
+      "titleEn": "Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com",
+      "source": "Google News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-09-14",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的基础设施动态。原文要点：Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks &nbsp;&nbsp; bloomberg.com",
+      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks &nbsp;&nbsp; bloomberg.com",
+      "overviewZh": "Google News AI 发布了关于「Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDdCOFgtQWE3ZHdWZDNwdEo4UGpJNWxKSmhLUnpfaDdxSWswaXlmQ0RlbVh5MW9NZmZuMW5TWjg3SWhCOFgwdXpmX05EeFZJNUttMGZiRHNDcmhJd3hVM1NGZ1FmM2dXU0htaFozeGFSdGZSQnBWVnktdVhQd0JjQm9ZSXE1bXJpTVJ3SHVhcjZGWGpHb1VHSHQ1ekdrTW1RUkJCVFNXTUJPaFlpRlE?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 模型动态：Anthropic CEO says it’s time to pump the brakes on AI",
       "titleEn": "Anthropic CEO says it’s time to pump the brakes on AI",
       "source": "The Verge AI",
       "category": "Model",
       "publishedAt": "2026-09-12",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源要点：Anthropic 首席执行官 Dario Amodei 表示，现在是放慢人工智能开发速度的时候了，并将让 METR 等第三方评估机构访问其模型，以帮助确保其“遵守 s",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to s",
       "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to s",
-      "overviewZh": "The Verge AI 发布了一篇关于“Anthropic CEO 表示是时候给人工智能踩刹车了”的最新更新。",
+      "overviewZh": "The Verge AI 发布了关于「Anthropic CEO says it’s time to pump the brakes on AI」的最新动态。",
       "overviewEn": "The Verge AI published a new update about “Anthropic CEO says it’s time to pump the brakes on AI”.",
       "links": [
         {
@@ -29,92 +73,47 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "Anthropic首席执行官呼吁出于安全考虑“走在人工智能竞赛的前沿” - Fox10tv.com",
-      "titleEn": "Anthropic CEO calls for ‘pacing the frontier’ of AI race amid safety concerns - fox10tv.com",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-13",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源的要点：Anthropic 首席执行官呼吁在安全担忧的情况下“走在人工智能竞赛的前沿”   fox10tv.com",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic CEO calls for ‘pacing the frontier’ of AI race amid safety concerns &nbsp;&nbsp; fox10tv.com",
-      "overviewZh": "谷歌新闻 AI 发布了有关“Anthropic CEO 呼吁在安全问题下‘走在人工智能竞赛前沿’的最新消息 -fox10tv.com”。",
-      "overviewEn": "Google News AI published a new update about “Anthropic CEO calls for ‘pacing the frontier’ of AI race amid safety concerns - fox10tv.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRHFnSkQzcUE3Qm44R0FWSTV0Y3dRNmRIY3lSV2NQRXhWUUNXMmc2UTJ3SGRzbHNGWURkU2FLSjZxWXQ5dFZkU2lNdVdaWDZaTXk2emt6Vkd2cVVlbkxKRm9QRXlKUDI3RDdiMm5qaS1ocW9QTGFlaHZSUG50UXJOU2s3SDQzMzNvM1JGb3FaeHRhY0JiQmI1cjdhOTJVWmI3M2dROWcwRkVHZw?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Skild AI 利用 NVIDIA 物理 AI 通过单个视频教授机器人新任务",
-      "titleEn": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-09-10",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：制造车间、仓库和生产线很少保持固定状态——任务变化、布局变化和新产品到来，如果不进行重大重新编程，大多数机器人就无法跟上。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming.",
-      "overviewZh": "NVIDIA 博客发布了有关“Skild AI 利用 NVIDIA 物理 AI 通过单个视频教机器人新任务”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "Y Combinator 的 Garry Tan 希望美国开放式人工智能实验室也能“提炼”前沿模型",
-      "titleEn": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-      "source": "TechCrunch AI",
+      "titleZh": "AI 模型动态：Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "titleEn": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "source": "OpenAI Blog",
       "category": "Model",
-      "publishedAt": "2026-09-11",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：Tan 希望规模较小的美国开放式人工智能实验室能够使用与美国前沿人工智能实验室相同的训练技术，从而为美国提供支持。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S.",
-      "overviewZh": "TechCrunch AI 发布了有关“Y Combinator 的 Garry Tan 希望美国开放权重人工智能实验室也‘提炼’前沿模型”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too”.",
+      "publishedAt": "2026-09-14",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的模型动态。原文要点：Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "overviewZh": "OpenAI Blog 发布了关于「Perplexity trusts GPT-6 Astra with end-to-end systems」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Perplexity trusts GPT-6 Astra with end-to-end systems”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
         }
       ],
       "tags": [
-        "Models",
-        "Open source"
+        "Models"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "代理优化的经济学：人工智能代理治理如何控制成本并证明投资回报率",
-      "titleEn": "The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI",
-      "source": "Microsoft Azure Blog",
-      "category": "Product",
-      "publishedAt": "2026-09-10",
-      "summaryZh": "Microsoft Azure 博客报道了 AI 领域的产品开发。来源要点：这篇博文是代理优化经济学的第四部分，也是最后一部分，它分享了可以帮助您优化代理的策略、功能和证明点",
-      "summaryEn": "Microsoft Azure Blog reports a product development in AI. Key point from the source: This blog post is the fourth and final installment of The Economics of Agent Optimization, which shares the strategies, capabilities, and proof points that can help you optimize ag",
-      "overviewZh": "Microsoft Azure 博客发布了有关“代理优化的经济学：AI 代理治理如何控制成本并证明投资回报率”的最新更新。",
-      "overviewEn": "Microsoft Azure Blog published a new update about “The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI”.",
+      "titleZh": "AI 行业动态：Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium",
+      "titleEn": "Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-09-13",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的行业动态。原文要点：Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) &nbsp;&nbsp; Avi Loeb – Medium",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) &nbsp;&nbsp; Avi Loeb – Medium",
+      "overviewZh": "Google News AI 发布了关于「Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-how-ai-agent-governance-controls-cost-and-proves-roi/"
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcERranp2Rk5ISWliOVZURE53OFgtUXFYQTl5bFlfaS05QlZBVXZnblZ4WUkwWGRuSWtyZVVFYnJ6OFJ5UGtscVpLNEdDbGU1aWZjN2Q4akNQZHZKNHhnNXJUTXZERzQwaGtrUEo4QzB5cHptVFF0S0xLNWJHNHBhWDNKMFRFdHNSQnJoTlh0dUhZeVR1Nzdzc0FPQm9PQmNxblRDdVhOX193anllbXU4WVVSNnEtaVVwVGw4emt5NDF5RU1hdmxWN2xBSjA?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     }
   ]
