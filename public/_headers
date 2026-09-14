@@ -1,0 +1,6 @@
+/second-brain/*
+  X-Robots-Tag: noindex, noarchive
+  Cache-Control: no-store
+/en/second-brain/*
+  X-Robots-Tag: noindex, noarchive
+  Cache-Control: no-store

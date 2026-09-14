@@ -1,3 +1,4 @@
+import './scripts/check-second-brain-privacy.mjs';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
