@@ -1,49 +1,49 @@
 {
-  "updatedAt": "2026-09-14T01:05:28.730Z",
+  "updatedAt": "2026-09-15T01:28:18.510Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34794743346",
+  "edition": "github-34917374750",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 政策动态：Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "titleEn": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-13",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
-      "overviewZh": "TechCrunch AI 发布了关于「Obama urges Democrats to have a ‘clear plan’ for AI safeguards」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Obama urges Democrats to have a ‘clear plan’ for AI safeguards”.",
+      "titleZh": "AI 模型动态：How Fyxer built an AI executive assistant people trust",
+      "titleEn": "How Fyxer built an AI executive assistant people trust",
+      "source": "OpenAI Blog",
+      "category": "Model",
+      "publishedAt": "2026-09-14",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的模型动态。原文要点：Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "overviewZh": "OpenAI Blog 发布了关于「How Fyxer built an AI executive assistant people trust」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “How Fyxer built an AI executive assistant people trust”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/"
+          "url": "https://openai.com/index/fyxer"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "AI 基础设施动态：Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com",
-      "titleEn": "Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com",
-      "source": "Google News AI",
-      "category": "Infrastructure",
+      "titleZh": "AI 政策动态：Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "titleEn": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "source": "The Verge AI",
+      "category": "Policy",
       "publishedAt": "2026-09-14",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的基础设施动态。原文要点：Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks &nbsp;&nbsp; bloomberg.com",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks &nbsp;&nbsp; bloomberg.com",
-      "overviewZh": "Google News AI 发布了关于「Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Watch Anthropic’s AI Warning Seen as Setback for Chip Stocks - bloomberg.com”.",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的政策动态。原文要点：When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI developm",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI developm",
+      "overviewZh": "The Verge AI 发布了关于「Is Big Tech’s AI slowdown a safety pact or a cartel?」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Is Big Tech’s AI slowdown a safety pact or a cartel?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDdCOFgtQWE3ZHdWZDNwdEo4UGpJNWxKSmhLUnpfaDdxSWswaXlmQ0RlbVh5MW9NZmZuMW5TWjg3SWhCOFgwdXpmX05EeFZJNUttMGZiRHNDcmhJd3hVM1NGZ1FmM2dXU0htaFozeGFSdGZSQnBWVnktdVhQd0JjQm9ZSXE1bXJpTVJ3SHVhcjZGWGpHb1VHSHQ1ekdrTW1RUkJCVFNXTUJPaFlpRlE?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
         }
       ],
       "tags": [
@@ -52,42 +52,42 @@
     },
     {
       "rank": 3,
-      "titleZh": "AI 模型动态：Anthropic CEO says it’s time to pump the brakes on AI",
-      "titleEn": "Anthropic CEO says it’s time to pump the brakes on AI",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-09-12",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to s",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to s",
-      "overviewZh": "The Verge AI 发布了关于「Anthropic CEO says it’s time to pump the brakes on AI」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic CEO says it’s time to pump the brakes on AI”.",
+      "titleZh": "AI 政策动态：CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC",
+      "titleEn": "CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-14",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ &nbsp;&nbsp; CNBC",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ &nbsp;&nbsp; CNBC",
+      "overviewZh": "Google News AI 发布了关于「CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development"
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbXAxVnBaX2h3RWVkOWo4Z0Zsb1NvYjBjOGw5UEltcjE4RVp0T1psMFd3UVlrVUd1V2lMZXB4bnREdGFpSkFnWFlhMDV3S2dJMVJDa0tnSnNoTzFvZHYzZEwyVy11cVd5TEdsNFhpRGFaRjFpRXZCdGlGQ0FWSGhJUHpPWUFFaFhx0gGOAUFVX3lxTE5lSVVSSENyQzdFYXl1WTl5OXpfc08wZW1wb3A5eFhGanhadHJETGdhN1MycGNDS0xqblhEY2otaXRrbng3UENDSmQwUzFQWW9fT2hwbkFXdFdyQ25Xa3c5MlRBUC1FY2U1eXplc09tc3lnNkRMZ3hPaEZuZ1REMXpFUTItMVJPQ0V5NW5zTlE?oc=5"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "AI 模型动态：Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "titleEn": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "source": "OpenAI Blog",
+      "titleZh": "AI 模型动态：Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+      "titleEn": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+      "source": "TechCrunch AI",
       "category": "Model",
       "publishedAt": "2026-09-14",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的模型动态。原文要点：Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "overviewZh": "OpenAI Blog 发布了关于「Perplexity trusts GPT-6 Astra with end-to-end systems」的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Perplexity trusts GPT-6 Astra with end-to-end systems”.",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的模型动态。原文要点：If you're building an AI company, the question isn't whether foundation models will continue to evolve.",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: If you're building an AI company, the question isn't whether foundation models will continue to evolve.",
+      "overviewZh": "TechCrunch AI 发布了关于「Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+          "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/"
         }
       ],
       "tags": [
@@ -96,24 +96,25 @@
     },
     {
       "rank": 5,
-      "titleZh": "AI 行业动态：Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium",
-      "titleEn": "Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium",
-      "source": "Google News AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-13",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的行业动态。原文要点：Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) &nbsp;&nbsp; Avi Loeb – Medium",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) &nbsp;&nbsp; Avi Loeb – Medium",
-      "overviewZh": "Google News AI 发布了关于「Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Defining a New Research Frontier on the “Search for Extraterrestrial Artificial Intelligence” (SETAI) - Avi Loeb – Medium”.",
+      "titleZh": "AI 模型动态：Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "titleEn": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "source": "NVIDIA Blog",
+      "category": "Model",
+      "publishedAt": "2026-09-14",
+      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的模型动态。原文要点：As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device.",
+      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device.",
+      "overviewZh": "NVIDIA Blog 发布了关于「Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX」的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcERranp2Rk5ISWliOVZURE53OFgtUXFYQTl5bFlfaS05QlZBVXZnblZ4WUkwWGRuSWtyZVVFYnJ6OFJ5UGtscVpLNEdDbGU1aWZjN2Q4akNQZHZKNHhnNXJUTXZERzQwaGtrUEo4QzB5cHptVFF0S0xLNWJHNHBhWDNKMFRFdHNSQnJoTlh0dUhZeVR1Nzdzc0FPQm9PQmNxblRDdVhOX193anllbXU4WVVSNnEtaVVwVGw4emt5NDF5RU1hdmxWN2xBSjA?oc=5"
+          "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
         }
       ],
       "tags": [
-        "AI"
+        "Agents",
+        "Models"
       ]
     }
   ]
