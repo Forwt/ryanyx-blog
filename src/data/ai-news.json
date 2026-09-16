@@ -1,21 +1,66 @@
 {
-  "updatedAt": "2026-09-15T01:28:18.510Z",
+  "updatedAt": "2026-09-16T01:25:47.511Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "fallback",
+  "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-34917374750",
+  "edition": "github-35044033161",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 模型动态：How Fyxer built an AI executive assistant people trust",
+      "titleZh": "Salesforce 和 Nvidia 的新推理模型是人工智能实验室应该担心的一切",
+      "titleEn": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-09-15",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Salesforce Koa 基于 Nvidia 的开放式 Nemotron 模型构建，经过训练可以执行销售、营销和客户支持任务。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.",
+      "overviewZh": "TechCrunch AI 发布了关于“Salesforce 和 Nvidia 的新推理模型是人工智能实验室应该担心的一切”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Open source"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "人工智能行业领袖呼吁安全护栏——KOLO | 8 条新闻",
+      "titleEn": "Artificial intelligence industry leaders are calling for safety guardrails - KOLO | 8 News Now",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-16",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人工智能行业领导者呼吁建立安全护栏    KOLO | 8 条新闻",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Artificial intelligence industry leaders are calling for safety guardrails &nbsp;&nbsp; KOLO | 8 News Now",
+      "overviewZh": "Google News AI 发布了有关“人工智能行业领导者呼吁安全护栏 - KOLO | 8 News Now”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Artificial intelligence industry leaders are calling for safety guardrails - KOLO | 8 News Now”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVUpVWlFqdE0zeW9CRVNZU2hLSC1TeG8yVHpEaE1OTVM2SlI4Q2tmUFVhcm9RUlVaVW1VNDVBcENBcUtxMU1vTDNhZFZyYWRpS1ZHNkVvRkdrR0ZsWk1pN0VtdWN0Vlg2N3FnLUNzaGpGcU5XamduNi11a2g3Q1FsUW9PTHRTTXhuN1lPelVDckhfbXEwdHpaY0M5aUpaVngxVG4yNW9zY1XSAbwBQVVfeXFMUGZkVW02WGVsZ2Nqd3cwQ25FUnBQaEVPR1FZaGtDY1VrOE5DTVpkQWJHdEpYLWxQaVpKVmRNVE55dEJXUUJKMFBFV1BJOVNueUdrNjBjMWV5WFdHUWlfWEo1TnM3dWNVRTdjQTdsWXRpQXRmazdnLTNuRy03aGRidGw0UXpmM3cxbThUYTBadjJpNFN0WEFfaV9ESXFZYW1lNHFyeTBxN2FZX0htRTRHTU1JUzNHbkx5Y1VVY3M?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "Fyxer 如何打造人们信任的人工智能行政助理",
       "titleEn": "How Fyxer built an AI executive assistant people trust",
       "source": "OpenAI Blog",
       "category": "Model",
       "publishedAt": "2026-09-14",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的模型动态。原文要点：Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：Fyxer 使用 OpenAI 模型、微调、内存和真实用户反馈来组织收件箱并以每个用户的声音起草电子邮件。",
       "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "overviewZh": "OpenAI Blog 发布了关于「How Fyxer built an AI executive assistant people trust」的最新动态。",
+      "overviewZh": "OpenAI 博客发布了有关“Fyxer 如何打造人们信任的 AI 行政助理”的最新更新。",
       "overviewEn": "OpenAI Blog published a new update about “How Fyxer built an AI executive assistant people trust”.",
       "links": [
         {
@@ -29,15 +74,15 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "AI 政策动态：Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "rank": 4,
+      "titleZh": "大型科技公司的人工智能放缓是安全协议还是卡特尔？",
       "titleEn": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
       "source": "The Verge AI",
       "category": "Policy",
       "publishedAt": "2026-09-14",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的政策动态。原文要点：When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI developm",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：当 OpenAI 首席执行官 Sam Altman、Anthropic 首席执行官 Dario Amodei、Google DeepMind 联合创始人 Demis Hassabis 和 SpaceX 负责人 Elon Musk 在周末松散地同意放慢人工智能发展速度时，",
       "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI developm",
-      "overviewZh": "The Verge AI 发布了关于「Is Big Tech’s AI slowdown a safety pact or a cartel?」的最新动态。",
+      "overviewZh": "The Verge AI 发布了关于“大型科技公司的人工智能放缓是安全协议还是卡特尔？”的最新更新。",
       "overviewEn": "The Verge AI published a new update about “Is Big Tech’s AI slowdown a safety pact or a cartel?”.",
       "links": [
         {
@@ -51,70 +96,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "AI 政策动态：CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC",
-      "titleEn": "CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-14",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ &nbsp;&nbsp; CNBC",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ &nbsp;&nbsp; CNBC",
-      "overviewZh": "Google News AI 发布了关于「CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “CrowdStrike CEO on Anthropic’s AI safety warning: ‘The genie’s out of the bottle’ - CNBC”.",
+      "rank": 5,
+      "titleZh": "黄仁勋在 Dreamforce 表示：“现在我们可以知道一切、做任何事”",
+      "titleEn": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
+      "publishedAt": "2026-09-15",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：了解一切。做任何事。这是 NVIDIA 创始人兼首席执行官黄仁勋 (Jensen Huang) 周二向 Salesforce Dreamforce 传达的信息，他与首席执行官马克·贝尼奥夫 (Marc Benioff) 一起登台亮相。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance t",
+      "overviewZh": "NVIDIA 博客发布了有关“‘现在我们可以知道一切并做任何事’黄仁勋在 Dreamforce 上说道”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbXAxVnBaX2h3RWVkOWo4Z0Zsb1NvYjBjOGw5UEltcjE4RVp0T1psMFd3UVlrVUd1V2lMZXB4bnREdGFpSkFnWFlhMDV3S2dJMVJDa0tnSnNoTzFvZHYzZEwyVy11cVd5TEdsNFhpRGFaRjFpRXZCdGlGQ0FWSGhJUHpPWUFFaFhx0gGOAUFVX3lxTE5lSVVSSENyQzdFYXl1WTl5OXpfc08wZW1wb3A5eFhGanhadHJETGdhN1MycGNDS0xqblhEY2otaXRrbng3UENDSmQwUzFQWW9fT2hwbkFXdFdyQ25Xa3c5MlRBUC1FY2U1eXplc09tc3lnNkRMZ3hPaEZuZ1REMXpFUTItMVJPQ0V5NW5zTlE?oc=5"
+          "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/"
         }
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "AI 模型动态：Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-      "titleEn": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-09-14",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的模型动态。原文要点：If you're building an AI company, the question isn't whether foundation models will continue to evolve.",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: If you're building an AI company, the question isn't whether foundation models will continue to evolve.",
-      "overviewZh": "TechCrunch AI 发布了关于「Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "AI 模型动态：Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "titleEn": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "source": "NVIDIA Blog",
-      "category": "Model",
-      "publishedAt": "2026-09-14",
-      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的模型动态。原文要点：As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device.",
-      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device.",
-      "overviewZh": "NVIDIA Blog 发布了关于「Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX」的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Models"
       ]
     }
   ]
