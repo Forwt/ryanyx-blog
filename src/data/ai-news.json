@@ -1,50 +1,72 @@
 {
-  "updatedAt": "2026-09-16T01:25:47.511Z",
+  "updatedAt": "2026-09-17T01:25:49.527Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-35044033161",
+  "edition": "github-35170504450",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Salesforce 和 Nvidia 的新推理模型是人工智能实验室应该担心的一切",
-      "titleEn": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+      "titleZh": "机器人正在等待 ChatGPT 时刻：Nvidia 的 Les Karpas 在 TechCrunch Disrupt 2026 上解释了原因",
+      "titleEn": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
       "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-09-15",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Salesforce Koa 基于 Nvidia 的开放式 Nemotron 模型构建，经过训练可以执行销售、营销和客户支持任务。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.",
-      "overviewZh": "TechCrunch AI 发布了关于“Salesforce 和 Nvidia 的新推理模型是人工智能实验室应该担心的一切”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear”.",
+      "category": "Industry",
+      "publishedAt": "2026-09-16",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点：机器人行业仍在等待其突破到日常生活中。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: The robotics industry is still waiting for their breakthrough into day-to-day life.",
+      "overviewZh": "TechCrunch AI 发布了有关“机器人正在等待 ChatGPT 时刻：Nvidia 的 Les Karpas 在 TechCrunch Disrupt 2026 上解释原因”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/"
+          "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/"
         }
       ],
       "tags": [
-        "Models",
-        "Open source"
+        "Robotics"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "人工智能行业领袖呼吁安全护栏——KOLO | 8 条新闻",
-      "titleEn": "Artificial intelligence industry leaders are calling for safety guardrails - KOLO | 8 News Now",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "谷歌现在将允许任何人工智能代理运行你的智能家居",
+      "titleEn": "Google will now let any AI agent run your smart home",
+      "source": "The Verge AI",
+      "category": "Model",
       "publishedAt": "2026-09-16",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人工智能行业领导者呼吁建立安全护栏    KOLO | 8 条新闻",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Artificial intelligence industry leaders are calling for safety guardrails &nbsp;&nbsp; KOLO | 8 News Now",
-      "overviewZh": "Google News AI 发布了有关“人工智能行业领导者呼吁安全护栏 - KOLO | 8 News Now”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Artificial intelligence industry leaders are calling for safety guardrails - KOLO | 8 News Now”.",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：谷歌正在向人工智能代理开放其智能家居，让 Claude 和 Open Claw 等工具访问和控制您的联网设备，并使用标准化的模型上下文协议分析您的家庭数据。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol.",
+      "overviewZh": "The Verge AI 发布了有关“谷歌现在将让任何人工智能代理运行你的智能家居”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Google will now let any AI agent run your smart home”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVUpVWlFqdE0zeW9CRVNZU2hLSC1TeG8yVHpEaE1OTVM2SlI4Q2tmUFVhcm9RUlVaVW1VNDVBcENBcUtxMU1vTDNhZFZyYWRpS1ZHNkVvRkdrR0ZsWk1pN0VtdWN0Vlg2N3FnLUNzaGpGcU5XamduNi11a2g3Q1FsUW9PTHRTTXhuN1lPelVDckhfbXEwdHpaY0M5aUpaVngxVG4yNW9zY1XSAbwBQVVfeXFMUGZkVW02WGVsZ2Nqd3cwQ25FUnBQaEVPR1FZaGtDY1VrOE5DTVpkQWJHdEpYLWxQaVpKVmRNVE55dEJXUUJKMFBFV1BJOVNueUdrNjBjMWV5WFdHUWlfWEo1TnM3dWNVRTdjQTdsWXRpQXRmazdnLTNuRy03aGRidGw0UXpmM3cxbThUYTBadjJpNFN0WEFfaV9ESXFZYW1lNHFyeTBxN2FZX0htRTRHTU1JUzNHbkx5Y1VVY3M?oc=5"
+          "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "OpenAI 报告新的人工智能安全事件，并制定披露流程 - Bloomberg.com",
+      "titleEn": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - Bloomberg.com",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-16",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 报告新的人工智能安全事件，制定披露流程    Bloomberg.com",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI Reports New AI Safety Incidents, Sets Disclosure Process &nbsp;&nbsp; Bloomberg.com",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 报告新的人工智能安全事件，设置披露流程 - Bloomberg.com”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - Bloomberg.com”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUFEd3J4dUNMcFZQWXFyZXFxdDh3eFM4T2NlYXlZZm9ldjgtMHItRXBkdU9DTk9QbzNpWHpnMzlRaDNseWtwZnozOFNKVlc5MGRUaElBajhRc0oxNE9sdXJSbkJzLURSRlZzWlJ4cElyb0toRk9jTnFrVU9xeER0cWJNQ29fRlZUeWd6ZjlIQV96QmlRRjUteXl3b0ZYZVdISUdaVVVYWEVSY2RLeG9peTRZWQ?oc=5"
         }
       ],
       "tags": [
@@ -52,43 +74,21 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Fyxer 如何打造人们信任的人工智能行政助理",
-      "titleEn": "How Fyxer built an AI executive assistant people trust",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-09-14",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：Fyxer 使用 OpenAI 模型、微调、内存和真实用户反馈来组织收件箱并以每个用户的声音起草电子邮件。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "overviewZh": "OpenAI 博客发布了有关“Fyxer 如何打造人们信任的 AI 行政助理”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “How Fyxer built an AI executive assistant people trust”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/fyxer"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "大型科技公司的人工智能放缓是安全协议还是卡特尔？",
-      "titleEn": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-14",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：当 OpenAI 首席执行官 Sam Altman、Anthropic 首席执行官 Dario Amodei、Google DeepMind 联合创始人 Demis Hassabis 和 SpaceX 负责人 Elon Musk 在周末松散地同意放慢人工智能发展速度时，",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI developm",
-      "overviewZh": "The Verge AI 发布了关于“大型科技公司的人工智能放缓是安全协议还是卡特尔？”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Is Big Tech’s AI slowdown a safety pact or a cartel?”.",
+      "titleZh": "工人如何开启新的工作方式",
+      "titleEn": "How workers are unlocking new ways of working",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-09-16",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：新的 OpenAI 经济研究展示了工人如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "overviewZh": "OpenAI 博客发布了有关“工人如何解锁新的工作方式”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “How workers are unlocking new ways of working”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+          "url": "https://openai.com/index/unlocking-new-ways-of-working"
         }
       ],
       "tags": [
@@ -97,24 +97,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "黄仁勋在 Dreamforce 表示：“现在我们可以知道一切、做任何事”",
-      "titleEn": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
-      "source": "NVIDIA Blog",
+      "titleZh": "丹麦制药巨头 Novo 将利用 Anthropic 的 Claude 推进人工智能药物发现",
+      "titleEn": "Danish pharma giant Novo to use Anthropic's Claude to advance AI drug discovery",
+      "source": "Hacker News AI",
       "category": "Industry",
-      "publishedAt": "2026-09-15",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：了解一切。做任何事。这是 NVIDIA 创始人兼首席执行官黄仁勋 (Jensen Huang) 周二向 Salesforce Dreamforce 传达的信息，他与首席执行官马克·贝尼奥夫 (Marc Benioff) 一起登台亮相。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance t",
-      "overviewZh": "NVIDIA 博客发布了有关“‘现在我们可以知道一切并做任何事’黄仁勋在 Dreamforce 上说道”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce”.",
+      "publishedAt": "2026-09-16",
+      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点：文章网址：https://www.euronews.com/health/2026/09/16/danish-pharma-giant-novo-to-use-anthropics-claude-to-advance-ai-drug-discovery 评论网址：https://news.ycombinator.com/it",
+      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://www.euronews.com/health/2026/09/16/danish-pharma-giant-novo-to-use-anthropics-claude-to-advance-ai-drug-discovery Comments URL: https://news.ycombinator.com/it",
+      "overviewZh": "Hacker News AI 发布了有关“丹麦制药巨头 Novo 使用 Anthropic 的 Claude 推进 AI 药物发现”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “Danish pharma giant Novo to use Anthropic's Claude to advance AI drug discovery”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/"
+          "url": "https://www.euronews.com/health/2026/09/16/danish-pharma-giant-novo-to-use-anthropics-claude-to-advance-ai-drug-discovery"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
