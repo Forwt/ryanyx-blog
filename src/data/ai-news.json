@@ -1,43 +1,67 @@
 {
-  "updatedAt": "2026-09-17T01:25:49.527Z",
+  "updatedAt": "2026-09-18T01:17:21.614Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "google-fallback",
+  "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-35170504450",
+  "edition": "github-35294695481",
   "items": [
     {
       "rank": 1,
-      "titleZh": "机器人正在等待 ChatGPT 时刻：Nvidia 的 Les Karpas 在 TechCrunch Disrupt 2026 上解释了原因",
-      "titleEn": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "titleZh": "AI 政策动态：Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "titleEn": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
       "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-16",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的要点：机器人行业仍在等待其突破到日常生活中。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: The robotics industry is still waiting for their breakthrough into day-to-day life.",
-      "overviewZh": "TechCrunch AI 发布了有关“机器人正在等待 ChatGPT 时刻：Nvidia 的 Les Karpas 在 TechCrunch Disrupt 2026 上解释原因”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026”.",
+      "category": "Policy",
+      "publishedAt": "2026-09-17",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的政策动态。原文要点：Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+      "overviewZh": "TechCrunch AI 发布了关于「Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/"
+          "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
         }
       ],
       "tags": [
-        "Robotics"
+        "Models",
+        "Products",
+        "Open source"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "谷歌现在将允许任何人工智能代理运行你的智能家居",
+      "titleZh": "AI 政策动态：OpenAI launches legal-focused AI platform, escalating race for law firm users - The Mighty 790 KFGO",
+      "titleEn": "OpenAI launches legal-focused AI platform, escalating race for law firm users - The Mighty 790 KFGO",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-17",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的政策动态。原文要点：OpenAI launches legal-focused AI platform, escalating race for law firm users &nbsp;&nbsp; The Mighty 790 KFGO",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI launches legal-focused AI platform, escalating race for law firm users &nbsp;&nbsp; The Mighty 790 KFGO",
+      "overviewZh": "Google News AI 发布了关于「OpenAI launches legal-focused AI platform, escalating race for law firm users - The Mighty 790 KFGO」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “OpenAI launches legal-focused AI platform, escalating race for law firm users - The Mighty 790 KFGO”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQkNlcVdyRGxXaWxpZkdIaVlHODBIOWVjMEs5b2xXcC1zRmdUT1kyYTltdHNGTTJQTkQzVVJva0pubUwyN3o2eUJPYzFWOEQtXy1XOXFYWGZQQTd4NFl4LW1OT1Z0WGxOODR2dVpHcU9TNGdpZUNtNVNjaUxnTmQwX19rNTRlaTJabENtbmxBU2NoTHJZclBXcVh2bXlsVFRJRElfQzhZS2Y?oc=5"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 模型动态：Google will now let any AI agent run your smart home",
       "titleEn": "Google will now let any AI agent run your smart home",
       "source": "The Verge AI",
       "category": "Model",
       "publishedAt": "2026-09-16",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：谷歌正在向人工智能代理开放其智能家居，让 Claude 和 Open Claw 等工具访问和控制您的联网设备，并使用标准化的模型上下文协议分析您的家庭数据。",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol.",
       "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol.",
-      "overviewZh": "The Verge AI 发布了有关“谷歌现在将让任何人工智能代理运行你的智能家居”的最新更新。",
+      "overviewZh": "The Verge AI 发布了关于「Google will now let any AI agent run your smart home」的最新动态。",
       "overviewEn": "The Verge AI published a new update about “Google will now let any AI agent run your smart home”.",
       "links": [
         {
@@ -52,69 +76,47 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "OpenAI 报告新的人工智能安全事件，并制定披露流程 - Bloomberg.com",
-      "titleEn": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - Bloomberg.com",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-16",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 报告新的人工智能安全事件，制定披露流程    Bloomberg.com",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI Reports New AI Safety Incidents, Sets Disclosure Process &nbsp;&nbsp; Bloomberg.com",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 报告新的人工智能安全事件，设置披露流程 - Bloomberg.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - Bloomberg.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUFEd3J4dUNMcFZQWXFyZXFxdDh3eFM4T2NlYXlZZm9ldjgtMHItRXBkdU9DTk9QbzNpWHpnMzlRaDNseWtwZnozOFNKVlc5MGRUaElBajhRc0oxNE9sdXJSbkJzLURSRlZzWlJ4cElyb0toRk9jTnFrVU9xeER0cWJNQ29fRlZUeWd6ZjlIQV96QmlRRjUteXl3b0ZYZVdISUdaVVVYWEVSY2RLeG9peTRZWQ?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "工人如何开启新的工作方式",
-      "titleEn": "How workers are unlocking new ways of working",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-09-16",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：新的 OpenAI 经济研究展示了工人如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-      "overviewZh": "OpenAI 博客发布了有关“工人如何解锁新的工作方式”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “How workers are unlocking new ways of working”.",
+      "titleZh": "AI 产品动态：Making global data easier to explore",
+      "titleEn": "Making global data easier to explore",
+      "source": "Google AI Blog",
+      "category": "Product",
+      "publishedAt": "2026-09-17",
+      "summaryZh": "Google AI Blog 发布了一条与 AI 相关的产品动态。原文要点：Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "summaryEn": "Google AI Blog reports a product development in AI. Key point from the source: Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "overviewZh": "Google AI Blog 发布了关于「Making global data easier to explore」的最新动态。",
+      "overviewEn": "Google AI Blog published a new update about “Making global data easier to explore”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/unlocking-new-ways-of-working"
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/"
         }
       ],
       "tags": [
-        "AI"
+        "Products"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "丹麦制药巨头 Novo 将利用 Anthropic 的 Claude 推进人工智能药物发现",
-      "titleEn": "Danish pharma giant Novo to use Anthropic's Claude to advance AI drug discovery",
-      "source": "Hacker News AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-16",
-      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点：文章网址：https://www.euronews.com/health/2026/09/16/danish-pharma-giant-novo-to-use-anthropics-claude-to-advance-ai-drug-discovery 评论网址：https://news.ycombinator.com/it",
-      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://www.euronews.com/health/2026/09/16/danish-pharma-giant-novo-to-use-anthropics-claude-to-advance-ai-drug-discovery Comments URL: https://news.ycombinator.com/it",
-      "overviewZh": "Hacker News AI 发布了有关“丹麦制药巨头 Novo 使用 Anthropic 的 Claude 推进 AI 药物发现”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Danish pharma giant Novo to use Anthropic's Claude to advance AI drug discovery”.",
+      "titleZh": "AI 政策动态：Introducing Astra for Law",
+      "titleEn": "Introducing Astra for Law",
+      "source": "OpenAI Blog",
+      "category": "Policy",
+      "publishedAt": "2026-09-17",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的政策动态。原文要点：OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "overviewZh": "OpenAI Blog 发布了关于「Introducing Astra for Law」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing Astra for Law”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.euronews.com/health/2026/09/16/danish-pharma-giant-novo-to-use-anthropics-claude-to-advance-ai-drug-discovery"
+          "url": "https://openai.com/index/astra-for-law"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     }
   ]
