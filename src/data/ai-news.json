@@ -1,49 +1,49 @@
 {
-  "updatedAt": "2026-09-19T01:10:30.934Z",
+  "updatedAt": "2026-09-20T01:10:15.673Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-35411797656",
+  "edition": "github-35480676128",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Anthropic 尽管拥有 A.I.，仍寻求 IPO安全警告 - 纽约时报",
-      "titleEn": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings - The New York Times",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "Show HN：我创建了一个开源的本地可用的成熟人工智能平台",
+      "titleEn": "Show HN: I created an open source locally usable full fledged AI platform",
+      "source": "Hacker News AI",
+      "category": "Model",
       "publishedAt": "2026-09-19",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：尽管 Anthropic 拥有人工智能，但仍寻求 IPO",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic Pursues IPO Despite Its A.I.",
-      "overviewZh": "谷歌新闻 AI 发布了有关“尽管有人工智能安全警告，Anthropic 仍在寻求 IPO - 纽约时报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic Pursues IPO Despite Its A.I. Safety Warnings - The New York Times”.",
+      "summaryZh": "Hacker News AI 报道了人工智能模型的开发。来源的要点：嗨，所有读者，这篇文章是针对我最近的名为 ENZO 的开源项目的，现在回答什么是 enzo，所以 enzo 是一个开源平台，我在其中汇集了所有免费的可用资源",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: hi to all the readers this post is for my recent opensource project called ENZO now answering what is enzo so enzo is an opensource platform where i clubbed all the free available ",
+      "overviewZh": "Hacker News AI 发布了有关“Show HN：我创建了一个开源本地可用的成熟 AI 平台”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “Show HN: I created an open source locally usable full fledged AI platform”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5"
+          "url": "https://github.com/theguysudo/ENZO"
         }
       ],
       "tags": [
-        "AI"
+        "Open source"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "达里奥·阿莫迪 (Dario Amodei) 和其他人工智能领导者希望“开拓前沿”，但是……如何做？",
-      "titleEn": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
-      "source": "TechCrunch AI",
-      "category": "Industry",
+      "titleZh": "澳大利亚青少年安全蓝图简介",
+      "titleEn": "Introducing the Australian Youth Safety Blueprint",
+      "source": "OpenAI Blog",
+      "category": "Policy",
       "publishedAt": "2026-09-18",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：在人类研究人员发出世界末日警告震惊人工智能世界一周后，该公司首席执行官达里奥·阿莫迪概述了他“引领人工智能发展前沿”的计划。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development.",
-      "overviewZh": "TechCrunch AI 发布了有关“Dario Amodei 和其他 AI 领导者希望‘开拓前沿’但……如何做？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?”.",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 推出了澳大利亚青年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "overviewZh": "OpenAI 博客发布了有关“澳大利亚青少年安全蓝图简介”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing the Australian Youth Safety Blueprint”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/"
+          "url": "https://openai.com/index/australian-youth-safety-blueprint"
         }
       ],
       "tags": [
@@ -52,20 +52,20 @@
     },
     {
       "rank": 3,
-      "titleZh": "OpenAI 和微软知道他们正在为网络开启“末日循环”",
-      "titleEn": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "titleZh": "人工智能监管打击尚未结束",
+      "titleEn": "The AI regulation smackdown isn’t over",
       "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-18",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：最近公开的《纽约时报》针对 OpenAI 和微软案件的法庭文件非常严厉。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 和微软知道他们正在为网络开启‘末日循环’”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web”.",
+      "category": "Policy",
+      "publishedAt": "2026-09-19",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：本周初，人工智能界的名人录似乎——至少暂时——站在人工智能监管一边。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation.",
+      "overviewZh": "The Verge AI 发布了有关“人工智能监管打击尚未结束”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “The AI regulation smackdown isn’t over”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over"
         }
       ],
       "tags": [
@@ -74,46 +74,46 @@
     },
     {
       "rank": 4,
-      "titleZh": "让全球数据更容易探索",
-      "titleEn": "Making global data easier to explore",
-      "source": "Google AI Blog",
-      "category": "Product",
-      "publishedAt": "2026-09-17",
-      "summaryZh": "谷歌人工智能博客报道了人工智能产品的开发。消息来源的要点：谷歌和联合国系统推出了联合国系统数据共享区，这是一个新的开放平台，使全球统计数据易于访问和搜索。",
-      "summaryEn": "Google AI Blog reports a product development in AI. Key point from the source: Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-      "overviewZh": "谷歌人工智能博客发布了关于“让全球数据更容易探索”的新更新。",
-      "overviewEn": "Google AI Blog published a new update about “Making global data easier to explore”.",
+      "titleZh": "谷歌的 Gemini 是攻击其他公司的最新人工智能模型",
+      "titleEn": "Google’s Gemini is the latest AI model to hack other companies",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-09-19",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：谷歌表示，Gemini 立即结束了每次黑客攻击，“采取了适当的行动”。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+      "overviewZh": "TechCrunch AI 发布了有关“Google 的 Gemini 是攻击其他公司的最新 AI 模型”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Google’s Gemini is the latest AI model to hack other companies”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/"
+          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
         }
       ],
       "tags": [
-        "Products"
+        "Models"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "Show HN：Agentgit – 用于 AI 代理的 Git 主机，无帐户、无令牌、无密钥",
-      "titleEn": "Show HN: Agentgit – a Git host for AI agents, no account, no token, no key",
-      "source": "Hacker News AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-18",
-      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点： 文章网址：https://agentgit.co/ 评论网址：https://news.ycombinator.com/item?id=49761528 积分：7 # 评论：6",
-      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://agentgit.co/ Comments URL: https://news.ycombinator.com/item?id=49761528 Points: 7 # Comments: 6",
-      "overviewZh": "Hacker News AI 发布了有关“Show HN：Agentgit – AI 代理的 Git 主机，无帐户、无令牌、无密钥”的新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Show HN: Agentgit – a Git host for AI agents, no account, no token, no key”.",
+      "titleZh": "谷歌 Gemini AI 在安全测试期间入侵了 3 家公司 - 纽约邮报",
+      "titleEn": "Google’s Gemini AI hacked 3 companies during security tests - New York Post",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-19",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源的要点：Google 的 Gemini AI 在安全测试期间入侵了 3 家公司 纽约邮报",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Google’s Gemini AI hacked 3 companies during security tests &nbsp;&nbsp; New York Post",
+      "overviewZh": "谷歌新闻 AI 发布了有关“谷歌 Gemini AI 在安全测试期间黑了 3 家公司 - 纽约邮报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Google’s Gemini AI hacked 3 companies during security tests - New York Post”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://agentgit.co/"
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNkJoMXpka2RtQ2Y4ZTFGQ1hfellDbDBBSVgxR2ZWMW5xeXF3aU5KellVM09aa0hMTnYyZXhEWkRYTS1uZTdGVGJmbHhaZGJXZk95NWQtdkgyVFBaVmlNUFhDT1g0UmpMdTBYSFJjN0gxdVpkTS1YU0tZckQ3Ni1EeG1fd29RUDNIZzhBb184dDVXRVdpR1hXV2lRSEZHdw?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Models"
       ]
     }
   ]
