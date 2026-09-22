@@ -1,49 +1,50 @@
 {
-  "updatedAt": "2026-09-21T01:06:16.856Z",
+  "updatedAt": "2026-09-22T01:36:42.156Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-35549774217",
+  "edition": "github-35676386474",
   "items": [
     {
       "rank": 1,
-      "titleZh": "中国人工智能芯片制造商海光计划进军机器人市场 - scmp.com",
-      "titleEn": "Chinese AI chipmaker Hygon plots expansion to robotics market - scmp.com",
-      "source": "Google News AI",
-      "category": "Industry",
+      "titleZh": "Meta 的 Muse 的速度超过了 ChatGPT 的早期移动发布",
+      "titleEn": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+      "source": "TechCrunch AI",
+      "category": "Product",
       "publishedAt": "2026-09-21",
-      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：中国人工智能芯片制造商 Hygon 计划扩张机器人市场    scmp.com",
-      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Chinese AI chipmaker Hygon plots expansion to robotics market &nbsp;&nbsp; scmp.com",
-      "overviewZh": "Google News AI 发布了有关“中国人工智能芯片制造商 Hygon 计划扩张机器人市场 - scmp.com”的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Chinese AI chipmaker Hygon plots expansion to robotics market - scmp.com”.",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源要点：Meta 的新人工智能代理 Muse 在美国获得了更多下载量和日活跃用户。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S.",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 的 Muse 正在超越 ChatGPT 的早期移动发布”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta’s Muse is outpacing ChatGPT’s early mobile launch”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NyN2VHNkRrck14YTZfdGJHYVdmbFhpYUd3cEVEVzhlR1VTTTlyMXdTSnd4dmhVakd5UWE2amlTeVJ4OEM1d0twd2JGSzF6TWxCck9uallwQ1pEV2FEZFRGa19rc3lmd3ZKS3hPUXpxRE9UQkVHLWVyRDVxUHppSzg5S2hYUFlxelRFdWpLQmhYREtiQk9NVko1Q2I1WkpWSVF4bHVlZXpma09FYXpFVkZzMGVtbjZqUnfSAboBQVVfeXFMTWFibk5BM2gyR1pDdUpuMk1tMVNFbk1VOFNpZXMwOWFZTzhUR3kwcVUybjFRQTZXNGdqWk9JanJwdFliczJtaXE2NlMzbDg3N1IwTnY0VFBVdEVMZ1R0TnpGVUlhUUx0bFdDenFpa0hUNldOMThzX2owNTlWRkRuOEhNeHRMQ2pXZzRYbmZ2LV9fSlk3TzdPTWhjTnVrcWlYMUR3X0FNOU5uaDhkQzNpWnBycnhic0F1WXlR?oc=5"
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/"
         }
       ],
       "tags": [
-        "Robotics"
+        "Agents",
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "澳大利亚青少年安全蓝图简介",
-      "titleEn": "Introducing the Australian Youth Safety Blueprint",
+      "titleZh": "为人工智能下一阶段制定标准",
+      "titleEn": "Building standards for the next phase of AI",
       "source": "OpenAI Blog",
       "category": "Policy",
-      "publishedAt": "2026-09-18",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 推出了澳大利亚青年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "overviewZh": "OpenAI 博客发布了有关“澳大利亚青少年安全蓝图简介”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Introducing the Australian Youth Safety Blueprint”.",
+      "publishedAt": "2026-09-21",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "overviewZh": "OpenAI 博客发布了有关“为下一阶段人工智能构建标准”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Building standards for the next phase of AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/australian-youth-safety-blueprint"
+          "url": "https://openai.com/index/building-standards-next-phase-ai"
         }
       ],
       "tags": [
@@ -52,20 +53,20 @@
     },
     {
       "rank": 3,
-      "titleZh": "人工智能监管打击尚未结束",
-      "titleEn": "The AI regulation smackdown isn’t over",
-      "source": "The Verge AI",
+      "titleZh": "Anthropic 推进首次公开募股 (IPO)人工智能中的计划安全辩论 - 纽约时报",
+      "titleEn": "Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate - The New York Times",
+      "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-09-19",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：本周初，人工智能界的名人录似乎——至少暂时——站在人工智能监管一边。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation.",
-      "overviewZh": "The Verge AI 发布了有关“人工智能监管打击尚未结束”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “The AI regulation smackdown isn’t over”.",
+      "publishedAt": "2026-09-21",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：Anthropic 通过 IPO 取得进展。人工智能中的计划",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic Moves Ahead With I.P.O. Plans Amid A.I.",
+      "overviewZh": "谷歌新闻 AI 发布了关于“在人工智能安全辩论中，人类推进首次公开募股计划 - 纽约时报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate - The New York Times”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5"
         }
       ],
       "tags": [
@@ -74,46 +75,46 @@
     },
     {
       "rank": 4,
-      "titleZh": "谷歌的 Gemini 是攻击其他公司的最新人工智能模型",
-      "titleEn": "Google’s Gemini is the latest AI model to hack other companies",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-09-19",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：谷歌表示，Gemini 立即结束了每次黑客攻击，“采取了适当的行动”。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
-      "overviewZh": "TechCrunch AI 发布了有关“Google 的 Gemini 是攻击其他公司的最新 AI 模型”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Google’s Gemini is the latest AI model to hack other companies”.",
+      "titleZh": "为什么大规模部署物理人工智能需要每一层的安全",
+      "titleEn": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "source": "NVIDIA Blog",
+      "category": "Policy",
+      "publishedAt": "2026-09-21",
+      "summaryZh": "NVIDIA 博客报道了人工智能领域的政策发展。来源要点：物理人工智能正在迅速从研究转向大规模部署。",
+      "summaryEn": "NVIDIA Blog reports a policy development in AI. Key point from the source: Physical AI is moving rapidly from research to large-scale deployment.",
+      "overviewZh": "NVIDIA 博客发布了关于“为什么大规模部署物理 AI 需要每一层都安全”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Why Deploying Physical AI at Scale Demands Safety at Every Layer”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
+          "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "Anthropic 在投资者首次公开募股前的担忧中考虑新的人工智能模型 - PYMNTS.com",
-      "titleEn": "Anthropic Mulls New AI Model Amid Investors’ Pre-IPO Worries - PYMNTS.com",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-09-20",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：在投资者首次公开募股前的担忧中，Anthropic 正在考虑新的人工智能模型    PYMNTS.com",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic Mulls New AI Model Amid Investors’ Pre-IPO Worries &nbsp;&nbsp; PYMNTS.com",
-      "overviewZh": "Google News AI 发布了有关“Anthropic 在投资者首次公开募股前担忧中考虑新的 AI 模型 - PYMNTS.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic Mulls New AI Model Amid Investors’ Pre-IPO Worries - PYMNTS.com”.",
+      "titleZh": "加州收紧人工智能数据中心能源和用水的规定",
+      "titleEn": "California tightens rules on AI data center energy and water use",
+      "source": "The Verge AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-09-21",
+      "summaryZh": "The Verge AI 报道了人工智能基础设施的发展情况。消息来源的要点：据《洛杉矶时报》早些时候报道，加州州长加文·纽瑟姆 (Gavin Newsom) 签署了七项法案，旨在防止人工智能数据中心将公用事业成本转嫁给居民。",
+      "summaryEn": "The Verge AI reports an infrastructure development in AI. Key point from the source: California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times.",
+      "overviewZh": "The Verge AI 发布了有关“加州收紧人工智能数据中心能源和水使用规则”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “California tightens rules on AI data center energy and water use”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNWp5cTZXc0VwMGkzZWNRM29aQ09xbG0ta1BvaEVxT3AxLW1PdHZzMEV4MEZBemgyVFNjVEpEMHUtUTg3TVZwcElQNkJtUDhybzNTdFh2Sk5iTjM1a3pUUkNyTVBBbDl2dTR5U2t0MTJxN3NWbzZaX0p4UzB1RTJiRklSeno3WUtRdk5IUWxMZ1hQb05RUjJ5cVFhVFE5Y0IxOVdfTEdkemhMRVRpMnp1LUJPQVJaWFNk?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
         }
       ],
       "tags": [
-        "Models"
+        "Infrastructure"
       ]
     }
   ]
