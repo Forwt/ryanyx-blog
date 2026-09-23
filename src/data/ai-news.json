@@ -1,13 +1,82 @@
 {
-  "updatedAt": "2026-09-22T01:36:42.156Z",
+  "updatedAt": "2026-09-23T01:30:46.592Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-35676386474",
+  "edition": "github-35806559429",
   "items": [
     {
       "rank": 1,
+      "titleZh": "NVIDIA Isaac ROS 5.0 推进代理开源机器人开发",
+      "titleEn": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "source": "NVIDIA Blog",
+      "category": "Model",
+      "publishedAt": "2026-09-22",
+      "summaryZh": "NVIDIA 博客报道了 AI 模型的开发。来源要点：为了构建和部署能够在动态环境中感知、推理和行动的复杂机器人应用程序，开发人员需要新的物理人工智能模型和工具。",
+      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools.",
+      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA Isaac ROS 5.0 推进 Agentic、开源机器人开发”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models",
+        "Open source",
+        "Robotics"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "Amazon CloudWatch Omni 简介：用于生成式 AI 和代理工作负载的 AI 驱动的可观测性 - Amazon Web Services (AWS)",
+      "titleEn": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads - Amazon Web Services (AWS)",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-09-22",
+      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：Amazon CloudWatch Omni 简介：AI 支持的生成式 AI 和代理工作负载的可观测性 Amazon Web Services (AWS)",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads &nbsp;&nbsp; Amazon Web Services (AWS)",
+      "overviewZh": "Google News AI 发布了有关“Amazon CloudWatch Omni 简介：人工智能驱动的生成式 AI 和代理工作负载的可观测性 - Amazon Web Services (AWS)”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads - Amazon Web Services (AWS)”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWVhbVg4T1p1R0dHREV5eTVmWEJGRzJzYlFpT2pidWF0V3hQMHJVcHRYN1pmWTlKRmdpWHJiWTJqbFNJcDRheThYMXF6amtyM3dpQXBCRVhuOE9Eb0JHTFFKUl9HNDNhWnFwdVJVeGJWVFVPbzhxbXAwSno5YWhUaEROMzZkUTNWeS1TVFdvR2gwYS1US2JCSF9lSk9WSXZpWmZZNlBRam9YV01fRXJ5Rld0b3RsaHBmVG12UWRyd3NkTXNZaW5aYUxQQ1NEZw?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "Rabbit 的新 AI 代理不需要 R1 即可运行",
+      "titleEn": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-09-22",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的关键点：正如《连线》早些时候报道的那样，Rabbit（Rabbit 是令人印象深刻的 R1 设备背后的公司）正在推出一款独立的 AI 代理，您无需使用其硬件即可使用该代理。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired.",
+      "overviewZh": "The Verge AI 发布了有关“Rabbit 的新 AI 代理不需要 R1 即可运行”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Rabbit’s new AI agent doesn’t need an R1 to run”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "Meta 的 Muse 的速度超过了 ChatGPT 的早期移动发布",
       "titleEn": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
       "source": "TechCrunch AI",
@@ -30,91 +99,25 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "为人工智能下一阶段制定标准",
-      "titleEn": "Building standards for the next phase of AI",
+      "rank": 5,
+      "titleZh": "有效第三方评估的优先事项和原则",
+      "titleEn": "Priorities and principles for effective third party assessments",
       "source": "OpenAI Blog",
       "category": "Policy",
-      "publishedAt": "2026-09-21",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "overviewZh": "OpenAI 博客发布了有关“为下一阶段人工智能构建标准”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Building standards for the next phase of AI”.",
+      "publishedAt": "2026-09-22",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：OpenAI 概述了对前沿模型和保障措施进行严格、安全和独立的第三方人工智能安全评估的优先事项和原则。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "overviewZh": "OpenAI 博客发布了有关“有效第三方评估的优先事项和原则”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Priorities and principles for effective third party assessments”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/building-standards-next-phase-ai"
+          "url": "https://openai.com/index/priorities-principles-third-party-assessments"
         }
       ],
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Anthropic 推进首次公开募股 (IPO)人工智能中的计划安全辩论 - 纽约时报",
-      "titleEn": "Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate - The New York Times",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-21",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：Anthropic 通过 IPO 取得进展。人工智能中的计划",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic Moves Ahead With I.P.O. Plans Amid A.I.",
-      "overviewZh": "谷歌新闻 AI 发布了关于“在人工智能安全辩论中，人类推进首次公开募股计划 - 纽约时报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate - The New York Times”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "为什么大规模部署物理人工智能需要每一层的安全",
-      "titleEn": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "source": "NVIDIA Blog",
-      "category": "Policy",
-      "publishedAt": "2026-09-21",
-      "summaryZh": "NVIDIA 博客报道了人工智能领域的政策发展。来源要点：物理人工智能正在迅速从研究转向大规模部署。",
-      "summaryEn": "NVIDIA Blog reports a policy development in AI. Key point from the source: Physical AI is moving rapidly from research to large-scale deployment.",
-      "overviewZh": "NVIDIA 博客发布了关于“为什么大规模部署物理 AI 需要每一层都安全”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Why Deploying Physical AI at Scale Demands Safety at Every Layer”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "加州收紧人工智能数据中心能源和用水的规定",
-      "titleEn": "California tightens rules on AI data center energy and water use",
-      "source": "The Verge AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-09-21",
-      "summaryZh": "The Verge AI 报道了人工智能基础设施的发展情况。消息来源的要点：据《洛杉矶时报》早些时候报道，加州州长加文·纽瑟姆 (Gavin Newsom) 签署了七项法案，旨在防止人工智能数据中心将公用事业成本转嫁给居民。",
-      "summaryEn": "The Verge AI reports an infrastructure development in AI. Key point from the source: California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times.",
-      "overviewZh": "The Verge AI 发布了有关“加州收紧人工智能数据中心能源和水使用规则”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “California tightens rules on AI data center energy and water use”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
-        }
-      ],
-      "tags": [
-        "Infrastructure"
+        "Models"
       ]
     }
   ]
