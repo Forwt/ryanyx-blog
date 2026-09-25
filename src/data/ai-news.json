@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-24T01:24:16.885Z",
+  "updatedAt": "2026-09-25T01:31:13.274Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-35942749977",
+  "edition": "github-36082358525",
   "items": [
     {
       "rank": 1,
@@ -13,7 +13,7 @@
       "source": "NVIDIA Blog",
       "category": "Model",
       "publishedAt": "2026-09-22",
-      "summaryZh": "NVIDIA 博客报道了 AI 模型的开发。来源要点：为了构建和部署能够在动态环境中感知、推理和行动的复杂机器人应用程序，开发人员需要新的物理人工智能模型和工具。",
+      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。来源要点：为了构建和部署能够在动态环境中感知、推理和行动的复杂机器人应用程序，开发人员需要新的物理人工智能模型和工具。",
       "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools.",
       "overviewZh": "NVIDIA 博客发布了有关“NVIDIA Isaac ROS 5.0 推进 Agentic、开源机器人开发”的最新更新。",
       "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development”.",
@@ -33,6 +33,28 @@
     },
     {
       "rank": 2,
+      "titleZh": "Muse 看起来确实很像 OpenClaw",
+      "titleEn": "Muse sure looks a lot like OpenClaw",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-09-24",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：我们似乎正在进入人工智能代理的复兴时期。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: We seem to be entering into an AI agent renaissance.",
+      "overviewZh": "The Verge AI 发布了关于“Muse 确实看起来很像 OpenClaw”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “Muse sure looks a lot like OpenClaw”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "心理健康基准简介",
       "titleEn": "Introducing MentalHealthBench",
       "source": "OpenAI Blog",
@@ -54,70 +76,47 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "ChatGPT 移动应用获得基于语音的代理功能",
-      "titleEn": "ChatGPT mobile app gets voice-based agentic features",
-      "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-23",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。来源要点：Pro 和 Plus 用户将能够使用手机上的“工作”选项卡来完成代理任务。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
-      "overviewZh": "TechCrunch AI 发布了有关“ChatGPT 移动应用程序获得基于语音的代理功能”的新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “ChatGPT mobile app gets voice-based agentic features”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "Anthropic 的生物实验室发现了一项与 Crispr 进行比较的发现",
-      "titleEn": "Anthropic’s biolab made a discovery it’s comparing to Crispr",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-09-23",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的关键点：Anthropic 表示，其人工智能 Claude 已经“自主发现”了一种新的酶系统，类似于强大的基因编辑工具 Crispr 背后的机器。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Anthropic says its AI Claude has \"autonomously discovered\" a new enzyme system similar to machinery behind the powerful gene-editing tool Crispr.",
-      "overviewZh": "The Verge AI 发布了有关“Anthropic 的生物实验室发现了一项与 Crispr 进行比较”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic’s biolab made a discovery it’s comparing to Crispr”.",
+      "titleZh": "白宫要求 OpenAI 和 Anthropic 保留英国测试人员提供的新模型，直至美国审查 - Politico",
+      "titleEn": "White House asks OpenAI and Anthropic to hold new models from UK testers until US review - Politico",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-09-24",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：白宫要求 OpenAI 和 Anthropic 保留英国测试人员提供的新模型，直至美国审查 Politico",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: White House asks OpenAI and Anthropic to hold new models from UK testers until US review &nbsp;&nbsp; Politico",
+      "overviewZh": "Google News AI 发布了有关“白宫要求 OpenAI 和 Anthropic 保留英国测试人员的新模型直至美国审查 - Politico”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “White House asks OpenAI and Anthropic to hold new models from UK testers until US review - Politico”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeUlVRnFEdlRXN1Fta2xlNTFZc2p6UzAyYjU3N1hSTkdfZWpNMVlxdXN5M0syUVFMZ2NtNGY3bmtNa2ZZVDFaSGxXaGFENEZfTk9Ia1RtOFMzM25xY1JaemFiY2tsdTVob3YyQ0hXRUNfSjh2U19hZmdPbVp1amR3WUZoWDI3UVRXQWZvUGZXQUY5WmtHcU11eDBsQjFzV1NYRFpGT0dUX1YyMWpoSmhkcVJoOEhhLWU0UVJXYjF6VUlxeEFyTk9rNy1KVFN6cE1NS0pXNjhR?oc=5"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Models"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "直播：OpenAI 和 Anthropic 向安理会通报失控人工智能带来的“真实且迫在眉睫”的威胁 - 联合国新闻",
-      "titleEn": "LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI - UN News",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "Meta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备",
+      "titleEn": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "source": "TechCrunch AI",
+      "category": "Product",
       "publishedAt": "2026-09-24",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：直播：OpenAI 和 Anthropic 向安理会通报了失控的人工智能带来的“真实且迫在眉睫”的威胁 联合国新闻",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI &nbsp;&nbsp; UN News",
-      "overviewZh": "谷歌新闻 AI 发布了有关“实时：OpenAI 和 Anthropic 向安理会通报失控人工智能构成‘真实且迫在眉睫’的威胁 - 联合国新闻”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI - UN News”.",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：这个微型硬件设备为其人工智能代理 Muse 创建了另一个移动房屋。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: The tiny hardware device creates another mobile home for its AI agent Muse.",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta made a Tamagotchi-like wearable for its Muse AI agent”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVGZCZ3prNmhaQXp3bkxTeWlRWlpjYUkxV2V0UWJGTy01dTFZQ2NoLXlXQWtVQ3lySFJsZmNuMDRWMWZQbmhfUGpqN3VsbFlPZ1ltNl9HQQ?oc=5"
+          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     }
   ]
