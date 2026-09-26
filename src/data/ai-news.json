@@ -1,52 +1,49 @@
 {
-  "updatedAt": "2026-09-25T01:31:13.274Z",
+  "updatedAt": "2026-09-26T01:34:39.661Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-36082358525",
+  "edition": "github-36208880164",
   "items": [
     {
       "rank": 1,
-      "titleZh": "NVIDIA Isaac ROS 5.0 推进代理开源机器人开发",
-      "titleEn": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "source": "NVIDIA Blog",
-      "category": "Model",
-      "publishedAt": "2026-09-22",
-      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。来源要点：为了构建和部署能够在动态环境中感知、推理和行动的复杂机器人应用程序，开发人员需要新的物理人工智能模型和工具。",
-      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools.",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA Isaac ROS 5.0 推进 Agentic、开源机器人开发”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development”.",
+      "titleZh": "Meta 的 Muse 刚刚抢走了 OpenAI 和 Anthropic 的人工智能焦点",
+      "titleEn": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+      "source": "TechCrunch AI",
+      "category": "Industry",
+      "publishedAt": "2026-09-25",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：当 OpenAI 和 Anthropic 的人工智能领导者开始谈论“调整前沿”时，也许有人应该问：什么速度？",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace?",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 的 Muse 刚刚抢走了 OpenAI 和 Anthropic 的人工智能焦点”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+          "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/"
         }
       ],
       "tags": [
-        "Agents",
-        "Models",
-        "Open source",
-        "Robotics"
+        "AI"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "Muse 看起来确实很像 OpenClaw",
-      "titleEn": "Muse sure looks a lot like OpenClaw",
+      "titleZh": "一家公司正处于一波流氓人工智能攻击的中心",
+      "titleEn": "One company is at the center of a wave of rogue AI attacks",
       "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-09-24",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：我们似乎正在进入人工智能代理的复兴时期。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: We seem to be entering into an AI agent renaissance.",
-      "overviewZh": "The Verge AI 发布了关于“Muse 确实看起来很像 OpenClaw”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “Muse sure looks a lot like OpenClaw”.",
+      "category": "Policy",
+      "publishedAt": "2026-09-25",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源要点：7月，OpenAI透露其AI代理未经许可攻击Hugging Face，引发了人们对AI安全的广泛担忧。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety.",
+      "overviewZh": "The Verge AI 发布了有关“一家公司处于流氓人工智能攻击浪潮的中心”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “One company is at the center of a wave of rogue AI attacks”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
         }
       ],
       "tags": [
@@ -55,6 +52,28 @@
     },
     {
       "rank": 3,
+      "titleZh": "隆重推出带有 Home、Code 和 Autopilot 的全新 Copilot - 微软官方博客",
+      "titleEn": "Introducing the new Copilot with Home, Code and Autopilot - The Official Microsoft Blog",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-09-25",
+      "summaryZh": "Google News AI 报道了人工智能的行业发展。来源要点：引入带有 Home、Code 和 Autopilot 的新 Copilot 微软官方博客",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Introducing the new Copilot with Home, Code and Autopilot &nbsp;&nbsp; The Official Microsoft Blog",
+      "overviewZh": "Google News AI 发布了有关“引入带有 Home、Code 和 Autopilot 的新 Copilot - 微软官方博客”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Introducing the new Copilot with Home, Code and Autopilot - The Official Microsoft Blog”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdnBldHlfWlM4TjV6Y2NWTlNMUjFzQ0ZUa2M5MTkwX2pkaHNhbXc0TDJJbUs4bmxHZ3RSXzQ3SlFXd3VuemZFaWJFekFneHRNUDBNb2ZyTmgxVWFqR1BySzZRelo1ZjdTWXhuYjlGc1dOQm9JNTJMWHNlSHY0Z2FxS3hhMnp1OGVqWFdMTGlFYXZoZV9mc29ySDhGdUlZOW1RM3Rv?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "心理健康基准简介",
       "titleEn": "Introducing MentalHealthBench",
       "source": "OpenAI Blog",
@@ -76,47 +95,25 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "白宫要求 OpenAI 和 Anthropic 保留英国测试人员提供的新模型，直至美国审查 - Politico",
-      "titleEn": "White House asks OpenAI and Anthropic to hold new models from UK testers until US review - Politico",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-09-24",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：白宫要求 OpenAI 和 Anthropic 保留英国测试人员提供的新模型，直至美国审查 Politico",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: White House asks OpenAI and Anthropic to hold new models from UK testers until US review &nbsp;&nbsp; Politico",
-      "overviewZh": "Google News AI 发布了有关“白宫要求 OpenAI 和 Anthropic 保留英国测试人员的新模型直至美国审查 - Politico”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “White House asks OpenAI and Anthropic to hold new models from UK testers until US review - Politico”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeUlVRnFEdlRXN1Fta2xlNTFZc2p6UzAyYjU3N1hSTkdfZWpNMVlxdXN5M0syUVFMZ2NtNGY3bmtNa2ZZVDFaSGxXaGFENEZfTk9Ia1RtOFMzM25xY1JaemFiY2tsdTVob3YyQ0hXRUNfSjh2U19hZmdPbVp1amR3WUZoWDI3UVRXQWZvUGZXQUY5WmtHcU11eDBsQjFzV1NYRFpGT0dUX1YyMWpoSmhkcVJoOEhhLWU0UVJXYjF6VUlxeEFyTk9rNy1KVFN6cE1NS0pXNjhR?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "Meta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备",
-      "titleEn": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "titleZh": "Meta 的 AI Tamagotchi 赌注……有效吗？",
+      "titleEn": "Meta’s AI Tamagotchi bet is…working?",
       "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-09-24",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：这个微型硬件设备为其人工智能代理 Muse 创建了另一个移动房屋。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: The tiny hardware device creates another mobile home for its AI agent Muse.",
-      "overviewZh": "TechCrunch AI 发布了有关“Meta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta made a Tamagotchi-like wearable for its Muse AI agent”.",
+      "category": "Industry",
+      "publishedAt": "2026-09-25",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：当 OpenAI 和 Anthropic 的人工智能领导者开始谈论“调整前沿”时，也许有人应该问：什么速度？",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace?",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 的 AI Tamagotchi 赌注……有效吗？”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta’s AI Tamagotchi bet is…working?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/"
+          "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     }
   ]
