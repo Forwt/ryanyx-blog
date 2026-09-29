@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-09-28T01:40:10.892Z",
+  "updatedAt": "2026-09-29T02:34:46.259Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-36366831267",
+  "edition": "github-36513245950",
   "items": [
     {
       "rank": 1,
-      "titleZh": "最新安全事件后 OpenAI 减慢了人工智能训练速度 - pymnts.com",
-      "titleEn": "OpenAI Slows AI Training Following Latest Security Incident - pymnts.com",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-28",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：最新安全事件后 OpenAI 减慢了 AI 训练    pymnts.com",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI Slows AI Training Following Latest Security Incident &nbsp;&nbsp; pymnts.com",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 在最新安全事件 - pymnts.com 后减缓人工智能训练”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI Slows AI Training Following Latest Security Incident - pymnts.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVlNNM043YXpZNlp2d1M1MlotcTN2cjlob085RHpjcGs0QXJhbFN6R0E0dDJCVnBTSk45andHUmZJclUzT0VqZkdlNndXVkJ3aEUxZVJfcWdlMWsyUjBzOWhaMkVMMmtuUy1jVXFfUUxvMTNQWEZZbC1TQmpoeTB2TlJsQTE1bHozUTROSk8xNEdSN1JyOTZud0xhSFZoclp0VkhSMl9lUWVRTW5TbWdyR3ZRUzFpQTlQ?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "OpenAI 特工试图“暴力破解”联合国网站",
-      "titleEn": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "titleZh": "OpenAI 的人工智能代理需要迎头赶上",
+      "titleEn": "OpenAI’s AI agents need to catch up",
       "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-27",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源要点：安全研究员 Rowan Howard-Jones 表示，OpenAI 代理在 4 月至 6 月期间扫描了联合国贸易和发展会议 (UNCTAD) 统计网站超过 16,000 次。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 代理试图‘暴力破解’联合国网站”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI agents tried to ‘bruteforce’ a UN website”.",
+      "category": "Industry",
+      "publishedAt": "2026-09-28",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：OpenAI 普及了现代生成式 AI 聊天机器人，但随着 2026 年 DevDay 活动的临近，它在业界最热门的类别之一：持续运行、面向消费者的 AI 代理方面落后了。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 的人工智能代理需要迎头赶上”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI’s AI agents need to catch up”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent"
         }
       ],
       "tags": [
@@ -51,70 +29,93 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Meta 的 Muse 刚刚抢走了 OpenAI 和 Anthropic 的人工智能焦点",
-      "titleEn": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-      "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-25",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：当 OpenAI 和 Anthropic 的人工智能领导者开始谈论“调整前沿”时，也许有人应该问：什么速度？",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace?",
-      "overviewZh": "TechCrunch AI 发布了有关“Meta 的 Muse 刚刚抢走了 OpenAI 和 Anthropic 的人工智能焦点”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Meta 发布 Muse Charm，一款用于 Muse AI 代理的类似电子宠物的设备 - Mashable",
-      "titleEn": "Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent - Mashable",
+      "rank": 2,
+      "titleZh": "出于安全考虑，OpenAI 取消发布最新人工智能模型 - 半岛电视台",
+      "titleEn": "OpenAI scraps release of latest AI model over safety concerns - Al Jazeera",
       "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-09-27",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Meta 发布 Muse Charm，这是一款用于 Muse AI 代理的类似 Tamagotchi 的设备 Mashable",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent &nbsp;&nbsp; Mashable",
-      "overviewZh": "Google News AI 发布了有关“Meta 发布 Muse Charm，一种用于 Muse AI 代理 - Mashable 的类似 Tamagotchi 的设备”的新更新。",
-      "overviewEn": "Google News AI published a new update about “Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent - Mashable”.",
+      "category": "Policy",
+      "publishedAt": "2026-09-29",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：出于安全考虑，OpenAI 放弃发布最新的人工智能模型",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI scraps release of latest AI model over safety concerns &nbsp;&nbsp; Al Jazeera",
+      "overviewZh": "谷歌新闻 AI 发布了有关“OpenAI 因安全问题取消发布最新人工智能模型 - 半岛电视台”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI scraps release of latest AI model over safety concerns - Al Jazeera”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wbjVQWGtia1ZlQm5LRF9qWUJNU3V1NTFVVzc0SXdaNjlhSFJXZTRFUTM3b0FnVDFITEhveEtGZnc0Z21VZjVTd2VkTS1ad1hnX0tNV2pVYzJJRDNja0MySFhKTkVpR3BpUDF5b3h3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSExJX2RibHFyX3QwWDRia0VQYTFZS0tKTEtBRHF4TUlfSWh5Y0RQb1dheHk5X1BqMG9Za0c1R2NiU2lpSjdiWmNTdzE4cW9KX3pwZWV4N0gwSkNOdk5kb1diR1FWWU9RLVhIejlJQmRwcUdqRHF1a3gtdWZaemd5QmN5VXFmM0tnbFJzbjYzaWlSdGRyS082RkppVGxWNmNOTzh1UGdyWFnSAa4BQVVfeXFMTXB1R2UyUXQ4LVNoOVBpVnBUN29uclZvY0h0Z1RteXVuV2JCZEVwTzVKNUN0NkJ3alFZQ1F5M0REUmNZR05yWE1ZV0NsWkxjUVQ3MVd3dk50R3BJTHlwNVlDVnRrMXhlejJDR3lDazFkTm41QW1hb2JTWEpMVXBYOE83ZmJnSXQtT2poeF9FRGhMWGtzVVd1d1cwTHJxTFIwOTNWbTVWRmh0Q3Iwc2JB?oc=5"
         }
       ],
       "tags": [
-        "Agents",
+        "Models",
         "Products"
       ]
     },
     {
-      "rank": 5,
-      "titleZh": "Meta 的 AI Tamagotchi 赌注……有效吗？",
-      "titleEn": "Meta’s AI Tamagotchi bet is…working?",
+      "rank": 3,
+      "titleZh": "据报道 OpenAI 出于安全考虑放弃了模型",
+      "titleEn": "OpenAI reportedly ditches model over safety concerns",
       "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-25",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。消息来源的关键点：当 OpenAI 和 Anthropic 的人工智能领导者开始谈论“调整前沿”时，也许有人应该问：什么速度？",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace?",
-      "overviewZh": "TechCrunch AI 发布了有关“Meta 的 AI Tamagotchi 赌注……有效吗？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta’s AI Tamagotchi bet is…working?”.",
+      "category": "Policy",
+      "publishedAt": "2026-09-28",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的关键点：人工智能实验室的一位高管告诉《华尔街日报》，该模型执行命令的能力很差。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+      "overviewZh": "TechCrunch AI 发布了有关“据报道 OpenAI 因安全问题放弃模型”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI reportedly ditches model over safety concerns”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/"
+          "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "Lenfest 研究所通过扩大 OpenAI 支持发展具有里程碑意义的项目",
+      "titleEn": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "source": "OpenAI Blog",
+      "category": "Business",
+      "publishedAt": "2026-09-28",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。消息来源的要点：OpenAI 正在扩大 Lenfest AI 协作和奖学金计划，提供 500 万美元的资金以及高达 500 万美元的软件信贷和工程支持。",
+      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "overviewZh": "OpenAI 博客发布了有关“Lenfest 研究所通过扩展 OpenAI 支持发展具有里程碑意义的项目”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “The Lenfest Institute grows landmark program with expanded OpenAI support”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+        }
+      ],
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "我们使用我们的开源 AI 安全代理发现了 24 个 Android 漏洞",
+      "titleEn": "We found 24 Android vulnerabilities using our open source AI security agent",
+      "source": "Hacker News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-29",
+      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点：文章网址：https://github.blog/security/how-we-found-24-android-vulnerability-using-our-open-source-ai-security-agent/ 评论网址：https://news.ycombinator.com/item?id=498866",
+      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/ Comments URL: https://news.ycombinator.com/item?id=498866",
+      "overviewZh": "Hacker News AI 发布了有关“我们使用开源 AI 安全代理发现 24 个 Android 漏洞”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “We found 24 Android vulnerabilities using our open source AI security agent”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Open source"
       ]
     }
   ]
