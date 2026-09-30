@@ -1,27 +1,72 @@
 {
-  "updatedAt": "2026-09-29T02:34:46.259Z",
+  "updatedAt": "2026-09-30T02:08:06.535Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-36513245950",
+  "edition": "github-36658396590",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 的人工智能代理需要迎头赶上",
-      "titleEn": "OpenAI’s AI agents need to catch up",
+      "titleZh": "OpenAI DevDay 2026：最大的新闻和公告",
+      "titleEn": "OpenAI DevDay 2026: The biggest news and announcements",
       "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-09-28",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：OpenAI 普及了现代生成式 AI 聊天机器人，但随着 2026 年 DevDay 活动的临近，它在业界最热门的类别之一：持续运行、面向消费者的 AI 代理方面落后了。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 的人工智能代理需要迎头赶上”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI’s AI agents need to catch up”.",
+      "publishedAt": "2026-09-29",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：秋季科技活动日历中轮到 OpenAI 了。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: It’s OpenAI’s turn in the fall tech events calendar.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI DevDay 2026：最大新闻和公告”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI DevDay 2026: The biggest news and announcements”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "互联网相信 Elon Musk 的 xAI 操纵了 OpenAI 的“Dots”发布",
+      "titleEn": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-09-29",
+      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源要点：周二，在 OpenAI 推出新的人工智能代理 Dots 之前，埃隆·马斯克 (Elon Musk) 的 xAI 已经获得了域名“dot.com”，该域名现在重定向到 Grok 聊天机器人下载页面。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+      "overviewZh": "TechCrunch AI 发布了有关“互联网确信 Elon Musk 的 xAI 操纵了 OpenAI 的‘Dots’发布”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "OpenAI 在 2026 年开发日推出 Dots，一种全新的始终在线的 AI 代理 - Mashable",
+      "titleEn": "OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - Mashable",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-09-29",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 在 2026 年开发日推出了 Dots，一种新的始终在线的 AI 代理 Mashable",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 &nbsp;&nbsp; Mashable",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 在 2026 年开发日 - Mashable 上推出 Dots，一种新的始终在线的 AI 代理”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - Mashable”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2aHl0MzYwTnR2RkNhWThFOFZmY0RWZUx4Qi1lS1hxNGRCc3o3eXgxcmR2TkRid2ZqOElPVFNSTWJrdjlPUDI0RERRa3Q0R1E2WGtwUXE1LXpoajdTSVl5OUlRbXZZUQ?oc=5"
         }
       ],
       "tags": [
@@ -29,44 +74,21 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "出于安全考虑，OpenAI 取消发布最新人工智能模型 - 半岛电视台",
-      "titleEn": "OpenAI scraps release of latest AI model over safety concerns - Al Jazeera",
-      "source": "Google News AI",
-      "category": "Policy",
+      "rank": 4,
+      "titleZh": "GPT-6.1 Sol 简介",
+      "titleEn": "Introducing GPT-6.1 Sol",
+      "source": "OpenAI Blog",
+      "category": "Product",
       "publishedAt": "2026-09-29",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：出于安全考虑，OpenAI 放弃发布最新的人工智能模型",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI scraps release of latest AI model over safety concerns &nbsp;&nbsp; Al Jazeera",
-      "overviewZh": "谷歌新闻 AI 发布了有关“OpenAI 因安全问题取消发布最新人工智能模型 - 半岛电视台”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI scraps release of latest AI model over safety concerns - Al Jazeera”.",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的产品开发。来源要点：认识 GPT-6.1 Sol：以 Astra 标准 API 输入和输出代币价格的五分之一，实现接近 Astra 的编码、计算机使用和专业工作智能。",
+      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "overviewZh": "OpenAI 博客发布了有关“GPT-6.1 Sol 简介”的新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing GPT-6.1 Sol”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSExJX2RibHFyX3QwWDRia0VQYTFZS0tKTEtBRHF4TUlfSWh5Y0RQb1dheHk5X1BqMG9Za0c1R2NiU2lpSjdiWmNTdzE4cW9KX3pwZWV4N0gwSkNOdk5kb1diR1FWWU9RLVhIejlJQmRwcUdqRHF1a3gtdWZaemd5QmN5VXFmM0tnbFJzbjYzaWlSdGRyS082RkppVGxWNmNOTzh1UGdyWFnSAa4BQVVfeXFMTXB1R2UyUXQ4LVNoOVBpVnBUN29uclZvY0h0Z1RteXVuV2JCZEVwTzVKNUN0NkJ3alFZQ1F5M0REUmNZR05yWE1ZV0NsWkxjUVQ3MVd3dk50R3BJTHlwNVlDVnRrMXhlejJDR3lDazFkTm41QW1hb2JTWEpMVXBYOE83ZmJnSXQtT2poeF9FRGhMWGtzVVd1d1cwTHJxTFIwOTNWbTVWRmh0Q3Iwc2JB?oc=5"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "据报道 OpenAI 出于安全考虑放弃了模型",
-      "titleEn": "OpenAI reportedly ditches model over safety concerns",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-09-28",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的关键点：人工智能实验室的一位高管告诉《华尔街日报》，该模型执行命令的能力很差。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
-      "overviewZh": "TechCrunch AI 发布了有关“据报道 OpenAI 因安全问题放弃模型”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI reportedly ditches model over safety concerns”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/"
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol"
         }
       ],
       "tags": [
@@ -74,48 +96,26 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "Lenfest 研究所通过扩大 OpenAI 支持发展具有里程碑意义的项目",
-      "titleEn": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "source": "OpenAI Blog",
-      "category": "Business",
-      "publishedAt": "2026-09-28",
-      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。消息来源的要点：OpenAI 正在扩大 Lenfest AI 协作和奖学金计划，提供 500 万美元的资金以及高达 500 万美元的软件信贷和工程支持。",
-      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "overviewZh": "OpenAI 博客发布了有关“Lenfest 研究所通过扩展 OpenAI 支持发展具有里程碑意义的项目”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “The Lenfest Institute grows landmark program with expanded OpenAI support”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
-        }
-      ],
-      "tags": [
-        "Business"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "我们使用我们的开源 AI 安全代理发现了 24 个 Android 漏洞",
-      "titleEn": "We found 24 Android vulnerabilities using our open source AI security agent",
-      "source": "Hacker News AI",
-      "category": "Policy",
+      "titleZh": "OpenAI 推出 Muse 竞争对手 Dots",
+      "titleEn": "OpenAI launches Dots, its Muse competitor",
+      "source": "The Verge AI",
+      "category": "Product",
       "publishedAt": "2026-09-29",
-      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点：文章网址：https://github.blog/security/how-we-found-24-android-vulnerability-using-our-open-source-ai-security-agent/ 评论网址：https://news.ycombinator.com/item?id=498866",
-      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/ Comments URL: https://news.ycombinator.com/item?id=498866",
-      "overviewZh": "Hacker News AI 发布了有关“我们使用开源 AI 安全代理发现 24 个 Android 漏洞”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “We found 24 Android vulnerabilities using our open source AI security agent”.",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。来源要点：OpenAI 正在用自己的代理助手 Dots 来回应 Meta 的热门 Muse AI。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 推出其 Muse 竞争对手 Dots”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI launches Dots, its Muse competitor”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor"
         }
       ],
       "tags": [
         "Agents",
-        "Open source"
+        "Products"
       ]
     }
   ]
