@@ -1,31 +1,32 @@
 {
-  "updatedAt": "2026-09-30T02:08:06.535Z",
+  "updatedAt": "2026-10-01T02:09:35.336Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-36658396590",
+  "edition": "github-36804486180",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI DevDay 2026：最大的新闻和公告",
-      "titleEn": "OpenAI DevDay 2026: The biggest news and announcements",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-09-29",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：秋季科技活动日历中轮到 OpenAI 了。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: It’s OpenAI’s turn in the fall tech events calendar.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI DevDay 2026：最大新闻和公告”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI DevDay 2026: The biggest news and announcements”.",
+      "titleZh": "谷歌在人工智能领域发布了带有护栏的新 Gemini 模型安全辩论 - 纽约时报",
+      "titleEn": "Google Releases New Gemini Model With Guardrails Amid A.I. Safety Debate - The New York Times",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-30",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：谷歌发布带有护栏的新 Gemini 模型",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Google Releases New Gemini Model With Guardrails Amid A.I.",
+      "overviewZh": "谷歌新闻人工智能发布了关于“谷歌在人工智能安全争论中发布带有护栏的新双子座模型 - 纽约时报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Google Releases New Gemini Model With Guardrails Amid A.I. Safety Debate - The New York Times”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ1Z3VVVlemc0Zm9HYy1HSTNuSlZhT1BRQ0I0TVJtMVltbDRGS1pCR1VKNk1OUnhkNjVycjhIbEplY0NaNWR5eDNDVzRGcHN5NFRDNlpsU28xMWs0MkJ6U01lNkJJb0syN2hMSkwtMUpiS0dHS2gwa3FYX2dkanFPTE96aVNQcDd2OHc?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Models",
+        "Products"
       ]
     },
     {
@@ -35,9 +36,9 @@
       "source": "TechCrunch AI",
       "category": "Product",
       "publishedAt": "2026-09-29",
-      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源要点：周二，在 OpenAI 推出新的人工智能代理 Dots 之前，埃隆·马斯克 (Elon Musk) 的 xAI 已经获得了域名“dot.com”，该域名现在重定向到 Grok 聊天机器人下载页面。",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源要点：周二，在 OpenAI 推出新的人工智能代理 Dots 之前，埃隆·马斯克 (Elon Musk) 的 xAI 已经获得了域名“dot.com”，该域名现在重定向到 Grok 聊天机器人下载页面。",
       "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
-      "overviewZh": "TechCrunch AI 发布了有关“互联网确信 Elon Musk 的 xAI 操纵了 OpenAI 的‘Dots’发布”的最新更新。",
+      "overviewZh": "TechCrunch AI 发布了关于“互联网确信 Elon Musk 的 xAI 操纵了 OpenAI 的‘Dots’发布”的最新更新。",
       "overviewEn": "TechCrunch AI published a new update about “The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch”.",
       "links": [
         {
@@ -53,69 +54,69 @@
     },
     {
       "rank": 3,
-      "titleZh": "OpenAI 在 2026 年开发日推出 Dots，一种全新的始终在线的 AI 代理 - Mashable",
-      "titleEn": "OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - Mashable",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-09-29",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 在 2026 年开发日推出了 Dots，一种新的始终在线的 AI 代理 Mashable",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 &nbsp;&nbsp; Mashable",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 在 2026 年开发日 - Mashable 上推出 Dots，一种新的始终在线的 AI 代理”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - Mashable”.",
+      "titleZh": "根据特朗普的协议，科技领导者将如何自我监管人工智能安全",
+      "titleEn": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-09-30",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的要点：我们现在掌握了特朗普总统昨天宣布的“具有道德约束力”人工智能安全协议的全部细节，其中高层管理人员同意对其人工智能技术进行自我监管。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: We now have the full details of the \"morally binding\" AI safety deal announced by President Trump yesterday, in which top executives agreed to self-regulate their artificial intelligence technology.",
+      "overviewZh": "The Verge AI 发布了关于“科技领导者将如何根据特朗普协议自我监管人工智能安全”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Here’s how tech leaders will self-police AI safety under Trump’s deal”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2aHl0MzYwTnR2RkNhWThFOFZmY0RWZUx4Qi1lS1hxNGRCc3o3eXgxcmR2TkRid2ZqOElPVFNSTWJrdjlPUDI0RERRa3Q0R1E2WGtwUXE1LXpoajdTSVl5OUlRbXZZUQ?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "GPT-6.1 Sol 简介",
-      "titleEn": "Introducing GPT-6.1 Sol",
+      "titleZh": "帮助小型企业将人工智能发挥作用",
+      "titleEn": "Helping small businesses put AI to work",
       "source": "OpenAI Blog",
-      "category": "Product",
-      "publishedAt": "2026-09-29",
-      "summaryZh": "OpenAI 博客报道了人工智能领域的产品开发。来源要点：认识 GPT-6.1 Sol：以 Astra 标准 API 输入和输出代币价格的五分之一，实现接近 Astra 的编码、计算机使用和专业工作智能。",
-      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "overviewZh": "OpenAI 博客发布了有关“GPT-6.1 Sol 简介”的新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Introducing GPT-6.1 Sol”.",
+      "category": "Industry",
+      "publishedAt": "2026-09-30",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。消息来源的要点：OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "overviewZh": "OpenAI 博客发布了有关“帮助小型企业将 AI 运用到工作中”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Helping small businesses put AI to work”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+          "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "OpenAI 推出 Muse 竞争对手 Dots",
-      "titleEn": "OpenAI launches Dots, its Muse competitor",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-09-29",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。来源要点：OpenAI 正在用自己的代理助手 Dots 来回应 Meta 的热门 Muse AI。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 推出其 Muse 竞争对手 Dots”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI launches Dots, its Muse competitor”.",
+      "titleZh": "从训练到生产，NVIDIA 和 CoreWeave 关闭了 Agentic AI 的循环",
+      "titleEn": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "source": "NVIDIA Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-09-30",
+      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。来源要点：在近十年的联合工程基础上，CoreWeave 已将 NVIDIA 计算、网络和软件构建到专为 AI 构建的云中，并且在多代部署中仍能获得投资回报。",
+      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment.",
+      "overviewZh": "NVIDIA 博客发布了有关“从训练到生产，NVIDIA 和 CoreWeave 关闭 Agentic AI 循环”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor"
+          "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
         }
       ],
       "tags": [
         "Agents",
-        "Products"
+        "Infrastructure"
       ]
     }
   ]
