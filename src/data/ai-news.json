@@ -1,35 +1,58 @@
 {
-  "updatedAt": "2026-10-02T02:16:08.442Z",
+  "updatedAt": "2026-10-03T01:57:39.305Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-36954820983",
+  "edition": "github-37088052705",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 的新代理是对 Meta 的一次尝试——但它能与免费代理竞争吗？",
-      "titleEn": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-10-01",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的关键点：在 OpenAI 的年度 DevDay 大会上，该公司使出浑身解数与竞争对手竞争——主要是 Meta，其 Muse AI 代理平台已经取得了早期的巨大成功。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success.",
-      "overviewZh": "The Verge AI 发布了一篇关于“OpenAI 的新代理是对 Meta 的一次尝试——但它能与免费竞争吗？”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI’s new agent is a shot at Meta — but can it compete with free?”.",
+      "titleZh": "据报道，机器人人工智能开发商 FieldAI 筹集了 7 亿美元资金 - SiliconANGLE",
+      "titleEn": "Robotics AI developer FieldAI reportedly raising $700M in funding - SiliconANGLE",
+      "source": "Google News AI",
+      "category": "Business",
+      "publishedAt": "2026-10-03",
+      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。消息来源的要点：机器人 AI 开发商 FieldAI 据报道筹集了 7 亿美元资金 SiliconANGLE",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Robotics AI developer FieldAI reportedly raising $700M in funding &nbsp;&nbsp; SiliconANGLE",
+      "overviewZh": "Google News AI 发布了有关“机器人 AI 开发商 FieldAI 据报道筹集了 7 亿美元资金 - SiliconANGLE”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Robotics AI developer FieldAI reportedly raising $700M in funding - SiliconANGLE”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR2FNdU1RN2pQSV83Yzdwbmt2OGt4azBOTHlBclJ4ZkRsaWhFaE9WOHpwMEo2SXI2YThZM0dKdUtKcEtkYmp2dTFiY1cxYTAtbVFfZ1ZTdjA1Sml3UXBDZU5fbVNqdWp6eDRJVGtWOWVnempoSGVrT0JpbG9UeWRmNlU1MGZJZ0IzZUFMcllLZ1pESGdVSVhTcUpqTW41dGdGdDBR?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Robotics",
+        "Business"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "叫它AI，叫它超级智能，只有2%的消费者买账",
+      "titleEn": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-02",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的要点：本周，白宫将几乎所有主要科技公司首席执行官聚集在一个房间，其中包括扎克伯格、贝佐斯、马斯克和 Anthropic 的达里奥·阿莫迪 (Dario Amodei)，签署了一份人工智能安全承诺书。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that Preside",
+      "overviewZh": "TechCrunch AI 发布了有关“称之为人工智能，称之为超级智能，只有 2% 的消费者购买它”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Call it AI, call it Super Intelligence, only 2% of consumers are buying it”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "NVIDIA GPU 如何帮助加速 OpenAI 的 GPT-6 Astra Ultrafast",
       "titleEn": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
       "source": "NVIDIA Blog",
@@ -52,65 +75,43 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "谷歌推出新的 Gemini AI 模型，但出于安全考虑限制访问 - 卫报",
-      "titleEn": "Google rolls out new Gemini AI model but restricts access over safety concerns - The Guardian",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-01",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：谷歌推出新的 Gemini AI 模型，但出于安全考虑限制访问",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Google rolls out new Gemini AI model but restricts access over safety concerns &nbsp;&nbsp; The Guardian",
-      "overviewZh": "谷歌新闻人工智能发布了有关“谷歌推出新的双子座人工智能模型，但出于安全考虑而限制访问 - 卫报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Google rolls out new Gemini AI model but restricts access over safety concerns - The Guardian”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGxacWxBMjBHTEdEel95dW1GOVVOX09PR3laaEVXQXZvNDBRalVNMFNDTmstQUZ2YU1fX19SaHAwZnp1UVdvS2dVeHBPbTBGU1pfYmllWmJoVFozUUZXcDdHQm9kal92dWpCaEtyVndfWFhuVkVQcEk0djRROS1VUEJFa09VOS15M0U1YVZPSHZIWDVqZVZB?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "据《华尔街日报》报道，OpenAI 与 3 名安全研究人员断绝关系",
-      "titleEn": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-01",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源要点：报告称，在内部调查发现三名安全研究人员处理公司敏感信息不当后，OpenAI 已与三名安全研究人员分道扬镳。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
-      "overviewZh": "TechCrunch AI 发布了有关“据《华尔街日报》报道，OpenAI 与 3 名安全研究人员断绝关系”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI cuts ties with 3 safety researchers, WSJ reports”.",
+      "titleZh": "OpenAI 的 Dot Agent 是一款企业软件，也可以为你订餐",
+      "titleEn": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "source": "The Verge AI",
+      "category": "Business",
+      "publishedAt": "2026-10-02",
+      "summaryZh": "The Verge AI 报道了人工智能领域的业务发展。消息来源的关键点：这是一个上周的老故事：OpenAI 的新代理平台，名为 Dots，充满了可爱的小家伙，他们可以听从你的命令。",
+      "summaryEn": "The Verge AI reports a business development in AI. Key point from the source: It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 的 Dot 代理是企业软件，也可以为你订晚餐”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI’s Dot agent is enterprise software that can also order your dinner”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "帮助小型企业将人工智能发挥作用",
-      "titleEn": "Helping small businesses put AI to work",
+      "titleZh": "艾伯森公司如何从内到外重新构想零售业",
+      "titleEn": "How Albertsons Companies is reimagining retail from the inside out",
       "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-09-30",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。消息来源的要点：OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "overviewZh": "OpenAI 博客发布了有关“帮助小型企业将人工智能运用到工作中”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Helping small businesses put AI to work”.",
+      "category": "Business",
+      "publishedAt": "2026-10-01",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。消息来源的要点：Albertsons Cos. 正在使用 ChatGPT Enterprise 和 OpenAI API 来帮助团队更快地工作，并使数百万客户更轻松地购物。",
+      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "overviewZh": "OpenAI 博客发布了有关“Albertsons Companies 如何从内到外重新构想零售业”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “How Albertsons Companies is reimagining retail from the inside out”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+          "url": "https://openai.com/index/albertsons-reimagining-retail"
         }
       ],
       "tags": [
