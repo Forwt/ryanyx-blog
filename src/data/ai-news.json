@@ -1,36 +1,59 @@
 {
-  "updatedAt": "2026-10-03T01:57:39.305Z",
+  "updatedAt": "2026-10-04T02:40:09.929Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-37088052705",
+  "edition": "github-37171750106",
   "items": [
     {
       "rank": 1,
-      "titleZh": "据报道，机器人人工智能开发商 FieldAI 筹集了 7 亿美元资金 - SiliconANGLE",
-      "titleEn": "Robotics AI developer FieldAI reportedly raising $700M in funding - SiliconANGLE",
-      "source": "Google News AI",
-      "category": "Business",
+      "titleZh": "OpenAI 安全员工辞职并敲响警钟",
+      "titleEn": "An OpenAI safety employee has quit and is sounding the alarm",
+      "source": "The Verge AI",
+      "category": "Policy",
       "publishedAt": "2026-10-03",
-      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。消息来源的要点：机器人 AI 开发商 FieldAI 据报道筹集了 7 亿美元资金 SiliconANGLE",
-      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Robotics AI developer FieldAI reportedly raising $700M in funding &nbsp;&nbsp; SiliconANGLE",
-      "overviewZh": "Google News AI 发布了有关“机器人 AI 开发商 FieldAI 据报道筹集了 7 亿美元资金 - SiliconANGLE”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Robotics AI developer FieldAI reportedly raising $700M in funding - SiliconANGLE”.",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：David Robinson 曾经撰写过 OpenAI 发布的每个主要模型所附的安全报告。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: David Robinson used to write the safety reports that accompanied every major model release at OpenAI.",
+      "overviewZh": "The Verge AI 发布了有关“一名 OpenAI 安全员工已辞职并发出警报”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “An OpenAI safety employee has quit and is sounding the alarm”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR2FNdU1RN2pQSV83Yzdwbmt2OGt4azBOTHlBclJ4ZkRsaWhFaE9WOHpwMEo2SXI2YThZM0dKdUtKcEtkYmp2dTFiY1cxYTAtbVFfZ1ZTdjA1Sml3UXBDZU5fbVNqdWp6eDRJVGtWOWVnempoSGVrT0JpbG9UeWRmNlU1MGZJZ0IzZUFMcllLZ1pESGdVSVhTcUpqTW41dGdGdDBR?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
         }
       ],
       "tags": [
-        "Robotics",
-        "Business"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "PewDiePie 在 OpenAI 涉嫌禁令后推出 AJAX AI 模型 - 有趣的工程",
+      "titleEn": "PewDiePie launches AJAX AI model after an alleged ban by OpenAI - Interesting Engineering",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-10-03",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：PewDiePie 在 OpenAI 涉嫌禁止后推出 AJAX AI 模型 有趣的工程",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: PewDiePie launches AJAX AI model after an alleged ban by OpenAI &nbsp;&nbsp; Interesting Engineering",
+      "overviewZh": "Google News AI 发布了有关“PewDiePie 在 OpenAI 涉嫌禁令后推出 AJAX AI 模型 - 有趣的工程”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “PewDiePie launches AJAX AI model after an alleged ban by OpenAI - Interesting Engineering”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcERNbHpKZXlWNWlYZEhpekFIMGxaU1NDdDNCMUtZdkZUU2V0ZUhyeWl2RmZ2VkZxNXFvZVYwRXpRTy02Ym5TZXFsV0FzSWNnZjF1R1VZOHhYVXdjRk16T0NLV0JLYmNvTmJZT3QwaEFnOUhhSFhQalRMWTVVSGtCTXlETkRHZjg0b2pMdE5lak13WEZG?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "叫它AI，叫它超级智能，只有2%的消费者买账",
       "titleEn": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
       "source": "TechCrunch AI",
@@ -52,7 +75,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "titleZh": "NVIDIA GPU 如何帮助加速 OpenAI 的 GPT-6 Astra Ultrafast",
       "titleEn": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
       "source": "NVIDIA Blog",
@@ -72,28 +95,6 @@
       "tags": [
         "Models",
         "Infrastructure"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "OpenAI 的 Dot Agent 是一款企业软件，也可以为你订餐",
-      "titleEn": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-      "source": "The Verge AI",
-      "category": "Business",
-      "publishedAt": "2026-10-02",
-      "summaryZh": "The Verge AI 报道了人工智能领域的业务发展。消息来源的关键点：这是一个上周的老故事：OpenAI 的新代理平台，名为 Dots，充满了可爱的小家伙，他们可以听从你的命令。",
-      "summaryEn": "The Verge AI reports a business development in AI. Key point from the source: It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 的 Dot 代理是企业软件，也可以为你订晚餐”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI’s Dot agent is enterprise software that can also order your dinner”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
-        }
-      ],
-      "tags": [
-        "Agents"
       ]
     },
     {
