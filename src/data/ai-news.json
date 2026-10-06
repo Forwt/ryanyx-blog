@@ -1,120 +1,121 @@
 {
-  "updatedAt": "2026-10-05T02:01:44.754Z",
+  "updatedAt": "2026-10-06T02:58:38.051Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-37253725396",
+  "edition": "github-37406743129",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 安全员工辞职并敲响警钟",
-      "titleEn": "An OpenAI safety employee has quit and is sounding the alarm",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-03",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：David Robinson 曾经撰写过 OpenAI 发布的每个主要模型所附的安全报告。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: David Robinson used to write the safety reports that accompanied every major model release at OpenAI.",
-      "overviewZh": "The Verge AI 发布了有关“一名 OpenAI 安全员工已辞职并发出警报”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “An OpenAI safety employee has quit and is sounding the alarm”.",
+      "titleZh": "OpenAI 在 2026 年开发日推出 Dots，一种全新的始终在线的 AI 代理 - mashable.com",
+      "titleEn": "OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - mashable.com",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-10-05",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 在 2026 年开发日推出了 Dots，这是一种全新的始终在线的 AI 代理    mashable.com",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 &nbsp;&nbsp; mashable.com",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 在 2026 年开发日 - mashable.com 上推出 Dots，一种新的始终在线的 AI 代理”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - mashable.com”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2aHl0MzYwTnR2RkNhWThFOFZmY0RWZUx4Qi1lS1hxNGRCc3o3eXgxcmR2TkRid2ZqOElPVFNSTWJrdjlPUDI0RERRa3Q0R1E2WGtwUXE1LXpoajdTSVl5OUlRbXZZUQ?oc=5"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Agents"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "特朗普推出超级情报部队，杰伊·克莱顿担任人工智能沙皇",
-      "titleEn": "Trump launches Super Intelligence Force with Jay Clayton as AI czar - SiliconANGLE",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-10-04",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源的关键点：特朗普推出超级情报部队，杰伊·克莱顿 (Jay Clayton) 担任人工智能沙皇 SiliconANGLE",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Trump launches Super Intelligence Force with Jay Clayton as AI czar &nbsp;&nbsp; SiliconANGLE",
-      "overviewZh": "谷歌新闻 AI 发布了有关“特朗普推出超级智能力量，杰伊·克莱顿担任人工智能沙皇 - SiliconANGLE”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Trump launches Super Intelligence Force with Jay Clayton as AI czar - SiliconANGLE”.",
+      "titleZh": "为人们使用人工智能的方式制作广告",
+      "titleEn": "Building advertising for the way people use AI",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-10-05",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "overviewZh": "OpenAI 博客发布了有关“为人们使用人工智能的方式制作广告”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Building advertising for the way people use AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNXzhfNUZiUGE3eER1XzM3QjQxNk5GOGhHXzdEaTAyQ3A5NXhzdTRpZVJnMklZc09pY1RkakdtYkxEWVRvOGdITnFIY3BTUWhjQmg2YlVSVzVWUWEweG8wQ1VQc2Vfd0s1aGE1d2xDY0VjczIzbmZMUmx0RzA1REh4SXE5ejBhSjk2S2VBazJ3S3NmWmhGcHYyS0h1dnlscWRJVUZ1YTF4Yw?oc=5"
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
         }
       ],
       "tags": [
-        "Products"
+        "AI"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "“超级智能”和不具约束力的安全协议能否解决人工智能的形象问题？",
-      "titleEn": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "titleZh": "Instinct 将其人工智能代理引入群聊，即使是没有帐户的朋友",
+      "titleEn": "Instinct brings its AI agent to group chats, even for friends without an account",
       "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-04",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的要点：在公平方面，我们讨论了特朗普政府重塑人工智能品牌的尝试。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: On Equity, we discussed the Trump administration's attempts to rebrand AI.",
-      "overviewZh": "TechCrunch AI 发布了关于“‘超级智能’和不具约束力的安全协议能否解决人工智能的形象问题吗？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?”.",
+      "category": "Product",
+      "publishedAt": "2026-10-05",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的关键点：Instinct 正在推出群聊，让朋友们一起使用它的人工智能代理来完成诸如计划旅行、组织拼车和协调活动等任务。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events.",
+      "overviewZh": "TechCrunch AI 发布了关于“Instinct 将其 AI 代理带入群聊，甚至对于没有帐户的朋友”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Instinct brings its AI agent to group chats, even for friends without an account”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/"
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
         }
       ],
       "tags": [
-        "AI"
+        "Agents",
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "由于大量无效人工智能漏洞，谷歌冻结了开源漏洞赏金计划",
-      "titleEn": "Google freezes open-source bug bounty program amid flood of invalid AI slop",
-      "source": "Hacker News AI",
+      "titleZh": "维基百科运营商表示 OpenAI 的“流氓”机器人可能与 5 月份的一次服务中断有关",
+      "titleEn": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+      "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-10-04",
-      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点：文章网址：https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-pr",
-      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-pr",
-      "overviewZh": "Hacker News AI 发布了有关“谷歌因大量无效 AI 漏洞而冻结开源错误赏金计划”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Google freezes open-source bug bounty program amid flood of invalid AI slop”.",
+      "publishedAt": "2026-10-05",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：在最近披露了许多有关人工智能代理访问第三方网站和服务的信息后，托管维基百科的维基媒体基金会表示，它“可以确认我们已经",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we ha",
+      "overviewZh": "The Verge AI 发布了关于“维基百科运营商表示 OpenAI 的‘流氓’机器人可能与 5 月份的一次中断有关”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1"
+          "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "六个工具中有两个已在面向教育工作者的人工智能平台中上线。预计很快就会推出。 - 库存泰坦",
-      "titleEn": "Two of six tools are live in an AI platform for educators. A launch is expected soon. - Stock Titan",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-10-04",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源的要点：六种工具中有两种已在面向教育工作者的人工智能平台中运行。",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Two of six tools are live in an AI platform for educators.",
-      "overviewZh": "Google News AI 发布了有关“六种工具中的两种已在教育工作者的 AI 平台中上线。预计很快就会推出。- Stock Titan”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Two of six tools are live in an AI platform for educators. A launch is expected soon. - Stock Titan”.",
+      "titleZh": "Reflection 首次推出 Beam，这是一种开放权重 AI 模型，能够以更低的计算成本与中国模型相媲美",
+      "titleEn": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-10-05",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Reflection 将 Beam 和未来的模型瞄准企业和主权国家。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Reflection is aiming Beam and future models at enterprises and sovereign nations.",
+      "overviewZh": "TechCrunch AI 发布了有关“Reflection 首次推出 Beam，这是一种开放权重 AI 模型，可以以更低的计算成本与中国模型相媲美”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUVTdGptSWt5TWdrcTFzN282emNKS1NjLXpXLWNyck5nRVRZd1RzcG41NHZJTllyZWpCTndPM3gzTGhXQ3VIUy1aS05mTjBSV0QyV1EyLVdFcWMxWXRzQ0xaZVlRRzN6QUdnQU5BTFV4TWRyOVRySGZNT2R3cS15SFc1MnJTcHJ5Ti1iQWVDdGZEdjltOTZaeWpVTXlUUFVVR0dDRmJVcVBkMm5wczNISWRfbHZJeUtBQXdGZU5aaw?oc=5"
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
         }
       ],
       "tags": [
-        "Products"
+        "Models",
+        "Open source"
       ]
     }
   ]
