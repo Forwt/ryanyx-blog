@@ -1,121 +1,121 @@
 {
-  "updatedAt": "2026-10-06T02:58:38.051Z",
+  "updatedAt": "2026-10-07T02:23:53.192Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "google-fallback",
+  "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-37406743129",
+  "edition": "github-37561764959",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 在 2026 年开发日推出 Dots，一种全新的始终在线的 AI 代理 - mashable.com",
-      "titleEn": "OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - mashable.com",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-10-05",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 在 2026 年开发日推出了 Dots，这是一种全新的始终在线的 AI 代理    mashable.com",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 &nbsp;&nbsp; mashable.com",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 在 2026 年开发日 - mashable.com 上推出 Dots，一种新的始终在线的 AI 代理”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026 - mashable.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2aHl0MzYwTnR2RkNhWThFOFZmY0RWZUx4Qi1lS1hxNGRCc3o3eXgxcmR2TkRid2ZqOElPVFNSTWJrdjlPUDI0RERRa3Q0R1E2WGtwUXE1LXpoajdTSVl5OUlRbXZZUQ?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "为人们使用人工智能的方式制作广告",
-      "titleEn": "Building advertising for the way people use AI",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-05",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "overviewZh": "OpenAI 博客发布了有关“为人们使用人工智能的方式制作广告”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Building advertising for the way people use AI”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Instinct 将其人工智能代理引入群聊，即使是没有帐户的朋友",
-      "titleEn": "Instinct brings its AI agent to group chats, even for friends without an account",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-10-05",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的关键点：Instinct 正在推出群聊，让朋友们一起使用它的人工智能代理来完成诸如计划旅行、组织拼车和协调活动等任务。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events.",
-      "overviewZh": "TechCrunch AI 发布了关于“Instinct 将其 AI 代理带入群聊，甚至对于没有帐户的朋友”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Instinct brings its AI agent to group chats, even for friends without an account”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Products"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "维基百科运营商表示 OpenAI 的“流氓”机器人可能与 5 月份的一次服务中断有关",
-      "titleEn": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-10-05",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：在最近披露了许多有关人工智能代理访问第三方网站和服务的信息后，托管维基百科的维基媒体基金会表示，它“可以确认我们已经",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we ha",
-      "overviewZh": "The Verge AI 发布了关于“维基百科运营商表示 OpenAI 的‘流氓’机器人可能与 5 月份的一次中断有关”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "Reflection 首次推出 Beam，这是一种开放权重 AI 模型，能够以更低的计算成本与中国模型相媲美",
-      "titleEn": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "titleZh": "AI 模型动态：Mistral’s new 1T model aims to leapfrog closed and open rivals",
+      "titleEn": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
       "source": "TechCrunch AI",
       "category": "Model",
-      "publishedAt": "2026-10-05",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Reflection 将 Beam 和未来的模型瞄准企业和主权国家。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Reflection is aiming Beam and future models at enterprises and sovereign nations.",
-      "overviewZh": "TechCrunch AI 发布了有关“Reflection 首次推出 Beam，这是一种开放权重 AI 模型，可以以更低的计算成本与中国模型相媲美”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost”.",
+      "publishedAt": "2026-10-06",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的模型动态。原文要点：French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+      "overviewZh": "TechCrunch AI 发布了关于「Mistral’s new 1T model aims to leapfrog closed and open rivals」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Mistral’s new 1T model aims to leapfrog closed and open rivals”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
         }
       ],
       "tags": [
         "Models",
-        "Open source"
+        "Products"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "AI 模型动态：France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters",
+      "titleEn": "France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-10-06",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的模型动态。原文要点：France's Mistral launches AI model it says outperforms some Chinese rivals &nbsp;&nbsp; Reuters",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: France's Mistral launches AI model it says outperforms some Chinese rivals &nbsp;&nbsp; Reuters",
+      "overviewZh": "Google News AI 发布了关于「France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI 模型动态：Sharing AI progress in mathematics",
+      "titleEn": "Sharing AI progress in mathematics",
+      "source": "OpenAI Blog",
+      "category": "Model",
+      "publishedAt": "2026-10-06",
+      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的模型动态。原文要点：OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "overviewZh": "OpenAI Blog 发布了关于「Sharing AI progress in mathematics」的最新动态。",
+      "overviewEn": "OpenAI Blog published a new update about “Sharing AI progress in mathematics”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "AI 模型动态：Google is about to remove free access to Gemini Flash and Pro",
+      "titleEn": "Google is about to remove free access to Gemini Flash and Pro",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-10-06",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model.",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model.",
+      "overviewZh": "The Verge AI 发布了关于「Google is about to remove free access to Gemini Flash and Pro」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Google is about to remove free access to Gemini Flash and Pro”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "AI 模型动态：Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "titleEn": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "source": "NVIDIA Blog",
+      "category": "Model",
+      "publishedAt": "2026-10-06",
+      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的模型动态。原文要点：Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost.",
+      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost.",
+      "overviewZh": "NVIDIA Blog 发布了关于「Why Telecom Operators Are Building Their AI Strategy on Open Models」的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “Why Telecom Operators Are Building Their AI Strategy on Open Models”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/"
+        }
+      ],
+      "tags": [
+        "Models"
       ]
     }
   ]
