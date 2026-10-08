@@ -1,50 +1,49 @@
 {
-  "updatedAt": "2026-10-07T02:23:53.192Z",
+  "updatedAt": "2026-10-08T02:41:55.315Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-37561764959",
+  "edition": "github-37719123537",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 模型动态：Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "titleEn": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-10-06",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的模型动态。原文要点：French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-      "overviewZh": "TechCrunch AI 发布了关于「Mistral’s new 1T model aims to leapfrog closed and open rivals」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Mistral’s new 1T model aims to leapfrog closed and open rivals”.",
+      "titleZh": "AI 产品动态：Muse launches on the iPad",
+      "titleEn": "Muse launches on the iPad",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-10-07",
+      "summaryZh": "The Verge AI 发布了一条与 AI 相关的产品动态。原文要点：After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad.",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad.",
+      "overviewZh": "The Verge AI 发布了关于「Muse launches on the iPad」的最新动态。",
+      "overviewEn": "The Verge AI published a new update about “Muse launches on the iPad”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
+          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
         }
       ],
       "tags": [
-        "Models",
         "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "AI 模型动态：France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters",
-      "titleEn": "France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters",
+      "titleZh": "AI 模型动态：Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters",
+      "titleEn": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters",
       "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-10-06",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的模型动态。原文要点：France's Mistral launches AI model it says outperforms some Chinese rivals &nbsp;&nbsp; Reuters",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: France's Mistral launches AI model it says outperforms some Chinese rivals &nbsp;&nbsp; Reuters",
-      "overviewZh": "Google News AI 发布了关于「France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters”.",
+      "publishedAt": "2026-10-07",
+      "summaryZh": "Google News AI 发布了一条与 AI 相关的模型动态。原文要点：Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO &nbsp;&nbsp; Reuters",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO &nbsp;&nbsp; Reuters",
+      "overviewZh": "Google News AI 发布了关于「Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters」的最新动态。",
+      "overviewEn": "Google News AI published a new update about “Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbENadk1Lcm1iLUZOd0hYSmRZLWJHLTd0YjAwTExuMVozWW9McllnVWJuTHdPY3ZfRWJwVGdzMmpVaHhvODVVMkFMd0U0ejdyRjQxcEJMVzRqcTJqbWVaLXI5QnM1ckRSYmZVYjlBR2NqRTZaaW42QjFZMC00ZmxKOF9Fal9EODV2dEZnb1BPUDBlSFJrRDVtWkNLTWhacE04b3dyemlvckZTR3JmR0xONmxGb19hNU1tWFJMcVlJajNYUQ?oc=5"
         }
       ],
       "tags": [
@@ -54,6 +53,29 @@
     },
     {
       "rank": 3,
+      "titleZh": "AI 产品动态：Meta’s Muse launches on iPad just a month after its mobile debut",
+      "titleEn": "Meta’s Muse launches on iPad just a month after its mobile debut",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-10-07",
+      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的产品动态。原文要点：Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+      "overviewZh": "TechCrunch AI 发布了关于「Meta’s Muse launches on iPad just a month after its mobile debut」的最新动态。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta’s Muse launches on iPad just a month after its mobile debut”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "AI 模型动态：Sharing AI progress in mathematics",
       "titleEn": "Sharing AI progress in mathematics",
       "source": "OpenAI Blog",
@@ -75,47 +97,25 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "AI 模型动态：Google is about to remove free access to Gemini Flash and Pro",
-      "titleEn": "Google is about to remove free access to Gemini Flash and Pro",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-10-06",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model.",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model.",
-      "overviewZh": "The Verge AI 发布了关于「Google is about to remove free access to Gemini Flash and Pro」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “Google is about to remove free access to Gemini Flash and Pro”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "AI 模型动态：Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "titleEn": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "source": "NVIDIA Blog",
-      "category": "Model",
-      "publishedAt": "2026-10-06",
-      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的模型动态。原文要点：Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost.",
-      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost.",
-      "overviewZh": "NVIDIA Blog 发布了关于「Why Telecom Operators Are Building Their AI Strategy on Open Models」的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “Why Telecom Operators Are Building Their AI Strategy on Open Models”.",
+      "titleZh": "AI 行业动态：Introducing Playground: Create and play custom games",
+      "titleEn": "Introducing Playground: Create and play custom games",
+      "source": "Google AI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-10-07",
+      "summaryZh": "Google AI Blog 发布了一条与 AI 相关的行业动态。原文要点：Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "overviewZh": "Google AI Blog 发布了关于「Introducing Playground: Create and play custom games」的最新动态。",
+      "overviewEn": "Google AI Blog published a new update about “Introducing Playground: Create and play custom games”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/"
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
         }
       ],
       "tags": [
-        "Models"
+        "AI"
       ]
     }
   ]
