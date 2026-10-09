@@ -1,89 +1,110 @@
 {
-  "updatedAt": "2026-10-08T02:41:55.315Z",
+  "updatedAt": "2026-10-09T02:56:30.182Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "fallback",
+  "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-37719123537",
+  "edition": "github-37876936125",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 产品动态：Muse launches on the iPad",
-      "titleEn": "Muse launches on the iPad",
-      "source": "The Verge AI",
+      "titleZh": "谷歌为 Gemini 带来代理人工智能，从企业开始",
+      "titleEn": "Google brings agentic AI to Gemini, starting with businesses",
+      "source": "TechCrunch AI",
       "category": "Product",
-      "publishedAt": "2026-10-07",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的产品动态。原文要点：After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad.",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad.",
-      "overviewZh": "The Verge AI 发布了关于「Muse launches on the iPad」的最新动态。",
-      "overviewEn": "The Verge AI published a new update about “Muse launches on the iPad”.",
+      "publishedAt": "2026-10-08",
+      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源的要点：谷歌正在将 Gemini 变成一个人工智能代理，可以跨业务应用程序和系统规划、执行任务和工作。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems.",
+      "overviewZh": "TechCrunch AI 发布了有关“Google 将代理 AI 引入 Gemini，从企业开始”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Google brings agentic AI to Gemini, starting with businesses”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
         }
       ],
       "tags": [
-        "Products"
+        "Agents",
+        "Models"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "AI 模型动态：Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters",
-      "titleEn": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-10-07",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的模型动态。原文要点：Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO &nbsp;&nbsp; Reuters",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO &nbsp;&nbsp; Reuters",
-      "overviewZh": "Google News AI 发布了关于「Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters”.",
+      "titleZh": "Anthropic 为开源项目推出免费的人工智能安全扫描",
+      "titleEn": "Anthropic launches free AI security scans for open-source projects",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-08",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：Anthropic 通过一项名为 OSS Scanner 的新服务帮助开源项目追踪安全漏洞。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner.",
+      "overviewZh": "The Verge AI 发布了有关“Anthropic 为开源项目推出免费 AI 安全扫描”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Anthropic launches free AI security scans for open-source projects”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbENadk1Lcm1iLUZOd0hYSmRZLWJHLTd0YjAwTExuMVozWW9McllnVWJuTHdPY3ZfRWJwVGdzMmpVaHhvODVVMkFMd0U0ejdyRjQxcEJMVzRqcTJqbWVaLXI5QnM1ckRSYmZVYjlBR2NqRTZaaW42QjFZMC00ZmxKOF9Fal9EODV2dEZnb1BPUDBlSFJrRDVtWkNLTWhacE04b3dyemlvckZTR3JmR0xONmxGb19hNU1tWFJMcVlJajNYUQ?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
         }
       ],
       "tags": [
-        "Models",
         "Products"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "AI 产品动态：Meta’s Muse launches on iPad just a month after its mobile debut",
-      "titleEn": "Meta’s Muse launches on iPad just a month after its mobile debut",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-10-07",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的产品动态。原文要点：Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
-      "overviewZh": "TechCrunch AI 发布了关于「Meta’s Muse launches on iPad just a month after its mobile debut」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta’s Muse launches on iPad just a month after its mobile debut”.",
+      "titleZh": "人工智能支出风险：OpenAI 能否证明其巨大的资金需求是合理的？ - 收购方的倍数",
+      "titleEn": "AI Spending Risks: Can OpenAI Justify Its Huge Funding Needs? - The Acquirer's Multiple",
+      "source": "Google News AI",
+      "category": "Business",
+      "publishedAt": "2026-10-09",
+      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。来源要点：人工智能支出风险：OpenAI 能否证明其巨大的资金需求是合理的？",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: AI Spending Risks: Can OpenAI Justify Its Huge Funding Needs?",
+      "overviewZh": "Google News AI 发布了有关“AI 支出风险：OpenAI 能否证明其巨额资金需求合理？ - 收购方倍数”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “AI Spending Risks: Can OpenAI Justify Its Huge Funding Needs? - The Acquirer's Multiple”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXRUOWRVOXdZcG45QTUtdHVrQzZzTjNWQTdPQkhtYnMtSlFudXJ5VGxXME80LW15Z0U0UURzdFJockpZOW1sa3pWSXZwc0pyYTVDMFJDTDlBQXVod1VqX3dCRkdTUXVYWEdVTEpuVUx2M1BKa2dqaUMtTWtZWmlBdF8xaEVNNTZYXzZSUzVCZEJPZUtTMW1acW40OXhMOFU?oc=5"
         }
       ],
       "tags": [
-        "Agents",
-        "Products"
+        "Business"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "AI 模型动态：Sharing AI progress in mathematics",
+      "titleZh": "走进全方位：开发人员如何利用前沿人工智能代理将想法转化为模拟",
+      "titleEn": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
+      "publishedAt": "2026-10-08",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：将模拟想法转变为可行的应用程序意味着组装资源、连接物理和渲染，并检查场景是否按预期运行。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended.",
+      "overviewZh": "NVIDIA 博客发布了有关“走进全方位：开发人员如何利用前沿 AI 代理将想法转化为模拟”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+        }
+      ],
+      "tags": [
+        "Agents"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "分享AI数学进展",
       "titleEn": "Sharing AI progress in mathematics",
       "source": "OpenAI Blog",
       "category": "Model",
       "publishedAt": "2026-10-06",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的模型动态。原文要点：OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI 通过内部前沿模型发布了关于数学开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
       "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "overviewZh": "OpenAI Blog 发布了关于「Sharing AI progress in mathematics」的最新动态。",
+      "overviewZh": "OpenAI 博客发布了关于“分享数学领域的 AI 进展”的最新更新。",
       "overviewEn": "OpenAI Blog published a new update about “Sharing AI progress in mathematics”.",
       "links": [
         {
@@ -94,28 +115,6 @@
       ],
       "tags": [
         "Models"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "AI 行业动态：Introducing Playground: Create and play custom games",
-      "titleEn": "Introducing Playground: Create and play custom games",
-      "source": "Google AI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-07",
-      "summaryZh": "Google AI Blog 发布了一条与 AI 相关的行业动态。原文要点：Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-      "overviewZh": "Google AI Blog 发布了关于「Introducing Playground: Create and play custom games」的最新动态。",
-      "overviewEn": "Google AI Blog published a new update about “Introducing Playground: Create and play custom games”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
-        }
-      ],
-      "tags": [
-        "AI"
       ]
     }
   ]
