@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-09T02:56:30.182Z",
+  "updatedAt": "2026-10-10T02:20:15.899Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-37876936125",
+  "edition": "github-38016575690",
   "items": [
     {
       "rank": 1,
@@ -13,7 +13,7 @@
       "source": "TechCrunch AI",
       "category": "Product",
       "publishedAt": "2026-10-08",
-      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源的要点：谷歌正在将 Gemini 变成一个人工智能代理，可以跨业务应用程序和系统规划、执行任务和工作。",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：谷歌正在将 Gemini 变成一个人工智能代理，可以跨业务应用程序和系统规划、执行任务和工作。",
       "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems.",
       "overviewZh": "TechCrunch AI 发布了有关“Google 将代理 AI 引入 Gemini，从企业开始”的最新更新。",
       "overviewEn": "TechCrunch AI published a new update about “Google brings agentic AI to Gemini, starting with businesses”.",
@@ -31,20 +31,42 @@
     },
     {
       "rank": 2,
-      "titleZh": "Anthropic 为开源项目推出免费的人工智能安全扫描",
-      "titleEn": "Anthropic launches free AI security scans for open-source projects",
+      "titleZh": "Anthropic 的人工智能向费城警方提供了有关未侦破凶杀案的虚假提示",
+      "titleEn": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
       "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-08",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：Anthropic 通过一项名为 OSS Scanner 的新服务帮助开源项目追踪安全漏洞。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner.",
-      "overviewZh": "The Verge AI 发布了有关“Anthropic 为开源项目推出免费 AI 安全扫描”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic launches free AI security scans for open-source projects”.",
+      "category": "Model",
+      "publishedAt": "2026-10-09",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源要点：根据 6abc 的报道，人择人工智能模型向费城警察局 (PPD) 的举报热线提供了有关未侦破凶杀案的虚假信息。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc.",
+      "overviewZh": "The Verge AI 发布了关于“Anthropic 的 AI 向费城警方提供了有关未侦破凶杀案的虚假线索”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "“令人叹为观止”、“毁灭性”：新 OpenAI 发布后数学领域的发展 - 纽约时报中文网",
+      "titleEn": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release - The New York Times",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-10-09",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：“令人惊叹”、“毁灭性”：新 OpenAI 发布后数学卷轴 纽约时报",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: ‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release &nbsp;&nbsp; The New York Times",
+      "overviewZh": "Google News AI 发布了有关“‘令人惊叹’、‘毁灭性’：新 OpenAI 发布后数学卷轴 - 纽约时报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release - The New York Times”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODBqdjFtSkFGUTZYd2w1WlRnaWFfX3NiWDJ4OXgzdGozcV94WFV1T2JWY0lrekg2ZGR6Sk1wMGtNMzNDeXFmdnc2Zl9zTk0zMDhCLXMyYUFVSjRVNk1CTkF2Y2h2VF9HRVZvV2xfRkpiUTJsQUlNV0ZnaFBTWGxJUW5mbkVEdjVuQ25HMHV3?oc=5"
         }
       ],
       "tags": [
@@ -52,29 +74,30 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "人工智能支出风险：OpenAI 能否证明其巨大的资金需求是合理的？ - 收购方的倍数",
-      "titleEn": "AI Spending Risks: Can OpenAI Justify Its Huge Funding Needs? - The Acquirer's Multiple",
-      "source": "Google News AI",
-      "category": "Business",
+      "rank": 4,
+      "titleZh": "Asana 在使用 GPT-6.1 Sol 的浏览器测试中将模型成本降低了 76 倍",
+      "titleEn": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "source": "OpenAI Blog",
+      "category": "Model",
       "publishedAt": "2026-10-09",
-      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。来源要点：人工智能支出风险：OpenAI 能否证明其巨大的资金需求是合理的？",
-      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: AI Spending Risks: Can OpenAI Justify Its Huge Funding Needs?",
-      "overviewZh": "Google News AI 发布了有关“AI 支出风险：OpenAI 能否证明其巨额资金需求合理？ - 收购方倍数”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “AI Spending Risks: Can OpenAI Justify Its Huge Funding Needs? - The Acquirer's Multiple”.",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理在测试中成本降低了 76 倍，速度提高了 5 倍，从而为客户提供功能更强大的模型。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "overviewZh": "OpenAI 博客发布了有关“Asana 在使用 GPT-6.1 Sol 的浏览器测试中将模型成本降低了 76 倍”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Asana cuts model costs 76x in browser tests with GPT-6.1 Sol”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXRUOWRVOXdZcG45QTUtdHVrQzZzTjNWQTdPQkhtYnMtSlFudXJ5VGxXME80LW15Z0U0UURzdFJockpZOW1sa3pWSXZwc0pyYTVDMFJDTDlBQXVod1VqX3dCRkdTUXVYWEdVTEpuVUx2M1BKa2dqaUMtTWtZWmlBdF8xaEVNNTZYXzZSUzVCZEJPZUtTMW1acW40OXhMOFU?oc=5"
+          "url": "https://openai.com/index/asana-browser-agent"
         }
       ],
       "tags": [
-        "Business"
+        "Agents",
+        "Models"
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "titleZh": "走进全方位：开发人员如何利用前沿人工智能代理将想法转化为模拟",
       "titleEn": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "source": "NVIDIA Blog",
@@ -93,28 +116,6 @@
       ],
       "tags": [
         "Agents"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "分享AI数学进展",
-      "titleEn": "Sharing AI progress in mathematics",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-10-06",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI 通过内部前沿模型发布了关于数学开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "overviewZh": "OpenAI 博客发布了关于“分享数学领域的 AI 进展”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Sharing AI progress in mathematics”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
-        }
-      ],
-      "tags": [
-        "Models"
       ]
     }
   ]
