@@ -1,50 +1,49 @@
 {
-  "updatedAt": "2026-10-11T01:54:11.159Z",
+  "updatedAt": "2026-10-12T02:24:33.165Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
-  "translationMode": "fallback",
+  "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-38103370795",
+  "edition": "github-38195649088",
   "items": [
     {
       "rank": 1,
-      "titleZh": "AI 产品动态：Google brings agentic AI to Gemini, starting with businesses",
-      "titleEn": "Google brings agentic AI to Gemini, starting with businesses",
+      "titleZh": "HomeView 会成为苹果第一个成功的智能家居产品吗？",
+      "titleEn": "Will the HomeView be Apple’s first smart home success?",
       "source": "TechCrunch AI",
       "category": "Product",
-      "publishedAt": "2026-10-08",
-      "summaryZh": "TechCrunch AI 发布了一条与 AI 相关的产品动态。原文要点：Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems.",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems.",
-      "overviewZh": "TechCrunch AI 发布了关于「Google brings agentic AI to Gemini, starting with businesses」的最新动态。",
-      "overviewEn": "TechCrunch AI published a new update about “Google brings agentic AI to Gemini, starting with businesses”.",
+      "publishedAt": "2026-10-11",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的关键点：在过去的几年里，我们看到多篇报道称苹果正在开发一款新的智能家居产品，但现在该产品似乎已经有了名称和发布日期。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+      "overviewZh": "TechCrunch AI 发布了有关“HomeView 会成为苹果第一个成功的智能家居吗？”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Will the HomeView be Apple’s first smart home success?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
         }
       ],
       "tags": [
-        "Agents",
-        "Models"
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "AI 模型动态：Anthropic Claude AI model sends fake homicide tip to Philadelphia police - FOX 10 Phoenix",
-      "titleEn": "Anthropic Claude AI model sends fake homicide tip to Philadelphia police - FOX 10 Phoenix",
+      "titleZh": "Anthropic 表示其 AI 模型在测试期间自行攻击了 3 个组织 - ABC News - 突发新闻、最新新闻和视频",
+      "titleEn": "Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos",
       "source": "Google News AI",
       "category": "Model",
       "publishedAt": "2026-10-11",
-      "summaryZh": "Google News AI 发布了一条与 AI 相关的模型动态。原文要点：Anthropic Claude AI model sends fake homicide tip to Philadelphia police &nbsp;&nbsp; FOX 10 Phoenix",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic Claude AI model sends fake homicide tip to Philadelphia police &nbsp;&nbsp; FOX 10 Phoenix",
-      "overviewZh": "Google News AI 发布了关于「Anthropic Claude AI model sends fake homicide tip to Philadelphia police - FOX 10 Phoenix」的最新动态。",
-      "overviewEn": "Google News AI published a new update about “Anthropic Claude AI model sends fake homicide tip to Philadelphia police - FOX 10 Phoenix”.",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：Anthropic 表示，其 AI 模型在测试期间自行攻击了 3 个组织 ABC 新闻 - 突发新闻、最新新闻和视频",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic says its AI models hacked 3 organizations on their own during tests &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
+      "overviewZh": "Google News AI 发布了有关“Anthropic 表示其 AI 模型在测试期间自行攻击了 3 个组织 - ABC 新闻 - 突发新闻、最新新闻和视频”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT25pYzl4UFp0RWZVU194bmRKcXR6cmRteGh4VDFwZzlIYkkxQkdJbDRBYXVYNHJkYkNiUVBWSTdqUk9PQUgwd1BIcnA2MkUwSjRRVW5tRDllVWo5QVdvNFBUU21JMEhfNHJLaG5wMC1hQ0gtMXByRmQ2Yms4Zjg5aHVzSkdjc2ViSkRjMGJyN1dQenpua1prb3B4T25rczRWSFFQenRn?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3ZqRkZfWUw5X3dBbVVkUzh3NGVXTXdrOEIwOVRGUHdTeTRaaURSWS1DYVA3aXdUREVFeTM1ZnF0Mm91bzJTb0R6OWR3a0VwaFBPQmFqeVRuQjdrUFZSSFpmbjMzSGZEX2xCeE84c3A2Q3dpRnlEcVZ5MFhLVUE5b0lwUml2eWFacWZDVHJsaVh5VVJMZjZRdmlNSWlkQW1Wa2Rkb3Jn0gGrAUFVX3lxTE9RRnJFaXBvLVJUT0NMMXRtN0JscFBCQTIzRHlQUFdYMjJ2bnZkQ080WGZQYUtqTGNaZTZidWljbFhnNklKVGFaWXBLbXdtV0xkOTlYcnhFOUxMYU1vUnJMclpyR21nYTBLUDh5UURFTy1MbGRUQThiWXNLSVVMWkZJQlpwWTNJQUpGM3dyVGNHZmp6Y0E0R29FaWtkd25sczZ0RktJRTRXcGVkNA?oc=5"
         }
       ],
       "tags": [
@@ -53,14 +52,14 @@
     },
     {
       "rank": 3,
-      "titleZh": "AI 模型动态：Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "titleZh": "Anthropic 的人工智能向费城警方提供了有关未侦破凶杀案的虚假提示",
       "titleEn": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
       "source": "The Verge AI",
       "category": "Model",
       "publishedAt": "2026-10-09",
-      "summaryZh": "The Verge AI 发布了一条与 AI 相关的模型动态。原文要点：An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc.",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源要点：根据 6abc 的报道，人择人工智能模型向费城警察局 (PPD) 的举报热线提供了有关未侦破凶杀案的虚假信息。",
       "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc.",
-      "overviewZh": "The Verge AI 发布了关于「Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide」的最新动态。",
+      "overviewZh": "The Verge AI 发布了关于“Anthropic 的 AI 向费城警方提供了有关未侦破凶杀案的虚假线索”的最新更新。",
       "overviewEn": "The Verge AI published a new update about “Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide”.",
       "links": [
         {
@@ -75,14 +74,36 @@
     },
     {
       "rank": 4,
-      "titleZh": "AI 模型动态：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "titleZh": "Show HN：Shpyrd——AI时代的新型云",
+      "titleEn": "Show HN: Shpyrd – A new type of cloud for AI era",
+      "source": "Hacker News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-10-11",
+      "summaryZh": "Hacker News AI 报道了人工智能基础设施的发展。来源要点：文章网址：https://www.shpyrd.io 评论网址：https://news.ycombinator.com/item?id=50048731 积分：7 # 评论：20",
+      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://www.shpyrd.io Comments URL: https://news.ycombinator.com/item?id=50048731 Points: 7 # Comments: 20",
+      "overviewZh": "Hacker News AI 发布了有关“Show HN：Shpyrd – 人工智能时代的新型云”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “Show HN: Shpyrd – A new type of cloud for AI era”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.shpyrd.io"
+        }
+      ],
+      "tags": [
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "Asana 在使用 GPT-6.1 Sol 的浏览器测试中将模型成本降低了 76 倍",
       "titleEn": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "source": "OpenAI Blog",
       "category": "Model",
       "publishedAt": "2026-10-09",
-      "summaryZh": "OpenAI Blog 发布了一条与 AI 相关的模型动态。原文要点：Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理在测试中成本降低了 76 倍，速度提高了 5 倍，从而为客户提供功能更强大的模型。",
       "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "overviewZh": "OpenAI Blog 发布了关于「Asana cuts model costs 76x in browser tests with GPT-6.1 Sol」的最新动态。",
+      "overviewZh": "OpenAI 博客发布了有关“Asana 在使用 GPT-6.1 Sol 的浏览器测试中将模型成本降低了 76 倍”的最新更新。",
       "overviewEn": "OpenAI Blog published a new update about “Asana cuts model costs 76x in browser tests with GPT-6.1 Sol”.",
       "links": [
         {
@@ -94,28 +115,6 @@
       "tags": [
         "Agents",
         "Models"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "AI 行业动态：Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "titleEn": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-08",
-      "summaryZh": "NVIDIA Blog 发布了一条与 AI 相关的行业动态。原文要点：Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended.",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended.",
-      "overviewZh": "NVIDIA Blog 发布了关于「Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents」的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
-        }
-      ],
-      "tags": [
-        "Agents"
       ]
     }
   ]
