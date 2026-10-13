@@ -1,93 +1,27 @@
 {
-  "updatedAt": "2026-10-12T02:24:33.165Z",
+  "updatedAt": "2026-10-13T03:34:28.551Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-38195649088",
+  "edition": "github-38342336163",
   "items": [
     {
       "rank": 1,
-      "titleZh": "HomeView 会成为苹果第一个成功的智能家居产品吗？",
-      "titleEn": "Will the HomeView be Apple’s first smart home success?",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-10-11",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的关键点：在过去的几年里，我们看到多篇报道称苹果正在开发一款新的智能家居产品，但现在该产品似乎已经有了名称和发布日期。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-      "overviewZh": "TechCrunch AI 发布了有关“HomeView 会成为苹果第一个成功的智能家居吗？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Will the HomeView be Apple’s first smart home success?”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "Anthropic 表示其 AI 模型在测试期间自行攻击了 3 个组织 - ABC News - 突发新闻、最新新闻和视频",
-      "titleEn": "Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-10-11",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：Anthropic 表示，其 AI 模型在测试期间自行攻击了 3 个组织 ABC 新闻 - 突发新闻、最新新闻和视频",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic says its AI models hacked 3 organizations on their own during tests &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
-      "overviewZh": "Google News AI 发布了有关“Anthropic 表示其 AI 模型在测试期间自行攻击了 3 个组织 - ABC 新闻 - 突发新闻、最新新闻和视频”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3ZqRkZfWUw5X3dBbVVkUzh3NGVXTXdrOEIwOVRGUHdTeTRaaURSWS1DYVA3aXdUREVFeTM1ZnF0Mm91bzJTb0R6OWR3a0VwaFBPQmFqeVRuQjdrUFZSSFpmbjMzSGZEX2xCeE84c3A2Q3dpRnlEcVZ5MFhLVUE5b0lwUml2eWFacWZDVHJsaVh5VVJMZjZRdmlNSWlkQW1Wa2Rkb3Jn0gGrAUFVX3lxTE9RRnJFaXBvLVJUT0NMMXRtN0JscFBCQTIzRHlQUFdYMjJ2bnZkQ080WGZQYUtqTGNaZTZidWljbFhnNklKVGFaWXBLbXdtV0xkOTlYcnhFOUxMYU1vUnJMclpyR21nYTBLUDh5UURFTy1MbGRUQThiWXNLSVVMWkZJQlpwWTNJQUpGM3dyVGNHZmp6Y0E0R29FaWtkd25sczZ0RktJRTRXcGVkNA?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Anthropic 的人工智能向费城警方提供了有关未侦破凶杀案的虚假提示",
-      "titleEn": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "titleZh": "微软的新人工智能芯片减少了对英伟达 GPU 的依赖",
+      "titleEn": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
       "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-10-09",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源要点：根据 6abc 的报道，人择人工智能模型向费城警察局 (PPD) 的举报热线提供了有关未侦破凶杀案的虚假信息。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc.",
-      "overviewZh": "The Verge AI 发布了关于“Anthropic 的 AI 向费城警方提供了有关未侦破凶杀案的虚假线索”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Show HN：Shpyrd——AI时代的新型云",
-      "titleEn": "Show HN: Shpyrd – A new type of cloud for AI era",
-      "source": "Hacker News AI",
       "category": "Infrastructure",
-      "publishedAt": "2026-10-11",
-      "summaryZh": "Hacker News AI 报道了人工智能基础设施的发展。来源要点：文章网址：https://www.shpyrd.io 评论网址：https://news.ycombinator.com/item?id=50048731 积分：7 # 评论：20",
-      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://www.shpyrd.io Comments URL: https://news.ycombinator.com/item?id=50048731 Points: 7 # Comments: 20",
-      "overviewZh": "Hacker News AI 发布了有关“Show HN：Shpyrd – 人工智能时代的新型云”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Show HN: Shpyrd – A new type of cloud for AI era”.",
+      "publishedAt": "2026-10-12",
+      "summaryZh": "The Verge AI 报告了人工智能基础设施的发展情况。消息来源的要点：微软今天宣布推出第三代 Maia 内部人工智能芯片，旨在成为微软产品和服务的“主要人工智能推理系统”。",
+      "summaryEn": "The Verge AI reports an infrastructure development in AI. Key point from the source: Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services.",
+      "overviewZh": "The Verge AI 发布了有关“微软的新 AI 芯片使其减少对 Nvidia GPU 的依赖”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.shpyrd.io"
+          "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
         }
       ],
       "tags": [
@@ -95,26 +29,94 @@
       ]
     },
     {
-      "rank": 5,
-      "titleZh": "Asana 在使用 GPT-6.1 Sol 的浏览器测试中将模型成本降低了 76 倍",
-      "titleEn": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "source": "OpenAI Blog",
+      "rank": 2,
+      "titleZh": "Meta 发布 Muse Wonder AI 模型挑战 Anthropic 和 OpenAI - 路透中文网",
+      "titleEn": "Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI - Reuters",
+      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-10-09",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理在测试中成本降低了 76 倍，速度提高了 5 倍，从而为客户提供功能更强大的模型。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "overviewZh": "OpenAI 博客发布了有关“Asana 在使用 GPT-6.1 Sol 的浏览器测试中将模型成本降低了 76 倍”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Asana cuts model costs 76x in browser tests with GPT-6.1 Sol”.",
+      "publishedAt": "2026-10-12",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Meta 发布 Muse Wonder AI 模型挑战 Anthropic 和 OpenAI 路透",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI &nbsp;&nbsp; Reuters",
+      "overviewZh": "Google News AI 发布了有关“Meta 发布 Muse Wonder AI 模型以挑战 Anthropic 和 OpenAI - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI - Reuters”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/asana-browser-agent"
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWVqemVLdThXMGhqbFNrdkZ1NDUtWjNkdEVfenp5RUp6RXNwNjhlV0JRS3BJcEl0eHl3ZVZBY09HSl80RVV2RHhueXZzTUZQUUlpWnlDVFFTNkZGa1BqQlBxQUl3WlNudDlwNVNFYjVJNFZ1ajRNUUMxODlrWmhTV3Nha3dGQnhSUzNtamNicDR3ekVHRmpRRnZEbDJhV1pHb1Y2TUdac0VtTUE?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "Meta 发布首款前沿模型 Muse Wonder",
+      "titleEn": "Meta releases its first frontier model, Muse Wonder",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-10-12",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Muse Spark 的目标是成为一个可以低延迟执行的轻量级模型，而 Wonder 模型更大，据说能力更强，在编码等复杂任务上具有更高的基准分数和更好的结果。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "overviewZh": "TechCrunch AI 发布了有关“Meta 发布其首个前沿模型 Muse Wonder”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Meta releases its first frontier model, Muse Wonder”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "深入探讨 Azure Maia 300 架构",
+      "titleEn": "Deep dive into Azure Maia 300 architecture",
+      "source": "Microsoft Azure Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-10-12",
+      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。来源要点：Maia 300 作为单一平台运行，以满足云规模代理推理的需求。",
+      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.",
+      "overviewZh": "Microsoft Azure 博客发布了有关“深入探讨 Azure Maia 300 架构”的新更新。",
+      "overviewEn": "Microsoft Azure Blog published a new update about “Deep dive into Azure Maia 300 architecture”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
         }
       ],
       "tags": [
         "Agents",
-        "Models"
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "OCP 全球峰会：在生态系统采用过程中，NVIDIA 开放 Vera Rubin 架构以帮助扩展全球 AI 工厂",
+      "titleEn": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
+      "publishedAt": "2026-10-12",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：随着人工智能工厂从兆瓦增长到千兆瓦，建造它们需要的不仅仅是先进的计算。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing.",
+      "overviewZh": "NVIDIA 博客发布了有关“OCP 全球峰会：在生态系统采用过程中，NVIDIA 开放 Vera Rubin 架构以帮助扩展全球 AI 工厂”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+        }
+      ],
+      "tags": [
+        "AI"
       ]
     }
   ]
