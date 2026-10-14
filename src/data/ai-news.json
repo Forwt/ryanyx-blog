@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-10-13T03:34:28.551Z",
+  "updatedAt": "2026-10-14T01:54:43.981Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-38342336163",
+  "edition": "github-38498221535",
   "items": [
     {
       "rank": 1,
-      "titleZh": "微软的新人工智能芯片减少了对英伟达 GPU 的依赖",
-      "titleEn": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "titleZh": "谷歌终于发布Gemini 4 Argon",
+      "titleEn": "Google finally releases Gemini 4 Argon",
       "source": "The Verge AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-10-12",
-      "summaryZh": "The Verge AI 报告了人工智能基础设施的发展情况。消息来源的要点：微软今天宣布推出第三代 Maia 内部人工智能芯片，旨在成为微软产品和服务的“主要人工智能推理系统”。",
-      "summaryEn": "The Verge AI reports an infrastructure development in AI. Key point from the source: Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services.",
-      "overviewZh": "The Verge AI 发布了有关“微软的新 AI 芯片使其减少对 Nvidia GPU 的依赖”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
-        }
-      ],
-      "tags": [
-        "Infrastructure"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "Meta 发布 Muse Wonder AI 模型挑战 Anthropic 和 OpenAI - 路透中文网",
-      "titleEn": "Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI - Reuters",
-      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-10-12",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Meta 发布 Muse Wonder AI 模型挑战 Anthropic 和 OpenAI 路透",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI &nbsp;&nbsp; Reuters",
-      "overviewZh": "Google News AI 发布了有关“Meta 发布 Muse Wonder AI 模型以挑战 Anthropic 和 OpenAI - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI - Reuters”.",
+      "publishedAt": "2026-10-13",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：在前沿人工智能竞赛的边缘观望数月之后，谷歌终于推出了期待已久的 Gemini 4 Argon 模型，声称它可以与业界最好的产品竞争。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer.",
+      "overviewZh": "The Verge AI 发布了有关“谷歌终于发布 Gemini 4 Argon”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Google finally releases Gemini 4 Argon”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWVqemVLdThXMGhqbFNrdkZ1NDUtWjNkdEVfenp5RUp6RXNwNjhlV0JRS3BJcEl0eHl3ZVZBY09HSl80RVV2RHhueXZzTUZQUUlpWnlDVFFTNkZGa1BqQlBxQUl3WlNudDlwNVNFYjVJNFZ1ajRNUUMxODlrWmhTV3Nha3dGQnhSUzNtamNicDR3ekVHRmpRRnZEbDJhV1pHb1Y2TUdac0VtTUE?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
         }
       ],
       "tags": [
@@ -52,7 +30,51 @@
       ]
     },
     {
+      "rank": 2,
+      "titleZh": "Meta 推出 Muse Wonder，追赶 OpenAI、Anthropic：如何尝试、基准测试结果 - Mashable",
+      "titleEn": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results - Mashable",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-10-13",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Meta 推出 Muse Wonder，追赶 OpenAI、Anthropic：如何尝试、基准测试结果 Mashable",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results &nbsp;&nbsp; Mashable",
+      "overviewZh": "Google News AI 发布了有关“Meta 推出 Muse Wonder，追赶 OpenAI、Anthropic：如何尝试、基准测试结果 - Mashable”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results - Mashable”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E?oc=5"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
       "rank": 3,
+      "titleZh": "Gemini 4 Argon：专为解决您最棘手的问题而打造",
+      "titleEn": "Gemini 4 Argon: Built to solve your hardest problems",
+      "source": "Google AI Blog",
+      "category": "Model",
+      "publishedAt": "2026-10-13",
+      "summaryZh": "谷歌人工智能博客报道了人工智能模型的开发。消息来源的要点：我们正在向开发者、企业、科学家和消费者提供我们最新前沿模型 Gemini 4 Argon 的访问权限。",
+      "summaryEn": "Google AI Blog reports a model development in AI. Key point from the source: We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "overviewZh": "谷歌人工智能博客发布了有关“Gemini 4 Argon：专为解决您最困难的问题而打造”的最新更新。",
+      "overviewEn": "Google AI Blog published a new update about “Gemini 4 Argon: Built to solve your hardest problems”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "Meta 发布首款前沿模型 Muse Wonder",
       "titleEn": "Meta releases its first frontier model, Muse Wonder",
       "source": "TechCrunch AI",
@@ -75,48 +97,25 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "深入探讨 Azure Maia 300 架构",
-      "titleEn": "Deep dive into Azure Maia 300 architecture",
-      "source": "Microsoft Azure Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-10-12",
-      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。来源要点：Maia 300 作为单一平台运行，以满足云规模代理推理的需求。",
-      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.",
-      "overviewZh": "Microsoft Azure 博客发布了有关“深入探讨 Azure Maia 300 架构”的新更新。",
-      "overviewEn": "Microsoft Azure Blog published a new update about “Deep dive into Azure Maia 300 architecture”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Infrastructure"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "OCP 全球峰会：在生态系统采用过程中，NVIDIA 开放 Vera Rubin 架构以帮助扩展全球 AI 工厂",
-      "titleEn": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "titleZh": "NVIDIA 宣布对法国初创企业进行新投资",
+      "titleEn": "NVIDIA Announces New Investments in France’s Startups",
       "source": "NVIDIA Blog",
       "category": "Industry",
-      "publishedAt": "2026-10-12",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：随着人工智能工厂从兆瓦增长到千兆瓦，建造它们需要的不仅仅是先进的计算。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing.",
-      "overviewZh": "NVIDIA 博客发布了有关“OCP 全球峰会：在生态系统采用过程中，NVIDIA 开放 Vera Rubin 架构以帮助扩展全球 AI 工厂”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide”.",
+      "publishedAt": "2026-10-13",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源的要点：法国公司正在跨太空、金融服务、公共部门和科学研究等行业部署代理计算，这表明该国的",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s",
+      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 宣布对法国初创企业进行新投资”的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Announces New Investments in France’s Startups”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+          "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     }
   ]
