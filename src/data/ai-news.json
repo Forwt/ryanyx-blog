@@ -1,50 +1,49 @@
 {
-  "updatedAt": "2026-10-14T01:54:43.981Z",
+  "updatedAt": "2026-10-15T01:29:02.715Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-38498221535",
+  "edition": "github-38665869288",
   "items": [
     {
       "rank": 1,
-      "titleZh": "谷歌终于发布Gemini 4 Argon",
-      "titleEn": "Google finally releases Gemini 4 Argon",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-10-13",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：在前沿人工智能竞赛的边缘观望数月之后，谷歌终于推出了期待已久的 Gemini 4 Argon 模型，声称它可以与业界最好的产品竞争。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer.",
-      "overviewZh": "The Verge AI 发布了有关“谷歌终于发布 Gemini 4 Argon”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Google finally releases Gemini 4 Argon”.",
+      "titleZh": "Block 如何利用 OpenAI 技术构建人工智能驱动的安全",
+      "titleEn": "How Block is building AI-powered security with OpenAI technology",
+      "source": "OpenAI Blog",
+      "category": "Policy",
+      "publishedAt": "2026-10-14",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：Block 正在利用 OpenAI 构建人工智能驱动的安全性。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: Block is building AI-powered security with OpenAI.",
+      "overviewZh": "OpenAI 博客发布了有关“Block 如何利用 OpenAI 技术构建人工智能驱动的安全”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “How Block is building AI-powered security with OpenAI technology”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+          "url": "https://openai.com/index/block-ai-powered-security"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "AI"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "Meta 推出 Muse Wonder，追赶 OpenAI、Anthropic：如何尝试、基准测试结果 - Mashable",
-      "titleEn": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results - Mashable",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-10-13",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Meta 推出 Muse Wonder，追赶 OpenAI、Anthropic：如何尝试、基准测试结果 Mashable",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results &nbsp;&nbsp; Mashable",
-      "overviewZh": "Google News AI 发布了有关“Meta 推出 Muse Wonder，追赶 OpenAI、Anthropic：如何尝试、基准测试结果 - Mashable”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results - Mashable”.",
+      "titleZh": "Square 的新售货亭可让您与人工智能对话以获取订单帮助",
+      "titleEn": "Square’s new kiosk lets you talk to AI for help with your order",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-10-14",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：Square 正在推出新硬件：一个用于订购商品的大型信息亭，带有触摸屏，可以让你与人工智能交谈。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI.",
+      "overviewZh": "The Verge AI 发布了有关“Square 的新信息亭可让您与 AI 对话以获取订单帮助”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Square’s new kiosk lets you talk to AI for help with your order”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E?oc=5"
+          "url": "https://www.theverge.com/tech/1009086/square-kiosk"
         }
       ],
       "tags": [
@@ -53,6 +52,28 @@
     },
     {
       "rank": 3,
+      "titleZh": "Mission 采用城市业务人工智能使用政策 - MyRGV.com",
+      "titleEn": "Mission adopts policy for artificial intelligence usage in city business - MyRGV.com",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-14",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：Mission 采用城市业务人工智能使用政策 MyRGV.com",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Mission adopts policy for artificial intelligence usage in city business &nbsp;&nbsp; MyRGV.com",
+      "overviewZh": "Google News AI 发布了有关“Mission 采用城市业务人工智能使用政策 - MyRGV.com”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Mission adopts policy for artificial intelligence usage in city business - MyRGV.com”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbFhaZTBOYVE1bDZLa05VekJCbEJJeFVhUmpETnprMzdTbkhUUXMtbklQTnRzQWVqNEdVYUMtWk5SR2xuMnJwcHF4UmlVNWFWYUVWUktTaXZOYTFxcUxSUS1yNGU0U3JuUkpaNWNva1c4dlhaVjc4b1ozUlp2aWlldkpkQlFXd2h3ZE1PRXZnV2tyMnBtNjYwR29pX3N6MTBldV91SFlhV1JjYWFRRUFhR010VQ?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "Gemini 4 Argon：专为解决您最棘手的问题而打造",
       "titleEn": "Gemini 4 Argon: Built to solve your hardest problems",
       "source": "Google AI Blog",
@@ -74,48 +95,25 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "Meta 发布首款前沿模型 Muse Wonder",
-      "titleEn": "Meta releases its first frontier model, Muse Wonder",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-10-12",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：Muse Spark 的目标是成为一个可以低延迟执行的轻量级模型，而 Wonder 模型更大，据说能力更强，在编码等复杂任务上具有更高的基准分数和更好的结果。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
-      "overviewZh": "TechCrunch AI 发布了有关“Meta 发布其首个前沿模型 Muse Wonder”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Meta releases its first frontier model, Muse Wonder”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "NVIDIA 宣布对法国初创企业进行新投资",
-      "titleEn": "NVIDIA Announces New Investments in France’s Startups",
-      "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-13",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源的要点：法国公司正在跨太空、金融服务、公共部门和科学研究等行业部署代理计算，这表明该国的",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 宣布对法国初创企业进行新投资”的最新动态。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Announces New Investments in France’s Startups”.",
+      "titleZh": "随着人工智能生成的音乐涌入流媒体平台，YouTube Music 推出新唱片公司",
+      "titleEn": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "source": "TechCrunch AI",
+      "category": "Product",
+      "publishedAt": "2026-10-14",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源要点：该标签将出现在播放器页面上，其中包含完全或部分由 AI 生成的歌曲，例如 AI 参与作曲和演唱。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
+      "overviewZh": "TechCrunch AI 发布了有关“随着 AI 生成的音乐涌入流媒体平台，YouTube Music 推出新标签”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “YouTube Music launches new labels as AI-generated music floods streaming platforms”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
+          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
         }
       ],
       "tags": [
-        "Agents"
+        "Products"
       ]
     }
   ]
