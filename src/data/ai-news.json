@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-17T01:19:31.808Z",
+  "updatedAt": "2026-10-18T01:02:40.512Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-38990348775",
+  "edition": "github-39085005630",
   "items": [
     {
       "rank": 1,
@@ -15,7 +15,7 @@
       "publishedAt": "2026-10-16",
       "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的关键点：Amulya Vishwanath 花了七年时间领导 NVIDIA 机器人平台的产品营销，他表示机器人技术目前正处于“乐高时代”，其基本构建模块如下",
       "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks lik",
-      "overviewZh": "TechCrunch AI 发布了一篇关于“一位 Nvidia 内部人士转型为 VC 的人解释为什么机器人技术还没有达到 ChatGPT 时刻”的最新更新。",
+      "overviewZh": "TechCrunch AI 发布了一篇关于“一位 Nvidia 内部人士转型为 VC 的 VC 解释为什么机器人技术还没有达到 ChatGPT 时刻”的最新更新。",
       "overviewEn": "TechCrunch AI published a new update about “An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet”.",
       "links": [
         {
@@ -53,67 +53,65 @@
     },
     {
       "rank": 3,
-      "titleZh": "Politico 表示，Anthropic 向立法者提出人工智能安全法案 - Bloomberg.com",
-      "titleEn": "Anthropic Pitches AI Safety Bill to Lawmakers, Politico Says - Bloomberg.com",
+      "titleZh": "DeepSeek发布AI模型更新，向所有用户开放搜索API - Investing.com",
+      "titleEn": "DeepSeek releases AI model update, opens search APIs to all users - Investing.com",
       "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-16",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：Politico 表示，Anthropic 向立法者提出人工智能安全法案    Bloomberg.com",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic Pitches AI Safety Bill to Lawmakers, Politico Says &nbsp;&nbsp; Bloomberg.com",
-      "overviewZh": "谷歌新闻人工智能发布了有关“Politico 称，人类向立法者推销人工智能安全法案 - Bloomberg.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic Pitches AI Safety Bill to Lawmakers, Politico Says - Bloomberg.com”.",
+      "category": "Model",
+      "publishedAt": "2026-10-17",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：DeepSeek 发布 AI 模型更新，向所有用户开放搜索 API    Investing.com",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: DeepSeek releases AI model update, opens search APIs to all users &nbsp;&nbsp; Investing.com",
+      "overviewZh": "Google News AI 发布了有关“DeepSeek 发布 AI 模型更新，向所有用户开放搜索 API - Investing.com”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “DeepSeek releases AI model update, opens search APIs to all users - Investing.com”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcENENWdpRlloLVpNclIyQWpIM3JSV3VHZklqOWZlQ0NJYnB2TWg2ZlhPMndNbS1qM2pWM0dTTVFZQ2l1SmxTT1h3VjZJNVpXTWhZTHRnLThqYm9UeFJ4ZEp0U3JROG1sUFJrN3Z6SEFKN2tPcU5teHZ6cU9JUDh4X1laZVZJMkZNNXNSZnJlZDdOX0dFMlM5REZCSGRHR3AydkdCbUY3RU9zYTRoNzdz?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGdtMm0zTGN2ZDByNFhUUExKanVmSGhiOWgxVG8tdW1fWS1pUGlGTWUyTkZUbkR3R3Vha1VIUXNsUDlRNXU0a2lsdHJsaXJMUXRFX180ZjE5S0ttUDVKdlRMUlFxZ1EwVlM5cmN2d1JBU2V0b3Q4NGFfMjdqTTJ4c1h1OTN3c0pld3ViZF9wSkFxdFdpV3dNZU9kY0tOLWFpQXNJSVBEWVR1R1QyZFhBVDE2NWxVa1V6TTRRR3R3?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "从数据中心到桌面的开放：NVIDIA 以最高效率的 Super VL 和 Bolt 型号扩展了 Nemotron 系列",
-      "titleEn": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-      "source": "NVIDIA Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-10-15",
-      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。来源要点：NVIDIA 今天发布了 Nemotron 3.5 Super VL，这是一个开放的 1200 亿个参数模型，可为专门的永远在线代理提供最快的任务完成速度和最高的准确性。",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents.",
-      "overviewZh": "NVIDIA 博客发布了有关“从数据中心开放到桌面：NVIDIA 通过最高效率的 Super VL 和 Bolt 模型扩展 Nemotron 系列”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models”.",
+      "titleZh": "网站正在向人工智能代理关闭大门",
+      "titleEn": "Websites are closing their doors to AI agents",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-10-17",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：自主代理是人工智能领域最热门的东西。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Autonomous agents are the hottest thing in AI.",
+      "overviewZh": "The Verge AI 发布了有关“网站正在向人工智能代理关闭大门”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Websites are closing their doors to AI agents”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
         }
       ],
       "tags": [
-        "Agents",
-        "Models",
-        "Products",
-        "Infrastructure"
+        "Agents"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "ChatGPT 现在可以查看您的 Chrome 标签页",
-      "titleEn": "ChatGPT can peek at your Chrome tabs now",
-      "source": "The Verge AI",
+      "titleZh": "随着新 Windows PC 的到来，RTX Spark 引发全球庆祝",
+      "titleEn": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "source": "NVIDIA Blog",
       "category": "Industry",
-      "publishedAt": "2026-10-15",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：OpenAI 的 ChatGPT Atlas 浏览器已经消失，但现在 ChatGPT 的 Google Chrome 扩展正在进行一些升级，使其可以使用您已经打开的浏览器选项卡。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open.",
-      "overviewZh": "The Verge AI 发布了有关“ChatGPT 现在可以查看您的 Chrome 标签页”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “ChatGPT can peek at your Chrome tabs now”.",
+      "publishedAt": "2026-10-17",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源要点：NVIDIA RTX Spark 笔记本电脑现已上市，为轻薄的高端 Windows PC 带来 NVIDIA Blackwell RTX 显卡、高达 128GB 的​​统一内存和完整的 NVIDIA AI 平台。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
+      "overviewZh": "NVIDIA 博客发布了有关“随着新 Windows PC 的到来，RTX Spark 点燃全球庆典”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “RTX Spark Ignites Global Celebration as New Windows PCs Arrive”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
         }
       ],
       "tags": [
