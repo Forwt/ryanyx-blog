@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T01:02:40.512Z",
+  "updatedAt": "2026-10-19T01:16:57.599Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-39085005630",
+  "edition": "github-39184621955",
   "items": [
     {
       "rank": 1,
@@ -13,9 +13,9 @@
       "source": "TechCrunch AI",
       "category": "Product",
       "publishedAt": "2026-10-16",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的关键点：Amulya Vishwanath 花了七年时间领导 NVIDIA 机器人平台的产品营销，他表示机器人技术目前正处于“乐高时代”，其基本构建模块如下",
+      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源的关键点：Amulya Vishwanath 花了七年时间领导 NVIDIA 机器人平台的产品营销，他表示机器人技术目前正处于“乐高时代”，其基本构建模块如下",
       "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks lik",
-      "overviewZh": "TechCrunch AI 发布了一篇关于“一位 Nvidia 内部人士转型为 VC 的 VC 解释为什么机器人技术还没有达到 ChatGPT 时刻”的最新更新。",
+      "overviewZh": "TechCrunch AI 发布了一篇关于“一位 Nvidia 内部人士转型为 VC 的人解释为什么机器人技术还没有达到 ChatGPT 时刻”的最新更新。",
       "overviewEn": "TechCrunch AI published a new update about “An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet”.",
       "links": [
         {
@@ -31,6 +31,29 @@
     },
     {
       "rank": 2,
+      "titleZh": "Meta 称 Claude AI 工具引发 No Kings Instagram 暂停 - Bloomberg.com",
+      "titleEn": "Meta Says Claude AI Tool Triggered No Kings Instagram Suspension - Bloomberg.com",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-10-18",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Meta 称 Claude AI 工具引发了 No Kings Instagram 暂停    Bloomberg.com",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Meta Says Claude AI Tool Triggered No Kings Instagram Suspension &nbsp;&nbsp; Bloomberg.com",
+      "overviewZh": "Google News AI 发布了有关“Meta 称 Claude AI 工具引发 No Kings Instagram 暂停 - Bloomberg.com”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Meta Says Claude AI Tool Triggered No Kings Instagram Suspension - Bloomberg.com”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcTV3dGctX3h6dXhJSHd3ek12THZiQk43SEZPTnlWZENOYUlQMHRMNzg5ZW5jVTQ0TGtzMEtiQjJsUjlXOXlTV05jdzlFNmtWWUVBQXYwRk8zSHIxZHd6WGFQcHB5TVExdFBQamtSdU1hQVQ1V053dmY2ZmZCYjVMME04YWFSRzFZNHJyZHg0bFhSQ054UldlVHphamU3ZDdPaWRRTmMxZWpMWk1lM1VXTFNmMUNDUQ?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "Itaú 如何为其整个客户群构建生成式人工智能",
       "titleEn": "How Itaú is building generative AI for its entire customer base",
       "source": "OpenAI Blog",
@@ -49,29 +72,6 @@
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "DeepSeek发布AI模型更新，向所有用户开放搜索API - Investing.com",
-      "titleEn": "DeepSeek releases AI model update, opens search APIs to all users - Investing.com",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-10-17",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：DeepSeek 发布 AI 模型更新，向所有用户开放搜索 API    Investing.com",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: DeepSeek releases AI model update, opens search APIs to all users &nbsp;&nbsp; Investing.com",
-      "overviewZh": "Google News AI 发布了有关“DeepSeek 发布 AI 模型更新，向所有用户开放搜索 API - Investing.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “DeepSeek releases AI model update, opens search APIs to all users - Investing.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGdtMm0zTGN2ZDByNFhUUExKanVmSGhiOWgxVG8tdW1fWS1pUGlGTWUyTkZUbkR3R3Vha1VIUXNsUDlRNXU0a2lsdHJsaXJMUXRFX180ZjE5S0ttUDVKdlRMUlFxZ1EwVlM5cmN2d1JBU2V0b3Q4NGFfMjdqTTJ4c1h1OTN3c0pld3ViZF9wSkFxdFdpV3dNZU9kY0tOLWFpQXNJSVBEWVR1R1QyZFhBVDE2NWxVa1V6TTRRR3R3?oc=5"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
       ]
     },
     {
