@@ -1,95 +1,98 @@
 {
-  "updatedAt": "2026-10-19T01:16:57.599Z",
+  "updatedAt": "2026-10-20T01:50:19.964Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-39184621955",
+  "edition": "github-39355610768",
   "items": [
     {
       "rank": 1,
-      "titleZh": "一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
-      "titleEn": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "titleZh": "黑客攻击人工智能编码工具 OpenCode，对用户的人工智能账户收取费用",
+      "titleEn": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
       "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-10-16",
-      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源的关键点：Amulya Vishwanath 花了七年时间领导 NVIDIA 机器人平台的产品营销，他表示机器人技术目前正处于“乐高时代”，其基本构建模块如下",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks lik",
-      "overviewZh": "TechCrunch AI 发布了一篇关于“一位 Nvidia 内部人士转型为 VC 的人解释为什么机器人技术还没有达到 ChatGPT 时刻”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet”.",
+      "category": "Model",
+      "publishedAt": "2026-10-19",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：OpenCode 是一种开源 AI 编码代理，已成为 Claude Code 和 Cursor 的流行替代品。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor.",
+      "overviewZh": "TechCrunch AI 发布了有关“黑客攻击 AI 编码工具 OpenCode，对用户的 AI 账户收取费用”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
+          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
         }
       ],
       "tags": [
+        "Agents",
+        "Models",
         "Products",
-        "Robotics"
+        "Open source"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "Meta 称 Claude AI 工具引发 No Kings Instagram 暂停 - Bloomberg.com",
-      "titleEn": "Meta Says Claude AI Tool Triggered No Kings Instagram Suspension - Bloomberg.com",
+      "titleZh": "MiniMax推出M3.1 Flash模型，称其可将AI代理成本降低70% - SiliconANGLE",
+      "titleEn": "MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% - SiliconANGLE",
       "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-10-18",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Meta 称 Claude AI 工具引发了 No Kings Instagram 暂停    Bloomberg.com",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Meta Says Claude AI Tool Triggered No Kings Instagram Suspension &nbsp;&nbsp; Bloomberg.com",
-      "overviewZh": "Google News AI 发布了有关“Meta 称 Claude AI 工具引发 No Kings Instagram 暂停 - Bloomberg.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Meta Says Claude AI Tool Triggered No Kings Instagram Suspension - Bloomberg.com”.",
+      "category": "Model",
+      "publishedAt": "2026-10-19",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：MiniMax 推出 M3.1 Flash 模型，称其可将 AI 代理成本降低 70%    SiliconANGLE",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% &nbsp;&nbsp; SiliconANGLE",
+      "overviewZh": "Google News AI 发布了有关“MiniMax 推出 M3.1 Flash 模型，称其将 AI 代理成本降低 70% - SiliconANGLE”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% - SiliconANGLE”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcTV3dGctX3h6dXhJSHd3ek12THZiQk43SEZPTnlWZENOYUlQMHRMNzg5ZW5jVTQ0TGtzMEtiQjJsUjlXOXlTV05jdzlFNmtWWUVBQXYwRk8zSHIxZHd6WGFQcHB5TVExdFBQamtSdU1hQVQ1V053dmY2ZmZCYjVMME04YWFSRzFZNHJyZHg0bFhSQ054UldlVHphamU3ZDdPaWRRTmMxZWpMWk1lM1VXTFNmMUNDUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUTFzLTVJTXFMdGsxc3NOTWtLTVhkOFcxX1BjcVFrOGVTUnhUMmFhWWNmaVhQVjFnNEt2cXJWVWZSQmhvQXlxeVNTM2d1aFI4RHIxVjFnMkhoX2Q5SHp6d0xCS1FwZ2FBeEhrWWdZWE5ST0RCeFg4VW5PTDFqczNvbjYwd2dOb0tOSTc1RkJ0WXBaeHoxdnhCWXEzOUNtTERfV1AyRGNiVQ?oc=5"
         }
       ],
       "tags": [
+        "Agents",
         "Models",
         "Products"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "Itaú 如何为其整个客户群构建生成式人工智能",
-      "titleEn": "How Itaú is building generative AI for its entire customer base",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-16",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。消息来源的要点：通过对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于巴西监管最严格的行业之一的客户和员工。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "overviewZh": "OpenAI 博客发布了有关“Itaú 如何为其整个客户群构建生成人工智能”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “How Itaú is building generative AI for its entire customer base”.",
+      "titleZh": "一名黑客带着一群人工智能特工闯入了约翰迪尔和 SharkNinja",
+      "titleEn": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-19",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：根据人工智能安全公司 Norforge 的调查结果，一名黑客使用大量人工智能代理闯入了 100 多个网站，这些代理大多自行运行。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge.",
+      "overviewZh": "The Verge AI 发布了有关“一名黑客带着一支 AI 特工军队闯入 John Deere 和 SharkNinja”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “A hacker broke into John Deere and SharkNinja with an army of AI agents”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/itau-generative-ai"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "网站正在向人工智能代理关闭大门",
-      "titleEn": "Websites are closing their doors to AI agents",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-10-17",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：自主代理是人工智能领域最热门的东西。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Autonomous agents are the hottest thing in AI.",
-      "overviewZh": "The Verge AI 发布了有关“网站正在向人工智能代理关闭大门”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Websites are closing their doors to AI agents”.",
+      "titleZh": "NVIDIA 推进从欧洲公共服务广播到全球内容制作的媒体代理安全",
+      "titleEn": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "source": "NVIDIA Blog",
+      "category": "Policy",
+      "publishedAt": "2026-10-19",
+      "summaryZh": "NVIDIA 博客报道了人工智能领域的政策发展。消息来源的要点：今天在柏林举行的创意产业盛会上（与 Adob​​e、贝塔斯曼、NVIDIA 和 UFA 合作主办）展示了智能媒体的最新进展。",
+      "summaryEn": "NVIDIA Blog reports a policy development in AI. Key point from the source: At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display.",
+      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 推进媒体代理安全，从欧洲公共服务广播到全球内容制作”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+          "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
         }
       ],
       "tags": [
@@ -98,24 +101,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "随着新 Windows PC 的到来，RTX Spark 引发全球庆祝",
-      "titleEn": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-17",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源要点：NVIDIA RTX Spark 笔记本电脑现已上市，为轻薄的高端 Windows PC 带来 NVIDIA Blackwell RTX 显卡、高达 128GB 的​​统一内存和完整的 NVIDIA AI 平台。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
-      "overviewZh": "NVIDIA 博客发布了有关“随着新 Windows PC 的到来，RTX Spark 点燃全球庆典”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “RTX Spark Ignites Global Celebration as New Windows PCs Arrive”.",
+      "titleZh": "消息人士称，英伟达支持的 Nscale 与 Anthropic 正在就新的 450 亿美元人工智能云交易进行谈判 - 路透中文网",
+      "titleEn": "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says - Reuters",
+      "source": "Google News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-10-19",
+      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。消息来源要点：消息人士称，Nvidia 支持的 Nscale 与 Anthropic 正在就新的 450 亿美元人工智能云交易进行谈判 路透社",
+      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says &nbsp;&nbsp; Reuters",
+      "overviewZh": "谷歌新闻人工智能发布了有关“英伟达支持的 Nscale 和 Anthropic 正在就新的 450 亿美元人工智能云交易进行谈判，消息人士称 - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says - Reuters”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGMyclR5X0JrXzBKem90Uk1sZnBQNkcyRnlyc3ZnWTM4Q0ZoUWtKUzRrd1Y3aHlqaDRjT1pfaFdmV0pHYUFROFI3TFhTWVhtczJsM01PSF8tSEtXejB4emlhVjZGMmQzeWh0RXJoaS0tNDQ1SDhlZDRJZU5hZG5ibE85N3dxU21DS2ZKYm1NV2pVUUF4ZjF3XzQ1ZncwaHVMdXlWZ2FsWjRtQ1d0eFN2YUVQc2x4cTd6YjNwSTVuVUFQZw?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Infrastructure"
       ]
     }
   ]
