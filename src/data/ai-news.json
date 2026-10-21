@@ -1,124 +1,121 @@
 {
-  "updatedAt": "2026-10-20T01:50:19.964Z",
+  "updatedAt": "2026-10-21T01:35:49.646Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-39355610768",
+  "edition": "github-39528224917",
   "items": [
     {
       "rank": 1,
-      "titleZh": "黑客攻击人工智能编码工具 OpenCode，对用户的人工智能账户收取费用",
-      "titleEn": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "titleZh": "Anthropic 提出人工智能安全法案，如果 50 多人死亡，该法案可能会阻止模型的发展",
+      "titleEn": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
       "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-10-19",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：OpenCode 是一种开源 AI 编码代理，已成为 Claude Code 和 Cursor 的流行替代品。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor.",
-      "overviewZh": "TechCrunch AI 发布了有关“黑客攻击 AI 编码工具 OpenCode，对用户的 AI 账户收取费用”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts”.",
+      "category": "Policy",
+      "publishedAt": "2026-10-20",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的要点：拟议的政策似乎提供了针对人工智能失控的保护措施，但实际上禁止联邦机构在未经法官许可的情况下阻止模型的发布。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "overviewZh": "TechCrunch AI 发布了关于“Anthropic 提出的 AI 安全法案，如果可能导致 50 多人死亡，该法案可能会阻止某个模型”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic pitches AI safety bill that may block a model if 50+ people could be killed”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
         }
       ],
       "tags": [
-        "Agents",
-        "Models",
-        "Products",
-        "Open source"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "MiniMax推出M3.1 Flash模型，称其可将AI代理成本降低70% - SiliconANGLE",
-      "titleEn": "MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% - SiliconANGLE",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-10-19",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：MiniMax 推出 M3.1 Flash 模型，称其可将 AI 代理成本降低 70%    SiliconANGLE",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% &nbsp;&nbsp; SiliconANGLE",
-      "overviewZh": "Google News AI 发布了有关“MiniMax 推出 M3.1 Flash 模型，称其将 AI 代理成本降低 70% - SiliconANGLE”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% - SiliconANGLE”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUTFzLTVJTXFMdGsxc3NOTWtLTVhkOFcxX1BjcVFrOGVTUnhUMmFhWWNmaVhQVjFnNEt2cXJWVWZSQmhvQXlxeVNTM2d1aFI4RHIxVjFnMkhoX2Q5SHp6d0xCS1FwZ2FBeEhrWWdZWE5ST0RCeFg4VW5PTDFqczNvbjYwd2dOb0tOSTc1RkJ0WXBaeHoxdnhCWXEzOUNtTERfV1AyRGNiVQ?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents",
         "Models",
         "Products"
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "一名黑客带着一群人工智能特工闯入了约翰迪尔和 SharkNinja",
-      "titleEn": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "source": "The Verge AI",
+      "rank": 2,
+      "titleZh": "独家：Anthropic 首席执行官呼吁加强对人工智能的监管 - ABC News - 突发新闻、最新新闻和视频",
+      "titleEn": "Exclusive: Anthropic CEO calls for stronger regulation of AI - ABC News - Breaking News, Latest News and Videos",
+      "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-10-19",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：根据人工智能安全公司 Norforge 的调查结果，一名黑客使用大量人工智能代理闯入了 100 多个网站，这些代理大多自行运行。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge.",
-      "overviewZh": "The Verge AI 发布了有关“一名黑客带着一支 AI 特工军队闯入 John Deere 和 SharkNinja”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “A hacker broke into John Deere and SharkNinja with an army of AI agents”.",
+      "publishedAt": "2026-10-20",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：独家：Anthropic CEO 呼吁加强对人工智能的监管 ABC News - 突发新闻、最新新闻和视频",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Exclusive: Anthropic CEO calls for stronger regulation of AI &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
+      "overviewZh": "谷歌新闻 AI 发布了有关“独家：人类首席执行官呼吁加强对人工智能的监管 - ABC 新闻 - 突发新闻、最新新闻和视频”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Exclusive: Anthropic CEO calls for stronger regulation of AI - ABC News - Breaking News, Latest News and Videos”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "Adobe Lightroom mobile 现在只需轻按一下即可打开照片中闭着的眼睛",
+      "titleEn": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-10-20",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：Adobe 昨天宣布，适用于 iOS、iPadOS 和 Android 的 Lightroom 移动版本现在只需轻按一下，即可使用生成式 AI 打开照片中闭着的眼睛。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap.",
+      "overviewZh": "The Verge AI 发布了关于“Adobe Lightroom mobile 现在只需轻按一下即可打开照片中闭着的眼睛”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “Adobe Lightroom mobile can now open closed eyes in photos with a simple tap”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair"
+        }
+      ],
+      "tags": [
+        "AI"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "NVIDIA 推进从欧洲公共服务广播到全球内容制作的媒体代理安全",
-      "titleEn": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "titleZh": "西班牙初创企业利用巴塞罗那超级计算中心推进区域创新",
+      "titleEn": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
       "source": "NVIDIA Blog",
-      "category": "Policy",
-      "publishedAt": "2026-10-19",
-      "summaryZh": "NVIDIA 博客报道了人工智能领域的政策发展。消息来源的要点：今天在柏林举行的创意产业盛会上（与 Adob​​e、贝塔斯曼、NVIDIA 和 UFA 合作主办）展示了智能媒体的最新进展。",
-      "summaryEn": "NVIDIA Blog reports a policy development in AI. Key point from the source: At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display.",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 推进媒体代理安全，从欧洲公共服务广播到全球内容制作”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production”.",
+      "category": "Industry",
+      "publishedAt": "2026-10-20",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源的要点：巴塞罗那超级计算中心 (BSC) 的人工智能工厂加速器计划在试点计划后现已全面运营，为初创企业提供主权计算、技术",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, techni",
+      "overviewZh": "NVIDIA 博客发布了有关“西班牙初创企业通过巴塞罗那超级计算中心推进区域创新”的最新动态。",
+      "overviewEn": "NVIDIA Blog published a new update about “Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
+          "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/"
         }
       ],
       "tags": [
-        "Agents"
+        "AI"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "消息人士称，英伟达支持的 Nscale 与 Anthropic 正在就新的 450 亿美元人工智能云交易进行谈判 - 路透中文网",
-      "titleEn": "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says - Reuters",
-      "source": "Google News AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-10-19",
-      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。消息来源要点：消息人士称，Nvidia 支持的 Nscale 与 Anthropic 正在就新的 450 亿美元人工智能云交易进行谈判 路透社",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says &nbsp;&nbsp; Reuters",
-      "overviewZh": "谷歌新闻人工智能发布了有关“英伟达支持的 Nscale 和 Anthropic 正在就新的 450 亿美元人工智能云交易进行谈判，消息人士称 - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says - Reuters”.",
+      "titleZh": "Eka 的价值 $1.45B 得益于专家们赞叹的物理 AI 模型",
+      "titleEn": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-10-20",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源要点：Eka Robotics 可能是第一个真正擅长拾取各种物体的机械臂，而且它如此流畅且像人类一样，令业界惊叹不已。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry.",
+      "overviewZh": "TechCrunch AI 发布了有关“Eka 价值 $1.45B 得益于专家赞叹的物理 AI 模型”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Eka is worth $1.45B thanks to a physical AI model that has experts raving”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGMyclR5X0JrXzBKem90Uk1sZnBQNkcyRnlyc3ZnWTM4Q0ZoUWtKUzRrd1Y3aHlqaDRjT1pfaFdmV0pHYUFROFI3TFhTWVhtczJsM01PSF8tSEtXejB4emlhVjZGMmQzeWh0RXJoaS0tNDQ1SDhlZDRJZU5hZG5ibE85N3dxU21DS2ZKYm1NV2pVUUF4ZjF3XzQ1ZncwaHVMdXlWZ2FsWjRtQ1d0eFN2YUVQc2x4cTd6YjNwSTVuVUFQZw?oc=5"
+          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
         }
       ],
       "tags": [
-        "Infrastructure"
+        "Models",
+        "Robotics"
       ]
     }
   ]
