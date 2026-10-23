@@ -1,36 +1,59 @@
 {
-  "updatedAt": "2026-10-22T01:31:58.731Z",
+  "updatedAt": "2026-10-23T01:31:26.316Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-39706195178",
+  "edition": "github-39884456555",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Anthropic 与其新人工智能代理 Claude Duet 对抗 Muse",
-      "titleEn": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-10-21",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：Anthropic 刚刚宣布推出一款 AI 代理，可与 Meta 的 Muse 和 OpenAI 的 Dots 竞争：Claude Duet。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet.",
-      "overviewZh": "The Verge AI 发布了有关“Anthropic 与新 AI 代理 Claude Duet 对抗 Muse”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic takes on Muse with Claude Duet, its new AI agent”.",
+      "titleZh": "随着决策模型竞争的升温，OpenAI 使其 Jev 竞争对手得到广泛应用",
+      "titleEn": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-10-22",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：OpenAI 正在向全世界推出其决策模型。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: OpenAI is launching its decision model to the world.",
+      "overviewZh": "TechCrunch AI 发布了有关“随着决策模型竞争升温，OpenAI 使其 Jev 竞争对手广泛可用”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI makes its Jev competitor widely available as decision model competition heats up”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent"
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
         }
       ],
       "tags": [
-        "Agents",
-        "Models"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "Canva 的第一个 AI 图像模型在生成之前规划设计",
+      "titleEn": "Canva’s first AI image model plans designs before generating them",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-10-22",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。来源要点：Canva 正在更深入地研究人工智能，推出了图像生成模型，与 OpenAI、微软和谷歌的图像生成模型直接竞争。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google.",
+      "overviewZh": "The Verge AI 发布了关于“Canva 的第一个 AI 图像模型在生成设计之前对其进行规划”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Canva’s first AI image model plans designs before generating them”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "GTC Berlin 2026：NVIDIA 首席执行官黄仁勋主题演讲的实时更新",
       "titleEn": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
       "source": "NVIDIA Blog",
@@ -52,72 +75,47 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Anthropic 推出 Claude Duet AI 代理应用程序 - 路透社",
-      "titleEn": "Anthropic unveils Claude Duet AI agent app - Reuters",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-10-21",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Anthropic 推出 Claude Duet AI 代理应用程序 路透社",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Anthropic unveils Claude Duet AI agent app &nbsp;&nbsp; Reuters",
-      "overviewZh": "Google News AI 发布了有关“Anthropic 推出 Claude Duet AI 代理应用程序 - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic unveils Claude Duet AI agent app - Reuters”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRFhacjJyXzZ6ZzNUdkptUDkwRHFyV2pxSXhOc2JucmxQdDJFQ09WZ05DamcxS1NvNUx1b0cyR05DM1U3SzgwdXpvQlhaajl2dHNlVTVlYml2LVhLVENGaWtDbkdMWjFNVkdPMDRTWWFubXJsYkFZQ19peDBLMUI2cXF4cU1hN2lrU2FuZi1wSTRndFU?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Models"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "Anthropic 提出人工智能安全法案，如果 50 多人死亡，该法案可能会阻止模型的发展",
-      "titleEn": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-20",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的关键点：拟议的政策似乎提供了针对人工智能失控的保护措施，但实际上禁止联邦机构在未经法官许可的情况下阻止模型的发布。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "overviewZh": "TechCrunch AI 发布了关于“Anthropic 提出的 AI 安全法案，如果可能导致 50 人以上死亡，该法案可能会阻止模型”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic pitches AI safety bill that may block a model if 50+ people could be killed”.",
+      "titleZh": "资本支出削减引发人们对马斯克推动人工智能和机器人技术的怀疑，特斯拉股价下跌 - 路透中文网",
+      "titleEn": "Tesla shares slip after capex cut raises doubts over Musk's AI and robotics push - Reuters",
+      "source": "Google News AI",
+      "category": "Industry",
+      "publishedAt": "2026-10-22",
+      "summaryZh": "Google News AI 报道了人工智能的行业发展。消息来源的关键点：资本支出削减引发对马斯克人工智能和机器人推动的怀疑后，特斯拉股价下跌 路透",
+      "summaryEn": "Google News AI reports an industry development in AI. Key point from the source: Tesla shares slip after capex cut raises doubts over Musk's AI and robotics push &nbsp;&nbsp; Reuters",
+      "overviewZh": "谷歌新闻人工智能发布了有关“资本支出削减后特斯拉股价下跌引发对马斯克人工智能和机器人推动的怀疑 - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Tesla shares slip after capex cut raises doubts over Musk's AI and robotics push - Reuters”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2hUYVoxVEgxUmdpSW1qZ0ZlcTJnRUJPLVhjUS12cExoTDBZbFlfNHVmejZoVFhBZ3VxNTc1NThRVkZnVTNvVUJXYThLcTduSjlGVkVlX0xiTDhNSkNjN09lblZJeVZEWW9BZXRqS05PY2tBRUxzU3NaSFlxdDY2V1JGMHBpbFdzRlIwTlRXQ2twVHN5MEhIQjVIMXJQVzlzWHo5aFo2alM4X1hjSlBEcGVlZ0V3WHhrN2cybWxKTU5Edw?oc=5"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Robotics"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "修补地球：特工发现关键漏洞时进行全球响应协调",
-      "titleEn": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "titleZh": "使用 Decisions API 构建响应速度更快的应用程序",
+      "titleEn": "Build more responsive apps with the Decisions API",
       "source": "OpenAI Blog",
-      "category": "Policy",
-      "publishedAt": "2026-10-21",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：Patch the Planet 将安全研究人员、维护人员和事件响应人员联系起来，帮助解决开源领域的关键漏洞。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "overviewZh": "OpenAI 博客发布了有关“修补地球：代理发现关键漏洞时的全球响应协调”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Patch the Planet: global response coordination as agents uncover critical vulnerabilities”.",
+      "category": "Product",
+      "publishedAt": "2026-10-22",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的产品开发。来源要点：针对任何应用做出快速、专注、低成本的决策。",
+      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: Fast, focused, low-cost decisions for any application.",
+      "overviewZh": "OpenAI 博客发布了有关“使用 Decisions API 构建响应速度更快的应用程序”的新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Build more responsive apps with the Decisions API”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+          "url": "https://openai.com/index/decisions-api"
         }
       ],
       "tags": [
-        "Agents",
-        "Open source"
+        "AI"
       ]
     }
   ]
