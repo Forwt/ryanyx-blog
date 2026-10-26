@@ -1,19 +1,41 @@
 {
-  "updatedAt": "2026-10-25T01:10:45.998Z",
+  "updatedAt": "2026-10-26T01:10:53.655Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-40149591128",
+  "edition": "github-40252918056",
   "items": [
     {
       "rank": 1,
+      "titleZh": "METR 质疑 Anthropic 的人工智能安全测试，尽管一致认为灾难性风险较低 - EdTech Innovation Hub",
+      "titleEn": "METR questions Anthropic's AI safety tests despite agreeing catastrophic risk is low - EdTech Innovation Hub",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-26",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：METR 质疑 Anthropic 的 AI 安全测试，尽管同意灾难性风险较低    EdTech Innovation Hub",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: METR questions Anthropic's AI safety tests despite agreeing catastrophic risk is low &nbsp;&nbsp; EdTech Innovation Hub",
+      "overviewZh": "Google News AI 发布了有关“METR 质疑 Anthropic 的 AI 安全测试，尽管同意灾难性风险较低 - EdTech 创新中心”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “METR questions Anthropic's AI safety tests despite agreeing catastrophic risk is low - EdTech Innovation Hub”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeVZRN1JMdUdpVW9ObEpTS2c5X2F1YzgzbUtIcVZObDhCb294ZkFXcDhWZU1sdWxPdmduRUsweE9YYl9VdlZSQkNqY3E2amlYQzNxRFZ2dkZXNG1jM3N4cUZfb2FEZVdOWTZuVVZETWtZOXBQYW5nY2xVd3QycDhyNFFBV0N4Y2RPUW93X3lWM2tyVFd6alhocnpoX1JvajhOR3VrRDJMb2hLbURLbWdwQTRaTDFlRXlMYVZNeHRkX0ZfZw?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "人工智能墓地：未成功的项目和初创公司的清单",
       "titleEn": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "source": "TechCrunch AI",
       "category": "Product",
       "publishedAt": "2026-10-24",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源要点：从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”推出，以下是关闭或未达到预期的 AI 项目。",
+      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源要点：从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”推出，以下是关闭或未达到预期的 AI 项目。",
       "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
       "overviewZh": "TechCrunch AI 发布了有关“人工智能墓地：未成功的项目和初创公司的运行列表”的最新更新。",
       "overviewEn": "TechCrunch AI published a new update about “The AI graveyard: a running list of projects and startups that didn’t make it”.",
@@ -26,28 +48,6 @@
       ],
       "tags": [
         "Products"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "报告称 Anthropic 正在向国会提交自己的人工智能安全法案 - Mashable",
-      "titleEn": "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-24",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源的关键点：报告称，Anthropic 正在向国会提交自己的人工智能安全法案",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic is pitching Congress its own AI safety bill, report says &nbsp;&nbsp; Mashable",
-      "overviewZh": "谷歌新闻 AI 发布了有关“报告称，Anthropic 正在向国会提交自己的人工智能安全法案 - Mashable”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic is pitching Congress its own AI safety bill, report says - Mashable”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15NjVPYUtCV2RwQTJVZ0MtcDFJdV9INE9mOUpFdmUxQXg0bXI3WkJhVHNyN2ExOGFJRXAyZmpwWjY5SnMxYW05R2UtVVJzRHJGdldDcEdaU3RlcE1DdGFqT19CXzgwZnNUdk4zNEY1cUJXSWpsVVFn?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
       ]
     },
     {
@@ -96,24 +96,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "NVIDIA 推出 Minerva 为 AI 工厂带来端到端可观察性",
-      "titleEn": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "titleZh": "哈萨克斯坦为其人工智能未来扩展计算能力",
+      "titleEn": "Kazakhstan Expands Compute for Its AI Future",
       "source": "NVIDIA Blog",
-      "category": "Product",
-      "publishedAt": "2026-10-22",
-      "summaryZh": "NVIDIA 博客报道了 AI 领域的产品开发。来源要点：NVIDIA Minerva 今天推出，是一个 AIOps 平台，旨在帮助团队更早发现问题并保持 AI 工厂的生产力。",
-      "summaryEn": "NVIDIA Blog reports a product development in AI. Key point from the source: Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive.",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 推出 Minerva 为 AI 工厂带来端到端可观测性”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories”.",
+      "category": "Infrastructure",
+      "publishedAt": "2026-10-23",
+      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。消息来源要点：哈萨克斯坦的人工智能生态系统正在从基础设施计划转向部署。",
+      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment.",
+      "overviewZh": "NVIDIA 博客发布了有关“哈萨克斯坦为人工智能未来扩展计算能力”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Kazakhstan Expands Compute for Its AI Future”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
         }
       ],
       "tags": [
-        "Products"
+        "AI"
       ]
     }
   ]
