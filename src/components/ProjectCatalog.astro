@@ -1,0 +1,145 @@
+---
+import { projects, categories, stages, catalogDate, projectHref } from '../data/project-catalog';
+import type { Lang } from '../data/project-catalog';
+interface Props { lang?: Lang }
+const { lang = 'zh' } = Astro.props;
+const en = lang === 'en';
+const months = [...new Set(projects.map(p => p.started))].sort();
+const delivered = projects.filter(p => p.stage === 'delivered' || p.stage === 'published').length;
+---
+
+<div class="project-library" data-project-library data-lang={lang}>
+  <section class="project-library-head">
+    <div class="eyebrow">RYANYX / PROJECT FIELDNOTES</div>
+    <div class="project-library-title">
+      <h1>{en ? 'Ideas, made tangible.' : '把想法，做成看得见的东西。'}</h1>
+      <span class="catalog-edition">{en ? 'ARCHIVE / 01' : '项目档案 / 01'}<br />{catalogDate}</span>
+    </div>
+    <p class="lead">{en ? 'Games, agents, tools, and visual experiments made with Codex. Explore what each project does, how it works, and where it stands.' : '这段时间与 Codex 一起做过的游戏、Agent、实用工具和视觉实验。按领域发现作品，沿时间看见积累，再走进每个项目的具体过程。'}</p>
+    <div class="catalog-facts">
+      <span><strong>{projects.length}</strong>{en ? 'project records' : '个项目条目'}</span>
+      <span><strong>{categories.length}</strong>{en ? 'directions' : '个探索方向'}</span>
+      <span><strong>{delivered}</strong>{en ? 'with deliverables or public pages' : '个已有交付或公开页面'}</span>
+      <a href="#project-directory">{en ? 'Explore all projects ↓' : '浏览全部项目 ↓'}</a>
+    </div>
+  </section>
+
+  <section class="catalog-map-section" aria-labelledby="catalog-map-title">
+    <div class="catalog-section-head">
+      <div><div class="eyebrow">01 / EXPLORE</div><h2 id="catalog-map-title">{en ? 'A map of the work' : '项目地图'}</h2></div>
+      <div class="catalog-view-tabs" role="group" aria-label={en ? 'Overview view' : '概览视图'}>
+        <button type="button" data-catalog-view="map" aria-pressed="true">{en ? 'By field' : '按领域'}</button>
+        <button type="button" data-catalog-view="time" aria-pressed="false">{en ? 'Over time' : '按时间'}</button>
+      </div>
+    </div>
+    <div class="catalog-atlas" data-catalog-panel="map">
+      {categories.map(category => {
+        const count = projects.filter(p => p.category === category.id).length;
+        return <button type="button" class={`atlas-cell atlas-${category.id}`} style={`--field:${category.color}`} data-category-jump={category.id}>
+          <span class="atlas-code">{category.code} / {en ? 'FIELD' : '领域'}</span>
+          <span class="atlas-count">{String(count).padStart(2,'0')}</span>
+          <span class="atlas-name">{category[lang]} <span aria-hidden="true">↗</span></span>
+          <span class="atlas-description">{category.description[lang]}</span>
+          <span class="atlas-dots" aria-hidden="true">{Array.from({length:count},()=> <i></i>)}</span>
+        </button>;
+      })}
+    </div>
+    <div class="catalog-time" data-catalog-panel="time" hidden>
+      {months.map(month => {
+        const items = projects.filter(p => p.started === month);
+        return <section class="catalog-time-month"><div class="catalog-month-label"><strong>{month}</strong><span>{items.length} {en ? 'first records' : '项起点记录'}</span></div>
+          <div class="catalog-time-items">{items.map(project=>{
+            const category=categories.find(c=>c.id===project.category)!;
+            return <a style={`--field:${category.color}`} href={projectHref(project,lang)}><i></i>{project[lang].name}</a>;
+          })}</div>
+        </section>;
+      })}
+      <p class="catalog-caption">{en ? 'Grouped by the earliest located project record, not a release calendar. Revisions and renamed versions stay within their original project.' : '按最早可定位的项目记录归档，不代表正式发布日期。同一项目的更名与迭代合并展示。'}</p>
+    </div>
+    <div class="catalog-stage-track" aria-label={en ? 'Project stage distribution' : '项目阶段分布'}>
+      {Object.entries(stages).map(([id,label])=>{
+        const count=projects.filter(p=>p.stage===id).length;
+        return <div class={`catalog-stage-segment stage-${id}`} style={`--stage-size:${count}`}><span>{label[lang]}</span><strong>{count}</strong></div>;
+      })}
+    </div>
+    <p class="catalog-caption">{en ? 'Delivered means an artifact or runnable package exists; it does not imply a commercial launch. Scope is checked against local work and task records through October 26, 2026.' : '“已有交付”表示已有文件、源码或可运行包，不等同于商业上线。整理依据为截至 2026 年 10 月 26 日可核实的本地成果与任务记录。'}</p>
+  </section>
+
+  <section class="catalog-featured" aria-labelledby="featured-title">
+    <div class="catalog-section-head"><div><div class="eyebrow">02 / IN THE MAKING</div><h2 id="featured-title">{en ? 'Inside the work' : '看见实际做出的样子'}</h2></div></div>
+    <div class="catalog-featured-grid">
+      {projects.filter(p=>p.image).map(project=><a href={projectHref(project,lang)} class="catalog-featured-card"><img src={`/projects/${project.image}`} alt={en ? `${project.en.name} development screenshot` : `${project.zh.name}开发截图`} width="1440" height="900" loading="lazy" /><div><span class="eyebrow">{en ? 'DEVELOPMENT CAPTURE' : '开发过程截图'}</span><strong>{project[lang].name}</strong><span aria-hidden="true">↗</span></div></a>)}
+    </div>
+  </section>
+
+  <section id="project-directory" class="catalog-directory" aria-labelledby="directory-title">
+    <div class="catalog-section-head"><div><div class="eyebrow">03 / THE INDEX</div><h2 id="directory-title">{en ? 'Every project, in context' : '逐个项目，慢慢看'}</h2></div><span class="catalog-total">{projects.length} {en ? 'records' : '条记录'}</span></div>
+    <div class="catalog-filters">
+      <label class="catalog-search"><span>{en ? 'Search projects' : '搜索项目'}</span><input data-project-search type="search" placeholder={en ? 'Name, feature, technology…' : '项目名、功能或技术…'} /></label>
+      <label><span>{en ? 'Stage' : '进度'}</span><select data-project-stage><option value="all">{en ? 'All stages' : '所有进度'}</option>{Object.entries(stages).map(([id,label])=><option value={id}>{label[lang]}</option>)}</select></label>
+      <button type="button" class="catalog-reset" data-project-reset>{en ? 'Reset' : '重置'}</button>
+    </div>
+    <div class="catalog-category-filters" role="group" aria-label={en ? 'Filter by field' : '按领域筛选'}>
+      <button type="button" data-project-category="all" aria-pressed="true">{en ? 'All' : '全部'} <small>{projects.length}</small></button>
+      {categories.map(c=><button type="button" data-project-category={c.id} aria-pressed="false">{c[lang]} <small>{projects.filter(p=>p.category===c.id).length}</small></button>)}
+    </div>
+    <p class="catalog-result" data-project-result aria-live="polite"></p>
+    <div class="catalog-cards">
+      {projects.map((project,index)=>{
+        const category=categories.find(c=>c.id===project.category)!;
+        const copy=project[lang];
+        return <article class="catalog-card" style={`--field:${category.color}`} data-project-card data-category={project.category} data-stage={project.stage} data-search={`${project.zh.name} ${project.en.name} ${project.zh.summary} ${project.en.summary} ${project.stack.join(' ')}`}>
+          <a class="catalog-card-main" href={projectHref(project,lang)}>
+            <div class="catalog-card-meta"><span>{category[lang]}</span><span class={`catalog-status stage-${project.stage}`}>{stages[project.stage as keyof typeof stages][lang]}</span></div>
+            <div class="catalog-card-title"><span class="catalog-card-no">{String(index+1).padStart(2,'0')}</span><h3>{copy.name}</h3></div>
+            <p>{copy.summary}</p>
+            <div class="catalog-mini-flow" aria-hidden="true">{copy.flow.map((step,i)=><span><small>{i+1}</small>{step}</span>)}</div>
+            <div class="catalog-card-bottom"><div class="catalog-stack">{project.stack.slice(0,3).map(item=><span>{item}</span>)}</div><span>{en ? 'Case notes ↗' : '查看项目 ↗'}</span></div>
+          </a>
+        </article>;
+      })}
+    </div>
+    <div class="catalog-empty" data-project-empty hidden>{en ? 'No projects match this combination. Try fewer filters.' : '暂时没有符合这些条件的项目，试试减少筛选条件。'}</div>
+  </section>
+  <p class="catalog-endnote">{en ? 'Each record is a project, not a chat count. Repeated revisions are merged; source packages and private materials are not automatically republished.' : '这里按项目归档，而非按聊天次数计数。重复返工合并为同一条目；原始工程包与私人材料不会随项目介绍自动公开。'}</p>
+</div>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-project-library]');
+  if (root) {
+    const en = root.dataset.lang === 'en';
+    const search = root.querySelector<HTMLInputElement>('[data-project-search]')!;
+    const stage = root.querySelector<HTMLSelectElement>('[data-project-stage]')!;
+    const cards = [...root.querySelectorAll<HTMLElement>('[data-project-card]')];
+    const filters = [...root.querySelectorAll<HTMLButtonElement>('[data-project-category]')];
+    let category = 'all';
+    const update = () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      let count = 0;
+      cards.forEach(card => {
+        const match = (category === 'all' || card.dataset.category === category)
+          && (stage.value === 'all' || card.dataset.stage === stage.value)
+          && (!query || (card.dataset.search ?? '').toLocaleLowerCase().includes(query));
+        card.hidden = !match;
+        if (match) count++;
+      });
+      filters.forEach(button=>button.setAttribute('aria-pressed', String(button.dataset.projectCategory === category)));
+      root.querySelector('[data-project-result]')!.textContent = en ? `${count} / ${cards.length} projects` : `显示 ${count} / ${cards.length} 个项目`;
+      (root.querySelector('[data-project-empty]') as HTMLElement).hidden = count !== 0;
+    };
+    filters.forEach(button=>button.addEventListener('click',()=>{category=button.dataset.projectCategory!;update();}));
+    root.querySelectorAll<HTMLElement>('[data-category-jump]').forEach(button=>button.addEventListener('click',()=>{
+      category=button.dataset.categoryJump!;search.value='';stage.value='all';update();
+      root.querySelector('#project-directory')?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+    }));
+    root.querySelectorAll<HTMLElement>('[data-catalog-view]').forEach(button=>button.addEventListener('click',()=>{
+      root.querySelectorAll<HTMLElement>('[data-catalog-view]').forEach(tab=>tab.setAttribute('aria-pressed',String(tab===button)));
+      root.querySelectorAll<HTMLElement>('[data-catalog-panel]').forEach(panel=>{panel.hidden=panel.dataset.catalogPanel!==button.dataset.catalogView;});
+    }));
+    search.addEventListener('input',update);
+    stage.addEventListener('change',update);
+    root.querySelector('[data-project-reset]')?.addEventListener('click',()=>{category='all';search.value='';stage.value='all';update();});
+    update();
+  }
+</script>
+

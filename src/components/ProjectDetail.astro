@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { projects, categories, stages, catalogDate, projectHref } from '../data/project-catalog';
+import type { Lang, Project } from '../data/project-catalog';
+import '../styles/projects.css';
+interface Props { project: Project; lang: Lang }
+const { project, lang } = Astro.props;
+const en = lang === 'en';
+const copy = project[lang];
+const category = categories.find(c=>c.id===project.category)!;
+const related = projects.filter(p=>p.slug!==project.slug).map(p=>({p,score:(p.category===project.category?3:0)+p.stack.filter(s=>project.stack.includes(s)).length})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,3).map(x=>x.p);
+const links: Record<string, {href:string;zh:string;en:string}[]> = {
+  'personal-blog': [{href:en?'/en/':'/',zh:'浏览本站',en:'Explore this site'}],
+  'ai-news': [{href:en?'/en/ai-news/':'/ai-news/',zh:'查看 AI 资讯',en:'Read AI news'}],
+  'ip-please': [{href:'https://github.com/ip-please/ip-please.github.io',zh:'参考开源项目',en:'Reference open-source project'}]
+};
+---
+<BaseLayout title={copy.name} description={copy.summary} lang={lang} path="projects" switchTo={projectHref(project,en?'zh':'en')}>
+  <article class="project-case" style={`--field:${category.color}`}>
+    <a class="catalog-back" href={en?'/en/projects/':'/projects/'}>← {en?'All projects':'所有项目'}</a>
+    <header class="project-case-head">
+      <div class="eyebrow">{category[lang]} / {en?'PROJECT NOTES':'项目记录'}</div>
+      <h1>{copy.name}</h1>
+      <p class="lead">{copy.summary}</p>
+      <div class="project-case-meta"><span class={`catalog-status stage-${project.stage}`}>{stages[project.stage as keyof typeof stages][lang]}</span><span>{en?'First located record':'最早可定位记录'} · {project.started}</span><span>{en?'Archive checked':'归档核对'} · {catalogDate}</span></div>
+      <div class="catalog-stack">{project.stack.map(item=><span>{item}</span>)}</div>
+    </header>
+    {project.image && <figure class="project-case-image"><img src={`/projects/${project.image}`} alt={en?`${copy.name} development screenshot`:`${copy.name}开发过程截图`} width="1440" height="900" /><figcaption>{en?'Development capture; the interface may differ between iterations.':'开发过程截图，不同迭代的界面可能有所变化。'}</figcaption></figure>}
+    <section class="project-case-problem"><div class="eyebrow">01 / {en?'THE INTENT':'为什么做'}</div><h2>{copy.problem}</h2></section>
+    <section class="project-case-section"><div class="eyebrow">02 / {en?'THE FLOW':'一眼看懂流程'}</div><h2>{en?'How it works':'它如何运作'}</h2><ol class="project-case-flow">{copy.flow.map((step,index)=><li><span>{String(index+1).padStart(2,'0')}</span><strong>{step}</strong></li>)}</ol></section>
+    <section class="project-case-section"><div class="eyebrow">03 / {en?'THE WORK':'具体做了什么'}</div><h2>{en?'What exists':'已有的功能与产物'}</h2><div class="project-case-features">{copy.features.map((feature,index)=><div><span>{String(index+1).padStart(2,'0')}</span><h3>{feature}</h3></div>)}</div></section>
+    <section class="project-case-status"><div class="eyebrow">04 / {en?'CURRENT POSITION':'当前进度'}</div><h2>{en?'Where the project stands':'现在做到哪里了'}</h2><p>{copy.status}</p>{links[project.slug] && <div class="project-case-links">{links[project.slug].map(link=><a href={link.href} target={link.href.startsWith('https')?'_blank':undefined} rel={link.href.startsWith('https')?'noreferrer':undefined}>{link[lang]} ↗</a>)}</div>}</section>
+    {related.length>0&&<section class="project-case-related"><div class="eyebrow">{en?'CONNECTED WORK':'继续探索'}</div><h2>{en?'Nearby projects':'相关项目'}</h2><div>{related.map(item=><a href={projectHref(item,lang)}><strong>{item[lang].name}</strong><span>{item[lang].summary}</span><i aria-hidden="true">↗</i></a>)}</div></section>}
+    {en&&<p class="catalog-caption">AI-assisted English translation of the Chinese project record.</p>}
+  </article>
+</BaseLayout>
+

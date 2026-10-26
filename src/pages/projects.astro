@@ -1,59 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
-const projects = [
-  {
-    name: '有趣前端收藏',
-    summary: '把让我驻足的网页界面做成可体验的原创复刻，并记录设计语言、实现路径与可迁移的工程经验。',
-    stack: ['UI 收藏', 'Creative coding', 'Design notes'],
-    status: 'Growing',
-    href: '/projects/frontend-collection/'
-  },
-  {
-    name: 'AlphaOS 智能投研系统',
-    summary: '围绕基煜基金机构服务场景设计的 AI 基金投研工作台，连接基金研究、内部资料与机构决策流程。',
-    stack: ['Multi-Agent', 'RAG', '基金投研'],
-    status: 'Live',
-    href: '/projects/alphaos/'
-  },
-  {
-    name: '一句话记账',
-    summary: '自然语言记账与分账工具。目标是用一句话完成消费记录、参与人识别、分账计算和后续复盘。',
-    stack: ['AI', '自然语言', '个人财务'],
-    status: 'Prototype',
-    href: '/projects/one-sentence-ledger/'
-  },
-  {
-    name: 'OpenClaw Agent',
-    summary: '基于 LangChain / ReAct 的本地 AI Agent 实践，重点关注工具调用、权限控制、浏览器自动化和任务失败后的重试。',
-    stack: ['LangChain', 'ReAct', 'Agent'],
-    status: 'Building',
-    href: '/projects/openclaw-agent/'
-  },
-  {
-    name: 'Personal Blog',
-    summary: 'Astro + Markdown + GitHub + Cloudflare Pages 的个人知识站，用来沉淀文章、项目和长期思考。',
-    stack: ['Astro', 'Markdown', 'Cloudflare Pages'],
-    status: 'Live',
-    href: '/projects/personal-blog/'
-  }
-];
+import ProjectCatalog from '../components/ProjectCatalog.astro';
+import '../styles/projects.css';
 ---
-<BaseLayout title="Projects" description="Ryan 的项目记录。" lang="zh" path="projects">
-  <section class="page-head">
-    <div class="eyebrow">Projects</div>
-    <h1>项目</h1>
-  </section>
-  <div class="project-grid">
-    {projects.map((project) => (
-      <a class="project-card project-card-link" href={project.href}>
-        <div class="project-top">
-          <h3>{project.name}</h3>
-          <span class="project-status">{project.status}</span>
-        </div>
-        <p>{project.summary}</p>
-        <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
-      </a>
-    ))}
-  </div>
+<BaseLayout title="项目" description="44 个 Codex 项目的分类地图、创作轨迹与逐项记录。" lang="zh" path="projects">
+  <ProjectCatalog lang="zh" />
 </BaseLayout>

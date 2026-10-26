@@ -1,59 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-
-const projects = [
-  {
-    name: 'Interesting Frontend Collection',
-    summary: 'An expanding collection of original, runnable reinterpretations of memorable interfaces—with notes on their design language and implementation.',
-    stack: ['UI curation', 'Creative coding', 'Design notes'],
-    status: 'Growing',
-    href: '/en/projects/frontend-collection/'
-  },
-  {
-    name: 'AlphaOS Investment Research',
-    summary: 'An AI fund-research workspace designed around institutional fund-service workflows, linking research evidence, internal materials, and committee decisions.',
-    stack: ['Multi-Agent', 'RAG', 'Fund research'],
-    status: 'Live',
-    href: '/en/projects/alphaos/'
-  },
-  {
-    name: 'One-sentence Ledger',
-    summary: 'A natural-language expense and split-bill tool for recording spending, identifying participants, calculating shares, and reviewing habits.',
-    stack: ['AI', 'Natural language', 'Personal finance'],
-    status: 'Prototype',
-    href: '/en/projects/one-sentence-ledger/'
-  },
-  {
-    name: 'OpenClaw Agent',
-    summary: 'A local AI agent practice based on LangChain / ReAct, focused on tool use, permission control, browser automation, and retry behavior.',
-    stack: ['LangChain', 'ReAct', 'Agent'],
-    status: 'Building',
-    href: '/en/projects/openclaw-agent/'
-  },
-  {
-    name: 'Personal Blog',
-    summary: 'A personal knowledge site built with Astro, Markdown, GitHub, and Cloudflare Pages for essays, projects, and long-term thinking.',
-    stack: ['Astro', 'Markdown', 'Cloudflare Pages'],
-    status: 'Live',
-    href: '/en/projects/personal-blog/'
-  }
-];
+import ProjectCatalog from '../../components/ProjectCatalog.astro';
+import '../../styles/projects.css';
 ---
-<BaseLayout title="Projects" description="Ryan's project notes." lang="en" path="projects">
-  <section class="page-head">
-    <div class="eyebrow">Projects</div>
-    <h1>Projects</h1>
-  </section>
-  <div class="project-grid">
-    {projects.map((project) => (
-      <a class="project-card project-card-link" href={project.href}>
-        <div class="project-top">
-          <h3>{project.name}</h3>
-          <span class="project-status">{project.status}</span>
-        </div>
-        <p>{project.summary}</p>
-        <div class="tags">{project.stack.map((item) => <span class="tag">{item}</span>)}</div>
-      </a>
-    ))}
-  </div>
+<BaseLayout title="Projects" description="A categorized map, timeline, and individual case notes for 44 projects made with Codex." lang="en" path="projects">
+  <ProjectCatalog lang="en" />
 </BaseLayout>
