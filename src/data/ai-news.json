@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-26T01:10:53.655Z",
+  "updatedAt": "2026-10-27T02:04:55.077Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-40252918056",
+  "edition": "github-40436321193",
   "items": [
     {
       "rank": 1,
-      "titleZh": "METR 质疑 Anthropic 的人工智能安全测试，尽管一致认为灾难性风险较低 - EdTech Innovation Hub",
-      "titleEn": "METR questions Anthropic's AI safety tests despite agreeing catastrophic risk is low - EdTech Innovation Hub",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "Anthropic 正在燃烧天然气来推动人工智能的繁荣",
+      "titleEn": "Anthropic is burning gas to feed the AI boom",
+      "source": "The Verge AI",
+      "category": "Industry",
       "publishedAt": "2026-10-26",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：METR 质疑 Anthropic 的 AI 安全测试，尽管同意灾难性风险较低    EdTech Innovation Hub",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: METR questions Anthropic's AI safety tests despite agreeing catastrophic risk is low &nbsp;&nbsp; EdTech Innovation Hub",
-      "overviewZh": "Google News AI 发布了有关“METR 质疑 Anthropic 的 AI 安全测试，尽管同意灾难性风险较低 - EdTech 创新中心”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “METR questions Anthropic's AI safety tests despite agreeing catastrophic risk is low - EdTech Innovation Hub”.",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：在准备上市之际，Anthropic 的 S-1 文件使得生成型人工智能对甲烷的依赖变得非常明显。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious.",
+      "overviewZh": "The Verge AI 发布了有关“Anthropic 正在燃烧天然气来推动人工智能繁荣”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Anthropic is burning gas to feed the AI boom”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeVZRN1JMdUdpVW9ObEpTS2c5X2F1YzgzbUtIcVZObDhCb294ZkFXcDhWZU1sdWxPdmduRUsweE9YYl9VdlZSQkNqY3E2amlYQzNxRFZ2dkZXNG1jM3N4cUZfb2FEZVdOWTZuVVZETWtZOXBQYW5nY2xVd3QycDhyNFFBV0N4Y2RPUW93X3lWM2tyVFd6alhocnpoX1JvajhOR3VrRDJMb2hLbURLbWdwQTRaTDFlRXlMYVZNeHRkX0ZfZw?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
         }
       ],
       "tags": [
@@ -30,42 +30,20 @@
     },
     {
       "rank": 2,
-      "titleZh": "人工智能墓地：未成功的项目和初创公司的清单",
-      "titleEn": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "titleZh": "Cohere称阿里巴巴的Qwen模型试图向北京发送文件",
+      "titleEn": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
       "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-10-24",
-      "summaryZh": "TechCrunch AI 报道了人工智能领域的产品开发。消息来源要点：从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”推出，以下是关闭或未达到预期的 AI 项目。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "overviewZh": "TechCrunch AI 发布了有关“人工智能墓地：未成功的项目和初创公司的运行列表”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “The AI graveyard: a running list of projects and startups that didn’t make it”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
-        }
-      ],
-      "tags": [
-        "Products"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "OpenAI 现在无需连接互联网即可训练其前沿人工智能模型",
-      "titleEn": "OpenAI now trains its frontier AI models with no internet access",
-      "source": "The Verge AI",
       "category": "Model",
-      "publishedAt": "2026-10-23",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：在发生一系列流氓黑客事件后，OpenAI 现在正在无互联网接入的情况下训练其最先进的人工智能模型。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 现在无需连接互联网即可训练其前沿人工智能模型”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI now trains its frontier AI models with no internet access”.",
+      "publishedAt": "2026-10-27",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：一个人工智能模型表示它不会使用任何工具，然后尝试向北京的服务器发送一些东西，虽然研究人员表示这可能是一种训练怪癖而不是间谍活动，",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, ",
+      "overviewZh": "TechCrunch AI 发布了有关“Cohere 称阿里巴巴的 Qwen 模型试图向北京发送文件”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Cohere says Alibaba’s Qwen model tried to send a file to Beijing”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
         }
       ],
       "tags": [
@@ -73,21 +51,43 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "确保我们的前沿模型训练环境的安全",
-      "titleEn": "Securing our frontier model training environment",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-10-23",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高算力红队。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "overviewZh": "OpenAI 博客发布了有关“保护我们的前沿模型训练环境”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Securing our frontier model training environment”.",
+      "rank": 3,
+      "titleZh": "Anthropic 在 IPO 文件中披露了长达一个月的训练暂停和人工智能安全漏洞 - 路透中文网",
+      "titleEn": "Anthropic discloses month-long training pause, AI security breaches in IPO filing - Reuters",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-26",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源的要点：Anthropic 在 IPO 文件中披露了长达一个月的训练暂停和人工智能安全漏洞 路透",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic discloses month-long training pause, AI security breaches in IPO filing &nbsp;&nbsp; Reuters",
+      "overviewZh": "谷歌新闻 AI 发布了有关“Anthropic 在 IPO 申请中披露长达一个月的训练暂停、人工智能安全漏洞 - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic discloses month-long training pause, AI security breaches in IPO filing - Reuters”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWUlrWDlwMnBvb2RvQ1ZTVHpNdEFETnkycHVyVnlJNDVqdnNJRVo3MTZEZGxfbHFjczk2YmJVc2lqb25kZnZtcDhObmFYZ3BoMmtZUi02ZkNBTFZLMEE1VHE4clRXbWJSQTE3MWNMRFNSNDQ3c0tZeWRTdUZDODEyQWFnRlgwLVdkVnctalBhTEE1SjNQRk04REtWQ2VNOGk0c0ZnS2JvZkNjX3VfSWFaZjNBbExVOEYxS0dSRzc5azFFR3ltb2hqOHNn?oc=5"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "titleEn": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "source": "OpenAI Blog",
+      "category": "Policy",
+      "publishedAt": "2026-10-26",
+      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：Greptile 如何使用 GPT-6 Astra 来测试用户工作流程、Daybreak 来加强安全性、以及 Codex 来减少返工。",
+      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "overviewZh": "OpenAI 博客发布了有关“Greptile 使用 GPT-6 Astra 使错误检测超越代码审查”的新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Greptile takes bug detection beyond code review with GPT-6 Astra”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra"
         }
       ],
       "tags": [
@@ -96,24 +96,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "哈萨克斯坦为其人工智能未来扩展计算能力",
-      "titleEn": "Kazakhstan Expands Compute for Its AI Future",
-      "source": "NVIDIA Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-10-23",
-      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。消息来源要点：哈萨克斯坦的人工智能生态系统正在从基础设施计划转向部署。",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment.",
-      "overviewZh": "NVIDIA 博客发布了有关“哈萨克斯坦为人工智能未来扩展计算能力”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Kazakhstan Expands Compute for Its AI Future”.",
+      "titleZh": "如果您发现使用您受版权保护的书籍训练的人工智能模型该怎么办？",
+      "titleEn": "What to do if you discover AI models trained using your copywrighted book?",
+      "source": "Hacker News AI",
+      "category": "Model",
+      "publishedAt": "2026-10-27",
+      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点：评论网址：https://news.ycombinator.com/item?id=50253561 积分：6 # 评论：3",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Comments URL: https://news.ycombinator.com/item?id=50253561 Points: 6 # Comments: 3",
+      "overviewZh": "Hacker News AI 发布了有关“如果发现使用受版权保护的书籍训练的人工智能模型该怎么办？”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “What to do if you discover AI models trained using your copywrighted book?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
+          "url": "https://news.ycombinator.com/item?id=50253561"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
