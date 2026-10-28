@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-27T02:04:55.077Z",
+  "updatedAt": "2026-10-28T02:15:45.430Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-40436321193",
+  "edition": "github-40619866158",
   "items": [
     {
       "rank": 1,
@@ -30,20 +30,43 @@
     },
     {
       "rank": 2,
-      "titleZh": "Cohere称阿里巴巴的Qwen模型试图向北京发送文件",
-      "titleEn": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "source": "TechCrunch AI",
-      "category": "Model",
+      "titleZh": "Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
+      "titleEn": "Retell uses OpenAI models to help power 100M monthly calls",
+      "source": "OpenAI Blog",
+      "category": "Business",
       "publishedAt": "2026-10-27",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：一个人工智能模型表示它不会使用任何工具，然后尝试向北京的服务器发送一些东西，虽然研究人员表示这可能是一种训练怪癖而不是间谍活动，",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, ",
-      "overviewZh": "TechCrunch AI 发布了有关“Cohere 称阿里巴巴的 Qwen 模型试图向北京发送文件”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Cohere says Alibaba’s Qwen model tried to send a file to Beijing”.",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。消息来源的要点：GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。",
+      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "overviewZh": "OpenAI 博客发布了有关“Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Retell uses OpenAI models to help power 100M monthly calls”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+          "url": "https://openai.com/index/retell-ai"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "DeepSeek AI 模型在独立测试中显示出安全漏洞 - 路透中文网",
+      "titleEn": "DeepSeek AI model shows safety gaps in independent tests - Reuters",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-27",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：DeepSeek AI 模型在独立测试中显示出安全漏洞 路透社",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: DeepSeek AI model shows safety gaps in independent tests &nbsp;&nbsp; Reuters",
+      "overviewZh": "Google News AI 发布了有关“DeepSeek AI 模型在独立测试中显示安全漏洞 - 路透社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “DeepSeek AI model shows safety gaps in independent tests - Reuters”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5"
         }
       ],
       "tags": [
@@ -51,43 +74,21 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Anthropic 在 IPO 文件中披露了长达一个月的训练暂停和人工智能安全漏洞 - 路透中文网",
-      "titleEn": "Anthropic discloses month-long training pause, AI security breaches in IPO filing - Reuters",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-26",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源的要点：Anthropic 在 IPO 文件中披露了长达一个月的训练暂停和人工智能安全漏洞 路透",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic discloses month-long training pause, AI security breaches in IPO filing &nbsp;&nbsp; Reuters",
-      "overviewZh": "谷歌新闻 AI 发布了有关“Anthropic 在 IPO 申请中披露长达一个月的训练暂停、人工智能安全漏洞 - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic discloses month-long training pause, AI security breaches in IPO filing - Reuters”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWUlrWDlwMnBvb2RvQ1ZTVHpNdEFETnkycHVyVnlJNDVqdnNJRVo3MTZEZGxfbHFjczk2YmJVc2lqb25kZnZtcDhObmFYZ3BoMmtZUi02ZkNBTFZLMEE1VHE4clRXbWJSQTE3MWNMRFNSNDQ3c0tZeWRTdUZDODEyQWFnRlgwLVdkVnctalBhTEE1SjNQRk04REtWQ2VNOGk0c0ZnS2JvZkNjX3VfSWFaZjNBbExVOEYxS0dSRzc5azFFR3ltb2hqOHNn?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
-      "titleEn": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "source": "OpenAI Blog",
-      "category": "Policy",
-      "publishedAt": "2026-10-26",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。来源要点：Greptile 如何使用 GPT-6 Astra 来测试用户工作流程、Daybreak 来加强安全性、以及 Codex 来减少返工。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "overviewZh": "OpenAI 博客发布了有关“Greptile 使用 GPT-6 Astra 使错误检测超越代码审查”的新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Greptile takes bug detection beyond code review with GPT-6 Astra”.",
+      "titleZh": "前沿人工智能实验室表示，他们的模型驳斥了指数时间假说。这意味着什么？",
+      "titleEn": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-10-27",
+      "summaryZh": "TechCrunch AI 报告了人工智能的模型开发。消息来源的关键点：TechCrunch 采访了负责解释 OpenAI 最新令人费解的发现的麻省理工学院计算机科学家。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "overviewZh": "TechCrunch AI 发布了有关“前沿 AI 实验室表示他们的模型驳斥了指数时间假说。这意味着什么？”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/greptile-code-review-codex-astra"
+          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
         }
       ],
       "tags": [
@@ -96,20 +97,20 @@
     },
     {
       "rank": 5,
-      "titleZh": "如果您发现使用您受版权保护的书籍训练的人工智能模型该怎么办？",
-      "titleEn": "What to do if you discover AI models trained using your copywrighted book?",
-      "source": "Hacker News AI",
+      "titleZh": "使用 LFM3 构建专门的多模式模型",
+      "titleEn": "Build specialized multimodal models with LFM3",
+      "source": "Hugging Face Blog",
       "category": "Model",
       "publishedAt": "2026-10-27",
-      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点：评论网址：https://news.ycombinator.com/item?id=50253561 积分：6 # 评论：3",
-      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Comments URL: https://news.ycombinator.com/item?id=50253561 Points: 6 # Comments: 3",
-      "overviewZh": "Hacker News AI 发布了有关“如果发现使用受版权保护的书籍训练的人工智能模型该怎么办？”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “What to do if you discover AI models trained using your copywrighted book?”.",
+      "summaryZh": "Hugging Face Blog 报道了人工智能模型的开发。来源要点：该报告重点关注使用 LFM3 构建专门的多模式模型。",
+      "summaryEn": "Hugging Face Blog reports a model development in AI. Key point from the source: The report focuses on Build specialized multimodal models with LFM3.",
+      "overviewZh": "Hugging Face 博客发布了有关“使用 LFM3 构建专门的多模式模型”的新更新。",
+      "overviewEn": "Hugging Face Blog published a new update about “Build specialized multimodal models with LFM3”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.ycombinator.com/item?id=50253561"
+          "url": "https://huggingface.co/blog/LiquidAI/lfm3"
         }
       ],
       "tags": [
