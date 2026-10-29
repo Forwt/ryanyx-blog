@@ -1,49 +1,51 @@
 {
-  "updatedAt": "2026-10-28T02:15:45.430Z",
+  "updatedAt": "2026-10-29T02:27:05.056Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-40619866158",
+  "edition": "github-40806401361",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Anthropic 正在燃烧天然气来推动人工智能的繁荣",
-      "titleEn": "Anthropic is burning gas to feed the AI boom",
+      "titleZh": "谷歌推出 Gemini 4 Carbon，在网络安全方面实现“重大飞跃”",
+      "titleEn": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
       "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-10-26",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：在准备上市之际，Anthropic 的 S-1 文件使得生成型人工智能对甲烷的依赖变得非常明显。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious.",
-      "overviewZh": "The Verge AI 发布了有关“Anthropic 正在燃烧天然气来推动人工智能繁荣”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic is burning gas to feed the AI boom”.",
+      "category": "Model",
+      "publishedAt": "2026-10-28",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：谷歌发布了最新的前沿模型 Gemini 4 Carbon，在编码、代理任务和网络安全方面提供了“显着收益”。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity.",
+      "overviewZh": "The Verge AI 发布了有关“谷歌推出 Gemini 4 Carbon，在网络安全方面实现‘重大飞跃’”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
         }
       ],
       "tags": [
-        "AI"
+        "Agents",
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
-      "titleEn": "Retell uses OpenAI models to help power 100M monthly calls",
-      "source": "OpenAI Blog",
+      "titleZh": "ServiceNow 和 OpenAI 加速企业人工智能，从模型和运营到网络安全和代理开发 - ServiceNow Newsroom",
+      "titleEn": "ServiceNow and OpenAI accelerate enterprise AI, from models and operations to cybersecurity and agentic development - ServiceNow Newsroom",
+      "source": "Google News AI",
       "category": "Business",
-      "publishedAt": "2026-10-27",
-      "summaryZh": "OpenAI 博客报道了人工智能领域的业务发展。消息来源的要点：GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。",
-      "summaryEn": "OpenAI Blog reports a business development in AI. Key point from the source: GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "overviewZh": "OpenAI 博客发布了有关“Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Retell uses OpenAI models to help power 100M monthly calls”.",
+      "publishedAt": "2026-10-28",
+      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。来源要点：ServiceNow 和 OpenAI 加速企业人工智能，从模型和运营到网络安全和代理开发    ServiceNow Newsroom",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: ServiceNow and OpenAI accelerate enterprise AI, from models and operations to cybersecurity and agentic development &nbsp;&nbsp; ServiceNow Newsroom",
+      "overviewZh": "Google News AI 发布了有关“ServiceNow 和 OpenAI 加速企业人工智能，从模型和运营到网络安全和代理开发 - ServiceNow Newsroom”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “ServiceNow and OpenAI accelerate enterprise AI, from models and operations to cybersecurity and agentic development - ServiceNow Newsroom”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/retell-ai"
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOTmJmZ3lwWmpKMlowZmpaNEx4ZlJWbW9YTjZDZU1MUDEzZnJYVzhlS0g4emQxdVFxZXJGWWRDTnlIdGRMT0lNOElxWjBNUjZ5UWFTQ2l5RVFCWG1ScEVTYi1sY0dtbnhNME9YMktSYmFmR1dtcWVISHhqakhyRGlBbnU1aFpTOTRpczRaMHh5SjVGV2piQ3pXdFNPVjcyU1ZtcXl5RkxtRG55M0F6bnhTek50YzdPc1p5V3FPREVfSm9ncmxzZ2NKUXAyRThBTEstUWpKVjlic0w2bE5ZdXVtcS1aV2Zkc1RwRml5V1pLbzRLMXVKYXdaelpYTlpkVjhsZmdFdHpsLTBVSUJZMjgyOEdyX3dtUQ?oc=5"
         }
       ],
       "tags": [
@@ -53,64 +55,66 @@
     },
     {
       "rank": 3,
-      "titleZh": "DeepSeek AI 模型在独立测试中显示出安全漏洞 - 路透中文网",
-      "titleEn": "DeepSeek AI model shows safety gaps in independent tests - Reuters",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-27",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：DeepSeek AI 模型在独立测试中显示出安全漏洞 路透社",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: DeepSeek AI model shows safety gaps in independent tests &nbsp;&nbsp; Reuters",
-      "overviewZh": "Google News AI 发布了有关“DeepSeek AI 模型在独立测试中显示安全漏洞 - 路透社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “DeepSeek AI model shows safety gaps in independent tests - Reuters”.",
+      "titleZh": "Anthropic 刚刚推出了工具，向公司展示他们的人工智能支出正在购买什么",
+      "titleEn": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-10-28",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：前沿实验室正在计划的首次公开募股之前揭开用户如何在其模型上花钱的帷幕。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 刚刚推出的工具来向公司展示他们的人工智能支出正在购买什么”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic just launched tools to show companies what their AI spending is buying”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5"
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
         }
       ],
       "tags": [
-        "Models"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "前沿人工智能实验室表示，他们的模型驳斥了指数时间假说。这意味着什么？",
-      "titleEn": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-      "source": "TechCrunch AI",
+      "titleZh": "Legora正在构建法律工作代理操作系统",
+      "titleEn": "Legora is building the agentic operating system for legal work",
+      "source": "OpenAI Blog",
       "category": "Model",
-      "publishedAt": "2026-10-27",
-      "summaryZh": "TechCrunch AI 报告了人工智能的模型开发。消息来源的关键点：TechCrunch 采访了负责解释 OpenAI 最新令人费解的发现的麻省理工学院计算机科学家。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
-      "overviewZh": "TechCrunch AI 发布了有关“前沿 AI 实验室表示他们的模型驳斥了指数时间假说。这意味着什么？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?”.",
+      "publishedAt": "2026-10-28",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩展合同分析并使律师能够专注于更高价值的工作。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "overviewZh": "OpenAI 博客发布了有关“Legora 正在为法律工作构建代理操作系统”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Legora is building the agentic operating system for legal work”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+          "url": "https://openai.com/index/legora"
         }
       ],
       "tags": [
+        "Agents",
         "Models"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "使用 LFM3 构建专门的多模式模型",
-      "titleEn": "Build specialized multimodal models with LFM3",
-      "source": "Hugging Face Blog",
-      "category": "Model",
-      "publishedAt": "2026-10-27",
-      "summaryZh": "Hugging Face Blog 报道了人工智能模型的开发。来源要点：该报告重点关注使用 LFM3 构建专门的多模式模型。",
-      "summaryEn": "Hugging Face Blog reports a model development in AI. Key point from the source: The report focuses on Build specialized multimodal models with LFM3.",
-      "overviewZh": "Hugging Face 博客发布了有关“使用 LFM3 构建专门的多模式模型”的新更新。",
-      "overviewEn": "Hugging Face Blog published a new update about “Build specialized multimodal models with LFM3”.",
+      "titleZh": "MicroZig 将采取严格的禁止 LLM/禁止 AI 政策",
+      "titleEn": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "source": "Hacker News AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-29",
+      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点：文章网址：https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md 评论网址：https://news.ycombinator.com/item?id=50282865 积分：35 # 评论：43",
+      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md Comments URL: https://news.ycombinator.com/item?id=50282865 Points: 35 # Comments: 43",
+      "overviewZh": "Hacker News AI 发布了有关“MicroZig 将采用严格的无 LLM/无 AI 政策”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “MicroZig to Adopt Strict No LLM / No AI Policy”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+          "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md"
         }
       ],
       "tags": [
