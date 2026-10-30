@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T02:27:05.056Z",
+  "updatedAt": "2026-10-30T02:36:33.774Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-40806401361",
+  "edition": "github-40992664976",
   "items": [
     {
       "rank": 1,
@@ -32,48 +32,47 @@
     },
     {
       "rank": 2,
-      "titleZh": "ServiceNow 和 OpenAI 加速企业人工智能，从模型和运营到网络安全和代理开发 - ServiceNow Newsroom",
-      "titleEn": "ServiceNow and OpenAI accelerate enterprise AI, from models and operations to cybersecurity and agentic development - ServiceNow Newsroom",
-      "source": "Google News AI",
-      "category": "Business",
-      "publishedAt": "2026-10-28",
-      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。来源要点：ServiceNow 和 OpenAI 加速企业人工智能，从模型和运营到网络安全和代理开发    ServiceNow Newsroom",
-      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: ServiceNow and OpenAI accelerate enterprise AI, from models and operations to cybersecurity and agentic development &nbsp;&nbsp; ServiceNow Newsroom",
-      "overviewZh": "Google News AI 发布了有关“ServiceNow 和 OpenAI 加速企业人工智能，从模型和运营到网络安全和代理开发 - ServiceNow Newsroom”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “ServiceNow and OpenAI accelerate enterprise AI, from models and operations to cybersecurity and agentic development - ServiceNow Newsroom”.",
+      "titleZh": "OpenAI 支持的 Thrive Holdings 收购 ADT",
+      "titleEn": "OpenAI-backed Thrive Holdings acquires ADT",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-10-29",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源要点：OpenAI 支持的 Thrive Holdings 将以 153 亿美元的价格收购 ADT，计划将 AI 引入家庭安全业务。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 支持的 Thrive Holdings 收购 ADT”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI-backed Thrive Holdings acquires ADT”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOTmJmZ3lwWmpKMlowZmpaNEx4ZlJWbW9YTjZDZU1MUDEzZnJYVzhlS0g4emQxdVFxZXJGWWRDTnlIdGRMT0lNOElxWjBNUjZ5UWFTQ2l5RVFCWG1ScEVTYi1sY0dtbnhNME9YMktSYmFmR1dtcWVISHhqakhyRGlBbnU1aFpTOTRpczRaMHh5SjVGV2piQ3pXdFNPVjcyU1ZtcXl5RkxtRG55M0F6bnhTek50YzdPc1p5V3FPREVfSm9ncmxzZ2NKUXAyRThBTEstUWpKVjlic0w2bE5ZdXVtcS1aV2Zkc1RwRml5V1pLbzRLMXVKYXdaelpYTlpkVjhsZmdFdHpsLTBVSUJZMjgyOEdyX3dtUQ?oc=5"
+          "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
         }
       ],
       "tags": [
-        "Agents",
-        "Models"
+        "AI"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "Anthropic 刚刚推出了工具，向公司展示他们的人工智能支出正在购买什么",
-      "titleEn": "Anthropic just launched tools to show companies what their AI spending is buying",
-      "source": "TechCrunch AI",
+      "titleZh": "Mistral 表示其人工智能模型“Le Chonk”在公开重量级比赛中超越了中国 - 连线",
+      "titleEn": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race - WIRED",
+      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-10-28",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：前沿实验室正在计划的首次公开募股之前揭开用户如何在其模型上花钱的帷幕。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
-      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 刚刚推出的工具来向公司展示他们的人工智能支出正在购买什么”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic just launched tools to show companies what their AI spending is buying”.",
+      "publishedAt": "2026-10-29",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Mistral 表示其 AI 模型“Le Chonk”在公开重量级比赛中超越了中国",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race &nbsp;&nbsp; WIRED",
+      "overviewZh": "谷歌新闻 AI 发布了有关“Mistral 称其人工智能模型‘Le Chonk’在公开重量赛中超越中国 - 连线”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race - WIRED”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjRSWVJNVm85YldrSjhfUVBxN3owOFZ5R1dsbk10Yk03Qy04QXpzalI3OUp1R19BSEVITTFIXzFCUWJwRWpNZVhDR19MSVJnZTdOQTczSEtpWjhGc2VVRWJ1TUhybkczRm1tbXRFaS1jU0FjZ0VSaF81V0dwNDRIYXFPTmkxMUh1NlUxTjBkMDNpeEk?oc=5"
         }
       ],
       "tags": [
         "Models",
-        "Products"
+        "Open source"
       ]
     },
     {
@@ -101,24 +100,25 @@
     },
     {
       "rank": 5,
-      "titleZh": "MicroZig 将采取严格的禁止 LLM/禁止 AI 政策",
-      "titleEn": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "titleZh": "开放权重人工智能模型可以利用补丁间隙",
+      "titleEn": "Open-weight AI models can exploit the patch gap",
       "source": "Hacker News AI",
-      "category": "Policy",
+      "category": "Model",
       "publishedAt": "2026-10-29",
-      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点：文章网址：https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md 评论网址：https://news.ycombinator.com/item?id=50282865 积分：35 # 评论：43",
-      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md Comments URL: https://news.ycombinator.com/item?id=50282865 Points: 35 # Comments: 43",
-      "overviewZh": "Hacker News AI 发布了有关“MicroZig 将采用严格的无 LLM/无 AI 政策”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “MicroZig to Adopt Strict No LLM / No AI Policy”.",
+      "summaryZh": "Hacker News AI 报道了人工智能模型的开发。来源要点： 文章网址：https://epoch.ai/publications/open-weight-models-patch-gap 评论网址：https://news.ycombinator.com/item?id=50297159 积分：10 # 评论：8",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://epoch.ai/publications/open-weight-models-patch-gap Comments URL: https://news.ycombinator.com/item?id=50297159 Points: 10 # Comments: 8",
+      "overviewZh": "Hacker News AI 发布了有关“开放权重 AI 模型可以利用补丁间隙”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “Open-weight AI models can exploit the patch gap”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md"
+          "url": "https://epoch.ai/publications/open-weight-models-patch-gap"
         }
       ],
       "tags": [
-        "Models"
+        "Models",
+        "Open source"
       ]
     }
   ]
