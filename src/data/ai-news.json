@@ -1,51 +1,71 @@
 {
-  "updatedAt": "2026-10-30T02:36:33.774Z",
+  "updatedAt": "2026-10-31T02:23:21.179Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-40992664976",
+  "edition": "github-41159759776",
   "items": [
     {
       "rank": 1,
-      "titleZh": "谷歌推出 Gemini 4 Carbon，在网络安全方面实现“重大飞跃”",
-      "titleEn": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "titleZh": "维基百科运营商表示，糟糕的人工智能版权裁决可能会威胁开放网络",
+      "titleEn": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
       "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-10-28",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：谷歌发布了最新的前沿模型 Gemini 4 Carbon，在编码、代理任务和网络安全方面提供了“显着收益”。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity.",
-      "overviewZh": "The Verge AI 发布了有关“谷歌推出 Gemini 4 Carbon，在网络安全方面实现‘重大飞跃’”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity”.",
+      "category": "Policy",
+      "publishedAt": "2026-10-30",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：维基媒体基金会正在一系列具有里程碑意义的人工智能版权案件中采取中间立场，推动法院合法保护复制品上的大型语言模型（LLM）培训",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyri",
+      "overviewZh": "The Verge AI 发布了有关“维基百科运营商表示糟糕的人工智能版权裁决可能会威胁开放网络”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Wikipedia’s operator says a bad AI copyright ruling could threaten the open web”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+          "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
         }
       ],
       "tags": [
-        "Agents",
-        "Models",
-        "Products"
+        "Models"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 支持的 Thrive Holdings 收购 ADT",
-      "titleEn": "OpenAI-backed Thrive Holdings acquires ADT",
+      "titleZh": "英国《金融时报》报道称，Anthropic 预计在 IPO 后将获得信用机构的高“垃圾”评级",
+      "titleEn": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
       "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-29",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源要点：OpenAI 支持的 Thrive Holdings 将以 153 亿美元的价格收购 ADT，计划将 AI 引入家庭安全业务。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 支持的 Thrive Holdings 收购 ADT”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI-backed Thrive Holdings acquires ADT”.",
+      "category": "Business",
+      "publishedAt": "2026-10-30",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的关键点：Blackstone 的预测只是一个预测，但自然地，高垃圾评级将使 Anthropic 筹集资金以继续资助其庞大的资金变得更加困难和成本更高",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive",
+      "overviewZh": "TechCrunch AI 发布了关于“据英国《金融时报》报道，Anthropic 预计在 IPO 后将获得信贷机构高‘垃圾’评级”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+        }
+      ],
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "让网站更容易表达人工智能训练偏好",
+      "titleEn": "Making it easier for websites to express AI training preferences",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-10-30",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 将尊重共享的 robots.txt 信号，以帮助网站运营商向参与的提供商传达他们的 AI 培训偏好。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "overviewZh": "OpenAI 博客发布了关于“让网站更容易表达 AI 训练偏好”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Making it easier for websites to express AI training preferences”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
         }
       ],
       "tags": [
@@ -53,72 +73,48 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Mistral 表示其人工智能模型“Le Chonk”在公开重量级比赛中超越了中国 - 连线",
-      "titleEn": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race - WIRED",
+      "rank": 4,
+      "titleZh": "Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 - 游戏开发者",
+      "titleEn": "Anthropic orders AI tool Claude to stop remaking video games - Game Developer",
       "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-10-29",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Mistral 表示其 AI 模型“Le Chonk”在公开重量级比赛中超越了中国",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race &nbsp;&nbsp; WIRED",
-      "overviewZh": "谷歌新闻 AI 发布了有关“Mistral 称其人工智能模型‘Le Chonk’在公开重量赛中超越中国 - 连线”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race - WIRED”.",
+      "category": "Product",
+      "publishedAt": "2026-10-30",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 游戏开发者",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Anthropic orders AI tool Claude to stop remaking video games &nbsp;&nbsp; Game Developer",
+      "overviewZh": "谷歌新闻人工智能发布了有关“人类命令人工智能工具克劳德停止重新制作视频游戏 - 游戏开发者”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic orders AI tool Claude to stop remaking video games - Game Developer”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjRSWVJNVm85YldrSjhfUVBxN3owOFZ5R1dsbk10Yk03Qy04QXpzalI3OUp1R19BSEVITTFIXzFCUWJwRWpNZVhDR19MSVJnZTdOQTczSEtpWjhGc2VVRWJ1TUhybkczRm1tbXRFaS1jU0FjZ0VSaF81V0dwNDRIYXFPTmkxMUh1NlUxTjBkMDNpeEk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbkRTbnBaVVk2ZEkzamZJZXpfMWlpWDJuRXJLa3RnUEI2SGJvYVJrd3dhUWhsRUh0Qi1NS0x1ZnJDTUNsY0FpUkVOaGpraTRzXy1ZV2g1bFhMemdEeWUwZzI1QkxRNExMSmxKUzYyeEEtUzJqTG1nS1NrcGRrWTRuMHhrcHJQQ1B6OFlwbXVjVXoxQjYzUTdJb0NCRFF4Q0lfUmRrd2ZMSXdtS25YR25HVjN2OU52SEp3Sncw?oc=5"
         }
       ],
       "tags": [
         "Models",
-        "Open source"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Legora正在构建法律工作代理操作系统",
-      "titleEn": "Legora is building the agentic operating system for legal work",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-10-28",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩展合同分析并使律师能够专注于更高价值的工作。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "overviewZh": "OpenAI 博客发布了有关“Legora 正在为法律工作构建代理操作系统”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Legora is building the agentic operating system for legal work”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/legora"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Models"
+        "Products"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "开放权重人工智能模型可以利用补丁间隙",
-      "titleEn": "Open-weight AI models can exploit the patch gap",
-      "source": "Hacker News AI",
-      "category": "Model",
+      "titleZh": "走进全方位：开发人员如何利用前沿人工智能代理将想法转化为模拟",
+      "titleEn": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
       "publishedAt": "2026-10-29",
-      "summaryZh": "Hacker News AI 报道了人工智能模型的开发。来源要点： 文章网址：https://epoch.ai/publications/open-weight-models-patch-gap 评论网址：https://news.ycombinator.com/item?id=50297159 积分：10 # 评论：8",
-      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://epoch.ai/publications/open-weight-models-patch-gap Comments URL: https://news.ycombinator.com/item?id=50297159 Points: 10 # Comments: 8",
-      "overviewZh": "Hacker News AI 发布了有关“开放权重 AI 模型可以利用补丁间隙”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Open-weight AI models can exploit the patch gap”.",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：将模拟想法转变为可行的应用程序意味着组装资源、连接物理和渲染，并检查场景是否按预期运行。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended.",
+      "overviewZh": "NVIDIA 博客发布了有关“走进全方位宇宙：开发人员如何利用前沿 AI 代理将想法转化为模拟”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://epoch.ai/publications/open-weight-models-patch-gap"
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
         }
       ],
       "tags": [
-        "Models",
-        "Open source"
+        "Agents"
       ]
     }
   ]
