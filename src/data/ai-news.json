@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-10-31T02:23:21.179Z",
+  "updatedAt": "2026-11-01T02:14:03.457Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-41159759776",
+  "edition": "github-41264311995",
   "items": [
     {
       "rank": 1,
-      "titleZh": "维基百科运营商表示，糟糕的人工智能版权裁决可能会威胁开放网络",
-      "titleEn": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-10-30",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的关键点：维基媒体基金会正在一系列具有里程碑意义的人工智能版权案件中采取中间立场，推动法院合法保护复制品上的大型语言模型（LLM）培训",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyri",
-      "overviewZh": "The Verge AI 发布了有关“维基百科运营商表示糟糕的人工智能版权裁决可能会威胁开放网络”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Wikipedia’s operator says a bad AI copyright ruling could threaten the open web”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "英国《金融时报》报道称，Anthropic 预计在 IPO 后将获得信用机构的高“垃圾”评级",
-      "titleEn": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "titleZh": "据报道 OpenAI 降低了新一轮融资目标",
+      "titleEn": "OpenAI reportedly lowers funding target for new round",
       "source": "TechCrunch AI",
       "category": "Business",
-      "publishedAt": "2026-10-30",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的关键点：Blackstone 的预测只是一个预测，但自然地，高垃圾评级将使 Anthropic 筹集资金以继续资助其庞大的资金变得更加困难和成本更高",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive",
-      "overviewZh": "TechCrunch AI 发布了关于“据英国《金融时报》报道，Anthropic 预计在 IPO 后将获得信贷机构高‘垃圾’评级”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says”.",
+      "publishedAt": "2026-10-31",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：OpenAI 最新一轮融资似乎没有达到预期。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "overviewZh": "TechCrunch AI 发布了有关“据报道 OpenAI 降低了新一轮融资目标”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI reportedly lowers funding target for new round”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
         }
       ],
       "tags": [
@@ -51,7 +29,52 @@
       ]
     },
     {
+      "rank": 2,
+      "titleZh": "人工智能领域的知名人士正在支持一种选择退出抓取的新方式",
+      "titleEn": "The biggest names in AI are backing a new way to opt out of scraping",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-10-30",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：正如搜索引擎圆桌会议早些时候报道的那样，OpenAI、谷歌、微软和 Anthropic 表示，他们将采用一种新标准，出版商可以使用该标准来选择不被人工智能抓取。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable.",
+      "overviewZh": "The Verge AI 发布了关于“人工智能领域的知名人士正在支持一种选择退出抓取的新方式”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “The biggest names in AI are backing a new way to opt out of scraping”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
       "rank": 3,
+      "titleZh": "Andy Jassy 表示随着亚马逊将中国的 Kimi 和 GLM 添加到 Bedrock，西方国家“非常渴望”更多西方开源人工智能模型 - 雅虎财经",
+      "titleEn": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock - Yahoo Finance",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-10-31",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：随着亚马逊将中国的 Kimi 和 GLM 添加到 Bedrock，Andy Jassy 表示西方“非常渴望”更多西方开源人工智能模型 雅虎财经",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock &nbsp;&nbsp; Yahoo Finance",
+      "overviewZh": "Google News AI 发布了关于“随着亚马逊将中国的 Kimi 和 GLM 添加到 Bedrock - 雅虎财经”，安迪·贾西 (Andy Jassy) 表示西方“非常渴望”更多西方开源人工智能模型。",
+      "overviewEn": "Google News AI published a new update about “Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock - Yahoo Finance”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0NfY2x4a1RoajlKNDVKYm12cVF5SG03NnRHMkpwS3BfTUFlNk5Jd0V2ZGR6UVktZ1ZuQXFLMnl1emxldjVKc0pnM2VGVWVpdE1DZnFtLW50YXBEUWkyY2hRUEl6ZzZQVGM2TzJYeXhQcUZRbUlKYkU1OHo4cEYwWmxFZ1hEU29OeVdLS0JHSDZ3Rmc?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Open source"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "让网站更容易表达人工智能训练偏好",
       "titleEn": "Making it easier for websites to express AI training preferences",
       "source": "OpenAI Blog",
@@ -70,29 +93,6 @@
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 - 游戏开发者",
-      "titleEn": "Anthropic orders AI tool Claude to stop remaking video games - Game Developer",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-10-30",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 游戏开发者",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Anthropic orders AI tool Claude to stop remaking video games &nbsp;&nbsp; Game Developer",
-      "overviewZh": "谷歌新闻人工智能发布了有关“人类命令人工智能工具克劳德停止重新制作视频游戏 - 游戏开发者”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic orders AI tool Claude to stop remaking video games - Game Developer”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbkRTbnBaVVk2ZEkzamZJZXpfMWlpWDJuRXJLa3RnUEI2SGJvYVJrd3dhUWhsRUh0Qi1NS0x1ZnJDTUNsY0FpUkVOaGpraTRzXy1ZV2g1bFhMemdEeWUwZzI1QkxRNExMSmxKUzYyeEEtUzJqTG1nS1NrcGRrWTRuMHhrcHJQQ1B6OFlwbXVjVXoxQjYzUTdJb0NCRFF4Q0lfUmRrd2ZMSXdtS25YR25HVjN2OU52SEp3Sncw?oc=5"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
       ]
     },
     {
