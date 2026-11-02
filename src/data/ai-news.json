@@ -1,13 +1,36 @@
 {
-  "updatedAt": "2026-11-01T02:14:03.457Z",
+  "updatedAt": "2026-11-02T02:31:08.391Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-41264311995",
+  "edition": "github-41378141646",
   "items": [
     {
       "rank": 1,
+      "titleZh": "随着 Copilot 使用率和 AI 代理采用率的加速，微软云销售额达到 639 亿美元 - EdTech Innovation Hub",
+      "titleEn": "Microsoft Cloud hits $63.9 billion as Copilot usage and AI agent adoption accelerate - EdTech Innovation Hub",
+      "source": "Google News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-11-02",
+      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：随着 Copilot 的使用和 AI 代理的采用加速，Microsoft 云销售额达到 639 亿美元 EdTech Innovation Hub",
+      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Microsoft Cloud hits $63.9 billion as Copilot usage and AI agent adoption accelerate &nbsp;&nbsp; EdTech Innovation Hub",
+      "overviewZh": "Google News AI 发布了有关“随着 Copilot 使用率和 AI 代理采用加速，微软云销售额达到 639 亿美元 - EdTech 创新中心”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Microsoft Cloud hits $63.9 billion as Copilot usage and AI agent adoption accelerate - EdTech Innovation Hub”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY1o0OFV0RmcwUDNvYV9sTE9Dd0EwR2RJbHhnRVIyX0RBOE1jQlBCVXY0T2x0akpqNHhQckV1OXhIYVpVUGF6WGhFUjdRN0hwZUhoNG5zN3ZvVFh3d3BJVDF0aUlTY3haU3VGZHBudXpEbXplcHNEV2ZwajJxMmpzU2ZhZU11SVRJYnlDQzdIWC1PTlJtaE4wNTNjclhvWXZYWG1OczBhM3doSEw3YklzUUUzMVk4ODE3bUVycXZTQ28?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "据报道 OpenAI 降低了新一轮融资目标",
       "titleEn": "OpenAI reportedly lowers funding target for new round",
       "source": "TechCrunch AI",
@@ -29,7 +52,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "titleZh": "人工智能领域的知名人士正在支持一种选择退出抓取的新方式",
       "titleEn": "The biggest names in AI are backing a new way to opt out of scraping",
       "source": "The Verge AI",
@@ -48,29 +71,6 @@
       ],
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Andy Jassy 表示随着亚马逊将中国的 Kimi 和 GLM 添加到 Bedrock，西方国家“非常渴望”更多西方开源人工智能模型 - 雅虎财经",
-      "titleEn": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock - Yahoo Finance",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-10-31",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：随着亚马逊将中国的 Kimi 和 GLM 添加到 Bedrock，Andy Jassy 表示西方“非常渴望”更多西方开源人工智能模型 雅虎财经",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock &nbsp;&nbsp; Yahoo Finance",
-      "overviewZh": "Google News AI 发布了关于“随着亚马逊将中国的 Kimi 和 GLM 添加到 Bedrock - 雅虎财经”，安迪·贾西 (Andy Jassy) 表示西方“非常渴望”更多西方开源人工智能模型。",
-      "overviewEn": "Google News AI published a new update about “Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock - Yahoo Finance”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0NfY2x4a1RoajlKNDVKYm12cVF5SG03NnRHMkpwS3BfTUFlNk5Jd0V2ZGR6UVktZ1ZuQXFLMnl1emxldjVKc0pnM2VGVWVpdE1DZnFtLW50YXBEUWkyY2hRUEl6ZzZQVGM2TzJYeXhQcUZRbUlKYkU1OHo4cEYwWmxFZ1hEU29OeVdLS0JHSDZ3Rmc?oc=5"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Open source"
       ]
     },
     {
@@ -97,24 +97,25 @@
     },
     {
       "rank": 5,
-      "titleZh": "走进全方位：开发人员如何利用前沿人工智能代理将想法转化为模拟",
-      "titleEn": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-29",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：将模拟想法转变为可行的应用程序意味着组装资源、连接物理和渲染，并检查场景是否按预期运行。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended.",
-      "overviewZh": "NVIDIA 博客发布了有关“走进全方位宇宙：开发人员如何利用前沿 AI 代理将想法转化为模拟”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents”.",
+      "titleZh": "Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 - 游戏开发者",
+      "titleEn": "Anthropic orders AI tool Claude to stop remaking video games - Game Developer",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-11-02",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 游戏开发者",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Anthropic orders AI tool Claude to stop remaking video games &nbsp;&nbsp; Game Developer",
+      "overviewZh": "谷歌新闻人工智能发布了有关“人类命令人工智能工具克劳德停止重新制作视频游戏 - 游戏开发者”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic orders AI tool Claude to stop remaking video games - Game Developer”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbkRTbnBaVVk2ZEkzamZJZXpfMWlpWDJuRXJLa3RnUEI2SGJvYVJrd3dhUWhsRUh0Qi1NS0x1ZnJDTUNsY0FpUkVOaGpraTRzXy1ZV2g1bFhMemdEeWUwZzI1QkxRNExMSmxKUzYyeEEtUzJqTG1nS1NrcGRrWTRuMHhrcHJQQ1B6OFlwbXVjVXoxQjYzUTdJb0NCRFF4Q0lfUmRrd2ZMSXdtS25YR25HVjN2OU52SEp3Sncw?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Models",
+        "Products"
       ]
     }
   ]
