@@ -1,72 +1,71 @@
 {
-  "updatedAt": "2026-11-02T02:31:08.391Z",
+  "updatedAt": "2026-11-03T03:55:53.710Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-41378141646",
+  "edition": "github-41575080204",
   "items": [
     {
       "rank": 1,
-      "titleZh": "随着 Copilot 使用率和 AI 代理采用率的加速，微软云销售额达到 639 亿美元 - EdTech Innovation Hub",
-      "titleEn": "Microsoft Cloud hits $63.9 billion as Copilot usage and AI agent adoption accelerate - EdTech Innovation Hub",
-      "source": "Google News AI",
-      "category": "Infrastructure",
+      "titleZh": "生命值",
+      "titleEn": "LifeVal",
+      "source": "OpenAI Blog",
+      "category": "Model",
       "publishedAt": "2026-11-02",
-      "summaryZh": "Google News AI 报道了人工智能基础设施的发展。来源要点：随着 Copilot 的使用和 AI 代理的采用加速，Microsoft 云销售额达到 639 亿美元 EdTech Innovation Hub",
-      "summaryEn": "Google News AI reports an infrastructure development in AI. Key point from the source: Microsoft Cloud hits $63.9 billion as Copilot usage and AI agent adoption accelerate &nbsp;&nbsp; EdTech Innovation Hub",
-      "overviewZh": "Google News AI 发布了有关“随着 Copilot 使用率和 AI 代理采用加速，微软云销售额达到 639 亿美元 - EdTech 创新中心”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Microsoft Cloud hits $63.9 billion as Copilot usage and AI agent adoption accelerate - EdTech Innovation Hub”.",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。 Key point from the source: Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "overviewZh": "OpenAI 博客发布了有关“LifeVal”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “LifeVal”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY1o0OFV0RmcwUDNvYV9sTE9Dd0EwR2RJbHhnRVIyX0RBOE1jQlBCVXY0T2x0akpqNHhQckV1OXhIYVpVUGF6WGhFUjdRN0hwZUhoNG5zN3ZvVFh3d3BJVDF0aUlTY3haU3VGZHBudXpEbXplcHNEV2ZwajJxMmpzU2ZhZU11SVRJYnlDQzdIWC1PTlJtaE4wNTNjclhvWXZYWG1OczBhM3doSEw3YklzUUUzMVk4ODE3bUVycXZTQ28?oc=5"
+          "url": "https://openai.com/index/lifeval"
         }
       ],
       "tags": [
-        "Agents",
-        "Infrastructure"
+        "AI"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "据报道 OpenAI 降低了新一轮融资目标",
-      "titleEn": "OpenAI reportedly lowers funding target for new round",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-10-31",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：OpenAI 最新一轮融资似乎没有达到预期。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: OpenAI’s latest funding round doesn't seem to be living up to expectations.",
-      "overviewZh": "TechCrunch AI 发布了有关“据报道 OpenAI 降低了新一轮融资目标”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI reportedly lowers funding target for new round”.",
+      "titleZh": "美国证券交易委员会应阻止 Anthropic 的 IPO 以保护公众 - 科技政策出版社",
+      "titleEn": "The SEC Should Block Anthropic’s IPO to Protect the Public - Tech Policy Press",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-02",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：美国证券交易委员会应阻止 Anthropic 的 IPO 以保护公众 Tech Policy Press",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: The SEC Should Block Anthropic’s IPO to Protect the Public &nbsp;&nbsp; Tech Policy Press",
+      "overviewZh": "Google News AI 发布了有关“美国证券交易委员会应阻止 Anthropic 的 IPO 以保护公众 - 科技政策出版社”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “The SEC Should Block Anthropic’s IPO to Protect the Public - Tech Policy Press”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnRSZXZPWWpiNW5fZnliSVdEdzliYXhQSU90TTNKOWNpczRRbXcxNjBxYW5yS0o3Um5Cdy15Uk1oRkpZcGdHbm5ZWDNnX0ctaXBZM21KRFl4T3hsYWZVVGgtbDdEeUU0M2d0MjRza0JoVTdURzQ5dTBiQ1VmQ09rYVBLUXl6QkUxbXc?oc=5"
         }
       ],
       "tags": [
-        "Business"
+        "AI"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "人工智能领域的知名人士正在支持一种选择退出抓取的新方式",
-      "titleEn": "The biggest names in AI are backing a new way to opt out of scraping",
-      "source": "The Verge AI",
+      "titleZh": "Anthropic 警告说，它非常接近 RSI 能力，即自我构建人工智能",
+      "titleEn": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "source": "TechCrunch AI",
       "category": "Industry",
-      "publishedAt": "2026-10-30",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的要点：正如搜索引擎圆桌会议早些时候报道的那样，OpenAI、谷歌、微软和 Anthropic 表示，他们将采用一种新标准，出版商可以使用该标准来选择不被人工智能抓取。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable.",
-      "overviewZh": "The Verge AI 发布了关于“人工智能领域的知名人士正在支持一种选择退出抓取的新方式”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “The biggest names in AI are backing a new way to opt out of scraping”.",
+      "publishedAt": "2026-11-02",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。 Key point from the source: RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities.",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities.",
+      "overviewZh": "TechCrunch AI 发布了关于“Anthropic 警告说它非常接近 RSI 能力，即自我构建人工智能”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic warns that it’s very close to RSI capability, aka self-building AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
         }
       ],
       "tags": [
@@ -75,47 +74,48 @@
     },
     {
       "rank": 4,
-      "titleZh": "让网站更容易表达人工智能训练偏好",
-      "titleEn": "Making it easier for websites to express AI training preferences",
-      "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-10-30",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 将尊重共享的 robots.txt 信号，以帮助网站运营商向参与的提供商传达他们的 AI 培训偏好。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "overviewZh": "OpenAI 博客发布了关于“让网站更容易表达 AI 训练偏好”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Making it easier for websites to express AI training preferences”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 - 游戏开发者",
-      "titleEn": "Anthropic orders AI tool Claude to stop remaking video games - Game Developer",
-      "source": "Google News AI",
+      "titleZh": "人类对克劳德的人工智能视频游戏克隆进行了取缔",
+      "titleEn": "Anthropic clamps down on Claude’s AI video game clones",
+      "source": "The Verge AI",
       "category": "Product",
       "publishedAt": "2026-11-02",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：Anthropic 命令 AI 工具 Claude 停止重新制作视频游戏 游戏开发者",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Anthropic orders AI tool Claude to stop remaking video games &nbsp;&nbsp; Game Developer",
-      "overviewZh": "谷歌新闻人工智能发布了有关“人类命令人工智能工具克劳德停止重新制作视频游戏 - 游戏开发者”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic orders AI tool Claude to stop remaking video games - Game Developer”.",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。 Key point from the source: Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware.",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware.",
+      "overviewZh": "The Verge AI 发布了关于“人类对克劳德的人工智能视频游戏克隆进行压制”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Anthropic clamps down on Claude’s AI video game clones”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbkRTbnBaVVk2ZEkzamZJZXpfMWlpWDJuRXJLa3RnUEI2SGJvYVJrd3dhUWhsRUh0Qi1NS0x1ZnJDTUNsY0FpUkVOaGpraTRzXy1ZV2g1bFhMemdEeWUwZzI1QkxRNExMSmxKUzYyeEEtUzJqTG1nS1NrcGRrWTRuMHhrcHJQQ1B6OFlwbXVjVXoxQjYzUTdJb0NCRFF4Q0lfUmRrd2ZMSXdtS25YR25HVjN2OU52SEp3Sncw?oc=5"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
         }
       ],
       "tags": [
         "Models",
         "Products"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "被盗的 AI API 密钥给一家公司带来了近 100 万美元的费用",
+      "titleEn": "Stolen AI API keys generated nearly $1M in charges for a single company",
+      "source": "Hacker News AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-11-03",
+      "summaryZh": "Hacker News AI 报道了人工智能基础设施的发展。 Key point from the source: Article URL: https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/ Comments URL: https://news.ycombinator.com/item?id=50346350 Po",
+      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/ Comments URL: https://news.ycombinator.com/item?id=50346350 Po",
+      "overviewZh": "Hacker News AI 发布了有关“被盗的 AI API 密钥为一家公司带来近 100 万美元费用”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “Stolen AI API keys generated nearly $1M in charges for a single company”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Infrastructure"
       ]
     }
   ]
