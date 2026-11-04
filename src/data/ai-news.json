@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-03T03:55:53.710Z",
+  "updatedAt": "2026-11-04T03:00:19.127Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-41575080204",
+  "edition": "github-41764293753",
   "items": [
     {
       "rank": 1,
@@ -13,7 +13,7 @@
       "source": "OpenAI Blog",
       "category": "Model",
       "publishedAt": "2026-11-02",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。 Key point from the source: Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：LifeVal 简介，这是一个衡量人工智能如何帮助人们完成日常任务（从寻找托儿服务到管理财务和政府文书工作）的基准。",
       "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "overviewZh": "OpenAI 博客发布了有关“LifeVal”的最新更新。",
       "overviewEn": "OpenAI Blog published a new update about “LifeVal”.",
@@ -30,92 +30,90 @@
     },
     {
       "rank": 2,
-      "titleZh": "美国证券交易委员会应阻止 Anthropic 的 IPO 以保护公众 - 科技政策出版社",
-      "titleEn": "The SEC Should Block Anthropic’s IPO to Protect the Public - Tech Policy Press",
+      "titleZh": "随着代理金融时代的到来，银行面临着令人畏惧的新人工智能安全风险 - 南华早报",
+      "titleEn": "Banks confront daunting new AI safety risks as era of agentic finance dawns - South China Morning Post",
       "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-11-02",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：美国证券交易委员会应阻止 Anthropic 的 IPO 以保护公众 Tech Policy Press",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: The SEC Should Block Anthropic’s IPO to Protect the Public &nbsp;&nbsp; Tech Policy Press",
-      "overviewZh": "Google News AI 发布了有关“美国证券交易委员会应阻止 Anthropic 的 IPO 以保护公众 - 科技政策出版社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “The SEC Should Block Anthropic’s IPO to Protect the Public - Tech Policy Press”.",
+      "publishedAt": "2026-11-04",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：随着代理金融时代的到来，银行面临着令人畏惧的新人工智能安全风险    南华早报",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Banks confront daunting new AI safety risks as era of agentic finance dawns &nbsp;&nbsp; South China Morning Post",
+      "overviewZh": "谷歌新闻人工智能发布了关于“随着代理金融时代的到来，银行面临着令人畏惧的新人工智能安全风险 - 南华早报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Banks confront daunting new AI safety risks as era of agentic finance dawns - South China Morning Post”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnRSZXZPWWpiNW5fZnliSVdEdzliYXhQSU90TTNKOWNpczRRbXcxNjBxYW5yS0o3Um5Cdy15Uk1oRkpZcGdHbm5ZWDNnX0ctaXBZM21KRFl4T3hsYWZVVGgtbDdEeUU0M2d0MjRza0JoVTdURzQ5dTBiQ1VmQ09rYVBLUXl6QkUxbXc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcjlSOU10Wm9RYlUzbmdMQkRKQlJhNFJWb2JDRUlRbXhkX2xXbkVJWml2ZFFnZ0U2Rkgzd2FmY1pPb0g4NGFaTFFnV2hsVmQ1UF83d2dQOGxudl9Ka2J2SWlnd19oSV8xMkpBYllUTHVRWkNmZEltcThNSFJtaTd4UndqcEhOV2M5TTVsXzFxYWVuYUU2NjExNTBYWFBuQTRaSzBnaGdZX0xsV0dNbjNULXVqalQ3Z2EzQ3BIQmdKTHMwRi1FY3ZHNWE0OWY?oc=5"
         }
       ],
       "tags": [
-        "AI"
+        "Agents"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "Anthropic 警告说，它非常接近 RSI 能力，即自我构建人工智能",
-      "titleEn": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "titleZh": "Anthropic 正在开发一个系统来证明人工智能模型的身份",
+      "titleEn": "Anthropic is working on a system to prove AI models’ identity",
       "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-02",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。 Key point from the source: RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities.",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities.",
-      "overviewZh": "TechCrunch AI 发布了关于“Anthropic 警告说它非常接近 RSI 能力，即自我构建人工智能”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic warns that it’s very close to RSI capability, aka self-building AI”.",
+      "category": "Model",
+      "publishedAt": "2026-11-03",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：该系统名为 FlashProve，可以让任何人检查人工智能响应是否确实来自其声称的模型。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 正在开发一种系统来证明 AI 模型身份”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic is working on a system to prove AI models’ identity”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "人类对克劳德的人工智能视频游戏克隆进行了取缔",
-      "titleEn": "Anthropic clamps down on Claude’s AI video game clones",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-11-02",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。 Key point from the source: Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware.",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware.",
-      "overviewZh": "The Verge AI 发布了关于“人类对克劳德的人工智能视频游戏克隆进行压制”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic clamps down on Claude’s AI video game clones”.",
+      "titleZh": "全球城市利用 NVIDIA 物理和代理 AI 构建和扩展 AI 服务",
+      "titleEn": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
+      "publishedAt": "2026-11-03",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：城市通过摄像头、传感器和操作系统生成大量数据，但将其转化为有用的行动（用于规划、维护和公共服务）仍然是一个挑战。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge.",
+      "overviewZh": "NVIDIA 博客发布了有关“全球城市利用 NVIDIA 物理和代理 AI 构建和扩展 AI 服务”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+          "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Agents"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "被盗的 AI API 密钥给一家公司带来了近 100 万美元的费用",
-      "titleEn": "Stolen AI API keys generated nearly $1M in charges for a single company",
-      "source": "Hacker News AI",
-      "category": "Infrastructure",
+      "titleZh": "OpenAI 表示 ChatGPT 在搜索领域正在追赶 Google",
+      "titleEn": "OpenAI says ChatGPT is catching up to Google in search",
+      "source": "The Verge AI",
+      "category": "Industry",
       "publishedAt": "2026-11-03",
-      "summaryZh": "Hacker News AI 报道了人工智能基础设施的发展。 Key point from the source: Article URL: https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/ Comments URL: https://news.ycombinator.com/item?id=50346350 Po",
-      "summaryEn": "Hacker News AI reports an infrastructure development in AI. Key point from the source: Article URL: https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/ Comments URL: https://news.ycombinator.com/item?id=50346350 Po",
-      "overviewZh": "Hacker News AI 发布了有关“被盗的 AI API 密钥为一家公司带来近 100 万美元费用”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “Stolen AI API keys generated nearly $1M in charges for a single company”.",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：在许多圈子里，“Ask Chat”已经取代了“Google it”，这反映在 OpenAI 的一项新公告中：通过 ChatGPT 运行的搜索查询量现在等于通过 Google 运行的搜索查询量的 20%。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 表示 ChatGPT 正在搜索领域追赶 Google”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI says ChatGPT is catching up to Google in search”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
         }
       ],
       "tags": [
-        "Models",
-        "Infrastructure"
+        "AI"
       ]
     }
   ]
