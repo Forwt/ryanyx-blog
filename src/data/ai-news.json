@@ -1,13 +1,58 @@
 {
-  "updatedAt": "2026-11-04T03:00:19.127Z",
+  "updatedAt": "2026-11-05T03:29:47.026Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-41764293753",
+  "edition": "github-41961927492",
   "items": [
     {
       "rank": 1,
+      "titleZh": "Gemini for Home 现已接入 AT&T 的智能安全系统",
+      "titleEn": "Gemini for Home now plugs into AT&T’s smart security system",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-04",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：AT&T 的智能家居安全系统现已与 Gemini for Home 集成。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: AT&T's smart home security system now integrates with Gemini for Home.",
+      "overviewZh": "The Verge AI 发布了有关“Gemini for Home 现已插入 AT&T 智能安全系统”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Gemini for Home now plugs into AT&T’s smart security system”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "基于开源人工智能？ Hugging Face 的政策负责人谈成本、风险和权衡",
+      "titleEn": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-04",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：随着企业、政府和初创公司都依赖于更低的成本、更多的控制和更大的灵活性的承诺，开源模式正变得越来越主流。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility.",
+      "overviewZh": "TechCrunch AI 发布了关于“以开源 AI 为基础？拥抱 Face 政策负责人关于成本、风险和权衡”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Open source"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "生命值",
       "titleEn": "LifeVal",
       "source": "OpenAI Blog",
@@ -29,51 +74,29 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "随着代理金融时代的到来，银行面临着令人畏惧的新人工智能安全风险 - 南华早报",
-      "titleEn": "Banks confront daunting new AI safety risks as era of agentic finance dawns - South China Morning Post",
+      "rank": 4,
+      "titleZh": "Palo Alto Networks 正在洽谈支付 5 亿美元收购人工智能安全初创公司 - The Information",
+      "titleEn": "Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup - The Information",
       "source": "Google News AI",
       "category": "Policy",
-      "publishedAt": "2026-11-04",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：随着代理金融时代的到来，银行面临着令人畏惧的新人工智能安全风险    南华早报",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Banks confront daunting new AI safety risks as era of agentic finance dawns &nbsp;&nbsp; South China Morning Post",
-      "overviewZh": "谷歌新闻人工智能发布了关于“随着代理金融时代的到来，银行面临着令人畏惧的新人工智能安全风险 - 南华早报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Banks confront daunting new AI safety risks as era of agentic finance dawns - South China Morning Post”.",
+      "publishedAt": "2026-11-05",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：Palo Alto Networks 正在洽谈向 AI 安全初创公司支付 5 亿美元的费用",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup &nbsp;&nbsp; The Information",
+      "overviewZh": "Google News AI 发布了有关“Palo Alto Networks 就为 AI 安全初创公司支付 5 亿美元的谈判 - 信息”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup - The Information”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcjlSOU10Wm9RYlUzbmdMQkRKQlJhNFJWb2JDRUlRbXhkX2xXbkVJWml2ZFFnZ0U2Rkgzd2FmY1pPb0g4NGFaTFFnV2hsVmQ1UF83d2dQOGxudl9Ka2J2SWlnd19oSV8xMkpBYllUTHVRWkNmZEltcThNSFJtaTd4UndqcEhOV2M5TTVsXzFxYWVuYUU2NjExNTBYWFBuQTRaSzBnaGdZX0xsV0dNbjNULXVqalQ3Z2EzQ3BIQmdKTHMwRi1FY3ZHNWE0OWY?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTlob0JoVW9qam51VzQzV083MU1iX1VGYTQ4M0xvbGota0JraXpDNWlSb0hHQnN5S0NfSlkyNE9hRnV5Y2FjRmNqOTlZcThrV2xYWDFiU3BVX1V5eXFOdWNSZS1aUTlWZWJsU0Y2ZXhkSVJHSnlmMExLOGFMMkFvQWF5MFJLNDVIX2FlanBQYzNlMUpqdzMxV3dQeUhGSUczQXc?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Business"
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "Anthropic 正在开发一个系统来证明人工智能模型的身份",
-      "titleEn": "Anthropic is working on a system to prove AI models’ identity",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-11-03",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的要点：该系统名为 FlashProve，可以让任何人检查人工智能响应是否确实来自其声称的模型。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
-      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 正在开发一种系统来证明 AI 模型身份”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic is working on a system to prove AI models’ identity”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 4,
+      "rank": 5,
       "titleZh": "全球城市利用 NVIDIA 物理和代理 AI 构建和扩展 AI 服务",
       "titleEn": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
       "source": "NVIDIA Blog",
@@ -92,28 +115,6 @@
       ],
       "tags": [
         "Agents"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "OpenAI 表示 ChatGPT 在搜索领域正在追赶 Google",
-      "titleEn": "OpenAI says ChatGPT is catching up to Google in search",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-03",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：在许多圈子里，“Ask Chat”已经取代了“Google it”，这反映在 OpenAI 的一项新公告中：通过 ChatGPT 运行的搜索查询量现在等于通过 Google 运行的搜索查询量的 20%。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 表示 ChatGPT 正在搜索领域追赶 Google”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI says ChatGPT is catching up to Google in search”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
-        }
-      ],
-      "tags": [
-        "AI"
       ]
     }
   ]
