@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-11-05T03:29:47.026Z",
+  "updatedAt": "2026-11-06T03:26:02.464Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-41961927492",
+  "edition": "github-42156503962",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Gemini for Home 现已接入 AT&T 的智能安全系统",
-      "titleEn": "Gemini for Home now plugs into AT&T’s smart security system",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-11-04",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。来源要点：AT&T 的智能家居安全系统现已与 Gemini for Home 集成。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: AT&T's smart home security system now integrates with Gemini for Home.",
-      "overviewZh": "The Verge AI 发布了有关“Gemini for Home 现已插入 AT&T 智能安全系统”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Gemini for Home now plugs into AT&T’s smart security system”.",
+      "titleZh": "开放权重向导：Chris Alexiuk 通过开放模型让人工智能变得简单",
+      "titleEn": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "source": "NVIDIA Blog",
+      "category": "Model",
+      "publishedAt": "2026-11-05",
+      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。消息来源的关键点：Chris Alexiuk 对于开源人工智能有一个简单的规则：如果你相信它，就大声说出来。",
+      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it.",
+      "overviewZh": "NVIDIA 博客发布了有关“开放权重向导：Chris Alexiuk 通过开放模型让 AI 变得简单”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "基于开源人工智能？ Hugging Face 的政策负责人谈成本、风险和权衡",
-      "titleEn": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "source": "TechCrunch AI",
-      "category": "Policy",
-      "publishedAt": "2026-11-04",
-      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。来源要点：随着企业、政府和初创公司都依赖于更低的成本、更多的控制和更大的灵活性的承诺，开源模式正变得越来越主流。",
-      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility.",
-      "overviewZh": "TechCrunch AI 发布了关于“以开源 AI 为基础？拥抱 Face 政策负责人关于成本、风险和权衡”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/"
+          "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/"
         }
       ],
       "tags": [
@@ -52,69 +30,94 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "生命值",
-      "titleEn": "LifeVal",
-      "source": "OpenAI Blog",
-      "category": "Model",
-      "publishedAt": "2026-11-02",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：LifeVal 简介，这是一个衡量人工智能如何帮助人们完成日常任务（从寻找托儿服务到管理财务和政府文书工作）的基准。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "overviewZh": "OpenAI 博客发布了有关“LifeVal”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “LifeVal”.",
+      "rank": 2,
+      "titleZh": "OpenAI 发布了新的网络安全模型。够了吗？",
+      "titleEn": "OpenAI released a new cybersecurity model. Is that enough?",
+      "source": "TechCrunch AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-11-05",
+      "summaryZh": "TechCrunch AI 报告了人工智能基础设施的发展情况。来源要点：随着人工智能实验室保护数字基础设施的工作面临审查，OpenAI 最新的网络安全模型问世。",
+      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 发布了新的网络安全模型。这足够了吗？”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI released a new cybersecurity model. Is that enough?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/lifeval"
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
         }
       ],
       "tags": [
-        "AI"
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "OpenAI 表示其新的网络安全模型更擅长不攻击其他公司",
+      "titleEn": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-11-05",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：OpenAI 正在推出 GPT-6 Cyber​​，这是其网络安全人工智能模型的最新版本，据称该模型更擅长发现漏洞，并且在此过程中不太可能出现恶意行为并攻击其他平台。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 表示其新的网络安全模型更擅长不攻击其他公司”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI says its new cybersecurity model is better at not hacking other companies”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "Palo Alto Networks 正在洽谈支付 5 亿美元收购人工智能安全初创公司 - The Information",
-      "titleEn": "Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup - The Information",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "Merge 利用 OpenAI 技术构建产品和业务工具",
+      "titleEn": "Merge builds product and business tools with OpenAI technology",
+      "source": "OpenAI Blog",
+      "category": "Product",
       "publishedAt": "2026-11-05",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：Palo Alto Networks 正在洽谈向 AI 安全初创公司支付 5 亿美元的费用",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup &nbsp;&nbsp; The Information",
-      "overviewZh": "Google News AI 发布了有关“Palo Alto Networks 就为 AI 安全初创公司支付 5 亿美元的谈判 - 信息”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup - The Information”.",
+      "summaryZh": "OpenAI 博客报道了人工智能领域的产品开发。来源要点：Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。",
+      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing.",
+      "overviewZh": "OpenAI 博客发布了有关“Merge 使用 OpenAI 技术构建产品和业务工具”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Merge builds product and business tools with OpenAI technology”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTlob0JoVW9qam51VzQzV083MU1iX1VGYTQ4M0xvbGota0JraXpDNWlSb0hHQnN5S0NfSlkyNE9hRnV5Y2FjRmNqOTlZcThrV2xYWDFiU3BVX1V5eXFOdWNSZS1aUTlWZWJsU0Y2ZXhkSVJHSnlmMExLOGFMMkFvQWF5MFJLNDVIX2FlanBQYzNlMUpqdzMxV3dQeUhGSUczQXc?oc=5"
+          "url": "https://openai.com/index/merge-builds-with-openai"
         }
       ],
       "tags": [
-        "Business"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "全球城市利用 NVIDIA 物理和代理 AI 构建和扩展 AI 服务",
-      "titleEn": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "source": "NVIDIA Blog",
-      "category": "Industry",
-      "publishedAt": "2026-11-03",
-      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。来源要点：城市通过摄像头、传感器和操作系统生成大量数据，但将其转化为有用的行动（用于规划、维护和公共服务）仍然是一个挑战。",
-      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge.",
-      "overviewZh": "NVIDIA 博客发布了有关“全球城市利用 NVIDIA 物理和代理 AI 构建和扩展 AI 服务”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI”.",
+      "titleZh": "OpenAI 承诺在选举谴责后停止新数据中心政策提案中的保密协议 - CNBC",
+      "titleEn": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke - CNBC",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-05",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 承诺在选举谴责后停止新数据中心政策提案中的 NDA",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke &nbsp;&nbsp; CNBC",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 承诺在选举谴责后停止新数据中心政策提案中的 NDA - CNBC”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke - CNBC”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZThLcjRmNUduOEJ4aUt0bmF0OXI4T0xhb0hQMk9BMjlYb3YzYWx1V05CaFRjR2xuMTROU1l3NUd6M0phTWE4ZG9hSHEzS21KTGVrUGxBWVBsRFA4UWtZVEtxVjM1V2x4NGFzY01UVkMzcEQzSW9pc013MDc3RXZRSFM4TENWcmxRbGExTHAwQzRHYlE3UEZlaHZvWldTTUVyNEZkWWZ5VdIBrAFBVV95cUxNb0ZKaGw3Qmh1WEFRTHV1Tk9RNDd5bnVudHhrR0pCQVJXUG5TUDdrXy1kXzA1Z2s2MFpSSlNzVEl0TFh2RURiejFETVZVZkNkSzhVZ1JFa3hPRHFFcUFOWFpWSE1EOTUwSDF6dEFCZU01Z2JMV3JKRjJ3ZkQ0Wkc2VHFwdzhkd1VodEtPdUg4REItby15c3d5azQ0MGdLbExuaEdxdjhlTS16MlhP?oc=5"
         }
       ],
       "tags": [
-        "Agents"
+        "Infrastructure"
       ]
     }
   ]
