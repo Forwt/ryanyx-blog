@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T03:26:02.464Z",
+  "updatedAt": "2026-11-07T02:48:14.842Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-42156503962",
+  "edition": "github-42330997591",
   "items": [
     {
       "rank": 1,
@@ -31,93 +31,90 @@
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 发布了新的网络安全模型。够了吗？",
-      "titleEn": "OpenAI released a new cybersecurity model. Is that enough?",
-      "source": "TechCrunch AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-11-05",
-      "summaryZh": "TechCrunch AI 报告了人工智能基础设施的发展情况。来源要点：随着人工智能实验室保护数字基础设施的工作面临审查，OpenAI 最新的网络安全模型问世。",
-      "summaryEn": "TechCrunch AI reports an infrastructure development in AI. Key point from the source: OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "overviewZh": "TechCrunch AI 发布了有关“OpenAI 发布了新的网络安全模型。这足够了吗？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI released a new cybersecurity model. Is that enough?”.",
+      "titleZh": "衡量人工智能代理如何处理日常湿实验室科学",
+      "titleEn": "Measuring how AI agents handle everyday wet-lab science",
+      "source": "OpenAI Blog",
+      "category": "Model",
+      "publishedAt": "2026-11-06",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "overviewZh": "OpenAI 博客发布了关于“衡量人工智能代理如何处理日常湿实验室科学”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Measuring how AI agents handle everyday wet-lab science”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Agents"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "OpenAI 表示其新的网络安全模型更擅长不攻击其他公司",
-      "titleEn": "OpenAI says its new cybersecurity model is better at not hacking other companies",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-11-05",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的要点：OpenAI 正在推出 GPT-6 Cyber​​，这是其网络安全人工智能模型的最新版本，据称该模型更擅长发现漏洞，并且在此过程中不太可能出现恶意行为并攻击其他平台。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 表示其新的网络安全模型更擅长不攻击其他公司”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI says its new cybersecurity model is better at not hacking other companies”.",
+      "titleZh": "据报道 OpenAI 额外融资 110 亿美元，估值 1.25 万亿美元",
+      "titleEn": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "source": "TechCrunch AI",
+      "category": "Business",
+      "publishedAt": "2026-11-06",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的关键点：据报道，OpenAI 已额外筹集 110 亿美元，作为一轮融资的一部分，该轮融资尚未结束，但预计将在未来几周内结束。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "overviewZh": "TechCrunch AI 发布了有关“据报道 OpenAI 以 1.25 万亿美元估值额外筹集 110 亿美元”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Business"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "Merge 利用 OpenAI 技术构建产品和业务工具",
-      "titleEn": "Merge builds product and business tools with OpenAI technology",
-      "source": "OpenAI Blog",
-      "category": "Product",
-      "publishedAt": "2026-11-05",
-      "summaryZh": "OpenAI 博客报道了人工智能领域的产品开发。来源要点：Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。",
-      "summaryEn": "OpenAI Blog reports a product development in AI. Key point from the source: Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing.",
-      "overviewZh": "OpenAI 博客发布了有关“Merge 使用 OpenAI 技术构建产品和业务工具”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Merge builds product and business tools with OpenAI technology”.",
+      "titleZh": "竞争对手 Anthropic 即将 IPO，OpenAI 估值达 1.25 万亿美元",
+      "titleEn": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "source": "The Verge AI",
+      "category": "Business",
+      "publishedAt": "2026-11-06",
+      "summaryZh": "The Verge AI 报道了人工智能领域的业务发展。消息来源要点：据彭博社报道，OpenAI 在新一轮融资中目前估值为 1.25 万亿美元，该轮融资又筹集了 110 亿美元。",
+      "summaryEn": "The Verge AI reports a business development in AI. Key point from the source: OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
+      "overviewZh": "The Verge AI 发布了有关“OpenAI 估值达 1.25 万亿美元，竞争对手 Anthropic 接近 IPO”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/merge-builds-with-openai"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
         }
       ],
       "tags": [
-        "Models",
-        "Products"
+        "Business"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "OpenAI 承诺在选举谴责后停止新数据中心政策提案中的保密协议 - CNBC",
-      "titleEn": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke - CNBC",
+      "titleZh": "Anthropic 的 IPO 估值下降增加了更广泛的人工智能贸易的风险 - Axios",
+      "titleEn": "Anthropic's falling IPO valuation raises stakes for broader AI trade - Axios",
       "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-11-05",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 承诺在选举谴责后停止新数据中心政策提案中的 NDA",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke &nbsp;&nbsp; CNBC",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 承诺在选举谴责后停止新数据中心政策提案中的 NDA - CNBC”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke - CNBC”.",
+      "category": "Business",
+      "publishedAt": "2026-11-07",
+      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。消息来源的关键点：Anthropic 的 IPO 估值下降增加了更广泛的人工智能贸易的风险 Axios",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Anthropic's falling IPO valuation raises stakes for broader AI trade &nbsp;&nbsp; Axios",
+      "overviewZh": "谷歌新闻 AI 发布了关于“Anthropic 的 IPO 估值下降提高了更广泛的人工智能交易的风险 - Axios”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic's falling IPO valuation raises stakes for broader AI trade - Axios”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZThLcjRmNUduOEJ4aUt0bmF0OXI4T0xhb0hQMk9BMjlYb3YzYWx1V05CaFRjR2xuMTROU1l3NUd6M0phTWE4ZG9hSHEzS21KTGVrUGxBWVBsRFA4UWtZVEtxVjM1V2x4NGFzY01UVkMzcEQzSW9pc013MDc3RXZRSFM4TENWcmxRbGExTHAwQzRHYlE3UEZlaHZvWldTTUVyNEZkWWZ5VdIBrAFBVV95cUxNb0ZKaGw3Qmh1WEFRTHV1Tk9RNDd5bnVudHhrR0pCQVJXUG5TUDdrXy1kXzA1Z2s2MFpSSlNzVEl0TFh2RURiejFETVZVZkNkSzhVZ1JFa3hPRHFFcUFOWFpWSE1EOTUwSDF6dEFCZU01Z2JMV3JKRjJ3ZkQ0Wkc2VHFwdzhkd1VodEtPdUg4REItby15c3d5azQ0MGdLbExuaEdxdjhlTS16MlhP?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yTl96WG92c29IdFAtUW9FWXhGRDNRaFhyVXVEb1ZWMHNTTzRpcTk4cVBYbGJQSGc4S1R0c0RXSnVuUVA4LUJZc19IeGlzb3dlZFo2TWFxb3JNd0I1Q29mcXpKQ3hLS3Jka1VIRFp0aE1rTzlMN0E?oc=5"
         }
       ],
       "tags": [
-        "Infrastructure"
+        "Business"
       ]
     }
   ]
