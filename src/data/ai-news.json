@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-07T02:48:14.842Z",
+  "updatedAt": "2026-11-08T02:29:53.726Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-42330997591",
+  "edition": "github-42438775324",
   "items": [
     {
       "rank": 1,
@@ -53,6 +53,28 @@
     },
     {
       "rank": 3,
+      "titleZh": "为什么关于人择自动化人工智能开发的新报告令研究人员感到震惊",
+      "titleEn": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-11-07",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：Anthropic 正在利用 AI 来构建更强大的 AI。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Anthropic is using AI to build more powerful AI.",
+      "overviewZh": "The Verge AI 发布了关于“为什么关于人择自动化人工智能开发的新报告令研究人员感到震惊”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Why a new report on Anthropic automating AI development is alarming researchers”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "据报道 OpenAI 额外融资 110 亿美元，估值 1.25 万亿美元",
       "titleEn": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
       "source": "TechCrunch AI",
@@ -74,43 +96,21 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "竞争对手 Anthropic 即将 IPO，OpenAI 估值达 1.25 万亿美元",
-      "titleEn": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "source": "The Verge AI",
-      "category": "Business",
-      "publishedAt": "2026-11-06",
-      "summaryZh": "The Verge AI 报道了人工智能领域的业务发展。消息来源要点：据彭博社报道，OpenAI 在新一轮融资中目前估值为 1.25 万亿美元，该轮融资又筹集了 110 亿美元。",
-      "summaryEn": "The Verge AI reports a business development in AI. Key point from the source: OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
-      "overviewZh": "The Verge AI 发布了有关“OpenAI 估值达 1.25 万亿美元，竞争对手 Anthropic 接近 IPO”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
-        }
-      ],
-      "tags": [
-        "Business"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "Anthropic 的 IPO 估值下降增加了更广泛的人工智能贸易的风险 - Axios",
-      "titleEn": "Anthropic's falling IPO valuation raises stakes for broader AI trade - Axios",
+      "titleZh": "Five9 (FIVN) 同意以 3.25 亿美元收购以扩展其人工智能平台 - 雅虎财经",
+      "titleEn": "Five9 (FIVN) Agrees $325 Million Acquisition To Expand Its AI Platform - Yahoo Finance",
       "source": "Google News AI",
       "category": "Business",
       "publishedAt": "2026-11-07",
-      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。消息来源的关键点：Anthropic 的 IPO 估值下降增加了更广泛的人工智能贸易的风险 Axios",
-      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Anthropic's falling IPO valuation raises stakes for broader AI trade &nbsp;&nbsp; Axios",
-      "overviewZh": "谷歌新闻 AI 发布了关于“Anthropic 的 IPO 估值下降提高了更广泛的人工智能交易的风险 - Axios”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic's falling IPO valuation raises stakes for broader AI trade - Axios”.",
+      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。来源要点：Five9 (FIVN) 同意以 3.25 亿美元收购以扩展其人工智能平台 雅虎财经",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Five9 (FIVN) Agrees $325 Million Acquisition To Expand Its AI Platform &nbsp;&nbsp; Yahoo Finance",
+      "overviewZh": "Google News AI 发布了有关“Five9 (FIVN) 同意以 3.25 亿美元收购以扩展其 AI 平台 - 雅虎财经”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Five9 (FIVN) Agrees $325 Million Acquisition To Expand Its AI Platform - Yahoo Finance”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yTl96WG92c29IdFAtUW9FWXhGRDNRaFhyVXVEb1ZWMHNTTzRpcTk4cVBYbGJQSGc4S1R0c0RXSnVuUVA4LUJZc19IeGlzb3dlZFo2TWFxb3JNd0I1Q29mcXpKQ3hLS3Jka1VIRFp0aE1rTzlMN0E?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ4SEdwcjR1RFZyTGRlR1cya1NNTzZpUDZ0OU1MeVl2TWVjMFB5M1hHS24xTHJDNkdEdnM2YTdQelU0d1FVWm40SFEyVGk0bkJLcEh3bDFVTjR0YWZkcjVkSTc1SGN3VURVNy1VOFREdmVTdlhhRkU1dkdaYm9UNmlYX3MzaThiNmVmWE1LZXRXT1pvQi1ERQ?oc=5"
         }
       ],
       "tags": [
