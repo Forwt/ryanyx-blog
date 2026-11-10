@@ -1,120 +1,123 @@
 {
-  "updatedAt": "2026-11-09T02:39:41.028Z",
+  "updatedAt": "2026-11-10T04:37:56.974Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-42552141683",
+  "edition": "github-42757065526",
   "items": [
     {
       "rank": 1,
-      "titleZh": "FF EAI Robotics Ecosystem Inc. (FFR) 和 Faraday Future 宣布 FF OmniMind 及其模型在 RoboColiseum Embodied AI 模型排名中排名第一；与美国几家领先的安全和检查机器人解决方案集成商一起推进销售 - 晨星",
-      "titleEn": "FF EAI Robotics Ecosystem Inc. (FFR) and Faraday Future Announce FF OmniMind and Its Model Achieve No. 1 in RoboColiseum Embodied AI Model Ranking; Advance Sales with Several Leading U.S. Integrators of Security and Inspection Robotics Solution - Morningstar",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "CodeRabbit 扩展了代理软件开发并将交付量增加了 20 倍",
+      "titleEn": "CodeRabbit scales agentic software development and ships 20x more",
+      "source": "OpenAI Blog",
+      "category": "Model",
       "publishedAt": "2026-11-09",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。消息来源要点：FF EAI Robotics Ecosystem Inc. (FFR) 与 Faraday Future 宣布 FF OmniMind 及其模型取得全球第一",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: FF EAI Robotics Ecosystem Inc. (FFR) and Faraday Future Announce FF OmniMind and Its Model Achieve No.",
-      "overviewZh": "Google News AI 发布了有关“FF EAI 机器人生态系统公司 (FFR) 和 Faraday Future 宣布 FF OmniMind 及其模型在 RoboColiseum 体现人工智能模型排名中排名第一；与美国几家领先的安全和检查机器人解决方案集成商——晨星 (Morningstar) 进行预售”的最新动态。",
-      "overviewEn": "Google News AI published a new update about “FF EAI Robotics Ecosystem Inc. (FFR) and Faraday Future Announce FF OmniMind and Its Model Achieve No. 1 in RoboColiseum Embodied AI Model Ranking; Advance Sales with Several Leading U.S. Integrators of Security and Inspection Robotics Solution - Morningstar”.",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "overviewZh": "OpenAI 博客发布了有关“CodeRabbit 扩展代理软件开发并将交付量增加 20 倍”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “CodeRabbit scales agentic software development and ships 20x more”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxNVHYwa0t5RnV2U1NXdkRqLWRCTFVFS1dLWnlxS0dZS2ZaMzJQT1k3TTdscGpUcHFoLTM4VDVhWGtpY19CTXZWVlRqdnFsYUVKR0Q3SGxFSW95eEdRX2JOZy1WYVBxYTRqamZfTjc3Y3NIRFlBYm9fSHBJNkRMZnZDb2RjY2RqN2dTQWlxT0c5czZWeUxtOWpYc1dKUC1YTHJuZXRzdUduQUQ1czRLblF1a1hpSjMzeG9KdnNFajJmVzV4VEo0cTFGbUtxUktGMDVpVmlaS2ZVWlJOODI5ZjV0NXU3ZDlablJPaVY1Tzc0UkxRZU8wWjZIc3lwWDJ6VzVVQWdfbmx6c19PQjh6RGdOMU1vUVZwLXhkQzJwV25vUlo5b2h6TVhicDNUNUEwQXBTem9hT3JIMHpkalVPMG9OdjExVVF4bzhvRW04bE80R3k4cUZSTGhBQTl3VGJFalN4ZVhJV1JnQkcwWEVWZzNkdE5PNG5rWlljNWpxcnh6NVFPUUw3Ml9POW9CUkF2UGxhZlduTFJDZVR3Qm9KLVczODhSdVlHYUk3aWtv?oc=5"
+          "url": "https://openai.com/index/coderabbit-codex-daybreak"
         }
       ],
       "tags": [
-        "Models",
-        "Robotics"
+        "Agents",
+        "Models"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "为什么关于人择自动化人工智能开发的新报告令研究人员感到震惊",
-      "titleEn": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-07",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。来源要点：Anthropic 正在利用 AI 来构建更强大的 AI。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Anthropic is using AI to build more powerful AI.",
-      "overviewZh": "The Verge AI 发布了关于“为什么关于人择自动化人工智能开发的新报告令研究人员感到震惊”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Why a new report on Anthropic automating AI development is alarming researchers”.",
+      "titleZh": "由于 RSI 担忧，Anthropic 发布了新的神话和寓言模型",
+      "titleEn": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-11-09",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：Anthropic 表示，新模型“显示出在编码、推理和视觉等领域的改进”，以及与用户更清晰的沟通。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 在 RSI 担忧中发布新神话和寓言模型”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic releases new Mythos and Fable models amid RSI concerns”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
         }
       ],
       "tags": [
-        "AI"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 3,
-      "titleZh": "据报道 OpenAI 额外融资 110 亿美元，估值 1.25 万亿美元",
-      "titleEn": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-11-06",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的关键点：据报道，OpenAI 已额外筹集 110 亿美元，作为一轮融资的一部分，该轮融资尚未结束，但预计将在未来几周内结束。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "overviewZh": "TechCrunch AI 发布了有关“据报道 OpenAI 以 1.25 万亿美元估值追加融资 110 亿美元”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation”.",
+      "titleZh": "Anthropic 推出全新 Claude Fable 和 Mythos 5.2 型号",
+      "titleEn": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "source": "The Verge AI",
+      "category": "Model",
+      "publishedAt": "2026-11-09",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源要点：Anthropic 今天宣布推出两款新型号：Claude Fable 5.2 和 Claude Mythos 5.2，据称这两款新型号旨在应对“艰巨”的技术挑战。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges.",
+      "overviewZh": "The Verge AI 发布了有关“Anthropic 推出新的 Claude Fable 和 Mythos 5.2 模型”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Anthropic launches new Claude Fable and Mythos 5.2 models”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
         }
       ],
       "tags": [
-        "Business"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "NVIDIA 开源工具如何帮助研究人员构建下一代 6G 网络",
-      "titleEn": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "source": "NVIDIA Blog",
+      "titleZh": "Anthropic 推出新的 Fable 5.2 和 Mythos 5.2 AI 模型 - CNET",
+      "titleEn": "Anthropic Introduces New Fable 5.2 and Mythos 5.2 AI Models - CNET",
+      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-11-06",
-      "summaryZh": "NVIDIA 博客报道了人工智能的模型开发。消息来源的要点：一年前，NVIDIA 开源了其 Aerial 无线软件，加入了 Sionna 和更广泛的开源工具套件，以加速下一代 6G 网络的开发。",
-      "summaryEn": "NVIDIA Blog reports a model development in AI. Key point from the source: A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
-      "overviewZh": "NVIDIA 博客发布了有关“NVIDIA 开源工具如何帮助研究人员构建下一代 6G 网络”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks”.",
+      "publishedAt": "2026-11-09",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Anthropic 推出新的 Fable 5.2 和 Mythos 5.2 AI 模型 CNET",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic Introduces New Fable 5.2 and Mythos 5.2 AI Models &nbsp;&nbsp; CNET",
+      "overviewZh": "Google News AI 发布了有关“Anthropic 推出新的 Fable 5.2 和 Mythos 5.2 AI 模型 - CNET”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic Introduces New Fable 5.2 and Mythos 5.2 AI Models - CNET”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/"
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPclhvZzYxckdzRVZ2dzNHMUZoSHd3RllabVFSSUxJUWRZRE5yaDNRQUFITi1hdG9lQ2RvamFJWERCQ3JIMllOcmxNZVJGSFNuQkROSlRPQm9TNDVMQldGZktKLXlmdXMxSHloOFllWXo5Unh1LWgzLUx3Q2g5ZnkydlRvRmpqRmliQ3VVdUlubw?oc=5"
         }
       ],
       "tags": [
-        "Open source"
+        "Models"
       ]
     },
     {
       "rank": 5,
-      "titleZh": "DeepSeek 的 AI 代理平台每日用户数量达到 154 万 - 彭博社",
-      "titleEn": "DeepSeek’s AI Agent Platform Hits 1.54 Million Daily Users - Bloomberg",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-11-08",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：DeepSeek 的 AI 代理平台每日用户数达到 154 万   彭博社",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: DeepSeek’s AI Agent Platform Hits 1.54 Million Daily Users &nbsp;&nbsp; Bloomberg",
-      "overviewZh": "Google News AI 发布了有关“DeepSeek 的 AI 代理平台每日用户数量达到 154 万 - 彭博社”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “DeepSeek’s AI Agent Platform Hits 1.54 Million Daily Users - Bloomberg”.",
+      "titleZh": "韩国的 AI 生态系统与 NVIDIA 合作推进代理 AI 并确保其安全",
+      "titleEn": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "source": "NVIDIA Blog",
+      "category": "Policy",
+      "publishedAt": "2026-11-09",
+      "summaryZh": "NVIDIA 博客报道了人工智能领域的政策发展。来源要点：随着人工智能代理承担更多工作，他们需要有能力的开放模型和与之一起进步的安全性。",
+      "summaryEn": "NVIDIA Blog reports a policy development in AI. Key point from the source: As AI agents take on more work, they need capable open models and security that advances alongside them.",
+      "overviewZh": "NVIDIA 博客发布了有关“韩国 AI 生态系统与 NVIDIA 一起推进和保护 Agentic AI”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXBLN3Nwd181RFJQQzBkdGo0TUFhbGZpQ1Zxb0dPWXBORHdzeG5US1ZIOGtGUTFfc2ZSVktjMktVMmtSOUZ0SkVkZ2s4cEJWWWgyQVpSRDVGTUlqWnJ6bjdybkhHaTM5czBaZXpvelNlNTZ4WUd4Y0trdk1RQlpxZXd1MFRMb0dSckw3SXpPU2RFWG9JTFlhOVcyVzVJNjFHaUpsUFNZTC10blFqVWc?oc=5"
+          "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/"
         }
       ],
       "tags": [
-        "Agents"
+        "Agents",
+        "Models"
       ]
     }
   ]
