@@ -1,13 +1,60 @@
 {
-  "updatedAt": "2026-11-10T04:37:56.974Z",
+  "updatedAt": "2026-11-11T02:47:32.258Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-42757065526",
+  "edition": "github-42948386190",
   "items": [
     {
       "rank": 1,
+      "titleZh": "以门铃摄像头而闻名的 Ring 推出了家庭安全无人机和企业安全机器人",
+      "titleEn": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "source": "TechCrunch AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-10",
+      "summaryZh": "TechCrunch AI 报告了人工智能的政策发展。消息来源的要点：亚马逊旗下的 Ring 正在进军机器人领域，推出了家庭安全无人机和旨在巡逻和保护企业的滚动机器人。",
+      "summaryEn": "TechCrunch AI reports a policy development in AI. Key point from the source: Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+      "overviewZh": "TechCrunch AI 发布了有关“以门铃摄像头而闻名的 Ring 推出家庭安全无人机和企业安全机器人”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/"
+        }
+      ],
+      "tags": [
+        "Products",
+        "Robotics"
+      ]
+    },
+    {
+      "rank": 2,
+      "titleZh": "Google Cloud 推出用于医疗保健的 Gemini。",
+      "titleEn": "Google Cloud launches Gemini for healthcare.",
+      "source": "Google AI Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-11-10",
+      "summaryZh": "谷歌人工智能博客报道了人工智能基础设施的发展。来源要点：Google Cloud 推出用于医疗保健的 Gemini，以统一临床数据并自动化工作流程。",
+      "summaryEn": "Google AI Blog reports an infrastructure development in AI. Key point from the source: Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows.",
+      "overviewZh": "谷歌人工智能博客发布了有关“谷歌云推出用于医疗保健的 Gemini”的最新更新。",
+      "overviewEn": "Google AI Blog published a new update about “Google Cloud launches Gemini for healthcare.”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 3,
       "titleZh": "CodeRabbit 扩展了代理软件开发并将交付量增加了 20 倍",
       "titleEn": "CodeRabbit scales agentic software development and ships 20x more",
       "source": "OpenAI Blog",
@@ -30,94 +77,49 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "由于 RSI 担忧，Anthropic 发布了新的神话和寓言模型",
-      "titleEn": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "source": "TechCrunch AI",
-      "category": "Model",
-      "publishedAt": "2026-11-09",
-      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。消息来源的关键点：Anthropic 表示，新模型“显示出在编码、推理和视觉等领域的改进”，以及与用户更清晰的沟通。",
-      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
-      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 在 RSI 担忧中发布新神话和寓言模型”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic releases new Mythos and Fable models amid RSI concerns”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Anthropic 推出全新 Claude Fable 和 Mythos 5.2 型号",
-      "titleEn": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "rank": 4,
+      "titleZh": "谷歌发布具有代理“群”功能的 Gemini 4 Carbon",
+      "titleEn": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
       "source": "The Verge AI",
       "category": "Model",
-      "publishedAt": "2026-11-09",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源要点：Anthropic 今天宣布推出两款新型号：Claude Fable 5.2 和 Claude Mythos 5.2，据称这两款新型号旨在应对“艰巨”的技术挑战。",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges.",
-      "overviewZh": "The Verge AI 发布了有关“Anthropic 推出新的 Claude Fable 和 Mythos 5.2 模型”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Anthropic launches new Claude Fable and Mythos 5.2 models”.",
+      "publishedAt": "2026-11-10",
+      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：谷歌在两周前向选定的“网络安全捍卫者”群体发布了最新的人工智能模型 Gemini 4 Carbon，之后又向公众推出了该模型。",
+      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago.",
+      "overviewZh": "The Verge AI 发布了有关“Google 发布具有代理‘群’功能的 Gemini 4 Carbon”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Google releases Gemini 4 Carbon with agent ‘swarm’ feature”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Products"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Anthropic 推出新的 Fable 5.2 和 Mythos 5.2 AI 模型 - CNET",
-      "titleEn": "Anthropic Introduces New Fable 5.2 and Mythos 5.2 AI Models - CNET",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-11-09",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：Anthropic 推出新的 Fable 5.2 和 Mythos 5.2 AI 模型 CNET",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic Introduces New Fable 5.2 and Mythos 5.2 AI Models &nbsp;&nbsp; CNET",
-      "overviewZh": "Google News AI 发布了有关“Anthropic 推出新的 Fable 5.2 和 Mythos 5.2 AI 模型 - CNET”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic Introduces New Fable 5.2 and Mythos 5.2 AI Models - CNET”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPclhvZzYxckdzRVZ2dzNHMUZoSHd3RllabVFSSUxJUWRZRE5yaDNRQUFITi1hdG9lQ2RvamFJWERCQ3JIMllOcmxNZVJGSFNuQkROSlRPQm9TNDVMQldGZktKLXlmdXMxSHloOFllWXo5Unh1LWgzLUx3Q2g5ZnkydlRvRmpqRmliQ3VVdUlubw?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "韩国的 AI 生态系统与 NVIDIA 合作推进代理 AI 并确保其安全",
-      "titleEn": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-      "source": "NVIDIA Blog",
-      "category": "Policy",
-      "publishedAt": "2026-11-09",
-      "summaryZh": "NVIDIA 博客报道了人工智能领域的政策发展。来源要点：随着人工智能代理承担更多工作，他们需要有能力的开放模型和与之一起进步的安全性。",
-      "summaryEn": "NVIDIA Blog reports a policy development in AI. Key point from the source: As AI agents take on more work, they need capable open models and security that advances alongside them.",
-      "overviewZh": "NVIDIA 博客发布了有关“韩国 AI 生态系统与 NVIDIA 一起推进和保护 Agentic AI”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
         }
       ],
       "tags": [
         "Agents",
-        "Models"
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "AMD 推出用于 AI 代理工作负载的 Epyc 6 处理器 - SiliconANGLE",
+      "titleEn": "AMD introduces Epyc 6 processors for AI agent workloads - SiliconANGLE",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-11-11",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：AMD 推出用于 AI 代理工作负载的 Epyc 6 处理器 SiliconANGLE",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: AMD introduces Epyc 6 processors for AI agent workloads &nbsp;&nbsp; SiliconANGLE",
+      "overviewZh": "Google News AI 发布了有关“AMD 推出用于 AI 代理工作负载的 Epyc 6 处理器 - SiliconANGLE”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “AMD introduces Epyc 6 processors for AI agent workloads - SiliconANGLE”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVU1vdHd3bHZHNEVQWXlRYlNJQU9CU0xCZmNuMjRJR3lNRmxaUUpVSzRoVFhHOExKRTlrbTRhaVpKdmFPaVo5TjQ3RkJYeFF5SEJkRHI2RTBNZURveDdnWkduZWc3RnZPYWpZVkJlSWxRbFotNkpDbDNlMXVaQW5NYk1BdWVuR3M5bTN6amJLcFFxd0JMc2ww?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents"
       ]
     }
   ]
