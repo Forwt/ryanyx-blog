@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-13T03:24:57.556Z",
+  "updatedAt": "2026-11-14T03:16:33.190Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-43358772597",
+  "edition": "github-43550757061",
   "items": [
     {
       "rank": 1,
@@ -30,20 +30,68 @@
     },
     {
       "rank": 2,
-      "titleZh": "Nectar 推出人工智能代理，以自动化创作者发现和品牌推广",
-      "titleEn": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-11-12",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源的要点：Nectar 的新人工智能代理可以自动化影响者营销，帮助品牌发现创作者、管理外展和合作伙伴关系，并跟踪营销活动结果。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "overviewZh": "TechCrunch AI 发布了有关“Nectar 推出 AI 代理以自动化创作者发现和品牌推广”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Nectar launches an AI agent to automate creator discovery and outreach for brands”.",
+      "titleZh": "独家：随着通用模型开始运行机器人，OpenAI 解散了独立的机器人团队 - 财富",
+      "titleEn": "Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots - Fortune",
+      "source": "Google News AI",
+      "category": "Model",
+      "publishedAt": "2026-11-13",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：独家：随着通用模型开始运行机器人，OpenAI 解散了独立的机器人团队 - 财富中文网",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots &nbsp;&nbsp; Fortune",
+      "overviewZh": "Google News AI 发布了有关“独家：OpenAI 解散其独立机器人团队，因为其通用模型开始运行机器人 - 财富”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots - Fortune”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdUpabzdVdVRFd0RUN0pnVTJuQUtkYThSdzlhc3FHSmxmTnZETWNyajZGcGEtVHFvYmxMTGJMa0VHaGxEMVh5bmY1MXlVTDlWTHVBWlotdkJ0ZmRSdk9GRzh0ZTNrZElwYzlLWmp0ZkZqRFZKOEI5RkdDdkVHYzVUWFpOU2NqTnJGTmF3R0dTQTRGaDFXZl9jQ2s5bEd4dHJFZFRyQ3hrcw?oc=5"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Robotics"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "AI代理初创公司LangChain估值达到30亿美元",
+      "titleEn": "AI agent startup LangChain hits $3B valuation",
+      "source": "TechCrunch AI",
+      "category": "Business",
+      "publishedAt": "2026-11-13",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：LangChain 声称其模型和平台无关的代理管理工具 LangSmith 目前拥有 7,000 名客户。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "overviewZh": "TechCrunch AI 发布了有关“人工智能代理初创公司 LangChain 估值达到 30 亿美元”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “AI agent startup LangChain hits $3B valuation”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models",
+        "Products",
+        "Business"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "ChatGPT 钱包可让 OpenAI 的 Dots 代理为您进行购买",
+      "titleEn": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-11-13",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：继今年早些时候推出 Dots AI 代理平台后，OpenAI 又推出了一款针对代理的钱包。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents.",
+      "overviewZh": "The Verge AI 发布了有关“ChatGPT 钱包让 OpenAI 的 Dots 代理为您进行购买”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
         }
       ],
       "tags": [
@@ -52,69 +100,25 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "支持人工智能和儿童安全研究",
-      "titleEn": "Supporting research on AI and children’s safety",
-      "source": "OpenAI Blog",
-      "category": "Policy",
-      "publishedAt": "2026-11-12",
-      "summaryZh": "OpenAI 博客报告了人工智能的政策发展。消息来源要点：OpenAI 投入 200 万美元用于人工智能和儿童安全研究。",
-      "summaryEn": "OpenAI Blog reports a policy development in AI. Key point from the source: OpenAI commits $2 million to research on AI and children’s safety.",
-      "overviewZh": "OpenAI 博客发布了关于“支持人工智能和儿童安全研究”的最新动态。",
-      "overviewEn": "OpenAI Blog published a new update about “Supporting research on AI and children’s safety”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://openai.com/index/children-first-declaration"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "OpenAI 限制网络模型，Anthropic 的 Claude 荣登人工智能排行榜榜首 - PYMNTS.com",
-      "titleEn": "Anthropic’s Claude Tops AI Rankings as OpenAI Limits Cyber Model - PYMNTS.com",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-11-13",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 限制网络模型，Anthropic 的 Claude 在 AI 排名中名列前茅    PYMNTS.com",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Anthropic’s Claude Tops AI Rankings as OpenAI Limits Cyber Model &nbsp;&nbsp; PYMNTS.com",
-      "overviewZh": "Google News AI 发布了有关“由于 OpenAI 限制网络模型，Anthropic 的 Claude 在 AI 排名中名列前茅 - PYMNTS.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic’s Claude Tops AI Rankings as OpenAI Limits Cyber Model - PYMNTS.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYlczWW5CYUlhR3h6QzBPcDk2aEZyMjhHZWMtYjJSTWtESjlQRmJBRUJvR0hrc2NfZGxDRDFrWjhaN0llbkhWVkdCdlU5WFhoVmhHUF9sX0U4WW1abWxrd2Rya25XRVdiaGFqZ0VodmhWWWZDMWZpYzBVdXAzbktKejlpQS05S1pYRjJfc3FaaGtxYk9XTzIwV3hlemFOX3hvclhsamFGNFdpM2FBLXczclZseDVpQnppOUNVd0tR?oc=5"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "谷歌新的 Gemini 模型更擅长理解复杂问题",
-      "titleEn": "Google’s new Gemini model is better at understanding complicated questions",
-      "source": "The Verge AI",
-      "category": "Model",
-      "publishedAt": "2026-11-12",
-      "summaryZh": "The Verge AI 报道了人工智能模型的开发。消息来源的关键点：谷歌表示，其新的 Gemini 4 Hydrogen 模型可以为复杂的问题提供更有帮助的答案，包括“具有多个部分、难以理解的拼写错误或高度具体的问题”",
-      "summaryEn": "The Verge AI reports a model development in AI. Key point from the source: Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specif",
-      "overviewZh": "The Verge AI 发布了关于“谷歌的新 Gemini 模型更擅长理解复杂问题”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Google’s new Gemini model is better at understanding complicated questions”.",
+      "titleZh": "ChatGPT 钱包简介",
+      "titleEn": "Introducing ChatGPT Wallet",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-11-13",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：引入 ChatGPT 钱包，这是 ChatGPT Work、Codex 和dots 中的代理在用户批准和现有卡保护的情况下完成购买的安全方式。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "overviewZh": "OpenAI 博客发布了有关“ChatGPT 钱包简介”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing ChatGPT Wallet”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
         }
       ],
       "tags": [
-        "Models"
+        "Agents"
       ]
     }
   ]
