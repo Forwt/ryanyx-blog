@@ -1,106 +1,80 @@
 {
-  "updatedAt": "2026-11-14T03:16:33.190Z",
+  "updatedAt": "2026-11-15T02:39:39.168Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-43550757061",
+  "edition": "github-43668803701",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Gemini Decisions API：快速、经过校准的多模式决策",
-      "titleEn": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "source": "Google AI Blog",
-      "category": "Model",
-      "publishedAt": "2026-11-11",
-      "summaryZh": "谷歌人工智能博客报道了人工智能模型的开发。来源要点：了解 Gemini Decisions API，它由我们最先进的模型 Gemini Decision 提供支持，可实现快速、校准的多模式决策。",
-      "summaryEn": "Google AI Blog reports a model development in AI. Key point from the source: Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "overviewZh": "谷歌人工智能博客发布了关于“Gemini Decisions API：快速、校准的多模式决策”的新更新。",
-      "overviewEn": "Google AI Blog published a new update about “Gemini Decisions API: Fast, calibrated multimodal decisions”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 2,
-      "titleZh": "独家：随着通用模型开始运行机器人，OpenAI 解散了独立的机器人团队 - 财富",
-      "titleEn": "Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots - Fortune",
+      "titleZh": "IBM 宣布收购 AuthMind 以实现 AI 代理身份安全 - CASRAI",
+      "titleEn": "IBM announces AuthMind acquisition for AI agent identity security - CASRAI",
       "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-11-13",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：独家：随着通用模型开始运行机器人，OpenAI 解散了独立的机器人团队 - 财富中文网",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots &nbsp;&nbsp; Fortune",
-      "overviewZh": "Google News AI 发布了有关“独家：OpenAI 解散其独立机器人团队，因为其通用模型开始运行机器人 - 财富”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots - Fortune”.",
+      "category": "Policy",
+      "publishedAt": "2026-11-15",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：IBM 宣布收购 AuthMind 以实现 AI 代理身份安全 CASRAI",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: IBM announces AuthMind acquisition for AI agent identity security &nbsp;&nbsp; CASRAI",
+      "overviewZh": "Google News AI 发布了有关“IBM 宣布收购 AuthMind 以实现 AI 代理身份安全 - CASRAI”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “IBM announces AuthMind acquisition for AI agent identity security - CASRAI”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdUpabzdVdVRFd0RUN0pnVTJuQUtkYThSdzlhc3FHSmxmTnZETWNyajZGcGEtVHFvYmxMTGJMa0VHaGxEMVh5bmY1MXlVTDlWTHVBWlotdkJ0ZmRSdk9GRzh0ZTNrZElwYzlLWmp0ZkZqRFZKOEI5RkdDdkVHYzVUWFpOU2NqTnJGTmF3R0dTQTRGaDFXZl9jQ2s5bEd4dHJFZFRyQ3hrcw?oc=5"
-        }
-      ],
-      "tags": [
-        "Models",
-        "Robotics"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "AI代理初创公司LangChain估值达到30亿美元",
-      "titleEn": "AI agent startup LangChain hits $3B valuation",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-11-13",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：LangChain 声称其模型和平台无关的代理管理工具 LangSmith 目前拥有 7,000 名客户。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "overviewZh": "TechCrunch AI 发布了有关“人工智能代理初创公司 LangChain 估值达到 30 亿美元”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “AI agent startup LangChain hits $3B valuation”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LbklEc3BXM3BrVFRRelpCSmVGcGlxYTBzNTdGY3pnUVJ1Y2VnNDRzTmc2dVlYNlNhM1Q5Y2pXS1dhdmpiNUVYZjVSZDRaNExjMU9aRmc3RjRMZVdrX1cweWRLd2JyanJMYmJLQUNCRW5vZXJhTDhMVHhBLWJIQVE?oc=5"
         }
       ],
       "tags": [
         "Agents",
-        "Models",
-        "Products",
         "Business"
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "ChatGPT 钱包可让 OpenAI 的 Dots 代理为您进行购买",
-      "titleEn": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "source": "The Verge AI",
+      "rank": 2,
+      "titleZh": "人工智能墓地：未成功的项目和初创公司的清单",
+      "titleEn": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch AI",
       "category": "Product",
-      "publishedAt": "2026-11-13",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：继今年早些时候推出 Dots AI 代理平台后，OpenAI 又推出了一款针对代理的钱包。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents.",
-      "overviewZh": "The Verge AI 发布了有关“ChatGPT 钱包让 OpenAI 的 Dots 代理为您进行购买”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you”.",
+      "publishedAt": "2026-11-14",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。消息来源要点：从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”推出，以下是关闭或未达到预期的 AI 项目。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "overviewZh": "TechCrunch AI 发布了有关“人工智能墓地：未成功的项目和初创公司的运行列表”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “The AI graveyard: a running list of projects and startups that didn’t make it”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
         }
       ],
       "tags": [
-        "Agents",
         "Products"
       ]
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "titleZh": "解雇萨姆·奥尔特曼 (Sam Altman) 的 OpenAI 董事会成员表示，我们仍然不能信任人工智能首席执行官",
+      "titleEn": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-14",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源要点：今天，我正在与乔治城大学安全与新兴技术中心执行主任 Helen Toner 交谈。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University.",
+      "overviewZh": "The Verge AI 发布了有关“解雇 Sam Altman 的 OpenAI 董事会成员表示我们仍然不能信任 AI 首席执行官”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "ChatGPT 钱包简介",
       "titleEn": "Introducing ChatGPT Wallet",
       "source": "OpenAI Blog",
@@ -119,6 +93,28 @@
       ],
       "tags": [
         "Agents"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "人工智能如何帮助护理团队更快地为患者提供正确的护理",
+      "titleEn": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "source": "NVIDIA Blog",
+      "category": "Industry",
+      "publishedAt": "2026-11-13",
+      "summaryZh": "NVIDIA 博客报道了人工智能的行业发展。消息来源的要点：从儿科研究到智能医院，人工智能正在帮助护理团队花更少的时间在日常任务上，而将更多的时间花在患者身上。",
+      "summaryEn": "NVIDIA Blog reports an industry development in AI. Key point from the source: From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients.",
+      "overviewZh": "NVIDIA 博客发布了有关“AI 如何帮助护理团队更快地为患者提供正确护理”的最新更新。",
+      "overviewEn": "NVIDIA Blog published a new update about “How AI Is Helping Care Teams Get Patients the Right Care, Sooner”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+        }
+      ],
+      "tags": [
+        "AI"
       ]
     }
   ]
