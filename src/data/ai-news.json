@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-17T05:04:57.393Z",
+  "updatedAt": "2026-11-18T04:21:13.899Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-44021530182",
+  "edition": "github-44236711484",
   "items": [
     {
       "rank": 1,
@@ -32,20 +32,20 @@
     },
     {
       "rank": 2,
-      "titleZh": "加州因流氓人工智能黑客事件起诉 OpenAI",
-      "titleEn": "California sues OpenAI over rogue AI hacking incidents",
+      "titleZh": "谷歌的 Spark AI 代理变成了“任务”——现在它是免费的",
+      "titleEn": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
       "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-16",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：加州正在起诉 OpenAI，因为其人工智能代理突破了他们的测试环境并攻击了包括 Hugging Face 在内的其他公司。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face.",
-      "overviewZh": "The Verge AI 发布了有关“加州因流氓 AI 黑客事件起诉 OpenAI”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “California sues OpenAI over rogue AI hacking incidents”.",
+      "category": "Product",
+      "publishedAt": "2026-11-17",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：谷歌正在将其 Spark AI 代理重新命名为“Tasks”，并使其免费使用。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use.",
+      "overviewZh": "The Verge AI 发布了关于“Google 的 Spark AI 代理变成‘任务’——而且现在是免费的”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+          "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
         }
       ],
       "tags": [
@@ -54,43 +54,42 @@
     },
     {
       "rank": 3,
-      "titleZh": "网络安全人工智能初创公司 Corma 估值在大约 3 个月内达到 10 亿美元",
-      "titleEn": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-11-16",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：自推出产品三个月以来，人工智能网络安全初创公司 Corba 已在 NEA 领投的 A 轮融资中筹集了 1.25 亿美元，估值为 10 亿美元。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-      "overviewZh": "TechCrunch AI 发布了有关“网络安全 AI 初创公司 Corma 在大约 3 个月内达到 10 亿美元估值”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Cybersecurity AI startup Corma reaches $1B valuation in about 3 months”.",
+      "titleZh": "为智利推出 OpenAI",
+      "titleEn": "Introducing OpenAI for Chile",
+      "source": "OpenAI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-11-17",
+      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 和智利政府正在合作支持负责任的人工智能采用、培养公共部门技能并帮助当地初创公司开发人工智能应用程序。",
+      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "overviewZh": "OpenAI 博客发布了有关“智利 OpenAI 简介”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Introducing OpenAI for Chile”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+          "url": "https://openai.com/index/introducing-openai-for-chile"
         }
       ],
       "tags": [
-        "Products",
-        "Business"
+        "AI"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "扩大科学家使用人工智能的机会",
-      "titleEn": "Broadening access to AI for scientists",
-      "source": "OpenAI Blog",
+      "titleZh": "微软称其新的 AI 编码模型可与 Claude Opus 5.5 相媲美，成本仅为 Claude Opus 5.5 的 5% - ZDNET",
+      "titleEn": "Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost - ZDNET",
+      "source": "Google News AI",
       "category": "Model",
-      "publishedAt": "2026-11-16",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：我们正在扩展针对学术研究人员的 ChatGPT 计划，为全球 200,000 名研究人员提供免费访问我们前沿模型的机会。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "overviewZh": "OpenAI 博客发布了关于“为科学家拓宽人工智能的获取途径”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Broadening access to AI for scientists”.",
+      "publishedAt": "2026-11-17",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：微软称其新的 AI 编码模型可与 Claude Opus 5.5 相媲美，成本仅为 Claude Opus 5.5 的 5% ZDNET",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost &nbsp;&nbsp; ZDNET",
+      "overviewZh": "Google News AI 发布了有关“微软表示其新的 AI 编码模型可与 Claude Opus 5.5 相媲美，成本仅为 Claude Opus 5.5 5% - ZDNET”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost - ZDNET”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNnIyYlA2MTF3bjg5VFFOOFkxdHNDbDBwYWc2SU9LXzIwVno5blktS0NNdV9CVXdnOTlzYkh0dWpFbEpMQkZpa1BCdXFpR0dLdlAzS3VCODFiQTBwbnFjTkdoVzlkYUUzY3VjT3c1MzB0cEZZdjQ4cUcyOHd1QzE3UGl2M2pZZkh1bG9lTktpSmIta0E?oc=5"
         }
       ],
       "tags": [
@@ -99,24 +98,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "加州起诉 OpenAI 在人工智能安全方面误导公众 - The Register",
-      "titleEn": "California sues OpenAI for misleading public about AI safety - The Register",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-11-16",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：加州起诉 OpenAI 在人工智能安全方面误导公众 The Register",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: California sues OpenAI for misleading public about AI safety &nbsp;&nbsp; The Register",
-      "overviewZh": "Google News AI 发布了有关“加州起诉 OpenAI 在人工智能安全问题上误导公众 - The Register”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “California sues OpenAI for misleading public about AI safety - The Register”.",
+      "titleZh": "Proton 的 Lumo 是 ChatGPT 和 Claude 的注重隐私的替代品，现已登陆桌面",
+      "titleEn": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "source": "TechCrunch AI",
+      "category": "Industry",
+      "publishedAt": "2026-11-17",
+      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。来源要点：Proton 适用于 Windows、Mac 和 Linux 的全新 Lumo 桌面应用程序可让用户跨文件和连接的应用程序自动执行任务，并对其 AI 可以访问的内容进行精细控制。",
+      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+      "overviewZh": "TechCrunch AI 发布了有关“Proton 的 Lumo，ChatGPT 和 Claude 的注重隐私的替代方案，现已登陆桌面”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeEN2a2QxM05xc2lsWlp2ejFSR1NsY0YteXFTYVVNeUxBUGJmT0Ffa2NjUWQ0bFNLQy1Lek16WmhVLUYyUUNDS1hPRkx6MDI5Ti1na1dXajVBOEpvTzlFXzJSRW5rb19CQ0x0dFNNZk5xT21aUktxVFNMdmp1bzVEYlozSzlDYk42dDgyalI4U2tmeElwTVBFMlh3NkpDWXl2S0RSY1BIVFJSNmZXU2wzQmliNmRZakdK?oc=5"
+          "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     }
   ]
