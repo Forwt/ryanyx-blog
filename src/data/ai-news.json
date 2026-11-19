@@ -1,13 +1,36 @@
 {
-  "updatedAt": "2026-11-18T04:21:13.899Z",
+  "updatedAt": "2026-11-19T04:11:58.609Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-44236711484",
+  "edition": "github-44456599627",
   "items": [
     {
       "rank": 1,
+      "titleZh": "还记得前沿人工智能暂停吗？芯片公司也没有",
+      "titleEn": "Remember the frontier AI pause? Chip companies don’t either",
+      "source": "The Verge AI",
+      "category": "Infrastructure",
+      "publishedAt": "2026-11-18",
+      "summaryZh": "The Verge AI 报告了人工智能基础设施的发展情况。消息来源的关键点：今年夏天，OpenAI 暂停了其最大规模的前沿训练计划，因为其 AI 代理意外黑了 Hugging Face，而且早期证据表明其下一个模型可能会发现",
+      "summaryEn": "The Verge AI reports an infrastructure development in AI. Key point from the source: This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could ind",
+      "overviewZh": "The Verge AI 发布了一篇关于“还记得前沿人工智能暂停吗？芯片公司也不记得”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Remember the frontier AI pause? Chip companies don’t either”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "Vera Rubin 凭借领先性能首次亮相，NVIDIA 横扫 MLPerf 训练和端点",
       "titleEn": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
       "source": "NVIDIA Blog",
@@ -31,65 +54,43 @@
       ]
     },
     {
-      "rank": 2,
-      "titleZh": "谷歌的 Spark AI 代理变成了“任务”——现在它是免费的",
-      "titleEn": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "source": "The Verge AI",
-      "category": "Product",
-      "publishedAt": "2026-11-17",
-      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。消息来源的要点：谷歌正在将其 Spark AI 代理重新命名为“Tasks”，并使其免费使用。",
-      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use.",
-      "overviewZh": "The Verge AI 发布了关于“Google 的 Spark AI 代理变成‘任务’——而且现在是免费的”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
-        }
-      ],
-      "tags": [
-        "Agents"
-      ]
-    },
-    {
       "rank": 3,
-      "titleZh": "为智利推出 OpenAI",
-      "titleEn": "Introducing OpenAI for Chile",
+      "titleZh": "管理前沿人工智能风险：从培训到部署",
+      "titleEn": "Managing frontier AI risk: From training to deployment",
       "source": "OpenAI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-11-17",
-      "summaryZh": "OpenAI 博客报道了人工智能的行业发展。来源要点：OpenAI 和智利政府正在合作支持负责任的人工智能采用、培养公共部门技能并帮助当地初创公司开发人工智能应用程序。",
-      "summaryEn": "OpenAI Blog reports an industry development in AI. Key point from the source: OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "overviewZh": "OpenAI 博客发布了有关“智利 OpenAI 简介”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Introducing OpenAI for Chile”.",
+      "category": "Model",
+      "publishedAt": "2026-11-18",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI 解释了如何通过模型对齐、沙箱、阻止保护和监控来管理从训练到部署的前沿人工智能风险。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "overviewZh": "OpenAI 博客发布了有关“管理前沿人工智能风险：从训练到部署”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Managing frontier AI risk: From training to deployment”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/introducing-openai-for-chile"
+          "url": "https://openai.com/index/managing-frontier-ai-risk"
         }
       ],
       "tags": [
-        "AI"
+        "Models"
       ]
     },
     {
       "rank": 4,
-      "titleZh": "微软称其新的 AI 编码模型可与 Claude Opus 5.5 相媲美，成本仅为 Claude Opus 5.5 的 5% - ZDNET",
-      "titleEn": "Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost - ZDNET",
-      "source": "Google News AI",
-      "category": "Model",
-      "publishedAt": "2026-11-17",
-      "summaryZh": "Google News AI 报道了人工智能模型的开发。消息来源的要点：微软称其新的 AI 编码模型可与 Claude Opus 5.5 相媲美，成本仅为 Claude Opus 5.5 的 5% ZDNET",
-      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost &nbsp;&nbsp; ZDNET",
-      "overviewZh": "Google News AI 发布了有关“微软表示其新的 AI 编码模型可与 Claude Opus 5.5 相媲美，成本仅为 Claude Opus 5.5 5% - ZDNET”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost - ZDNET”.",
+      "titleZh": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。",
+      "titleEn": "The Gemini app is now available on lower-memory Android devices.",
+      "source": "Google AI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-11-18",
+      "summaryZh": "谷歌人工智能博客报道了人工智能的行业发展。来源要点：Google Gemini 应用程序现在支持内存较低的 Android 设备。",
+      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: The Google Gemini app now supports lower-memory Android devices.",
+      "overviewZh": "Google AI 博客发布了有关“Gemini 应用程序现已在内存较低的 Android 设备上可用”的新更新。",
+      "overviewEn": "Google AI Blog published a new update about “The Gemini app is now available on lower-memory Android devices.”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNnIyYlA2MTF3bjg5VFFOOFkxdHNDbDBwYWc2SU9LXzIwVno5blktS0NNdV9CVXdnOTlzYkh0dWpFbEpMQkZpa1BCdXFpR0dLdlAzS3VCODFiQTBwbnFjTkdoVzlkYUUzY3VjT3c1MzB0cEZZdjQ4cUcyOHd1QzE3UGl2M2pZZkh1bG9lTktpSmIta0E?oc=5"
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
         }
       ],
       "tags": [
@@ -98,24 +99,24 @@
     },
     {
       "rank": 5,
-      "titleZh": "Proton 的 Lumo 是 ChatGPT 和 Claude 的注重隐私的替代品，现已登陆桌面",
-      "titleEn": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "titleZh": "印度 Humyn Labs 融资 4700 万美元，为美国机器人公司提供所需数据",
+      "titleEn": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
       "source": "TechCrunch AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-17",
-      "summaryZh": "TechCrunch AI 报告了人工智能的行业发展。来源要点：Proton 适用于 Windows、Mac 和 Linux 的全新 Lumo 桌面应用程序可让用户跨文件和连接的应用程序自动执行任务，并对其 AI 可以访问的内容进行精细控制。",
-      "summaryEn": "TechCrunch AI reports an industry development in AI. Key point from the source: Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
-      "overviewZh": "TechCrunch AI 发布了有关“Proton 的 Lumo，ChatGPT 和 Claude 的注重隐私的替代方案，现已登陆桌面”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop”.",
+      "category": "Business",
+      "publishedAt": "2026-11-18",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：Humyn Labs 成立于 2 月份，与 Mecka AI 和 XDOF 等初创公司竞争，其约 90% 的收入来自美国。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "overviewZh": "TechCrunch AI 发布了有关“印度 Humyn Labs 筹集 4700 万美元，为美国机器人公司提供所需数据”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “India’s Humyn Labs raises $47M to feed US robotics companies the data they need”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+          "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
         }
       ],
       "tags": [
-        "Models"
+        "Robotics"
       ]
     }
   ]
