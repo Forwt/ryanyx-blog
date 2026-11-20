@@ -1,60 +1,105 @@
 {
-  "updatedAt": "2026-11-19T04:11:58.609Z",
+  "updatedAt": "2026-11-20T03:58:33.587Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-44456599627",
+  "edition": "github-44671254340",
   "items": [
     {
       "rank": 1,
-      "titleZh": "还记得前沿人工智能暂停吗？芯片公司也没有",
-      "titleEn": "Remember the frontier AI pause? Chip companies don’t either",
-      "source": "The Verge AI",
-      "category": "Infrastructure",
-      "publishedAt": "2026-11-18",
-      "summaryZh": "The Verge AI 报告了人工智能基础设施的发展情况。消息来源的关键点：今年夏天，OpenAI 暂停了其最大规模的前沿训练计划，因为其 AI 代理意外黑了 Hugging Face，而且早期证据表明其下一个模型可能会发现",
-      "summaryEn": "The Verge AI reports an infrastructure development in AI. Key point from the source: This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could ind",
-      "overviewZh": "The Verge AI 发布了一篇关于“还记得前沿人工智能暂停吗？芯片公司也不记得”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Remember the frontier AI pause? Chip companies don’t either”.",
+      "titleZh": "在 Gemini API 中引入工具检索",
+      "titleEn": "Introducing Tool Retrieval in the Gemini API",
+      "source": "Google AI Blog",
+      "category": "Product",
+      "publishedAt": "2026-11-19",
+      "summaryZh": "谷歌人工智能博客报道了人工智能产品的开发。来源要点：通过工具检索，让您的代理能够访问数百种工具，同时使用更少的令牌，现在可以在 Gemini API 中预览。",
+      "summaryEn": "Google AI Blog reports a product development in AI. Key point from the source: Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "overviewZh": "Google AI 博客发布了有关“Gemini API 中的工具检索简介”的新更新。",
+      "overviewEn": "Google AI Blog published a new update about “Introducing Tool Retrieval in the Gemini API”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models"
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
         }
       ],
       "tags": [
         "Agents",
-        "Models"
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "Vera Rubin 凭借领先性能首次亮相，NVIDIA 横扫 MLPerf 训练和端点",
-      "titleEn": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-      "source": "NVIDIA Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-11-16",
-      "summaryZh": "NVIDIA 博客报道了人工智能基础设施的发展。消息来源的要点：在今天发布的 MLPerf 基准测试中，NVIDIA Vera Rubin 平台在训练、训练后和代理推理方面提供了领先的性能。",
-      "summaryEn": "NVIDIA Blog reports an infrastructure development in AI. Key point from the source: In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
-      "overviewZh": "NVIDIA 博客发布了有关“Vera Rubin 以领先性能首次亮相，NVIDIA 横扫 MLPerf 训练和端点”的最新更新。",
-      "overviewEn": "NVIDIA Blog published a new update about “NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance”.",
+      "titleZh": "Anthropic 将人工智能恐惧和安全警告变成有史以来最大规模的 IPO - Bloomberg.com",
+      "titleEn": "Anthropic Turned AI Fears, Safety Warnings Into Biggest IPO Ever - Bloomberg.com",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-20",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人类将人工智能恐惧、安全警告变成有史以来最大的 IPO    Bloomberg.com",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic Turned AI Fears, Safety Warnings Into Biggest IPO Ever &nbsp;&nbsp; Bloomberg.com",
+      "overviewZh": "谷歌新闻 AI 发布了有关“人类将人工智能恐惧、安全警告变成有史以来最大的 IPO - Bloomberg.com”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Anthropic Turned AI Fears, Safety Warnings Into Biggest IPO Ever - Bloomberg.com”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWHJnNFFXRGRvTUtpTTZBNUR3aWZxNG5QamlhVXlvcW9RRk8wd0dtTzFQSUxJTnc3amoyajhSRlRLWGxvV0xnVGFBbTBaSFF3WWdhYWw4OXZnM09HaWRvRGZrZGZiTzM5MWNvb3RnaWNmbmRvSHNmM1pnV1FKOV9CX0NSV2E0VVRLWjhlTVdleVlzbTA5YU1oYUtodHJnLUsyNWFOdFJra3NGSXNYbGc?oc=5"
         }
       ],
       "tags": [
-        "Agents",
-        "Products",
-        "Infrastructure"
+        "AI"
       ]
     },
     {
       "rank": 3,
+      "titleZh": "介绍 Azure Catalyst 代理现代化和新的 AI 基础设施创新",
+      "titleEn": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
+      "source": "Microsoft Azure Blog",
+      "category": "Infrastructure",
+      "publishedAt": "2026-11-17",
+      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。来源要点：在 Microsoft Ignite 2026 上，我们将展示当模型、芯片和云基础设施融合到单个协同设计的系统中时可能实现的可能性。",
+      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system.",
+      "overviewZh": "Microsoft Azure 博客发布了有关“Azure Catalyst 代理现代化和新的 AI 基础设施创新简介”的新更新。",
+      "overviewEn": "Microsoft Azure Blog published a new update about “Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "有史以来规模最大的 IPO，Anthropic 的“好人”声誉岌岌可危",
+      "titleEn": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-11-19",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：今天是 Anthropic 的一个新开始：历时数年的 IPO 击败了 SpaceX，成为有史以来最有价值的 IPO，筹集了 813 亿美元资金，并为其他公共人工智能实验室的首次亮相树立了重要先例。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come.",
+      "overviewZh": "The Verge AI 发布了关于“随着史上规模最大的 IPO，Anthropic 的‘好人’声誉岌岌可危”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 5,
       "titleZh": "管理前沿人工智能风险：从培训到部署",
       "titleEn": "Managing frontier AI risk: From training to deployment",
       "source": "OpenAI Blog",
@@ -73,50 +118,6 @@
       ],
       "tags": [
         "Models"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。",
-      "titleEn": "The Gemini app is now available on lower-memory Android devices.",
-      "source": "Google AI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-11-18",
-      "summaryZh": "谷歌人工智能博客报道了人工智能的行业发展。来源要点：Google Gemini 应用程序现在支持内存较低的 Android 设备。",
-      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: The Google Gemini app now supports lower-memory Android devices.",
-      "overviewZh": "Google AI 博客发布了有关“Gemini 应用程序现已在内存较低的 Android 设备上可用”的新更新。",
-      "overviewEn": "Google AI Blog published a new update about “The Gemini app is now available on lower-memory Android devices.”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "印度 Humyn Labs 融资 4700 万美元，为美国机器人公司提供所需数据",
-      "titleEn": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-11-18",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：Humyn Labs 成立于 2 月份，与 Mecka AI 和 XDOF 等初创公司竞争，其约 90% 的收入来自美国。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
-      "overviewZh": "TechCrunch AI 发布了有关“印度 Humyn Labs 筹集 4700 万美元，为美国机器人公司提供所需数据”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “India’s Humyn Labs raises $47M to feed US robotics companies the data they need”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
-        }
-      ],
-      "tags": [
-        "Robotics"
       ]
     }
   ]
