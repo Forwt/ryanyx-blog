@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-20T03:58:33.587Z",
+  "updatedAt": "2026-11-21T03:58:44.351Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-44671254340",
+  "edition": "github-44863770615",
   "items": [
     {
       "rank": 1,
@@ -32,92 +32,91 @@
     },
     {
       "rank": 2,
-      "titleZh": "Anthropic 将人工智能恐惧和安全警告变成有史以来最大规模的 IPO - Bloomberg.com",
-      "titleEn": "Anthropic Turned AI Fears, Safety Warnings Into Biggest IPO Ever - Bloomberg.com",
-      "source": "Google News AI",
-      "category": "Policy",
-      "publishedAt": "2026-11-20",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：人类将人工智能恐惧、安全警告变成有史以来最大的 IPO    Bloomberg.com",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Anthropic Turned AI Fears, Safety Warnings Into Biggest IPO Ever &nbsp;&nbsp; Bloomberg.com",
-      "overviewZh": "谷歌新闻 AI 发布了有关“人类将人工智能恐惧、安全警告变成有史以来最大的 IPO - Bloomberg.com”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Anthropic Turned AI Fears, Safety Warnings Into Biggest IPO Ever - Bloomberg.com”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWHJnNFFXRGRvTUtpTTZBNUR3aWZxNG5QamlhVXlvcW9RRk8wd0dtTzFQSUxJTnc3amoyajhSRlRLWGxvV0xnVGFBbTBaSFF3WWdhYWw4OXZnM09HaWRvRGZrZGZiTzM5MWNvb3RnaWNmbmRvSHNmM1pnV1FKOV9CX0NSV2E0VVRLWjhlTVdleVlzbTA5YU1oYUtodHJnLUsyNWFOdFJra3NGSXNYbGc?oc=5"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "介绍 Azure Catalyst 代理现代化和新的 AI 基础设施创新",
-      "titleEn": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
-      "source": "Microsoft Azure Blog",
-      "category": "Infrastructure",
-      "publishedAt": "2026-11-17",
-      "summaryZh": "Microsoft Azure 博客报道了人工智能基础设施的发展。来源要点：在 Microsoft Ignite 2026 上，我们将展示当模型、芯片和云基础设施融合到单个协同设计的系统中时可能实现的可能性。",
-      "summaryEn": "Microsoft Azure Blog reports an infrastructure development in AI. Key point from the source: At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system.",
-      "overviewZh": "Microsoft Azure 博客发布了有关“Azure Catalyst 代理现代化和新的 AI 基础设施创新简介”的新更新。",
-      "overviewEn": "Microsoft Azure Blog published a new update about “Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Models",
-        "Infrastructure"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "有史以来规模最大的 IPO，Anthropic 的“好人”声誉岌岌可危",
-      "titleEn": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-19",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：今天是 Anthropic 的一个新开始：历时数年的 IPO 击败了 SpaceX，成为有史以来最有价值的 IPO，筹集了 813 亿美元资金，并为其他公共人工智能实验室的首次亮相树立了重要先例。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come.",
-      "overviewZh": "The Verge AI 发布了关于“随着史上规模最大的 IPO，Anthropic 的‘好人’声誉岌岌可危”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "管理前沿人工智能风险：从培训到部署",
-      "titleEn": "Managing frontier AI risk: From training to deployment",
+      "titleZh": "人工智能可以帮助科学家识别有前途的候选药物吗？",
+      "titleEn": "Can AI help scientists identify promising drug candidates?",
       "source": "OpenAI Blog",
       "category": "Model",
-      "publishedAt": "2026-11-18",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：OpenAI 解释了如何通过模型对齐、沙箱、阻止保护和监控来管理从训练到部署的前沿人工智能风险。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "overviewZh": "OpenAI 博客发布了有关“管理前沿人工智能风险：从训练到部署”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Managing frontier AI risk: From training to deployment”.",
+      "publishedAt": "2026-11-20",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：MedChemBench 评估人工智能模型解释分子结构、实验证据推理以及早期药物发现中化合物选择的能力。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "overviewZh": "OpenAI 博客发布了关于“人工智能可以帮助科学家识别有前途的候选药物吗？”的新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Can AI help scientists identify promising drug candidates?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/managing-frontier-ai-risk"
+          "url": "https://openai.com/index/introducing-medchembench"
         }
       ],
       "tags": [
         "Models"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "亚马逊称攻击者的人工智能代理在 11 分钟内发现并利用了零日漏洞，但没有可用的补丁版本 - VentureBeat",
+      "titleEn": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available - VentureBeat",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-11-21",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源的关键点：亚马逊称攻击者的 AI 代理在 11 分钟内发现并利用了零日漏洞，但没有可用的修补版本 VentureBeat",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available &nbsp;&nbsp; VentureBeat",
+      "overviewZh": "Google News AI 发布了有关“亚马逊称攻击者的 AI 代理在 11 分钟内发现并利用了零日漏洞，但没有可用的修补版本 - VentureBeat”的新更新。",
+      "overviewEn": "Google News AI published a new update about “Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available - VentureBeat”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUjQ5c0hsZDBTcWxGNUVxN0phZDdwRGhzTk1nWWEzZTdOSVpVT2h2WlI3OUVfeVZVMWt4eTFTQXFGZ1hoM1dMS2puekZ1YVYzSWV0aHMtYkVkNUpKdEJtaHlTRE9NRE5YZHRWbDk2YVZPVmdrOXN6cmJGbnFlcWxGODhZTVdaRGJ0aF9icTYwamtYakRaTFY0bGo4dHJMY21mRFFGTjNxYWkzN1J2d2tFX1g4Wk5US25oU0ZKTHoxSlU1dW9qODFRNEYyRTlaQm1aWmhIU05rMzJ4bmN5X1E?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "Mac 上的 Gemini 现在可以使用您的计算机",
+      "titleEn": "Gemini on Mac can now use your computer",
+      "source": "The Verge AI",
+      "category": "Industry",
+      "publishedAt": "2026-11-19",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：谷歌的 macOS Gemini 应用程序现在可以在计算机上使用，这意味着它可以帮助你“跨本地文件、桌面应用程序和网络完成多步骤任务”，该公司表示。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says.",
+      "overviewZh": "The Verge AI 发布了有关“Mac 上的 Gemini 现在可以使用你的电脑”的最新更新。",
+      "overviewEn": "The Verge AI published a new update about “Gemini on Mac can now use your computer”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 5,
+      "titleZh": "Daniel Ek 支持人工智能研究人员的聚变能源初创公司。这就是他们正在建造的东西。",
+      "titleEn": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "source": "TechCrunch AI",
+      "category": "Business",
+      "publishedAt": "2026-11-20",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：Spotify 创始人 Daniel Ek 正在支持 Europa Fusion，这是一家由人工智能研究员创立的聚变能源初创公司。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher.",
+      "overviewZh": "TechCrunch AI 发布了有关“Daniel Ek 支持 AI 研究人员的聚变能源初创公司。这就是他们正在构建的项目”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
+        }
+      ],
+      "tags": [
+        "Business"
       ]
     }
   ]
