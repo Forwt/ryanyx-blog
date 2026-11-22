@@ -1,13 +1,35 @@
 {
-  "updatedAt": "2026-11-21T03:58:44.351Z",
+  "updatedAt": "2026-11-22T03:11:04.996Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-44863770615",
+  "edition": "github-44979432804",
   "items": [
     {
       "rank": 1,
+      "titleZh": "OpenAI 推出 ChatGPT 钱包，声称这是让 AI 为你购物的安全方式 - Mashable",
+      "titleEn": "OpenAI launches ChatGPT Wallet, claiming it's a safe way to have AI shop for you - Mashable",
+      "source": "Google News AI",
+      "category": "Product",
+      "publishedAt": "2026-11-21",
+      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 推出 ChatGPT 钱包，声称这是让 AI 为您购物的安全方式 Mashable",
+      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI launches ChatGPT Wallet, claiming it's a safe way to have AI shop for you &nbsp;&nbsp; Mashable",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 推出 ChatGPT 钱包，声称这是让 AI 为您购物的安全方式 - Mashable”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI launches ChatGPT Wallet, claiming it's a safe way to have AI shop for you - Mashable”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHeTFKZ0NySWhLdXF5bXRNLU5MOHJUUU9WcTVwOGFOc2xNaEstLVp6cy1Ia3BKTzJFczNBY2NOTW56SHJIWXRzY2UxY2NhQmJnQUgtZG5MemVpOG5XcWtUdjhWUzRjbjQ?oc=5"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "在 Gemini API 中引入工具检索",
       "titleEn": "Introducing Tool Retrieval in the Gemini API",
       "source": "Google AI Blog",
@@ -31,7 +53,29 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "titleZh": "Anthropic 能否将安全放在第一位？",
+      "titleEn": "Can Anthropic afford to put safety first?",
+      "source": "The Verge AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-21",
+      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的要点：今天，我正在与 The Verge 的高级人工智能记者 Hayden Field 讨论 Anthropic IPO，这是我们关于现实生活中的人工智能系列的第三集也是最后一集。",
+      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life.",
+      "overviewZh": "The Verge AI 发布了关于“Anthropic 能承担得起把安全放在第一位吗？”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “Can Anthropic afford to put safety first?”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+        }
+      ],
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "人工智能可以帮助科学家识别有前途的候选药物吗？",
       "titleEn": "Can AI help scientists identify promising drug candidates?",
       "source": "OpenAI Blog",
@@ -53,66 +97,21 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "亚马逊称攻击者的人工智能代理在 11 分钟内发现并利用了零日漏洞，但没有可用的补丁版本 - VentureBeat",
-      "titleEn": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available - VentureBeat",
-      "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-11-21",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。消息来源的关键点：亚马逊称攻击者的 AI 代理在 11 分钟内发现并利用了零日漏洞，但没有可用的修补版本 VentureBeat",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available &nbsp;&nbsp; VentureBeat",
-      "overviewZh": "Google News AI 发布了有关“亚马逊称攻击者的 AI 代理在 11 分钟内发现并利用了零日漏洞，但没有可用的修补版本 - VentureBeat”的新更新。",
-      "overviewEn": "Google News AI published a new update about “Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available - VentureBeat”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUjQ5c0hsZDBTcWxGNUVxN0phZDdwRGhzTk1nWWEzZTdOSVpVT2h2WlI3OUVfeVZVMWt4eTFTQXFGZ1hoM1dMS2puekZ1YVYzSWV0aHMtYkVkNUpKdEJtaHlTRE9NRE5YZHRWbDk2YVZPVmdrOXN6cmJGbnFlcWxGODhZTVdaRGJ0aF9icTYwamtYakRaTFY0bGo4dHJMY21mRFFGTjNxYWkzN1J2d2tFX1g4Wk5US25oU0ZKTHoxSlU1dW9qODFRNEYyRTlaQm1aWmhIU05rMzJ4bmN5X1E?oc=5"
-        }
-      ],
-      "tags": [
-        "Agents",
-        "Products"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "Mac 上的 Gemini 现在可以使用您的计算机",
-      "titleEn": "Gemini on Mac can now use your computer",
-      "source": "The Verge AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-19",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：谷歌的 macOS Gemini 应用程序现在可以在计算机上使用，这意味着它可以帮助你“跨本地文件、桌面应用程序和网络完成多步骤任务”，该公司表示。",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says.",
-      "overviewZh": "The Verge AI 发布了有关“Mac 上的 Gemini 现在可以使用你的电脑”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “Gemini on Mac can now use your computer”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "Daniel Ek 支持人工智能研究人员的聚变能源初创公司。这就是他们正在建造的东西。",
-      "titleEn": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "titleZh": "向这家微剧初创公司出售人工智能版本的脸会是好莱坞的未来吗？",
+      "titleEn": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
       "source": "TechCrunch AI",
       "category": "Business",
-      "publishedAt": "2026-11-20",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源要点：Spotify 创始人 Daniel Ek 正在支持 Europa Fusion，这是一家由人工智能研究员创立的聚变能源初创公司。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher.",
-      "overviewZh": "TechCrunch AI 发布了有关“Daniel Ek 支持 AI 研究人员的聚变能源初创公司。这就是他们正在构建的项目”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.”.",
+      "publishedAt": "2026-11-21",
+      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的关键点：一名演员将自己的脸授权给一家微剧初创公司——这一趋势在中国已经很流行。",
+      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: An actor has licensed his face to a microdrama startup — in a trend that's already popular in China.",
+      "overviewZh": "TechCrunch AI 发布了关于“向这家微剧初创公司出售人工智能版本的脸部是好莱坞的未来吗？”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Is selling an AI version of your face to this microdrama startup the future of Hollywood?”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
         }
       ],
       "tags": [
