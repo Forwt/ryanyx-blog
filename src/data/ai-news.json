@@ -1,55 +1,53 @@
 {
-  "updatedAt": "2026-11-22T03:11:04.996Z",
+  "updatedAt": "2026-11-23T03:43:30.717Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-44979432804",
+  "edition": "github-45107621127",
   "items": [
     {
       "rank": 1,
-      "titleZh": "OpenAI 推出 ChatGPT 钱包，声称这是让 AI 为你购物的安全方式 - Mashable",
-      "titleEn": "OpenAI launches ChatGPT Wallet, claiming it's a safe way to have AI shop for you - Mashable",
+      "titleZh": "加州起诉 OpenAI 涉嫌人工智能安全失败 - 耶路撒冷邮报",
+      "titleEn": "California sues OpenAI over alleged AI safety failures - The Jerusalem Post",
       "source": "Google News AI",
-      "category": "Product",
-      "publishedAt": "2026-11-21",
-      "summaryZh": "Google News AI 报道了人工智能产品的开发。来源要点：OpenAI 推出 ChatGPT 钱包，声称这是让 AI 为您购物的安全方式 Mashable",
-      "summaryEn": "Google News AI reports a product development in AI. Key point from the source: OpenAI launches ChatGPT Wallet, claiming it's a safe way to have AI shop for you &nbsp;&nbsp; Mashable",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 推出 ChatGPT 钱包，声称这是让 AI 为您购物的安全方式 - Mashable”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI launches ChatGPT Wallet, claiming it's a safe way to have AI shop for you - Mashable”.",
+      "category": "Policy",
+      "publishedAt": "2026-11-23",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：加利福尼亚州因涉嫌人工智能安全故障而起诉 OpenAI 耶路撒冷邮报",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: California sues OpenAI over alleged AI safety failures &nbsp;&nbsp; The Jerusalem Post",
+      "overviewZh": "谷歌新闻 AI 发布了有关“加州因涉嫌人工智能安全故障起诉 OpenAI - 耶路撒冷邮报”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “California sues OpenAI over alleged AI safety failures - The Jerusalem Post”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHeTFKZ0NySWhLdXF5bXRNLU5MOHJUUU9WcTVwOGFOc2xNaEstLVp6cy1Ia3BKTzJFczNBY2NOTW56SHJIWXRzY2UxY2NhQmJnQUgtZG5MemVpOG5XcWtUdjhWUzRjbjQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04ektIa2p2TzdwcHZqdGZIeF9IY2ctOFhueHZIbk9KSHNXSWZuYm50YmFuZ1NNdmFzSy00aGZHR2xfdS1rcUlOZ2pkN2gzLXR2QUZBXy05STA5ZExSZC1B?oc=5"
         }
       ],
       "tags": [
-        "Products"
+        "AI"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "在 Gemini API 中引入工具检索",
-      "titleEn": "Introducing Tool Retrieval in the Gemini API",
-      "source": "Google AI Blog",
-      "category": "Product",
-      "publishedAt": "2026-11-19",
-      "summaryZh": "谷歌人工智能博客报道了人工智能产品的开发。来源要点：通过工具检索，让您的代理能够访问数百种工具，同时使用更少的令牌，现在可以在 Gemini API 中预览。",
-      "summaryEn": "Google AI Blog reports a product development in AI. Key point from the source: Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "overviewZh": "Google AI 博客发布了有关“Gemini API 中的工具检索简介”的新更新。",
-      "overviewEn": "Google AI Blog published a new update about “Introducing Tool Retrieval in the Gemini API”.",
+      "titleZh": "困惑与智慧",
+      "titleEn": "Perplexity and Intelligence",
+      "source": "OpenAI Blog",
+      "category": "Model",
+      "publishedAt": "2026-11-22",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：困惑度如何衡量人工智能模型的进展，以及为什么它可以帮助开发人员建立评估新兴功能的共享方法。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "overviewZh": "OpenAI 博客发布了有关“困惑与智能”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “Perplexity and Intelligence”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+          "url": "https://openai.com/index/perplexity-and-intelligence"
         }
       ],
       "tags": [
-        "Agents",
-        "Models",
-        "Products"
+        "Models"
       ]
     },
     {
@@ -76,20 +74,20 @@
     },
     {
       "rank": 4,
-      "titleZh": "人工智能可以帮助科学家识别有前途的候选药物吗？",
-      "titleEn": "Can AI help scientists identify promising drug candidates?",
-      "source": "OpenAI Blog",
+      "titleZh": "0rwx – 受 Unix 权限启发的 AI 使用的简单模型",
+      "titleEn": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "source": "Hacker News AI",
       "category": "Model",
-      "publishedAt": "2026-11-20",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：MedChemBench 评估人工智能模型解释分子结构、实验证据推理以及早期药物发现中化合物选择的能力。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "overviewZh": "OpenAI 博客发布了关于“人工智能可以帮助科学家识别有前途的候选药物吗？”的新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Can AI help scientists identify promising drug candidates?”.",
+      "publishedAt": "2026-11-22",
+      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点：文章网址：https://0rwx.com/ 评论网址：https://news.ycombinator.com/item?id=50605445 积分：26 # 评论：6",
+      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://0rwx.com/ Comments URL: https://news.ycombinator.com/item?id=50605445 Points: 26 # Comments: 6",
+      "overviewZh": "Hacker News AI 发布了有关“0rwx – 受 Unix 权限启发的人工智能使用的简单模型”的新更新。",
+      "overviewEn": "Hacker News AI published a new update about “0rwx – A simple model of AI usage, inspired by Unix permissions”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/introducing-medchembench"
+          "url": "https://0rwx.com/"
         }
       ],
       "tags": [
