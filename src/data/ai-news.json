@@ -1,35 +1,104 @@
 {
-  "updatedAt": "2026-11-23T03:43:30.717Z",
+  "updatedAt": "2026-11-24T06:57:29.283Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-45107621127",
+  "edition": "github-45344275676",
   "items": [
     {
       "rank": 1,
-      "titleZh": "加州起诉 OpenAI 涉嫌人工智能安全失败 - 耶路撒冷邮报",
-      "titleEn": "California sues OpenAI over alleged AI safety failures - The Jerusalem Post",
-      "source": "Google News AI",
-      "category": "Policy",
+      "titleZh": "Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改",
+      "titleEn": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "source": "TechCrunch AI",
+      "category": "Product",
       "publishedAt": "2026-11-23",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：加利福尼亚州因涉嫌人工智能安全故障而起诉 OpenAI 耶路撒冷邮报",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: California sues OpenAI over alleged AI safety failures &nbsp;&nbsp; The Jerusalem Post",
-      "overviewZh": "谷歌新闻 AI 发布了有关“加州因涉嫌人工智能安全故障起诉 OpenAI - 耶路撒冷邮报”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “California sues OpenAI over alleged AI safety failures - The Jerusalem Post”.",
+      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。来源要点：随着人工智能生成的代码不断堆积，Anthropic 的新开发工具旨在通过让代理处理例行审批来消除另一个瓶颈。",
+      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04ektIa2p2TzdwcHZqdGZIeF9IY2ctOFhueHZIbk9KSHNXSWZuYm50YmFuZ1NNdmFzSy00aGZHR2xfdS1rcUlOZ2pkN2gzLXR2QUZBXy05STA5ZExSZC1B?oc=5"
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
         }
       ],
       "tags": [
-        "AI"
+        "Agents",
+        "Models",
+        "Products"
       ]
     },
     {
       "rank": 2,
+      "titleZh": "OpenAI 和思科推出 AI 辅助 Linux 安全工具，可在修补之前阻止漏洞利用 - 黑客新闻",
+      "titleEn": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching - The Hacker News",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-24",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 和思科推出 AI 辅助 Linux 安全工具，可在修补之前阻止漏洞利用 The Hacker News",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching &nbsp;&nbsp; The Hacker News",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 和 Cisco 推出 AI 辅助 Linux 安全工具以在修补之前阻止漏洞利用 - 黑客新闻”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching - The Hacker News”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tY2NQbVFCa0xnV2gyeGZwMUxyZVFBR0tma1ZnbGlFTGxTaW1TdDVHVVItYi15dXh4dmZneWQ2MFBnZ3JpWUh2TTNKekd5NDNtd3k5dVp3WnVtSGwtZnZtaVRTdEZhUmZSQW8xeWFfdkRja3VqRExVNTk5bXpaM2M?oc=5"
+        }
+      ],
+      "tags": [
+        "Products"
+      ]
+    },
+    {
+      "rank": 3,
+      "titleZh": "Claude AI 现在可以自行审查拉取请求并发布修复",
+      "titleEn": "Claude AI can review pull requests and ship fixes on its own now",
+      "source": "The Verge AI",
+      "category": "Product",
+      "publishedAt": "2026-11-23",
+      "summaryZh": "The Verge AI 报道了人工智能领域的产品开发。来源要点：Anthropic 正在推出一些新的 Claude AI 功能来帮助软件工程师交付代码。",
+      "summaryEn": "The Verge AI reports a product development in AI. Key point from the source: Anthropic is launching some new Claude AI features to help software engineers ship code.",
+      "overviewZh": "The Verge AI 发布了关于“Claude AI 现在可以自行审查拉取请求并发布修复”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “Claude AI can review pull requests and ship fixes on its own now”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+        }
+      ],
+      "tags": [
+        "Models",
+        "Products"
+      ]
+    },
+    {
+      "rank": 4,
+      "titleZh": "更适合您的 Google 搜索",
+      "titleEn": "A more tailored Google Search that’s uniquely yours",
+      "source": "Google AI Blog",
+      "category": "Industry",
+      "publishedAt": "2026-11-23",
+      "summaryZh": "谷歌人工智能博客报道了人工智能的行业发展。来源要点：通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用程序连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "overviewZh": "谷歌人工智能博客发布了关于“更适合您的独特谷歌搜索”的最新更新。",
+      "overviewEn": "Google AI Blog published a new update about “A more tailored Google Search that’s uniquely yours”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+        }
+      ],
+      "tags": [
+        "Models"
+      ]
+    },
+    {
+      "rank": 5,
       "titleZh": "困惑与智慧",
       "titleEn": "Perplexity and Intelligence",
       "source": "OpenAI Blog",
@@ -48,72 +117,6 @@
       ],
       "tags": [
         "Models"
-      ]
-    },
-    {
-      "rank": 3,
-      "titleZh": "Anthropic 能否将安全放在第一位？",
-      "titleEn": "Can Anthropic afford to put safety first?",
-      "source": "The Verge AI",
-      "category": "Policy",
-      "publishedAt": "2026-11-21",
-      "summaryZh": "The Verge AI 报道了人工智能领域的政策发展。消息来源的要点：今天，我正在与 The Verge 的高级人工智能记者 Hayden Field 讨论 Anthropic IPO，这是我们关于现实生活中的人工智能系列的第三集也是最后一集。",
-      "summaryEn": "The Verge AI reports a policy development in AI. Key point from the source: Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life.",
-      "overviewZh": "The Verge AI 发布了关于“Anthropic 能承担得起把安全放在第一位吗？”的新更新。",
-      "overviewEn": "The Verge AI published a new update about “Can Anthropic afford to put safety first?”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
-        }
-      ],
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "rank": 4,
-      "titleZh": "0rwx – 受 Unix 权限启发的 AI 使用的简单模型",
-      "titleEn": "0rwx – A simple model of AI usage, inspired by Unix permissions",
-      "source": "Hacker News AI",
-      "category": "Model",
-      "publishedAt": "2026-11-22",
-      "summaryZh": "Hacker News AI 报道了人工智能的模型开发。来源要点：文章网址：https://0rwx.com/ 评论网址：https://news.ycombinator.com/item?id=50605445 积分：26 # 评论：6",
-      "summaryEn": "Hacker News AI reports a model development in AI. Key point from the source: Article URL: https://0rwx.com/ Comments URL: https://news.ycombinator.com/item?id=50605445 Points: 26 # Comments: 6",
-      "overviewZh": "Hacker News AI 发布了有关“0rwx – 受 Unix 权限启发的人工智能使用的简单模型”的新更新。",
-      "overviewEn": "Hacker News AI published a new update about “0rwx – A simple model of AI usage, inspired by Unix permissions”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://0rwx.com/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
-      "rank": 5,
-      "titleZh": "向这家微剧初创公司出售人工智能版本的脸会是好莱坞的未来吗？",
-      "titleEn": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "source": "TechCrunch AI",
-      "category": "Business",
-      "publishedAt": "2026-11-21",
-      "summaryZh": "TechCrunch AI 报告了人工智能领域的业务发展。消息来源的关键点：一名演员将自己的脸授权给一家微剧初创公司——这一趋势在中国已经很流行。",
-      "summaryEn": "TechCrunch AI reports a business development in AI. Key point from the source: An actor has licensed his face to a microdrama startup — in a trend that's already popular in China.",
-      "overviewZh": "TechCrunch AI 发布了关于“向这家微剧初创公司出售人工智能版本的脸部是好莱坞的未来吗？”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Is selling an AI version of your face to this microdrama startup the future of Hollywood?”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
-        }
-      ],
-      "tags": [
-        "Business"
       ]
     }
   ]
