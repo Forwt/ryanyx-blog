@@ -1,59 +1,82 @@
 {
-  "updatedAt": "2026-11-24T06:57:29.283Z",
+  "updatedAt": "2026-11-25T05:26:02.286Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-45344275676",
+  "edition": "github-45553517689",
   "items": [
     {
       "rank": 1,
-      "titleZh": "Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改",
-      "titleEn": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "source": "TechCrunch AI",
-      "category": "Product",
-      "publishedAt": "2026-11-23",
-      "summaryZh": "TechCrunch AI 报道了人工智能的产品开发。来源要点：随着人工智能生成的代码不断堆积，Anthropic 的新开发工具旨在通过让代理处理例行审批来消除另一个瓶颈。",
-      "summaryEn": "TechCrunch AI reports a product development in AI. Key point from the source: As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-      "overviewZh": "TechCrunch AI 发布了有关“Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改”的最新更新。",
-      "overviewEn": "TechCrunch AI published a new update about “Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes”.",
+      "titleZh": "AI员工敲响警钟：模型太强大，永远无法发布",
+      "titleEn": "AI employees sound alarm: models too powerful to ever release",
+      "source": "Hacker News AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-25",
+      "summaryZh": "Hacker News AI 报道了人工智能的政策发展。来源要点： 文章网址：https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks 评论网址：https://news.ycombinator.com/item?id=50637321 积分：7 # 评论：4",
+      "summaryEn": "Hacker News AI reports a policy development in AI. Key point from the source: Article URL: https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks Comments URL: https://news.ycombinator.com/item?id=50637321 Points: 7 # Comments: 4",
+      "overviewZh": "Hacker News AI 发布了有关“AI 员工发出警报：模型太强大而无法发布”的最新更新。",
+      "overviewEn": "Hacker News AI published a new update about “AI employees sound alarm: models too powerful to ever release”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+          "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
         }
       ],
       "tags": [
-        "Agents",
         "Models",
         "Products"
       ]
     },
     {
       "rank": 2,
-      "titleZh": "OpenAI 和思科推出 AI 辅助 Linux 安全工具，可在修补之前阻止漏洞利用 - 黑客新闻",
-      "titleEn": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching - The Hacker News",
+      "titleZh": "OpenAI 和 Anthropic 内部人士担心他们的下一代人工智能模型太危险而无法发布 - Decrypt",
+      "titleEn": "OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release - Decrypt",
       "source": "Google News AI",
-      "category": "Policy",
+      "category": "Model",
       "publishedAt": "2026-11-24",
-      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：OpenAI 和思科推出 AI 辅助 Linux 安全工具，可在修补之前阻止漏洞利用 The Hacker News",
-      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching &nbsp;&nbsp; The Hacker News",
-      "overviewZh": "Google News AI 发布了有关“OpenAI 和 Cisco 推出 AI 辅助 Linux 安全工具以在修补之前阻止漏洞利用 - 黑客新闻”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching - The Hacker News”.",
+      "summaryZh": "Google News AI 报道了人工智能模型的开发。来源要点：OpenAI 和 Anthropic 内部人士担心他们的下一代 AI 模型太危险而无法解密",
+      "summaryEn": "Google News AI reports a model development in AI. Key point from the source: OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release &nbsp;&nbsp; Decrypt",
+      "overviewZh": "Google News AI 发布了有关“OpenAI 和 Anthropic 内部人士担心他们的下一代 AI 模型太危险而无法发布 - 解密”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release - Decrypt”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tY2NQbVFCa0xnV2gyeGZwMUxyZVFBR0tma1ZnbGlFTGxTaW1TdDVHVVItYi15dXh4dmZneWQ2MFBnZ3JpWUh2TTNKekd5NDNtd3k5dVp3WnVtSGwtZnZtaVRTdEZhUmZSQW8xeWFfdkRja3VqRExVNTk5bXpaM2M?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnkzb3R3VlF2RnJLRlRVUnV6LWFqM0RjRHRPcENHd3I2aDNZc2ZyRUhXbVB2aDVoaDZTQWtWUUtZdGJIZmEyektwVENxYWs3UGs4SkpBMm45S2prR3hKVlRPNUZtem1GUDJUR29jbW03SmMtVVg0cThMV1U3T2h6ZThSYTROTXozWWNqZTVQcHZxRm8?oc=5"
         }
       ],
       "tags": [
+        "Models",
         "Products"
       ]
     },
     {
       "rank": 3,
+      "titleZh": "即使是最好的人工智能代理也会在日常生活中挣扎",
+      "titleEn": "Even the best AI agents struggle with everyday life",
+      "source": "TechCrunch AI",
+      "category": "Model",
+      "publishedAt": "2026-11-24",
+      "summaryZh": "TechCrunch AI 报道了人工智能的模型开发。来源要点：随着数百万人拥抱个人人工智能助理，一项新的基准显示，即使是最先进的人工智能模型也很难在不引入潜在新问题的情况下可靠、安全地完成日常任务。",
+      "summaryEn": "TechCrunch AI reports a model development in AI. Key point from the source: As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "overviewZh": "TechCrunch AI 发布了关于“即使是最好的 AI 代理也在日常生活中挣扎”的最新更新。",
+      "overviewEn": "TechCrunch AI published a new update about “Even the best AI agents struggle with everyday life”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Models"
+      ]
+    },
+    {
+      "rank": 4,
       "titleZh": "Claude AI 现在可以自行审查拉取请求并发布修复",
       "titleEn": "Claude AI can review pull requests and ship fixes on its own now",
       "source": "The Verge AI",
@@ -76,43 +99,21 @@
       ]
     },
     {
-      "rank": 4,
-      "titleZh": "更适合您的 Google 搜索",
-      "titleEn": "A more tailored Google Search that’s uniquely yours",
-      "source": "Google AI Blog",
-      "category": "Industry",
-      "publishedAt": "2026-11-23",
-      "summaryZh": "谷歌人工智能博客报道了人工智能的行业发展。来源要点：通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用程序连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
-      "summaryEn": "Google AI Blog reports an industry development in AI. Key point from the source: Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
-      "overviewZh": "谷歌人工智能博客发布了关于“更适合您的独特谷歌搜索”的最新更新。",
-      "overviewEn": "Google AI Blog published a new update about “A more tailored Google Search that’s uniquely yours”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
-        }
-      ],
-      "tags": [
-        "Models"
-      ]
-    },
-    {
       "rank": 5,
-      "titleZh": "困惑与智慧",
-      "titleEn": "Perplexity and Intelligence",
+      "titleZh": "GPT-6 模型展示了内在的蛋白质设计能力",
+      "titleEn": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "source": "OpenAI Blog",
       "category": "Model",
-      "publishedAt": "2026-11-22",
-      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：困惑度如何衡量人工智能模型的进展，以及为什么它可以帮助开发人员建立评估新兴功能的共享方法。",
-      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "overviewZh": "OpenAI 博客发布了有关“困惑与智能”的最新更新。",
-      "overviewEn": "OpenAI Blog published a new update about “Perplexity and Intelligence”.",
+      "publishedAt": "2026-11-24",
+      "summaryZh": "OpenAI 博客报道了人工智能的模型开发。来源要点：GPT-6 模型使用推理和代码设计蛋白质结构和序列。",
+      "summaryEn": "OpenAI Blog reports a model development in AI. Key point from the source: GPT-6 models design protein structures and sequences using reasoning and code.",
+      "overviewZh": "OpenAI 博客发布了有关“GPT-6 模型展示内在蛋白质设计能力”的最新更新。",
+      "overviewEn": "OpenAI Blog published a new update about “GPT-6 models demonstrate intrinsic protein-design capabilities”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://openai.com/index/perplexity-and-intelligence"
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
         }
       ],
       "tags": [
