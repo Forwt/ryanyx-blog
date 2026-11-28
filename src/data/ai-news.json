@@ -1,13 +1,36 @@
 {
-  "updatedAt": "2026-11-27T05:03:10.067Z",
+  "updatedAt": "2026-11-28T04:44:04.127Z",
   "timezone": "Asia/Shanghai",
   "freshnessHours": 72,
   "translationMode": "google-fallback",
   "generatedBy": "scripts/update-ai-news.mjs",
-  "edition": "github-45943451973",
+  "edition": "github-46108889577",
   "items": [
     {
       "rank": 1,
+      "titleZh": "Shopify 称黑色星期五人工智能代理销售额增长 3.3 倍，但未给出具体数字 - Startup Fortune",
+      "titleEn": "Shopify says Black Friday AI agent sales rose 3.3x but gives no dollar figure - Startup Fortune",
+      "source": "Google News AI",
+      "category": "Business",
+      "publishedAt": "2026-11-28",
+      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。消息来源的关键点：Shopify 表示黑色星期五人工智能代理销售额增长了 3.3 倍，但没有给出具体金额 Startup Fortune",
+      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Shopify says Black Friday AI agent sales rose 3.3x but gives no dollar figure &nbsp;&nbsp; Startup Fortune",
+      "overviewZh": "Google News AI 发布了有关“Shopify 表示黑色星期五 AI 代理销售额增长了 3.3 倍，但没有给出美元数字 - Startup Fortune”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Shopify says Black Friday AI agent sales rose 3.3x but gives no dollar figure - Startup Fortune”.",
+      "links": [
+        {
+          "labelZh": "阅读原文",
+          "labelEn": "Read source",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjRsTVhmM0lFRGZNcHZRZGlwWVRIMkQyLThYY0M3QmJINmc2N1M0STVuaEcxUEQ3R2hyQVdlRThkUGZuT3JBS0hzSkQxYWpjektwdklBOEZYcU83aWNTeklCcXY4ZnlqcVRvMHJuSm1rQmEyY01CNkNoQWRHNndDZnVYRUJaRFluR3F4SnJuVUJvY3Z6dXRJNExCdkxidnJHQlNCbWZnUQ?oc=5"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Business"
+      ]
+    },
+    {
+      "rank": 2,
       "titleZh": "Grand Theft Auto VI 证明了为什么效率不是一种美德",
       "titleEn": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
       "source": "TechCrunch AI",
@@ -29,7 +52,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "titleZh": "推出适用于 AMD Ryzen 和 Radeon 的 llama.cpp 基准仪表板",
       "titleEn": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
       "source": "Hugging Face Blog",
@@ -51,43 +74,21 @@
       ]
     },
     {
-      "rank": 3,
-      "titleZh": "据报道，育碧让游戏团队证明将生成式人工智能排除在外 - Startup Fortune",
-      "titleEn": "Ubisoft reportedly makes game teams justify leaving generative AI out - Startup Fortune",
-      "source": "Google News AI",
-      "category": "Business",
-      "publishedAt": "2026-11-27",
-      "summaryZh": "Google News AI 报道了人工智能领域的业务发展。消息来源的关键点：据报道，育碧让游戏团队证明将生成式 AI 排除在外是合理的 Startup Fortune",
-      "summaryEn": "Google News AI reports a business development in AI. Key point from the source: Ubisoft reportedly makes game teams justify leaving generative AI out &nbsp;&nbsp; Startup Fortune",
-      "overviewZh": "谷歌新闻 AI 发布了有关“据报道育碧让游戏团队证明放弃生成式人工智能的合理性 - Startup Fortune”的最新更新。",
-      "overviewEn": "Google News AI published a new update about “Ubisoft reportedly makes game teams justify leaving generative AI out - Startup Fortune”.",
-      "links": [
-        {
-          "labelZh": "阅读原文",
-          "labelEn": "Read source",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON3pvbEp1eUM2R0xSaFNwTkRSaUtUa1FKdGVmVklxdnB4OHF1cXdYMGhwYmV2Sm9BdGZ0aUI4c3FfVWNzXzBXbWRJQTBoN2F4blp3MlNMWks3ZnpVUHdlbG8tMGVUN3R0S2U4d0NWTkZ5cXR1Wm54MnZUb2Jia3BUZG10cnVPUEc0dE1La2dfVXJkYWpqLXZMSkdZYl82QQ?oc=5"
-        }
-      ],
-      "tags": [
-        "Business"
-      ]
-    },
-    {
       "rank": 4,
-      "titleZh": "42 个州的 AG 正试图阻止 Character.AI 出售用户的聊天内容",
-      "titleEn": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "titleZh": "Android 的 DIY 小部件带有一点氛围编码的乐趣",
+      "titleEn": "Android’s DIY widgets are a bit of vibe-coding fun",
       "source": "The Verge AI",
       "category": "Industry",
-      "publishedAt": "2026-11-26",
-      "summaryZh": "The Verge AI 报道了人工智能的行业发展。 Key point from the source: A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings.",
-      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings.",
-      "overviewZh": "The Verge AI 发布了有关“42 个州 AG 正在试图阻止 Character.AI 出售用户聊天记录”的最新更新。",
-      "overviewEn": "The Verge AI published a new update about “42 state AGs are trying to stop Character.AI from selling users’ chats”.",
+      "publishedAt": "2026-11-27",
+      "summaryZh": "The Verge AI 报道了人工智能的行业发展。消息来源的关键点：除了处理我的日历之外，我还希望人工智能做一件事：告诉我我是否会错过公共汽车。",
+      "summaryEn": "The Verge AI reports an industry development in AI. Key point from the source: Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus.",
+      "overviewZh": "The Verge AI 发布了关于“Android 的 DIY 小部件有点振动编码的乐趣”的新更新。",
+      "overviewEn": "The Verge AI published a new update about “Android’s DIY widgets are a bit of vibe-coding fun”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+          "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini"
         }
       ],
       "tags": [
@@ -96,20 +97,20 @@
     },
     {
       "rank": 5,
-      "titleZh": "新的人工智能研究表明人工智能泡沫正在破裂，预计市场将出现重大崩溃",
-      "titleEn": "New AI research suggests AI bubble bursting and to expect major market collapse",
-      "source": "Hacker News AI",
-      "category": "Industry",
-      "publishedAt": "2026-11-27",
-      "summaryZh": "Hacker News AI 报道了人工智能的行业发展。来源要点： 文章网址：https://www.london.edu/think/ai-bubble-about-to-burst 评论网址：https://news.ycombinator.com/item?id=50662153 积分：26 # 评论：12",
-      "summaryEn": "Hacker News AI reports an industry development in AI. Key point from the source: Article URL: https://www.london.edu/think/ai-bubble-about-to-burst Comments URL: https://news.ycombinator.com/item?id=50662153 Points: 26 # Comments: 12",
-      "overviewZh": "Hacker News AI 发布了有关“新的人工智能研究表明人工智能泡沫破裂并预计市场将出现重大崩溃”的最新更新。",
-      "overviewEn": "Hacker News AI published a new update about “New AI research suggests AI bubble bursting and to expect major market collapse”.",
+      "titleZh": "研究人员探索使用人工智能和智能传感器以经济实惠的方式快速提高食品安全 - Phys.org",
+      "titleEn": "Researchers explore the use of AI and smart sensors to improve food safety quickly, affordably - Phys.org",
+      "source": "Google News AI",
+      "category": "Policy",
+      "publishedAt": "2026-11-28",
+      "summaryZh": "Google News AI 报道了人工智能的政策发展。来源要点：研究人员探索使用人工智能和智能传感器来快速、经济地提高食品安全    Phys.org",
+      "summaryEn": "Google News AI reports a policy development in AI. Key point from the source: Researchers explore the use of AI and smart sensors to improve food safety quickly, affordably &nbsp;&nbsp; Phys.org",
+      "overviewZh": "Google News AI 发布了有关“研究人员探索使用人工智能和智能传感器以快速、经济地提高食品安全 - Phys.org”的最新更新。",
+      "overviewEn": "Google News AI published a new update about “Researchers explore the use of AI and smart sensors to improve food safety quickly, affordably - Phys.org”.",
       "links": [
         {
           "labelZh": "阅读原文",
           "labelEn": "Read source",
-          "url": "https://www.london.edu/think/ai-bubble-about-to-burst"
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UbWc3dzZFQm91M1NzR2lYejZtWGJIaFBqN2Z3X3NvLVp4cnJ5Z3BFekxKWE91UGpDbnJyU2dfRE0yT1VLSS1CTEFOTC1EUl9PSnZzaHh0N2lVSXNvbzR1ZE5yRjItMDJESGFNbjhXWk85dw?oc=5"
         }
       ],
       "tags": [
